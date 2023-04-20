@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 文字関連 */
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+.text {
+  margin-top: 12px;
+}
+
+dt {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* layout */
+#wrapper{
+  position: relative;
+}
+
+#content-wrap{
+  height: 2056px;
+}
+
+#modal-content {
+  position:fixed;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  z-index: 100;
+  width: 400px;
+  height: 270px;
+  background: rgba(255, 255, 255, 0.65);
+  margin: auto;
+  text-align:center;
+  border: 5px solid #eee;
+}
+
+#modal-content .wrapper {
+  height: 260px;
+  padding: 18px;
+  border: 1px solid #ccc;
+}
+
+#modal-content input {
+  width: 9em;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align:center;
+  padding: 10px;
+}
+
+#modal-content dt {
+  margin-bottom: 6px;
+}
+
+#modal-content dd {
+  margin-bottom: 15px;
+}
+
+#modal-content dd:last-child {
+  margin-bottom: 0;
+}
