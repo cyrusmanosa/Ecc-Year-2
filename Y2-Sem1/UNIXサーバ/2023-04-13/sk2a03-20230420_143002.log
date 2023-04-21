@@ -1,0 +1,177 @@
+[2023/04/20 2:30:02.745 PM] Last login: Thu Apr 20 14:20:33 on ttys003
+
+[2023/04/20 2:30:02.776 PM] ~ ❯ %                                                                               ~ ❯ lscd ...ssh sk2a03@192.168.64.4curl -L https://iterm2.com/shell_integration/install_shell_integration_and_utilities.sh | bashssh sk2a03@192.168.64.4sk2a03@192.168.64.4's password: 
+[2023/04/20 2:30:10.763 PM] Welcome to Ubuntu 22.10 (GNU/Linux 5.19.0-38-generic aarch64)
+
+[2023/04/20 2:30:10.763 PM]  * Documentation:  https://help.ubuntu.com
+[2023/04/20 2:30:10.764 PM]  * Management:     https://landscape.canonical.com
+[2023/04/20 2:30:10.764 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/04/20 2:30:10.764 PM]   System information as of Thu Apr 20 05:30:10 AM UTC 2023
+
+[2023/04/20 2:30:10.764 PM]   System load:             0.28759765625
+[2023/04/20 2:30:10.764 PM]   Usage of /:              35.7% of 29.82GB
+[2023/04/20 2:30:10.764 PM]   Memory usage:            13%
+[2023/04/20 2:30:10.764 PM]   Swap usage:              0%
+[2023/04/20 2:30:10.764 PM]   Processes:               216
+[2023/04/20 2:30:10.764 PM]   Users logged in:         1
+[2023/04/20 2:30:10.764 PM]   IPv4 address for enp0s1: 192.168.64.4
+[2023/04/20 2:30:10.764 PM]   IPv6 address for enp0s1: fd85:1dbd:ef9b:c3b9:ac2a:77ff:fe82:d16d
+
+
+[2023/04/20 2:30:10.764 PM] 0 updates can be applied immediately.
+
+
+[2023/04/20 2:30:10.764 PM] Last login: Thu Apr 20 05:13:30 2023 from 192.168.64.1
+[2023/04/20 2:30:10.813 PM] sk2a03@sk2a03:~$ history -c
+[2023/04/20 2:30:19.507 PM] sk2a03@sk2a03:~$ cd /var/www/html
+[2023/04/20 2:30:27.575 PM] -bash: cd: /var/www/html: No such file or directory
+[2023/04/20 2:30:27.582 PM] sk2a03@sk2a03:~$ pwsd
+[2023/04/20 2:30:30.086 PM] /home/sk2a03
+[2023/04/20 2:30:30.096 PM] sk2a03@sk2a03:~$ ls -a 
+[2023/04/20 2:30:32.986 PM] .                               .lesshst                   Downloads
+[2023/04/20 2:30:32.986 PM] ..                              .local                     Music
+[2023/04/20 2:30:32.986 PM] .bash_history                   .mozilla                   Pictures
+[2023/04/20 2:30:32.986 PM] .bash_logout                    .profile                   Public
+[2023/04/20 2:30:32.986 PM] .bashrc                         .ssh                       Templates
+[2023/04/20 2:30:32.986 PM] .cache                          .sudo_as_admin_successful  Videos
+[2023/04/20 2:30:32.986 PM] .config                         .thunderbird               snap
+[2023/04/20 2:30:32.986 PM] .iterm2                         Desktop
+[2023/04/20 2:30:32.986 PM] .iterm2_shell_integration.bash  Documents
+[2023/04/20 2:30:32.996 PM] sk2a03@sk2a03:~$ ls --help
+[2023/04/20 2:30:36.821 PM] Usage: ls [OPTION]... [FILE]...
+[2023/04/20 2:30:36.822 PM] List information about the FILEs (the current directory by default).
+[2023/04/20 2:30:36.822 PM] Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+[2023/04/20 2:30:36.822 PM] Mandatory arguments to long options are mandatory for short options too.
+[2023/04/20 2:30:36.822 PM]   -a, --all                  do not ignore entries starting with .
+[2023/04/20 2:30:36.822 PM]   -A, --almost-all           do not list implied . and ..
+[2023/04/20 2:30:36.822 PM]       --author               with -l, print the author of each file
+[2023/04/20 2:30:36.822 PM]   -b, --escape               print C-style escapes for nongraphic characters
+[2023/04/20 2:30:36.822 PM]       --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+[2023/04/20 2:30:36.822 PM]                                e.g., '--block-size=M'; see SIZE format below
+[2023/04/20 2:30:36.822 PM]   -B, --ignore-backups       do not list implied entries ending with ~
+[2023/04/20 2:30:36.822 PM]   -c                         with -lt: sort by, and show, ctime (time of last
+[2023/04/20 2:30:36.822 PM]                                modification of file status information);
+[2023/04/20 2:30:36.822 PM]                                with -l: show ctime and sort by name;
+[2023/04/20 2:30:36.822 PM]                                otherwise: sort by ctime, newest first
+[2023/04/20 2:30:36.822 PM]   -C                         list entries by columns
+[2023/04/20 2:30:36.822 PM]       --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+[2023/04/20 2:30:36.822 PM]                                if omitted), 'auto', or 'never'; more info below
+[2023/04/20 2:30:36.822 PM]   -d, --directory            list directories themselves, not their contents
+[2023/04/20 2:30:36.822 PM]   -D, --dired                generate output designed for Emacs' dired mode
+[2023/04/20 2:30:36.822 PM]   -f                         do not sort, enable -aU, disable -ls --color
+[2023/04/20 2:30:36.822 PM]   -F, --classify             append indicator (one of */=>@|) to entries
+[2023/04/20 2:30:36.822 PM]       --file-type            likewise, except do not append '*'
+[2023/04/20 2:30:36.822 PM]       --format=WORD          across -x, commas -m, horizontal -x, long -l,
+[2023/04/20 2:30:36.822 PM]                                single-column -1, verbose -l, vertical -C
+[2023/04/20 2:30:36.822 PM]       --full-time            like -l --time-style=full-iso
+[2023/04/20 2:30:36.822 PM]   -g                         like -l, but do not list owner
+[2023/04/20 2:30:36.822 PM]       --group-directories-first
+[2023/04/20 2:30:36.822 PM]                              group directories before files;
+[2023/04/20 2:30:36.822 PM]                                can be augmented with a --sort option, but any
+[2023/04/20 2:30:36.822 PM]                                use of --sort=none (-U) disables grouping
+[2023/04/20 2:30:36.822 PM]   -G, --no-group             in a long listing, don't print group names
+[2023/04/20 2:30:36.822 PM]   -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+[2023/04/20 2:30:36.822 PM]       --si                   likewise, but use powers of 1000 not 1024
+[2023/04/20 2:30:36.822 PM]   -H, --dereference-command-line
+[2023/04/20 2:30:36.822 PM]                              follow symbolic links listed on the command line
+[2023/04/20 2:30:36.822 PM]       --dereference-command-line-symlink-to-dir
+[2023/04/20 2:30:36.822 PM]                              follow each command line symbolic link
+[2023/04/20 2:30:36.822 PM]                                that points to a directory
+[2023/04/20 2:30:36.822 PM]       --hide=PATTERN         do not list implied entries matching shell PATTERN
+[2023/04/20 2:30:36.822 PM]                                (overridden by -a or -A)
+[2023/04/20 2:30:36.822 PM]       --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+[2023/04/20 2:30:36.822 PM]                                (default if omitted), 'auto', or 'never'
+[2023/04/20 2:30:36.822 PM]       --indicator-style=WORD  append indicator with style WORD to entry names:
+[2023/04/20 2:30:36.823 PM]                                none (default), slash (-p),
+[2023/04/20 2:30:36.823 PM]                                file-type (--file-type), classify (-F)
+[2023/04/20 2:30:36.823 PM]   -i, --inode                print the index number of each file
+[2023/04/20 2:30:36.823 PM]   -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+[2023/04/20 2:30:36.823 PM]   -k, --kibibytes            default to 1024-byte blocks for disk usage;
+[2023/04/20 2:30:36.823 PM]                                used only with -s and per directory totals
+[2023/04/20 2:30:36.823 PM]   -l                         use a long listing format
+[2023/04/20 2:30:36.823 PM]   -L, --dereference          when showing file information for a symbolic
+[2023/04/20 2:30:36.823 PM]                                link, show information for the file the link
+[2023/04/20 2:30:36.823 PM]                                references rather than for the link itself
+[2023/04/20 2:30:36.823 PM]   -m                         fill width with a comma separated list of entries
+[2023/04/20 2:30:36.823 PM]   -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+[2023/04/20 2:30:36.823 PM]   -N, --literal              print entry names without quoting
+[2023/04/20 2:30:36.823 PM]   -o                         like -l, but do not list group information
+[2023/04/20 2:30:36.823 PM]   -p, --indicator-style=slash
+[2023/04/20 2:30:36.823 PM]                              append / indicator to directories
+[2023/04/20 2:30:36.823 PM]   -q, --hide-control-chars   print ? instead of nongraphic characters
+[2023/04/20 2:30:36.823 PM]       --show-control-chars   show nongraphic characters as-is (the default,
+[2023/04/20 2:30:36.823 PM]                                unless program is 'ls' and output is a terminal)
+[2023/04/20 2:30:36.823 PM]   -Q, --quote-name           enclose entry names in double quotes
+[2023/04/20 2:30:36.823 PM]       --quoting-style=WORD   use quoting style WORD for entry names:
+[2023/04/20 2:30:36.823 PM]                                literal, locale, shell, shell-always,
+[2023/04/20 2:30:36.823 PM]                                shell-escape, shell-escape-always, c, escape
+[2023/04/20 2:30:36.823 PM]                                (overrides QUOTING_STYLE environment variable)
+[2023/04/20 2:30:36.823 PM]   -r, --reverse              reverse order while sorting
+[2023/04/20 2:30:36.823 PM]   -R, --recursive            list subdirectories recursively
+[2023/04/20 2:30:36.824 PM]   -s, --size                 print the allocated size of each file, in blocks
+[2023/04/20 2:30:36.824 PM]   -S                         sort by file size, largest first
+[2023/04/20 2:30:36.824 PM]       --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+[2023/04/20 2:30:36.824 PM]                                time (-t), version (-v), extension (-X)
+[2023/04/20 2:30:36.824 PM]       --time=WORD            change the default of using modification times;
+[2023/04/20 2:30:36.824 PM]                                access time (-u): atime, access, use;
+[2023/04/20 2:30:36.824 PM]                                change time (-c): ctime, status;
+[2023/04/20 2:30:36.824 PM]                                birth time: birth, creation;
+[2023/04/20 2:30:36.824 PM]                              with -l, WORD determines which time to show;
+[2023/04/20 2:30:36.824 PM]                              with --sort=time, sort by WORD (newest first)
+[2023/04/20 2:30:36.824 PM]       --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+[2023/04/20 2:30:36.824 PM]   -t                         sort by time, newest first; see --time
+[2023/04/20 2:30:36.824 PM]   -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+[2023/04/20 2:30:36.824 PM]   -u                         with -lt: sort by, and show, access time;
+[2023/04/20 2:30:36.824 PM]                                with -l: show access time and sort by name;
+[2023/04/20 2:30:36.824 PM]                                otherwise: sort by access time, newest first
+[2023/04/20 2:30:36.824 PM]   -U                         do not sort; list entries in directory order
+[2023/04/20 2:30:36.824 PM]   -v                         natural sort of (version) numbers within text
+[2023/04/20 2:30:36.824 PM]   -w, --width=COLS           set output width to COLS.  0 means no limit
+[2023/04/20 2:30:36.824 PM]   -x                         list entries by lines instead of by columns
+[2023/04/20 2:30:36.824 PM]   -X                         sort alphabetically by entry extension
+[2023/04/20 2:30:36.824 PM]   -Z, --context              print any security context of each file
+[2023/04/20 2:30:36.824 PM]   -1                         list one file per line.  Avoid '\n' with -q or -b
+[2023/04/20 2:30:36.824 PM]       --help     display this help and exit
+[2023/04/20 2:30:36.824 PM]       --version  output version information and exit
+
+[2023/04/20 2:30:36.824 PM] The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+[2023/04/20 2:30:36.824 PM] Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+[2023/04/20 2:30:36.824 PM] Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+[2023/04/20 2:30:36.824 PM] The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+[2023/04/20 2:30:36.824 PM] FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+[2023/04/20 2:30:36.824 PM] then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+[2023/04/20 2:30:36.824 PM] TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+[2023/04/20 2:30:36.824 PM] Also the TIME_STYLE environment variable sets the default style to use.
+
+[2023/04/20 2:30:36.825 PM] Using color to distinguish file types is disabled both by default and
+[2023/04/20 2:30:36.825 PM] with --color=never.  With --color=auto, ls emits color codes only when
+[2023/04/20 2:30:36.825 PM] standard output is connected to a terminal.  The LS_COLORS environment
+[2023/04/20 2:30:36.825 PM] variable can change the settings.  Use the dircolors command to set it.
+
+[2023/04/20 2:30:36.825 PM] Exit status:
+[2023/04/20 2:30:36.825 PM]  0  if OK,
+[2023/04/20 2:30:36.825 PM]  1  if minor problems (e.g., cannot access subdirectory),
+[2023/04/20 2:30:36.825 PM]  2  if serious trouble (e.g., cannot access command-line argument).
+
+[2023/04/20 2:30:36.825 PM] GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+[2023/04/20 2:30:36.825 PM] Report any translation bugs to <https://translationproject.org/team/>
+[2023/04/20 2:30:36.825 PM] Full documentation <https://www.gnu.org/software/coreutils/ls>
+[2023/04/20 2:30:36.825 PM] or available locally via: info '(coreutils) ls invocation'
+[2023/04/20 2:30:36.842 PM] sk2a03@sk2a03:~$ history
+[2023/04/20 2:30:44.247 PM]     1  cd /var/www/html
+[2023/04/20 2:30:44.247 PM]     2  pwd
+[2023/04/20 2:30:44.247 PM]     3  ls -a
+[2023/04/20 2:30:44.247 PM]     4  ls --help
+[2023/04/20 2:30:44.247 PM]     5  history
+[2023/04/20 2:30:44.263 PM] sk2a03@sk2a03:~$ history > kad01.txt
+[2023/04/20 2:30:53.862 PM] sk2a03@sk2a03:~$ cat kad01.txt
+[2023/04/20 2:30:59.601 PM]     1  cd /var/www/html
+[2023/04/20 2:30:59.601 PM]     2  pwd
+[2023/04/20 2:30:59.601 PM]     3  ls -a
+[2023/04/20 2:30:59.601 PM]     4  ls --help
+[2023/04/20 2:30:59.601 PM]     5  history
+[2023/04/20 2:30:59.601 PM]     6  history > kad01.txt
+[2023/04/20 2:30:59.609 PM] sk2a03@sk2a03:~$ 

@@ -1,0 +1,25 @@
+    1  cd
+    2  pwd
+    3  ls -a
+    4  ls -a > homelist.txt
+    5  cat homelist.txt
+    6  cat homelist.txt > file02a.txt
+    7  sort -r homelist.txt >> file02a.txt
+    8  cat file02a.txt
+    9  ls -l /
+   10  ls -l / l sort -k 5
+   11  sort file02b.txt
+   12  cat file02b.txt
+   13  cat > file02b.txt
+   14  sort file02b.txt
+   15  sort -k3 file02.txt | grep "100"
+   16  sort -k 3 file02.txt | grep "100"
+   17  sort -k 3 file02.txt |grep "100"
+   18  sort -k 3 file02.txt l grep "100"
+   19  sort -k 3 file02b.txt | grep "100"
+   20  find .-name "f*02*"
+   21  find .-name "*f02*"
+   22  find -name "f*02*"
+   23  find . -name "f*02*"
+   24  mkdir kad02
+   25  history kad02/kad02.txt

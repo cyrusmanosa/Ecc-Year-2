@@ -1,0 +1,677 @@
+[2023/04/20 4:35:44.049 PM] Last login: Thu Apr 20 16:30:27 on ttys005
+
+[2023/04/20 4:35:44.080 PM] ~ ❯ %                       ~ ❯ ~ ❯ ~ ❯ ~ ❯ ssort file02b.txtsort file02b.txt
+[2023/04/20 4:35:51.880 PM] 1 toru okada 100
+[2023/04/20 4:35:51.880 PM] 3 kenji wada 70
+[2023/04/20 4:35:51.880 PM] 7 yoshiharu abe 100
+[2023/04/20 4:35:51.880 PM] %                                                                                
+[2023/04/20 4:35:51.910 PM] ~ ❯ ssort file02b.txtsorty             file02b.txt -          r homelist.txt >> file02a.txtk                            3 file02.txt | grep "100"
+[2023/04/20 4:36:14.677 PM] sort: No such file or directory
+[2023/04/20 4:36:14.678 PM] %                                                                                
+[2023/04/20 4:36:14.708 PM] ~ ❯ ✘ 2|1sort -k3 file02.txt | grep "100" 3 file02.txt | grep "100"
+[2023/04/20 4:36:29.808 PM] sort: No such file or directory
+[2023/04/20 4:36:29.809 PM] %                                                                                
+[2023/04/20 4:36:29.838 PM] ~ ❯ ✘ 2|1sort -k 3 file02.txt | grep "100"grep "100" 
+[2023/04/20 4:36:42.194 PM] sort: No such file or directory
+[2023/04/20 4:36:42.197 PM] %                                                                                
+[2023/04/20 4:36:42.227 PM] ~ ❯ ✘ 2|1sort -k 3 file02.txt |grep "100" grep "100" grep "100" l grep "100"
+[2023/04/20 4:36:52.350 PM] sort: No such file or directory
+[2023/04/20 4:36:52.351 PM] %                                                                                
+[2023/04/20 4:36:52.382 PM] ~ ❯ sort -k 3 file02.txt l grep "100" grep "100" | grep "100"b.txt | grep "100"
+[2023/04/20 4:37:31.108 PM] 7 yoshiharu abe 100
+[2023/04/20 4:37:31.108 PM] 1 toru okada 100
+[2023/04/20 4:37:31.110 PM] %                                                                                
+[2023/04/20 4:37:31.138 PM] ~ ❯ FFin F  ffind .-name "f*02"*"
+[2023/04/20 4:37:47.805 PM] find: .-name: No such file or directory
+[2023/04/20 4:37:47.806 PM] find: f*02*: No such file or directory
+[2023/04/20 4:37:47.807 PM] %                                                                                
+[2023/04/20 4:37:47.833 PM] ~ ❯ find .-name "f*02*"*02*" f02*"
+[2023/04/20 4:38:04.445 PM] find: .-name: No such file or directory
+[2023/04/20 4:38:04.445 PM] find: *f02*: No such file or directory
+[2023/04/20 4:38:04.445 PM] %                                                                                
+[2023/04/20 4:38:04.472 PM] ~ ❯ find .-name "*f02*"02*" f*02*"-name "f*02*" 
+[2023/04/20 4:40:21.093 PM] find: illegal option -- n
+[2023/04/20 4:40:21.093 PM] usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+[2023/04/20 4:40:21.094 PM]        find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+[2023/04/20 4:40:21.094 PM] %                                                                                
+[2023/04/20 4:40:21.121 PM] ~ ❯ find -name "f*02*".-name "f*02*" -name "f*02*"
+[2023/04/20 4:40:26.090 PM] ./go/pkg/mod/honnef.co/go/tools@v0.4.3/pattern/testdata/fuzz/FuzzParse/f640eee2b04d1b52793ba88998a86702893e23d2563d017be9be90efc04a43c6
+[2023/04/20 4:40:26.829 PM] ./Desktop/Me/Job_profile/Photo/f1de33_40edbc967f9d4726a0202eb6e6178b5c.jpg
+[2023/04/20 4:40:26.829 PM] ./Desktop/Me/Job_profile/Photo/f1de33_9a258470769f4421b8404980263d03bc.jpg
+[2023/04/20 4:40:26.965 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/0e/f20fc85a9ad823578bae80022b4be6cdd4f55e
+[2023/04/20 4:40:26.966 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/60/f5bc941374f74b402558a165acdc0929c321f4
+[2023/04/20 4:40:26.971 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/d9/fa20002079733b3208820dfbd64e14d73326cd
+[2023/04/20 4:40:26.980 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/c9/fe1facc4e73202d6267c0f6a094461d02775f9
+[2023/04/20 4:40:26.980 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/fc/fa9d18dd1e0642fd6020496ca21179959cc4ae
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/ec/fb11f73dc26cfe402a28a9c73d4afa1b089dd2
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/4e/f25f8b1566f87761b8759a20df7fb02d72d9a9
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/6b/f32ce121902fd509f16f4d0b28a3a7af3550f2
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/37/f702b8e56baabd21014830ddc27f7fa482a2c5
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/08/fceb202ca2542e1d6a72d75112da9671b7f1e5
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/06/f6821196aa8d8dab4a681db750b78027b163b5
+[2023/04/20 4:40:26.990 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/52/f88f70426ecbf580221d3f9d90bf211608445a
+[2023/04/20 4:40:26.992 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/b7/f202d9f80202da0072f172a0a66cbad54350f1
+[2023/04/20 4:40:26.993 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/a1/fd27eaeab3dc025e257819447d067757aac23d
+[2023/04/20 4:40:26.994 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/f7/f4d6aa8dbea043a3038026707a29a68b2b09b2
+[2023/04/20 4:40:26.996 PM] ./Desktop/ECCコンピューター専門学校/Year-1/.git/objects/24/fd9e43f02872c5c9a393a83358f13004774ab4
+[2023/04/20 4:40:27.315 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/c8/f1bbd655a35f3ddaa2ef690708779d4d02711d
+[2023/04/20 4:40:27.319 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/88/ff719eb7e6ebdb6f8ac9bb5039ff36c02cf8f1
+[2023/04/20 4:40:27.320 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/9a/f5ba961ffd06d4243021f685c4863804134fb4
+[2023/04/20 4:40:27.320 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/5d/fe40309ef6c6724956cdbe91dc1024add7b4eb
+[2023/04/20 4:40:27.321 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/3f/f9cf0c4fb02aef190d6932387e4ac2f41f99e8
+[2023/04/20 4:40:27.324 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/b8/f087c945a925cce36aa1b1ff419b3b02cb1a0e
+[2023/04/20 4:40:27.327 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/79/f92a60250b925c587459d805c9aeed82cb8e7a
+[2023/04/20 4:40:27.328 PM] ./Desktop/ECCコンピューター専門学校/Year-1/Sem2/プログラミング設計演習/Java/.git/objects/1b/f492fff028b8d0c12f7bf60be1ccbc07c3f8ad
+[2023/04/20 4:40:27.628 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/29eb5eacb05363703a494bbad16a2cdd1da1fb81/1952d2ee-f6b3-41c6-b9f6-883934d83ff2/f911fe2a7c027006_0
+[2023/04/20 4:40:27.628 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/29eb5eacb05363703a494bbad16a2cdd1da1fb81/1952d2ee-f6b3-41c6-b9f6-883934d83ff2/f911fe2a7c027006_1
+[2023/04/20 4:40:27.628 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/29eb5eacb05363703a494bbad16a2cdd1da1fb81/1952d2ee-f6b3-41c6-b9f6-883934d83ff2/f8f463683023cb28_0
+[2023/04/20 4:40:27.628 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/29eb5eacb05363703a494bbad16a2cdd1da1fb81/1952d2ee-f6b3-41c6-b9f6-883934d83ff2/f84be2980269415d_1
+[2023/04/20 4:40:27.628 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/29eb5eacb05363703a494bbad16a2cdd1da1fb81/1952d2ee-f6b3-41c6-b9f6-883934d83ff2/f84be2980269415d_0
+[2023/04/20 4:40:27.632 PM] ./Library/Application Support/Google/Chrome/Profile 3/Service Worker/CacheStorage/571988c4897ef87c20ec4d6b13878cf6c36e1caf/da86859e-cbfe-456f-ab52-13df819292b0/ffe526699024bcb1_0
+[2023/04/20 4:40:27.731 PM] ./Library/Application Support/Google/Chrome/Profile 2/Service Worker/ScriptCache/fc30253677480c02_0
+[2023/04/20 4:40:27.731 PM] ./Library/Application Support/Google/Chrome/Profile 2/Service Worker/ScriptCache/fc30253677480c02_1
+[2023/04/20 4:40:27.856 PM] find: ./Library/Application Support/CallHistoryTransactions: Operation not permitted
+[2023/04/20 4:40:27.896 PM] ./Library/Application Support/Microsoft/Teams/Cache/Cache_Data/f1a85fdd1502a06d_0
+[2023/04/20 4:40:27.896 PM] ./Library/Application Support/Microsoft/Teams/Cache/Cache_Data/fea19c02e5c296e0_0
+[2023/04/20 4:40:27.896 PM] ./Library/Application Support/Microsoft/Teams/Cache/Cache_Data/f4020b0916f87d3b_0
+[2023/04/20 4:40:27.896 PM] ./Library/Application Support/Microsoft/Teams/Cache/Cache_Data/f365d02df075e473_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f6601202cc98d5e6_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f6601202cc98d5e6_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fc02c3a4279129d7_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f01a67c272029682_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fc02c3a4279129d7_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f01a67c272029682_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f65793f00f020348_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f5800f4089680238_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f5800f4089680238_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f65793f00f020348_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f9931d02249164a7_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f7a12a5fcc802b56_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f5c6cddc202d899b_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f9931d02249164a7_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f7a12a5fcc802b56_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f5c6cddc202d899b_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fe4da0a70f211028_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fa1ecb02a3ad7f85_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f4260eb7502f68a7_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fa1ecb02a3ad7f85_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/fe4da0a70f211028_1
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f4260eb7502f68a7_0
+[2023/04/20 4:40:28.040 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f15c803d5648a602_0
+[2023/04/20 4:40:28.041 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/2b5c392d2730c0910fd56433cc5e73e510d0f2b4/68e66bf2-eb05-4ffe-a0d7-21912b4500a0/f15c803d5648a602_1
+[2023/04/20 4:40:28.069 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/b7b6ef506f0c5cfcc1872267eff23b7e1109480f/3c8e3322-d2d2-49fb-b176-ef1a26461c7f/fb0fa7206a5402c5_1
+[2023/04/20 4:40:28.069 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/b7b6ef506f0c5cfcc1872267eff23b7e1109480f/3c8e3322-d2d2-49fb-b176-ef1a26461c7f/fb0fa7206a5402c5_0
+[2023/04/20 4:40:28.069 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/b7b6ef506f0c5cfcc1872267eff23b7e1109480f/3c8e3322-d2d2-49fb-b176-ef1a26461c7f/f27058023bad0bbe_0
+[2023/04/20 4:40:28.069 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/b7b6ef506f0c5cfcc1872267eff23b7e1109480f/3c8e3322-d2d2-49fb-b176-ef1a26461c7f/fb346920296957b1_0
+[2023/04/20 4:40:28.069 PM] ./Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage/b7b6ef506f0c5cfcc1872267eff23b7e1109480f/3c8e3322-d2d2-49fb-b176-ef1a26461c7f/fb346920296957b1_1
+[2023/04/20 4:40:28.084 PM] ./Library/Application Support/Microsoft/Teams/Code Cache/js/f5aa9027ee8d3bc1_0
+[2023/04/20 4:40:28.084 PM] ./Library/Application Support/Microsoft/Teams/Code Cache/js/f6c74bdabd102fb2_0
+[2023/04/20 4:40:28.084 PM] ./Library/Application Support/Microsoft/Teams/Code Cache/js/f46820282f7d6340_0
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/findKey-9737df0c93eb104e7814abf0cdc02f01.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/filterSeries-8fb0865c6025b23b6fbdf201b15e1110.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/findKeyLimit-52c42d26840521b8dc021be34148ee86.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/findIndexSeries-04a10240ec258a9597c865f767890135.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/for-each-a7c914efd47d52c3025246b97e874d93.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/fnmatch-18b386c7285b9d37ccc77c908702541a.code
+[2023/04/20 4:40:28.119 PM] ./Library/Application Support/Code/CachedData/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/functor-168844e09f6cc43ff726d81dfa470297.code
+[2023/04/20 4:40:28.152 PM] ./Library/Application Support/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf/foldingRange-74d0cea12e3aa020e44de8a5e2bd5158.code
+[2023/04/20 4:40:28.153 PM] ./Library/Application Support/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf/fileOperations-049160bc78210255b2ac9dca2ddc3c22.code
+[2023/04/20 4:40:28.153 PM] ./Library/Application Support/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf/functor-168844e09f6cc43ff726d81dfa470297.code
+[2023/04/20 4:40:28.161 PM] ./Library/Application Support/Code/CachedData/e344f1f539a80912a0e9357cec841f36ce97a4e2/fnmatch-18b386c7285b9d37ccc77c908702541a.code
+[2023/04/20 4:40:28.161 PM] ./Library/Application Support/Code/CachedData/e344f1f539a80912a0e9357cec841f36ce97a4e2/functor-168844e09f6cc43ff726d81dfa470297.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/findKey-9737df0c93eb104e7814abf0cdc02f01.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/filterSeries-8fb0865c6025b23b6fbdf201b15e1110.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/findKeyLimit-52c42d26840521b8dc021be34148ee86.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/findIndexSeries-04a10240ec258a9597c865f767890135.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/for-each-a7c914efd47d52c3025246b97e874d93.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/fnmatch-18b386c7285b9d37ccc77c908702541a.code
+[2023/04/20 4:40:28.185 PM] ./Library/Application Support/Code/CachedData/b7886d7461186a5eac768481578c1d7ca80e2d21/functor-168844e09f6cc43ff726d81dfa470297.code
+[2023/04/20 4:40:28.200 PM] ./Library/Application Support/Code/CachedData/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/fnmatch-18b386c7285b9d37ccc77c908702541a.code
+[2023/04/20 4:40:28.200 PM] ./Library/Application Support/Code/CachedData/7f329fe6c66b0f86ae1574c2911b681ad5a45d63/functor-168844e09f6cc43ff726d81dfa470297.code
+[2023/04/20 4:40:28.260 PM] ./Library/Application Support/Code/Cache/Cache_Data/ffc2d22b47e0256c_0
+[2023/04/20 4:40:28.260 PM] ./Library/Application Support/Code/Cache/Cache_Data/f1f9af91502c51d0_0
+[2023/04/20 4:40:28.261 PM] ./Library/Application Support/Code/Cache/Cache_Data/f037385d025afeaf_0
+[2023/04/20 4:40:28.261 PM] ./Library/Application Support/Code/Cache/Cache_Data/fec021ff24fe7fc6_0
+[2023/04/20 4:40:28.261 PM] ./Library/Application Support/Code/Cache/Cache_Data/f15202b2ff582871_0
+[2023/04/20 4:40:28.261 PM] ./Library/Application Support/Code/Cache/Cache_Data/f0791d47f30287ba_0
+[2023/04/20 4:40:28.429 PM] find: ./Library/Application Support/CloudDocs/session/db: Operation not permitted
+[2023/04/20 4:40:28.439 PM] find: ./Library/Application Support/com.apple.sharedfilelist: Operation not permitted
+[2023/04/20 4:40:28.440 PM] find: ./Library/Application Support/Knowledge: Operation not permitted
+[2023/04/20 4:40:28.441 PM] find: ./Library/Application Support/com.apple.TCC: Operation not permitted
+[2023/04/20 4:40:28.443 PM] find: ./Library/Application Support/FileProvider: Operation not permitted
+[2023/04/20 4:40:28.509 PM] find: ./Library/Application Support/FaceTime: Operation not permitted
+[2023/04/20 4:40:28.516 PM] find: ./Library/Application Support/com.apple.avfoundation/Frecents: Operation not permitted
+[2023/04/20 4:40:28.516 PM] find: ./Library/Application Support/CallHistoryDB: Operation not permitted
+[2023/04/20 4:40:28.536 PM] ./Library/Application Support/WhatsApp/Cache/f618b71b5e2c02c2_0
+[2023/04/20 4:40:28.536 PM] ./Library/Application Support/WhatsApp/Cache/f54a4615d702ee95_0
+[2023/04/20 4:40:28.538 PM] ./Library/Application Support/WhatsApp/Service Worker/CacheStorage/3e8ad32ef6e0ff2c8dfb0722a7a862f0a1038fb3/bfa8032d-9b13-4b7b-85e7-7c624a631c6e/fcc0d02969b10c87_0
+[2023/04/20 4:40:28.685 PM] ./Library/Application Support/BraveSoftware/Brave-Browser/Profile 2/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/990b87e3-2c29-4655-b43f-db9b159e14d9/fe0825ba0022493e_0
+[2023/04/20 4:40:28.685 PM] ./Library/Application Support/BraveSoftware/Brave-Browser/Profile 2/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/990b87e3-2c29-4655-b43f-db9b159e14d9/f2b90e027d21b687_0
+[2023/04/20 4:40:28.700 PM] ./Library/Application Support/BraveSoftware/Brave-Browser/Profile 2/Service Worker/CacheStorage/355690543901cc08c45dface808d8446dd9e58ee/adb7e5b5-dbb8-4329-896c-c52fe6cb67c0/f0d5f1b40265d691_0
+[2023/04/20 4:40:28.722 PM] find: ./Library/Assistant/SiriVocabulary: Operation not permitted
+[2023/04/20 4:40:28.732 PM] find: ./Library/Autosave Information: Operation not permitted
+[2023/04/20 4:40:28.733 PM] find: ./Library/Saved Application State/com.bitnami.manager.savedState: Permission denied
+[2023/04/20 4:40:28.735 PM] find: ./Library/Saved Application State/com.installbuilder.appinstaller.savedState: Permission denied
+[2023/04/20 4:40:28.735 PM] find: ./Library/IdentityServices: Operation not permitted
+[2023/04/20 4:40:28.929 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/CloudKit/com.apple.securityd/fa1e3fbf25118f4c6b2e02d52f316e01347e101a
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f9620b40-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135216-867:breakoutTall.heic
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f13b8ea0-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135113-950:breakoutTall.heic
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f13b8ea0-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135113-950:breakoutTall-dark.heic
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f4cc2f70-9cd6-11ed-b762-5770f7cad891+marketing:arcade-contextual-welcome-sheet-apple-20230119-135143-844:breakoutTall.heic
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f4cc2f70-9cd6-11ed-b762-5770f7cad891+marketing:arcade-contextual-welcome-sheet-apple-20230119-135143-844:breakoutTall-dark.heic
+[2023/04/20 4:40:28.941 PM] ./Library/Developer/Xcode/UserData/Previews/Simulator Devices/8C2884FA-E992-4D73-BBD1-D8E7595FAC80/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f9620b40-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135216-867:breakoutTall-dark.heic
+[2023/04/20 4:40:29.437 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/CloudKit/com.apple.securityd/fa1e3fbf25118f4c6b2e02d52f316e01347e101a
+[2023/04/20 4:40:29.449 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f13b8ea0-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135113-950:breakoutTall.heic
+[2023/04/20 4:40:29.449 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f13b8ea0-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135113-950:breakoutTall-dark.heic
+[2023/04/20 4:40:29.449 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f4cc2f70-9cd6-11ed-b762-5770f7cad891+marketing:arcade-contextual-welcome-sheet-apple-20230119-135143-844:breakoutTall.heic
+[2023/04/20 4:40:29.449 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f4cc2f70-9cd6-11ed-b762-5770f7cad891+marketing:arcade-contextual-welcome-sheet-apple-20230119-135143-844:breakoutTall-dark.heic
+[2023/04/20 4:40:29.449 PM] ./Library/Developer/CoreSimulator/Devices/B097AD49-2592-4661-8FEF-4AA71364A3B6/data/Library/Caches/com.apple.AppleMediaServices/Engagement/journeys/downloads/f9620b40-9cd6-11ed-98df-71048e3c8b9b+marketing:arcade-contextual-welcome-sheet-apple-20230119-135216-867:breakoutTall-dark.heic
+[2023/04/20 4:40:29.710 PM] find: ./Library/Messages: Operation not permitted
+[2023/04/20 4:40:29.710 PM] find: ./Library/HomeKit: Operation not permitted
+[2023/04/20 4:40:29.712 PM] find: ./Library/Sharing: Operation not permitted
+[2023/04/20 4:40:29.828 PM] find: ./Library/com.apple.aiml.instrumentation: Operation not permitted
+[2023/04/20 4:40:29.829 PM] find: ./Library/Mail: Operation not permitted
+[2023/04/20 4:40:29.830 PM] find: ./Library/Trial: Operation not permitted
+[2023/04/20 4:40:29.837 PM] find: ./Library/AppleMediaServices: Operation not permitted
+[2023/04/20 4:40:29.854 PM] find: ./Library/DuetExpertCenter: Operation not permitted
+[2023/04/20 4:40:29.883 PM] find: ./Library/Accounts: Operation not permitted
+[2023/04/20 4:40:29.883 PM] find: ./Library/Safari: Operation not permitted
+[2023/04/20 4:40:29.884 PM] find: ./Library/Biome: Operation not permitted
+[2023/04/20 4:40:29.884 PM] find: ./Library/IntelligencePlatform: Operation not permitted
+[2023/04/20 4:40:30.637 PM] find: ./Library/Suggestions: Operation not permitted
+[2023/04/20 4:40:30.637 PM] find: ./Library/Weather: Operation not permitted
+[2023/04/20 4:40:30.733 PM] find: ./Library/Group Containers/group.com.apple.secure-control-center-preferences: Operation not permitted
+[2023/04/20 4:40:30.884 PM] ./Library/Group Containers/UBF8T346G9.Office/SolutionPackages/45050b34621512115f0c86999aa2c68f/PackageResources/OfflineFiles/fabricmdl2icons-2.38_7902e1ad6fae63779becd982d55fc755.woff
+[2023/04/20 4:40:30.901 PM] ./Library/Group Containers/UBF8T346G9.Office/SolutionPackages/bb0e6b5b4f8566127e1c8928084d9441/PackageResources/OfflineFiles/fabricmdl2icons-2.38_7902e1ad6fae63779becd982d55fc755.woff
+[2023/04/20 4:40:30.992 PM] find: ./Library/Group Containers/group.com.apple.notes: Operation not permitted
+[2023/04/20 4:40:31.333 PM] find: ./Library/Containers/com.apple.VoiceMemos: Operation not permitted
+[2023/04/20 4:40:31.340 PM] find: ./Library/Containers/com.apple.archiveutility: Operation not permitted
+[2023/04/20 4:40:31.389 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/0/f55530236d9f1b92518733379aa72d4ef8d0721
+[2023/04/20 4:40:31.391 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/7/f63a502079ae69b0f7d4e0f5b1a28a4242d1010
+[2023/04/20 4:40:31.396 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/a/f4ae584054407720c02baf7e789334295ac353f
+[2023/04/20 4:40:31.396 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/a/f796be8a61c007cc308437fe102bce7c0ff73e4
+[2023/04/20 4:40:31.399 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/4/f1f3dfe1249dd025db59149ff10bda9e2cd922f
+[2023/04/20 4:40:31.399 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/e/fd61922e7aa3784202b5fa4bd789780076e62ca
+[2023/04/20 4:40:31.400 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/e/b/f258e67568ff3410c1065ceb0224eccd83ed83a
+[2023/04/20 4:40:31.404 PM] ./Library/Containers/jp.naver.line.mac/Data/Library/Containers/jp.naver.line/Data/Cache/e2e406845560a195c560318a25c433c2bb5c75fb/p/f/ff02e982572b08c1a5dce64a2ebf83fcd6a6d51.eimg
+[2023/04/20 4:40:31.445 PM] find: ./Library/Containers/com.apple.Maps/Data/Maps: Operation not permitted
+[2023/04/20 4:40:31.488 PM] find: ./Library/Containers/com.apple.Home: Operation not permitted
+[2023/04/20 4:40:31.488 PM] find: ./Library/Containers/com.apple.Safari: Operation not permitted
+[2023/04/20 4:40:31.611 PM] find: ./Library/Containers/com.apple.CloudDocs.MobileDocumentsFileProvider: Operation not permitted
+[2023/04/20 4:40:31.654 PM] find: ./Library/Containers/com.apple.mail: Operation not permitted
+[2023/04/20 4:40:31.711 PM] find: ./Library/Containers/com.apple.Notes: Operation not permitted
+[2023/04/20 4:40:31.770 PM] find: ./Library/Containers/com.apple.news: Operation not permitted
+[2023/04/20 4:40:31.827 PM] find: ./Library/Containers/com.apple.corerecents.recentsd/Data/Library/Recents: Operation not permitted
+[2023/04/20 4:40:31.868 PM] find: ./Library/Containers/com.apple.stocks: Operation not permitted
+[2023/04/20 4:40:31.941 PM] find: ./Library/PersonalizationPortrait: Operation not permitted
+[2023/04/20 4:40:31.997 PM] find: ./Library/Metadata/CoreSpotlight: Operation not permitted
+[2023/04/20 4:40:31.997 PM] find: ./Library/Metadata/com.apple.IntelligentSuggestions: Operation not permitted
+[2023/04/20 4:40:32.037 PM] find: ./Library/Cookies: Operation not permitted
+[2023/04/20 4:40:32.038 PM] find: ./Library/CoreFollowUp: Operation not permitted
+[2023/04/20 4:40:32.038 PM] find: ./Library/StatusKit: Operation not permitted
+[2023/04/20 4:40:32.038 PM] find: ./Library/DoNotDisturb: Operation not permitted
+[2023/04/20 4:40:32.052 PM] find: ./Library/Caches/com.apple.HomeKit: Operation not permitted
+[2023/04/20 4:40:32.060 PM] ./Library/Caches/staticcheck/f4/f44a0f4e13646d2ff7bca4898181c364e57eb95902a4af082aba05d646cd08e7-a
+[2023/04/20 4:40:32.060 PM] ./Library/Caches/staticcheck/f3/f338e735242ba3e1ce86e651f82d900e7cab397e3456167955027257ff861d91-d
+[2023/04/20 4:40:32.060 PM] ./Library/Caches/staticcheck/fc/fc8f26aa907373d5584ed16823f14c4caf32dfda020bdbf44a7176bddc429206-a
+[2023/04/20 4:40:32.060 PM] ./Library/Caches/staticcheck/fd/fd03b456c5c640c300b0ae4d81a4def25c74002fef821d9105e25f17faba2fe7-a
+[2023/04/20 4:40:32.060 PM] ./Library/Caches/staticcheck/f5/f571d04a23143415579ae2ec0456dc962ca6cf5c2e105fd57508ac2c2d24802d-a
+[2023/04/20 4:40:32.061 PM] ./Library/Caches/staticcheck/fb/fb6d17bb669f51800f6b5faada028e002b834ecac31018c6e4ab8097aa2ab6cb-d
+[2023/04/20 4:40:32.065 PM] ./Library/Caches/staticcheck/f9/f94c6d502c071a683bdbd5112f849e9e18305dc0411beef6359b4739f223cd39-a
+[2023/04/20 4:40:32.065 PM] ./Library/Caches/staticcheck/f7/f79dd800e1dcc627e0eb281b6bcbdaf1beadc7652ecec5202a55829bfcf66b29-a
+[2023/04/20 4:40:32.065 PM] ./Library/Caches/staticcheck/ff/fffc68960719f759942cb1807c431f6bfb02a6c753b7aeb09504c8784ead0be9-d
+[2023/04/20 4:40:32.066 PM] ./Library/Caches/staticcheck/f1/f1b559abe570b7b37b3653a1b50256edd5f495865d566503f5d00211b670e02c-d
+[2023/04/20 4:40:32.067 PM] find: ./Library/Caches/CloudKit: Operation not permitted
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f4/f477807290f126cf9d154c2f20240b1baeb5857c5dc09af65602a51c541ea6d5-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f4/f41a0d792399339b1f9a045b520236167d79e1dfc175a9a008fc3cabcc4f6097-d
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f4/f442a0f1f9db8b9f65ee02747a7e2439130e08c80b716c3271ff235b44f09d65-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f3d7d87d35621027e1655a78b885690ef5f33a2a3f603355f203984c4dcb0ff1-d
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f3ba58885f4797e468e4da8b15c8659b9da10524082fef1ecda7022752ab7c83-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f3bcf1382bdbba9ec7cfa84d92e70bc6803903ca906f41e6c304826c702b8bfb-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f35939d6be3a7eaffad2f15b021f090975560db927732d05e0e21ba6b9d41673-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f37fa00420531bcf91ae1022cf4a87a8dfa91b2c5587b129ef642aab93ba006b-a
+[2023/04/20 4:40:32.086 PM] ./Library/Caches/go-build/f3/f3872155adbfb890654edfc02f8e207206b4e073cfd344e800c345aa65b924b5-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fc/fc40abd0343f9a80c5b3dab549574858d22f9d70262ed2d3a847fdb54e3e303e-d
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fc/fc48a0293d8aa41566abdf22bf3d72dcee63dbb9499ed86069352c7bfb02ecf9-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fc/fc9eb710ed0109ddab579442c87279b7dab80c81b45532a68026affcd47911a1-d
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fc/fcff66330296c40bd67f7bb753c95ec6791c7f23f08b4474af08eeae0792f742-d
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fd7e9f2f1d5dfdb99110876c6021f264d924aa0e5ac402c67c71fe7e66f8040f-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fdb45102c43ece56425b5abcb0ec14692a2545f254986579590b7621353bd611-d
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fdcdbc63280bc81c13a3458be03369c6fe8518f744c0aec5366d32be62032702-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fdba7dd0da0a51ac4fd222a6244f54730071d805e25ab671029b6228708989a1-d
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fd45958c9d28349548c62ad4c6d1ecb3017480528fb0a151dc36cb028292f921-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/fd/fd3550251ac7cf2b05993324322db349d33311e4074532986e5b32b3d31827f8-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/f2/f231068b9be8eb627fe03186cf2d240ba513964e70296fcd9414e19428527904-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/f2/f2ed889c082a6993c3956d1dc6620833be254812db7a072468194d02703d87b5-a
+[2023/04/20 4:40:32.088 PM] ./Library/Caches/go-build/f2/f28d95327cf61fc89a56a7f7bc02fcd3c45344037fa2350cc6bca85f3cc0a4db-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/f5/f555eed29746a3fa15c9253ab0844bc8796b902d0e3875bfff015f2db97ea9ac-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/f5/f50e9e81e983b7fbeae17a85be46758c98d4b0fda07265f023805e160bc32380-d
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/f5/f5273932732936ea020628b871c4f013c34eba1d700e37108b445df8014ba8cd-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/f5/f5d486061ec5690dad74e8a1e9910241dbf7899cbd5660d9da38182054772ac9-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/f5/f53eab0ff5e7de3e5af8fa5e99e4694839ec75a33022aed3a5a094811a4f75e5-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fe/fe4cda17040a3f8d04344ebee42e39d9786f7703de50abac8602ee087059686b-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fb/fb2190101b862a19a7718d33eae4a54c1a1c111102ecd669c1c1d88550595229-d
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fb/fb025ed147e3cd119b185c4cc05082a0c0b2b593d2807592a03447891721c1ec-d
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fb/fb2016accf55303395fbd12742023bfd964a7760a909eea82758809d183fef78-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fb/fb5e835efc41b4ef9c687f924359b01928a2df91025f86d38d58a0a265250611-a
+[2023/04/20 4:40:32.089 PM] ./Library/Caches/go-build/fb/fb1bea902dd0b6285c966794eb30ea7fd204bdbf127cf9ef09ecc7544c84c437-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f9/f95845110c90620a5e7d44f482997f2a82b65fd02427d8e5a2de4d43f3686812-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f9/f9b600c2591c768d058eb9f991c3a973e328e3028f84eebe3a5bbab0db52fe34-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f9/f92062454ac1506289a4e155e166052d2002bf403005628515179e0075fe0bd3-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f0/f0a9cd9d6daae87a288eb7fa7f86ab00502f80c257dd4543a3df327923a96110-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f0/f0146e9de43b98924c8bd35d02ed152d23aa0abe14682363b7b436f725bbef1f-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f0/f021db2ebd0090d61d7a8c2c40d61fc1c2d81afef30a3589e6c6ad29334da2a7-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f0/f0420f3d602ee2adb20c90a900645a05b0cfac6b471cf00b53ecef2c90f75f83-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f0/f0e8cf2e829a16a40023093d488a9057ff0ef1c6702a04df23eee16523500adb-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f7/f74fe4ffab849563ab32b0cce57fdf302bfa36b60bb8f199d19616a19971bc25-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f7/f7b6a606a583effbe663818dc2d1e788002d77ad75bd7742e17560d7d604def3-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f7/f76c17072435e6efd37ec71abc0060e8ceea4a33cbeda9692baa070218a9452e-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/fa/fa1ef3c14aad2dfd4084bec2e5760afbecc8c4ca70e902cd9dcbc9b6898c8ed6-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/ff/ff99a36510eebe456900206b33da1c4ec9ec334b4ba9f659d1de245ebaa8d853-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/ff/ff056a30925f56aca5af5e26024aee9702a2affab3680f4e5069c3d47a78d2b1-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/ff/ffb0319a15c6b5ee94935801189ebcbd4981b98088aaf9cddbdaa2f02147e183-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/ff/ff34e762d4d355956bfbb3042c2d611a334adae17207dad02a7e50dad091aedc-d
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f6/f6f98f5ee024f58fcf73dbf1ee088c07c7eba94f89203d44d4a9e159c85c0af0-a
+[2023/04/20 4:40:32.105 PM] ./Library/Caches/go-build/f6/f63561fb50849ce941ca7bdfc02e19122f7e0b8dcb819f01597dec7c662d4583-a
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f1/f11802e9048eb85c7523d60c223e12b6cfd95a1f85743628ce738f97f3d4712f-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f1/f1b38d0f663403c429b323c83d77c7bd02bee9513bf09dee3037483114ffdd17-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f1/f146325f373ce8108236db0d80ba0ae393d50eced33e35e43093d20f10026837-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f8/f882d029caa82517500f4fc47d2c6ddca8bd36176c0afaa0fc4b8046438a0741-a
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f8/f8bf59dc10e63b581d1aad5115cc351d52b91363fa7d1cf936f4247902d59bfa-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f8/f89c2261bbb3697921669229fa4fe9502d7658cbca1883cff3115db37b034e33-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f8/f8921edd6eff6f5ea883926588971b009cbb022c73ee79975fa0e1fb8ec81750-d
+[2023/04/20 4:40:32.106 PM] ./Library/Caches/go-build/f8/f8780ff09e4adfbe12c99f2373bca51025ce9e5176dfb2dd242cdc2f2cb0b204-a
+[2023/04/20 4:40:32.110 PM] find: ./Library/Caches/com.apple.Safari: Operation not permitted
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f536d18bbc6028a2_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f5b20f2904e6d027_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fa17c2302008cebd_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fb02c3936ced0034_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f45f0257492212d5_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fc60284d4130d815_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f73d4f802a673ab2_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fedfad63753e4602_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fe7805b4c9028366_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fb509023c949fa64_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fa0272326c13dc60_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fa631b84306020a1_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/ffee26bb0dc9027b_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/fa8722f4e02b9d03_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f027f9aabb29df57_0
+[2023/04/20 4:40:32.129 PM] ./Library/Caches/Google/Chrome/Profile 1/Cache/Cache_Data/f3c7a63a2f02c939_0
+[2023/04/20 4:40:32.132 PM] ./Library/Caches/Google/Chrome/Profile 1/Code Cache/js/fc0d502b70f17040_0
+[2023/04/20 4:40:32.133 PM] ./Library/Caches/Google/Chrome/Profile 1/Code Cache/js/f9aa964022b8c583_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f9023b838984bc75_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f9fecb8ed02fc7df_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f5e1bc1329636f02_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f13f2231d550023b_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f69b9b53020e10f4_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f2d7d60dea590020_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f38023861f04d68c_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f2027251ecd68656_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fce502a697a01d93_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fd827a203a0247fc_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f536d18bbc6028a2_0
+[2023/04/20 4:40:32.202 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fac5f4940750201c_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f53e7c2df0242007_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fac302b128e908f1_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fa0221a692e22e81_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f49702674043194d_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f8be02934f397e41_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f7ce666f08918f02_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f19e4ec820251646_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f88f0e10212f4d82_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f6e4504c7026e4da_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f860502b457ff415_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f55b02b6b9173c3e_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f1802df5f5f8e51b_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fd16a57402dfb641_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f0246e8dc74a7355_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f6637602ac33fd71_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f7725a02184a1bbe_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f5f15af00266b56a_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f102bab26a5f4de2_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f053302210aac9e8_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fac7a235b028a625_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f02f68402c96641c_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f6ba759a024159e8_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fce62d02d818d10f_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fa52ec1a0802ddb0_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f3c29350259c7c8e_0
+[2023/04/20 4:40:32.203 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f90dfff13cc602fc_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f0245849ad63e605_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f7599a9acb99d027_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fa0272326c13dc60_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fe3e7802cc22c045_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fe2395102b841584_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fc5fa02afae208f8_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f7cba41b4566c023_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f4cde72a02b23198_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/feaf02c9ffdb491c_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f7d10020a4d14913_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f0257be054c60630_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f92c1028b6c44a39_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f84e87f02790db8b_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f97f8cd0205f939b_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f248c112c8e93e02_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fa6d1e7590243855_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/fa2f73bd8c6021a3_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f9c4a02beb615e1e_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f020908d527dac70_0
+[2023/04/20 4:40:32.208 PM] ./Library/Caches/Google/Chrome/Profile 3/Cache/Cache_Data/f1932e44d9cd702e_0
+[2023/04/20 4:40:32.226 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f80203c701981f43_0
+[2023/04/20 4:40:32.226 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f8c8fbf40247c602_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f09e8300e0286cd3_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fc63f4e791029866_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f7d8202b376a0081_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fef8adabfe4502df_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f0285a887b29d281_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f191d02734144a43_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f022ca194dec4eec_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f69ff3ba12f025eb_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f5fe91db602ee2fe_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fd93021991a45a14_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fe94e8acfa602a15_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f83049e42d31d029_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f9fc6602550ec7d3_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fa67a02288afd30d_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fe5b447d502dec31_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fee92e157a706025_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/fa1883f02de931c3_0
+[2023/04/20 4:40:32.227 PM] ./Library/Caches/Google/Chrome/Profile 3/Code Cache/js/f02f4d197dabfc6e_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f68658020cc906ec_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fb4eae702c90b37c_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/ff0ba0528028cf03_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f6e2305691025586_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f0206d6a6b488754_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f536d18bbc6028a2_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f3a066235aa35b02_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f8b80146963aa102_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fb7be73102b25eb6_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fe11c69608023fac_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fafd5230200ab12f_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f0540028429de192_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f44130439a58802f_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f800020543103321_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f190175a927d5029_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f32f8bb5343c5027_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f02faa3d2dc1ffc1_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f44194026755ab80_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f5df2afa02231c0f_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f13b6268a7023d8b_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fb502333c561e83b_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fd14970180292346_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fcacfee806cab024_0
+[2023/04/20 4:40:32.446 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f8669c5cd74e9702_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f7d1a48298002472_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f46002941c308e13_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fa02f580379aa26e_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/ffa9770db3ae0276_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fa902bb83bee8a7b_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f02f9ddf0130fb6b_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/fa75d9231a023986_0
+[2023/04/20 4:40:32.447 PM] ./Library/Caches/Google/Chrome/Profile 2/Cache/Cache_Data/f1ef988460ffd028_0
+[2023/04/20 4:40:32.478 PM] ./Library/Caches/Google/Chrome/Profile 2/Code Cache/js/f0016aa027ef6d6a_0
+[2023/04/20 4:40:32.478 PM] ./Library/Caches/Google/Chrome/Profile 2/Code Cache/js/fc0d502b70f17040_0
+[2023/04/20 4:40:32.478 PM] ./Library/Caches/Google/Chrome/Profile 2/Code Cache/js/fa0210b5b14467c1_0
+[2023/04/20 4:40:32.478 PM] ./Library/Caches/Google/Chrome/Profile 2/Code Cache/js/f7cf0256bb273e76_0
+[2023/04/20 4:40:32.479 PM] ./Library/Caches/Google/Chrome/Profile 2/Code Cache/js/f3102b7266075972_0
+[2023/04/20 4:40:32.529 PM] ./Library/Caches/composer/files/league/mime-type-detection/f9602cfc5f45723d4f590e49e3683471bec330cb.zip
+[2023/04/20 4:40:32.535 PM] ./Library/Caches/composer/files/psr/simple-cache/f30344b376a5fb0289c0491e8df6aba973ba12aa.zip
+[2023/04/20 4:40:32.563 PM] ./Library/Caches/Cisco Packet Tracer/QtWebEngine/Default/Cache/ffe47402b153035b_0
+[2023/04/20 4:40:32.564 PM] find: ./Library/Caches/com.apple.findmy.imagecache: Operation not permitted
+[2023/04/20 4:40:32.585 PM] ./Library/Caches/Homebrew/downloads/ff02a3b4855cce282bd060ddc2ebc168bb518214e27695910d0a9c0f814d4dc6--webp-1.3.0.bottle_manifest.json
+[2023/04/20 4:40:32.585 PM] ./Library/Caches/Homebrew/downloads/fccf013b32eda50ffdfbb2748b9f01c7d5a845d5ba02bfeed201b6a30028800c--oniguruma-6.9.8.bottle_manifest.json
+[2023/04/20 4:40:32.585 PM] ./Library/Caches/Homebrew/downloads/f0958d8b41ec13756a7d273e6b2d2de3f028a8df9bbae9fbc66bfe6fef033aaa--gd--2.3.3_4.arm64_ventura.bottle.tar.gz
+[2023/04/20 4:40:32.594 PM] find: ./Library/Caches/com.apple.findmy.fmfcore: Operation not permitted
+[2023/04/20 4:40:32.819 PM] find: ./Library/Caches/FamilyCircle: Operation not permitted
+[2023/04/20 4:40:32.823 PM] find: ./Library/Caches/com.apple.homed: Operation not permitted
+[2023/04/20 4:40:32.823 PM] find: ./Library/Caches/com.apple.findmy.fmipcore: Operation not permitted
+[2023/04/20 4:40:32.831 PM] find: ./Library/Caches/com.apple.ap.adprivacyd: Operation not permitted
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f4d1a380e3022b0f_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fa0ea192d02926c5_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f102cb1f2a5c1302_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fb7080026ed57519_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f5e1bc1329636f02_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f9602f0b3481bf05_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fbe0229797157bbd_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f03b0c583293502b_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f02649259ed5f1a1_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f86b6fdd7c34a022_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0206d6a6b488754_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f4252a50e7026558_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f995ff7dd53f6102_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f536d18bbc6028a2_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fc0f2029c16596c3_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f6202bccb86b7fa8_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f029d48772c2bd05_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fdcaa5231fa02462_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fe94db3026da8260_0
+[2023/04/20 4:40:33.218 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f5024d48783dabeb_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f4ff4d67e85f024f_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/faf057a24702500e_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fd02122a7496a53d_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f86b02465287e7d7_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fdf90367dfcb02b4_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f90ae92ee88e6802_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f41b6f2ac220262b_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0794c2188c8025f_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f623ea90d6b1202a_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0256e34151c43d2_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f01c2bea023f6df5_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f68a220a3480d020_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f02581577706f5d1_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f3c29350259c7c8e_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0229ee7e327da70_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/ffbbd0295cc4066b_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/ffa04a3d8020a540_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f8f168302577156d_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f53e3a3dd68c5002_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f751602fa0a74654_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f4e02a7767e9b3c8_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f74405ae620277fa_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f36d205d8802c0ae_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fba52fcc87d202d3_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fc5fa02afae208f8_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f2aac536a48a1b02_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0232fd295c99d9b_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0ff174db2023afe_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/fbeba61b02e2f144_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f92c1028b6c44a39_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f0227a194cea74d5_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f002e8d22b80d465_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f4dd02d108f484ff_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f06f74c088eca022_0
+[2023/04/20 4:40:33.219 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Cache/Cache_Data/f973c5f5fda022e8_0
+[2023/04/20 4:40:33.279 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f9e2faef1a3021d8_0
+[2023/04/20 4:40:33.279 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f8b92635d30293d8_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/fccef7315e020e09_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/ff802921dbdeecba_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f90bf56ea002d6b5_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f14f9b0f67320219_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f247e10c0b02ad4a_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/fd16759d02fbfbe9_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/ff8189a02a9c9a1c_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/fb02b9030c263087_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f381aa2f7070248a_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f022ca194dec4eec_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f5fe91db602ee2fe_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/fcc339faf9f202d9_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f6667e1af2502ec9_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f642eec4a1ff202d_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/fe40ecfe5ced6026_0
+[2023/04/20 4:40:33.280 PM] ./Library/Caches/BraveSoftware/Brave-Browser/Profile 2/Code Cache/js/f3302cb7c7fdb74e_0
+[2023/04/20 4:40:33.281 PM] ./file02b.txt
+[2023/04/20 4:40:33.783 PM] ./Sites/laravel8/vendor/symfony/polyfill-iconv/Resources/charset/from.cp1026.php
+[2023/04/20 4:40:33.838 PM] ./file02a.txt
+[2023/04/20 4:40:35.074 PM] ./.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/2.3.2/f46a0f023205138c366f0b0c9316f8663bb32a4f
+[2023/04/20 4:40:35.119 PM] ./.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.2/f04d12daefcb3cf02ef27e67c1ccbac24d2f5c6f
+[2023/04/20 4:40:35.122 PM] ./.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.2/f4d7f0fc9054386f2893b602454d48e07d4fbead
+[2023/04/20 4:40:35.127 PM] ./.gradle/caches/modules-2/files-2.1/xerces/xercesImpl/2.12.0/f02c844149fd306601f20e0b34853a670bef7fa2
+[2023/04/20 4:40:35.142 PM] ./.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/f2d8698c46d1167ff24b06a840a87d91a02db891
+[2023/04/20 4:40:35.156 PM] ./.gradle/caches/modules-2/files-2.1/com.android.tools/repository/30.4.1/fb5902d7cb3f25c945910afd9434a05b593d99a9
+[2023/04/20 4:40:35.173 PM] ./.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/f703fc85e864a92fb72e4bd5996b8024a824e20a
+[2023/04/20 4:40:35.353 PM] ./.gradle/caches/transforms-3/ff5bfa7600cb137cd1fb49cec820268a
+[2023/04/20 4:40:35.356 PM] ./.gradle/caches/transforms-3/fa0bb33727c4fecc3e0202e4d4585df2
+[2023/04/20 4:40:35.416 PM] ./.gradle/caches/transforms-2/files-2.1/f888be44ed9ce23020cadeece9dfedf1
+[2023/04/20 4:40:35.416 PM] ./.gradle/caches/transforms-2/files-2.1/f5584b51244f6f283a3d60218dc8efe8.bin
+[2023/04/20 4:40:35.417 PM] ./.gradle/caches/transforms-2/files-2.1/fe362d56bd5410248a63c3863d07e79d
+[2023/04/20 4:40:35.433 PM] ./.gradle/caches/transforms-2/files-2.1/fab48219e40966748829bf5002cd9083
+[2023/04/20 4:40:35.454 PM] ./.gradle/caches/transforms-2/files-2.1/fe5812c05db3cc025081b92be548038c.bin
+[2023/04/20 4:40:35.454 PM] ./.gradle/caches/transforms-2/files-2.1/fab48219e40966748829bf5002cd9083.bin
+[2023/04/20 4:40:35.457 PM] ./.gradle/caches/transforms-2/files-2.1/f888be44ed9ce23020cadeece9dfedf1.bin
+[2023/04/20 4:40:35.462 PM] ./.gradle/caches/transforms-2/files-2.1/fe362d56bd5410248a63c3863d07e79d.bin
+[2023/04/20 4:40:35.464 PM] ./.gradle/caches/transforms-2/files-2.1/fe5812c05db3cc025081b92be548038c
+[2023/04/20 4:40:35.464 PM] ./.gradle/caches/transforms-2/files-2.1/f5584b51244f6f283a3d60218dc8efe8
+[2023/04/20 4:40:35.502 PM] ./.gradle/caches/jars-9/f853dd02edeaff1eee10764a95d24885
+[2023/04/20 4:40:35.504 PM] ./.gradle/caches/jars-9/f791c8e7683a4fefc701ae026f6d8cc8
+[2023/04/20 4:40:35.509 PM] ./.gradle/caches/jars-9/f4314404de9f80cd3aa4b602bae51b1b
+[2023/04/20 4:40:35.510 PM] find: ./.Trash: Operation not permitted
+[2023/04/20 4:40:35.549 PM] ./.npm/_cacache/content-v2/sha512/0d/58/f8090218628c3406569e9702b5a479799f97114897cceb4500d332bcf75b15227a0fae2d84923efe7b5093dffdeac577a7a48fa704199001c24f2606a3e3
+[2023/04/20 4:40:35.549 PM] ./.npm/_cacache/content-v2/sha512/0d/88/f975e1a51c17ccb75e49eeb76dc8a36afcdaa5bf929f5388a876b434d7d5c44ac467c171fd280134cb7730b541c3a36a1bec2ca90270aa79f87abe2a1647
+[2023/04/20 4:40:35.581 PM] ./.npm/_cacache/content-v2/sha512/3b/34/ff571e07a2b5c8c8e6d204d43ae8fa19ae953d62e5c2975fe0df4345310a16c8eead5bb94190cb65d619f93fc9802c012d4866c96800ce69ff7753277940
+[2023/04/20 4:40:35.599 PM] ./.npm/_cacache/content-v2/sha512/6a/fa/fdc2b6b0b88b4915c50495a661fe9f34ca6045b47ee3033ba61677bfd69288123c82a8cf502d711a49bcae365830fd5fa9ffacbe4e801e9bf18ccde4b4b7
+[2023/04/20 4:40:35.607 PM] ./.npm/_cacache/content-v2/sha512/69/b7/f289890eae7021bc865b5ee1a2a8a79cae65a06f707d59e3e6ee6bd97e2baf021b425266e133a08c43a29c6818b24540e0d90aafffb8c7c1dcd87ced5242
+[2023/04/20 4:40:35.620 PM] ./.npm/_cacache/content-v2/sha512/51/05/f491d95e75902cc7e95127eeeb088a3b35fd61024fe46a02e25c4f5f7b8e4b8624b33d488d4ac2336c2f641b7d148d214999d6188108a364a69f2cf09108
+[2023/04/20 4:40:35.620 PM] ./.npm/_cacache/content-v2/sha512/3d/88/f214e2ca43dcb9ec9bd0e902e8f1d02036ab3087c33544c25875076e4fac5b59280adfa3ff67fbfea7cf3ca4cebd8cc31f4bc5ddf05e88d6443f23d1d41a
+[2023/04/20 4:40:35.633 PM] ./.npm/_cacache/content-v2/sha512/0e/52/fe5f03b2dcdc4043cc6e0b4a243e02b8ea2b953402b4d5837b46e79806aa85786b018d5f5798203301d82dfbaebb6c297990f87d12a28a0f09da3c6d48ec
+[2023/04/20 4:40:35.644 PM] ./.npm/_cacache/content-v2/sha512/5f/27/fc7bd3862433d1669e7f50b166e3255f1e1b20f7ac990f82dafc5e5baf26b48b77ac5bd155034a438390827603ebcda25df02fa6924bcfb9fff87ee4bdfa
+[2023/04/20 4:40:35.671 PM] ./.npm/_cacache/content-v2/sha512/d9/89/fa8ad9eae7e2173e69064563025f458755ef68dd48f0986cbf4f0ddc02a2bc606f8367d438794da857ef0205c280067133ed88b2a108b63c646bc7b6a39c
+[2023/04/20 4:40:35.678 PM] ./.npm/_cacache/content-v2/sha512/d7/43/fd368dbdad85f58fb1771153d7dc9bc63d03da7be0289ae4933e217d78141e0a11c8ea2aa3308c11f4998e257c299e7fe85460e4ec8e4896c92e33053fa6
+[2023/04/20 4:40:35.687 PM] ./.npm/_cacache/content-v2/sha512/da/fd/f25275648c40ac51246c6fa781d702438d42cc19be44a80875531f2c8ab095dc4f58a4fcee99d37760b41d125b846d00119161e2f3a514360ef89aaeddf2
+[2023/04/20 4:40:35.687 PM] ./.npm/_cacache/content-v2/sha512/da/3f/ff8f42ab3db7f421027ac9da9ba6fd2fd09bfd3f1ac28d5f8f5aba66b04f7d64cc2a6453fb2f50e0c4524612561aab8752155e2b5190eeada051b6f43da1
+[2023/04/20 4:40:35.690 PM] ./.npm/_cacache/content-v2/sha512/a2/94/f2086e839b7297713cd886402d9e6ffef54baf72741b8bc4767b8cbe57d830dfab6fdb23a19239072de5716a6abb710ed60a57efa0317f0ae30c8e2c9fac
+[2023/04/20 4:40:35.696 PM] ./.npm/_cacache/content-v2/sha512/d1/fa/ff9881f57653bec7b4e570ccbe6c80ea28fb30ffbd2d5727875bbf3b828423866a9a65ed74bb02ee8ee6caf6af4b83a162868d4a50a0d8cf467b93b839fe
+[2023/04/20 4:40:35.704 PM] ./.npm/_cacache/content-v2/sha512/ab/ca/f6009454c660d5192ea9edcb632d90731ae451f8f695da94d21a5fc0d02708af9436072257758deb8d7424e390e43553dca5888a14e7cccf11af751f55b1
+[2023/04/20 4:40:35.711 PM] ./.npm/_cacache/content-v2/sha512/f3/5d/fd4a1943a3fa8037bc464039070d47b65f5acf4fc3f8cb5e7088202bfafb5de011c43b6ff8133aaed458727e3d69c17da23a9a2da19b3be48c78c8317437
+[2023/04/20 4:40:35.718 PM] ./.npm/_cacache/content-v2/sha512/ee/6c/ffef6d406e72702156e7692bf50b3dc09b464b4ff501c240bdd95971857bff93f04141f3367d712540d0b6ec1546af4bb0529a6560f40cf4b9da04c47935
+[2023/04/20 4:40:35.724 PM] ./.npm/_cacache/content-v2/sha512/f2/b3/fe154b788903a7da6cdb0f5c2296b9b37860c19f6022044bb1ecffdfcbf509cd4831323396425ded6f62aca00cf194f1fa66775e6e26a111ae3ad08cb615
+[2023/04/20 4:40:35.739 PM] ./.npm/_cacache/content-v2/sha512/c8/ce/f1a94ac23b625da45a385e933cdadf8f2411726ddaa842e24b0c67835f68a3f0d673a911f2bb71e9d7cf3f257ed25aab9dfbbb7831476f72018120230766
+[2023/04/20 4:40:35.746 PM] ./.npm/_cacache/content-v2/sha512/ec/b2/fbe4561e2755a4eaca7dcf73f7541a02607695fca8a994db9c841d3254cc4a5ef09d2ea930cf40d8b59437ad5f8a08420748e390fee9b6ccd18d147f40c6
+[2023/04/20 4:40:35.750 PM] ./.npm/_cacache/content-v2/sha512/18/41/fa05498abde8ca6f0f25707065539a758ee7aef388b2fb6110398b029afc5b27cb4a5f04ecc28ea6398b336dca24a855e8c4c495e9acab65273377b5efff
+[2023/04/20 4:40:35.755 PM] ./.npm/_cacache/content-v2/sha512/7c/21/fac3d11c02750c912d2aa4a41507094e042f99de723404a3b22e82faff4c6b492089a0ad15ecf457ddb03ffea46c7c22cbc41d5118cbaebb6112df9db609
+[2023/04/20 4:40:35.759 PM] ./.npm/_cacache/content-v2/sha512/45/18/f196f2c3903d582700dbae804731bf9cba4bab90358dc87c7b0f7a0d079c7dadbe6881c92c302e701c269d717a28ebb815afffb7185c92877d77e338baaf
+[2023/04/20 4:40:35.759 PM] ./.npm/_cacache/content-v2/sha512/45/7d/f312f89d25f046b0e8485cd4bc751bf6459d8e43c1483534f98b51c7e947e5fd25cfa8e9021ebfa5d2cd96000a16a9ad3c1dad998189ec0f007785e340b2
+[2023/04/20 4:40:35.759 PM] ./.npm/_cacache/content-v2/sha512/45/29/fd17af0f8c7f47aad96db129ea602d575e859ef418eee7edb5dd1f7c70d1adb5a83dabdc80393cdd6ecaaf21aeda366e567df059169598af6696ae495603
+[2023/04/20 4:40:35.761 PM] ./.npm/_cacache/content-v2/sha512/1f/13/fb2e4630fe3bd89501c32c70c0671e0e775818d2ea4ea18f485c9496535ba02df2bbcb24c443c2e27f701b29fec4bdc8da18baa73efdee6dfc5ce589b22f
+[2023/04/20 4:40:35.762 PM] ./.npm/_cacache/content-v2/sha512/73/55/f0289d9e3085abcd07a73745db71fcdc90e2cb262733ab2f98bdf1a6ce855777ba53f457ce6e24847f3b3ce1ba44fd5a9fa44b8067db4245b664671c5b77
+[2023/04/20 4:40:35.765 PM] ./.npm/_cacache/content-v2/sha512/74/4f/f2d9745aa808ba3af8f30f6da98d3510f1e39f73a9bf9dab461e028504af43c459889baf5899a45542b1a016511f7351de3c8bab6344e60de44e2b4e6b22
+[2023/04/20 4:40:35.772 PM] ./.npm/_cacache/content-v2/sha512/10/f0/f9ab5b97c85c49a42acb9c27359c79eade039ae83641a1c008888d93692080ed5089d5424331a802cc891736c5187c3d5d68afff2d3110f318886eb1ed73
+[2023/04/20 4:40:35.773 PM] ./.npm/_cacache/content-v2/sha512/19/22/f76a8c2217bc1afd6b521709d4ae5b9d585a0d85fb6af1b5241fda64ce3a4dd9748f380604820e9ed2c4bdb34ad9c202732624113d4d7c03a7259e85b9c1
+[2023/04/20 4:40:35.775 PM] ./.npm/_cacache/content-v2/sha512/26/4a/f177c608b12b3083086d687f5f746af822db5dbc07cc0dc1500b22c1b2cc3d1c3066c782b8c32754e025ac5998646bfeb1b4deb25bad9e59c94b70d4d1e1
+[2023/04/20 4:40:35.784 PM] ./.npm/_cacache/content-v2/sha512/88/32/ffce96428e2c22d823d67012d1a4e252ecc4ea453359bf03b854a23cb8e6ca17eee585254317e955d198f1e3f6ed5acb7a5cb6e362208c512b7e578d02a3
+[2023/04/20 4:40:35.791 PM] ./.npm/_cacache/content-v2/sha512/6e/c4/f0b8883f05964afefade5536186d25a87b617eef53fb2b9406117fa94f6e740d96df535310e69ace2a93d1f8b2fab9628adca330302012ef8401dd49b5bb
+[2023/04/20 4:40:35.794 PM] ./.npm/_cacache/content-v2/sha512/5c/97/f051550a0c7179ba02b021cc4481cf64f1bec76f39c2a7a7947d682eef5d2130f3483b86b0e3fcc1e51a200d0cfc9ddea0c820e953d3bf9baa9811663ac9
+[2023/04/20 4:40:35.796 PM] ./.npm/_cacache/content-v2/sha512/31/77/f995a5e8e9cd486c46de8039b318fc06353b07666132e901b39eee528765025afb9ecb06f679ef82084e3342266cb7153d04ca103bd8bacd41526342a3d1
+[2023/04/20 4:40:35.797 PM] ./.npm/_cacache/content-v2/sha512/91/4c/fab148743fde49392d1118469a7a6594ac04aec3e74bb1622f78ad94649c7be2277f07d7a981b94c90293faf93235166d9f37c05bda706e516ff7fdee0c8
+[2023/04/20 4:40:35.798 PM] ./.npm/_cacache/content-v2/sha512/65/42/f9f9aa5f190ae106db073131e8ddafe3c47b1cdfff8c7d76559402a99830fef38030318e51db1cb17a1b9201c788a28ad48009cbdb2ab2d8c507a23a9b9a
+[2023/04/20 4:40:35.799 PM] ./.npm/_cacache/content-v2/sha512/96/4e/fd965f18150a6b58f0e16c0ff4d8071456ddb7e4a0e7acb73a5eaf38fd1694a9e1a25989043c0f8c337ee05e028b1797a81703ca41ae535f2e956cde3129
+[2023/04/20 4:40:35.800 PM] ./.npm/_cacache/content-v2/sha512/96/45/f51c95f0c8c729af0ff961465cdacec3ae90221c1db5fd5f84d6b1d4ad5368924bc1e9ba8ccd3d157d5ebff3a64d69bb75935e18388693ee70ef397dc88b
+[2023/04/20 4:40:35.807 PM] ./.npm/_cacache/content-v2/sha512/08/58/f3618022e1385f890be2ceb1507af4d35c7b670aa59f7bbc75021804b1c4f3e996cb6dfa0b44b3ee81343206d87a7fc644455512c961c50ffed6bb8b755d
+[2023/04/20 4:40:35.808 PM] ./.npm/_cacache/content-v2/sha512/01/56/f0dd42767bd6eaeb8bd2692f409b47e37b53daf296c6a934ec9977da2223299ebe4394385f24eb8b8fd49ff7964f5430147ab0df124f3c30f98f7bb50242
+[2023/04/20 4:40:35.809 PM] ./.npm/_cacache/content-v2/sha512/01/46/f0413cfbc7f693cd2560cbd2109dd69ed9e535c37e4d0e2aa62990020cbe923b0522db1f30c9a021fa18571c996b560de4d2611bd56fcf241482f66b4976
+[2023/04/20 4:40:35.811 PM] ./.npm/_cacache/content-v2/sha512/39/f9/ff0931734464d3c70a4d12cf4f3fdde05d2847713ab6e799f345848a7bc024569658eded5fa664df3b2a08be33f91c6ed9d9933b552f4f3e14065b6a4ea7
+[2023/04/20 4:40:35.816 PM] ./.npm/_cacache/content-v2/sha512/64/57/f682cffcffa07c3e74a87c8d229d85ebd920cd4c349c3d784dee4e44a83e1a677822eaefab6e6647541f08337c03cb1f27b4a00265bb574a6ee864646a56
+[2023/04/20 4:40:35.816 PM] ./.npm/_cacache/content-v2/sha512/64/a7/fb4fd4ed08cd85f8a6c2367e40f9a8ac0a764555f2879d426ead59a5ed096e6feb57efb2a5cce86e226c3b40023adf3893dd001a2134c3c7ea64459e3a20
+[2023/04/20 4:40:35.821 PM] ./.npm/_cacache/content-v2/sha512/90/89/f9917dd5a98688740ffc9da204257aa150fd229004e3450300aad4c5c323ec2529ea1a0056da6a4911045fc6813aa38cc02b61cefa6be1bd26fb116f9a18
+[2023/04/20 4:40:35.821 PM] ./.npm/_cacache/content-v2/sha512/d4/57/faa7e15b853fdb5d09c4a2e632d346e435263b394a5f21c99d97cbd9df50355146aeace2cf03c6bc05b24e17644350497026199e695ecb9da808fb953035
+[2023/04/20 4:40:35.821 PM] ./.npm/_cacache/content-v2/sha512/a0/83/f392c993838fccae289a6063bea245c34fbced9ffc37129b6fffe81221d31d2ac268d2ee027d834524fcbee1228cb82a86c36c319c0f9444c837b7c6bf6d
+[2023/04/20 4:40:35.824 PM] ./.npm/_cacache/content-v2/sha512/b1/ba/fdfb0344e5a5cc041141202934d6db7bb017f639cf6291114471e9bf64e46ea7d20c51d3615bbff054b11b6ed9563ac12e6c97ade3a98700bd82f3eda329
+[2023/04/20 4:40:35.826 PM] ./.npm/_cacache/content-v2/sha512/b6/cf/fc13c9796fb918d2f9562dec0e9035cc98f74b7155781a63902f2c6e4acc0826cc1e78566d02c305ee4d4db33cfe4d8050ae56119b33a7af7f7ccb525e99
+[2023/04/20 4:40:35.830 PM] ./.npm/_cacache/content-v2/sha512/b7/b8/fe3739a09d0cd30185dcb0760b8229a5b4e5753171ed94e59fe868cbf4a8fc18ae45227c39268b71bdb3acf88bd5d7f0f3a34e3f7c219f2d5b3b6976f802
+[2023/04/20 4:40:35.834 PM] ./.npm/_cacache/content-v2/sha512/b9/9c/f952707bbb84fd2efc2616a5e28bba594a8b9a44fa2b1ace70868d48a7b54ed30c5a9c5bc12fb1a433a7531e5817fa384102945eb5a5a99c369b39e4dc9c
+[2023/04/20 4:40:35.838 PM] ./.npm/_cacache/content-v2/sha512/cd/15/f58dba49be1bc551c88f9be1dfffaabaf4b45e863e04a7cf8cdb4c7e50f8dc9b3711329449b3067e89362416eadeef5196862a02655ec7773d9b9defc9f1
+[2023/04/20 4:40:35.840 PM] ./.npm/_cacache/content-v2/sha512/f9/35/fb273a438f2929ae94775169d9d36f6e2bf1a63c202caba80df6fabad76a1ddfb6e03dd9215081d1dfab1c0346e2b8a7d1903032451e7fc3c659bb239dea
+[2023/04/20 4:40:35.840 PM] ./.npm/_cacache/content-v2/sha512/f9/b4/f6b87e04e4b184ee1fe7ddebdc4bfb109495c2a48a7aca6f0e589e5e57afbaec3b2a97f2da693eea24102ddabcdfa1aff94011818710e2c7574cb7691029
+[2023/04/20 4:40:35.841 PM] ./.npm/_cacache/content-v2/sha512/f7/de/fcc2b5cce74638ad33265b9917202d3d65d5d066a904e26c61c2477c55bcec1a45c63e0578cd6baa40980213362781da367580dad25f31857e1f912c094a
+[2023/04/20 4:40:35.842 PM] ./.npm/_cacache/content-v2/sha512/e8/fb/fd48121b610d4877c86dcad175ecd85fdf89290b018d666efb08317a81561fbcd4a376d4e198f61d9ab1cb51d392402ba541a82e1b7bfb4b34a6662cea0a
+[2023/04/20 4:40:35.850 PM] ./.npm/_cacache/content-v2/sha512/46/7b/f3ab6ccc05a296222e30e83d02c695cfac77b4fdbdd4f4a06c4237cd6b271086c97b08a7d3b6f58cc6823c99b241b2f8eb615783e1916932edbbc1084392
+[2023/04/20 4:40:35.858 PM] ./.npm/_cacache/content-v2/sha512/23/d8/f0327d3b4b2fc8c0e8f7cd59158a4d894ef8296b29036448a02fa471e8df4b6cccb0c1448cb71113fbb955a032cb7773b7217c09c2fbae9ecf1407f1de02
+[2023/04/20 4:40:35.858 PM] ./.npm/_cacache/content-v2/sha512/23/6c/fbad228814026283bd9ee068211960ff4a25241ac1224d4c148c1b76873529ea294bde61c38815936968a0b3fcaba1ecc240e8c2bf0ca7b66a7803fd281f
+[2023/04/20 4:40:35.860 PM] ./.npm/_cacache/content-v2/sha512/8d/43/f9a8f3a91f59d7b631868757d105ad7024bd909486f9986a5cb773737a98c61b6b851419f88a2101888f465267c0151d80a6e4610f27637119985dd76211
+[2023/04/20 4:40:35.864 PM] ./.npm/_cacache/content-v2/sha512/1d/cb/fe9d50b49199d0ded0fd195bb9c52311e155583ad79022bfe1c053d512f3dd957aa0184b918e285e0a11e074cf89caa76035c9b364e5ffb6797424e888ec
+[2023/04/20 4:40:35.864 PM] ./.npm/_cacache/content-v2/sha512/49/17/f04ed175d46d9a7a60195a2bcbecf0fe0bdcf9daff44bcca87f41b986da6f23ee294bd25a4b37a0283ad38d694fddb92f8cd516a69505e102c2c9a582e13
+[2023/04/20 4:40:35.866 PM] ./.npm/_cacache/content-v2/sha512/2b/03/f10bd3d75ce05f7526c085c35d67ec45e2b4973b37759390488fbaca87db60219be628f214b7db5213e5eb467c4c11162663026a3e9c02a2a66742a6ebb1
+[2023/04/20 4:40:35.866 PM] ./.npm/_cacache/content-v2/sha512/2b/2c/fcc6410c9be65092dabbe7202dcaadd73b6ae2578892312ddf0ef18390afb25803263b6d3a8b55e9b68ef637668387e4a2b394e1ea218f0dec841be2503e
+[2023/04/20 4:40:35.870 PM] ./.npm/_cacache/content-v2/sha512/7a/a9/f89bbd0fd37d4f17b65022f4a0cbd452279b88db5ef53bf38eff3711358a496ef69e2855256abd5a27bae682242d6e6d0548fb117b08e9752d0e7b0ecc3c
+[2023/04/20 4:40:35.870 PM] ./.npm/_cacache/content-v2/sha512/7a/a8/f4855709511e7bfd4836cc4d58b30b30e0b86eaaa1e10fef2fd76d13d5c97792383be90c2dc81add224e165702be94084125560277fbfee27738cbef09b0
+[2023/04/20 4:40:35.872 PM] ./.npm/_cacache/content-v2/sha512/22/80/f631f527395e7c8212070a28a5d353dca21c636d847fa82c6ca02fb1360530875118f2338ead89aedddddaef5fad249db7bac7045785f61c958cb0f26ee2
+[2023/04/20 4:40:35.876 PM] ./.npm/_cacache/index-v5/61/6f/fd60237835012ff66858ffdea1932f0d71200c24d5c1174c69e92f6bb59a
+[2023/04/20 4:40:35.888 PM] ./.npm/_cacache/index-v5/50/5d/f6d9897f08fe652e93b61e8e8d620eccde4e126102a63f2b99dca641165c
+[2023/04/20 4:40:35.889 PM] ./.npm/_cacache/index-v5/3b/70/f54a64f40c1a44a51e32f39f3b9ebf986d3261d8e1e4e9bf31a0d0220621
+[2023/04/20 4:40:35.889 PM] ./.npm/_cacache/index-v5/03/19/fd950e16cf732a21bbe6bcd822813b917db3dc6db66b12e74ba0291153ba
+[2023/04/20 4:40:35.896 PM] ./.npm/_cacache/index-v5/56/02/f7c9e3404de9212aefe3706d0ad202a663b6af36dcd7532e19428d480a26
+[2023/04/20 4:40:35.898 PM] ./.npm/_cacache/index-v5/58/06/fd611e32815f42676402a510f756179892cd57b60c658a113bf51d09266b
+[2023/04/20 4:40:35.900 PM] ./.npm/_cacache/index-v5/93/64/f1afec40125d75bc9ef83e027134004e356aa8e62d04bdc9e098b37d9cd7
+[2023/04/20 4:40:35.914 PM] ./.npm/_cacache/index-v5/d7/06/f6a7a1d51538c7f8d104e9e343f3627b43ff0276e3575aeb4b65edb8757f
+[2023/04/20 4:40:35.915 PM] ./.npm/_cacache/index-v5/d0/d8/f7684c1002accb54b086865431c6a36e063ebe194daaea7da0c566a97af1
+[2023/04/20 4:40:35.915 PM] ./.npm/_cacache/index-v5/d0/39/f3ea46b7a48d1b108681523c9e802f48f2779894068bc9b984863ca18939
+[2023/04/20 4:40:35.916 PM] ./.npm/_cacache/index-v5/be/b6/fa4dbd3ad4b02fca6f5793d20843c1561fcc2f01d54c0df79a799a4195a2
+[2023/04/20 4:40:35.921 PM] ./.npm/_cacache/index-v5/ae/73/fa1bf017d324702659b6a24df03dd5596d768e4bcba7826de11314548045
+[2023/04/20 4:40:35.922 PM] ./.npm/_cacache/index-v5/d8/75/f753e67ab81a026b0a1949026177751266cbd5e4e38ebd1eb99c4adcbdc4
+[2023/04/20 4:40:35.925 PM] ./.npm/_cacache/index-v5/f3/a3/f238d65225aa8308b7d5199149328a6e2c70fb2e0ce3f3391ad332020732
+[2023/04/20 4:40:35.925 PM] ./.npm/_cacache/index-v5/f3/ab/fa22a40eb0cb07176c21351dda1ab02f692d46b49a71c6469daf50c8f69c
+[2023/04/20 4:40:35.935 PM] ./.npm/_cacache/index-v5/ec/d9/fe3d8ac3a65684a5e6b0474935eec1f498fbc03da02f34509105137b9a8f
+[2023/04/20 4:40:35.936 PM] ./.npm/_cacache/index-v5/4e/f3/fcc919e9918f17d9491c8730cb883b476edd6055b42041ee02f644942a17
+[2023/04/20 4:40:35.936 PM] ./.npm/_cacache/index-v5/4e/7c/f98d77a1892f837878dca292a024201bc57e7c3caac6a7ac22fbc41cd72e
+[2023/04/20 4:40:35.939 PM] ./.npm/_cacache/index-v5/7d/1a/fea3b028b63352832fb6d9b972e55914b0071fded534b747c2bdc0b3efc4
+[2023/04/20 4:40:35.944 PM] ./.npm/_cacache/index-v5/87/9a/fd922974123b1d97ca4047d732264b281f6f3df93c4c22efbd8f87730264
+[2023/04/20 4:40:35.949 PM] ./.npm/_cacache/index-v5/19/73/fc1cd0230219940b2140dfb0e1f599508f30f9abbb75cb5be648f26728ae
+[2023/04/20 4:40:35.960 PM] ./.npm/_cacache/index-v5/36/a5/f74042740cf491b55667cf1a269361282f02fa1c0ae653bffc8ea4b9e242
+[2023/04/20 4:40:35.960 PM] ./.npm/_cacache/index-v5/5c/44/f1697406b0fe34f6c1546728a3f6fbf38e302e77e471332bc5b524b421f7
+[2023/04/20 4:40:35.961 PM] ./.npm/_cacache/index-v5/09/eb/fd354c6696967f8597296c302e7357e131365653ea5b7b20932d0cdfee56
+[2023/04/20 4:40:35.965 PM] ./.npm/_cacache/index-v5/96/e0/f542aae5917ac831584d110e1d8d9302ff5d97bf2ec17e725e140e5a7dff
+[2023/04/20 4:40:35.987 PM] ./.npm/_cacache/index-v5/a8/73/fde854d07eef0c4d20b044c858d8953a2e4d3e9b2d616026c0064799d510
+[2023/04/20 4:40:35.995 PM] ./.npm/_cacache/index-v5/f0/69/fb0e83b231b8d37ab7cbaa5d26afb62a4d02c6b99eacf3ec767b984b794f
+[2023/04/20 4:40:35.995 PM] ./.npm/_cacache/index-v5/f0/9f/f9be9d85e3e77ee39a186ce302e54d0317c48472ece2526a2b66fdaade3c
+[2023/04/20 4:40:35.995 PM] ./.npm/_cacache/index-v5/f7/83/f6d745edc6348460207733876a8ee9e9a527c28fd14a23b81f5d00386b04
+[2023/04/20 4:40:35.998 PM] ./.npm/_cacache/index-v5/c5/1d/fb364e3fd5691a550402da57d0d0f6b06ca59401d7c6431162d3a0d5981a
+[2023/04/20 4:40:36.000 PM] ./.npm/_cacache/index-v5/f1/90/f202d0d93b0ef510a9ff30b4e5d8a4c02c6adf9a612462e7196ae2ebdeba
+[2023/04/20 4:40:36.000 PM] ./.npm/_cacache/index-v5/e7/d0/f40a5a56a747c294db5d4c1d2a6151bc75eb59695cb805c7025f8e5a4faf
+[2023/04/20 4:40:36.002 PM] ./.npm/_cacache/index-v5/ce/69/fe6346d6c92c025428d8430356441ce3cebf41827e247ae11fe592a0063e
+[2023/04/20 4:40:36.732 PM] ./.vscode/extensions/ms-python.vscode-pylance-2023.4.30/dist/typeshed-fallback/stubs/flake8-2020
+[2023/04/20 4:40:36.732 PM] ./.vscode/extensions/ms-python.vscode-pylance-2023.4.30/dist/typeshed-fallback/stubs/flake8-2020/flake8_2020.pyi
+[2023/04/20 4:40:38.106 PM] %                                                                                
+[2023/04/20 4:40:38.129 PM] ~ ❯ 12smmkdir kad02
+[2023/04/20 4:40:45.209 PM] %                                                                                
+[2023/04/20 4:40:45.237 PM] ~ ❯ hhistory kad02 \ / /da  kad02.txt
+[2023/04/20 4:41:01.175 PM] omz_history:fc:14: event not found: kad02/kad02.txt
+[2023/04/20 4:41:01.176 PM] omz_history:fc:14: event not found: kad02/kad02.txt
+[2023/04/20 4:41:01.176 PM] %                                                                                
+[2023/04/20 4:41:01.202 PM] ~ ❯ history kad02/kad02.txt>kad02/kad02.txt kad02/kad02.txt
+[2023/04/20 4:41:13.719 PM] %                                                                                
+[2023/04/20 4:41:13.748 PM] ~ ❯ lls -l / l sort -k 5ls -l              
+[2023/04/20 4:41:26.670 PM] total 392
+[2023/04/20 4:41:26.670 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/04/20 4:41:26.670 PM] drwxr-xr-x@ 11 cyrusman  staff     352 Apr 18 15:21 Cisco Packet Tracer 8.2.1
+[2023/04/20 4:41:26.670 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/04/20 4:41:26.670 PM] drwxr-xr-x  18 cyrusman  staff     576 Apr 14 10:00 DB(Year1)
+[2023/04/20 4:41:26.670 PM] drwx------@ 13 cyrusman  staff     416 Apr 20 16:39 Desktop
+[2023/04/20 4:41:26.670 PM] drwx------+  6 cyrusman  staff     192 Apr 10 14:39 Documents
+[2023/04/20 4:41:26.670 PM] drwx------@  7 cyrusman  staff     224 Apr 20 14:35 Downloads
+[2023/04/20 4:41:26.670 PM] drwx------@ 97 cyrusman  staff    3104 Apr  6 14:51 Library
+[2023/04/20 4:41:26.671 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/04/20 4:41:26.671 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/04/20 4:41:26.671 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/04/20 4:41:26.671 PM] drwx------   5 cyrusman  staff     160 Apr 20 13:16 Sites
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x@ 14 cyrusman  staff     448 Apr 20 11:48 abc
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff      35 Apr 20 16:30 class.txt
+[2023/04/20 4:41:26.671 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/04/20 4:41:26.671 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/04/20 4:41:26.671 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/04/20 4:41:26.671 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/04/20 4:41:26.671 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 20 16:29 date.txt
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff      39 Apr 20 16:29 error.log
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff    1736 Apr 20 16:33 file02a.txt
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff      53 Apr 20 16:35 file02b.txt
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x@  6 cyrusman  staff     192 Apr 19 23:41 go
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff     868 Apr 20 16:32 homelist.txt
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x@  3 cyrusman  staff      96 Apr 20 16:41 kad02
+[2023/04/20 4:41:26.671 PM] -rw-r--r--   1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/04/20 4:41:26.671 PM] -rw-r--r--@  1 cyrusman  staff      16 Apr 20 16:28 pwd.txt
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x@ 10 cyrusman  staff     320 Apr 20 09:56 reactlearning
+[2023/04/20 4:41:26.671 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/04/20 4:41:26.671 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/04/20 4:41:26.671 PM] %                                                                                
+[2023/04/20 4:41:26.699 PM] ~ ❯ 

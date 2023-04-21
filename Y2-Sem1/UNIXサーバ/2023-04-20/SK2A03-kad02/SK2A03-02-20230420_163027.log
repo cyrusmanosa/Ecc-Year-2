@@ -1,0 +1,396 @@
+[2023/04/20 4:30:27.228 PM] Last login: Thu Apr 20 16:27:29 on ttys003
+
+[2023/04/20 4:30:27.260 PM] ~ ❯ %                                     ~ ❯ ccat > class.txtcat c          lass.txt
+[2023/04/20 4:30:54.132 PM] 5 se2a
+[2023/04/20 4:30:54.132 PM] 4 sk2a
+[2023/04/20 4:30:54.132 PM] 3 sk2b
+[2023/04/20 4:30:54.132 PM] 2 ie2a
+[2023/04/20 4:30:54.132 PM] 1 ie2b
+[2023/04/20 4:30:54.132 PM] %                                      
+[2023/04/20 4:30:54.161 PM] ~ ❯ ssort class.txt
+[2023/04/20 4:31:02.264 PM] 1 ie2b
+[2023/04/20 4:31:02.264 PM] 2 ie2a
+[2023/04/20 4:31:02.264 PM] 3 sk2b
+[2023/04/20 4:31:02.264 PM] 4 sk2a
+[2023/04/20 4:31:02.264 PM] 5 se2a
+[2023/04/20 4:31:02.264 PM] %                                      
+[2023/04/20 4:31:02.294 PM] ~ ❯ ssort class.txtsort -        k 2 class.txt
+[2023/04/20 4:31:16.820 PM] 2 ie2a
+[2023/04/20 4:31:16.820 PM] 1 ie2b
+[2023/04/20 4:31:16.820 PM] 5 se2a
+[2023/04/20 4:31:16.820 PM] 4 sk2a
+[2023/04/20 4:31:16.820 PM] 3 sk2b
+[2023/04/20 4:31:16.820 PM] %                                      
+[2023/04/20 4:31:16.851 PM] ~ ❯ ggrep "ie" class.txt
+[2023/04/20 4:31:36.013 PM] 2 ie2a
+[2023/04/20 4:31:36.013 PM] 1 ie2b
+[2023/04/20 4:31:36.013 PM] %                                      
+[2023/04/20 4:31:36.041 PM] ~ ❯ ssort -k 2 class.txtsort c             lass.txtlass.txt | grep "ie: "
+[2023/04/20 4:32:01.963 PM] 1 ie2b
+[2023/04/20 4:32:01.963 PM] 2 ie2a
+[2023/04/20 4:32:01.964 PM] %                                      
+[2023/04/20 4:32:01.993 PM] ~ ❯ 
+[2023/04/20 4:32:18.978 PM] %                                      
+[2023/04/20 4:32:19.012 PM] ~ ❯ ✘ INThhistory 0 -c 
+[2023/04/20 4:32:29.105 PM] History file deleted.
+[2023/04/20 4:32:29.105 PM] %                                      
+[2023/04/20 4:32:29.133 PM] ~ ❯ ccd
+[2023/04/20 4:32:30.780 PM] %                                      
+[2023/04/20 4:32:30.809 PM] ~ ❯ ppwd
+[2023/04/20 4:32:31.992 PM] /Users/cyrusman
+[2023/04/20 4:32:31.992 PM] %                                      
+[2023/04/20 4:32:32.021 PM] ~ ❯ lls -a
+[2023/04/20 4:32:33.849 PM] .
+[2023/04/20 4:32:33.849 PM] ..
+[2023/04/20 4:32:33.849 PM] .CFUserTextEncoding
+[2023/04/20 4:32:33.849 PM] .DS_Store
+[2023/04/20 4:32:33.849 PM] .Trash
+[2023/04/20 4:32:33.849 PM] .anaconda
+[2023/04/20 4:32:33.849 PM] .android
+[2023/04/20 4:32:33.849 PM] .bash_profile
+[2023/04/20 4:32:33.849 PM] .cache
+[2023/04/20 4:32:33.849 PM] .composer
+[2023/04/20 4:32:33.849 PM] .conda
+[2023/04/20 4:32:33.849 PM] .condarc
+[2023/04/20 4:32:33.849 PM] .config
+[2023/04/20 4:32:33.849 PM] .continuum
+[2023/04/20 4:32:33.849 PM] .emulator_console_auth_token
+[2023/04/20 4:32:33.849 PM] .flat-colors.itermcolors
+[2023/04/20 4:32:33.849 PM] .gitconfig
+[2023/04/20 4:32:33.849 PM] .gitflow_export
+[2023/04/20 4:32:33.849 PM] .gitignore_global
+[2023/04/20 4:32:33.849 PM] .gradle
+[2023/04/20 4:32:33.849 PM] .hgignore_global
+[2023/04/20 4:32:33.849 PM] .iterm2
+[2023/04/20 4:32:33.849 PM] .iterm2_shell_integration.zsh
+[2023/04/20 4:32:33.850 PM] .local
+[2023/04/20 4:32:33.850 PM] .m2
+[2023/04/20 4:32:33.850 PM] .mysql_history
+[2023/04/20 4:32:33.850 PM] .npm
+[2023/04/20 4:32:33.850 PM] .oh-my-zsh
+[2023/04/20 4:32:33.850 PM] .p10k.zsh
+[2023/04/20 4:32:33.850 PM] .packettracer
+[2023/04/20 4:32:33.850 PM] .phpls
+[2023/04/20 4:32:33.850 PM] .profile
+[2023/04/20 4:32:33.850 PM] .ssh
+[2023/04/20 4:32:33.850 PM] .stCommitMsg
+[2023/04/20 4:32:33.850 PM] .swiftpm
+[2023/04/20 4:32:33.850 PM] .viminfo
+[2023/04/20 4:32:33.850 PM] .vscode
+[2023/04/20 4:32:33.850 PM] .vscode-react-native
+[2023/04/20 4:32:33.850 PM] .zcompdump-Cyrus的MacBook Air-5.9
+[2023/04/20 4:32:33.850 PM] .zprofile
+[2023/04/20 4:32:33.850 PM] .zsh_history
+[2023/04/20 4:32:33.850 PM] .zsh_sessions
+[2023/04/20 4:32:33.850 PM] .zshrc
+[2023/04/20 4:32:33.850 PM] .zshrc.pre-oh-my-zsh
+[2023/04/20 4:32:33.850 PM] Applications
+[2023/04/20 4:32:33.850 PM] Cisco Packet Tracer 8.2.1
+[2023/04/20 4:32:33.850 PM] Command Prompt.lnk
+[2023/04/20 4:32:33.850 PM] DB(Year1)
+[2023/04/20 4:32:33.850 PM] Desktop
+[2023/04/20 4:32:33.850 PM] Documents
+[2023/04/20 4:32:33.850 PM] Downloads
+[2023/04/20 4:32:33.850 PM] Library
+[2023/04/20 4:32:33.850 PM] Movies
+[2023/04/20 4:32:33.850 PM] Music
+[2023/04/20 4:32:33.850 PM] Pictures
+[2023/04/20 4:32:33.850 PM] Public
+[2023/04/20 4:32:33.851 PM] Sites
+[2023/04/20 4:32:33.851 PM] abc
+[2023/04/20 4:32:33.851 PM] class.txt
+[2023/04/20 4:32:33.851 PM] composer.json
+[2023/04/20 4:32:33.851 PM] composer.lock
+[2023/04/20 4:32:33.851 PM] createNewStudb.sql
+[2023/04/20 4:32:33.851 PM] createStudb.sql
+[2023/04/20 4:32:33.851 PM] createTables.sql
+[2023/04/20 4:32:33.851 PM] date.txt
+[2023/04/20 4:32:33.851 PM] error.log
+[2023/04/20 4:32:33.851 PM] go
+[2023/04/20 4:32:33.851 PM] package-lock.json
+[2023/04/20 4:32:33.851 PM] pwd.txt
+[2023/04/20 4:32:33.851 PM] reactlearning
+[2023/04/20 4:32:33.851 PM] redoDatabase.sql
+[2023/04/20 4:32:33.851 PM] vendor
+[2023/04/20 4:32:33.851 PM] %                                      
+[2023/04/20 4:32:33.874 PM] ~ ❯ ls -a > homelist.txt
+[2023/04/20 4:32:41.876 PM] %                                      
+[2023/04/20 4:32:41.906 PM] ~ ❯ ccdcat homelist.txt  
+[2023/04/20 4:32:45.217 PM] .
+[2023/04/20 4:32:45.217 PM] ..
+[2023/04/20 4:32:45.217 PM] .CFUserTextEncoding
+[2023/04/20 4:32:45.217 PM] .DS_Store
+[2023/04/20 4:32:45.217 PM] .Trash
+[2023/04/20 4:32:45.217 PM] .anaconda
+[2023/04/20 4:32:45.217 PM] .android
+[2023/04/20 4:32:45.217 PM] .bash_profile
+[2023/04/20 4:32:45.217 PM] .cache
+[2023/04/20 4:32:45.217 PM] .composer
+[2023/04/20 4:32:45.217 PM] .conda
+[2023/04/20 4:32:45.217 PM] .condarc
+[2023/04/20 4:32:45.218 PM] .config
+[2023/04/20 4:32:45.218 PM] .continuum
+[2023/04/20 4:32:45.218 PM] .emulator_console_auth_token
+[2023/04/20 4:32:45.218 PM] .flat-colors.itermcolors
+[2023/04/20 4:32:45.218 PM] .gitconfig
+[2023/04/20 4:32:45.218 PM] .gitflow_export
+[2023/04/20 4:32:45.218 PM] .gitignore_global
+[2023/04/20 4:32:45.218 PM] .gradle
+[2023/04/20 4:32:45.218 PM] .hgignore_global
+[2023/04/20 4:32:45.218 PM] .iterm2
+[2023/04/20 4:32:45.218 PM] .iterm2_shell_integration.zsh
+[2023/04/20 4:32:45.218 PM] .local
+[2023/04/20 4:32:45.218 PM] .m2
+[2023/04/20 4:32:45.218 PM] .mysql_history
+[2023/04/20 4:32:45.218 PM] .npm
+[2023/04/20 4:32:45.218 PM] .oh-my-zsh
+[2023/04/20 4:32:45.218 PM] .p10k.zsh
+[2023/04/20 4:32:45.218 PM] .packettracer
+[2023/04/20 4:32:45.218 PM] .phpls
+[2023/04/20 4:32:45.218 PM] .profile
+[2023/04/20 4:32:45.218 PM] .ssh
+[2023/04/20 4:32:45.218 PM] .stCommitMsg
+[2023/04/20 4:32:45.218 PM] .swiftpm
+[2023/04/20 4:32:45.218 PM] .viminfo
+[2023/04/20 4:32:45.218 PM] .vscode
+[2023/04/20 4:32:45.218 PM] .vscode-react-native
+[2023/04/20 4:32:45.218 PM] .zcompdump-Cyrus的MacBook Air-5.9
+[2023/04/20 4:32:45.218 PM] .zprofile
+[2023/04/20 4:32:45.218 PM] .zsh_history
+[2023/04/20 4:32:45.218 PM] .zsh_sessions
+[2023/04/20 4:32:45.218 PM] .zshrc
+[2023/04/20 4:32:45.218 PM] .zshrc.pre-oh-my-zsh
+[2023/04/20 4:32:45.218 PM] Applications
+[2023/04/20 4:32:45.218 PM] Cisco Packet Tracer 8.2.1
+[2023/04/20 4:32:45.218 PM] Command Prompt.lnk
+[2023/04/20 4:32:45.218 PM] DB(Year1)
+[2023/04/20 4:32:45.218 PM] Desktop
+[2023/04/20 4:32:45.218 PM] Documents
+[2023/04/20 4:32:45.218 PM] Downloads
+[2023/04/20 4:32:45.218 PM] Library
+[2023/04/20 4:32:45.218 PM] Movies
+[2023/04/20 4:32:45.218 PM] Music
+[2023/04/20 4:32:45.218 PM] Pictures
+[2023/04/20 4:32:45.218 PM] Public
+[2023/04/20 4:32:45.218 PM] Sites
+[2023/04/20 4:32:45.218 PM] abc
+[2023/04/20 4:32:45.218 PM] class.txt
+[2023/04/20 4:32:45.218 PM] composer.json
+[2023/04/20 4:32:45.218 PM] composer.lock
+[2023/04/20 4:32:45.218 PM] createNewStudb.sql
+[2023/04/20 4:32:45.218 PM] createStudb.sql
+[2023/04/20 4:32:45.218 PM] createTables.sql
+[2023/04/20 4:32:45.218 PM] date.txt
+[2023/04/20 4:32:45.218 PM] error.log
+[2023/04/20 4:32:45.219 PM] go
+[2023/04/20 4:32:45.219 PM] homelist.txt
+[2023/04/20 4:32:45.219 PM] package-lock.json
+[2023/04/20 4:32:45.219 PM] pwd.txt
+[2023/04/20 4:32:45.219 PM] reactlearning
+[2023/04/20 4:32:45.219 PM] redoDatabase.sql
+[2023/04/20 4:32:45.219 PM] vendor
+[2023/04/20 4:32:45.219 PM] %                                      
+[2023/04/20 4:32:45.248 PM] ~ ❯ cat homelist.txt > file02a.txt
+[2023/04/20 4:32:54.967 PM] %                                      
+[2023/04/20 4:32:54.999 PM] ~ ❯ ssort -r homelist.txt  >> file02a.txt t 
+[2023/04/20 4:33:06.478 PM] %                                      
+[2023/04/20 4:33:06.508 PM] ~ ❯ ccat homelist.txt > file02a.txtcat f                         ile02a.txt  
+[2023/04/20 4:33:13.169 PM] .
+[2023/04/20 4:33:13.169 PM] ..
+[2023/04/20 4:33:13.169 PM] .CFUserTextEncoding
+[2023/04/20 4:33:13.169 PM] .DS_Store
+[2023/04/20 4:33:13.169 PM] .Trash
+[2023/04/20 4:33:13.169 PM] .anaconda
+[2023/04/20 4:33:13.169 PM] .android
+[2023/04/20 4:33:13.169 PM] .bash_profile
+[2023/04/20 4:33:13.169 PM] .cache
+[2023/04/20 4:33:13.169 PM] .composer
+[2023/04/20 4:33:13.169 PM] .conda
+[2023/04/20 4:33:13.169 PM] .condarc
+[2023/04/20 4:33:13.169 PM] .config
+[2023/04/20 4:33:13.169 PM] .continuum
+[2023/04/20 4:33:13.170 PM] .emulator_console_auth_token
+[2023/04/20 4:33:13.170 PM] .flat-colors.itermcolors
+[2023/04/20 4:33:13.170 PM] .gitconfig
+[2023/04/20 4:33:13.170 PM] .gitflow_export
+[2023/04/20 4:33:13.170 PM] .gitignore_global
+[2023/04/20 4:33:13.170 PM] .gradle
+[2023/04/20 4:33:13.170 PM] .hgignore_global
+[2023/04/20 4:33:13.170 PM] .iterm2
+[2023/04/20 4:33:13.170 PM] .iterm2_shell_integration.zsh
+[2023/04/20 4:33:13.170 PM] .local
+[2023/04/20 4:33:13.170 PM] .m2
+[2023/04/20 4:33:13.170 PM] .mysql_history
+[2023/04/20 4:33:13.170 PM] .npm
+[2023/04/20 4:33:13.170 PM] .oh-my-zsh
+[2023/04/20 4:33:13.170 PM] .p10k.zsh
+[2023/04/20 4:33:13.170 PM] .packettracer
+[2023/04/20 4:33:13.170 PM] .phpls
+[2023/04/20 4:33:13.170 PM] .profile
+[2023/04/20 4:33:13.170 PM] .ssh
+[2023/04/20 4:33:13.170 PM] .stCommitMsg
+[2023/04/20 4:33:13.170 PM] .swiftpm
+[2023/04/20 4:33:13.170 PM] .viminfo
+[2023/04/20 4:33:13.170 PM] .vscode
+[2023/04/20 4:33:13.170 PM] .vscode-react-native
+[2023/04/20 4:33:13.170 PM] .zcompdump-Cyrus的MacBook Air-5.9
+[2023/04/20 4:33:13.170 PM] .zprofile
+[2023/04/20 4:33:13.170 PM] .zsh_history
+[2023/04/20 4:33:13.170 PM] .zsh_sessions
+[2023/04/20 4:33:13.170 PM] .zshrc
+[2023/04/20 4:33:13.170 PM] .zshrc.pre-oh-my-zsh
+[2023/04/20 4:33:13.170 PM] Applications
+[2023/04/20 4:33:13.170 PM] Cisco Packet Tracer 8.2.1
+[2023/04/20 4:33:13.170 PM] Command Prompt.lnk
+[2023/04/20 4:33:13.170 PM] DB(Year1)
+[2023/04/20 4:33:13.170 PM] Desktop
+[2023/04/20 4:33:13.170 PM] Documents
+[2023/04/20 4:33:13.170 PM] Downloads
+[2023/04/20 4:33:13.170 PM] Library
+[2023/04/20 4:33:13.170 PM] Movies
+[2023/04/20 4:33:13.170 PM] Music
+[2023/04/20 4:33:13.171 PM] Pictures
+[2023/04/20 4:33:13.171 PM] Public
+[2023/04/20 4:33:13.171 PM] Sites
+[2023/04/20 4:33:13.171 PM] abc
+[2023/04/20 4:33:13.171 PM] class.txt
+[2023/04/20 4:33:13.171 PM] composer.json
+[2023/04/20 4:33:13.171 PM] composer.lock
+[2023/04/20 4:33:13.171 PM] createNewStudb.sql
+[2023/04/20 4:33:13.171 PM] createStudb.sql
+[2023/04/20 4:33:13.171 PM] createTables.sql
+[2023/04/20 4:33:13.171 PM] date.txt
+[2023/04/20 4:33:13.171 PM] error.log
+[2023/04/20 4:33:13.171 PM] go
+[2023/04/20 4:33:13.171 PM] homelist.txt
+[2023/04/20 4:33:13.171 PM] package-lock.json
+[2023/04/20 4:33:13.171 PM] pwd.txt
+[2023/04/20 4:33:13.171 PM] reactlearning
+[2023/04/20 4:33:13.171 PM] redoDatabase.sql
+[2023/04/20 4:33:13.171 PM] vendor
+[2023/04/20 4:33:13.171 PM] vendor
+[2023/04/20 4:33:13.171 PM] redoDatabase.sql
+[2023/04/20 4:33:13.171 PM] reactlearning
+[2023/04/20 4:33:13.171 PM] pwd.txt
+[2023/04/20 4:33:13.171 PM] package-lock.json
+[2023/04/20 4:33:13.171 PM] homelist.txt
+[2023/04/20 4:33:13.171 PM] go
+[2023/04/20 4:33:13.171 PM] error.log
+[2023/04/20 4:33:13.171 PM] date.txt
+[2023/04/20 4:33:13.171 PM] createTables.sql
+[2023/04/20 4:33:13.171 PM] createStudb.sql
+[2023/04/20 4:33:13.171 PM] createNewStudb.sql
+[2023/04/20 4:33:13.171 PM] composer.lock
+[2023/04/20 4:33:13.171 PM] composer.json
+[2023/04/20 4:33:13.171 PM] class.txt
+[2023/04/20 4:33:13.171 PM] abc
+[2023/04/20 4:33:13.171 PM] Sites
+[2023/04/20 4:33:13.171 PM] Public
+[2023/04/20 4:33:13.171 PM] Pictures
+[2023/04/20 4:33:13.171 PM] Music
+[2023/04/20 4:33:13.171 PM] Movies
+[2023/04/20 4:33:13.171 PM] Library
+[2023/04/20 4:33:13.172 PM] Downloads
+[2023/04/20 4:33:13.172 PM] Documents
+[2023/04/20 4:33:13.172 PM] Desktop
+[2023/04/20 4:33:13.172 PM] DB(Year1)
+[2023/04/20 4:33:13.172 PM] Command Prompt.lnk
+[2023/04/20 4:33:13.172 PM] Cisco Packet Tracer 8.2.1
+[2023/04/20 4:33:13.172 PM] Applications
+[2023/04/20 4:33:13.172 PM] .zshrc.pre-oh-my-zsh
+[2023/04/20 4:33:13.172 PM] .zshrc
+[2023/04/20 4:33:13.172 PM] .zsh_sessions
+[2023/04/20 4:33:13.172 PM] .zsh_history
+[2023/04/20 4:33:13.172 PM] .zprofile
+[2023/04/20 4:33:13.172 PM] .zcompdump-Cyrus的MacBook Air-5.9
+[2023/04/20 4:33:13.172 PM] .vscode-react-native
+[2023/04/20 4:33:13.172 PM] .vscode
+[2023/04/20 4:33:13.172 PM] .viminfo
+[2023/04/20 4:33:13.172 PM] .swiftpm
+[2023/04/20 4:33:13.172 PM] .stCommitMsg
+[2023/04/20 4:33:13.172 PM] .ssh
+[2023/04/20 4:33:13.172 PM] .profile
+[2023/04/20 4:33:13.172 PM] .phpls
+[2023/04/20 4:33:13.172 PM] .packettracer
+[2023/04/20 4:33:13.172 PM] .p10k.zsh
+[2023/04/20 4:33:13.172 PM] .oh-my-zsh
+[2023/04/20 4:33:13.172 PM] .npm
+[2023/04/20 4:33:13.172 PM] .mysql_history
+[2023/04/20 4:33:13.172 PM] .m2
+[2023/04/20 4:33:13.172 PM] .local
+[2023/04/20 4:33:13.172 PM] .iterm2_shell_integration.zsh
+[2023/04/20 4:33:13.172 PM] .iterm2
+[2023/04/20 4:33:13.172 PM] .hgignore_global
+[2023/04/20 4:33:13.172 PM] .gradle
+[2023/04/20 4:33:13.172 PM] .gitignore_global
+[2023/04/20 4:33:13.172 PM] .gitflow_export
+[2023/04/20 4:33:13.172 PM] .gitconfig
+[2023/04/20 4:33:13.172 PM] .flat-colors.itermcolors
+[2023/04/20 4:33:13.172 PM] .emulator_console_auth_token
+[2023/04/20 4:33:13.172 PM] .continuum
+[2023/04/20 4:33:13.172 PM] .config
+[2023/04/20 4:33:13.172 PM] .condarc
+[2023/04/20 4:33:13.172 PM] .conda
+[2023/04/20 4:33:13.172 PM] .composer
+[2023/04/20 4:33:13.172 PM] .cache
+[2023/04/20 4:33:13.172 PM] .bash_profile
+[2023/04/20 4:33:13.172 PM] .android
+[2023/04/20 4:33:13.172 PM] .anaconda
+[2023/04/20 4:33:13.172 PM] .Trash
+[2023/04/20 4:33:13.172 PM] .DS_Store
+[2023/04/20 4:33:13.172 PM] .CFUserTextEncoding
+[2023/04/20 4:33:13.172 PM] ..
+[2023/04/20 4:33:13.172 PM] .
+[2023/04/20 4:33:13.173 PM] %                                      
+[2023/04/20 4:33:13.199 PM] ~ ❯ lls -a > homelist.txtls -l                /
+[2023/04/20 4:33:19.710 PM] total 10
+[2023/04/20 4:33:19.710 PM] drwxrwxr-x  37 root  admin  1184 Apr 20 13:55 Applications
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x  65 root  wheel  2080 Apr 10 09:12 Library
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x@ 10 root  wheel   320 Apr  2 01:46 System
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x   5 root  admin   160 Apr 10 09:12 Users
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x   3 root  wheel    96 Apr 20 09:08 Volumes
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x@ 39 root  wheel  1248 Apr  2 01:46 bin
+[2023/04/20 4:33:19.710 PM] drwxr-xr-x   2 root  wheel    64 Jan 14 09:57 cores
+[2023/04/20 4:33:19.710 PM] dr-xr-xr-x   4 root  wheel  4736 Apr 20 09:06 dev
+[2023/04/20 4:33:19.710 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 etc -> private/etc
+[2023/04/20 4:33:19.711 PM] lrwxr-xr-x   1 root  wheel    25 Apr 20 09:06 home -> /System/Volumes/Data/home
+[2023/04/20 4:33:19.711 PM] drwxr-xr-x   3 root  wheel    96 Feb 14 14:56 opt
+[2023/04/20 4:33:19.711 PM] drwxr-xr-x   6 root  wheel   192 Apr 20 09:06 private
+[2023/04/20 4:33:19.711 PM] drwxr-xr-x@ 64 root  wheel  2048 Apr  2 01:46 sbin
+[2023/04/20 4:33:19.711 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 tmp -> private/tmp
+[2023/04/20 4:33:19.711 PM] drwxr-xr-x@ 11 root  wheel   352 Apr  2 01:46 usr
+[2023/04/20 4:33:19.711 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 var -> private/var
+[2023/04/20 4:33:19.711 PM] %                                      
+[2023/04/20 4:33:19.738 PM] ~ ❯ ls -l / l sort -k 5
+[2023/04/20 4:33:30.284 PM] ls: -k: No such file or directory
+[2023/04/20 4:33:30.284 PM] ls: 5: No such file or directory
+[2023/04/20 4:33:30.284 PM] ls: l: No such file or directory
+[2023/04/20 4:33:30.284 PM] ls: sort: No such file or directory
+[2023/04/20 4:33:30.284 PM] /:
+[2023/04/20 4:33:30.287 PM] total 10
+[2023/04/20 4:33:30.288 PM] drwxrwxr-x  37 root  admin  1184 Apr 20 13:55 Applications
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x  65 root  wheel  2080 Apr 10 09:12 Library
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x@ 10 root  wheel   320 Apr  2 01:46 System
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x   5 root  admin   160 Apr 10 09:12 Users
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x   3 root  wheel    96 Apr 20 09:08 Volumes
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x@ 39 root  wheel  1248 Apr  2 01:46 bin
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x   2 root  wheel    64 Jan 14 09:57 cores
+[2023/04/20 4:33:30.288 PM] dr-xr-xr-x   4 root  wheel  4736 Apr 20 09:06 dev
+[2023/04/20 4:33:30.288 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 etc -> private/etc
+[2023/04/20 4:33:30.288 PM] lrwxr-xr-x   1 root  wheel    25 Apr 20 09:06 home -> /System/Volumes/Data/home
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x   3 root  wheel    96 Feb 14 14:56 opt
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x   6 root  wheel   192 Apr 20 09:06 private
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x@ 64 root  wheel  2048 Apr  2 01:46 sbin
+[2023/04/20 4:33:30.288 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 tmp -> private/tmp
+[2023/04/20 4:33:30.288 PM] drwxr-xr-x@ 11 root  wheel   352 Apr  2 01:46 usr
+[2023/04/20 4:33:30.288 PM] lrwxr-xr-x@  1 root  wheel    11 Apr  2 01:46 var -> private/var
+[2023/04/20 4:33:30.288 PM] %                                      
+[2023/04/20 4:33:30.318 PM] ~ ❯ ssort -r homelist.txt >> file02a.txtsort file02b.txtsort: No such file or directory
+[2023/04/20 4:33:45.191 PM] %                                      
+[2023/04/20 4:33:45.223 PM] ~ ❯ 3 sort file02b.txtt file02b.txt st file02b.txt t file02b.txt ct file02b.txtcat file02b.txt
+[2023/04/20 4:34:02.223 PM] cat: file02b.txt: No such file or directory
+[2023/04/20 4:34:02.223 PM] %                                      
+[2023/04/20 4:34:02.254 PM] ~ ❯ cat file02b.txt> file02b.txt > file02b.txt
+[2023/04/20 4:34:29.136 PM] 3 kenji wada 70
+[2023/04/20 4:34:36.278 PM] 1to   toru okada 100
+[2023/04/20 4:35:26.082 PM] 7yoshi      yoshiharu abe 1000 
