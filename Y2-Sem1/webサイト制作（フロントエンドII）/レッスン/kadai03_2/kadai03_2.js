@@ -1,16 +1,20 @@
-var t = document.getElementById("navi-wrap");
-var topPos = t.offsetTop;
+{
+  const NW = document.querySelector("#navi-wrap");      // 引入目錄
+  const CN = document.querySelector("#category-navi");  // 引入目錄 CSS
+  const NWTop = NW.offsetTop;                           // 目錄頂點高度變數
 
-window.onscroll = function() {myFunction()};
-
-function myFunction(){
+  window.onscroll = (event) => {
+    let rollY = document.documentElement.scrollTop;     // roll event
     
-    if (window.pageYOffset > topPos) 
-    {
-        t.style.top.add(topPos)
+    if (rollY >= NWTop){                                // if roll數 多或等於頂點的高度
+        CN.style.top = `${rollY}px`;                    // CSS的Top數 ＝ roll數 
+    }else{
+        CN.style.top = `0px`;                           // 回到初點
     }
-    else
-    {
-        t.style.top.remove(topPos)
-    }
+  };
+  // 目錄外層（navi-wrap）的relative. 所以目錄與頂點會隔開
+
+  const year = document.querySelector("#year");
+  let date = new Date();
+  year.innerText = date.getFullYear();
 }
