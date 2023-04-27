@@ -1,0 +1,435 @@
+[2023/04/27 2:44:03.658 PM] Last login: Thu Apr 27 14:33:06 on ttys000
+
+[2023/04/27 2:44:03.684 PM] ~ ❯ %                                                                               ~ ❯ hhistory -c
+[2023/04/27 2:44:08.101 PM] History file deleted.
+[2023/04/27 2:44:08.101 PM] %                                                                                
+[2023/04/27 2:44:08.130 PM] ~ ❯ ppwd
+[2023/04/27 2:44:13.721 PM] /Users/cyrusman
+[2023/04/27 2:44:13.722 PM] %                                                                                
+[2023/04/27 2:44:13.753 PM] ~ ❯ lls
+[2023/04/27 2:44:14.763 PM] 2220042_文家俊＿dbadmin1.sql     composer.json
+[2023/04/27 2:44:14.763 PM] 2220042_文家俊＿dbadmin2.sql     composer.lock
+[2023/04/27 2:44:14.763 PM] Applications                     createNewStudb.sql
+[2023/04/27 2:44:14.763 PM] Cisco Packet Tracer 8.2.1        createStudb.sql
+[2023/04/27 2:44:14.763 PM] Command Prompt.lnk               createTables.sql
+[2023/04/27 2:44:14.763 PM] Desktop                          go
+[2023/04/27 2:44:14.763 PM] Documents                        home
+[2023/04/27 2:44:14.763 PM] Downloads                        package-lock.json
+[2023/04/27 2:44:14.763 PM] Library                          peanut.txt
+[2023/04/27 2:44:14.763 PM] Movies                           peanut4.txt
+[2023/04/27 2:44:14.763 PM] Music                            redoDatabase.sql
+[2023/04/27 2:44:14.763 PM] Pictures                         test2.txt
+[2023/04/27 2:44:14.763 PM] Public                           tmp
+[2023/04/27 2:44:14.763 PM] Sites                            vendor
+[2023/04/27 2:44:14.763 PM] %                                                                                
+[2023/04/27 2:44:14.792 PM] ~ ❯ llsls -l
+[2023/04/27 2:44:16.334 PM] total 352
+[2023/04/27 2:44:16.334 PM] -rw-rw-r--@  1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/04/27 2:44:16.334 PM] -rw-rw-r--@  1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/04/27 2:44:16.334 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/04/27 2:44:16.334 PM] drwxr-xr-x@ 11 cyrusman  staff     352 Apr 25 12:22 Cisco Packet Tracer 8.2.1
+[2023/04/27 2:44:16.334 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/04/27 2:44:16.334 PM] drwx------@ 13 cyrusman  staff     416 Apr 27 13:57 Desktop
+[2023/04/27 2:44:16.334 PM] drwx------+  6 cyrusman  staff     192 Apr 10 14:39 Documents
+[2023/04/27 2:44:16.334 PM] drwx------@  5 cyrusman  staff     160 Apr 27 13:40 Downloads
+[2023/04/27 2:44:16.334 PM] drwx------@ 97 cyrusman  staff    3104 Apr  6 14:51 Library
+[2023/04/27 2:44:16.334 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/04/27 2:44:16.334 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/04/27 2:44:16.334 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/04/27 2:44:16.334 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/04/27 2:44:16.334 PM] drwx------   5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/04/27 2:44:16.335 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/04/27 2:44:16.335 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/04/27 2:44:16.335 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/04/27 2:44:16.335 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/04/27 2:44:16.335 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/04/27 2:44:16.335 PM] drwxr-xr-x@  6 cyrusman  staff     192 Apr 19 23:41 go
+[2023/04/27 2:44:16.335 PM] drwxr-xr-x   4 cyrusman  staff     128 Apr 27 14:28 home
+[2023/04/27 2:44:16.335 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/04/27 2:44:16.335 PM] -rw-r--r--@  1 cyrusman  staff       0 Apr 27 14:29 peanut.txt
+[2023/04/27 2:44:16.335 PM] -rw-r--r--@  1 cyrusman  staff       0 Apr 27 14:35 peanut4.txt
+[2023/04/27 2:44:16.335 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/04/27 2:44:16.335 PM] -rw-r--r--@  1 cyrusman  staff       0 Apr 27 13:55 test2.txt
+[2023/04/27 2:44:16.335 PM] drwxr-xr-x   2 cyrusman  staff      64 Apr 27 14:40 tmp
+[2023/04/27 2:44:16.335 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/04/27 2:44:16.335 PM] %                                                                                
+[2023/04/27 2:44:16.358 PM] ~ ❯ ffile etc/hosts
+[2023/04/27 2:44:22.575 PM] etc/hosts: cannot open `etc/hosts' (No such file or directory)
+[2023/04/27 2:44:22.576 PM] %                                                                                
+[2023/04/27 2:44:22.606 PM] ~ ❯ file etc/hosts/etc/hosts
+[2023/04/27 2:44:28.627 PM] /etc/hosts: ASCII text
+[2023/04/27 2:44:28.630 PM] %                                                                                
+[2023/04/27 2:44:28.656 PM] ~ ❯ file /etc/hosts s  ts   sts    osts     hosts      /hosts       c/hosts        tc/hosts         etc/hostsb        in/ls
+[2023/04/27 2:44:37.339 PM] /bin/ls: Mach-O universal binary with 2 architectures: [x86_64:Mach-O 64-bit executable x86_64] [arm64e:Mach-O 64-bit executable arm64e]
+[2023/04/27 2:44:37.339 PM] /bin/ls (for architecture x86_64):Mach-O 64-bit executable x86_64
+[2023/04/27 2:44:37.339 PM] /bin/ls (for architecture arm64e):Mach-O 64-bit executable arm64e
+[2023/04/27 2:44:37.339 PM] %                                                                                
+[2023/04/27 2:44:37.369 PM] ~ ❯ file /bin/ls s  ls   /ls    n/ls     in/ls      bin/ls       /bin/ls        /bin/ls         e /bin/ls          le /bin/lsf           file /bin/ls            ccat /e  ec tc/issue
+[2023/04/27 2:44:51.985 PM] cat: etc/issue: No such file or directory
+[2023/04/27 2:44:51.986 PM] %                                                                                
+[2023/04/27 2:44:52.016 PM] ~ ❯ cat etc/issue/etc/issue
+[2023/04/27 2:44:56.035 PM] cat: /etc/issue: No such file or directory
+[2023/04/27 2:44:56.036 PM] %                                                                                
+[2023/04/27 2:44:56.066 PM] ~ ❯ lls -lle   ss /etc/e services
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] # Network services, Internet style
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] # Note that it is presently the policy of IANA to assign a single well-known
+[2023/04/27 2:45:07.486 PM] # port number for both TCP and UDP; hence, most entries here have two entries
+[2023/04/27 2:45:07.486 PM] # even if the protocol doesn't support UDP operations.
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] # The latest IANA port assignments can be gotten from
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] #       http://www.iana.org/assignments/port-numbers
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] # The Well Known Ports are those from 0 through 1023.
+[2023/04/27 2:45:07.486 PM] # The Registered Ports are those from 1024 through 49151
+[2023/04/27 2:45:07.486 PM] # The Dynamic and/or Private Ports are those from 49152 through 65535
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.486 PM] # $FreeBSD: src/etc/services,v 1.89 2002/12/17 23:59:10 eric Exp $
+[2023/04/27 2:45:07.486 PM] #       From: @(#)services      5.8 (Berkeley) 5/9/91
+[2023/04/27 2:45:07.486 PM] #
+[2023/04/27 2:45:07.487 PM] # WELL KNOWN PORT NUMBERS
+[2023/04/27 2:45:07.487 PM] #
+[2023/04/27 2:45:07.487 PM] rtmp              1/ddp    #Routing Table Maintenance Protocol
+[2023/04/27 2:45:07.487 PM] tcpmux            1/udp     # TCP Port Service Multiplexer
+[2023/04/27 2:45:07.487 PM] tcpmux            1/tcp     # TCP Port Service Multiplexer
+[2023/04/27 2:45:07.487 PM] #                          Mark Lottor <MKL@nisc.sri.com>
+[2023/04/27 2:45:07.487 PM] /etc/servicesnbp               2/ddp    #Name Binding Protocol
+[2023/04/27 2:45:08.707 PM] compressnet       2/udp     # Management Utility
+[2023/04/27 2:45:08.707 PM] compressnet       2/tcp     # Management Utility
+[2023/04/27 2:45:08.707 PM] compressnet       3/udp     # Compression Process
+[2023/04/27 2:45:08.707 PM] compressnet       3/tcp     # Compression Process
+[2023/04/27 2:45:08.707 PM] #                          Bernie Volz <VOLZ@PROCESS.COM>
+[2023/04/27 2:45:08.707 PM] echo              4/ddp    #AppleTalk Echo Protocol
+[2023/04/27 2:45:08.707 PM] #                 4/tcp    Unassigned
+[2023/04/27 2:45:08.707 PM] #                 4/udp    Unassigned
+[2023/04/27 2:45:08.707 PM] rje               5/udp     # Remote Job Entry
+[2023/04/27 2:45:08.707 PM] rje               5/tcp     # Remote Job Entry
+[2023/04/27 2:45:08.707 PM] #                          Jon Postel <postel@isi.edu>
+[2023/04/27 2:45:08.707 PM] zip               6/ddp    #Zone Information Protocol
+[2023/04/27 2:45:08.707 PM] #                 6/tcp    Unassigned
+[2023/04/27 2:45:08.707 PM] #                 6/udp    Unassigned
+[2023/04/27 2:45:08.707 PM] echo              7/udp     # Echo
+[2023/04/27 2:45:08.707 PM] echo              7/tcp     # Echo
+[2023/04/27 2:45:08.708 PM] #                          Jon Postel <postel@isi.edu>
+[2023/04/27 2:45:08.708 PM] #                 8/tcp    Unassigned
+[2023/04/27 2:45:08.708 PM] #                 8/udp    Unassigned
+[2023/04/27 2:45:08.708 PM] discard           9/udp     # Discard
+[2023/04/27 2:45:08.708 PM] discard           9/tcp     # Discard
+[2023/04/27 2:45:08.708 PM] #                          Jon Postel <postel@isi.edu>
+[2023/04/27 2:45:08.708 PM] #                10/tcp    Unassigned
+[2023/04/27 2:45:08.708 PM] :%                                                                                
+[2023/04/27 2:45:08.979 PM] ~ ❯ ttouc h home/c sa k2a03/peanut.txt
+[2023/04/27 2:45:32.597 PM] %                                                                                
+[2023/04/27 2:45:32.624 PM] ~ ❯ ccat /etc/issuecp             home/sks 2a03/peanut.txt tmp
+[2023/04/27 2:45:53.101 PM] %                                                                                
+[2023/04/27 2:45:53.130 PM] ~ ❯ cp home/sk2a03/peanut.txt tmp/peanut.txt  2.txt
+[2023/04/27 2:46:02.913 PM] %                                                                                
+[2023/04/27 2:46:02.942 PM] ~ ❯ lless /etc/servicesls                 -l t mp
+[2023/04/27 2:46:07.342 PM] peanut.txt  peanut2.txt
+[2023/04/27 2:46:07.342 PM] %                                                                                
+[2023/04/27 2:46:07.374 PM] ~ ❯ mmkdir home/sk2a03/nuts
+[2023/04/27 2:46:27.203 PM] %                                                                                
+[2023/04/27 2:46:27.233 PM] ~ ❯ ccp home/sk2a03/peanut.txt tmp/peanut2.txtcp -                                     r home/sk2a03/nuts tmp
+[2023/04/27 2:46:40.808 PM] %                                                                                
+[2023/04/27 2:46:40.838 PM] ~ ❯ cp -r home/sk2a03/nuts tmp/nuts2
+[2023/04/27 2:46:52.701 PM] %                                                                                
+[2023/04/27 2:46:52.732 PM] ~ ❯ lls tmpls tmp
+[2023/04/27 2:46:57.320 PM] nuts        nuts2       peanut.txt  peanut2.txt
+[2023/04/27 2:46:57.320 PM] %                                                                                
+[2023/04/27 2:46:57.350 PM] ~ ❯ mmkdir home/sk2a03/nutsmv                     tmo p/peanut2.txt home/sk2a03
+[2023/04/27 2:47:18.983 PM] %                                                                                
+[2023/04/27 2:47:19.013 PM] ~ ❯ mv tmp/peanut2.txt home/sk2a03.txt home/sk2a03 /peanut3.txt
+[2023/04/27 2:47:41.564 PM] %                                                                                
+[2023/04/27 2:47:41.594 PM] ~ ❯ lls tmpls    
+[2023/04/27 2:47:45.698 PM] 2220042_文家俊＿dbadmin1.sql     composer.json
+[2023/04/27 2:47:45.698 PM] 2220042_文家俊＿dbadmin2.sql     composer.lock
+[2023/04/27 2:47:45.698 PM] Applications                     createNewStudb.sql
+[2023/04/27 2:47:45.698 PM] Cisco Packet Tracer 8.2.1        createStudb.sql
+[2023/04/27 2:47:45.698 PM] Command Prompt.lnk               createTables.sql
+[2023/04/27 2:47:45.698 PM] Desktop                          go
+[2023/04/27 2:47:45.698 PM] Documents                        home
+[2023/04/27 2:47:45.698 PM] Downloads                        package-lock.json
+[2023/04/27 2:47:45.698 PM] Library                          peanut.txt
+[2023/04/27 2:47:45.698 PM] Movies                           peanut4.txt
+[2023/04/27 2:47:45.698 PM] Music                            redoDatabase.sql
+[2023/04/27 2:47:45.698 PM] Pictures                         test2.txt
+[2023/04/27 2:47:45.698 PM] Public                           tmp
+[2023/04/27 2:47:45.698 PM] Sites                            vendor
+[2023/04/27 2:47:45.698 PM] %                                                                                
+[2023/04/27 2:47:45.728 PM] ~ ❯ mmv tmp/peanut.txt home/sk2a03/peanut3.txtmv tml                                    p/peanut.txt home/sk2a03/peanut3.txtp/n                                 uts2 home/sk2a03
+[2023/04/27 2:47:58.466 PM] %                                                                                
+[2023/04/27 2:47:58.492 PM] ~ ❯ mv tmp/nuts2 home/sk2a03 home/sk2a03 /nuts3
+[2023/04/27 2:48:14.428 PM] %                                                                                
+[2023/04/27 2:48:14.457 PM] ~ ❯ llsls
+[2023/04/27 2:48:16.514 PM] 2220042_文家俊＿dbadmin1.sql     composer.json
+[2023/04/27 2:48:16.514 PM] 2220042_文家俊＿dbadmin2.sql     composer.lock
+[2023/04/27 2:48:16.514 PM] Applications                     createNewStudb.sql
+[2023/04/27 2:48:16.514 PM] Cisco Packet Tracer 8.2.1        createStudb.sql
+[2023/04/27 2:48:16.514 PM] Command Prompt.lnk               createTables.sql
+[2023/04/27 2:48:16.514 PM] Desktop                          go
+[2023/04/27 2:48:16.514 PM] Documents                        home
+[2023/04/27 2:48:16.514 PM] Downloads                        package-lock.json
+[2023/04/27 2:48:16.515 PM] Library                          peanut.txt
+[2023/04/27 2:48:16.515 PM] Movies                           peanut4.txt
+[2023/04/27 2:48:16.515 PM] Music                            redoDatabase.sql
+[2023/04/27 2:48:16.515 PM] Pictures                         test2.txt
+[2023/04/27 2:48:16.515 PM] Public                           tmp
+[2023/04/27 2:48:16.515 PM] Sites                            vendor
+[2023/04/27 2:48:16.515 PM] %                                                                                
+[2023/04/27 2:48:16.546 PM] ~ ❯ llsls tmph  ome /sk2a03
+[2023/04/27 2:48:36.921 PM] nuts        nuts2       nuts3       peanut.txt  peanut2.txt peanut3.txt
+[2023/04/27 2:48:36.921 PM] %                                                                                
+[2023/04/27 2:48:36.950 PM] ~ ❯ mmv tmp/nuts home/sk2a03/nuts3mv p                         eanut3.txt peanut4.txt
+[2023/04/27 2:48:50.346 PM] mv: peanut3.txt: No such file or directory
+[2023/04/27 2:48:50.346 PM] %                                                                                
+[2023/04/27 2:48:50.376 PM] ~ ❯ mv peanut3.txt peanut4.txthpeanut3.txt peanut4.txtopeanut3.txt peanut4.txtmpeanut3.txt peanut4.txtepeanut3.txt peanut4.txt/peanut3.txt peanut4.txtspeanut3.txt peanut4.txtkpeanut3.txt peanut4.txt2peanut3.txt peanut4.txtapeanut3.txt peanut4.txt0peanut3.txt peanut4.txt3peanut3.txt peanut4.txt/peanut3.txt peanut4.txt
+[2023/04/27 2:49:26.807 PM] %                                                                                
+[2023/04/27 2:49:26.837 PM] ~ ❯ mv home/sk2a03/peanut3.txt peanut4.txthpeanut4.txtopeanut4.txtmpeanut4.txtepeanut4.txt/peanut4.txtspeanut4.txtkpeanut4.txt2peanut4.txtapeanut4.txt0peanut4.txt3peanut4.txt/peanut4.txt
+[2023/04/27 2:49:54.087 PM] mv: rename home/sk2a03/peanut3.txt to home/sk2a03/peanut4.txt: No such file or directory
+[2023/04/27 2:49:54.087 PM] %                                                                                
+[2023/04/27 2:49:54.118 PM] ~ ❯ mv home/sk2a03/peanut3.txt home/sk2a03/peanut4.txtpeanut4.txt            peanut3.txt 4           ls home/sk2a03                        home/sk2a03            home/sk2a03
+[2023/04/27 2:50:17.062 PM] nuts        nuts2       nuts3       peanut.txt  peanut2.txt
+[2023/04/27 2:50:17.064 PM] %                                                                                
+[2023/04/27 2:50:17.093 PM] ~ ❯ ccp -r home/sk2a03/nuts tmp/nuts2cp -r home/sk2a03/nuts tmp/nuts2 2  s2   ts2    uts2     nuts2      /nuts2       p/nuts2        mp/nuts2         tmp/nuts2          tmp/nuts2           s tmp/nuts2            ts tmp/nuts2             uts tmp/nuts2              nuts tmp/nuts2p             eanut.txt home/sl k2a03/peanut3.txt
+[2023/04/27 2:51:05.967 PM] %                                                                                
+[2023/04/27 2:51:05.999 PM] ~ ❯ cp -r home/sk2a03/peanut.txt home/sk2a03/peanut3.txtls home/sk2a03                                      mv/peanut3.txt home/sk2a03/peanut4.txt
+[2023/04/27 2:51:16.646 PM] %                                                                                
+[2023/04/27 2:51:16.676 PM] ~ ❯ lls home/sk2a03ls home/sk2a03
+[2023/04/27 2:51:19.436 PM] nuts        nuts2       nuts3       peanut.txt  peanut2.txt peanut4.txt
+[2023/04/27 2:51:19.436 PM] %                                                                                
+[2023/04/27 2:51:19.469 PM] ~ ❯ rre r rm home/sk2a03/peanut4.txt
+[2023/04/27 2:51:46.074 PM] %                                                                                
+[2023/04/27 2:51:46.105 PM] ~ ❯ rm home/sk2a03/peanut4.txt t  xt   txt    .txt     4.txt      t4.txt       ut4.txt        nut4.txt         anut4.txt          eanut4.txt           peanut4.txt            /peanut4.txtn            /peanut4.txt/n          uts3-home/sk2a03/nuts3rhome/sk2a03/nuts3fhome/sk2a03/nuts3 home/sk2a03/nuts3
+[2023/04/27 2:52:02.278 PM] %                                                                                
+[2023/04/27 2:52:02.307 PM] ~ ❯ lls home/sk2a03ls home/sk2a03
+[2023/04/27 2:52:06.560 PM] nuts        nuts2       peanut.txt  peanut2.txt
+[2023/04/27 2:52:06.561 PM] %                                                                                
+[2023/04/27 2:52:06.591 PM] ~ ❯ hhistory
+[2023/04/27 2:52:15.062 PM]     1  pwd
+[2023/04/27 2:52:15.062 PM]     2  ls
+[2023/04/27 2:52:15.062 PM]     3  ls -l
+[2023/04/27 2:52:15.062 PM]     4  file etc/hosts
+[2023/04/27 2:52:15.062 PM]     5  file /etc/hosts
+[2023/04/27 2:52:15.062 PM]     6  file /bin/ls
+[2023/04/27 2:52:15.062 PM]     7  cat etc/issue
+[2023/04/27 2:52:15.062 PM]     8  cat /etc/issue
+[2023/04/27 2:52:15.062 PM]     9  less /etc/services
+[2023/04/27 2:52:15.062 PM]    10  touch home/sk2a03/peanut.txt
+[2023/04/27 2:52:15.062 PM]    11  cp home/sk2a03/peanut.txt tmp
+[2023/04/27 2:52:15.062 PM]    12  cp home/sk2a03/peanut.txt tmp/peanut2.txt
+[2023/04/27 2:52:15.062 PM]    13  ls tmp
+[2023/04/27 2:52:15.062 PM]    14  mkdir home/sk2a03/nuts
+[2023/04/27 2:52:15.063 PM]    15  cp -r home/sk2a03/nuts tmp
+[2023/04/27 2:52:15.063 PM]    16  cp -r home/sk2a03/nuts tmp/nuts2
+[2023/04/27 2:52:15.063 PM]    17  ls tmp
+[2023/04/27 2:52:15.063 PM]    18  mv tmp/peanut2.txt home/sk2a03
+[2023/04/27 2:52:15.063 PM]    19  mv tmp/peanut.txt home/sk2a03/peanut3.txt
+[2023/04/27 2:52:15.063 PM]    20  ls
+[2023/04/27 2:52:15.063 PM]    21  mv tmp/nuts2 home/sk2a03
+[2023/04/27 2:52:15.063 PM]    22  mv tmp/nuts home/sk2a03/nuts3
+[2023/04/27 2:52:15.063 PM]    23  ls
+[2023/04/27 2:52:15.063 PM]    24  ls home/sk2a03
+[2023/04/27 2:52:15.063 PM]    25  mv peanut3.txt peanut4.txt
+[2023/04/27 2:52:15.063 PM]    26  mv home/sk2a03/peanut3.txt peanut4.txt
+[2023/04/27 2:52:15.063 PM]    27  mv home/sk2a03/peanut3.txt home/sk2a03/peanut4.txt
+[2023/04/27 2:52:15.063 PM]    28  ls home/sk2a03
+[2023/04/27 2:52:15.063 PM]    29  cp -r home/sk2a03/peanut.txt home/sk2a03/peanut3.txt
+[2023/04/27 2:52:15.063 PM]    30  mv home/sk2a03/peanut3.txt home/sk2a03/peanut4.txt
+[2023/04/27 2:52:15.063 PM]    31  ls home/sk2a03
+[2023/04/27 2:52:15.063 PM]    32  rm home/sk2a03/peanut4.txt
+[2023/04/27 2:52:15.063 PM]    33  rm -rf home/sk2a03/nuts3
+[2023/04/27 2:52:15.063 PM]    34  ls home/sk2a03
+[2023/04/27 2:52:15.063 PM] %                                                                                
+[2023/04/27 2:52:15.092 PM] ~ ❯ 
+[2023/04/27 2:52:19.534 PM] %                                                                                
+[2023/04/27 2:52:19.567 PM] ~ ❯ 
+[2023/04/27 2:52:19.700 PM] %                                                                                
+[2023/04/27 2:52:19.734 PM] ~ ❯ 
+[2023/04/27 2:52:19.859 PM] %                                                                                
+[2023/04/27 2:52:19.892 PM] ~ ❯ 
+[2023/04/27 2:52:20.013 PM] %                                                                                
+[2023/04/27 2:52:20.045 PM] ~ ❯ 
+[2023/04/27 2:52:20.165 PM] %                                                                                
+[2023/04/27 2:52:20.199 PM] ~ ❯ 
+[2023/04/27 2:52:20.318 PM] %                                                                                
+[2023/04/27 2:52:20.350 PM] ~ ❯ 
+[2023/04/27 2:52:20.466 PM] %                                                                                
+[2023/04/27 2:52:20.498 PM] ~ ❯ 
+[2023/04/27 2:52:20.610 PM] %                                                                                
+[2023/04/27 2:52:20.641 PM] ~ ❯ 
+[2023/04/27 2:52:20.757 PM] %                                                                                
+[2023/04/27 2:52:20.789 PM] ~ ❯ 
+[2023/04/27 2:52:20.907 PM] %                                                                                
+[2023/04/27 2:52:20.939 PM] ~ ❯ hhistoryhic     storystory -c
+[2023/04/27 2:52:55.416 PM] History file deleted.
+[2023/04/27 2:52:55.416 PM] %                                                                                
+[2023/04/27 2:52:55.447 PM] ~ ❯ lls
+[2023/04/27 2:53:08.765 PM] 2220042_文家俊＿dbadmin1.sql     Sites
+[2023/04/27 2:53:08.765 PM] 2220042_文家俊＿dbadmin2.sql     composer.json
+[2023/04/27 2:53:08.765 PM] Applications                     composer.lock
+[2023/04/27 2:53:08.765 PM] Cisco Packet Tracer 8.2.1        createNewStudb.sql
+[2023/04/27 2:53:08.765 PM] Command Prompt.lnk               createStudb.sql
+[2023/04/27 2:53:08.765 PM] Desktop                          createTables.sql
+[2023/04/27 2:53:08.765 PM] Documents                        go
+[2023/04/27 2:53:08.765 PM] Downloads                        home
+[2023/04/27 2:53:08.765 PM] Library                          package-lock.json
+[2023/04/27 2:53:08.765 PM] Movies                           redoDatabase.sql
+[2023/04/27 2:53:08.765 PM] Music                            tmp
+[2023/04/27 2:53:08.765 PM] Pictures                         vendor
+[2023/04/27 2:53:08.765 PM] Public
+[2023/04/27 2:53:08.766 PM] %                                                                                
+[2023/04/27 2:53:08.796 PM] ~ ❯ llsls -a l
+[2023/04/27 2:53:14.499 PM] total 352
+[2023/04/27 2:53:14.499 PM] -rw-rw-r--@  1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/04/27 2:53:14.499 PM] -rw-rw-r--@  1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/04/27 2:53:14.499 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/04/27 2:53:14.499 PM] drwxr-xr-x@ 11 cyrusman  staff     352 Apr 25 12:22 Cisco Packet Tracer 8.2.1
+[2023/04/27 2:53:14.500 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/04/27 2:53:14.500 PM] drwx------@ 13 cyrusman  staff     416 Apr 27 13:57 Desktop
+[2023/04/27 2:53:14.500 PM] drwx------+  6 cyrusman  staff     192 Apr 10 14:39 Documents
+[2023/04/27 2:53:14.500 PM] drwx------@  5 cyrusman  staff     160 Apr 27 13:40 Downloads
+[2023/04/27 2:53:14.500 PM] drwx------@ 97 cyrusman  staff    3104 Apr  6 14:51 Library
+[2023/04/27 2:53:14.500 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/04/27 2:53:14.500 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/04/27 2:53:14.500 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/04/27 2:53:14.500 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/04/27 2:53:14.500 PM] drwx------   5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/04/27 2:53:14.500 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/04/27 2:53:14.500 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/04/27 2:53:14.500 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/04/27 2:53:14.500 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/04/27 2:53:14.500 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/04/27 2:53:14.500 PM] drwxr-xr-x@  6 cyrusman  staff     192 Apr 19 23:41 go
+[2023/04/27 2:53:14.500 PM] drwxr-xr-x   4 cyrusman  staff     128 Apr 27 14:28 home
+[2023/04/27 2:53:14.500 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/04/27 2:53:14.500 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/04/27 2:53:14.500 PM] drwxr-xr-x   2 cyrusman  staff      64 Apr 27 14:48 tmp
+[2023/04/27 2:53:14.500 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/04/27 2:53:14.500 PM] %                                                                                
+[2023/04/27 2:53:14.527 PM] ~ ❯ mmkdir     m  mmkdir jka   kad03
+[2023/04/27 2:58:09.869 PM] %                                                                                
+[2023/04/27 2:58:09.900 PM] ~ ❯ lls -lls -l
+[2023/04/27 2:58:39.973 PM] total 352
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/04/27 2:58:39.974 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/04/27 2:58:39.974 PM] drwxr-xr-x@ 11 cyrusman  staff     352 Apr 25 12:22 Cisco Packet Tracer 8.2.1
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/04/27 2:58:39.974 PM] drwx------@ 13 cyrusman  staff     416 Apr 27 13:57 Desktop
+[2023/04/27 2:58:39.974 PM] drwx------+  6 cyrusman  staff     192 Apr 10 14:39 Documents
+[2023/04/27 2:58:39.974 PM] drwx------@  5 cyrusman  staff     160 Apr 27 13:40 Downloads
+[2023/04/27 2:58:39.974 PM] drwx------@ 97 cyrusman  staff    3104 Apr  6 14:51 Library
+[2023/04/27 2:58:39.974 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/04/27 2:58:39.974 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/04/27 2:58:39.974 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/04/27 2:58:39.974 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/04/27 2:58:39.974 PM] drwx------   5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/04/27 2:58:39.974 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/04/27 2:58:39.974 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/04/27 2:58:39.974 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/04/27 2:58:39.974 PM] drwxr-xr-x@  6 cyrusman  staff     192 Apr 19 23:41 go
+[2023/04/27 2:58:39.975 PM] drwxr-xr-x   4 cyrusman  staff     128 Apr 27 14:28 home
+[2023/04/27 2:58:39.975 PM] drwxr-xr-x@  2 cyrusman  staff      64 Apr 27 14:58 kad03
+[2023/04/27 2:58:39.975 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/04/27 2:58:39.975 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/04/27 2:58:39.975 PM] drwxr-xr-x   2 cyrusman  staff      64 Apr 27 14:48 tmp
+[2023/04/27 2:58:39.975 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/04/27 2:58:39.975 PM] %                                                                                
+[2023/04/27 2:58:40.003 PM] ~ ❯ ttochi   uch file.txt
+[2023/04/27 2:59:31.250 PM] %                                                                                
+[2023/04/27 2:59:31.281 PM] ~ ❯ lls -lls -l
+[2023/04/27 2:59:34.622 PM] total 352
+[2023/04/27 2:59:34.622 PM] -rw-rw-r--@  1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/04/27 2:59:34.622 PM] -rw-rw-r--@  1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/04/27 2:59:34.622 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/04/27 2:59:34.622 PM] drwxr-xr-x@ 11 cyrusman  staff     352 Apr 25 12:22 Cisco Packet Tracer 8.2.1
+[2023/04/27 2:59:34.623 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/04/27 2:59:34.623 PM] drwx------@ 13 cyrusman  staff     416 Apr 27 13:57 Desktop
+[2023/04/27 2:59:34.623 PM] drwx------+  6 cyrusman  staff     192 Apr 10 14:39 Documents
+[2023/04/27 2:59:34.623 PM] drwx------@  5 cyrusman  staff     160 Apr 27 13:40 Downloads
+[2023/04/27 2:59:34.623 PM] drwx------@ 97 cyrusman  staff    3104 Apr  6 14:51 Library
+[2023/04/27 2:59:34.623 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/04/27 2:59:34.623 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/04/27 2:59:34.623 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/04/27 2:59:34.623 PM] drwx------   5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/04/27 2:59:34.623 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/04/27 2:59:34.623 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/04/27 2:59:34.623 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/04/27 2:59:34.623 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/04/27 2:59:34.623 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/04/27 2:59:34.623 PM] -rw-r--r--@  1 cyrusman  staff       0 Apr 27 14:59 file.txt
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x@  6 cyrusman  staff     192 Apr 19 23:41 go
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x   4 cyrusman  staff     128 Apr 27 14:28 home
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x@  2 cyrusman  staff      64 Apr 27 14:58 kad03
+[2023/04/27 2:59:34.623 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/04/27 2:59:34.623 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x   2 cyrusman  staff      64 Apr 27 14:48 tmp
+[2023/04/27 2:59:34.623 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/04/27 2:59:34.623 PM] %                                                                                
+[2023/04/27 2:59:34.653 PM] ~ ❯ ccp file.txt kad03/gil    
+[2023/04/27 3:00:52.238 PM] %                                                                                
+[2023/04/27 3:00:52.269 PM] ~ ❯ lls -lls k ad03
+[2023/04/27 3:01:08.521 PM] file.txt
+[2023/04/27 3:01:08.522 PM] %                                                                                
+[2023/04/27 3:01:08.545 PM] ~ ❯ ccp file.txt kad03cd                kad03
+[2023/04/27 3:01:16.211 PM] %                                                                                
+[2023/04/27 3:01:16.244 PM] ~/kad03 ❯ ccd kad03cp       file.txt kad03 file.txt kad03 3  03   d03    ad03     kad03f    ile3.txt
+[2023/04/27 3:01:44.161 PM] %                                                                                
+[2023/04/27 3:01:44.193 PM] ~/kad03 ❯ lls kad03ls      
+[2023/04/27 3:02:04.148 PM] file.txt  file3.txt
+[2023/04/27 3:02:04.148 PM] %                                                                                
+[2023/04/27 3:02:04.180 PM] ~/kad03 ❯ ccp file.txt file3.txtcd                    kad03 .    .
+[2023/04/27 3:02:08.424 PM] %                                                                                
+[2023/04/27 3:02:08.455 PM] ~ ❯ llsls kad03h    ome/sk2a03
+[2023/04/27 3:03:08.753 PM] nuts        nuts2       peanut.txt  peanut2.txt
+[2023/04/27 3:03:08.753 PM] %                                                                                
+[2023/04/27 3:03:08.783 PM] ~ ❯ rrer rm -r file.txt
+[2023/04/27 3:03:16.831 PM] %                                                                                
+[2023/04/27 3:03:16.861 PM] ~ ❯ lls home/sk2a03ls            
+[2023/04/27 3:03:22.303 PM] 2220042_文家俊＿dbadmin1.sql     Sites
+[2023/04/27 3:03:22.303 PM] 2220042_文家俊＿dbadmin2.sql     composer.json
+[2023/04/27 3:03:22.303 PM] Applications                     composer.lock
+[2023/04/27 3:03:22.303 PM] Cisco Packet Tracer 8.2.1        createNewStudb.sql
+[2023/04/27 3:03:22.303 PM] Command Prompt.lnk               createStudb.sql
+[2023/04/27 3:03:22.303 PM] Desktop                          createTables.sql
+[2023/04/27 3:03:22.303 PM] Documents                        go
+[2023/04/27 3:03:22.303 PM] Downloads                        home
+[2023/04/27 3:03:22.303 PM] Library                          kad03
+[2023/04/27 3:03:22.303 PM] Movies                           package-lock.json
+[2023/04/27 3:03:22.303 PM] Music                            redoDatabase.sql
+[2023/04/27 3:03:22.303 PM] Pictures                         tmp
+[2023/04/27 3:03:22.303 PM] Public                           vendor
+[2023/04/27 3:03:22.303 PM] %                                                                                
+[2023/04/27 3:03:22.327 PM] ~ ❯ hhistory
+[2023/04/27 3:03:33.454 PM]     1  ls
+[2023/04/27 3:03:33.454 PM]     2  ls -l
+[2023/04/27 3:03:33.454 PM]     3  mkdir kad03
+[2023/04/27 3:03:33.454 PM]     4  ls -l
+[2023/04/27 3:03:33.454 PM]     5  touch file.txt
+[2023/04/27 3:03:33.454 PM]     6  ls -l
+[2023/04/27 3:03:33.454 PM]     7  cp file.txt kad03
+[2023/04/27 3:03:33.454 PM]     8  ls kad03
+[2023/04/27 3:03:33.454 PM]     9  cd kad03
+[2023/04/27 3:03:33.454 PM]    10  cp file.txt file3.txt
+[2023/04/27 3:03:33.454 PM]    11  ls
+[2023/04/27 3:03:33.454 PM]    12  cd ..
+[2023/04/27 3:03:33.455 PM]    13  ls home/sk2a03
+[2023/04/27 3:03:33.455 PM]    14  rm -r file.txt
+[2023/04/27 3:03:33.455 PM]    15  ls
+[2023/04/27 3:03:33.455 PM] %                                                                                
+[2023/04/27 3:03:33.483 PM] ~ ❯ llsls home/sk2a03-          ll kad03
+[2023/04/27 3:03:55.472 PM] total 0
+[2023/04/27 3:03:55.473 PM] -rw-r--r--@ 1 cyrusman  staff  0 Apr 27 15:00 file.txt
+[2023/04/27 3:03:55.473 PM] -rw-r--r--@ 1 cyrusman  staff  0 Apr 27 15:01 file3.txt
+[2023/04/27 3:03:55.473 PM] %                                                                                
+[2023/04/27 3:03:55.503 PM] ~ ❯ hhistoryhistory . => kad03.txt
+[2023/04/27 3:04:40.755 PM] omz_history:fc:14: invalid replacement pattern: =
+[2023/04/27 3:04:40.755 PM] %                                                                                
+[2023/04/27 3:04:40.785 PM] ~ ❯ history => kad03.txt> kad03.txt 
+[2023/04/27 3:04:46.360 PM] %                                                                                
+[2023/04/27 3:04:46.392 PM] ~ ❯ 

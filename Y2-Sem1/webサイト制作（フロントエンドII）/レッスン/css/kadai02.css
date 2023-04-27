@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* 文字関係 */
+h2 {
+  font-size: 2.3em;
+}
+
+h3,
+input[type=text] {
+  font-size: 1.6em;
+}
+
+.text,
+button[type=button] {
+  font-size: 1.4em;
+}
+
+input[type=text] {
+  font-weight: bold;
+}
+
+#content .text {
+  line-height: 2em;
+}
+
+/* layout */
+h2 {
+  margin-bottom: 6px;
+}
+
+h3 {
+  margin-bottom: 12px;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6 {
+  padding: 24px;
+  border: 1px solid #ccc;
+  margin: 26px 0;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.form {
+  height: 30px;
+}
+
+input[type=text] {
+  width: 200px;
+  height: 30px;
+  margin-top: -4px;
+}
+
+button {
+  height: 31px;
+  border: 1px solid #ccc;
+  border-radius: .25rem;
+  transition: .15s ease-in-out;
+}
+
+button:hover {
+  background: #ccc;
+  border-color: #999;
+}

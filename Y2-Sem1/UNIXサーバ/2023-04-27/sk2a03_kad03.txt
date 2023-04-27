@@ -1,0 +1,18 @@
+    1  ls
+    2  ls -l
+    3  mkdir kad03
+    4  ls -l
+    5  touch file.txt
+    6  ls -l
+    7  cp file.txt kad03
+    8  ls kad03
+    9  cd kad03
+   10  cp file.txt file3.txt
+   11  ls
+   12  cd ..
+   13  ls home/sk2a03
+   14  rm -r file.txt
+   15  ls
+   16  history
+   17  ls -l kad03
+   18  history => kad03.txt

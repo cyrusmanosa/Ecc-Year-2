@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- link -->
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+
+<link rel="stylesheet" href="../css/kadai04.css">
+
+<!-- web font for google -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+<!-- Material icons for google -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<title>kadai04 - JavaScript1</title>
+</head>
+
+<body>
+<div id="wrapper">
+  <header>
+    <h1 id="logo">JS Method</h1>
+  </header>
+
+  <div id="content-wrap">
+    <h2>複数の要素へ汎用性を持たせたイベント処理</h2>
+
+    <div id="content">
+      <div class="wrapper">
+
+        <div class="list">
+          <a href="https://about.yahoo.co.jp/hr/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://about.yahoo.co.jp/hr/?w=400" alt="採用情報 - ヤフー株式会社">
+            </figure>
+            <div class="info">
+              <h3>ヤフー株式会社</h3>
+              <ul>
+                <li>東京</li>
+                <li>大阪</li>
+                <li>仙台</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.members.co.jp/" class="blank">
+
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.members.co.jp/?w=400" alt="メンバーズ｜ソーシャルメディア時代をリードするネットビジネスパートナー">
+            </figure>
+            
+            <div class="info">
+              <h3>株式会社メンバーズ</h3>
+              <ul>
+                <li>東京</li>
+                <li>神戸</li>
+                <li>福岡</li>
+                <li>仙台</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.team-lab.com/" class="blank">
+            <figure class="snapshot">
+              <img
+                src="https://s.wordpress.com/mshots/v1/https://www.team-lab.com/?w=400"
+                alt="チームラボ / teamLab"
+              >
+            </figure>
+            <div class="info">
+              <h3>チームラボ株式会社</h3>
+              <ul>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.gpol.co.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.gpol.co.jp/?w=400" alt="大阪・東京のホームページ・Web制作会社｜株式会社ジーピーオンライン">
+            </figure>
+            <div class="info">
+              <h3>株式会社ジーピーオンライン</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.aidem.co.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.aidem.co.jp/?w=400" alt="求人広告のアイデム - AiDEM -｜人と企業の未来をつむぐ">
+            </figure>
+            <div class="info">
+              <h3>株式会社アイデム</h3>
+              <ul>
+                <li>東京</li>
+                <li>大阪</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://zizo.ne.jp/" class="blank">
+            <figure class="snapshot" class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://zizo.ne.jp/?w=400" alt="株式会社ZIZO｜東京・大阪でWebサイトの企画・制作、Webサービスの運営">
+            </figure>
+            <div class="info">
+              <h3>株式会社ZIZO DESIGN</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.axcel-mode.co.jp/" class="blank">
+            <figure class="snapshot" class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.axcel-mode.co.jp/?w=400" alt="株式会社アクセル・モード | Axcel-Mode">
+            </figure>
+            <div class="info">
+              <h3>株式会社アクセル・モード</h3>
+              <ul>
+                <li>東京</li>
+                <li>京都</li>
+                <li>仙台</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.rainbow.co.jp/" class="blank">
+            <figure class="snapshot" class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.rainbow.co.jp/?w=400" alt="東京 恵比寿のweb制作会社 | 株式会社レインボー・ジャパン">
+            </figure>
+            <div class="info">
+              <h3>株式会社レインボー・ジャパン</h3>
+              <ul>
+                <li>東京</li>l
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="http://drippers.co.jp/" class="blank">
+            <figure class="snapshot" class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/http://drippers.co.jp/?w=400" alt="DRIPPERS inc.">
+            </figure>
+            <div class="info">
+              <h3>株式会社ドリッパーズ</h3>
+              <ul>
+                <li>大阪</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://depart-inc.com/" class="blank">
+            <figure class="snapshot" class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://depart-inc.com/?w=400" alt="DEPART inc.">
+            </figure>
+            <div class="info">
+              <h3>株式会社デパート</h3>
+              <ul>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="http://www.shiftbrain.com/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/http://www.shiftbrain.com/?w=400" alt="SHIFTBRAIN Inc.">
+            </figure>
+            <div class="info">
+              <h3>株式会社シフトブレイン</h3>
+              <ul>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.climarks.com/" class="blank"></a>
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.climarks.com/?w=400" alt="Webコンサルティング・Web制作会社 | クライマークス">
+            </figure>
+            <div class="info">
+              <h3>株式会社クライマークス</h3>
+              <ul>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="http://www.form-process.com/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/http://www.form-process.com/?w=400" alt="FORM::PROCESS">
+            </figure>
+            <div class="info">
+              <h3>フォーム・プロセス株式会社</h3>
+              <ul>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://gb-jp.com/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://gb-jp.com/?w=400" alt="【福岡】ホームページ制作＆Webマーケティング｜グレート・ビーンズ">
+            </figure>
+            <div class="info">
+              <h3>株式会社 グレート・ビーンズ</h3>
+              <ul>
+                <li>福岡</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="http://www.hot-factory.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/http://www.hot-factory.jp/?w=400" alt="Hot-Factory.,LTD | 株式会社ホットファクトリー">
+            </figure>
+            <div class="info">
+              <h3>株式会社ホットファクトリー</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="http://1pac.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/http://1pac.jp/?w=400" alt="株式会社ワンパク(1PAC. INC.) | We Create Communication of New Age!">
+            </figure>
+            <div class="info">
+              <h3>株式会社ワンパク</h3>
+              <ul>
+                <li>東京</li>
+                <li>大阪</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://w3g.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://w3g.jp/?w=400" alt="W3G Webをコアにビジネスの成長を支援するデジタルクリエイティブカンパニー">
+            </figure>
+            <div class="info">
+              <h3>W3G合同会社</h3>
+              <ul>
+                <li>奈良</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://corp.smaregi.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://corp.smaregi.jp/?w=400" alt="株式会社スマレジ 企業サイト">
+            </figure>
+            <div class="info">
+              <h3>株式会社スマレジ</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.firstbrand.co.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.firstbrand.co.jp/?w=400" alt="First Brand Inc.">
+            </figure>
+            <div class="info">
+              <h3>株式会社ファーストブランド</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.unionnet.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.unionnet.jp/?w=400" alt="ホームページ制作 大阪｜株式会社ユニオンネット ">
+            </figure>
+            <div class="info">
+              <h3>株式会社ユニオンネット</h3>
+              <ul>
+                <li>大阪</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.tam-tam.co.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.tam-tam.co.jp/?w=400" alt="TAM｜プロダクション・エージェンシー">
+            </figure>
+            <div class="info">
+              <h3>株式会社TAM</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://mefilas.com/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://mefilas.com/?w=400" alt="MEFILAS Inc. 株式会社メフィラス">
+            </figure>
+            <div class="info">
+              <h3>株式会社メフィラス</h3>
+              <ul>
+                <li>大阪</li>
+                <li>東京</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.un-t.com/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.un-t.com/?w=400" alt="un-T factory!">
+            </figure>
+            <div class="info">
+              <h3>株式会社アンティー・ファクトリー</h3>
+              <ul>
+                <li>東京</li>
+                <li>大阪</li>
+                <li>名古屋</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+        <div class="list">
+          <a href="https://www.ficc.jp/" class="blank">
+            <figure class="snapshot">
+              <img src="https://s.wordpress.com/mshots/v1/https://www.ficc.jp/?w=400" alt="FICC | デジタルエージェンシー">
+            </figure>
+            <div class="info">
+              <h3>株式会社エフアイシーシー</h3>
+              <ul>
+                <li>東京</li>
+                <li>京都</li>
+              </ul>
+            </div>
+          </a>
+        </div><!--/.list-->
+
+          <div class="list">
+            <a href="http://www.1-10.com/" class="blank">
+              <figure class="snapshot">
+                <img src="https://s.wordpress.com/mshots/v1/http://www.1-10.com/?w=400" alt="1→10, Inc. - Creative Studio / ワントゥーテン - クリエイティブスタジオ">
+              </figure>
+              <div class="info">
+                <h3>株式会社ワントゥーテン</h3>
+                <ul>
+                  <li>京都</li>
+                  <li>東京</li>
+                </ul>
+              </div>
+            </a>
+          </div><!--/.list-->
+
+          <div class="list">
+            <a href="http://www.botan.jp/" class="blank">
+              <figure class="snapshot">
+                <img src="https://s.wordpress.com/mshots/v1/http://www.botan.jp/?w=400" alt="BOTAN｜株式会社ボタン">
+              </figure>
+              <div class="info">
+                <h3>株式会社ボタン</h3>
+                <ul>
+                  <li>東京</li>
+                </ul>
+              </div>
+            </a>
+          </div><!--/.list-->
+
+          <div class="list">
+            <a href="https://www.mitsue.co.jp/" class="blank">
+              <figure class="snapshot">
+                <img src="https://s.wordpress.com/mshots/v1/https://www.mitsue.co.jp/?w=400" alt="ミツエーリンクス｜Webサイト構築・運用でコミュニケーションデザインを提供">
+              </figure>
+              <div class="info">
+                <h3>株式会社ミツエーリンクス</h3>
+                <ul>
+                  <li>東京</li>
+                  <li>大阪</li>
+                  <li>仙台</li>
+                </ul>
+              </div>
+            </a>
+          </div><!--/.list-->
+
+          <div class="list">
+            <a href="https://www.i-studio.co.jp/" class="blank">
+              <figure class="snapshot">
+                <img src="https://s.wordpress.com/mshots/v1/https://www.i-studio.co.jp/?w=400" alt="博報堂アイ・スタジオ">
+              </figure>
+              <div class="info">
+                <h3>株式会社博報堂アイ・スタジオ</h3>
+                <ul>
+                  <li>東京</li>
+                </ul>
+              </div>
+            </a>
+          </div><!--/.list-->
+
+          <div class="list">
+            <a href="https://www.sonicjam.co.jp/" class="blank">
+              <figure class="snapshot">
+                <img src="https://s.wordpress.com/mshots/v1/https://www.sonicjam.co.jp/?w=400" alt="SONICJAM | 株式会社ソニックジャム">
+              </figure>
+              <div class="info">
+                <h3>株式会社ソニックジャム</h3>
+                <ul>
+                  <li>東京</li>
+                </ul>
+              </div>
+            </a>
+          </div><!--/.list-->
+
+
+        <!--/.wrapper--></div>
+    <!--/#content--></div>
+
+  <!--/#content-wrap--></div>
+
+  <footer>
+    <div id="top-area"><a href="#wrapper"><i class="material-icons">keyboard_arrow_up</i></a></div>
+    <p id="copyright" class="font-weight-b"><small>copyright &copy; <span id="year">2020</span> ECC Comp. Web Design</small></p>
+  </footer>
+<!--/#wrapper--></div>
+
+<script src="../js/kadai04.js"></script>
+
+</body>
+</html>
