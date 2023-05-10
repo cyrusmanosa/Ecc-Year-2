@@ -1,6 +1,12 @@
+{
 let B = document.querySelectorAll('.blank')
-let LName = document.querySelectorAll('img')
+let List = document.querySelectorAll('.list')
 
-for( let i = 0; i < B.length; i++ ){
-    B[i].target = LName[i].alt       
+for (const property in B){
+    B[property].target = List[property].alt
+}
+
+const year = document.querySelector("#year");
+let date = new Date();
+year.innerText = date.getFullYear();
 }
