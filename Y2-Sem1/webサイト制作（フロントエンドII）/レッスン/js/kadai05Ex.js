@@ -1,17 +1,22 @@
-{
-  let imgCount = 1;
-  let img = document.querySelector("img");
+const slide = document.querySelectorAll("li");
+const sliders = document.getElementById("slider");
+let index = 0;
 
-  setInterval(() => {
-    if (imgCount > 13) {
-      imgCount = 1;
-    }
-    img.src = `../img/KD5/img-kadai05-00${imgCount}.jpg`;
-    imgCount++;
-  }, 3000);
 
-  const year = document.querySelector("#year");
-  let date = new Date();
-  year.innerText = date.getFullYear();
-
+function nextImage() {  
+  setTimeout(function(){slide[index].style.opacity = 0;},4000);
+  index++;
+  
+  slide[index].style.opacity = 100;
+  if (index + 1 > slide.length) {index = 1;} else {index++;}
 }
+
+function startSlideshow() {
+  index=0;
+
+  slide[index].style.opacity = 100;
+  setTimeout(() =>{slide[index].style.opacity = 0;},4000);
+  setInterval(() =>{nextImage()}, 5000);
+}
+
+startSlideshow();

@@ -1,0 +1,14 @@
+    1  pwd
+    2  cd /
+    3  pwd
+    4  ls
+    5  ~
+    6  pwd
+    7  ls
+    8  ls -al
+    9  Mkdir test
+   10  ls
+   11  rm -r test
+   12  Mkdir kad04
+   13  ls
+   14  history
