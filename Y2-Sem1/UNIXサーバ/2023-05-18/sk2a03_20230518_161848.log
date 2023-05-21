@@ -1,0 +1,489 @@
+[2023/05/18 4:18:48.450 PM] Last login: Thu May 18 15:43:19 on ttys000
+
+[2023/05/18 4:18:48.493 PM] ~ ❯ %                                                                               ~ ❯ exit    exitvim ~/.ssh/configssh sk2a03       vim ~/.ssh/configexit                 sssh sk2a03sh        s ssh sk2a03ssh -     p 1022 sk2a03@192.168.64.1p 1022 sk2a03@192.168.64.1 14
+[2023/05/18 4:19:00.925 PM] ssh: connect to host 192.168.64.4 port 1022: Connection refused
+[2023/05/18 4:19:00.926 PM] %                                                                                
+[2023/05/18 4:19:00.961 PM] ~ ❯ ✘ 255ssh -p 1022 sk2a03@192.168.64.422 sk2a03@192.168.64.4 22 sk2a03@192.168.64.4 
+[2023/05/18 4:19:12.576 PM] sk2a03@192.168.64.4's password: 
+
+[2023/05/18 4:19:22.328 PM] %                                                                                
+[2023/05/18 4:19:22.360 PM] ~ ❯ ✘ INT 10s
+[2023/05/18 4:19:22.560 PM] %                                                                                
+[2023/05/18 4:19:22.584 PM] ~ ❯ ✘ INT
+[2023/05/18 4:19:22.757 PM] %                                                                                
+[2023/05/18 4:19:22.786 PM] ~ ❯ ✘ INTssh -p 22 sk2a03@192.168.64.4sk2a03@192.168.64.4 sk2a03@192.168.64.4 sk2a03@192.168.64.4 sk2a03@192.168.64.4 sk2a03@192.168.64.4 sk2a03@192.168.64.4 
+[2023/05/18 4:19:28.102 PM] sk2a03@192.168.64.4's password: 
+[2023/05/18 4:19:31.053 PM] Welcome to Ubuntu 23.04 (GNU/Linux 6.2.0-20-generic aarch64)
+
+[2023/05/18 4:19:31.053 PM]  * Documentation:  https://help.ubuntu.com
+[2023/05/18 4:19:31.053 PM]  * Management:     https://landscape.canonical.com
+[2023/05/18 4:19:31.053 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/05/18 4:19:31.053 PM]   System information as of Thu May 18 07:19:30 AM UTC 2023
+
+[2023/05/18 4:19:31.053 PM]   System load:             0.0
+[2023/05/18 4:19:31.053 PM]   Usage of /:              45.2% of 29.82GB
+[2023/05/18 4:19:31.053 PM]   Memory usage:            11%
+[2023/05/18 4:19:31.053 PM]   Swap usage:              0%
+[2023/05/18 4:19:31.053 PM]   Processes:               210
+[2023/05/18 4:19:31.053 PM]   Users logged in:         1
+[2023/05/18 4:19:31.053 PM]   IPv4 address for enp0s1: 192.168.64.4
+[2023/05/18 4:19:31.053 PM]   IPv6 address for enp0s1: fd85:1dbd:ef9b:c3b9:ac2a:77ff:fe82:d16d
+
+[2023/05/18 4:19:31.053 PM]  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+[2023/05/18 4:19:31.053 PM]    just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+[2023/05/18 4:19:31.053 PM]    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+[2023/05/18 4:19:31.053 PM] 7 updates can be applied immediately.
+[2023/05/18 4:19:31.053 PM] 7 of these updates are standard security updates.
+[2023/05/18 4:19:31.053 PM] To see these additional updates run: apt list --upgradable
+
+
+[2023/05/18 4:19:31.053 PM] Last login: Thu May 18 06:44:01 2023 from 192.168.64.1
+[2023/05/18 4:19:31.103 PM] sk2a03@sk2a03:~$ sudo vim /etc/ssh/sshd_configsudo vim /etc/ssh/sshd_config
+[2023/05/18 4:19:41.667 PM] [sudo] password for sk2a03: 
+[2023/05/18 4:19:44.654 PM] "/etc/ssh/sshd_config" 126L, 3457B▽             # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:44.657 PM] #HostbasedAuthentication no# Change to yes if you don't trust ~/.ssh/known_hosts for# HostbasedAuthentication
+[2023/05/18 4:19:44.657 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:44.657 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:44.657 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:44.657 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:44.657 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:44.657 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:44.657 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:44.657 PM] # some PAM modules and threads)
+[2023/05/18 4:19:44.657 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:44.657 PM] # Kerberos options
+[2023/05/18 4:19:44.657 PM] #KerberosAuthentication no
+[2023/05/18 4:19:44.657 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:44.657 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:44.657 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:44.657 PM] # GSSAPI options
+[2023/05/18 4:19:44.657 PM] #GSSAPIAuthentication no63,0-150%# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:44.658 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:44.658 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:44.658 PM] # HostbasedAuthentication
+[2023/05/18 4:19:44.658 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:44.658 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:44.658 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:44.658 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:44.658 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:44.658 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:44.658 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:44.658 PM] # some PAM modules and threads)
+[2023/05/18 4:19:44.658 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:44.658 PM] # Kerberos options
+[2023/05/18 4:19:44.658 PM] #KerberosAuthentication no
+[2023/05/18 4:19:44.658 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:44.659 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:44.659 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:44.659 PM] # GSSAPI options
+[2023/05/18 4:19:44.659 PM] #GSSAPIAuthentication no63,0-150%"/etc/ssh/sshd_config" 126L, 3457B# For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:49.305 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:49.305 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:49.305 PM] # HostbasedAuthentication
+[2023/05/18 4:19:49.305 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:49.305 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:49.305 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:49.305 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:49.305 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:49.305 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:49.305 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:49.305 PM] # some PAM modules and threads)
+[2023/05/18 4:19:49.305 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:49.305 PM] # Kerberos options
+[2023/05/18 4:19:49.305 PM] #KerberosAuthentication no
+[2023/05/18 4:19:49.305 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:49.305 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:49.305 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:49.305 PM] # GSSAPI options
+[2023/05/18 4:19:49.305 PM] #GSSAPIAuthentication no
+[2023/05/18 4:19:49.305 PM] #GSSAPICleanupCredentials yes63,0-150%#PubkeyAuthentication yes
+
+[2023/05/18 4:19:49.521 PM] # Expect .ssh/authorized_keys2 to be disregarded by default in future.
+[2023/05/18 4:19:49.521 PM] #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+
+[2023/05/18 4:19:49.521 PM] #AuthorizedPrincipalsFile none
+
+[2023/05/18 4:19:49.521 PM] #AuthorizedKeysCommand none
+[2023/05/18 4:19:49.521 PM] #AuthorizedKeysCommandUser nobody
+
+[2023/05/18 4:19:49.521 PM] # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:49.521 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:49.521 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:49.521 PM] # HostbasedAuthentication
+[2023/05/18 4:19:49.521 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:49.521 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:49.521 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:49.521 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:49.521 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:49.521 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:49.521 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:49.521 PM] # some PAM modules and threads)
+[2023/05/18 4:19:49.521 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:49.521 PM] # Kerberos options
+[2023/05/18 4:19:49.521 PM] #KerberosAuthentication no
+[2023/05/18 4:19:49.521 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:49.521 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:49.521 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:49.521 PM] # GSSAPI options
+[2023/05/18 4:19:49.521 PM] #GSSAPIAuthentication no
+[2023/05/18 4:19:49.521 PM] #GSSAPICleanupCredentials yes
+[2023/05/18 4:19:49.521 PM] #GSSAPIStrictAcceptorCheck yes
+[2023/05/18 4:19:49.521 PM] #GSSAPIKeyExchange no
+
+[2023/05/18 4:19:49.521 PM] # Set this to 'yes' to enable PAM authentication, account processing,
+[2023/05/18 4:19:49.521 PM] # and session processing. If this is enabled, PAM authentication will
+[2023/05/18 4:19:49.521 PM] # be allowed through the KbdInteractiveAuthentication and
+[2023/05/18 4:19:49.521 PM] # PasswordAuthentication.  Depending on your PAM configuration,
+[2023/05/18 4:19:49.521 PM] # PAM authentication via KbdInteractiveAuthentication may bypass
+[2023/05/18 4:19:49.521 PM] # the setting of "PermitRootLogin without-password".
+[2023/05/18 4:19:49.521 PM] # If you just want the PAM account and session checks to run without63,0-150%#MaxSessions 10
+
+[2023/05/18 4:19:49.719 PM] #PubkeyAuthentication yes
+
+[2023/05/18 4:19:49.719 PM] # Expect .ssh/authorized_keys2 to be disregarded by default in future.
+[2023/05/18 4:19:49.719 PM] #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+
+[2023/05/18 4:19:49.719 PM] #AuthorizedPrincipalsFile none
+
+[2023/05/18 4:19:49.719 PM] #AuthorizedKeysCommand none
+[2023/05/18 4:19:49.719 PM] #AuthorizedKeysCommandUser nobody
+
+[2023/05/18 4:19:49.719 PM] # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:49.719 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:49.719 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:49.719 PM] # HostbasedAuthentication
+[2023/05/18 4:19:49.719 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:49.719 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:49.719 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:49.719 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:49.719 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:49.719 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:49.719 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:49.719 PM] # some PAM modules and threads)
+[2023/05/18 4:19:49.719 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:49.719 PM] # Kerberos options
+[2023/05/18 4:19:49.719 PM] #KerberosAuthentication no
+[2023/05/18 4:19:49.719 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:49.719 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:49.719 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:49.719 PM] # GSSAPI options
+[2023/05/18 4:19:49.719 PM] #GSSAPIAuthentication no
+[2023/05/18 4:19:49.719 PM] #GSSAPICleanupCredentials yes
+[2023/05/18 4:19:49.719 PM] #GSSAPIStrictAcceptorCheck yes
+[2023/05/18 4:19:49.719 PM] #GSSAPIKeyExchange no
+
+[2023/05/18 4:19:49.719 PM] # Set this to 'yes' to enable PAM authentication, account processing,
+[2023/05/18 4:19:49.719 PM] # and session processing. If this is enabled, PAM authentication will
+[2023/05/18 4:19:49.719 PM] # be allowed through the KbdInteractiveAuthentication and
+[2023/05/18 4:19:49.719 PM] # PasswordAuthentication.  Depending on your PAM configuration,
+[2023/05/18 4:19:49.719 PM] # PAM authentication via KbdInteractiveAuthentication may bypass
+[2023/05/18 4:19:49.719 PM] # the setting of "PermitRootLogin without-password".
+[2023/05/18 4:19:49.719 PM] # If you just want the PAM account and session checks to run without
+[2023/05/18 4:19:49.719 PM] # PAM authentication, then enable this but set PasswordAuthentication
+[2023/05/18 4:19:49.719 PM] # and KbdInteractiveAuthentication to 'no'.63,0-150%#StrictModes yes
+[2023/05/18 4:19:49.961 PM] #MaxAuthTries 6
+[2023/05/18 4:19:49.961 PM] #MaxSessions 10
+
+[2023/05/18 4:19:49.961 PM] #PubkeyAuthentication yes
+
+[2023/05/18 4:19:49.961 PM] # Expect .ssh/authorized_keys2 to be disregarded by default in future.
+[2023/05/18 4:19:49.961 PM] #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+
+[2023/05/18 4:19:49.961 PM] #AuthorizedPrincipalsFile none
+
+[2023/05/18 4:19:49.961 PM] #AuthorizedKeysCommand none
+[2023/05/18 4:19:49.961 PM] #AuthorizedKeysCommandUser nobody
+
+[2023/05/18 4:19:49.961 PM] # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:49.961 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:49.961 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:49.961 PM] # HostbasedAuthentication
+[2023/05/18 4:19:49.961 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:49.961 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:49.961 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:49.961 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:49.961 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:49.961 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:49.961 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:49.961 PM] # some PAM modules and threads)
+[2023/05/18 4:19:49.961 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:49.961 PM] # Kerberos options
+[2023/05/18 4:19:49.961 PM] #KerberosAuthentication no
+[2023/05/18 4:19:49.961 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:49.961 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:49.961 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:49.961 PM] # GSSAPI options
+[2023/05/18 4:19:49.961 PM] #GSSAPIAuthentication no
+[2023/05/18 4:19:49.961 PM] #GSSAPICleanupCredentials yes
+[2023/05/18 4:19:49.961 PM] #GSSAPIStrictAcceptorCheck yes
+[2023/05/18 4:19:49.961 PM] #GSSAPIKeyExchange no
+
+[2023/05/18 4:19:49.961 PM] # Set this to 'yes' to enable PAM authentication, account processing,
+[2023/05/18 4:19:49.961 PM] # and session processing. If this is enabled, PAM authentication will
+[2023/05/18 4:19:49.961 PM] # be allowed through the KbdInteractiveAuthentication and
+[2023/05/18 4:19:49.961 PM] # PasswordAuthentication.  Depending on your PAM configuration,
+[2023/05/18 4:19:49.961 PM] # PAM authentication via KbdInteractiveAuthentication may bypass
+[2023/05/18 4:19:49.961 PM] # the setting of "PermitRootLogin without-password".
+[2023/05/18 4:19:49.961 PM] # If you just want the PAM account and session checks to run without
+[2023/05/18 4:19:49.961 PM] # PAM authentication, then enable this but set PasswordAuthentication
+[2023/05/18 4:19:49.961 PM] # and KbdInteractiveAuthentication to 'no'.
+[2023/05/18 4:19:49.961 PM] UsePAM yes63,0-150%#StrictModes yes
+[2023/05/18 4:19:50.207 PM] #MaxAuthTries 6
+[2023/05/18 4:19:50.207 PM] #MaxSessions 10
+
+[2023/05/18 4:19:50.207 PM] #PubkeyAuthentication yes
+
+[2023/05/18 4:19:50.207 PM] # Expect .ssh/authorized_keys2 to be disregarded by default in future.
+[2023/05/18 4:19:50.207 PM] #AuthorizedKeysFile     .ssh/authorized_keys .ssh/authorized_keys2
+
+[2023/05/18 4:19:50.208 PM] #AuthorizedPrincipalsFile none
+
+[2023/05/18 4:19:50.208 PM] #AuthorizedKeysCommand none
+[2023/05/18 4:19:50.208 PM] #AuthorizedKeysCommandUser nobody
+
+[2023/05/18 4:19:50.208 PM] # For this to work you will also need host keys in /etc/ssh/ssh_known_hosts
+[2023/05/18 4:19:50.208 PM] #HostbasedAuthentication no
+[2023/05/18 4:19:50.208 PM] # Change to yes if you don't trust ~/.ssh/known_hosts for
+[2023/05/18 4:19:50.208 PM] # HostbasedAuthentication
+[2023/05/18 4:19:50.208 PM] #IgnoreUserKnownHosts no
+[2023/05/18 4:19:50.208 PM] # Don't read the user's ~/.rhosts and ~/.shosts files
+[2023/05/18 4:19:50.208 PM] #IgnoreRhosts yes
+
+[2023/05/18 4:19:50.208 PM] # To disable tunneled clear text passwords, change to no here!
+[2023/05/18 4:19:50.208 PM] #PasswordAuthentication yes
+[2023/05/18 4:19:50.208 PM] PermitEmptyPasswords no
+
+[2023/05/18 4:19:50.208 PM] # Change to yes to enable challenge-response passwords (beware issues with
+[2023/05/18 4:19:50.208 PM] # some PAM modules and threads)
+[2023/05/18 4:19:50.208 PM] KbdInteractiveAuthentication no
+
+[2023/05/18 4:19:50.208 PM] # Kerberos options
+[2023/05/18 4:19:50.208 PM] #KerberosAuthentication no
+[2023/05/18 4:19:50.208 PM] #KerberosOrLocalPasswd yes
+[2023/05/18 4:19:50.208 PM] #KerberosTicketCleanup yes
+[2023/05/18 4:19:50.208 PM] #KerberosGetAFSToken no
+
+[2023/05/18 4:19:50.208 PM] # GSSAPI options
+[2023/05/18 4:19:50.208 PM] #GSSAPIAuthentication no
+[2023/05/18 4:19:50.208 PM] #GSSAPICleanupCredentials yes
+[2023/05/18 4:19:50.208 PM] #GSSAPIStrictAcceptorCheck yes
+[2023/05/18 4:19:50.208 PM] #GSSAPIKeyExchange no
+
+[2023/05/18 4:19:50.208 PM] # Set this to 'yes' to enable PAM authentication, account processing,
+[2023/05/18 4:19:50.208 PM] # and session processing. If this is enabled, PAM authentication will
+[2023/05/18 4:19:50.208 PM] # be allowed through the KbdInteractiveAuthentication and
+[2023/05/18 4:19:50.208 PM] # PasswordAuthentication.  Depending on your PAM configuration,
+[2023/05/18 4:19:50.208 PM] # PAM authentication via KbdInteractiveAuthentication may bypass
+[2023/05/18 4:19:50.208 PM] # the setting of "PermitRootLogin without-password".
+[2023/05/18 4:19:50.208 PM] # If you just want the PAM account and session checks to run without
+[2023/05/18 4:19:50.208 PM] # PAM authentication, then enable this but set PasswordAuthentication
+[2023/05/18 4:19:50.208 PM] # and KbdInteractiveAuthentication to 'no'.
+[2023/05/18 4:19:50.208 PM] UsePAM yes
+
+[2023/05/18 4:19:50.208 PM] #AllowAgentForwarding yes63,0-151%i -- INSERT --63,151%2105987654321049876543PermitRootLogin no42,150%#LoginGraceTime 2m41,148%40,147%# Authentication:39,145%38,144%#LogLevel INFO37,143%#SyslogFacility AUTH36,141%# Logging35,140%34,138%#RekeyLimit default none33,137%# Ciphers and keying32,136%31,134%#HostKey /etc/ssh/ssh_host_ed25519_key30,133%#HostKey /etc/ssh/ssh_host_ecdsa_key29,131%#HostKey /etc/ssh/ssh_host_rsa_key28,130%27,129%#ListenAddress ::26,127%#ListenAddress 0.0.0.025,126%#AddressFamily any24,125%AllowUsers sk2a0323,123%Port 102222,122%# /usr/share/doc/openssh-server/README.Debian.gz for details.21,120%# which is now the default in Ubuntu.  See sshd_config(5) and20,119%# Port and ListenAddress options are not used when sshd is socket-activated,19,118%^[  19,118%::wq"/etc/ssh/sshd_config" 126L, 3457B written
+[2023/05/18 4:22:05.765 PM] sk2a03@sk2a03:~$ sudo systemctl restart sshsudo systemctl restart ssh
+[2023/05/18 4:22:12.199 PM] sk2a03@sk2a03:~$ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_ubuntu -C ""ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_ubuntu -C ""
+[2023/05/18 4:23:12.075 PM] Generating public/private ed25519 key pair.
+[2023/05/18 4:23:12.075 PM] Enter passphrase (empty for no passphrase): 
+[2023/05/18 4:23:31.605 PM] Enter same passphrase again: 
+[2023/05/18 4:23:33.317 PM] Your identification has been saved in /home/sk2a03/.ssh/id_ed25519_ubuntu
+[2023/05/18 4:23:33.317 PM] Your public key has been saved in /home/sk2a03/.ssh/id_ed25519_ubuntu.pub
+[2023/05/18 4:23:33.317 PM] The key fingerprint is:
+[2023/05/18 4:23:33.317 PM] SHA256:LmQCHNtGE6nchXb54UH0bp8Ph4PmEUw0eMOQzqMqpx0 
+[2023/05/18 4:23:33.317 PM] The key's randomart image is:
+[2023/05/18 4:23:33.317 PM] +--[ED25519 256]--+
+[2023/05/18 4:23:33.317 PM] |  . ++ ++=o      |
+[2023/05/18 4:23:33.317 PM] | . =+.+ =o+.     |
+[2023/05/18 4:23:33.317 PM] | .++oo = +o.     |
+[2023/05/18 4:23:33.317 PM] |  oo.   *+       |
+[2023/05/18 4:23:33.317 PM] |    . o.S.=      |
+[2023/05/18 4:23:33.317 PM] |     +.. . + o   |
+[2023/05/18 4:23:33.317 PM] |    E.. . + * .  |
+[2023/05/18 4:23:33.317 PM] |  ..o. . o . =   |
+[2023/05/18 4:23:33.317 PM] |  .+.     .   .  |
+[2023/05/18 4:23:33.317 PM] +----[SHA256]-----+
+[2023/05/18 4:23:33.321 PM] sk2a03@sk2a03:~$ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519_ubuntu -C ""
+[2023/05/18 4:23:39.508 PM] Generating public/private ed25519 key pair.
+[2023/05/18 4:23:39.509 PM] /home/sk2a03/.ssh/id_ed25519_ubuntu already exists.
+[2023/05/18 4:23:39.509 PM] Overwrite (y/n)? n y
+[2023/05/18 4:23:45.079 PM] Enter passphrase (empty for no passphrase): 
+[2023/05/18 4:23:47.574 PM] Enter same passphrase again: 
+[2023/05/18 4:23:49.273 PM] Your identification has been saved in /home/sk2a03/.ssh/id_ed25519_ubuntu
+[2023/05/18 4:23:49.273 PM] Your public key has been saved in /home/sk2a03/.ssh/id_ed25519_ubuntu.pub
+[2023/05/18 4:23:49.273 PM] The key fingerprint is:
+[2023/05/18 4:23:49.273 PM] SHA256:BmaUIvwulPvQPmVhWAwYGLbm55C8uHF+fbxW/yFA5gU 
+[2023/05/18 4:23:49.273 PM] The key's randomart image is:
+[2023/05/18 4:23:49.273 PM] +--[ED25519 256]--+
+[2023/05/18 4:23:49.273 PM] |.=.o.o..  E      |
+[2023/05/18 4:23:49.273 PM] |o = ..+    .     |
+[2023/05/18 4:23:49.273 PM] | o + ++   o .    |
+[2023/05/18 4:23:49.273 PM] |+ + ooo. + .     |
+[2023/05/18 4:23:49.273 PM] | * = . .S o      |
+[2023/05/18 4:23:49.273 PM] |. O o o.  ..     |
+[2023/05/18 4:23:49.273 PM] |o..* + . . .. .  |
+[2023/05/18 4:23:49.273 PM] | =  = . +   .. . |
+[2023/05/18 4:23:49.273 PM] |. .. . o..   ..  |
+[2023/05/18 4:23:49.273 PM] +----[SHA256]-----+
+[2023/05/18 4:23:49.282 PM] sk2a03@sk2a03:~$ 
+[2023/05/18 4:24:05.469 PM] sk2a03@sk2a03:~$ 
+[2023/05/18 4:24:05.694 PM] sk2a03@sk2a03:~$ 
+[2023/05/18 4:24:05.877 PM] sk2a03@sk2a03:~$ 
+[2023/05/18 4:24:06.031 PM] sk2a03@sk2a03:~$ 
+[2023/05/18 4:24:06.177 PM] sk2a03@sk2a03:~$ ssh-copy-id -i ~/.ssh/id_ed25519_ubuntu.pub ssh-copy-id -i ~/.ssh/id_ed25519_ubuntu.pub  sk2a03@19342.168.64.4 4
+[2023/05/18 4:24:31.824 PM] /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/sk2a03/.ssh/id_ed25519_ubuntu.pub"
+[2023/05/18 4:24:31.979 PM] /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+[2023/05/18 4:24:32.145 PM] /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+[2023/05/18 4:24:32.294 PM] sk2a03@192.168.64.4's password: 
+
+[2023/05/18 4:24:39.200 PM] Number of key(s) added: 1
+
+[2023/05/18 4:24:39.200 PM] Now try logging into the machine, with:   "ssh 'sk2a03@192.168.64.4'"
+[2023/05/18 4:24:39.200 PM] and check to make sure that only the key(s) you wanted were added.
+
+[2023/05/18 4:24:39.209 PM] sk2a03@sk2a03:~$ vim ~/.ssh/configvim ~/.ssh/config
+[2023/05/18 4:24:51.889 PM] "~/.ssh/config" [New]▽             ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All"~/.ssh/config" [New]i -- INSERT --0,1All^[  0,0-1All::wq".ssh/config" [New] 0L, 0B written
+[2023/05/18 4:25:02.828 PM] sk2a03@sk2a03:~$ exit
+[2023/05/18 4:25:34.627 PM] logout
+[2023/05/18 4:25:34.628 PM] Connection to 192.168.64.4 closed.
+[2023/05/18 4:25:34.628 PM] %                                                                                
+[2023/05/18 4:25:34.660 PM] ~ ❯ 6m 7sc ccdc  ccdc  lls 0 -l\ 
+[2023/05/18 4:25:41.303 PM] \total 360
+[2023/05/18 4:25:41.311 PM] -rw-rw-r--@  1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/05/18 4:25:41.311 PM] -rw-rw-r--@  1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/05/18 4:25:41.312 PM] -rw-r--r--@  1 cyrusman  staff    2354 Apr 28 11:05 2220042_文家俊＿dbadmin3.sql
+[2023/05/18 4:25:41.312 PM] drwx------@  4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/05/18 4:25:41.312 PM] drwxr-xr-x@ 10 cyrusman  staff     320 May 16 11:41 Cisco Packet Tracer 8.2.1
+[2023/05/18 4:25:41.312 PM] -rw-rw-r--@  1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/05/18 4:25:41.312 PM] drwx------@ 16 cyrusman  staff     512 May 18 15:20 Desktop
+[2023/05/18 4:25:41.312 PM] drwx------+  7 cyrusman  staff     224 May  9 12:17 Documents
+[2023/05/18 4:25:41.312 PM] drwx------@  7 cyrusman  staff     224 May 18 15:56 Downloads
+[2023/05/18 4:25:41.312 PM] drwx------@ 98 cyrusman  staff    3136 May  9 15:08 Library
+[2023/05/18 4:25:41.312 PM] drwx------   4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/05/18 4:25:41.312 PM] drwx------+  4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/05/18 4:25:41.312 PM] drwx------+  5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/05/18 4:25:41.312 PM] drwxr-xr-x+  4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/05/18 4:25:41.312 PM] drwx------   5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/05/18 4:25:41.312 PM] -rw-r--r--   1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/05/18 4:25:41.312 PM] -rw-r--r--   1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/05/18 4:25:41.312 PM] -rw-rw-r--@  1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/05/18 4:25:41.312 PM] -rw-rw-r--@  1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/05/18 4:25:41.312 PM] -rw-rw-r--@  1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/05/18 4:25:41.312 PM] drwxr-xr-x@  5 cyrusman  staff     160 Apr 27 17:36 go
+[2023/05/18 4:25:41.312 PM] -rw-r--r--@  1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/05/18 4:25:41.312 PM] -rw-rw-r--@  1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/05/18 4:25:41.312 PM] drwxr-xr-x   2 cyrusman  staff      64 May 18 14:19 tmp
+[2023/05/18 4:25:41.312 PM] drwxr-xr-x  15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/05/18 4:25:41.312 PM] %                                                                                
+[2023/05/18 4:25:41.345 PM] ~ ❯ \ lls -lls -ak \ l
+[2023/05/18 4:25:48.779 PM] total 944
+[2023/05/18 4:25:48.779 PM] drwxr-x---+  74 cyrusman  staff    2368 May 18 16:25 .
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x    5 root      admin     160 Apr 10 09:12 ..
+[2023/05/18 4:25:48.779 PM] -r--------    1 cyrusman  staff       8 Apr 13 15:35 .CFUserTextEncoding
+[2023/05/18 4:25:48.779 PM] -rw-r--r--@   1 cyrusman  staff   18436 May 18 14:42 .DS_Store
+[2023/05/18 4:25:48.779 PM] drwx------+  42 cyrusman  staff    1344 May 18 14:41 .Trash
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@   3 cyrusman  staff      96 Apr 18 15:01 .anaconda
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x   16 cyrusman  staff     512 Mar 20 15:30 .android
+[2023/05/18 4:25:48.779 PM] -rw-r--r--@   1 cyrusman  staff      18 Feb 14 16:06 .bash_profile
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x    9 cyrusman  staff     288 May 18 16:18 .cache
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x    5 cyrusman  staff     160 Apr 10 13:37 .composer
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@   3 root      staff      96 Apr 18 14:51 .conda
+[2023/05/18 4:25:48.779 PM] -rw-r--r--@   1 cyrusman  staff      23 Apr 18 15:01 .condarc
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@   5 cyrusman  staff     160 Apr 25 12:12 .config
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@   3 cyrusman  staff      96 Apr 18 15:01 .continuum
+[2023/05/18 4:25:48.779 PM] drwx------@   3 cyrusman  staff      96 May 10 16:31 .dlv
+[2023/05/18 4:25:48.779 PM] -rw-------    1 cyrusman  staff      16 Feb 14 14:31 .emulator_console_auth_token
+[2023/05/18 4:25:48.779 PM] -rw-r--r--@   1 cyrusman  staff    8391 Apr 13 16:29 .flat-colors.itermcolors
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@   9 cyrusman  staff     288 May 18 16:18 .git
+[2023/05/18 4:25:48.779 PM] -rw-r--r--    1 cyrusman  staff     564 Feb 24 09:43 .gitconfig
+[2023/05/18 4:25:48.779 PM] -rw-r--r--@   1 cyrusman  staff      82 Feb 24 09:43 .gitflow_export
+[2023/05/18 4:25:48.779 PM] -rw-r--r--    1 cyrusman  staff      13 Aug 24  2022 .gitignore_global
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x   11 cyrusman  staff     352 Mar 20 15:14 .gradle
+[2023/05/18 4:25:48.779 PM] -rw-r--r--    1 cyrusman  staff      27 Aug 24  2022 .hgignore_global
+[2023/05/18 4:25:48.779 PM] drwxr-xr-x@  17 cyrusman  staff     544 Apr 20 13:53 .iterm2
+[2023/05/18 4:25:48.779 PM] -rwxr-xr-x@   1 cyrusman  staff    7693 Apr 20 13:54 .iterm2_shell_integration.zsh
+[2023/05/18 4:25:48.779 PM] -rw-------@   1 cyrusman  staff      20 Apr 27 14:45 .lesshst
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr  6 15:39 .local
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    3 cyrusman  staff      96 Feb 14 14:23 .m2
+[2023/05/18 4:25:48.780 PM] -rw-------@   1 cyrusman  staff   45151 Apr 28 11:05 .mysql_history
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    6 cyrusman  staff     192 May  8 10:29 .npm
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x@  23 cyrusman  staff     736 May 10 20:36 .oh-my-zsh
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff   86046 Apr 18 18:35 .p10k.zsh
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff     250 May 16 11:20 .packettracer
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x  131 cyrusman  staff    4192 Apr 24 15:39 .phpls
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff       0 Feb 14 16:06 .profile
+[2023/05/18 4:25:48.780 PM] drwx------    7 cyrusman  staff     224 May 18 16:18 .ssh
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff       0 Feb 20 11:57 .stCommitMsg
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    5 cyrusman  staff     160 Apr  6 15:00 .swiftpm
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr 27 15:16 .th-client
+[2023/05/18 4:25:48.780 PM] -rw-------    1 root      staff    2404 Feb 14 16:35 .viminfo
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    4 cyrusman  staff     128 Feb 14 14:28 .vscode
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    2 cyrusman  staff      64 May  8 10:08 .vscode-cli
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr 20 10:29 .vscode-react-native
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff   49601 May 18 13:55 .zcompdump-Cyrus的MacBook Air-5.9
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff      82 Apr 18 13:59 .zprofile
+[2023/05/18 4:25:48.780 PM] -rw-------@   1 cyrusman  staff     675 May 18 16:25 .zsh_history
+[2023/05/18 4:25:48.780 PM] drwx------   68 cyrusman  staff    2176 Apr 14 09:02 .zsh_sessions
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff    4529 Apr 20 13:53 .zshrc
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff      77 Feb 16 03:58 .zshrc.pre-oh-my-zsh
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff    2354 Apr 28 11:05 2220042_文家俊＿dbadmin3.sql
+[2023/05/18 4:25:48.780 PM] drwx------@   4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x@  10 cyrusman  staff     320 May 16 11:41 Cisco Packet Tracer 8.2.1
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/05/18 4:25:48.780 PM] drwx------@  16 cyrusman  staff     512 May 18 15:20 Desktop
+[2023/05/18 4:25:48.780 PM] drwx------+   7 cyrusman  staff     224 May  9 12:17 Documents
+[2023/05/18 4:25:48.780 PM] drwx------@   7 cyrusman  staff     224 May 18 15:56 Downloads
+[2023/05/18 4:25:48.780 PM] drwx------@  98 cyrusman  staff    3136 May  9 15:08 Library
+[2023/05/18 4:25:48.780 PM] drwx------    4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/05/18 4:25:48.780 PM] drwx------+   4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/05/18 4:25:48.780 PM] drwx------+   5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x+   4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/05/18 4:25:48.780 PM] drwx------    5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/05/18 4:25:48.780 PM] -rw-r--r--    1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/05/18 4:25:48.780 PM] -rw-r--r--    1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/05/18 4:25:48.780 PM] -rw-rw-r--@   1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/05/18 4:25:48.780 PM] drwxr-xr-x@   5 cyrusman  staff     160 Apr 27 17:36 go
+[2023/05/18 4:25:48.780 PM] -rw-r--r--@   1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/05/18 4:25:48.781 PM] -rw-rw-r--@   1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/05/18 4:25:48.781 PM] drwxr-xr-x    2 cyrusman  staff      64 May 18 14:19 tmp
+[2023/05/18 4:25:48.781 PM] drwxr-xr-x   15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/05/18 4:25:48.781 PM] %                                                                                
+[2023/05/18 4:25:48.812 PM] ~ ❯ ccds c  ccd .ssh
+[2023/05/18 4:25:55.046 PM] %                                                                                
+[2023/05/18 4:25:55.064 PM] ~/.ssh ❯ kks k  lls -alls    
+[2023/05/18 4:25:59.042 PM] config                id_ed25519_ubuntu.pub known_hosts.old
+[2023/05/18 4:25:59.042 PM] id_ed25519_ubuntu     known_hosts
+[2023/05/18 4:25:59.044 PM] %                                                                                
+[2023/05/18 4:25:59.065 PM] ~/.ssh ❯ o oopen id_ed25519_ubuntu
+[2023/05/18 4:26:41.516 PM] %                                                                                
+[2023/05/18 4:26:41.546 PM] ~/.ssh ❯ 

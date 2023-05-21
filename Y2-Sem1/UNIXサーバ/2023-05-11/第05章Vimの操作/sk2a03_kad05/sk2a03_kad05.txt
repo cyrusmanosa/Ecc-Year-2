@@ -1,44 +1,19 @@
-    1  pwd
-    2  cd /
-    3  pwd
-    4  ls
-    5  ~
-    6  pwd
+    1  touch vim01.txt
+    2  vim vim01.txt
+    3  ls
+    4  cat vim01.txt
+    5  touch kad05a.html
+    6  vim kad05a.html
     7  ls
-    8  ls -al
-    9  Mkdir test
-   10  ls
-   11  rm -r test
-   12  Mkdir kad04
-   13  ls
-   14  history
-   15  history > /Users/cyrusman/kad04/kad04.txt
-   16  sudo apt install –y vim
-   17  brew java
-   18  brew list
-   19  brew java
-   20  brew install java
-   21  brew reinstall openjdk
-   22  sudo apt install –y vim
-   23  vim
-   24  brew list
-   25  brew install vim
-   26  brew update
-   27  brew upgrade
-   28  touch vim01.txt
-   29  vim vim01.txt
-   30  ls
-   31  cat vim01.txt
-   32  touch kad05a.html
-   33  vim kad05a.html
-   34  ls
-   35  cat kad05a.html
-   36  open kad05a.html
-   37  touch kad05b.sh
-   38  vim kad05b.sh
-   39  ls
-   40  cat kad05b.sh
-   41  sh kad05b.sh
-   42  ~
-   43  Mkdir kad05
-   44  history
+    8  cat kad05a.html
+    9  open kad05a.html
+   10  touch kad05a.sh
+   11  vim kad05a.sh
+   12  ls
+   13  cat kad05a.sh
+   14  sh kad05a.sh
+   15  ~
+   16  Mkdir kad05
+   17  history
+
+-rw-r--r--@ 1 cyrusman  staff  318 May 18 14:39 kad05.txt

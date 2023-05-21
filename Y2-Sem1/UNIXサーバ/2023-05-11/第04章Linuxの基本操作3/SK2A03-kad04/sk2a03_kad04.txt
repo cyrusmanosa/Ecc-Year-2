@@ -6,9 +6,16 @@
     6  pwd
     7  ls
     8  ls -al
-    9  Mkdir test
+    9  mkdir test
    10  ls
    11  rm -r test
-   12  Mkdir kad04
+   12  mkdir kad04
    13  ls
    14  history
+   15  ls -l
+   16  ls -l kad04
+   17  history > cyrusman/kad04/kad04.txt
+   18  history > /cyrusman/kad04/kad04.txt
+   19  pwd
+
+-rw-r--r--@ 1 cyrusman  staff  306 May 18 14:27 kad04.txt
