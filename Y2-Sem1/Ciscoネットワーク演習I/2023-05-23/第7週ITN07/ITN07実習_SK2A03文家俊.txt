@@ -1,0 +1,6 @@
+[2023/05/23 12:12:28.217 PM] Vlan    Mac Address       Type        Ports
+[2023/05/23 12:12:28.269 PM] ----    -----------       --------    -----
+[2023/05/23 12:12:28.321 PM]    1    001c.f651.d589    DYNAMIC     Fa0/1
+[2023/05/23 12:12:28.373 PM]    1    00e0.4c68.411f    DYNAMIC     Fa0/1
+[2023/05/23 12:12:28.424 PM]    1    a0ce.c863.7abe    DYNAMIC     Fa0/3
+[2023/05/23 12:12:28.476 PM] Total Mac Addresses for this criterion: 3
