@@ -1,0 +1,255 @@
+[2023/05/25 2:55:29.076 PM] Last login: Thu May 25 14:38:16 on ttys003
+
+[2023/05/25 2:55:29.103 PM] ~ ❯ %                                                                               ~ ❯ ssh sk2a03@192.168.64.4open sk2a03            ssh sk2a03@192.168.64.4
+[2023/05/25 2:55:32.174 PM] sk2a03@192.168.64.4's password: 
+[2023/05/25 2:55:35.646 PM] Welcome to Ubuntu 23.04 (GNU/Linux 6.2.0-20-generic aarch64)
+
+[2023/05/25 2:55:35.646 PM]  * Documentation:  https://help.ubuntu.com
+[2023/05/25 2:55:35.646 PM]  * Management:     https://landscape.canonical.com
+[2023/05/25 2:55:35.646 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/05/25 2:55:35.646 PM]   System information as of Thu May 25 05:55:35 AM UTC 2023
+
+[2023/05/25 2:55:35.646 PM]   System load:             0.1
+[2023/05/25 2:55:35.646 PM]   Usage of /:              44.6% of 29.82GB
+[2023/05/25 2:55:35.646 PM]   Memory usage:            19%
+[2023/05/25 2:55:35.646 PM]   Swap usage:              0%
+[2023/05/25 2:55:35.646 PM]   Processes:               209
+[2023/05/25 2:55:35.646 PM]   Users logged in:         1
+[2023/05/25 2:55:35.646 PM]   IPv4 address for enp0s1: 192.168.64.4
+[2023/05/25 2:55:35.646 PM]   IPv6 address for enp0s1: fd85:1dbd:ef9b:c3b9:ac2a:77ff:fe82:d16d
+
+[2023/05/25 2:55:35.646 PM]  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+[2023/05/25 2:55:35.646 PM]    just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+[2023/05/25 2:55:35.646 PM]    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+[2023/05/25 2:55:35.646 PM] 0 updates can be applied immediately.
+
+
+[2023/05/25 2:55:35.646 PM] Last login: Thu May 25 05:38:43 2023 from 192.168.64.1
+[2023/05/25 2:55:35.676 PM] sk2a03@sk2a03:~$ histroory -c
+[2023/05/25 2:55:41.389 PM] sk2a03@sk2a03:~$ sh tesvim test.sh
+[2023/05/25 2:56:28.899 PM] "test.sh" [New]▽             ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               ~                                                                               0,0-1All"test.sh" [New]i -- INSERT --0,1All#!/bin/bash
+[2023/05/25 2:56:36.754 PM] echo “カレントディレクトリ”pwdececho “ディレクトリとファイルを作成”mkdir kad07a
+[2023/05/25 2:56:36.758 PM] touch kad07.txtecho “ディレクトリとファイル”
+[2023/05/25 2:56:36.759 PM] cp kad07.txt kad07a9^[  9,0-1All::ewwa\q"test.sh" [New] 9L, 207B written
+[2023/05/25 2:56:42.223 PM] sk2a03@sk2a03:~$ sh test.sh
+[2023/05/25 2:56:48.415 PM] “カレントディレクトリ”
+[2023/05/25 2:56:48.415 PM] /home/sk2a03
+[2023/05/25 2:56:48.415 PM] “ディレクトリとファイルを作成”
+[2023/05/25 2:56:48.419 PM] “ディレクトリとファイル”
+[2023/05/25 2:56:48.431 PM] sk2a03@sk2a03:~$ ls
+[2023/05/25 2:57:20.730 PM] Desktop    Downloads  Pictures  Templates  kad07.txt  snap
+[2023/05/25 2:57:20.731 PM] Documents  Music      Public    Videos     kad07a     test.sh
+[2023/05/25 2:57:20.739 PM] sk2a03@sk2a03:~$ ls kad07a
+[2023/05/25 2:58:20.921 PM] kad07.txt
+[2023/05/25 2:58:20.929 PM] sk2a03@sk2a03:~$ ls -l test.sjhh
+[2023/05/25 2:58:36.747 PM] -rw-rw-r-- 1 sk2a03 sk2a03 207 May 25 05:56 test.sh
+[2023/05/25 2:58:36.755 PM] sk2a03@sk2a03:~$ ls *k8*
+[2023/05/25 2:58:49.738 PM] kad07.txt
+
+[2023/05/25 2:58:49.738 PM] Desktop:
+
+[2023/05/25 2:58:49.738 PM] kad07a:
+[2023/05/25 2:58:49.738 PM] kad07.txt
+[2023/05/25 2:58:49.747 PM] sk2a03@sk2a03:~$ ls *k*a*d*
+[2023/05/25 2:58:59.692 PM] kad07.txt
+
+[2023/05/25 2:58:59.692 PM] kad07a:
+[2023/05/25 2:58:59.692 PM] kad07.txt
+[2023/05/25 2:58:59.702 PM] sk2a03@sk2a03:~$ ls home * kad*
+[2023/05/25 2:59:23.849 PM] ls: cannot access 'home': No such file or directory
+[2023/05/25 2:59:23.849 PM] kad07.txt  kad07.txt  test.sh
+
+[2023/05/25 2:59:23.849 PM] Desktop:
+
+[2023/05/25 2:59:23.849 PM] Documents:
+[2023/05/25 2:59:23.849 PM] share
+
+[2023/05/25 2:59:23.849 PM] Downloads:
+
+[2023/05/25 2:59:23.849 PM] Music:
+
+[2023/05/25 2:59:23.849 PM] Pictures:
+
+[2023/05/25 2:59:23.849 PM] Public:
+
+[2023/05/25 2:59:23.850 PM] Templates:
+
+[2023/05/25 2:59:23.850 PM] Videos:
+
+[2023/05/25 2:59:23.850 PM] kad07a:
+[2023/05/25 2:59:23.850 PM] kad07.txt
+
+[2023/05/25 2:59:23.850 PM] kad07a:
+[2023/05/25 2:59:23.850 PM] kad07.txt
+
+[2023/05/25 2:59:23.850 PM] snap:
+[2023/05/25 2:59:23.850 PM] firefox
+[2023/05/25 2:59:23.858 PM] sk2a03@sk2a03:~$ ls | grep -i "echo" test.shls | grep -i "echo" test.sh
+[2023/05/25 2:59:44.495 PM] echo “カレントディレクトリ”
+[2023/05/25 2:59:44.495 PM] echo “ディレクトリとファイルを作成”
+[2023/05/25 2:59:44.495 PM] echo “ディレクトリとファイル”
+[2023/05/25 2:59:44.503 PM] sk2a03@sk2a03:~$ re m kad07.txt
+[2023/05/25 3:00:12.253 PM] sk2a03@sk2a03:~$ mv test.sh kad07a.batmv test.sh kad07a.bat
+[2023/05/25 3:00:20.860 PM] sk2a03@sk2a03:~$ cd kad07
+[2023/05/25 3:00:33.375 PM] -bash: cd: kad07: No such file or directory
+[2023/05/25 3:00:33.385 PM] sk2a03@sk2a03:~$ ls
+[2023/05/25 3:00:43.754 PM] Desktop    Downloads  Pictures  Templates  kad07a      snap
+[2023/05/25 3:00:43.754 PM] Documents  Music      Public    Videos     kad07a.bat
+[2023/05/25 3:00:43.763 PM] sk2a03@sk2a03:~$ lscd kad07a
+[2023/05/25 3:00:59.405 PM] sk2a03@sk2a03:~/kad07a$ mv  test.sh kad017.sh
+[2023/05/25 3:01:47.820 PM] mv: cannot stat 'test.sh': No such file or directory
+[2023/05/25 3:01:47.830 PM] sk2a03@sk2a03:~/kad07a$ ls
+[2023/05/25 3:02:04.498 PM] kad07.txt
+[2023/05/25 3:02:04.507 PM] sk2a03@sk2a03:~/kad07a$ cd ..
+[2023/05/25 3:02:07.560 PM] sk2a03@sk2a03:~$ ls
+[2023/05/25 3:02:08.218 PM] Desktop    Downloads  Pictures  Templates  kad07a      snap
+[2023/05/25 3:02:08.218 PM] Documents  Music      Public    Videos     kad07a.bat
+[2023/05/25 3:02:08.226 PM] sk2a03@sk2a03:~$ lscd ..lsmv test.sh kad07.shcd kad07a
+[2023/05/25 3:05:43.263 PM] sk2a03@sk2a03:~/kad07a$ cd kad07alscd ..lsmv test.sh kad07.shcd kad07amv test.sh kad07.sh
+[2023/05/25 3:05:48.320 PM] mv: cannot stat 'test.sh': No such file or directory
+[2023/05/25 3:05:48.330 PM] sk2a03@sk2a03:~/kad07a$ ls
+[2023/05/25 3:06:39.472 PM] kad07.txt  test.sh
+[2023/05/25 3:06:39.483 PM] sk2a03@sk2a03:~/kad07a$ lsmv test.sh kad07.sh
+[2023/05/25 3:06:44.724 PM] sk2a03@sk2a03:~/kad07a$ ls
+[2023/05/25 3:08:24.797 PM] kad07.sh  kad07.txt
+[2023/05/25 3:08:24.807 PM] sk2a03@sk2a03:~/kad07a$ chmod +x kad07.shchmod +x kad07.sh
+[2023/05/25 3:08:34.574 PM] sk2a03@sk2a03:~/kad07a$ ls -l kad07.sh
+[2023/05/25 3:08:57.837 PM] -rwxrwxr-x 1 sk2a03 sk2a03 207 May 25 05:56 kad07.sh
+[2023/05/25 3:08:57.846 PM] sk2a03@sk2a03:~/kad07a$ cd ..
+[2023/05/25 3:10:56.162 PM] sk2a03@sk2a03:~$ pwd
+[2023/05/25 3:11:05.071 PM] /home/sk2a03
+[2023/05/25 3:11:05.079 PM] sk2a03@sk2a03:~$ mv kad07a kad07
+[2023/05/25 3:11:32.254 PM] sk2a03@sk2a03:~$ ls
+[2023/05/25 3:11:42.958 PM] Desktop    Downloads  Pictures  Templates  kad07
+[2023/05/25 3:11:42.958 PM] Documents  Music      Public    Videos     snap
+[2023/05/25 3:11:42.968 PM] sk2a03@sk2a03:~$  history > kad07/ kad07.txt history > kad07/ kad07.txt
+[2023/05/25 3:11:59.773 PM] -bash: kad07/: Is a directory
+[2023/05/25 3:11:59.781 PM] sk2a03@sk2a03:~$ lsmv kad07a kad07pwdmv kad07a kad07ls-bash: kad07/: Is a directory-bash: kad07/: Is a directoryyyyyyyyyyyyyyyyyyyyyyyyyyyyyhistory > kad07/ kad07.txtyhistory > kad07/ kad07.txtykad07.txt/kad07/kad07.txt
+[2023/05/25 3:12:48.383 PM] -bash: /kad07/kad07.txt: No such file or directory
+[2023/05/25 3:12:48.390 PM] sk2a03@sk2a03:~$ ls
+[2023/05/25 3:12:51.666 PM] Desktop    Downloads  Pictures  Templates  kad07
+[2023/05/25 3:12:51.666 PM] Documents  Music      Public    Videos     snap
+[2023/05/25 3:12:51.679 PM] sk2a03@sk2a03:~$ lshistory > /kad07/kad07.txt> /kad07/kad07.txt
+[2023/05/25 3:13:01.178 PM] -bash: /kad07/kad07.txt: No such file or directory
+[2023/05/25 3:13:01.187 PM] sk2a03@sk2a03:~$ history >> /kad07/kad07.txt /kad07/kad07.txtls kad07
+[2023/05/25 3:14:05.132 PM] kad07.sh  kad07.txt
+[2023/05/25 3:14:05.141 PM] sk2a03@sk2a03:~$ ls kad07history > kad07/kad07.txt
+[2023/05/25 3:14:46.272 PM] sk2a03@sk2a03:~$ cat kakad07/kad07.txt
+[2023/05/25 3:15:13.134 PM]     1  vim test.sh
+[2023/05/25 3:15:13.134 PM]     2  sh test.sh
+[2023/05/25 3:15:13.134 PM]     3  ls
+[2023/05/25 3:15:13.134 PM]     4  ls kad07a
+[2023/05/25 3:15:13.134 PM]     5  ls -l test.sh
+[2023/05/25 3:15:13.134 PM]     6  ls *k*
+[2023/05/25 3:15:13.134 PM]     7  ls *kad*
+[2023/05/25 3:15:13.134 PM]     8  ls home * kad*
+[2023/05/25 3:15:13.134 PM]     9  ls | grep -i "echo" test.sh
+[2023/05/25 3:15:13.134 PM]    10  rm kad07.txt
+[2023/05/25 3:15:13.134 PM]    11  mv test.sh kad07a.bat
+[2023/05/25 3:15:13.134 PM]    12  cd kad07
+[2023/05/25 3:15:13.134 PM]    13  ls
+[2023/05/25 3:15:13.134 PM]    14  cd kad07a
+[2023/05/25 3:15:13.134 PM]    15  mv test.sh kad07.sh
+[2023/05/25 3:15:13.134 PM]    16  ls
+[2023/05/25 3:15:13.134 PM]    17  cd ..
+[2023/05/25 3:15:13.134 PM]    18  ls
+[2023/05/25 3:15:13.134 PM]    19  cd kad07a
+[2023/05/25 3:15:13.134 PM]    20  mv test.sh kad07.sh
+[2023/05/25 3:15:13.134 PM]    21  ls
+[2023/05/25 3:15:13.134 PM]    22  mv test.sh kad07.sh
+[2023/05/25 3:15:13.134 PM]    23  ls
+[2023/05/25 3:15:13.134 PM]    24  chmod +x kad07.sh
+[2023/05/25 3:15:13.135 PM]    25  ls -l kad07.sh
+[2023/05/25 3:15:13.135 PM]    26  cd ..
+[2023/05/25 3:15:13.135 PM]    27  pwd
+[2023/05/25 3:15:13.135 PM]    28  mv kad07a kad07
+[2023/05/25 3:15:13.135 PM]    29  ls
+[2023/05/25 3:15:13.135 PM]    30  history > /kad07/kad07.txt
+[2023/05/25 3:15:13.135 PM]    31  ls
+[2023/05/25 3:15:13.135 PM]    32  history >> /kad07/kad07.txt
+[2023/05/25 3:15:13.135 PM]    33  ls kad07
+[2023/05/25 3:15:13.135 PM]    34  history > kad07/kad07.txt
+[2023/05/25 3:15:13.143 PM] sk2a03@sk2a03:~$ ls -a
+[2023/05/25 3:16:13.344 PM] .                               .lesshst                   Documents
+[2023/05/25 3:16:13.344 PM] ..                              .local                     Downloads
+[2023/05/25 3:16:13.344 PM] .bash_history                   .mozilla                   Music
+[2023/05/25 3:16:13.344 PM] .bash_logout                    .profile                   Pictures
+[2023/05/25 3:16:13.344 PM] .bashrc                         .ssh                       Public
+[2023/05/25 3:16:13.344 PM] .cache                          .sudo_as_admin_successful  Templates
+[2023/05/25 3:16:13.344 PM] .config                         .thunderbird               Videos
+[2023/05/25 3:16:13.344 PM] .iterm2                         .viminfo                   kad07
+[2023/05/25 3:16:13.344 PM] .iterm2_shell_integration.bash  Desktop                    snap
+[2023/05/25 3:16:13.352 PM] sk2a03@sk2a03:~$ shutdown h +3 33
+[2023/05/25 3:16:27.516 PM] Failed to parse time specification: h
+[2023/05/25 3:16:27.524 PM] sk2a03@sk2a03:~$ shutdown h +3-
+[2023/05/25 3:17:56.402 PM] Failed to schedule shutdown: Interactive authentication required.
+[2023/05/25 3:17:56.412 PM] sk2a03@sk2a03:~$ sudo shutdown -h +5sudo shutdown -h +53
+[2023/05/25 3:18:06.597 PM] [sudo] password for sk2a03: 
+
+[2023/05/25 3:18:09.653 PM] Broadcast message from root@sk2a03 on pts/1 (Thu 2023-05-25 06:18:09 UTC):
+
+[2023/05/25 3:18:09.653 PM] The system will power off at Thu 2023-05-25 06:21:09 UTC!
+
+[2023/05/25 3:18:09.655 PM] Shutdown scheduled for Thu 2023-05-25 06:21:09 UTC, use 'shutdown -c' to cancel.
+[2023/05/25 3:18:09.668 PM] sk2a03@sk2a03:~$ quit
+[2023/05/25 3:18:20.005 PM] Command 'quit' not found, did you mean:
+[2023/05/25 3:18:20.005 PM]   command 'quilt' from deb quilt (0.67+really0.66-1)
+[2023/05/25 3:18:20.005 PM]   command 'qgit' from deb qgit (2.10-2)
+[2023/05/25 3:18:20.005 PM]   command 'quiz' from deb bsdgames (2.17-29)
+[2023/05/25 3:18:20.005 PM]   command 'luit' from deb x11-utils (7.7+5build2)
+[2023/05/25 3:18:20.005 PM] Try: sudo apt install <deb name>
+[2023/05/25 3:18:20.013 PM] sk2a03@sk2a03:~$ eixiyt
+[2023/05/25 3:18:26.989 PM] logout
+[2023/05/25 3:18:26.995 PM] Connection to 192.168.64.4 closed.
+[2023/05/25 3:18:26.998 PM] %                                                                                
+[2023/05/25 3:18:27.034 PM] ~ ❯ 22m 55sllsls
+[2023/05/25 3:24:54.203 PM] 2220042_文家俊＿dbadmin1.sql     Public
+[2023/05/25 3:24:54.203 PM] 2220042_文家俊＿dbadmin2.sql     Sites
+[2023/05/25 3:24:54.203 PM] 2220042_文家俊＿dbadmin3.sql     composer.json
+[2023/05/25 3:24:54.203 PM] Applications                     composer.lock
+[2023/05/25 3:24:54.203 PM] Cisco Packet Tracer 8.2.1        createNewStudb.sql
+[2023/05/25 3:24:54.203 PM] Command Prompt.lnk               createStudb.sql
+[2023/05/25 3:24:54.203 PM] Desktop                          createTables.sql
+[2023/05/25 3:24:54.203 PM] Documents                        go
+[2023/05/25 3:24:54.203 PM] Downloads                        package-lock.json
+[2023/05/25 3:24:54.203 PM] IdeaProjects                     redoDatabase.sql
+[2023/05/25 3:24:54.203 PM] Library                          test
+[2023/05/25 3:24:54.203 PM] Movies                           tmp
+[2023/05/25 3:24:54.204 PM] Music                            vendor
+[2023/05/25 3:24:54.204 PM] Pictures
+[2023/05/25 3:24:54.204 PM] %                                                                                
+[2023/05/25 3:24:54.228 PM] ~ ❯ pping 192.168.1.1pw              dd
+[2023/05/25 3:24:55.909 PM] /Users/cyrusman
+[2023/05/25 3:24:55.909 PM] %                                                                                
+[2023/05/25 3:24:55.936 PM] ~ ❯ ccd homecd d   esDktop/ p p p p p p p cp p pwdcp cdp p.p.p
+[2023/05/25 3:26:56.133 PM] cd: no such file or directory: ..p
+[2023/05/25 3:26:56.133 PM] %                                                                                
+[2023/05/25 3:26:56.164 PM] ~ ❯ ccd ..pcd ..p p 
+[2023/05/25 3:26:58.814 PM] %                                                                                
+[2023/05/25 3:26:58.844 PM]  /Users ❯ llsls
+[2023/05/25 3:26:59.834 PM] Shared   cyrusman
+[2023/05/25 3:26:59.834 PM] %                                                                                
+[2023/05/25 3:26:59.863 PM]  /Users ❯ ccd ..cd ..
+[2023/05/25 3:27:04.286 PM] %                                                                                
+[2023/05/25 3:27:04.316 PM]  / ❯ llsls
+[2023/05/25 3:27:05.479 PM] Applications Users        cores        home         sbin         var
+[2023/05/25 3:27:05.479 PM] Library      Volumes      dev          opt          tmp
+[2023/05/25 3:27:05.479 PM] System       bin          etc          private      usr
+[2023/05/25 3:27:05.479 PM] %                                                                                
+[2023/05/25 3:27:05.509 PM]  / ❯ ccd ..cd ..
+[2023/05/25 3:27:12.422 PM] %                                                                                
+[2023/05/25 3:27:12.453 PM]  / ❯ llsls
+[2023/05/25 3:27:13.396 PM] Applications Users        cores        home         sbin         var
+[2023/05/25 3:27:13.396 PM] Library      Volumes      dev          opt          tmp
+[2023/05/25 3:27:13.396 PM] System       bin          etc          private      usr
+[2023/05/25 3:27:13.396 PM] %                                                                                
+[2023/05/25 3:27:13.425 PM]  / ❯ hhome  h  ccd ..cd h omeome
+[2023/05/25 3:27:38.218 PM] %                                                                                
+[2023/05/25 3:27:38.328 PM]  /home loading ❯  /home ❯ llsls
+[2023/05/25 3:27:39.231 PM] %                                                                                
+[2023/05/25 3:27:39.273 PM]  /home loading ❯  /home ❯ llsls
+[2023/05/25 3:27:40.477 PM] %                                                                                
+[2023/05/25 3:27:40.520 PM]  /home loading ❯  /home ❯ 

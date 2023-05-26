@@ -53,6 +53,21 @@
   opacity: 1;
 }
 
+/* slider controller */
+#next,
+#prev {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
 
+#next {
+  top: 50%;
+  right: 2%;
+}
 
-
+#prev {
+  top: 50%;
+  left: 2%;
+}

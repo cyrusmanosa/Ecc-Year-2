@@ -1,0 +1,177 @@
+[2023/05/11 2:25:36.792 PM] Last login: Thu May 11 14:24:24 on ttys000
+
+[2023/05/11 2:25:36.815 PM] ~ ❯ %                                                                               ~ ❯ hhistory -c
+[2023/05/11 2:25:40.960 PM] History file deleted.
+[2023/05/11 2:25:40.960 PM] %                                                                                
+[2023/05/11 2:25:40.990 PM] ~ ❯ ppwd
+[2023/05/11 2:25:45.401 PM] /Users/cyrusman
+[2023/05/11 2:25:45.401 PM] %                                                                                
+[2023/05/11 2:25:45.430 PM] ~ ❯ ccd /
+[2023/05/11 2:25:46.936 PM] %                                                                                
+[2023/05/11 2:25:46.967 PM]  / ❯ ppwdpwd
+[2023/05/11 2:25:49.627 PM] /
+[2023/05/11 2:25:49.627 PM] %                                                                                
+[2023/05/11 2:25:49.657 PM]  / ❯ lls
+[2023/05/11 2:25:50.549 PM] Applications Users        cores        home         sbin         var
+[2023/05/11 2:25:50.549 PM] Library      Volumes      dev          opt          tmp
+[2023/05/11 2:25:50.549 PM] System       bin          etc          private      usr
+[2023/05/11 2:25:50.549 PM] %                                                                                
+[2023/05/11 2:25:50.579 PM]  / ❯ ~
+[2023/05/11 2:25:51.668 PM] %                                                                                
+[2023/05/11 2:25:51.697 PM] ~ ❯ ppwdpwd
+[2023/05/11 2:25:53.224 PM] /Users/cyrusman
+[2023/05/11 2:25:53.224 PM] %                                                                                
+[2023/05/11 2:25:53.254 PM] ~ ❯ llsls
+[2023/05/11 2:25:54.109 PM] 2220042_文家俊＿dbadmin1.sql     Sites
+[2023/05/11 2:25:54.109 PM] 2220042_文家俊＿dbadmin2.sql     composer.json
+[2023/05/11 2:25:54.109 PM] 2220042_文家俊＿dbadmin3.sql     composer.lock
+[2023/05/11 2:25:54.109 PM] Applications                     createNewStudb.sql
+[2023/05/11 2:25:54.109 PM] Cisco Packet Tracer 8.2.1        createStudb.sql
+[2023/05/11 2:25:54.109 PM] Command Prompt.lnk               createTables.sql
+[2023/05/11 2:25:54.109 PM] Desktop                          go
+[2023/05/11 2:25:54.109 PM] Documents                        home
+[2023/05/11 2:25:54.109 PM] Downloads                        kad03
+[2023/05/11 2:25:54.109 PM] Library                          my-app
+[2023/05/11 2:25:54.109 PM] Movies                           package-lock.json
+[2023/05/11 2:25:54.109 PM] Music                            redoDatabase.sql
+[2023/05/11 2:25:54.109 PM] Pictures                         tmp
+[2023/05/11 2:25:54.109 PM] Public                           vendor
+[2023/05/11 2:25:54.111 PM] %                                                                                
+[2023/05/11 2:25:54.141 PM] ~ ❯ llsls -al
+[2023/05/11 2:25:58.266 PM] total 944
+[2023/05/11 2:25:58.266 PM] drwxr-x---+  77 cyrusman  staff    2464 May 11 14:25 .
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x    5 root      admin     160 Apr 10 09:12 ..
+[2023/05/11 2:25:58.266 PM] -r--------    1 cyrusman  staff       8 Apr 13 15:35 .CFUserTextEncoding
+[2023/05/11 2:25:58.266 PM] -rw-r--r--@   1 cyrusman  staff   18436 May 11 13:25 .DS_Store
+[2023/05/11 2:25:58.266 PM] drwx------+  40 cyrusman  staff    1280 May 11 14:23 .Trash
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x@   3 cyrusman  staff      96 Apr 18 15:01 .anaconda
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x   16 cyrusman  staff     512 Mar 20 15:30 .android
+[2023/05/11 2:25:58.266 PM] -rw-r--r--@   1 cyrusman  staff      18 Feb 14 16:06 .bash_profile
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x    9 cyrusman  staff     288 May 11 14:25 .cache
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x    5 cyrusman  staff     160 Apr 10 13:37 .composer
+[2023/05/11 2:25:58.266 PM] drwxr-xr-x@   3 root      staff      96 Apr 18 14:51 .conda
+[2023/05/11 2:25:58.266 PM] -rw-r--r--@   1 cyrusman  staff      23 Apr 18 15:01 .condarc
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x@   5 cyrusman  staff     160 Apr 25 12:12 .config
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x@   3 cyrusman  staff      96 Apr 18 15:01 .continuum
+[2023/05/11 2:25:58.267 PM] drwx------@   3 cyrusman  staff      96 May 10 16:31 .dlv
+[2023/05/11 2:25:58.267 PM] -rw-------    1 cyrusman  staff      16 Feb 14 14:31 .emulator_console_auth_token
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff    8391 Apr 13 16:29 .flat-colors.itermcolors
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x@   9 cyrusman  staff     288 May 11 14:25 .git
+[2023/05/11 2:25:58.267 PM] -rw-r--r--    1 cyrusman  staff     564 Feb 24 09:43 .gitconfig
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff      82 Feb 24 09:43 .gitflow_export
+[2023/05/11 2:25:58.267 PM] -rw-r--r--    1 cyrusman  staff      13 Aug 24  2022 .gitignore_global
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x   11 cyrusman  staff     352 Mar 20 15:14 .gradle
+[2023/05/11 2:25:58.267 PM] -rw-r--r--    1 cyrusman  staff      27 Aug 24  2022 .hgignore_global
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x@  17 cyrusman  staff     544 Apr 20 13:53 .iterm2
+[2023/05/11 2:25:58.267 PM] -rwxr-xr-x@   1 cyrusman  staff    7693 Apr 20 13:54 .iterm2_shell_integration.zsh
+[2023/05/11 2:25:58.267 PM] -rw-------@   1 cyrusman  staff      20 Apr 27 14:45 .lesshst
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr  6 15:39 .local
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    3 cyrusman  staff      96 Feb 14 14:23 .m2
+[2023/05/11 2:25:58.267 PM] -rw-------@   1 cyrusman  staff   45151 Apr 28 11:05 .mysql_history
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    6 cyrusman  staff     192 May  8 10:29 .npm
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x@  23 cyrusman  staff     736 May 10 20:36 .oh-my-zsh
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff   86046 Apr 18 18:35 .p10k.zsh
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff     250 May 10 19:23 .packettracer
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x  131 cyrusman  staff    4192 Apr 24 15:39 .phpls
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff       0 Feb 14 16:06 .profile
+[2023/05/11 2:25:58.267 PM] drwx------    4 cyrusman  staff     128 Apr 20 13:49 .ssh
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff       0 Feb 20 11:57 .stCommitMsg
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    5 cyrusman  staff     160 Apr  6 15:00 .swiftpm
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr 27 15:16 .th-client
+[2023/05/11 2:25:58.267 PM] -rw-------    1 root      staff    2404 Feb 14 16:35 .viminfo
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    4 cyrusman  staff     128 Feb 14 14:28 .vscode
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    2 cyrusman  staff      64 May  8 10:08 .vscode-cli
+[2023/05/11 2:25:58.267 PM] drwxr-xr-x    3 cyrusman  staff      96 Apr 20 10:29 .vscode-react-native
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff   49601 May 11 13:49 .zcompdump-Cyrus的MacBook Air-5.9
+[2023/05/11 2:25:58.267 PM] -rw-r--r--@   1 cyrusman  staff      82 Apr 18 13:59 .zprofile
+[2023/05/11 2:25:58.267 PM] -rw-------@   1 cyrusman  staff     152 May 11 14:25 .zsh_history
+[2023/05/11 2:25:58.267 PM] drwx------   68 cyrusman  staff    2176 Apr 14 09:02 .zsh_sessions
+[2023/05/11 2:25:58.268 PM] -rw-r--r--@   1 cyrusman  staff    4529 Apr 20 13:53 .zshrc
+[2023/05/11 2:25:58.268 PM] -rw-r--r--@   1 cyrusman  staff      77 Feb 16 03:58 .zshrc.pre-oh-my-zsh
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff    1796 Apr 14 12:06 2220042_文家俊＿dbadmin1.sql
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff    2556 Apr 21 12:04 2220042_文家俊＿dbadmin2.sql
+[2023/05/11 2:25:58.268 PM] -rw-r--r--@   1 cyrusman  staff    2354 Apr 28 11:05 2220042_文家俊＿dbadmin3.sql
+[2023/05/11 2:25:58.268 PM] drwx------@   4 cyrusman  staff     128 Feb 14 14:03 Applications
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x@  10 cyrusman  staff     320 May 10 19:24 Cisco Packet Tracer 8.2.1
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff    1708 Apr 13 23:57 Command Prompt.lnk
+[2023/05/11 2:25:58.268 PM] drwx------@  15 cyrusman  staff     480 May 11 00:40 Desktop
+[2023/05/11 2:25:58.268 PM] drwx------+   7 cyrusman  staff     224 May  9 12:17 Documents
+[2023/05/11 2:25:58.268 PM] drwx------@   6 cyrusman  staff     192 May 11 13:54 Downloads
+[2023/05/11 2:25:58.268 PM] drwx------@  98 cyrusman  staff    3136 May  9 15:08 Library
+[2023/05/11 2:25:58.268 PM] drwx------    4 cyrusman  staff     128 Feb 14 13:48 Movies
+[2023/05/11 2:25:58.268 PM] drwx------+   4 cyrusman  staff     128 Feb 15 11:20 Music
+[2023/05/11 2:25:58.268 PM] drwx------+   5 cyrusman  staff     160 Feb 15 15:45 Pictures
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x+   4 cyrusman  staff     128 Feb 14 13:34 Public
+[2023/05/11 2:25:58.268 PM] drwx------    5 cyrusman  staff     160 Apr 24 15:46 Sites
+[2023/05/11 2:25:58.268 PM] -rw-r--r--    1 cyrusman  staff      65 Apr 10 14:53 composer.json
+[2023/05/11 2:25:58.268 PM] -rw-r--r--    1 cyrusman  staff  103676 Apr 10 14:53 composer.lock
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff   24037 Apr 13 23:57 createNewStudb.sql
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff     885 Apr 13 23:57 createStudb.sql
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff   19912 Apr 13 23:57 createTables.sql
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x@   5 cyrusman  staff     160 Apr 27 17:36 go
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x    4 cyrusman  staff     128 Apr 27 14:28 home
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x@   4 cyrusman  staff     128 Apr 27 15:01 kad03
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x@  11 cyrusman  staff     352 May  8 10:44 my-app
+[2023/05/11 2:25:58.268 PM] -rw-r--r--@   1 cyrusman  staff      87 Apr 10 14:46 package-lock.json
+[2023/05/11 2:25:58.268 PM] -rw-rw-r--@   1 cyrusman  staff    2262 Apr 13 23:57 redoDatabase.sql
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x    2 cyrusman  staff      64 Apr 27 14:48 tmp
+[2023/05/11 2:25:58.268 PM] drwxr-xr-x   15 cyrusman  staff     480 Apr 10 14:43 vendor
+[2023/05/11 2:25:58.268 PM] %                                                                                
+[2023/05/11 2:25:58.294 PM] ~ ❯ MMkdir test
+[2023/05/11 2:26:04.841 PM] %                                                                                
+[2023/05/11 2:26:04.872 PM] ~ ❯ lls -alls    
+[2023/05/11 2:26:07.027 PM] 2220042_文家俊＿dbadmin1.sql     composer.json
+[2023/05/11 2:26:07.027 PM] 2220042_文家俊＿dbadmin2.sql     composer.lock
+[2023/05/11 2:26:07.027 PM] 2220042_文家俊＿dbadmin3.sql     createNewStudb.sql
+[2023/05/11 2:26:07.027 PM] Applications                     createStudb.sql
+[2023/05/11 2:26:07.027 PM] Cisco Packet Tracer 8.2.1        createTables.sql
+[2023/05/11 2:26:07.027 PM] Command Prompt.lnk               go
+[2023/05/11 2:26:07.027 PM] Desktop                          home
+[2023/05/11 2:26:07.027 PM] Documents                        kad03
+[2023/05/11 2:26:07.027 PM] Downloads                        my-app
+[2023/05/11 2:26:07.027 PM] Library                          package-lock.json
+[2023/05/11 2:26:07.028 PM] Movies                           redoDatabase.sql
+[2023/05/11 2:26:07.028 PM] Music                            test
+[2023/05/11 2:26:07.028 PM] Pictures                         tmp
+[2023/05/11 2:26:07.028 PM] Public                           vendor
+[2023/05/11 2:26:07.028 PM] Sites
+[2023/05/11 2:26:07.028 PM] %                                                                                
+[2023/05/11 2:26:07.057 PM] ~ ❯ rrm -r test
+[2023/05/11 2:26:12.476 PM] %                                                                                
+[2023/05/11 2:26:12.508 PM] ~ ❯ rm -r testls        Mkdir test t  st   est    testk   ad04
+[2023/05/11 2:26:19.433 PM] %                                                                                
+[2023/05/11 2:26:19.462 PM] ~ ❯ llsls
+[2023/05/11 2:26:21.540 PM] 2220042_文家俊＿dbadmin1.sql     composer.json
+[2023/05/11 2:26:21.540 PM] 2220042_文家俊＿dbadmin2.sql     composer.lock
+[2023/05/11 2:26:21.540 PM] 2220042_文家俊＿dbadmin3.sql     createNewStudb.sql
+[2023/05/11 2:26:21.540 PM] Applications                     createStudb.sql
+[2023/05/11 2:26:21.540 PM] Cisco Packet Tracer 8.2.1        createTables.sql
+[2023/05/11 2:26:21.540 PM] Command Prompt.lnk               go
+[2023/05/11 2:26:21.540 PM] Desktop                          home
+[2023/05/11 2:26:21.540 PM] Documents                        kad03
+[2023/05/11 2:26:21.540 PM] Downloads                        kad04
+[2023/05/11 2:26:21.540 PM] Library                          my-app
+[2023/05/11 2:26:21.540 PM] Movies                           package-lock.json
+[2023/05/11 2:26:21.540 PM] Music                            redoDatabase.sql
+[2023/05/11 2:26:21.540 PM] Pictures                         tmp
+[2023/05/11 2:26:21.540 PM] Public                           vendor
+[2023/05/11 2:26:21.540 PM] Sites
+[2023/05/11 2:26:21.541 PM] %                                                                                
+[2023/05/11 2:26:21.571 PM] ~ ❯ hhit story
+[2023/05/11 2:26:26.199 PM]     1  pwd
+[2023/05/11 2:26:26.199 PM]     2  cd /
+[2023/05/11 2:26:26.199 PM]     3  pwd
+[2023/05/11 2:26:26.199 PM]     4  ls
+[2023/05/11 2:26:26.199 PM]     5  ~
+[2023/05/11 2:26:26.199 PM]     6  pwd
+[2023/05/11 2:26:26.199 PM]     7  ls
+[2023/05/11 2:26:26.199 PM]     8  ls -al
+[2023/05/11 2:26:26.199 PM]     9  Mkdir test
+[2023/05/11 2:26:26.199 PM]    10  ls
+[2023/05/11 2:26:26.199 PM]    11  rm -r test
+[2023/05/11 2:26:26.200 PM]    12  Mkdir kad04
+[2023/05/11 2:26:26.200 PM]    13  ls
+[2023/05/11 2:26:26.200 PM] %                                                                                
+[2023/05/11 2:26:26.229 PM] ~ ❯ history > /Users/cyrsu  usman/kad04/kda  ad04.txt
+[2023/05/11 2:26:47.321 PM] %                                                                                
+[2023/05/11 2:26:47.351 PM] ~ ❯ 
