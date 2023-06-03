@@ -4,7 +4,6 @@
   const BtnSub = doc.querySelector("[type=submit]");
   const todo = doc.querySelector(".todo");
   const TB = todo.querySelector("tbody");
-  
   const TR = doc.createElement("tr");
 
 
@@ -13,8 +12,8 @@
     const row = TR.cloneNode(true);
     row.insertAdjacentHTML( "afterbegin",
     `   
-        <td class="comment">${text.value}</td>
-        <td class="control"><button type="button" class="remove">削除</button></td>
+      <td class="comment">${text.value}</td>
+      <td class="control"><button type="button" class="remove">削除</button></td>
     `
     );
     TB.append(row);

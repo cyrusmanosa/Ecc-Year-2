@@ -1,5 +1,6 @@
 const slide = document.querySelectorAll("li");
 const show = document.querySelectorAll(".show")
+const L = document.querySelector("#logo")
 let index = 0;
 
 setInterval(() => {
@@ -20,9 +21,12 @@ setInterval(() => {
   next.style.display = "block";
 
   setTimeout(() => {
-    if ( next != slide[0]){
-      next.classList.add("show");
+    if ( index == 0 ) {
+      slide[0].style.zIndex = 1;
+    }else{
+      slide[0].style.zIndex = 0;
     }
+    next.classList.add("show");
   }, 1000);
 }, 3000);
 
