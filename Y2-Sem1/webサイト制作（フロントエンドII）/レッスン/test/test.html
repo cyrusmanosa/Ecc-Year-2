@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>Document</title>
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <link rel='stylesheet' href='./style.css'>
 </head>
-<body>
-    <p>Click this button.</p>
-<input id="elem" type="button" value="button">
 
-<script>  
-  let elem = document.getElementById('elem');
-  elem.onclick = function(event) {
-    console.log('target: ' + event.target.tagName);
-    console.log('currentTarget: ' + event.currentTarget.tagName);
-  };
-</script>
-</body>
+  <body>
+    <div class="centered">
+
+      <a class="card border-left-behind" href="http://www.google.com">
+        <div
+          class="image background"
+          style="--url: url(123.png)"
+        ></div>
+        <div
+          class="image cutout"
+          style="--url: url(456.png)"
+        ></div>
+        <div class="content">
+          <h1>手伝う</h1>
+          <h2>一人暮らし、寂しい</h2>
+        </div>
+      </a>
+
+    </div>
+  </body>
+
+  <script src="./test.js"></script>
 </html>

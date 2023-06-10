@@ -1,4 +1,4 @@
-for i in $@
+ for i in $@
 do 
  if test -e $i 
   then  echo "${i} copy to bak directory."

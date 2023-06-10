@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- link -->
+<link rel="stylesheet" href="../css/reset.css">
+<link rel="stylesheet" href="../css/common.css">
+
+<link rel="stylesheet" href="../css/kadai07.css">
+
+<!-- web font for google -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+<!-- Material icons for google -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+<title>kadai07 - JavaScript1</title>
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1 id="logo">JS Method</h1>
+  </header>
+
+  <div id="content-wrap">
+    <div id="content">
+
+      <h2 class="">作品新規登録</h2>
+      <form action="" method="POST">
+        <div class="wrapper">
+          <h3 class="">作品情報</h3>
+
+          <div class="flex justify-between">
+            <div class="mr-1 grow">
+              <div class="mt-1">
+                <label for="user_name">作品名</label>
+                <input type="text" id="user_name" name="name" placeholder="作品名" value="">
+              </div>
+              <div class="mt-1">
+                <label for="author_name">製作者名</label>
+                <input type="text" id="author_name" name="code_url" placeholder="ECC 太郎" value="">
+              </div>
+              <div class="mt-1">
+                <label for="product_url">作品URL</label>
+                <input type="url" id="product_url" name="video_url" placeholder="作品のURLがあればこちらに記載" value="">
+              </div>
+              <div class="mt-1">
+                <label for="video_url">作品動画URL</label>
+                <input type="url" id="video_url" name="other_url" placeholder="YouTube等のURLがあればこちらに記載" value="">
+              </div>
+              <div class="mt-1">
+                <label for="product_category">作品カテゴリ</label>
+                <select id="product_category" name="product_category">
+                    <option value="1" >Webサイト</option>
+                    <option value="2" >Webシステム</option>
+                    <option value="3" >Webアプリケーション</option>
+                    <option value="4" >スマホアプリ</option>
+                    <option value="5" >ネイティブアプリ</option>
+                </select>
+              </div>
+            </div>
+            <div class="mt-1 grow flex flex-col">
+              <label for="description">作品説明</label>
+              <textarea class="grow" id="description" name="description"></textarea>
+            </div>
+          </div>
+        </div><!--/.wrapper-->
+
+        <div class="flex justify-end mt-1">
+          <button type="submit">登録する</button>
+        </div>
+
+      </form>
+
+    </div><!--/#content-->
+
+  </div><!--/#content-wrap-->
+
+  <footer>
+    <div id="top-area"><a href="#wrapper"><i class="material-icons">keyboard_arrow_up</i></a></div>
+    <p id="copyright" class="font-weight-b"><min>copyright &copy; <span id="year">2020</span> ECC Design Collage</min></p>
+  </footer>
+</div><!--/#wrapper-->
+
+<script src="../js/kadai07.js"></script>
+
+</body>
+</html>
