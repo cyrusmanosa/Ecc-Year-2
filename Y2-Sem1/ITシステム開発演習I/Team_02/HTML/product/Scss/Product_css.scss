@@ -1,0 +1,87 @@
+* {
+    background-color: blue;
+}
+
+body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PP {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 0;
+  justify-content: center;
+
+}
+
+.BPP{
+    margin-right: 20px;
+}
+
+.SPP {
+  width: 150px;
+  padding-left: 0;
+}
+
+.PP_Information{
+    width: 300px;
+    grid-column: 4 / span 2;
+
+}
+
+#P_Title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+
+#Case_Num{
+    margin: 0;
+}
+
+
+#g-c1-r1{
+    grid-row: 1 / span 1;
+}
+#g-c1-r2{
+    grid-row: 2 / span 1;
+}
+#g-c1-r3{
+    grid-row: 3 / span 1;
+}
+#g-c1-r4{
+    grid-row: 4 / span 1;
+}
+#g-c1-r5{
+    grid-row: 5 / span 1;
+}
+
+
+#Post_user p {
+    margin-top: 20px;
+}
+
+#Post_user img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+#user_name{
+    font-size: 25px;
+    margin: 0;
+}
+
+#location{
+    font-size: 15px;
+}
+
+#S_btn{
+    padding: 10px 60px;
+    border-radius: 45px;
+    font-size: 25px;
+    margin: 20px 0;
+}
