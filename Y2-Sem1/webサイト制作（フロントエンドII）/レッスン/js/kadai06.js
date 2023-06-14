@@ -27,4 +27,8 @@
       Thisrow.remove();
     }
   });
+
+  const year = document.querySelector("#year");
+  let date = new Date();
+  year.innerText = date.getFullYear();
 }

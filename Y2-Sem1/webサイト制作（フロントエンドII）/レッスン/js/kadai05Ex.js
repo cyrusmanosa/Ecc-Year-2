@@ -30,3 +30,7 @@ setInterval(() => {
   }, 1000);
 }, 3000);
 
+const year = document.querySelector("#year");
+let date = new Date();
+year.innerText = date.getFullYear();
+

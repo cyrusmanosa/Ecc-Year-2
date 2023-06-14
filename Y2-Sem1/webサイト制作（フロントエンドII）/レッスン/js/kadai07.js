@@ -8,7 +8,6 @@
   const VU_v = document.getElementById("video_url");
   const D_v = document.getElementById("description");
 
-  const S = sessionStorage;
   
   const MN = new Map([
     ["user_name", U_v],
@@ -22,13 +21,17 @@
   Sub_btn.addEventListener("click", (e) => {
     e.preventDefault();
     MN.forEach((key, value) => {
-      S.setItem(value, key.value);
+      sessionStorage.setItem(value, key.value);
     });
   });
 
   if (true) {
     MN.forEach((key, value) => {
-      key.value = S.getItem(value);
+      key.value = sessionStorage.getItem(value);
     });
   }
+  
+  const year = document.querySelector("#year");
+  let date = new Date();
+  year.innerText = date.getFullYear();
 }
