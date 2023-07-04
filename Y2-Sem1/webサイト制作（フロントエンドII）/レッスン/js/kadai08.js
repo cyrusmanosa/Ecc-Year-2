@@ -1,49 +1,44 @@
-{
-  const doc = document;
-  const text = doc.querySelector("input");
-  const BtnSub = doc.querySelector("[type=submit]");
-  const todo = doc.querySelector(".todo");
-  const TB = todo.querySelector("tbody");
-  const TR = doc.createElement("tr");
-  
-  // let Data;
-  // let Jdata = [];
-  // let jsonString = JSON.stringify(Jdata);
-  
-  BtnSub.addEventListener("click", (e) => {
-    e.preventDefault();
-    if (text.value != "" && text.value != null) {
-      const row = TR.cloneNode(true);
-      row.insertAdjacentHTML(
-        "afterbegin",
-        `   
-        <td class="comment">${text.value}</td>
-        <td class="control"><button type="button" class="remove">削除</button></td>
-        `
-        );
-        TB.append(row);
-        
-      // Jdata += {Commet : text.value};
-      
-      // jsonString += JSON.stringify(Jdata)
-      // Data = jsonString
-      // localStorage.setItem("Web_Kadai08", jsonString);
-    }
-  });
+let input = document.querySelector("input");
+let deleteButton = document.querySelector(".remove");
+const plusButton = document.querySelector("button");
+const array = [];
 
-  // Remote
-  todo.addEventListener("click", (e) => {
-    const This = e.target;
-    if (This.classList.contains("remove")) {
-      const Thisrow = This.closest("tr");
-      Thisrow.remove();
-    }
-  });
-
-  // Year num
-  {
-    const year = document.querySelector("#year");
-    let date = new Date();
-    year.innerText = date.getFullYear();
+plusButton.addEventListener("click", (e) => {
+  e.preventDefault();
+  let inputValue = input.value;
+  if (true) {
+    array.push(inputValue);
+    localStorage.setItem("saveItem", JSON.stringify(array));
+    render();
   }
-}
+});
+
+  let deleteList = (e) => {
+    let dleValue = JSON.parse(localStorage.getItem("saveItem"));
+    let index = dleValue.indexOf(e);
+    if (index > -1) {
+      dleValue.splice(index, 1);
+      localStorage.setItem("saveItem", JSON.stringify(dleValue));
+      array.splice(index, 1);
+      render();
+    }
+};
+
+window.onload = () => {
+  let localValue = localStorage.getItem("saveItem");
+  if (localValue) {
+    array.push(...JSON.parse(localValue));
+    render();
+  }
+};
+
+function render(){
+  let resultHTML = "";
+  for (let i = 0; i < array.length; i++) {
+    resultHTML += `<tr>
+    <td class="comment">${array[i]}</td>
+    <td class="control"><button type="button" onclick="deleteList('${array[i]}')">削除</button></td>
+    </tr>`;
+  }
+  document.querySelector("tbody").innerHTML = resultHTML;
+};

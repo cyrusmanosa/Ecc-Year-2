@@ -1,0 +1,20 @@
+    1  su - chiro
+    2  ~
+    3  ls
+    4  adduser unix10
+    5  sudo adduser unix10
+    6  cat /etc/passwd | grep unix10
+    7  id /home
+    8  ls /home
+    9  groups unix10
+   10  sudo addgroup unix
+   11  cat /etc/group | grep unix
+   12  usermod -g unix unix10
+   13  groups unix10
+   14  usermod -g unix unix10
+   15  sudo usermod -g unix unix10
+   16  groups unix10
+   17  id unix10
+   18  mkdir kad10
+   19  cd kad10
+   20  history > kad19.txt

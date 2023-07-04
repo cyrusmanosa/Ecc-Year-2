@@ -1,0 +1,111 @@
+[2023/06/15 2:30:50.028 PM] Last login: Thu Jun 15 14:30:34 on ttys001
+
+[2023/06/15 2:30:50.063 PM] ~ ❯ %                                                                               ~ ❯ ssh sk2a03@192.168.64.4
+
+[2023/06/15 2:30:52.166 PM] sk2a03@192.168.64.4's password: 
+[2023/06/15 2:30:56.160 PM] Welcome to Ubuntu 23.04 (GNU/Linux 6.2.0-20-generic aarch64)
+
+[2023/06/15 2:30:56.160 PM]  * Documentation:  https://help.ubuntu.com
+[2023/06/15 2:30:56.160 PM]  * Management:     https://landscape.canonical.com
+[2023/06/15 2:30:56.160 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/06/15 2:30:56.160 PM]   System information as of Thu Jun 15 05:30:40 AM UTC 2023
+
+[2023/06/15 2:30:56.160 PM]   System load:             0.01
+[2023/06/15 2:30:56.160 PM]   Usage of /:              48.6% of 29.82GB
+[2023/06/15 2:30:56.160 PM]   Memory usage:            13%
+[2023/06/15 2:30:56.160 PM]   Swap usage:              0%
+[2023/06/15 2:30:56.160 PM]   Processes:               212
+[2023/06/15 2:30:56.160 PM]   Users logged in:         1
+[2023/06/15 2:30:56.160 PM]   IPv4 address for enp0s1: 192.168.64.4
+[2023/06/15 2:30:56.160 PM]   IPv6 address for enp0s1: fd85:1dbd:ef9b:c3b9:ac2a:77ff:fe82:d16d
+
+[2023/06/15 2:30:56.160 PM]  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+[2023/06/15 2:30:56.160 PM]    just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+[2023/06/15 2:30:56.160 PM]    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+[2023/06/15 2:30:56.160 PM] 73 updates can be applied immediately.
+[2023/06/15 2:30:56.160 PM] 24 of these updates are standard security updates.
+[2023/06/15 2:30:56.160 PM] To see these additional updates run: apt list --upgradable
+
+
+[2023/06/15 2:30:56.161 PM] The list of available updates is more than a week old.
+[2023/06/15 2:30:56.161 PM] To check for new updates run: sudo apt update
+
+[2023/06/15 2:30:56.161 PM] Last login: Thu Jun 15 05:30:41 2023 from 192.168.64.1
+[2023/06/15 2:30:56.211 PM] sk2a03@sk2a03:~$ lscd ..lshistory -c
+[2023/06/15 2:31:04.017 PM] sk2a03@sk2a03:~$ su - chriro
+[2023/06/15 2:31:12.303 PM] Password: 
+[2023/06/15 2:31:22.211 PM] su: Authentication failure
+[2023/06/15 2:31:22.219 PM] sk2a03@sk2a03:~$ su - chiro
+[2023/06/15 2:31:26.834 PM] Password: 
+[2023/06/15 2:31:52.342 PM] chiro@sk2a03:~$ pwd
+[2023/06/15 2:32:00.308 PM] /home/chiro
+[2023/06/15 2:32:00.308 PM] chiro@sk2a03:~$ cat /etc/passwd | grep chiro
+[2023/06/15 2:32:14.975 PM] chiro:x:1002:1002:,,,:/home/chiro:/bin/bash
+[2023/06/15 2:32:14.975 PM] chiro@sk2a03:~$ cat /etc/passwd | grep chirogroup
+[2023/06/15 2:32:27.761 PM] users:x:100:testuser,chiro
+[2023/06/15 2:32:27.761 PM] chiro:x:1002:
+[2023/06/15 2:32:27.761 PM] chiro@sk2a03:~$ exit
+[2023/06/15 2:32:39.898 PM] logout
+[2023/06/15 2:32:39.911 PM] sk2a03@sk2a03:~$ ~
+[2023/06/15 2:32:44.090 PM] -bash: /home/sk2a03: Is a directory
+[2023/06/15 2:32:44.102 PM] sk2a03@sk2a03:~$ cdls
+[2023/06/15 2:32:48.037 PM] Desktop    Downloads  Pictures  Templates  snap
+[2023/06/15 2:32:48.037 PM] Documents  Music      Public    Videos     xxx
+[2023/06/15 2:32:48.045 PM] sk2a03@sk2a03:~$ adduser unix10
+[2023/06/15 2:32:58.005 PM] adduser: Only root may add a user or group to the system.
+[2023/06/15 2:32:58.018 PM] sk2a03@sk2a03:~$ adduser unix10sudo 
+[2023/06/15 2:33:28.845 PM] [sudo] password for sk2a03: 
+[2023/06/15 2:33:34.550 PM] Adding user `unix10' ...
+[2023/06/15 2:33:34.550 PM] Adding new group `unix10' (1003) ...
+[2023/06/15 2:33:34.568 PM] Adding new user `unix10' (1003) with group `unix10 (1003)' ...
+[2023/06/15 2:33:34.600 PM] Creating home directory `/home/unix10' ...
+[2023/06/15 2:33:34.607 PM] Copying files from `/etc/skel' ...
+[2023/06/15 2:33:34.608 PM] New password: 
+[2023/06/15 2:33:41.729 PM] Retype new password: 
+[2023/06/15 2:33:45.293 PM] passwd: password updated successfully
+[2023/06/15 2:33:45.300 PM] Changing the user information for unix10
+[2023/06/15 2:33:45.300 PM] Enter the new value, or press ENTER for the default
+[2023/06/15 2:33:45.300 PM] Full Name []: 
+[2023/06/15 2:33:46.109 PM] Room Number []: 
+[2023/06/15 2:33:51.871 PM] Work Phone []: 
+[2023/06/15 2:33:52.068 PM] Home Phone []: 
+[2023/06/15 2:33:52.231 PM] Other []: 
+[2023/06/15 2:33:52.844 PM] Is the information correct? [Y/n] Y
+[2023/06/15 2:33:54.182 PM] Adding new user `unix10' to supplemental / extra groups `users' ...
+[2023/06/15 2:33:54.182 PM] Adding user `unix10' to group `users' ...
+[2023/06/15 2:33:54.208 PM] sk2a03@sk2a03:~$ cat /etc/passwd | grep unix10
+[2023/06/15 2:34:15.110 PM] unix10:x:1003:1003:,,,:/home/unix10:/bin/bash
+[2023/06/15 2:34:15.115 PM] sk2a03@sk2a03:~$ id /home
+[2023/06/15 2:34:20.150 PM] id: ‘/home’: no such user
+[2023/06/15 2:34:20.152 PM] sk2a03@sk2a03:~$ is ls /home
+[2023/06/15 2:35:15.449 PM] chiro  sk2a03  testuser  unix10
+[2023/06/15 2:35:15.457 PM] sk2a03@sk2a03:~$ groups unix10
+[2023/06/15 2:35:34.453 PM] unix10 : unix10 users
+[2023/06/15 2:35:34.462 PM] sk2a03@sk2a03:~$ addaddaddfsudo addgroup unix
+[2023/06/15 2:36:16.055 PM] Adding group `unix' (GID 1006) ...
+[2023/06/15 2:36:16.074 PM] Done.
+[2023/06/15 2:36:16.081 PM] sk2a03@sk2a03:~$ sudo addgroup unixgroups unix10ls /homeidcat /etc/passwd | grep unix10sudo addusercat /etc/passwd | grepsudo adduserls~su - chiro~lsadduser unix10sudo cat /etc/passwd | grepid /homelsgroups unix10sudo addgroup unixsudo addgroup unixgroups unix10ls /homeidcat /etc/passwd | grep unix10group
+[2023/06/15 2:36:39.097 PM] users:x:100:testuser,chiro,unix10
+[2023/06/15 2:36:39.097 PM] unix10:x:1003:
+[2023/06/15 2:36:39.097 PM] unix:x:1006:
+[2023/06/15 2:36:39.108 PM] sk2a03@sk2a03:~$ usermod -g unix unix10
+[2023/06/15 2:36:53.694 PM] usermod: Permission denied.
+[2023/06/15 2:36:53.694 PM] usermod: cannot lock /etc/passwd; try again later.
+[2023/06/15 2:36:53.698 PM] sk2a03@sk2a03:~$ groups unix10
+[2023/06/15 2:38:31.587 PM] unix10 : unix10 users
+[2023/06/15 2:38:31.603 PM] sk2a03@sk2a03:~$ groups unix10groups unix10usermod -g unix
+[2023/06/15 2:38:39.204 PM] usermod: Permission denied.
+[2023/06/15 2:38:39.204 PM] usermod: cannot lock /etc/passwd; try again later.
+[2023/06/15 2:38:39.212 PM] sk2a03@sk2a03:~$ sudo usermod -g unix unix10sudo 
+[2023/06/15 2:39:27.541 PM] sk2a03@sk2a03:~$ sudo usermod -g unix unix10groups
+[2023/06/15 2:39:33.601 PM] unix10 : unix users
+[2023/06/15 2:39:33.611 PM] sk2a03@sk2a03:~$ id unix10
+[2023/06/15 2:39:46.314 PM] uid=1003(unix10) gid=1006(unix) groups=1006(unix),100(users)
+[2023/06/15 2:39:46.331 PM] sk2a03@sk2a03:~$ midkkdir kad10
+[2023/06/15 2:39:53.575 PM] sk2a03@sk2a03:~$ cd kad10
+[2023/06/15 2:39:58.490 PM] sk2a03@sk2a03:~/kad10$ history > kad19.txt
+[2023/06/15 2:40:06.463 PM] sk2a03@sk2a03:~/kad10$ chwown -R ieshkkk2a03:isk2a03 /home/iessk21a03/kad10
+[2023/06/15 2:40:43.059 PM] sk2a03@sk2a03:~/kad10$ 

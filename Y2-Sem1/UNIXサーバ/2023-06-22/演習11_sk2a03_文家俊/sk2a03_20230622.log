@@ -1,0 +1,227 @@
+[2023/06/22 3:24:45.425 PM] Last login: Thu Jun 22 15:20:18 on ttys000
+
+[2023/06/22 3:24:45.475 PM] ~ ❯ %                                                                               ~ ❯ ssh sk2a03@192.168.64.4
+[2023/06/22 3:24:49.325 PM] sk2a03@192.168.64.4's password: 
+[2023/06/22 3:24:52.381 PM] Welcome to Ubuntu 23.04 (GNU/Linux 6.2.0-20-generic aarch64)
+
+[2023/06/22 3:24:52.381 PM]  * Documentation:  https://help.ubuntu.com
+[2023/06/22 3:24:52.381 PM]  * Management:     https://landscape.canonical.com
+[2023/06/22 3:24:52.381 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/06/22 3:24:52.381 PM]   System information as of Thu Jun 22 06:24:54 AM UTC 2023
+
+[2023/06/22 3:24:52.381 PM]   System load:             0.16
+[2023/06/22 3:24:52.381 PM]   Usage of /:              49.2% of 29.82GB
+[2023/06/22 3:24:52.381 PM]   Memory usage:            12%
+[2023/06/22 3:24:52.381 PM]   Swap usage:              0%
+[2023/06/22 3:24:52.381 PM]   Processes:               217
+[2023/06/22 3:24:52.381 PM]   Users logged in:         1
+[2023/06/22 3:24:52.381 PM]   IPv4 address for enp0s1: 192.168.64.4
+[2023/06/22 3:24:52.381 PM]   IPv6 address for enp0s1: fd85:1dbd:ef9b:c3b9:ac2a:77ff:fe82:d16d
+
+[2023/06/22 3:24:52.381 PM]  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+[2023/06/22 3:24:52.381 PM]    just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+[2023/06/22 3:24:52.381 PM]    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+[2023/06/22 3:24:52.381 PM] 49 updates can be applied immediately.
+[2023/06/22 3:24:52.382 PM] To see these additional updates run: apt list --upgradable
+
+
+[2023/06/22 3:24:52.382 PM] The list of available updates is more than a week old.
+[2023/06/22 3:24:52.382 PM] To check for new updates run: sudo apt update
+
+[2023/06/22 3:24:52.382 PM] Last login: Thu Jun 22 06:20:25 2023 from 192.168.64.1
+[2023/06/22 3:24:52.433 PM] sk2a03@sk2a03:~$ rm -r /mnt/datahistory -c
+[2023/06/22 3:24:56.671 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:25:02.071 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:25:02.071 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:25:02.071 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:25:02.071 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:25:02.071 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:25:02.071 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:25:02.071 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:25:02.071 PM] tmpfs                              792M  100K  792M   1% /run/user/1000
+[2023/06/22 3:25:02.081 PM] sk2a03@sk2a03:~$ du /boot | sort -n
+[2023/06/22 3:25:09.651 PM] du: cannot read directory '/boot/lost+found': Permission denied
+[2023/06/22 3:25:09.652 PM] 4/boot/grub/locale
+[2023/06/22 3:25:09.652 PM] 16/boot/lost+found
+[2023/06/22 3:25:09.652 PM] 1924/boot/efi/EFI/BOOT
+[2023/06/22 3:25:09.653 PM] 2344/boot/grub/fonts
+[2023/06/22 3:25:09.653 PM] 3172/boot/grub/arm64-efi
+[2023/06/22 3:25:09.653 PM] 4520/boot/efi/EFI/ubuntu
+[2023/06/22 3:25:09.653 PM] 6448/boot/efi/EFI
+[2023/06/22 3:25:09.653 PM] 6452/boot/efi
+[2023/06/22 3:25:09.653 PM] 7876/boot/grub
+[2023/06/22 3:25:09.653 PM] 314524/boot
+[2023/06/22 3:25:09.660 PM] sk2a03@sk2a03:~$ fsudo fisfdisk -l /dev/vda
+[2023/06/22 3:25:27.243 PM] [sudo] password for sk2a03: 
+[2023/06/22 3:25:29.398 PM] Disk /dev/vda: 64 GiB, 68719476736 bytes, 134217728 sectors
+[2023/06/22 3:25:29.398 PM] Units: sectors of 1 * 512 = 512 bytes
+[2023/06/22 3:25:29.398 PM] Sector size (logical/physical): 512 bytes / 512 bytes
+[2023/06/22 3:25:29.398 PM] I/O size (minimum/optimal): 512 bytes / 512 bytes
+[2023/06/22 3:25:29.398 PM] Disklabel type: gpt
+[2023/06/22 3:25:29.398 PM] Disk identifier: ED83BAC2-CAB6-4F73-9D60-102B5D814B38
+
+[2023/06/22 3:25:29.399 PM] Device       Start       End   Sectors  Size Type
+[2023/06/22 3:25:29.399 PM] /dev/vda1     2048   2203647   2201600    1G EFI System
+[2023/06/22 3:25:29.399 PM] /dev/vda2  2203648   6397951   4194304    2G Linux filesystem
+[2023/06/22 3:25:29.399 PM] /dev/vda3  6397952 134215679 127817728 60.9G Linux filesystem
+[2023/06/22 3:25:29.408 PM] sk2a03@sk2a03:~$ sudo cat /etc/fstab
+[2023/06/22 3:25:40.127 PM] # /etc/fstab: static file system information.
+[2023/06/22 3:25:40.127 PM] #
+[2023/06/22 3:25:40.127 PM] # Use 'blkid' to print the universally unique identifier for a
+[2023/06/22 3:25:40.127 PM] # device; this may be used with UUID= as a more robust way to name devices
+[2023/06/22 3:25:40.128 PM] # that works even if disks are added and removed. See fstab(5).
+[2023/06/22 3:25:40.128 PM] #
+[2023/06/22 3:25:40.128 PM] # <file system> <mount point>   <type>  <options>       <dump>  <pass>
+[2023/06/22 3:25:40.128 PM] # / was on /dev/ubuntu-vg/ubuntu-lv during curtin installation
+[2023/06/22 3:25:40.128 PM] /dev/disk/by-id/dm-uuid-LVM-cJDoLVPmUjMm399zCplXf5FrljH3mavO4H4FniIcpoTq6KMdfPM2GY33SQWv1fsX / ext4 defaults 0 1
+[2023/06/22 3:25:40.128 PM] # /boot was on /dev/vda2 during curtin installation
+[2023/06/22 3:25:40.128 PM] /dev/disk/by-uuid/8ad010e2-acc3-4e6b-b125-6ce22b6a23e1 /boot ext4 defaults 0 1
+[2023/06/22 3:25:40.128 PM] # /boot/efi was on /dev/vda1 during curtin installation
+[2023/06/22 3:25:40.128 PM] /dev/disk/by-uuid/4788-1D02 /boot/efi vfat defaults 0 1
+[2023/06/22 3:25:40.128 PM] /swap.imgnoneswapsw00
+
+[2023/06/22 3:25:40.140 PM] sk2a03@sk2a03:~$ sudo parted -l
+[2023/06/22 3:25:50.634 PM] Model: Linux device-mapper (linear) (dm)
+[2023/06/22 3:25:50.634 PM] Disk /dev/mapper/ubuntu--vg-ubuntu--lv: 32.7GB
+[2023/06/22 3:25:50.635 PM] Sector size (logical/physical): 512B/512B
+[2023/06/22 3:25:50.635 PM] Partition Table: loop
+[2023/06/22 3:25:50.635 PM] Disk Flags: 
+
+[2023/06/22 3:25:50.635 PM] Number  Start  End     Size    File system  Flags
+[2023/06/22 3:25:50.635 PM]  1      0.00B  32.7GB  32.7GB  ext4
+
+
+[2023/06/22 3:25:50.637 PM] Model: Virtio Block Device (virtblk)
+[2023/06/22 3:25:50.637 PM] Disk /dev/vdb: 1074MB
+[2023/06/22 3:25:50.637 PM] Sector size (logical/physical): 512B/512B
+[2023/06/22 3:25:50.637 PM] Partition Table: loop
+[2023/06/22 3:25:50.637 PM] Disk Flags: 
+
+[2023/06/22 3:25:50.637 PM] Number  Start  End     Size    File system  Flags
+[2023/06/22 3:25:50.637 PM]  1      0.00B  1074MB  1074MB  ext4
+
+
+[2023/06/22 3:25:50.648 PM] Model: Virtio Block Device (virtblk)
+[2023/06/22 3:25:50.648 PM] Disk /dev/vda: 68.7GB
+[2023/06/22 3:25:50.648 PM] Sector size (logical/physical): 512B/512B
+[2023/06/22 3:25:50.648 PM] Partition Table: gpt
+[2023/06/22 3:25:50.648 PM] Disk Flags: 
+
+[2023/06/22 3:25:50.648 PM] Number  Start   End     Size    File system  Name  Flags
+[2023/06/22 3:25:50.648 PM]  1      1049kB  1128MB  1127MB  fat32              boot, esp
+[2023/06/22 3:25:50.648 PM]  2      1128MB  3276MB  2147MB  ext4
+[2023/06/22 3:25:50.648 PM]  3      3276MB  68.7GB  65.4GB
+
+
+[2023/06/22 3:25:50.655 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:25:59.107 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:25:59.107 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:25:59.107 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:25:59.107 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:25:59.107 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:25:59.107 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:25:59.107 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:25:59.107 PM] tmpfs                              792M  100K  792M   1% /run/user/1000
+[2023/06/22 3:25:59.116 PM] sk2a03@sk2a03:~$ sudo mkfs -t extt4 /devdeev/svdb
+[2023/06/22 3:26:15.939 PM] mke2fs 1.47.0 (5-Feb-2023)
+[2023/06/22 3:26:15.949 PM] /dev/vdb contains a ext4 file system
+[2023/06/22 3:26:15.950 PM] created on Thu Jun 22 06:22:43 2023
+[2023/06/22 3:26:15.950 PM] Proceed anyway? (y,N) y
+[2023/06/22 3:26:17.619 PM] Discarding device blocks:      0/262144             done                            
+[2023/06/22 3:26:17.620 PM] Creating filesystem with 262144 4k blocks and 65536 inodes
+[2023/06/22 3:26:17.620 PM] Filesystem UUID: 577efca0-230f-486a-8295-2762ee0bbe77
+[2023/06/22 3:26:17.620 PM] Superblock backups stored on blocks: 
+[2023/06/22 3:26:17.620 PM] 32768, 98304, 163840, 229376
+
+[2023/06/22 3:26:17.620 PM] Allocating group tables: 0/8   done                            
+[2023/06/22 3:26:17.620 PM] Writing inode tables: 0/8   done                            
+[2023/06/22 3:26:17.620 PM] Creating journal (8192 blocks): done
+[2023/06/22 3:26:17.620 PM] Writing superblocks and filesystem accounting information: 0/8   done
+
+[2023/06/22 3:26:17.639 PM] sk2a03@sk2a03:~$ ls /mnt
+[2023/06/22 3:26:24.950 PM] data  shared
+[2023/06/22 3:26:24.958 PM] sk2a03@sk2a03:~$ sudo mkfidir /mnt/data
+[2023/06/22 3:26:38.799 PM] mkdir: cannot create directory ‘/mnt/data’: File exists
+[2023/06/22 3:26:38.811 PM] sk2a03@sk2a03:~$ sudo mkdir /mnt/datasudo mkdir /mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/data/mnt/datar/mnt/datam/mnt/data /mnt/data-/mnt/datar/mnt/data /mnt/data
+[2023/06/22 3:26:49.783 PM] rm: remove write-protected directory '/mnt/data'? yes
+[2023/06/22 3:26:55.423 PM] rm: cannot remove '/mnt/data': Permission denied
+[2023/06/22 3:26:55.436 PM] sk2a03@sk2a03:~$ rm -r /mnt/datasudo mkdi
+[2023/06/22 3:26:58.847 PM] mkdir: cannot create directory ‘/mnt/data’: File exists
+[2023/06/22 3:26:58.859 PM] sk2a03@sk2a03:~$ sudo mount /dev/vdb /mnt /data
+[2023/06/22 3:27:19.320 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:27:23.663 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:27:23.663 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:27:23.663 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:27:23.663 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:27:23.663 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:27:23.663 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:27:23.663 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:27:23.663 PM] tmpfs                              792M  100K  792M   1% /run/user/1000
+[2023/06/22 3:27:23.663 PM] /dev/vdb                           974M  280K  906M   1% /mnt/data
+[2023/06/22 3:27:23.671 PM] sk2a03@sk2a03:~$ df > df.lkad11
+[2023/06/22 3:27:36.725 PM] sk2a03@sk2a03:~$ sudo sh -vc "echo Hello EVCC > /mnt/data/file.txt/"
+[2023/06/22 3:28:03.960 PM] sk2a03@sk2a03:~$ sudo cat m/mnt/data/fil.=e.txt
+[2023/06/22 3:28:20.239 PM] Hello ECC
+[2023/06/22 3:28:20.255 PM] sk2a03@sk2a03:~$ sudo mointumonunt /munt/data
+[2023/06/22 3:28:34.153 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:28:36.699 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:28:36.699 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:28:36.699 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:28:36.699 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:28:36.699 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:28:36.699 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:28:36.699 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:28:36.699 PM] tmpfs                              792M  100K  792M   1% /run/user/1000
+[2023/06/22 3:28:36.706 PM] sk2a03@sk2a03:~$ mkdairor ir /mnt/ddstore
+[2023/06/22 3:28:52.180 PM] mkdir: cannot create directory ‘/mnt/dstore’: Permission denied
+[2023/06/22 3:28:52.187 PM] sk2a03@sk2a03:~$ sudo mkfir dir /muntnt/sdstore
+[2023/06/22 3:29:12.010 PM] sk2a03@sk2a03:~$ dusudo montunt /dev/vdb m/mnt/dstore
+[2023/06/22 3:29:39.605 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:29:52.846 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:29:52.847 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:29:52.847 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:29:52.847 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:29:52.847 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:29:52.847 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:29:52.847 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:29:52.847 PM] tmpfs                              792M  100K  792M   1% /run/user/1000
+[2023/06/22 3:29:52.847 PM] /dev/vdb                           974M  284K  906M   1% /mnt/dstore
+[2023/06/22 3:29:52.854 PM] sk2a03@sk2a03:~$ ls /mnt/sdstioore
+[2023/06/22 3:30:23.219 PM] file.txt  lost+found
+[2023/06/22 3:30:23.228 PM] sk2a03@sk2a03:~$ mkdir kad11
+[2023/06/22 3:30:40.727 PM] sk2a03@sk2a03:~$ cp kad11 /etc/fstab ladkad11/fstab.kad11
+[2023/06/22 3:31:04.685 PM] cp: target 'kad11/fstab.kad11': No such file or directory
+[2023/06/22 3:31:04.696 PM] sk2a03@sk2a03:~$ cp kad11 /etc/fstab kad11/fstab.kad11
+[2023/06/22 3:31:39.037 PM] sk2a03@sk2a03:~$ sudo muount df.kad11
+[2023/06/22 3:31:51.628 PM] mount: df.kad11: can't find in /etc/fstab.
+[2023/06/22 3:31:51.643 PM] sk2a03@sk2a03:~$ sudo mount df.kad11 ka/kad11
+[2023/06/22 3:32:30.769 PM] mount: /kad11: mount point does not exist.
+[2023/06/22 3:32:30.769 PM]        dmesg(1) may have more information after failed mount system call.
+[2023/06/22 3:32:30.782 PM] sk2a03@sk2a03:~$ sk2a03@sk2a03:~$ sk2a03@sk2a03:~$ sk2a03@sk2a03:~$ sk2a03@sk2a03:~$ mv df.kad11 /kad11
+[2023/06/22 3:34:19.055 PM] mv: cannot move 'df.kad11' to '/kad11': Permission denied
+[2023/06/22 3:34:19.057 PM] sk2a03@sk2a03:~$ sudo mv df.kad11 /kad11sudo 
+[2023/06/22 3:34:29.144 PM] sk2a03@sk2a03:~$ csudo cp /mntsh -c " echo helloHello Linux World > /mnt/dstore/file2.txt"
+[2023/06/22 3:35:32.960 PM] sk2a03@sk2a03:~$ sudo cp /mnt  /kad11/file2.txt
+[2023/06/22 3:35:48.007 PM] cp: -r not specified; omitting directory '/mnt'
+[2023/06/22 3:35:48.021 PM] sk2a03@sk2a03:~$ sudo cp /mnt /kad11/file2.txt/kad11/file2.txt/kad11/file2.txt/kad11/file2.txt/kad11/file2.txtkad11/file2.txt/kad11/file2.txt/kad11/file2.txta/kad11/file2.txtt/kad11/file2.txt /kad11/file2.txt
+[2023/06/22 3:36:14.766 PM] cat: /kad11/file2.txt: Not a directory
+[2023/06/22 3:36:14.791 PM] sk2a03@sk2a03:~$ sudo cat /kad11/file2.txtp /mnsh -c "echo Hello Linux World > /mnt/dstore/file2.txt"cp /mnt /kad11/file2.txt// /kad11/file2.txtd /kad11/file2.txts /kad11/file2.txtt /kad11/file2.txto /kad11/file2.txtr /kad11/file2.txte /kad11/file2.txt /kad11/file2.txt/kad11/file2.txt/ /kad11/file2.txt /kad11/file2.txt/kad11/file2.txtf /kad11/file2.txti /kad11/file2.txtl /kad11/file2.txte /kad11/file2.txt2 /kad11/file2.txt. /kad11/file2.txtt /kad11/file2.txtx /kad11/file2.txtt /kad11/file2.txt
+[2023/06/22 3:37:07.338 PM] cp: cannot stat '/kad11/file2.txt': Not a directory
+[2023/06/22 3:37:07.350 PM] sk2a03@sk2a03:~$ sudo cp /mnt/dstore/file2.txt /kad11/file2.txt
+[2023/06/22 3:37:34.337 PM] sk2a03@sk2a03:~$ sudo cp /mnt/datraa/dilefile.txt /kad11
+[2023/06/22 3:38:55.152 PM] cp: cannot stat '/mnt/data/file.txt': No such file or directory
+[2023/06/22 3:38:55.173 PM] sk2a03@sk2a03:~$ sudo cp /mnt/data/file.txt /kad11store
+[2023/06/22 3:40:28.368 PM] sk2a03@sk2a03:~$ sudo unmonunt /mnt/sddstore
+[2023/06/22 3:41:22.411 PM] sk2a03@sk2a03:~$ df -h
+[2023/06/22 3:41:26.884 PM] Filesystem                         Size  Used Avail Use% Mounted on
+[2023/06/22 3:41:26.884 PM] tmpfs                              792M  1.7M  790M   1% /run
+[2023/06/22 3:41:26.884 PM] /dev/mapper/ubuntu--vg-ubuntu--lv   30G   15G   14G  52% /
+[2023/06/22 3:41:26.884 PM] tmpfs                              3.9G     0  3.9G   0% /dev/shm
+[2023/06/22 3:41:26.884 PM] tmpfs                              5.0M  8.0K  5.0M   1% /run/lock
+[2023/06/22 3:41:26.884 PM] /dev/vda2                          2.0G  301M  1.5G  17% /boot
+[2023/06/22 3:41:26.884 PM] /dev/vda1                          1.1G  6.4M  1.1G   1% /boot/efi
+[2023/06/22 3:41:26.884 PM] tmpfs                              792M   96K  792M   1% /run/user/1000
+[2023/06/22 3:41:26.886 PM] sk2a03@sk2a03:~$ 

@@ -1,0 +1,224 @@
+[2023/06/20 11:15:39.666 AM] Last login: Tue Jun 20 09:14:03 on console
+
+[2023/06/20 11:15:39.747 AM] ~ ❯ %                                                                               ~ ❯ sscreen /dev/tty.usbserial-A10O22DC 9600screen /dev/tty.usbserial-A10O22DC 9600screen /dev/tty.usbserial-A10O22DC 9600
+[2023/06/20 11:15:51.479 AM] Cannot exec '/dev/tty.usbserial-A10O22DC': No such file or directory                                                                        
+[2023/06/20 11:15:53.480 AM] [screen is terminating]
+[2023/06/20 11:15:53.482 AM] %                                                                                
+[2023/06/20 11:15:53.508 AM] ~ ❯ sscreen /dev/tty.usbserial-A10O1UIJ 9600screen /dev/tty.usbserial-A10O1UIJ 9600
+[2023/06/20 11:16:04.795 AM] screen /dev/tty.usbserial-A10O1UIJ 9600
+[2023/06/20 11:16:04.824 AM] Cannot exec '/dev/tty.usbserial-A10O1UIJ': No such file or directory                                                                        
+[2023/06/20 11:16:09.824 AM] [screen is terminating]
+[2023/06/20 11:16:09.827 AM] %                                                                                
+[2023/06/20 11:16:09.861 AM] ~ ❯ 5s$$ ls /dev/tty.usb*
+[2023/06/20 11:17:06.049 AM] //dev/tty.usbmodem1422$ ls /dev/tty.usb*/dev/tty.usbmodem1422
+[2023/06/20 11:17:07.368 AM] $ ls /dev/tty.usb*/dev/tty.usbmodem1422                   / $ls /dev/tty.usb* ls /dev/tty.usb* /dev/tty.usbserial-A10O2BY5
+[2023/06/20 11:17:15.880 AM] %                                                                                
+[2023/06/20 11:17:15.905 AM] ~ ❯ sscreenscreenscreen/     /dev/tty.usbserial-A10O2BY5screen/dev/tty.usbserial-A10O2BY5
+[2023/06/20 11:17:39.926 AM] /dev/tty.usbserial-A10O2BY5 /dev/tty.usbserial-A10O2BY5 9600
+
+[2023/06/20 11:19:45.781 AM] % Please answer 'yes' or 'no'.
+[2023/06/20 11:19:45.833 AM] Would you like to enter the initial configuration dialog? [yes/no]: 
+[2023/06/20 11:19:45.973 AM] % Please answer 'yes' or 'no'.
+[2023/06/20 11:19:46.021 AM] Would you like to enter the initial configuration dialog? [yes/no]: no
+
+
+[2023/06/20 11:20:13.141 AM] Press RETURN to get started!
+
+
+[2023/06/20 11:20:13.183 AM] *Jan  2 00:00:00.663: %IOS_LICENSE_IMAGE_APPLICATION-6-LICENSE_LEVEL: Module name = c800m Next reboot level = advsecurity and License = advsecurity
+[2023/06/20 11:20:13.342 AM] *Jun 20 02:42:56.347: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+[2023/06/20 11:20:13.454 AM] *Jun 20 02:42:56.347: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+[2023/06/20 11:20:13.566 AM] *Jun 20 02:43:06.323: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/06/20 11:20:13.681 AM] *Jun 20 02:43:06.323: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/06/20 11:20:13.774 AM] *Jun 20 02:43:07.187: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+[2023/06/20 11:20:13.886 AM] *Jun 20 02:43:07.323: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/06/20 11:20:14.016 AM] *Jun 20 02:43:07.323: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/06/20 11:20:14.142 AM] *Jun 20 02:43:15.403: %SYS-6-STARTUP_CONFIG_IGNORED: System startup configuration is ignored based on the configuration register setting.
+[2023/06/20 11:20:14.302 AM] *Jun 20 02:50:04.355: %LINK-5-CHANGED: Interface GigabitEthernet0/4, changed state to administratively down
+[2023/06/20 11:20:14.432 AM] *Jun 20 02:50:04.355: %LINK-5-CHANGED: Interface GigabitEthernet0/5, changed state to administratively down
+[2023/06/20 11:20:14.558 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/06/20 11:20:14.686 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to down
+[2023/06/20 11:20:14.817 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+[2023/06/20 11:20:14.942 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+[2023/06/20 11:20:15.070 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+[2023/06/20 11:20:15.199 AM] *Jun 20 02:50:05.727: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+[2023/06/20 11:20:15.326 AM] *Jun 20 02:50:11.235: %SYS-5-RESTART: System restarted --
+[2023/06/20 11:20:15.390 AM] Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M5, RELEASE SOFTWARE (fc1)
+[2023/06/20 11:20:15.518 AM] Technical Support: http://www.cisco.com/techsupport
+[2023/06/20 11:20:15.584 AM] Copyright (c) 1986-2017 by Cisco Systems, Inc.
+[2023/06/20 11:20:15.632 AM] Compiled Wed 25-Jan-17 08:39 by prod_rel_team
+[2023/06/20 11:20:15.682 AM] Router>
+[2023/06/20 11:20:15.693 AM] Router>no  
+[2023/06/20 11:20:15.709 AM] Router>
+[2023/06/20 11:20:15.725 AM] Router>no  
+[2023/06/20 11:20:18.253 AM] Router>
+[2023/06/20 11:20:18.413 AM] Router>
+[2023/06/20 11:20:18.573 AM] Router>
+[2023/06/20 11:20:18.717 AM] Router>enable  
+[2023/06/20 11:20:28.858 AM] Router#confit g t
+[2023/06/20 11:20:35.145 AM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/06/20 11:20:35.232 AM] Router(config)#hostname sk2a03
+[2023/06/20 11:20:44.006 AM] sk2a03(config)#no ip domain  -loc okup
+[2023/06/20 11:20:56.771 AM] sk2a03(config)#enabke  le ser cret ciso co
+[2023/06/20 11:21:08.768 AM] sk2a03(config)#password class
+[2023/06/20 11:21:16.174 AM]                         ^
+[2023/06/20 11:21:16.206 AM] % Invalid input detected at '^' marker.
+
+[2023/06/20 11:21:16.270 AM] sk2a03(config)#login
+[2023/06/20 11:21:18.366 AM] % Incomplete command.
+
+[2023/06/20 11:21:18.399 AM] sk2a03(config)#t loginpassword classlogin              line vty 0 4
+[2023/06/20 11:21:38.425 AM] sk2a03(config-line)#password class
+[2023/06/20 11:21:43.255 AM] sk2a03(config-line)#login
+[2023/06/20 11:21:45.719 AM] sk2a03(config-line)#te er  ransport input tele net
+[2023/06/20 11:21:58.932 AM] sk2a03(config-line)#exit
+[2023/06/20 11:22:00.931 AM] sk2a03(config)#service password-encryption
+[2023/06/20 11:22:13.360 AM] sk2a03(config)#int g0/5
+[2023/06/20 11:22:28.124 AM] sk2a03(config-if)#ipadd    address 192.169 8.1.254 255.255.255.0
+[2023/06/20 11:22:41.817 AM] sk2a03(config-if)#no shutdown
+[2023/06/20 11:22:47.303 AM] sk2a03(config-if)#descr
+[2023/06/20 11:22:51.143 AM] *Jun 20 02:52:52.591: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/06/20 11:22:54.150 AM] *Jun 20 02:52:55.671: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/06/20 11:22:54.245 AM] *Jun 20 02:52:56.671: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/06/20 11:23:00.196 AM] % Incomplete command.
+
+[2023/06/20 11:23:00.213 AM] sk2a03(config-if)#d s description link to pc
+[2023/06/20 11:23:15.312 AM] sk2a03(config-if)#exit
+[2023/06/20 11:23:17.631 AM] sk2a03(config)#int g0   0/4
+[2023/06/20 11:23:30.748 AM] sk2a03(config-if)#ip addree ss 10.16.10.3 255.255.255.0
+[2023/06/20 11:23:44.777 AM] sk2a03(config-if)#no shutdown
+[2023/06/20 11:23:48.775 AM] sk2a03(config-if)#desc
+[2023/06/20 11:23:52.151 AM] *Jun 20 02:53:54.059: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to downr
+[2023/06/20 11:23:56.150 AM] *Jun 20 02:53:57.671: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/06/20 11:23:56.262 AM] *Jun 20 02:53:58.671: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/06/20 11:24:06.739 AM] % Incomplete command.
+
+[2023/06/20 11:24:06.776 AM] sk2a03(config-if)#
+[2023/06/20 11:24:06.979 AM] sk2a03(config-if)#
+[2023/06/20 11:24:07.459 AM] sk2a03(config-if)#descrno shutdowndescr      no shutdownip address 10.16.10.3 255.255.255.0nt g0/4                           exit    description link to pc  lan
+[2023/06/20 11:24:13.426 AM] sk2a03(config-if)#eixt   xit
+[2023/06/20 11:24:17.489 AM] sk2a03(config)#ip route 00 .0.0.0 0.0.0.0 10.16.10.254
+[2023/06/20 11:24:38.507 AM] sk2a03(config)#exit
+[2023/06/20 11:27:52.171 AM] sk2a03#
+[2023/06/20 11:27:52.746 AM] sk2a03#
+[2023/06/20 11:27:53.194 AM] *Jun 20 02:57:55.599: %SYS-5-CONFIG_I: Configured from console by consolep 
+[2023/06/20 11:28:09.510 AM] sk2a03#
+[2023/06/20 11:28:09.846 AM] sk2a03#
+[2023/06/20 11:28:10.070 AM] sk2a03#
+[2023/06/20 11:28:10.262 AM] sk2a03#config t
+[2023/06/20 11:28:15.541 AM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/06/20 11:28:15.621 AM] sk2a03(config)#
+[2023/06/20 11:28:16.436 AM] sk2a03(config)#
+[2023/06/20 11:28:16.596 AM] sk2a03(config)#int v     line vty 0 4
+[2023/06/20 11:28:27.106 AM] sk2a03(config-line)#ipad   address 192.168.1.2 254 2552 .255.255.0
+[2023/06/20 11:29:39.199 AM]                        ^
+[2023/06/20 11:29:39.231 AM] % Invalid input detected at '^' marker.
+
+[2023/06/20 11:29:39.279 AM] sk2a03(config-line)#pass  wodr  ed  rd class
+[2023/06/20 11:33:38.968 AM] sk2a03(config-line)#login
+[2023/06/20 11:33:43.223 AM] sk2a03(config-line)#exit
+[2023/06/20 11:33:45.830 AM] sk2a03(config)#exit
+[2023/06/20 11:33:55.444 AM] sk2a03#ping 
+[2023/06/20 11:33:57.379 AM] *Jun 20 03:03:58.811: %SYS-5-CONFIG_I: Configured from console by console8.8. 
+[2023/06/20 11:33:59.490 AM] % Unrecognized host or address, or protocol not running.
+
+[2023/06/20 11:33:59.571 AM] sk2a03#
+[2023/06/20 11:33:59.666 AM] sk2a03#
+[2023/06/20 11:33:59.827 AM] sk2a03#
+[2023/06/20 11:33:59.970 AM] sk2a03#
+[2023/06/20 11:34:00.114 AM] sk2a03#
+[2023/06/20 11:34:00.227 AM] sk2a03#
+[2023/06/20 11:34:00.355 AM] sk2a03#ping 8.8.8.8
+[2023/06/20 11:34:04.274 AM] Type escape sequence to abort.
+[2023/06/20 11:34:04.306 AM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/06/20 11:34:04.388 AM] !!!!!
+[2023/06/20 11:34:04.388 AM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/06/20 11:34:04.470 AM] sk2a03#sk2a03(config)#line vty 0 4
+[2023/06/20 11:34:36.724 AM] sk2a03(config-line)#ip address 192.168.1.254 255.255.255.0
+[2023/06/20 11:34:36.724 AM] ^
+[2023/06/20 11:34:36.724 AM] % Invalid input detected at '^' marker.
+
+[2023/06/20 11:34:36.724 AM] sk2a03(config-line)#password class
+[2023/06/20 11:34:36.724 AM] sk2a03(config-line)#login
+[2023/06/20 11:34:36.724 AM] sk2a03(config-line)#exit
+[2023/06/20 11:34:36.724 AM] sk2a03(config)#exit
+[2023/06/20 11:34:36.724 AM] sk2a03#ping
+[2023/06/20 11:34:36.724 AM] *Jun 20 03:03:58.811: %SYS-5-CONFIG_I: Configured from console by console8.8
+[2023/06/20 11:34:36.724 AM] % Unrecognized host or address, or protocol not running.
+
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#
+[2023/06/20 11:34:36.724 AM] sk2a03#ping 8.8.8.8
+[2023/06/20 11:34:36.724 AM] Type escape sequence to abort.
+[2023/06/20 11:34:36.724 AM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/06/20 11:34:36.724 AM] !!!!!
+[2023/06/20 11:34:36.724 AM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/06/20 11:34:36.724 AM] sk2a03#Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/06/20 11:34:36.920 AM] sk2a03(config)#
+[2023/06/20 11:34:36.920 AM] sk2a03(config)#
+[2023/06/20 11:34:36.920 AM] sk2a03(config)#line vty 0 4
+[2023/06/20 11:34:36.920 AM] sk2a03(config-line)#ip address 192.168.1.254 255.255.255.0
+[2023/06/20 11:34:36.920 AM] ^
+[2023/06/20 11:34:36.920 AM] % Invalid input detected at '^' marker.
+
+[2023/06/20 11:34:36.920 AM] sk2a03(config-line)#password class
+[2023/06/20 11:34:36.920 AM] sk2a03(config-line)#login
+[2023/06/20 11:34:36.920 AM] sk2a03(config-line)#exit
+[2023/06/20 11:34:36.920 AM] sk2a03(config)#exit
+[2023/06/20 11:34:36.920 AM] sk2a03#ping
+[2023/06/20 11:34:36.920 AM] *Jun 20 03:03:58.811: %SYS-5-CONFIG_I: Configured from console by console8.8
+[2023/06/20 11:34:36.920 AM] % Unrecognized host or address, or protocol not running.
+
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#
+[2023/06/20 11:34:36.920 AM] sk2a03#ping 8.8.8.8
+[2023/06/20 11:34:36.920 AM] Type escape sequence to abort.
+[2023/06/20 11:34:36.921 AM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/06/20 11:34:36.921 AM] !!!!!
+[2023/06/20 11:34:36.921 AM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/06/20 11:34:36.921 AM] sk2a03#sk2a03(config-if)#exit
+[2023/06/20 11:34:37.175 AM] sk2a03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/06/20 11:34:37.175 AM] sk2a03(config)#exit
+[2023/06/20 11:34:37.175 AM] sk2a03#
+[2023/06/20 11:34:37.175 AM] sk2a03#
+[2023/06/20 11:34:37.175 AM] *Jun 20 02:57:55.599: %SYS-5-CONFIG_I: Configured from console by console
+[2023/06/20 11:34:37.175 AM] sk2a03#
+[2023/06/20 11:34:37.175 AM] sk2a03#
+[2023/06/20 11:34:37.175 AM] sk2a03#
+[2023/06/20 11:34:37.175 AM] sk2a03#config t
+[2023/06/20 11:34:37.175 AM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/06/20 11:34:37.175 AM] sk2a03(config)#
+[2023/06/20 11:34:37.175 AM] sk2a03(config)#
+[2023/06/20 11:34:37.175 AM] sk2a03(config)#line vty 0 4
+[2023/06/20 11:34:37.175 AM] sk2a03(config-line)#ip address 192.168.1.254 255.255.255.0
+[2023/06/20 11:34:37.175 AM] ^
+[2023/06/20 11:34:37.175 AM] % Invalid input detected at '^' marker.
+
+[2023/06/20 11:34:37.175 AM] sk2a03(config-line)#password class
+[2023/06/20 11:34:37.175 AM] sk2a03(config-line)#login
+[2023/06/20 11:34:37.176 AM] sk2a03(config-line)#exit
+[2023/06/20 11:34:37.176 AM] sk2a03(config)#exit
+[2023/06/20 11:34:37.176 AM] sk2a03#ping
+[2023/06/20 11:34:37.176 AM] *Jun 20 03:03:58.811: %SYS-5-CONFIG_I: Configured from console by console8.8
+[2023/06/20 11:34:37.176 AM] % Unrecognized host or address, or protocol not running.
+
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#
+[2023/06/20 11:34:37.176 AM] sk2a03#ping 8.8.8.8
+[2023/06/20 11:34:37.176 AM] Type escape sequence to abort.
+[2023/06/20 11:34:37.176 AM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/06/20 11:34:37.176 AM] !!!!!
+[2023/06/20 11:34:37.176 AM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/06/20 11:34:37.176 AM] sk2a03#
