@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>login</title>
     <link rel="stylesheet" href="./Scss/Loign.css" />
+    <link rel="stylesheet" href="../Header_Scss/header.css" />
     <link rel="stylesheet" href="../Category/CategoryCSS.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,12 +20,18 @@
       <!-- Header -->
       <header>
         <div class="inner">
-          <div class="logo"><a href="../Main/main.html">AFI</a></div>
+          <div class="logo"><a href="./main.html">AFI</a></div>
           <div class="search-box">
             <input type="search" placeholder="Search in " />
             <button>検索</button>
           </div>
-          <div class="login"><a href="./Login.html">ログイン</a></div>
+          <!-- Loignしたら、表示 -->
+          <div id="HeaderUserName"><p>UserName</p></div>
+          <!-- ログインしたら, ログイン- => ログアウト -->
+          <!-- <div class="login"><a src="#">ログアウト</a></div> -->
+          <div class="login"><a href="../Login/Login.html">ログイン</a></div>
+          <!-- ログインしたら, Sign-in => My-Page  -->
+          <!-- <div class="my-page"><a href="#">My-Page</a></div> -->
           <div class="my-page"><a href="#">会員登録</a></div>
         </div>
       </header>
@@ -32,6 +39,7 @@
       <div class="section inner">
         <div class="inner">
           <div class="LoginP inner">Login</div>
+
           <div id="LoginForm">
             <form action="#" method="POST">
               <div>
@@ -47,14 +55,14 @@
           </div>
         </div>
       </div>
-      
-      <div class="icon inner">
+
+      <!-- <div class="icon inner">
         <a href="#"><img src="./Scss/img/facebookIcon.png" alt="facebook" /></a>
         <a href="#"><img src="./Scss/img/githubIcon.png" alt="github" /></a>
         <a href="#"><img src="./Scss/img/googleIcon.png" alt="google" /></a>
         <a href="#"><img src="./Scss/img/lineIcon.png" alt="line" /></a>
         <a href="#"><img src="./Scss/img/twitterIcon.png" alt="twitter" /></a>
-      </div>
+      </div> -->
 
       <footer>
         <div class="inner">
@@ -96,37 +104,37 @@
               <div class="card border-left-behind">
                 <div
                   class="shadow"
-                  style="--url: url('https://i.ibb.co/PM4ghD4/full.png')"
+                  style="--url: url('./img/A_BG.png')"
                 ></div>
                 <div
                   class="image background"
-                  style="--url: url('https://i.ibb.co/JpJVJxq/Background.png')"
+                  style="--url: url('./img/A_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('https://i.ibb.co/Dw3q3tZ/cutout.png')"
+                  style="--url: url('./img/A_01.png')"
                 ></div>
                 <div class="content">
-                  <h2 id="Title">専門的なユーザー（業者）</h2>
-                  <p id="STitle">専門的な知識で協力</p>
+                  <h2 id="Title">物資共有</h2>
+                  <p id="STitle">近く住んでいる方に手伝う</p>
                 </div>
               </div>
             </a>
             <!-- カテゴリー　２ -->
             <a href="../Product_List/Product_List.html">
               <div class="card border-left-behind">
-                <div class="shadow" style="--url: url('./img/789.png')"></div>
+                <div class="shadow" style="--url: url('./img/B_BG.png')"></div>
                 <div
                   class="image background"
-                  style="--url: url('./img/123.png')"
+                  style="--url: url('./img/B_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('./img/456.png')"
+                  style="--url: url('./img/B_01.png')"
                 ></div>
                 <div class="content">
-                  <h2 id="Title">一般的なユーザー</h2>
-                  <p id="STitle">一人暮らし、寂しい</p>
+                  <h2 id="Title">お手伝い</h2>
+                  <p id="STitle">自分からできないこと</p>
                 </div>
               </div>
             </a>
@@ -135,15 +143,15 @@
               <div class="card border-left-behind">
                 <div
                   class="shadow"
-                  style="--url: url('https://i.ibb.co/PM4ghD4/full.png')"
+                  style="--url: url('./img/C_BG.png')"
                 ></div>
                 <div
                   class="image background"
-                  style="--url: url('https://i.ibb.co/JpJVJxq/Background.png')"
+                  style="--url: url('./img/C_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('https://i.ibb.co/Dw3q3tZ/cutout.png')"
+                  style="--url: url('./img/C_01.png')"
                 ></div>
                 <div class="content">
                   <h2 id="Title">記事</h2>

@@ -5,13 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>商品一覧</title>
     <link rel="stylesheet" href="./Scss/Product_List.css" />
+    <link rel="stylesheet" href="../Header_Scss/header.css" />
     <link rel="stylesheet" href="../Category/CategoryCSS.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
   </head>
 
   <body>
@@ -20,34 +15,66 @@
       <!-- Header -->
       <header>
         <div class="inner">
-          <div class="logo"><a href="../Main/main.html">AFI</a></div>
+          <div class="logo"><a href="./main.html">AFI</a></div>
+
           <div class="search-box">
             <input type="search" placeholder="Search in " />
             <button>検索</button>
           </div>
-          <div class="login"><a href="#">ログイン</a></div>
+
+          <!-- Loignしたら、表示 -->
+          <div id="HeaderUserName"><p>UserName</p></div>
+          <!-- ログインしたら, ログイン- => ログアウト -->
+          <!-- <div class="login"><a src="#">ログアウト</a></div> -->
+          <div class="login"><a href="../Login/Login.html">ログイン</a></div>
+          <!-- ログインしたら, Sign-in => My-Page  -->
+          <!-- <div class="my-page"><a href="#">My-Page</a></div> -->
           <div class="my-page"><a href="#">会員登録</a></div>
         </div>
       </header>
 
+      <div class="head-title">
+        <div class="head-title-letter">
+          <h1>引き取りリスト</h1>
+          <p>近いところの売り物が<br />ここに全部あります！</p>
+        </div>
+
+        <div class="head-title-img">
+          <img
+            src="/Team_02/HTML/Product_List/img/product-list-head-img.png"
+            alt=""
+          />
+        </div>
+      </div>
       <div class="category-box">
-        <select>
-          <option value="option1">お手伝い</option>
-          <option value="option2">商品</option>
-        </select>
-        
-        <select name="" id="">
-          <option>1~10</option>
-          <option>11~20</option>
-        </select>
+        <div class="category">
+          <select>
+            <option value="option1">お手伝い</option>
+            <option value="option2">商品</option>
+          </select>
 
-        <select>
-          <option value="option1">最近順</option>
-          <option value="option2">古い順</option>
-          <option value="option3">投稿時間</option>
-        </select>
+          <select name="" id="">
+            <option>1~10</option>
+            <option>11~20</option>
+          </select>
 
-        <button class="ClearFilterBtn">ClearFilter</button>
+          <select>
+            <option value="option1">最近順</option>
+            <option value="option2">古い順</option>
+            <option value="option3">投稿時間</option>
+          </select>
+          <button class="ClearFilterBtn">ClearFilter</button>
+        </div>
+
+        <div class="category-search">
+          <input type="text" />
+          <button>
+            <img
+              src="/Team_02/HTML/Product_List/img/magnifying-glass.png"
+              alt=""
+            />
+          </button>
+        </div>
       </div>
 
       <nav aria-label="Page navigation example">
@@ -94,58 +121,58 @@
               <hr />
             </h1>
             <!-- カテゴリー　１ -->
-            <a href="./Product_List.html">
+            <a href="../Product_List/Product_List.html">
               <div class="card border-left-behind">
                 <div
                   class="shadow"
-                  style="--url: url('https://i.ibb.co/PM4ghD4/full.png')"
+                  style="--url: url('./img/A_BG.png')"
                 ></div>
                 <div
                   class="image background"
-                  style="--url: url('https://i.ibb.co/JpJVJxq/Background.png')"
+                  style="--url: url('./img/A_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('https://i.ibb.co/Dw3q3tZ/cutout.png')"
+                  style="--url: url('./img/A_01.png')"
                 ></div>
                 <div class="content">
-                  <h2 id="Title">専門的なユーザー（業者）</h2>
-                  <p id="STitle">専門的な知識で協力</p>
+                  <h2 id="Title">物資共有</h2>
+                  <p id="STitle">近く住んでいる方に手伝う</p>
                 </div>
               </div>
             </a>
             <!-- カテゴリー　２ -->
-            <a href="./Product_List.html">
+            <a href="../Product_List/Product_List.html">
               <div class="card border-left-behind">
-                <div class="shadow" style="--url: url('./img/789.png')"></div>
+                <div class="shadow" style="--url: url('./img/B_BG.png')"></div>
                 <div
                   class="image background"
-                  style="--url: url('./img/123.png')"
+                  style="--url: url('./img/B_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('./img/456.png')"
+                  style="--url: url('./img/B_01.png')"
                 ></div>
                 <div class="content">
-                  <h2 id="Title">一般的なユーザー</h2>
-                  <p id="STitle">一人暮らし、寂しい</p>
+                  <h2 id="Title">お手伝い</h2>
+                  <p id="STitle">自分からできないこと</p>
                 </div>
               </div>
             </a>
             <!-- カテゴリー　３ -->
-            <a href="./Product_List.html">
+            <a href="../Product_List/Product_List.html">
               <div class="card border-left-behind">
                 <div
                   class="shadow"
-                  style="--url: url('https://i.ibb.co/PM4ghD4/full.png')"
+                  style="--url: url('./img/C_BG.png')"
                 ></div>
                 <div
                   class="image background"
-                  style="--url: url('https://i.ibb.co/JpJVJxq/Background.png')"
+                  style="--url: url('./img/C_02.png')"
                 ></div>
                 <div
                   class="image cutout"
-                  style="--url: url('https://i.ibb.co/Dw3q3tZ/cutout.png')"
+                  style="--url: url('./img/C_01.png')"
                 ></div>
                 <div class="content">
                   <h2 id="Title">記事</h2>

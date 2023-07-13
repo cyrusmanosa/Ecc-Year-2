@@ -19,19 +19,20 @@ async function fetchData() {
           <img src="./img/notebook.png" alt="" />
           <p class="name">${
             item.title == null || item.title == ""
-              ? "타이틀이 없습니다."
+              ? "タイトルがありません。"
               : item.title.length > 15
               ? item.title.substring(0, 15) + "..."
               : item.title
           }</p>
           <p class="location">${
             item.body == null || item.body == ""
-              ? "내용이 없습니다."
+              ? "内容がありません"
               : item.body.length > 20
               ? item.body.substring(0, 20) + "..."
               : item.body
           }</p>
-          <p class="price">가격</p>
+          <p class="price">値段</p>
+          <p class= "status">取引中</p>
         </div>
       `;
     });

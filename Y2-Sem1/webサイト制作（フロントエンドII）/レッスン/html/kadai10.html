@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- link rel="stylesheet" -->
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="../css/common.css" />
+    <!-- web font for google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Aclonica"
+    />
+    <!-- Material icons for google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>kadai10 - JavaScript1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="box-border">
+    <div id="wrapper">
+      <header>
+        <h1 id="logo">JS Method</h1>
+      </header>
+      <div id="content-wrap">
+        <div id="content">
+          <div class="wrapper">
+            <h2 class="text-2xl mb-5">グルメサーチ</h2>
+
+            <section id="search" class="mb-10">
+              <div
+                class="flex flex-col sm:flex-row gap-10 p-5 bg-gray-50 border-4 border-solid border-gray-600 rounded-md"
+              >
+                <div class="flex flex-col w-full sm:w-1/3">
+                  <div class="grow flex flex-col mb-5">
+                    <label class="text-lg text-gray-600">キーワード</label>
+                    <input
+                      type="text"
+                      id="keyword"
+                      class="grow bg-white text-lg px-3 py-1 border-2 border-solid border-gray-600 rounded-md"
+                      placeholder="東京"
+                    />
+                  </div>
+
+                  <button
+                    type="button"
+                    id="btn_search"
+                    class="lg:w-2/12 text-white text-lg bg-sky-500 hover:bg-sky-600 py-2 rounded-md"
+                  >
+                    検索
+                  </button>
+                </div>
+
+                <div class="grow flex flex-col w-full sm:w-1/3">
+                  <p class="text-lg text-gray-600">表示件数</p>
+
+                  <div class="flex flex-row">
+                    <label class="text-lg mr-5">
+                      <input type="radio" name="count" value="10" checked />
+                      10件
+                    </label>
+                    <label class="text-lg mr-5">
+                      <input type="radio" name="count" value="30" />30件
+                    </label>
+
+                    <label class="text-lg mr-5">
+                      <input type="radio" name="count" value="50" />50件
+                    </label>
+
+                    <label class="text-lg">
+                      <input type="radio" name="count" value="100" />100件
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section id="search_result">
+              <!-- お店開始 -->
+              <!-- お店終了 -->
+              <div
+                class="shop flex flex-col sm:flex-row gap-5 bg-neutral-50 p-5 mx-5 mb-10 border border-gray-200 border-solid"
+              >
+                <figure
+                  class="bg-white p-2 border border-neutral-200 border-solid"
+                >
+                  <img
+                    src="https://imgfp.hotp.jp/IMGH/61/93/P041206193/P041206193_238.jpg"
+                    class="object-cover w-full h-full"
+                  />
+                </figure>
+
+                <div class="grow">
+                  <p class="text-sm sm:text-base">ジャンル | 最寄り</p>
+                  <p class="text-sm sm:text-base my-2">キャッチコピー</p>
+                  <h4 class="text-lg sm:text-2xl my-3">
+                    <a href="#">店舗の名前</a>
+                  </h4>
+                  <p class="text-sm sm:text-base mb-5">店舗住所</p>
+
+                  <div class="mb-10">
+                    <p class="text-sm sm:text-base text-pink-400">
+                      食べ放題あり・なし
+                    </p>
+                    <p class="text-sm sm:text-base text-pink-400">
+                      飲み放題あり・なし
+                    </p>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="text-base text-white bg-yellow-300 px-3 py-2 border-2 border-solid border-yellow-400 rounded-md"
+                    >このお店のお得なクーポン</a
+                  >
+                </div>
+              </div>
+            </section>
+          </div>
+          <!--/.wrapper-->
+        </div>
+        <!--/#content-->
+      </div>
+      <!--/#content-wrap-->
+
+      <footer>
+        <div id="top-area">
+          <a href="#wrapper"><i class="material-icons">keyboard_arrow_up</i></a>
+        </div>
+        <p id="copyright" class="font-weight-b">
+          <min
+            >copyright &copy; <span id="year">2020</span> ECC Design
+            Collage</min
+          >
+        </p>
+      </footer>
+    </div>
+    <!--/#wrapper-->
+    <script src="../kadai10_api/kadai10.js"></script>
+  </body>
+</html>
