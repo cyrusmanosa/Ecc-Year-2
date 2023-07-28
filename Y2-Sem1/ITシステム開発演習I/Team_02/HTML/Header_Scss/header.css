@@ -85,7 +85,7 @@ header .search-box button {
        appearance: none;
 }
 header .my-page {
-  background-color: black;
+  background-color: #243040;
   border-radius: 8px;
   color: white;
   height: inherit;

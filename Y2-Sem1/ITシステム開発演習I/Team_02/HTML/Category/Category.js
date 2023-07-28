@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let isLateralNavAnimating = false;
   const navTrigger = document.querySelector(".cd-nav-trigger");
+
   navTrigger.addEventListener("click", (e) => {
     e.preventDefault();
     if (!isLateralNavAnimating) {
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navigationWrapper.addEventListener("transitionend",() => {isLateralNavAnimating = false;},{ once: true });
     }
   });
+  
 });
 
 const angle = 20;

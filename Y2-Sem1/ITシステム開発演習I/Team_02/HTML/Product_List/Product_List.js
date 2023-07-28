@@ -4,12 +4,12 @@ let page = 1;
 let totalPages = 0;
 
 async function fetchData() {
-  try {
     const response = await fetch("https://jsonplaceholder.typicode.com/posts");
     const data = await response.json();
     const startIndex = (page - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
+    
     totalPages = Math.ceil(data.length / itemsPerPage);
     console.log(totalPages);
     const currentPageData = data.slice(startIndex, endIndex);
@@ -36,23 +36,14 @@ async function fetchData() {
         </div>
       `;
     });
-    console.log(data);
-
     pagenation(); // 페이지네이션 업데이트
-  } catch (error) {
-    // 오류 처리
-    console.error(error);
-  }
 }
 
 const pagenation = () => {
   let pagenationHTML = "";
   let pageGroup = Math.ceil(page / 5);
   let last = pageGroup * 5;
-
-  if (last >= totalPages) {
-    last = totalPages;
-  }
+  if (last >= totalPages) { last = totalPages; }
   let first = last - 4 <= 0 ? 1 : last - 4;
 
   pagenationHTML = `<li class="page-item">
@@ -92,6 +83,8 @@ const pagenation = () => {
 </li>`;
   document.querySelector(".pagination").innerHTML = pagenationHTML;
 };
+
+
 function moveToPage(pageNum) {
   page = pageNum;
   console.log(page);

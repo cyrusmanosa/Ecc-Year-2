@@ -193,7 +193,6 @@ textarea:focus {
 }
 
 .camera-img {
-  width: 100%;
   height: 100%;
 }
 
@@ -208,7 +207,7 @@ textarea:focus {
   left: 50%;
   transform: translate(-50%, -50%);
   bottom: -35px;
-  background-image: url("/img/closeBtn.png");
+  background-image: url("./closeBtn.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

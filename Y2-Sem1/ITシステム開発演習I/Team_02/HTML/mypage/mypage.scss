@@ -8,89 +8,6 @@ button {
   cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-  text-decoration: none;
-}
-html {
-  overflow-x: hidden;
-}
-main {
-  backface-visibility: hidden;
-  background-color: $backgroundC;
-  position: relative;
-  overflow-y: auto;
-  transform: translateZ(0);
-  transition: transform 0.7s;
-  transition-timing-function: cubic-bezier(0.91, 0.01, 0.6, 0.99);
-  z-index: 2;
-}
-.inner {
-  display: flex;
-  height: inherit;
-  justify-content: center;
-}
-
-/* Part_1a　Header */
-header {
-  line-height: 3em;
-  margin-top: 20px;
-  width: 100%;
-  text-align: center;
-  background-color: $backgroundC;
-}
-.logo,
-.login {
-  height: inherit;
-  min-width: 5%;
-}
-.logo {
-  max-width: 100%;
-  font-size: 30px;
-  padding-right: 20px;
-}
-.search-box {
-  border: 0.5px solid #d1d3d8;
-  border-radius: 8px;
-  display: flex;
-  height: 40px;
-  justify-content: center;
-  margin-top: 5px;
-  width: 40%;
-  input {
-    border: none;
-    outline: none;
-    text-indent: 1em;
-    width: 90%;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-  button {
-    border: none;
-    background: none;
-    outline: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-}
-.my-page {
-  // background-color: $MypageBG;
-  border: 1px solid #d1d3d8;
-  border-radius: 8px;
-  color: white;
-  height: inherit;
-  padding: 0px 15px;
-  a:link,
-  a:visited {
-    color: white;
-    text-align: center;
-  }
-}
-
 .history-section {
   border-radius: 10px;
   border: 2px solid #e0e0e0;
@@ -107,8 +24,8 @@ main {
 .head-title {
   width: 100%;
   margin: 0 auto;
-  margin-top: 40px;
-  height: 300px;
+  margin-top: 30px;
+  height: 275px;
   color: #212124;
   font-size: 1.3rem;
   background-color: #d2edfa;
@@ -135,10 +52,6 @@ main {
   justify-content: space-around;
   border-radius: 10px;
   border: 2px solid #e0e0e0;
-  // border: 3px solid #ccc;
-  // border-width: 3px 3px 12px;
-  // border-color: #ccc;
-  // box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .profile-img {
@@ -274,8 +187,10 @@ main {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 .deal-ing-item,
 .like-item {
   height: 310px;

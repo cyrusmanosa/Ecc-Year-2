@@ -1,11 +1,12 @@
 $backgroundC: #ffffff;
 
 $buttonBG: black;
+$buttonRadius: 5px;
 $PromotionBG: #455b78;
 
-$LoopBarBG: #e67e22;
+$LoopBarBG: #e28839;
 $LoopeBarMain: black;
-$LoopBarWord: rgba(180, 180, 180, 0.5);
+$LoopBarWord: rgba(205, 205, 205, 0.5);
 
 $line: 2px solid #e0e0e0;
 $lineradius: 10px;
@@ -90,7 +91,7 @@ header {
     }
   }
   .my-page {
-    background-color: $buttonBG;
+    background-color:  #243040;;
     border-radius: 8px;
     color: white;
     height: inherit;

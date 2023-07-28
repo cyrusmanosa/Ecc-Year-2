@@ -12,11 +12,12 @@
 
 /* Part_2 Promotion Box */
 .section1 > .inner {
-  height: 450px;
+  height: 510px;
   width: 100%;
   overflow: hidden;
   align-items: center;
   background-color: #455b78;
+  margin-top: 15px;
 }
 
 #slider_layout {
@@ -30,16 +31,19 @@
 }
 
 #slide-letter {
+  color: #ffffff;
   grid-column: 1/span 2;
   font-size: 20px;
-  min-width: 65%;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  min-width: 40%;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   justify-content: center;
   -moz-column-gap: 50px;
        column-gap: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 20px;
 }
 #slide-letter span {
   width: 50px;
@@ -47,87 +51,86 @@
 
 #slider_name {
   font-size: 25px;
+  color: #ffffff;
 }
 
 .allslider {
   position: relative;
   width: 600px;
-  height: 350px;
+  height: 400px;
   margin: auto;
 }
 .allslider .slide {
-  width: 550px;
-  height: 350px;
+  width: 600px;
+  height: 400px;
   display: none;
 }
 .allslider .Sactive {
   display: block;
 }
-.allslider #num1 {
-  background: #2c3e50;
+.allslider #num1 img {
+  width: 600px;
+  height: 400px;
 }
-.allslider #num2 {
-  background: #e67e22;
+.allslider #num2 img {
+  width: 600px;
+  height: 400px;
 }
-.allslider #num3 {
-  background: #3498db;
+.allslider #num3 img {
+  width: 600px;
+  height: 400px;
 }
-.allslider #num4 {
-  background: #2ecc71;
+.allslider #num4 img {
+  width: 600px;
+  height: 400px;
 }
 
-/* Part_3_Title */
-.move-writter {
-  background: #e67e22;
-  height: 130px;
-  overflow: hidden;
-  position: relative;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+.introduction-location,
+.introduction-money {
   width: 100%;
-}
-
-#ig_title {
-  color: black;
-  font-weight: bold;
-  font-size: 35px;
-  left: 50%;
-  letter-spacing: 5px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-#ig_loop {
-  color: rgba(180, 180, 180, 0.5);
+  height: 400px;
   display: flex;
-  flex: 0 0 auto;
-  font-family: "Ubuntu", sans-serif;
-  font-size: 120px;
-  font-weight: 800;
-  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
 }
-#ig_loop p {
-  animation: marquee 50s linear infinite;
-  cursor: default;
-  filter: blur(1px);
-  line-height: 1;
+.introduction-location img,
+.introduction-money img {
+  width: 300px;
+  height: 300px;
+}
+.introduction-location p,
+.introduction-money p {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-100%, 0, 0);
-  }
+.intro-money-letter {
+  margin-right: 60px;
 }
+
+.intro-location-letter {
+  margin-left: 60px;
+}
+
+.intro-money-img img {
+  border-radius: 20px;
+}
+
+.intro-location-img img {
+  border-radius: 50%;
+}
+
+.introduction-location {
+  background-color: #fbf7f2;
+}
+
+.introduction-money {
+  background-color: #e6f3e6;
+}
+
 /* Part_3 Product Loop */
 .section2 > .inner {
-  height: 250px;
+  height: 350px;
   overflow: hidden;
   width: 100%;
   align-items: center;
@@ -149,7 +152,7 @@
   width: 300px;
 }
 #s2 .item img {
-  width: 250px;
+  width: 200px;
 }
 
 @keyframes abc {
@@ -160,15 +163,68 @@
     transform: translate3d(-100%, 0, 0);
   }
 }
+/* Part_4_Title */
+.move-writter {
+  background: #7399c9;
+  height: 130px;
+  overflow: hidden;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  width: 100%;
+}
+
+#ig_title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 40px;
+  left: 50%;
+  letter-spacing: 5px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: #6fa6e8;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+#ig_loop {
+  color: rgba(205, 205, 205, 0.5);
+  display: flex;
+  flex: 0 0 auto;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+#ig_loop p {
+  animation: marquee 50s linear infinite;
+  cursor: default;
+  filter: blur(3px);
+  line-height: 1;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
 /* Part_4 Report */
 .section3 {
   margin-left: 75px;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 .section3 > .inner {
   overflow: hidden;
   width: 100%;
+  height: 400px;
 }
 
 .list {
