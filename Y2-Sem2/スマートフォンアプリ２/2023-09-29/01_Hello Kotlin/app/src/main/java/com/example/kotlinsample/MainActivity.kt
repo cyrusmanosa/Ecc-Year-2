@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         Log.d("test","call onCreate()")
     }
-    
+
     override fun onStart() {
         super.onStart()
         Log.d("test","call onStart")

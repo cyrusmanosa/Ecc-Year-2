@@ -1,0 +1,829 @@
+[2023/09/29 3:27:56.700 PM] Last login: Fri Sep 29 15:26:28 on ttys000
+
+
+[2023/09/29 3:27:56.722 PM]     ~                                                          15:27:56  
+[2023/09/29 3:27:56.723 PM] ❯ %                                                                               
+[2023/09/29 3:27:56.810 PM]     ~                                                          15:27:56  
+[2023/09/29 3:27:56.810 PM] ❯ ssh ecc@192.168.64.6rm --help           ssh sk2a03@192.168.64.6❯ ssh sk2a03@192.168.64.6
+[2023/09/29 3:28:00.530 PM] sk2a03@192.168.64.6's password: 
+[2023/09/29 3:28:03.109 PM] Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic aarch64)
+
+[2023/09/29 3:28:03.109 PM]  * Documentation:  https://help.ubuntu.com
+[2023/09/29 3:28:03.109 PM]  * Management:     https://landscape.canonical.com
+[2023/09/29 3:28:03.109 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/09/29 3:28:03.110 PM] This system has been minimized by removing packages and content that are
+[2023/09/29 3:28:03.110 PM] not required on a system that users do not log into.
+
+[2023/09/29 3:28:03.110 PM] To restore this content, you can run the 'unminimize' command.
+
+[2023/09/29 3:28:03.110 PM] Expanded Security Maintenance for Applications is not enabled.
+
+[2023/09/29 3:28:03.110 PM] 0 updates can be applied immediately.
+
+[2023/09/29 3:28:03.110 PM] Enable ESM Apps to receive additional future security updates.
+[2023/09/29 3:28:03.110 PM] See https://ubuntu.com/esm or run: sudo pro status
+
+
+[2023/09/29 3:28:03.110 PM] The list of available updates is more than a week old.
+[2023/09/29 3:28:03.110 PM] To check for new updates run: sudo apt update
+[2023/09/29 3:28:03.110 PM] Last login: Fri Sep 29 05:40:51 2023 from 192.168.64.1
+[2023/09/29 3:28:03.115 PM] sk2a03@unixsv:~$ sudo esuystemctl status apachche2
+[2023/09/29 3:28:19.375 PM] [sudo] password for sk2a03: 
+[2023/09/29 3:28:21.772 PM] ● apache2.service - The Apache HTTP Server
+[2023/09/29 3:28:21.772 PM]      Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+[2023/09/29 3:28:21.772 PM]      Active: active (running) since Fri 2023-09-29 06:23:51 UTC; 4min 29s ago
+[2023/09/29 3:28:21.772 PM]        Docs: https://httpd.apache.org/docs/2.4/
+[2023/09/29 3:28:21.772 PM]     Process: 2855 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+[2023/09/29 3:28:21.772 PM]    Main PID: 2859 (apache2)
+[2023/09/29 3:28:21.772 PM]       Tasks: 7 (limit: 4515)
+[2023/09/29 3:28:21.772 PM]      Memory: 11.5M
+[2023/09/29 3:28:21.772 PM]         CPU: 71ms
+[2023/09/29 3:28:21.772 PM]      CGroup: /system.slice/apache2.service
+[2023/09/29 3:28:21.772 PM]              ├─2859 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              ├─2861 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              ├─2862 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              ├─2863 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              ├─2864 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              ├─2865 /usr/sbin/apache2 -k start
+[2023/09/29 3:28:21.772 PM]              └─2866 /usr/sbin/apache2 -k start
+
+[2023/09/29 3:28:21.772 PM] Sep 29 06:23:51 unixsv systemd[1]: Starting The Apache HTTP Server...
+[2023/09/29 3:28:21.772 PM] Sep 29 06:23:51 unixsv systemd[1]: Started The Apache HTTP Server.
+[2023/09/29 3:28:21.773 PM] sk2a03@unixsv:~$ lopenssl version
+[2023/09/29 3:28:28.657 PM] OpenSSL 3.0.2 15 Mar 2022 (Library: OpenSSL 3.0.2 15 Mar 2022)
+[2023/09/29 3:28:28.657 PM] sk2a03@unixsv:~$ sudo mkedir /ca/priveate
+[2023/09/29 3:28:39.811 PM] mkdir: cannot create directory ‘/ca/private’: No such file or directory
+[2023/09/29 3:28:39.813 PM] sk2a03@unixsv:~$ sudo mkdir /ca/private
+[2023/09/29 3:28:53.442 PM] sk2a03@unixsv:~$ sudo mkdir /ca/private
+[2023/09/29 3:28:58.669 PM] sk2a03@unixsv:~$ sudo mkdir /ca/private/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/private/ca/privatec/ca/privated/ca/private /ca/private
+[2023/09/29 3:29:09.548 PM] sk2a03@unixsv:/ca/private$ sudo oipenssl penssl gensrsa -aes256 -out seserver.key 20248
+[2023/09/29 3:29:43.486 PM] Enter PEM pass phrase:
+[2023/09/29 3:29:47.142 PM] Verifying - Enter PEM pass phrase:
+[2023/09/29 3:29:49.202 PM] sk2a03@unixsv:/ca/private$ ls
+[2023/09/29 3:29:52.046 PM] server.key
+[2023/09/29 3:29:52.046 PM] sk2a03@unixsv:/ca/private$ cd ..
+[2023/09/29 3:29:53.927 PM] sk2a03@unixsv:/ca$ sudo openssl req -new -key server.key -out server.csrsudo openssl req -new -key server.key -out server.csr -dyays 3 65/server.key -out server.csr -days 365sk2a03@unixsv:/ca$ cserver.key -out server.csr -days 365sk2a03@unixsv:/ca$ aserver.key -out server.csr -days 365sk2a03@unixsv:/ca$ /server.key -out server.csr -days 365sk2a03@unixsv:/ca$ pserver.key -out server.csr -daysk2a03@unixsv:/ca$ rserver.key -out server.csr -dask2a03@unixsv:/ca$ iserver.key -out server.csr -dsk2a03@unixsv:/ca$ vserver.key -out server.csr -sk2a03@unixsv:/ca$ aserver.key -out server.csr sk2a03@unixsv:/ca$ tserver.key -out server.csrsk2a03@unixsv:/ca$ eserver.key -out server.cssk2a03@unixsv:/ca$ /server.key -out server.csk2a03@unixsv:/ca$ 
+
+[2023/09/29 3:30:45.661 PM] Ignoring -days without -x509; not generating a certificate
+[2023/09/29 3:30:45.663 PM] Enter pass phrase for /ca/private/server.key:
+[2023/09/29 3:30:49.425 PM] You are about to be asked to enter information that will be incorporated
+[2023/09/29 3:30:49.425 PM] into your certificate request.
+[2023/09/29 3:30:49.425 PM] What you are about to enter is what is called a Distinguished Name or a DN.
+[2023/09/29 3:30:49.426 PM] There are quite a few fields but you can leave some blank
+[2023/09/29 3:30:49.426 PM] For some fields there will be a default value,
+[2023/09/29 3:30:49.426 PM] If you enter '.', the field will be left blank.
+[2023/09/29 3:30:49.426 PM] -----
+[2023/09/29 3:30:49.426 PM] Country Name (2 letter code) [AU]:JP
+[2023/09/29 3:30:52.648 PM] State or Province Name (full name) [Some-State]:OSAKA
+[2023/09/29 3:30:54.896 PM] Locality Name (eg, city) []:OSAK AK  KA
+[2023/09/29 3:31:00.209 PM] Organization Name (eg, company) [Internet Widgits Pty Ltd]:ECCComp
+[2023/09/29 3:31:03.874 PM] Organizational Unit Name (eg, section) []:IT
+[2023/09/29 3:31:05.340 PM] Common Name (e.g. server FQDN or YOUR name) []:2220042@ecc.ac.jp
+[2023/09/29 3:31:12.893 PM] Email Address []:20 220042@ecc.ac.jp
+
+[2023/09/29 3:31:22.254 PM] Please enter the following 'extra' attributes
+[2023/09/29 3:31:22.254 PM] to be sent with your certificate request
+[2023/09/29 3:31:22.254 PM] A challenge password []:
+[2023/09/29 3:31:23.143 PM] An optional company name []:
+[2023/09/29 3:31:23.779 PM] sk2a03@unixsv:/ca$ ls
+[2023/09/29 3:31:29.722 PM] private  server.csr
+[2023/09/29 3:31:29.723 PM] sk2a03@unixsv:/ca$ sudo openssl x509 -days 365 –in server.csr -out server.pem –req -signkeyserver.keysudo openssl x509 -days 365 –in server.csr -out server.pem –req -signkeyserver.key
+[2023/09/29 3:31:49.509 PM] x509: Use -help for summary.
+[2023/09/29 3:31:49.513 PM] sk2a03@unixsv:/ca$ sudo openssl x509 -days 365 –in server.csr -out server.pem –req -signkeyserver.key server.key
+[2023/09/29 3:31:58.425 PM] x509: Use -help for summary.
+[2023/09/29 3:31:58.428 PM] sk2a03@unixsv:/ca$ sudo openssl x509 -days 365 –in server.csr -out server.pem –req -signkey server.key/server.csr -out server.pem –resk2a03@unixsv:/ca$ cserver.csr -out server.pem –req -signkey server.keyaserver.csr -out server.pem –sk2a03@unixsv:/ca$ /server.csr -out server.pem sk2a03@unixsv:/ca$ /server.pemsk2a03@unixsv:/ca$ cserver.pesk2a03@unixsv:/ca$ aserver.psk2a03@unixsv:/ca$ /server.sk2a03@unixsv:/ca$ 
+[2023/09/29 3:32:17.130 PM] /server.keycserver.keyaserver.key/server.keypserver.keyrserver.keyiserver.keyvserver.keyaserver.keytserver.keyeserver.key/server.key
+[2023/09/29 3:32:22.176 PM] x509: Use -help for summary.
+[2023/09/29 3:32:22.181 PM] sk2a03@unixsv:/ca$ ;ls
+[2023/09/29 3:32:25.525 PM] private  server.csr
+[2023/09/29 3:32:25.526 PM] sk2a03@unixsv:/ca$ usudo openssl x509 -days 365 -in server .csr -out server.pem
+[2023/09/29 3:33:17.400 PM] Could not read certificate from server.csr
+[2023/09/29 3:33:17.400 PM] Unable to load certificate
+[2023/09/29 3:33:17.402 PM] sk2a03@unixsv:/ca$ sudo openssl x509 -days 365 -in server.csr -out server.pemsk2a03@unixsv:/ca$ sudo openssl x509 -days 365 -in server.csr -out server.pemsk2a03@unixsv:/ca$ sudo openssl x509 -days 365 -in server.csr -out server.pemsk2a03@unixsv:/ca$ sudo openssl x509 -days 365 -in server.csr -out server.pem -req -signkey server .key
+[2023/09/29 3:33:35.702 PM] Could not open file or uri for loading private key from server.key
+[2023/09/29 3:33:35.702 PM] 2090FB91FFFF0000:error:16000069:STORE routines:ossl_store_get0_loader_int:unregistered scheme:../crypto/store/store_register.c:237:scheme=file
+[2023/09/29 3:33:35.702 PM] 2090FB91FFFF0000:error:80000002:system library:file_open:No such file or directory:../providers/implementations/storemgmt/file_store.c:267:calling stat(server.key)
+[2023/09/29 3:33:35.705 PM] sk2a03@unixsv:/ca$ sudo openssl x509 -days 365 -in server.csr -out server.pem -req -signkey server.keypserver.keyrserver.keyiserver.keyvserver.keyaserver.keytserver.keyeserver.key/server.key
+[2023/09/29 3:34:12.003 PM] Enter pass phrase for private/server.key:
+[2023/09/29 3:34:15.375 PM] Certificate request self-signature ok
+[2023/09/29 3:34:15.375 PM] subject=C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = 2220042@ecc.ac.jp, emailAddress = 2220042@ecc.ac.jp
+[2023/09/29 3:34:15.383 PM] sk2a03@unixsv:/ca$ ls
+[2023/09/29 3:34:19.080 PM] private  server.csr  server.pem
+[2023/09/29 3:34:19.081 PM] sk2a03@unixsv:/ca$ sudo chmod 600 /ca
+[2023/09/29 3:34:28.804 PM] sk2a03@unixsv:/ca$ sudo ls -l
+[2023/09/29 3:34:33.297 PM] total 12
+[2023/09/29 3:34:33.298 PM] drwxr-xr-x 2 root root 4096 Sep 29 06:29 private
+[2023/09/29 3:34:33.298 PM] -rw-r--r-- 1 root root 1054 Sep 29 06:31 server.csr
+[2023/09/29 3:34:33.298 PM] -rw-r--r-- 1 root root 1314 Sep 29 06:34 server.pem
+[2023/09/29 3:34:33.300 PM] sk2a03@unixsv:/ca$ cd /etc/apache2/sites-available/etc/apache2/sites-available
+[2023/09/29 3:35:28.177 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo cp default -ssl.cong f default-ss.conf.org
+[2023/09/29 3:35:55.064 PM] sk2a03@unixsv:/etc/apache2/sites-available$ vi sudo vdvi default-ssl.conf
+[2023/09/29 3:36:16.365 PM] "default-ssl.conf" 134L, 6292B▽             CustomLog ${APACHE_LOG_DIR}/access.log combined                # For most configuration files from conf-available/, which are                # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:36:16.370 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:36:16.370 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:36:16.370 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:36:16.370 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:36:16.370 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:36:16.370 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:36:16.371 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:36:16.371 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:36:16.371 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:36:16.371 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:36:16.371 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile /ca/server.key
+
+[2023/09/29 3:36:16.371 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:36:16.371 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:36:16.371 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:36:16.371 PM]                 #   certificate chain for the server certificate. Alternatively33,34-48      11%CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:36:16.372 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:36:16.372 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:36:16.373 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:36:16.373 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:36:16.373 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:36:16.373 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:36:16.373 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:36:16.373 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:36:16.373 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:36:16.373 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:36:16.373 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:36:16.373 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:36:16.373 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile /ca/server.key
+
+[2023/09/29 3:36:16.373 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:36:16.373 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:36:16.373 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:36:16.373 PM]                 #   certificate chain for the server certificate. Alternatively33,34-48      11%"default-ssl.conf" 134L, 6292BErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:36:18.910 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:36:18.910 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:36:18.910 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:36:18.910 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:36:18.910 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:36:18.910 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:36:18.910 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:36:18.910 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:36:18.910 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:36:18.911 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:36:18.911 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:36:18.911 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:36:18.911 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile /ca/server.key
+
+[2023/09/29 3:36:18.911 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:36:18.911 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:36:18.911 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:36:18.911 PM]                 #   certificate chain for the server certificate. Alternatively33,34-48      11%ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 3:36:19.121 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:36:19.121 PM]                 # error, crit, alert, emerg.
+[2023/09/29 3:36:19.121 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 3:36:19.121 PM]                 # modules, e.g.
+[2023/09/29 3:36:19.121 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:36:19.121 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:36:19.121 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:36:19.121 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:36:19.121 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:36:19.121 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:36:19.121 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:36:19.121 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:36:19.121 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:36:19.121 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:36:19.121 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:36:19.121 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:36:19.121 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:36:19.121 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile /ca/server.key
+
+[2023/09/29 3:36:19.121 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:36:19.121 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:36:19.121 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:36:19.121 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 3:36:19.121 PM]                 #   the referenced file can be the same as SSLCertificateFile
+[2023/09/29 3:36:19.121 PM]                 #   when the CA certificates are directly appended to the server
+[2023/09/29 3:36:19.121 PM]                 #   certificate for convinience.33,34-482%i -- INSERT --33,34-482%3-472-461-450-4429-438-427-416-405-394-38  /ca/server.key5-39   /ca/server.key6-417-42/ca/server.key6-417-428-439-4430-45pserver.key1-46rserver.key2-47iserver.key3-48vserver.key4-49aserver.key5-50tserver.key6-51eserver.key7-52/server.key8-539-5440-55^[  33,39-542%::wq"default-ssl.conf" 134L, 6301B written
+[2023/09/29 3:36:40.930 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2enmod ssl
+[2023/09/29 3:36:48.942 PM] Considering dependency setenvif for ssl:
+[2023/09/29 3:36:48.942 PM] Module setenvif already enabled
+[2023/09/29 3:36:48.942 PM] Considering dependency mime for ssl:
+[2023/09/29 3:36:48.943 PM] Module mime already enabled
+[2023/09/29 3:36:48.943 PM] Considering dependency socache_shmcb for ssl:
+[2023/09/29 3:36:48.943 PM] Module socache_shmcb already enabled
+[2023/09/29 3:36:48.943 PM] Module ssl already enabled
+[2023/09/29 3:36:48.946 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo ysysytemctl restart apache2
+[2023/09/29 3:37:08.426 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo 000-default.condf 000-default.confv 000-default.confi 000-default.conf
+[2023/09/29 3:37:38.251 PM] "000-default.conf" 36L, 1447B▽             <VirtualHost *:80>
+[2023/09/29 3:37:38.257 PM]         # The ServerName directive sets the request scheme, hostname and port that        # the server uses to identify itself. This is used when creating        # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:37:38.257 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:37:38.258 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:37:38.258 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:37:38.258 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:37:38.258 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:37:38.258 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:37:38.258 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:37:38.258 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:37:38.258 PM]         # modules, e.g.
+[2023/09/29 3:37:38.258 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:37:38.258 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:37:38.258 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:37:38.258 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:37:38.258 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:37:38.258 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:37:38.258 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:37:38.258 PM] </VirtualHost>
+
+[2023/09/29 3:37:38.258 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:37:38.258 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All<VirtualHost *:80>
+[2023/09/29 3:37:38.260 PM]         # The ServerName directive sets the request scheme, hostname and port that
+[2023/09/29 3:37:38.260 PM]         # the server uses to identify itself. This is used when creating
+[2023/09/29 3:37:38.260 PM]         # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:37:38.260 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:37:38.260 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:37:38.260 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:37:38.260 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:37:38.260 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:37:38.260 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:37:38.260 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:37:38.260 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:37:38.260 PM]         # modules, e.g.
+[2023/09/29 3:37:38.260 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:37:38.260 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:37:38.260 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:37:38.260 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:37:38.260 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:37:38.260 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:37:38.260 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:37:38.260 PM] </VirtualHost>
+
+[2023/09/29 3:37:38.260 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:37:38.260 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All"000-default.conf" 36L, 1447B::wq"000-default.conf" 36L, 1447B written
+[2023/09/29 3:38:10.718 PM] sk2a03@unixsv:/etc/apache2/sites-available$ dusudo a2enmod reqwrite
+[2023/09/29 3:38:21.788 PM] Module rewrite already enabled
+[2023/09/29 3:38:21.791 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sdudo systemctl restart apacahe2
+[2023/09/29 3:38:35.408 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo systemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod sslsystemctl restart apache2vi 000-default.conf
+[2023/09/29 3:40:21.203 PM] "000-default.conf" 36L, 1447B▽             <VirtualHost *:80>
+[2023/09/29 3:40:21.209 PM]         # The ServerName directive sets the request scheme, hostname and port that        # the server uses to identify itself. This is used when creating        # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:40:21.209 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:40:21.209 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:40:21.209 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:40:21.209 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:40:21.209 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:40:21.209 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:40:21.209 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:40:21.209 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:40:21.209 PM]         # modules, e.g.
+[2023/09/29 3:40:21.209 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:40:21.209 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:40:21.209 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:40:21.209 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:40:21.209 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:40:21.209 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:40:21.209 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:40:21.209 PM] </VirtualHost>
+
+[2023/09/29 3:40:21.210 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:40:21.210 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All<VirtualHost *:80>
+[2023/09/29 3:40:21.212 PM]         # The ServerName directive sets the request scheme, hostname and port that
+[2023/09/29 3:40:21.212 PM]         # the server uses to identify itself. This is used when creating
+[2023/09/29 3:40:21.212 PM]         # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:40:21.212 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:40:21.212 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:40:21.212 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:40:21.212 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:40:21.212 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:40:21.212 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:40:21.212 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:40:21.212 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:40:21.212 PM]         # modules, e.g.
+[2023/09/29 3:40:21.212 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:40:21.212 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:40:21.212 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:40:21.212 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:40:21.212 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:40:21.212 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:40:21.212 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:40:21.212 PM] </VirtualHost>
+
+[2023/09/29 3:40:21.212 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:40:21.212 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All"000-default.conf" 36L, 1447B~@k   ~@k   []3-70~@k   2-69~@k   1-68~@k   2-69~@k   3-70~@k   []4-71~@k   ~@k   ::qsk2a03@unixsv:/etc/apache2/sites-available$ sudo vi 000-default.confsystemctl restart apache2
+[2023/09/29 3:41:08.568 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo systemctl restart apache2 apache2 apache2 apache2 apache2 apache2 apache2 apache2s apache2t apache2a apache2t apache2u apache2s apache2
+[2023/09/29 3:41:29.869 PM] ● apache2.service - The Apache HTTP Server
+[2023/09/29 3:41:29.870 PM]      Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+[2023/09/29 3:41:29.870 PM]      Active: active (running) since Fri 2023-09-29 06:41:08 UTC; 21s ago
+[2023/09/29 3:41:29.870 PM]        Docs: https://httpd.apache.org/docs/2.4/
+[2023/09/29 3:41:29.870 PM]     Process: 5311 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+[2023/09/29 3:41:29.870 PM]    Main PID: 5315 (apache2)
+[2023/09/29 3:41:29.870 PM]       Tasks: 6 (limit: 4515)
+[2023/09/29 3:41:29.870 PM]      Memory: 11.0M
+[2023/09/29 3:41:29.870 PM]         CPU: 37ms
+[2023/09/29 3:41:29.870 PM]      CGroup: /system.slice/apache2.service
+[2023/09/29 3:41:29.870 PM]              ├─5315 /usr/sbin/apache2 -k start
+[2023/09/29 3:41:29.870 PM]              ├─5316 /usr/sbin/apache2 -k start
+[2023/09/29 3:41:29.870 PM]              ├─5317 /usr/sbin/apache2 -k start
+[2023/09/29 3:41:29.870 PM]              ├─5318 /usr/sbin/apache2 -k start
+[2023/09/29 3:41:29.870 PM]              ├─5319 /usr/sbin/apache2 -k start
+[2023/09/29 3:41:29.870 PM]              └─5320 /usr/sbin/apache2 -k start
+
+[2023/09/29 3:41:29.870 PM] Sep 29 06:41:08 unixsv systemd[1]: Starting The Apache HTTP Server...
+[2023/09/29 3:41:29.870 PM] Sep 29 06:41:08 unixsv systemd[1]: Started The Apache HTTP Server.
+[2023/09/29 3:41:29.872 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo systemctl status apache2restartvi 000-default.confsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod sslvi default-ssl.confcp default-ssl.conf default-ss.conf.orgvi default-ssl.conf
+[2023/09/29 3:41:38.337 PM] "default-ssl.conf" 134L, 6301B▽             <IfModule mod_ssl.c>
+[2023/09/29 3:41:38.343 PM]         <VirtualHost _default_:443>                ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 3:41:38.343 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:41:38.343 PM]                 # error, crit, alert, emerg.
+[2023/09/29 3:41:38.343 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 3:41:38.343 PM]                 # modules, e.g.
+[2023/09/29 3:41:38.343 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:41:38.343 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:41:38.343 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:41:38.343 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:41:38.343 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:41:38.343 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:41:38.343 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:41:38.343 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:41:38.343 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:41:38.343 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:41:38.343 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:41:38.343 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:41:38.343 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:41:38.343 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 3:41:38.343 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:41:38.344 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:41:38.344 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:41:38.344 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 3:41:38.344 PM]                 #   the referenced file can be the same as SSLCertificateFile33,39-54      Top<IfModule mod_ssl.c><VirtualHost _default_:443>ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 3:41:38.346 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:41:38.346 PM]                 # error, crit, alert, emerg.
+[2023/09/29 3:41:38.346 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 3:41:38.346 PM]                 # modules, e.g.
+[2023/09/29 3:41:38.346 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:41:38.346 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:41:38.346 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:41:38.346 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:41:38.346 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:41:38.346 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:41:38.346 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:41:38.346 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:41:38.346 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:41:38.346 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:41:38.346 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:41:38.346 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:41:38.346 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:41:38.346 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 3:41:38.346 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:41:38.346 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:41:38.347 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:41:38.347 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 3:41:38.347 PM]                 #   the referenced file can be the same as SSLCertificateFile33,39-54      Top"default-ssl.conf" 134L, 6301Bi -- INSERT --33,39-54      Top8-537-526-515-504-493-482-471-460-4529-44^[  33,28-43      Top::wq"default-ssl.conf" 134L, 6301B written
+[2023/09/29 3:41:58.292 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo vi default-ssl.confsystemctl status apache2restartvi 000-default.confsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod sslvi default-ssl.confa2enmod sslsystemctl restart apache2vi 000-default.confa2enmod rewritesystemctl restart apache2vi 000-default.confsystemctl restart apache2statusvi default-ssl.confcd ..
+[2023/09/29 3:44:22.193 PM] sk2a03@unixsv:/etc/apache2$ cd /ca
+[2023/09/29 3:44:25.163 PM] -bash: cd: /ca: Permission denied
+[2023/09/29 3:44:25.163 PM] sk2a03@unixsv:/etc/apache2$ cd ..
+[2023/09/29 3:44:28.270 PM] sk2a03@unixsv:/etc$ cd ..
+[2023/09/29 3:44:30.540 PM] sk2a03@unixsv:/$ /cd /ca
+[2023/09/29 3:44:34.386 PM] -bash: cd: /ca: Permission denied
+[2023/09/29 3:44:34.386 PM] sk2a03@unixsv:/$ sudo cd /ca
+[2023/09/29 3:44:44.510 PM] sudo: cd: command not found
+[2023/09/29 3:44:44.510 PM] sudo: "cd" is a shell built-in command, it cannot be run directly.
+[2023/09/29 3:44:44.511 PM] sudo: the -s option may be used to run a privileged shell.
+[2023/09/29 3:44:44.511 PM] sudo: the -D option may be used to run a command in a specific directory.
+[2023/09/29 3:44:44.511 PM] sk2a03@unixsv:/$ cd ..
+[2023/09/29 3:44:59.611 PM] sk2a03@unixsv:/$ cd ..
+[2023/09/29 3:45:02.289 PM] sk2a03@unixsv:/$ ;sls
+[2023/09/29 3:45:04.671 PM] bin  boot  ca  dev  etc  home  lib  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  swap.img  sys  tmp  usr  var
+[2023/09/29 3:45:04.672 PM] sk2a03@unixsv:/$ cd /ca
+[2023/09/29 3:45:07.781 PM] -bash: cd: /ca: Permission denied
+[2023/09/29 3:45:07.781 PM] sk2a03@unixsv:/$ susduoudo cd /ca
+[2023/09/29 3:45:20.195 PM] sudo: cd: command not found
+[2023/09/29 3:45:20.195 PM] sudo: "cd" is a shell built-in command, it cannot be run directly.
+[2023/09/29 3:45:20.195 PM] sudo: the -s option may be used to run a privileged shell.
+[2023/09/29 3:45:20.195 PM] sudo: the -D option may be used to run a command in a specific directory.
+[2023/09/29 3:45:20.197 PM] sk2a03@unixsv:/$ sudo cd /ca /ca /ca/ca- /cas /ca /ca/ca
+[2023/09/29 3:45:42.651 PM] -bash: cd: -s: invalid option
+[2023/09/29 3:45:42.651 PM] cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+[2023/09/29 3:45:42.651 PM] sk2a03@unixsv:/$ cd /ca/ preivarte
+[2023/09/29 3:46:07.397 PM] -bash: cd: /ca/private: Permission denied
+[2023/09/29 3:46:07.397 PM] sk2a03@unixsv:/$ cd /ca/privatesudo 
+[2023/09/29 3:46:13.604 PM] sudo: cd: command not found
+[2023/09/29 3:46:13.604 PM] sudo: "cd" is a shell built-in command, it cannot be run directly.
+[2023/09/29 3:46:13.604 PM] sudo: the -s option may be used to run a privileged shell.
+[2023/09/29 3:46:13.604 PM] sudo: the -D option may be used to run a command in a specific directory.
+[2023/09/29 3:46:13.605 PM] sk2a03@unixsv:/$ sudoo chmod 755 /ca
+[2023/09/29 3:49:46.203 PM] sk2a03@unixsv:/$ cd /ca
+[2023/09/29 3:49:51.908 PM] sk2a03@unixsv:/ca$ ls
+[2023/09/29 3:49:53.065 PM] private  server.csr  server.pem
+[2023/09/29 3:49:53.066 PM] sk2a03@unixsv:/ca$ cd ..
+[2023/09/29 3:50:48.753 PM] sk2a03@unixsv:/$ cd ..lscd /casudo chmod 755d /ca/private-s /casudo cdlscd ..sudo cd /ca../ca..sudo vi default-ssl.confsystemctl status apache2vi default-ssl.confsystemctl status apache2restart
+[2023/09/29 3:50:56.115 PM] sk2a03@unixsv:/$ csudo systemctl restart apache2cd ..sudo systemctl restart apache2cd /ca
+[2023/09/29 3:53:26.760 PM] sk2a03@unixsv:/ca$ pwd
+[2023/09/29 3:53:28.553 PM] /ca
+[2023/09/29 3:53:28.553 PM] sk2a03@unixsv:/ca$ pwdcd /capwdcd /capwdls
+[2023/09/29 3:53:34.362 PM] private  server.csr  server.pem
+[2023/09/29 3:53:34.362 PM] sk2a03@unixsv:/ca$ sudo vi lspwdcd /casudo systemctl restart apache2cd ..lscd /casudo chmod 755d /ca/private-s /casudo cdcd -s/ca/privatesudo hmod 755 /cacdlscd ..sudo systemctl restart apache2cd /capwdlssudo vi /etc/apache2/sites-avialablevi /etc/apache2/sites-avialable
+[2023/09/29 3:54:07.401 PM] "/etc/apache2/sites-avialable" [New]▽             ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        0,0-1All~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        0,0-1All"/etc/apache2/sites-avialable" [New]::qsk2a03@unixsv:/ca$ sudo vi /etc/apache2/sites-avialablesudo vi /etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialable/etc/apache2/sites-avialablec/etc/apache2/sites-avialabled/etc/apache2/sites-avialable /etc/apache2/sites-avialable
+[2023/09/29 3:54:20.515 PM] -bash: cd: /etc/apache2/sites-avialable: No such file or directory
+[2023/09/29 3:54:20.515 PM] sk2a03@unixsv:/ca$ cd ..
+[2023/09/29 3:54:25.580 PM] sk2a03@unixsv:/$ cd ../etc/apache2/sites-avialable
+[2023/09/29 3:54:27.228 PM] -bash: cd: /etc/apache2/sites-avialable: No such file or directory
+[2023/09/29 3:54:27.228 PM] sk2a03@unixsv:/$ Cd /etc/apache2/sites-availableCd /etc/apache2/sites-available
+[2023/09/29 3:54:51.919 PM] -bash: Cd: command not found
+[2023/09/29 3:54:51.920 PM] sk2a03@unixsv:/$ Cd /etc/apache2/sites-availablec
+[2023/09/29 3:54:57.490 PM] sk2a03@unixsv:/etc/apache2/sites-available$ Sudo Vi default-ssl.confSudo Vi default-ssl.conf
+[2023/09/29 3:55:19.811 PM] -bash: Sudo: command not found
+[2023/09/29 3:55:19.812 PM] sk2a03@unixsv:/etc/apache2/sites-available$ Sudo Vi default-ssl.confvs
+[2023/09/29 3:55:26.289 PM] "default-ssl.conf" 134L, 6301B▽             <IfModule mod_ssl.c>
+[2023/09/29 3:55:26.295 PM]         <VirtualHost _default_:443>                ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 3:55:26.295 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:55:26.295 PM]                 # error, crit, alert, emerg.
+[2023/09/29 3:55:26.295 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 3:55:26.295 PM]                 # modules, e.g.
+[2023/09/29 3:55:26.295 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:55:26.295 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:55:26.295 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:55:26.295 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:55:26.295 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:55:26.295 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:55:26.295 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:55:26.295 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:55:26.295 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:55:26.296 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:55:26.296 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:55:26.296 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:55:26.296 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:55:26.296 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 3:55:26.296 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:55:26.296 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:55:26.296 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:55:26.296 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 3:55:26.296 PM]                 #   the referenced file can be the same as SSLCertificateFile33,28-43      Top<IfModule mod_ssl.c><VirtualHost _default_:443>ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 3:55:26.298 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:55:26.298 PM]                 # error, crit, alert, emerg.
+[2023/09/29 3:55:26.298 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 3:55:26.298 PM]                 # modules, e.g.
+[2023/09/29 3:55:26.298 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:55:26.298 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 3:55:26.298 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:55:26.298 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 3:55:26.298 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 3:55:26.298 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:55:26.298 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 3:55:26.298 PM]                 #   SSL Engine Switch:
+[2023/09/29 3:55:26.298 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 3:55:26.298 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 3:55:26.298 PM]                 #   the ssl-cert package. See
+[2023/09/29 3:55:26.298 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 3:55:26.298 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 3:55:26.298 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 3:55:26.298 PM]                 #   Server Certificate Chain:
+[2023/09/29 3:55:26.298 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 3:55:26.298 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 3:55:26.298 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 3:55:26.298 PM]                 #   the referenced file can be the same as SSLCertificateFile33,28-43      Top"default-ssl.conf" 134L, 6301B~@k   9-44~@k   30-45~@k   1-46~@k   2-47~@k   3-48~@k   4-49~@k   5-50~@k   6-51~@k   7-52~@k   8-53~@k   9-54~@k   40-55~@k   1-56~@k   2-57~@k   3-58~@k   4,0-1  ~@k   
+[2023/09/29 3:55:31.031 PM]                 #   when the CA certificates are directly appended to the server35,31-451%~@k   4,0-1  ~@k   3,43-58~@k   2-57~@k   1-56~@k   0-55~@k   39-54~@k   8-53~@k   7-52~@k   6-51~@k   5-50~@k   4-49~@k   3-48~@k   2-47~@k   1-46~@k   0-45~@k   29-44~@k   8-43~@k   7-42~@k   6-41i -- INSERT --33,26-411%/ca/private/server.key5-39/ca/private/server.key4-38 /ca/private/server.key5-392,21-352-413-422-41/ca/server.pem1-35 /ca/server.pem2-36:/ca/server.pem3-37w/ca/server.pem4-38q/ca/server.pem5-39/ca/server.pem4-38/ca/server.pem3-37/ca/server.pem2-36^[  32,21-351%::wq"default-ssl.conf" 134L, 6300B written
+[2023/09/29 3:55:51.634 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo 2a2enmod ssl
+[2023/09/29 3:56:09.294 PM] Considering dependency setenvif for ssl:
+[2023/09/29 3:56:09.294 PM] Module setenvif already enabled
+[2023/09/29 3:56:09.294 PM] Considering dependency mime for ssl:
+[2023/09/29 3:56:09.294 PM] Module mime already enabled
+[2023/09/29 3:56:09.294 PM] Considering dependency socache_shmcb for ssl:
+[2023/09/29 3:56:09.294 PM] Module socache_shmcb already enabled
+[2023/09/29 3:56:09.295 PM] Module ssl already enabled
+[2023/09/29 3:56:09.297 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo systemsctl restaryt apahche2
+[2023/09/29 3:56:38.377 PM] sk2a03@unixsv:/etc/apache2/sites-available$ udo a2enmod rewriteudo a2enmod rewritesdo vi 000-default.conf
+[2023/09/29 3:57:34.083 PM] "000-default.conf" 36L, 1447B▽             <VirtualHost *:80>
+[2023/09/29 3:57:34.090 PM]         # The ServerName directive sets the request scheme, hostname and port that        # the server uses to identify itself. This is used when creating        # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:57:34.090 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:57:34.090 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:57:34.090 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:57:34.091 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:57:34.091 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:57:34.091 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:57:34.091 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:57:34.091 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:57:34.091 PM]         # modules, e.g.
+[2023/09/29 3:57:34.091 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:57:34.091 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:57:34.091 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:57:34.091 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:57:34.091 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:57:34.091 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:57:34.091 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:57:34.091 PM] </VirtualHost>
+
+[2023/09/29 3:57:34.091 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:57:34.091 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All<VirtualHost *:80>
+[2023/09/29 3:57:34.094 PM]         # The ServerName directive sets the request scheme, hostname and port that
+[2023/09/29 3:57:34.094 PM]         # the server uses to identify itself. This is used when creating
+[2023/09/29 3:57:34.094 PM]         # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 3:57:34.094 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 3:57:34.094 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 3:57:34.094 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 3:57:34.094 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 3:57:34.094 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 3:57:34.094 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 3:57:34.094 PM]         # error, crit, alert, emerg.
+[2023/09/29 3:57:34.094 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 3:57:34.094 PM]         # modules, e.g.
+[2023/09/29 3:57:34.094 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 3:57:34.094 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 3:57:34.094 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 3:57:34.094 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 3:57:34.094 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 3:57:34.094 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 3:57:34.094 PM]         #Include conf-available/serve-cgi-bin.confRewriteEngine OnRewriteCond %{HTTPS} offRewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 3:57:34.094 PM] </VirtualHost>
+
+[2023/09/29 3:57:34.094 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 3:57:34.094 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,64-71      All"000-default.conf" 36L, 1447B~@k   []3-70~@k   1,25-32~@k   4-31~@k   3-30~@k   2-29~@k   {HTTPS}1-28~@k   {HTTPS}0-27~@k   19-26~@k   8-25~@k   7-24~@k   6-23~@k   {HTTPS}5-22~@k   %{HTTPS}4-21~@k   3-20~@k   2-19~@k   1-18~@k   0-17~@k   9-16 ~@k   8-15~@k   7-14~@k   6-13~@k   5-12~@k   4-11~@k   3-10~@k   0~@k   2-9 #?\<RewriteEngine\>search hit TOP, continuing at BOTTOM30,2-9All30,2-9All^[  ^[  #?\<RewriteEngine\> search hit TOP, continuing at BOTTOM30,2-9All30,2-9All#?\<RewriteEngine\> search hit TOP, continuing at BOTTOM30,2-9All30,2-9All3~@k    5-12~@k   6-13qerecording @e30,6-13Alli --c INSERT -- recording @e30,6-13All5-124-113-102-9         #RewriteEngine On3-1012-9         #RewriteCond %{HTTPS} off3-1022-9         #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]3-10recording @er^[  32,2-9All::wq"000-default.conf" 36L, 1450B written
+[2023/09/29 3:59:46.684 PM] sk2a03@unixsv:/etc/apache2/sites-available$ Sudo a2enmod rewriteSudo a2enmod rewrites
+[2023/09/29 3:59:54.166 PM] Module rewrite already enabled
+[2023/09/29 3:59:54.169 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2enmod rewritevi 000-default.confsystemctl restart apache2
+[2023/09/29 3:59:59.566 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo systemctl restart apache2a2enmod rewritevi 000-default.confa2enmod rewritevi 000-default.conf
+[2023/09/29 4:01:08.601 PM] "000-default.conf" 36L, 1450B▽             <VirtualHost *:80>
+[2023/09/29 4:01:08.607 PM]         # The ServerName directive sets the request scheme, hostname and port that        # the server uses to identify itself. This is used when creating        # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 4:01:08.607 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 4:01:08.607 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 4:01:08.607 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 4:01:08.607 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 4:01:08.607 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 4:01:08.607 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:01:08.607 PM]         # error, crit, alert, emerg.
+[2023/09/29 4:01:08.607 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 4:01:08.607 PM]         # modules, e.g.
+[2023/09/29 4:01:08.607 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:01:08.607 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 4:01:08.607 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:01:08.607 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 4:01:08.607 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 4:01:08.607 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:01:08.607 PM]         #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:01:08.607 PM]         #RewriteEngine On
+[2023/09/29 4:01:08.607 PM]         #RewriteCond %{HTTPS} off
+[2023/09/29 4:01:08.607 PM]         #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 4:01:08.607 PM] </VirtualHost>
+
+[2023/09/29 4:01:08.607 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 4:01:08.607 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,2-9All<VirtualHost *:80>
+[2023/09/29 4:01:08.609 PM]         # The ServerName directive sets the request scheme, hostname and port that
+[2023/09/29 4:01:08.609 PM]         # the server uses to identify itself. This is used when creating
+[2023/09/29 4:01:08.609 PM]         # redirection URLs. In the context of virtual hosts, the ServerName
+[2023/09/29 4:01:08.609 PM]         # specifies what hostname must appear in the request's Host: header to
+[2023/09/29 4:01:08.609 PM]         # match this virtual host. For the default virtual host (this file) this
+[2023/09/29 4:01:08.609 PM]         # value is not decisive as it is used as a last resort host regardless.
+[2023/09/29 4:01:08.609 PM]         # However, you must set it for any further virtual host explicitly.
+[2023/09/29 4:01:08.609 PM]         #ServerName www.example.comServerAdmin webmaster@ecccomp.ac.jpDocumentRoot /var/www/html
+
+[2023/09/29 4:01:08.609 PM]         # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:01:08.609 PM]         # error, crit, alert, emerg.
+[2023/09/29 4:01:08.609 PM]         # It is also possible to configure the loglevel for particular
+[2023/09/29 4:01:08.609 PM]         # modules, e.g.
+[2023/09/29 4:01:08.609 PM]         #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:01:08.609 PM]         # For most configuration files from conf-available/, which are
+[2023/09/29 4:01:08.609 PM]         # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:01:08.609 PM]         # include a line for only one particular virtual host. For example the
+[2023/09/29 4:01:08.609 PM]         # following line enables the CGI configuration for this host only
+[2023/09/29 4:01:08.609 PM]         # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:01:08.609 PM]         #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:01:08.609 PM]         #RewriteEngine On
+[2023/09/29 4:01:08.610 PM]         #RewriteCond %{HTTPS} off
+[2023/09/29 4:01:08.610 PM]         #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+[2023/09/29 4:01:08.610 PM] </VirtualHost>
+
+[2023/09/29 4:01:08.610 PM] # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2023/09/29 4:01:08.610 PM] ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        32,2-9All"000-default.conf" 36L, 1450Bi -- INSERT --32,2-9All3-10        RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]2-9 13-10        RewriteCond %{HTTPS} off2-9 03-10        RewriteEngine On2-9 ^[  30,1-8All::wq"000-default.conf" 36L, 1447B written
+[2023/09/29 4:01:14.447 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo vi 000-default.confsystemctl restart apache2a2enmod rewritesystemctl restart apache2a2enmod rewrite
+[2023/09/29 4:01:18.450 PM] Module rewrite already enabled
+[2023/09/29 4:01:18.452 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2enmod rewritevi 000-default.confsystemctl restart apache2
+[2023/09/29 4:01:21.098 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo 2a2enmod sssl
+[2023/09/29 4:02:18.840 PM] Considering dependency setenvif for ssl:
+[2023/09/29 4:02:18.840 PM] Module setenvif already enabled
+[2023/09/29 4:02:18.840 PM] Considering dependency mime for ssl:
+[2023/09/29 4:02:18.840 PM] Module mime already enabled
+[2023/09/29 4:02:18.840 PM] Considering dependency socache_shmcb for ssl:
+[2023/09/29 4:02:18.840 PM] Module socache_shmcb already enabled
+[2023/09/29 4:02:18.840 PM] Module ssl already enabled
+[2023/09/29 4:02:18.843 PM] sk2a03@unixsv:/etc/apache2/sites-available$ ls
+[2023/09/29 4:02:33.353 PM] 000-default.conf  default-ss.conf.org  default-ssl.conf
+[2023/09/29 4:02:33.354 PM] sk2a03@unixsv:/etc/apache2/sites-available$ lssudo a2enmod sslsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2vi 000-default.confsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2vi 000-default.confsystemctl restart apache2a2enmod sslvi default-ssl.confSudo Vsudo v
+[2023/09/29 4:03:04.801 PM] "default-ssl.conf" 134L, 6300B▽             <IfModule mod_ssl.c>
+[2023/09/29 4:03:04.807 PM]         <VirtualHost _default_:443>                ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 4:03:04.807 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:03:04.808 PM]                 # error, crit, alert, emerg.
+[2023/09/29 4:03:04.808 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 4:03:04.808 PM]                 # modules, e.g.
+[2023/09/29 4:03:04.808 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:03:04.808 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 4:03:04.808 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:03:04.808 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 4:03:04.808 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 4:03:04.808 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:03:04.808 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:03:04.808 PM]                 #   SSL Engine Switch:
+[2023/09/29 4:03:04.808 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 4:03:04.808 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 4:03:04.808 PM]                 #   the ssl-cert package. See
+[2023/09/29 4:03:04.808 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 4:03:04.808 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 4:03:04.808 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile /ca/server.pemSSLCertificateKeyFile /ca/private/server.key
+
+[2023/09/29 4:03:04.808 PM]                 #   Server Certificate Chain:
+[2023/09/29 4:03:04.808 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 4:03:04.808 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 4:03:04.808 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 4:03:04.808 PM]                 #   the referenced file can be the same as SSLCertificateFile32,21-35      Top<IfModule mod_ssl.c><VirtualHost _default_:443>ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 4:03:04.811 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:03:04.811 PM]                 # error, crit, alert, emerg.
+[2023/09/29 4:03:04.811 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 4:03:04.811 PM]                 # modules, e.g.
+[2023/09/29 4:03:04.811 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:03:04.811 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 4:03:04.811 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:03:04.811 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 4:03:04.811 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 4:03:04.811 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:03:04.811 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:03:04.811 PM]                 #   SSL Engine Switch:
+[2023/09/29 4:03:04.811 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 4:03:04.811 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 4:03:04.811 PM]                 #   the ssl-cert package. See
+[2023/09/29 4:03:04.811 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 4:03:04.811 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 4:03:04.811 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile /ca/server.pemSSLCertificateKeyFile /ca/private/server.key
+
+[2023/09/29 4:03:04.811 PM]                 #   Server Certificate Chain:
+[2023/09/29 4:03:04.811 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 4:03:04.811 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 4:03:04.811 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 4:03:04.811 PM]                 #   the referenced file can be the same as SSLCertificateFile32,21-35      Top"default-ssl.conf" 134L, 6300B~@k   2-36~@k   1-35~@k   2-36<20>    3-37~@k   2-36~@k   1-35i -- INSERT --32,21-35      Top2-361-352-36 /ca/server.pem3-374-3835-394-3823-37/ca/server.pem2-36/ca/server.pem1-35      /ca/server.pem2-413,276-405-39/ca/private/server.key4-38   /ca/private/server.key5-41^[  33,24-40      Top^[  ^[  ::wq"default-ssl.conf" 134L, 6300B written
+[2023/09/29 4:03:45.209 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2enmod ssl
+[2023/09/29 4:03:59.238 PM] Considering dependency setenvif for ssl:
+[2023/09/29 4:03:59.238 PM] Module setenvif already enabled
+[2023/09/29 4:03:59.238 PM] Considering dependency mime for ssl:
+[2023/09/29 4:03:59.238 PM] Module mime already enabled
+[2023/09/29 4:03:59.238 PM] Considering dependency socache_shmcb for ssl:
+[2023/09/29 4:03:59.238 PM] Module socache_shmcb already enabled
+[2023/09/29 4:03:59.238 PM] Module ssl already enabled
+[2023/09/29 4:03:59.241 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2enmod sslvi default-ssl.conf
+[2023/09/29 4:04:47.929 PM] "default-ssl.conf" 134L, 6300B▽             <IfModule mod_ssl.c>
+[2023/09/29 4:04:47.934 PM]         <VirtualHost _default_:443>                ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 4:04:47.935 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:04:47.935 PM]                 # error, crit, alert, emerg.
+[2023/09/29 4:04:47.935 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 4:04:47.935 PM]                 # modules, e.g.
+[2023/09/29 4:04:47.935 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:04:47.935 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 4:04:47.935 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:04:47.935 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 4:04:47.935 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 4:04:47.935 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:04:47.935 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:04:47.935 PM]                 #   SSL Engine Switch:
+[2023/09/29 4:04:47.935 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 4:04:47.935 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 4:04:47.935 PM]                 #   the ssl-cert package. See
+[2023/09/29 4:04:47.935 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 4:04:47.935 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 4:04:47.935 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 4:04:47.935 PM]                 #   Server Certificate Chain:
+[2023/09/29 4:04:47.935 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 4:04:47.935 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 4:04:47.935 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 4:04:47.935 PM]                 #   the referenced file can be the same as SSLCertificateFile33,24-40      Top<IfModule mod_ssl.c><VirtualHost _default_:443>ServerAdmin webmaster@localhostDocumentRoot /var/www/html
+
+[2023/09/29 4:04:47.938 PM]                 # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
+[2023/09/29 4:04:47.938 PM]                 # error, crit, alert, emerg.
+[2023/09/29 4:04:47.938 PM]                 # It is also possible to configure the loglevel for particular
+[2023/09/29 4:04:47.938 PM]                 # modules, e.g.
+[2023/09/29 4:04:47.938 PM]                 #LogLevel info ssl:warnErrorLog ${APACHE_LOG_DIR}/error.logCustomLog ${APACHE_LOG_DIR}/access.log combined
+
+[2023/09/29 4:04:47.938 PM]                 # For most configuration files from conf-available/, which are
+[2023/09/29 4:04:47.938 PM]                 # enabled or disabled at a global level, it is possible to
+[2023/09/29 4:04:47.938 PM]                 # include a line for only one particular virtual host. For example the
+[2023/09/29 4:04:47.938 PM]                 # following line enables the CGI configuration for this host only
+[2023/09/29 4:04:47.938 PM]                 # after it has been globally disabled with "a2disconf".
+[2023/09/29 4:04:47.938 PM]                 #Include conf-available/serve-cgi-bin.conf
+
+[2023/09/29 4:04:47.938 PM]                 #   SSL Engine Switch:
+[2023/09/29 4:04:47.938 PM]                 #   Enable/Disable SSL for this virtual host.SSLEngine on
+
+[2023/09/29 4:04:47.938 PM]                 #   A self-signed (snakeoil) certificate can be created by installing
+[2023/09/29 4:04:47.938 PM]                 #   the ssl-cert package. See
+[2023/09/29 4:04:47.938 PM]                 #   /usr/share/doc/apache2/README.Debian.gz for more info.
+[2023/09/29 4:04:47.938 PM]                 #   If both key and certificate are stored in the same file, only the
+[2023/09/29 4:04:47.938 PM]                 #   SSLCertificateFile directive is needed.SSLCertificateFile      /ca/server.pemSSLCertificateKeyFile   /ca/private/server.key
+
+[2023/09/29 4:04:47.938 PM]                 #   Server Certificate Chain:
+[2023/09/29 4:04:47.938 PM]                 #   Point SSLCertificateChainFile at a file containing the
+[2023/09/29 4:04:47.938 PM]                 #   concatenation of PEM encoded CA certificates which form the
+[2023/09/29 4:04:47.938 PM]                 #   certificate chain for the server certificate. Alternatively
+[2023/09/29 4:04:47.938 PM]                 #   the referenced file can be the same as SSLCertificateFile33,24-40      Top"default-ssl.conf" 134L, 6300B::wq"default-ssl.conf" 134L, 6300B written
+[2023/09/29 4:05:39.400 PM] sk2a03@unixsv:/etc/apache2/sites-available$ cd  ...
+[2023/09/29 4:05:43.481 PM] -bash: cd: ...: No such file or directory
+[2023/09/29 4:05:43.482 PM] sk2a03@unixsv:/etc/apache2/sites-available$ cd ..
+[2023/09/29 4:05:45.382 PM] sk2a03@unixsv:/etc/apache2$ cd ..
+[2023/09/29 4:05:46.762 PM] sk2a03@unixsv:/etc$  cdcd ..
+[2023/09/29 4:05:49.055 PM] sk2a03@unixsv:/$ cd /ca
+[2023/09/29 4:05:51.449 PM] sk2a03@unixsv:/ca$ ls
+[2023/09/29 4:05:52.635 PM] private  server.csr  server.pem
+[2023/09/29 4:05:52.636 PM] sk2a03@unixsv:/ca$ cd ..
+[2023/09/29 4:08:27.260 PM] sk2a03@unixsv:/$ cd ..lscd /ca...sudo vi default-ssl.confa2enmod sslvi default-ssl.conflssudo a2enmod sslsystemctl restart apache2a2enmod rewritevi 000-default.confa2enmod rewritevi 000-default.conf
+[2023/09/29 4:13:25.598 PM] "000-default.conf" [New]▽             ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        0,0-1All~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        ~                                                                                                                                        0,0-1All"000-default.conf" [New]^[  ^[  ::wq"000-default.conf" [New] 0L, 0B written
+[2023/09/29 4:13:28.043 PM] sk2a03@unixsv:/$ sudo vi 000-default.confcd ..lscd /ca...sudo vi default-ssl.confa2enmod sslvi default-ssl.conflssudo a2enmod sslsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod rewritevi 000-default.confa2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod sslvi default-ssl.confSudo Vcd /etc/apache2/sites-availableCcd /etc/apache2/sites-avialableCd /etc/apache2/sites-availablecd /etc/apache2/sites-avialable
+[2023/09/29 4:13:36.019 PM] -bash: cd: /etc/apache2/sites-avialable: No such file or directory
+[2023/09/29 4:13:36.019 PM] sk2a03@unixsv:/$ cd /etc/apache2/sites-avialablesudo vi 000-default.confcd /etc/apache2/sites-avialablecd /etc/apache2/sites-avialablesudo vi 000-default.confcd ..lscd ..sudo vi 000-default.confcd /etc/apache2/sites-avialablecd /etc/apache2/sites-avialablesudo vi 000-default.confcd ..lscd /ca...sudo vi default-ssl.confa2enmod sslvi default-ssl.conflssudo a2enmod sslsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod rewritevi 000-default.confsystemctl restart apache2a2enmod sslvi default-ssl.confSudo Vcd /etc/apache2/sites-available
+[2023/09/29 4:13:49.339 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2ensite default-sslsudo a2ensite default-ssl
+[2023/09/29 4:15:12.837 PM] Enabling site default-ssl.
+[2023/09/29 4:15:12.844 PM] To activate the new configuration, you need to run:
+[2023/09/29 4:15:12.844 PM]   systemctl reload apache2
+[2023/09/29 4:15:12.846 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo a2ensite default-sslcd /etc/apache2/sites-availableialablesudo vi 000-default.confcd ..sudo vi 000-default.confcd ..lscd /ca...sudo vi default-ssl.confa2enmod sslvi default-ssl.conflssudo a2enmod sslsystemctl restart apache2a2enmod rewritesystemctl restart apache2
+[2023/09/29 4:15:20.203 PM] 🔐 Enter passphrase for SSL/TLS keys for www:443 (RSA): (press TAB for no echo) 
+[2023/09/29 4:15:20.245 PM] Broadcast message from root@unixsv (Fri 2023-09-29 07:15:20 UTC):
+
+[2023/09/29 4:15:20.245 PM] Password entry required for 'Enter passphrase for SSL/TLS keys for www:443 (RSA):' (PID 6671).
+[2023/09/29 4:15:20.245 PM] Please enter password with the systemd-tty-ask-password-agent tool.
+
+[2023/09/29 4:15:34.843 PM]                         ******
+[2023/09/29 4:15:36.712 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo shmchmod 600 /ca
+[2023/09/29 4:20:54.212 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo chmod 600 /ca /ca /ca /ca7 /ca5 /ca5 /ca
+[2023/09/29 4:20:59.563 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo cp cd ..
+[2023/09/29 4:22:10.941 PM] sk2a03@unixsv:/etc/apache2$  cd ..
+[2023/09/29 4:22:13.009 PM] sk2a03@unixsv:/etc$ cd ..
+[2023/09/29 4:22:14.244 PM] sk2a03@unixsv:/$ ls
+[2023/09/29 4:22:15.742 PM] 000-default.conf  boot  dev  home  lost+found  mnt  proc  run   snap  swap.img  tmp  var
+[2023/09/29 4:22:15.742 PM] bin               ca    etc  lib   media       opt  root  sbin  srv   sys       usr
+[2023/09/29 4:22:15.742 PM] sk2a03@unixsv:/$ sudo cp /ca/server.pem server.pem
+[2023/09/29 4:24:02.221 PM] sk2a03@unixsv:/$ sudo cp /ca/server.pem server.pemkey server.key server.key server.keyk server.keye server.keyy server.key/private
+[2023/09/29 4:24:15.100 PM] sk2a03@unixsv:/$ cd /etc/apache2/sites-avialable/etc/apache2/sites-avialable
+[2023/09/29 4:24:25.192 PM] -bash: cd: /etc/apache2/sites-avialable: No such file or directory
+[2023/09/29 4:24:25.193 PM] sk2a03@unixsv:/$ cd /etc/apache2/sites-avialablesudo cp /ca/private/server.key server.keyserver.pem server.pemlscd ..sudo chmod 755 /ca600systemctl restart apache2a2ensite default-sslcd /etc/apache2/sites-availableialableailableialableailable
+[2023/09/29 4:24:32.889 PM] sk2a03@unixsv:/etc/apache2/sites-available$ sudo cp 000-default.conf 000-default.conf cd ..
+[2023/09/29 4:24:54.811 PM] sk2a03@unixsv:/etc/apache2$ cd ..
+[2023/09/29 4:24:56.055 PM] sk2a03@unixsv:/etc$ cd ..
+[2023/09/29 4:24:57.150 PM] sk2a03@unixsv:/$ cd ..sudo cp /etc/apache2/sites-available/etc/apache2/sites-available/000-default.conf 000-default.conf 000-default.conf 000-default.conf 
+[2023/09/29 4:25:18.598 PM] sk2a03@unixsv:/$ 
