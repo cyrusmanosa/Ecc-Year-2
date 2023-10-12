@@ -1,16 +1,25 @@
-const int swPin = 17; //const…初期化した後代入されない
-int count = 1; //カウンタ変数
-int flag = 0; //フラグ初期値 0:押されていない状態
+const int swPin = 17;
+int count = 1;
+bool flag = false;
+bool lastState = false;
 
 void setup() {
- Serial.begin(115200);
- pinMode(swPin, INPUT); // Switch デジタル入力
+  Serial.begin(115200);
+  pinMode(swPin, INPUT);
 }
+
 void loop() {
- int b = digitalRead(swPin);
- if (b==1){
-  Serial.println(count);
-  count++;
-  delay(1000);
- }
+  bool currentState = digitalRead(swPin);
+  if (currentState == true && lastState == false) {
+    delay(50);
+    currentState = digitalRead(swPin);
+    
+    if (currentState == true) {
+      Serial.println(count);
+      count++;
+      flag = true;
+    }
+  }
+
+  lastState = currentState;
 }
