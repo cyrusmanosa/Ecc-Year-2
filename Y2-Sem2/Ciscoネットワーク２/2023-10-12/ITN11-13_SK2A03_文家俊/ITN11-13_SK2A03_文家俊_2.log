@@ -1,0 +1,793 @@
+[2023/10/12, 4:01:10.453 PM] Last login: Thu Oct 12 15:36:38 on ttys000
+
+
+[2023/10/12, 4:01:10.483 PM]     ~                                                          16:01:10  
+[2023/10/12, 4:01:10.483 PM] ❯ %                                                                               
+[2023/10/12, 4:01:10.585 PM]     ~                                                          16:01:10  
+[2023/10/12, 4:01:10.585 PM] ❯ pping 192.168.3.254❯ ping 192.168.3.254
+[2023/10/12, 4:01:19.558 PM] PING 192.168.3.254 (192.168.3.254): 56 data bytes
+[2023/10/12, 4:01:20.562 PM] Request timeout for icmp_seq 0
+[2023/10/12, 4:01:21.565 PM] Request timeout for icmp_seq 1
+[2023/10/12, 4:01:22.571 PM] Request timeout for icmp_seq 2
+[2023/10/12, 4:01:23.576 PM] Request timeout for icmp_seq 3
+[2023/10/12, 4:01:24.581 PM] Request timeout for icmp_seq 4
+[2023/10/12, 4:01:25.586 PM] Request timeout for icmp_seq 5
+[2023/10/12, 4:01:26.591 PM] Request timeout for icmp_seq 6
+[2023/10/12, 4:01:27.597 PM] Request timeout for icmp_seq 7
+[2023/10/12, 4:01:28.602 PM] Request timeout for icmp_seq 8
+[2023/10/12, 4:01:29.607 PM] Request timeout for icmp_seq 9
+[2023/10/12, 4:01:30.612 PM] Request timeout for icmp_seq 10
+[2023/10/12, 4:01:31.618 PM] Request timeout for icmp_seq 11
+[2023/10/12, 4:01:32.620 PM] Request timeout for icmp_seq 12
+[2023/10/12, 4:01:33.623 PM] Request timeout for icmp_seq 13
+[2023/10/12, 4:01:34.628 PM] Request timeout for icmp_seq 14
+[2023/10/12, 4:01:35.633 PM] Request timeout for icmp_seq 15
+[2023/10/12, 4:01:36.638 PM] Request timeout for icmp_seq 16
+[2023/10/12, 4:01:37.640 PM] Request timeout for icmp_seq 17
+[2023/10/12, 4:01:38.640 PM] Request timeout for icmp_seq 18
+[2023/10/12, 4:01:39.643 PM] Request timeout for icmp_seq 19
+[2023/10/12, 4:01:40.644 PM] Request timeout for icmp_seq 20
+[2023/10/12, 4:01:41.644 PM] Request timeout for icmp_seq 21
+[2023/10/12, 4:01:42.648 PM] Request timeout for icmp_seq 22
+[2023/10/12, 4:01:43.651 PM] Request timeout for icmp_seq 23
+[2023/10/12, 4:01:44.654 PM] Request timeout for icmp_seq 24
+[2023/10/12, 4:01:44.656 PM] 64 bytes from 192.168.3.254: icmp_seq=24 ttl=255 time=1005.889 ms
+[2023/10/12, 4:01:44.656 PM] 64 bytes from 192.168.3.254: icmp_seq=25 ttl=255 time=1.894 ms
+[2023/10/12, 4:01:45.658 PM] 64 bytes from 192.168.3.254: icmp_seq=26 ttl=255 time=0.895 ms
+[2023/10/12, 4:01:46.663 PM] 64 bytes from 192.168.3.254: icmp_seq=27 ttl=255 time=0.975 ms
+[2023/10/12, 4:01:47.666 PM] 64 bytes from 192.168.3.254: icmp_seq=28 ttl=255 time=0.971 ms
+[2023/10/12, 4:01:48.671 PM] 64 bytes from 192.168.3.254: icmp_seq=29 ttl=255 time=0.929 ms
+[2023/10/12, 4:01:49.676 PM] 64 bytes from 192.168.3.254: icmp_seq=30 ttl=255 time=0.929 ms
+[2023/10/12, 4:01:50.677 PM] 64 bytes from 192.168.3.254: icmp_seq=31 ttl=255 time=1.047 ms
+[2023/10/12, 4:01:51.679 PM] 64 bytes from 192.168.3.254: icmp_seq=32 ttl=255 time=0.943 ms
+[2023/10/12, 4:01:52.685 PM] 64 bytes from 192.168.3.254: icmp_seq=33 ttl=255 time=0.961 ms
+[2023/10/12, 4:01:53.687 PM] 64 bytes from 192.168.3.254: icmp_seq=34 ttl=255 time=0.969 ms
+[2023/10/12, 4:01:54.692 PM] 64 bytes from 192.168.3.254: icmp_seq=35 ttl=255 time=0.967 ms
+[2023/10/12, 4:01:55.697 PM] 64 bytes from 192.168.3.254: icmp_seq=36 ttl=255 time=0.952 ms
+[2023/10/12, 4:01:56.700 PM] 64 bytes from 192.168.3.254: icmp_seq=37 ttl=255 time=0.864 ms
+[2023/10/12, 4:01:57.706 PM] 64 bytes from 192.168.3.254: icmp_seq=38 ttl=255 time=1.047 ms
+[2023/10/12, 4:01:58.708 PM] 64 bytes from 192.168.3.254: icmp_seq=39 ttl=255 time=0.980 ms
+[2023/10/12, 4:01:59.713 PM] 64 bytes from 192.168.3.254: icmp_seq=40 ttl=255 time=1.105 ms
+[2023/10/12, 4:02:00.718 PM] 64 bytes from 192.168.3.254: icmp_seq=41 ttl=255 time=0.959 ms
+[2023/10/12, 4:02:00.830 PM] ^C
+[2023/10/12, 4:02:00.830 PM] --- 192.168.3.254 ping statistics ---
+[2023/10/12, 4:02:00.831 PM] 42 packets transmitted, 18 packets received, 57.1% packet loss
+[2023/10/12, 4:02:00.831 PM] round-trip min/avg/max/stddev = 0.864/56.849/1005.889/230.176 ms
+[2023/10/12, 4:02:00.832 PM] %                                                                                
+
+[2023/10/12, 4:02:00.849 PM]     ~                                                  41s   16:02:00  
+[2023/10/12, 4:02:00.849 PM] ❯ pping 10.16.10.39❯ ping 10.16.10.39
+[2023/10/12, 4:02:07.803 PM] PING 10.16.10.39 (10.16.10.39): 56 data bytes
+[2023/10/12, 4:02:07.806 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:07.807 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:07.807 PM]  4  5  00 5400 a87e   0 0000  3f  01 fb48 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:08.809 PM] Request timeout for icmp_seq 0
+[2023/10/12, 4:02:08.810 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:08.810 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:08.810 PM]  4  5  00 5400 0206   0 0000  3f  01 a1c1 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:09.812 PM] Request timeout for icmp_seq 1
+[2023/10/12, 4:02:09.814 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:09.814 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:09.814 PM]  4  5  00 5400 3cd7   0 0000  3f  01 66f0 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:10.815 PM] Request timeout for icmp_seq 2
+[2023/10/12, 4:02:10.816 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:10.816 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:10.816 PM]  4  5  00 5400 b3d7   0 0000  3f  01 efef 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:11.820 PM] Request timeout for icmp_seq 3
+[2023/10/12, 4:02:11.822 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:11.822 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:11.823 PM]  4  5  00 5400 838a   0 0000  3f  01 203d 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:12.822 PM] Request timeout for icmp_seq 4
+[2023/10/12, 4:02:12.823 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:12.824 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:12.824 PM]  4  5  00 5400 6c7d   0 0000  3f  01 374a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:13.826 PM] Request timeout for icmp_seq 5
+[2023/10/12, 4:02:13.828 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:13.828 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:13.828 PM]  4  5  00 5400 554f   0 0000  3f  01 4e78 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:14.828 PM] Request timeout for icmp_seq 6
+[2023/10/12, 4:02:14.830 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:14.830 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:14.830 PM]  4  5  00 5400 de86   0 0000  3f  01 c540 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:15.833 PM] Request timeout for icmp_seq 7
+[2023/10/12, 4:02:15.835 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:15.836 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:15.836 PM]  4  5  00 5400 094e   0 0000  3f  01 9a79 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:16.836 PM] Request timeout for icmp_seq 8
+[2023/10/12, 4:02:16.839 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:16.839 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:16.839 PM]  4  5  00 5400 fc07   0 0000  3f  01 a7bf 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:17.837 PM] Request timeout for icmp_seq 9
+[2023/10/12, 4:02:17.840 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:17.840 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:17.840 PM]  4  5  00 5400 3302   0 0000  3f  01 70c5 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:18.838 PM] Request timeout for icmp_seq 10
+[2023/10/12, 4:02:18.840 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:18.840 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:18.840 PM]  4  5  00 5400 236d   0 0000  3f  01 805a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:19.843 PM] Request timeout for icmp_seq 11
+[2023/10/12, 4:02:19.845 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:19.845 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:19.845 PM]  4  5  00 5400 927c   0 0000  3f  01 114b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:20.844 PM] Request timeout for icmp_seq 12
+[2023/10/12, 4:02:20.846 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:20.846 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:20.846 PM]  4  5  00 5400 008c   0 0000  3f  01 a33b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:21.847 PM] Request timeout for icmp_seq 13
+[2023/10/12, 4:02:21.849 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:21.849 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:21.849 PM]  4  5  00 5400 b412   0 0000  3f  01 efb4 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:22.851 PM] Request timeout for icmp_seq 14
+[2023/10/12, 4:02:22.854 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:22.854 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:22.854 PM]  4  5  00 5400 fafd   0 0000  3f  01 a8c9 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:23.854 PM] Request timeout for icmp_seq 15
+[2023/10/12, 4:02:23.856 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:23.856 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:23.856 PM]  4  5  00 5400 5643   0 0000  3f  01 4d84 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:24.856 PM] Request timeout for icmp_seq 16
+[2023/10/12, 4:02:24.858 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:24.858 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:24.858 PM]  4  5  00 5400 066d   0 0000  3f  01 9d5a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:25.857 PM] Request timeout for icmp_seq 17
+[2023/10/12, 4:02:25.859 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:25.859 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:25.859 PM]  4  5  00 5400 c3a5   0 0000  3f  01 e021 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:26.861 PM] Request timeout for icmp_seq 18
+[2023/10/12, 4:02:26.863 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:26.863 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:26.863 PM]  4  5  00 5400 a66e   0 0000  3f  01 fd58 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:27.865 PM] Request timeout for icmp_seq 19
+[2023/10/12, 4:02:27.867 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:27.867 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:27.867 PM]  4  5  00 5400 fb60   0 0000  3f  01 a866 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:28.868 PM] Request timeout for icmp_seq 20
+[2023/10/12, 4:02:28.869 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:28.869 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:28.869 PM]  4  5  00 5400 4a5f   0 0000  3f  01 5968 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:29.873 PM] Request timeout for icmp_seq 21
+[2023/10/12, 4:02:29.874 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:29.874 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:29.874 PM]  4  5  00 5400 b369   0 0000  3f  01 f05d 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:30.878 PM] Request timeout for icmp_seq 22
+[2023/10/12, 4:02:30.879 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:30.880 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:30.880 PM]  4  5  00 5400 8b4d   0 0000  3f  01 187a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:31.881 PM] Request timeout for icmp_seq 23
+[2023/10/12, 4:02:31.883 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:31.883 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:31.883 PM]  4  5  00 5400 8f77   0 0000  3f  01 1450 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:32.886 PM] Request timeout for icmp_seq 24
+[2023/10/12, 4:02:32.888 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:32.888 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:32.888 PM]  4  5  00 5400 6857   0 0000  3f  01 3b70 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:33.886 PM] Request timeout for icmp_seq 25
+[2023/10/12, 4:02:33.888 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:33.888 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:33.888 PM]  4  5  00 5400 2344   0 0000  3f  01 8083 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:34.891 PM] Request timeout for icmp_seq 26
+[2023/10/12, 4:02:34.894 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:34.894 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:34.894 PM]  4  5  00 5400 3e0c   0 0000  3f  01 65bb 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:35.897 PM] Request timeout for icmp_seq 27
+[2023/10/12, 4:02:35.898 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:35.898 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:35.898 PM]  4  5  00 5400 30f6   0 0000  3f  01 72d1 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:36.897 PM] Request timeout for icmp_seq 28
+[2023/10/12, 4:02:36.899 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:36.899 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:36.899 PM]  4  5  00 5400 1cf8   0 0000  3f  01 86cf 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:37.898 PM] Request timeout for icmp_seq 29
+[2023/10/12, 4:02:37.900 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:37.900 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:37.900 PM]  4  5  00 5400 744b   0 0000  3f  01 2f7c 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:38.903 PM] Request timeout for icmp_seq 30
+[2023/10/12, 4:02:38.905 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:38.905 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:38.905 PM]  4  5  00 5400 f5c5   0 0000  3f  01 ae01 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:39.905 PM] Request timeout for icmp_seq 31
+[2023/10/12, 4:02:39.908 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:39.908 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:39.908 PM]  4  5  00 5400 de92   0 0000  3f  01 c534 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:40.910 PM] Request timeout for icmp_seq 32
+[2023/10/12, 4:02:40.912 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:40.912 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:40.912 PM]  4  5  00 5400 9476   0 0000  3f  01 0f51 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:41.916 PM] Request timeout for icmp_seq 33
+[2023/10/12, 4:02:41.917 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:41.917 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:41.917 PM]  4  5  00 5400 9179   0 0000  3f  01 124e 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:42.920 PM] Request timeout for icmp_seq 34
+[2023/10/12, 4:02:42.922 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:42.922 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:42.922 PM]  4  5  00 5400 b105   0 0000  3f  01 f2c1 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:43.926 PM] Request timeout for icmp_seq 35
+[2023/10/12, 4:02:43.927 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:43.927 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:43.927 PM]  4  5  00 5400 29a8   0 0000  3f  01 7a1f 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:44.927 PM] Request timeout for icmp_seq 36
+[2023/10/12, 4:02:44.929 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:44.929 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:44.929 PM]  4  5  00 5400 10f7   0 0000  3f  01 92d0 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:45.932 PM] Request timeout for icmp_seq 37
+[2023/10/12, 4:02:45.934 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:45.934 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:45.934 PM]  4  5  00 5400 9c6f   0 0000  3f  01 0758 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:46.936 PM] Request timeout for icmp_seq 38
+[2023/10/12, 4:02:46.939 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:46.939 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:46.939 PM]  4  5  00 5400 c62c   0 0000  3f  01 dd9a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:47.942 PM] Request timeout for icmp_seq 39
+[2023/10/12, 4:02:47.944 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:47.944 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:47.944 PM]  4  5  00 5400 d3d4   0 0000  3f  01 cff2 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:48.947 PM] Request timeout for icmp_seq 40
+[2023/10/12, 4:02:48.949 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:48.950 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:48.950 PM]  4  5  00 5400 fbf7   0 0000  3f  01 a7cf 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:49.952 PM] Request timeout for icmp_seq 41
+[2023/10/12, 4:02:49.954 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:49.954 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:49.954 PM]  4  5  00 5400 4d46   0 0000  3f  01 5681 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:50.957 PM] Request timeout for icmp_seq 42
+[2023/10/12, 4:02:50.958 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:50.958 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:50.959 PM]  4  5  00 5400 7ce9   0 0000  3f  01 26de 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:51.962 PM] Request timeout for icmp_seq 43
+[2023/10/12, 4:02:51.964 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:51.964 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:51.964 PM]  4  5  00 5400 9c60   0 0000  3f  01 0767 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:52.967 PM] Request timeout for icmp_seq 44
+[2023/10/12, 4:02:52.969 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:52.969 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:52.969 PM]  4  5  00 5400 9eed   0 0000  3f  01 04da 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:53.972 PM] Request timeout for icmp_seq 45
+[2023/10/12, 4:02:53.974 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:53.974 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:53.974 PM]  4  5  00 5400 50b4   0 0000  3f  01 5313 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:54.978 PM] Request timeout for icmp_seq 46
+[2023/10/12, 4:02:54.979 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:54.979 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:54.979 PM]  4  5  00 5400 9aca   0 0000  3f  01 08fd 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:55.981 PM] Request timeout for icmp_seq 47
+[2023/10/12, 4:02:55.983 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:55.983 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:55.983 PM]  4  5  00 5400 e38c   0 0000  3f  01 c03a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:56.986 PM] Request timeout for icmp_seq 48
+[2023/10/12, 4:02:56.988 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:56.988 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:56.988 PM]  4  5  00 5400 feba   0 0000  3f  01 a50c 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:57.987 PM] Request timeout for icmp_seq 49
+[2023/10/12, 4:02:57.988 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:57.988 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:57.988 PM]  4  5  00 5400 57d9   0 0000  3f  01 4bee 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:58.990 PM] Request timeout for icmp_seq 50
+[2023/10/12, 4:02:58.992 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:58.992 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:58.992 PM]  4  5  00 5400 1d58   0 0000  3f  01 866f 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:02:59.995 PM] Request timeout for icmp_seq 51
+[2023/10/12, 4:02:59.997 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:02:59.997 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:02:59.998 PM]  4  5  00 5400 c321   0 0000  3f  01 e0a5 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:00.999 PM] Request timeout for icmp_seq 52
+[2023/10/12, 4:03:01.001 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:01.001 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:01.001 PM]  4  5  00 5400 e6b1   0 0000  3f  01 bd15 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:02.002 PM] Request timeout for icmp_seq 53
+[2023/10/12, 4:03:02.004 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:02.004 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:02.004 PM]  4  5  00 5400 0f34   0 0000  3f  01 9493 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:03.007 PM] Request timeout for icmp_seq 54
+[2023/10/12, 4:03:03.009 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:03.009 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:03.009 PM]  4  5  00 5400 594c   0 0000  3f  01 4a7b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:04.009 PM] Request timeout for icmp_seq 55
+[2023/10/12, 4:03:04.011 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:04.012 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:04.012 PM]  4  5  00 5400 31d5   0 0000  3f  01 71f2 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:05.014 PM] Request timeout for icmp_seq 56
+[2023/10/12, 4:03:05.017 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:05.017 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:05.017 PM]  4  5  00 5400 30e3   0 0000  3f  01 72e4 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:06.016 PM] Request timeout for icmp_seq 57
+[2023/10/12, 4:03:06.018 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:06.018 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:06.018 PM]  4  5  00 5400 f138   0 0000  3f  01 b28e 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:07.022 PM] Request timeout for icmp_seq 58
+[2023/10/12, 4:03:07.023 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:07.024 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:07.024 PM]  4  5  00 5400 d6c0   0 0000  3f  01 cd06 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:08.023 PM] Request timeout for icmp_seq 59
+[2023/10/12, 4:03:08.024 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:08.024 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:08.024 PM]  4  5  00 5400 da59   0 0000  3f  01 c96d 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:09.028 PM] Request timeout for icmp_seq 60
+[2023/10/12, 4:03:09.030 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:09.030 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:09.030 PM]  4  5  00 5400 3aaa   0 0000  3f  01 691d 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:10.030 PM] Request timeout for icmp_seq 61
+[2023/10/12, 4:03:10.032 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:10.032 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:10.032 PM]  4  5  00 5400 88e1   0 0000  3f  01 1ae6 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:11.033 PM] Request timeout for icmp_seq 62
+[2023/10/12, 4:03:11.035 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:11.035 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:11.035 PM]  4  5  00 5400 7772   0 0000  3f  01 2c55 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:12.036 PM] Request timeout for icmp_seq 63
+[2023/10/12, 4:03:12.038 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:12.038 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:12.038 PM]  4  5  00 5400 656c   0 0000  3f  01 3e5b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:13.039 PM] Request timeout for icmp_seq 64
+[2023/10/12, 4:03:13.041 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:13.041 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:13.041 PM]  4  5  00 5400 3481   0 0000  3f  01 6f46 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:14.044 PM] Request timeout for icmp_seq 65
+[2023/10/12, 4:03:14.046 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:14.046 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:14.046 PM]  4  5  00 5400 bd18   0 0000  3f  01 e6ae 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:15.045 PM] Request timeout for icmp_seq 66
+[2023/10/12, 4:03:15.046 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:15.047 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:15.047 PM]  4  5  00 5400 b667   0 0000  3f  01 ed5f 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:16.050 PM] Request timeout for icmp_seq 67
+[2023/10/12, 4:03:16.052 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:16.052 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:16.052 PM]  4  5  00 5400 671c   0 0000  3f  01 3cab 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:17.055 PM] Request timeout for icmp_seq 68
+[2023/10/12, 4:03:17.057 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:17.057 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:17.057 PM]  4  5  00 5400 4fce   0 0000  3f  01 53f9 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:18.058 PM] Request timeout for icmp_seq 69
+[2023/10/12, 4:03:18.059 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:18.059 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:18.059 PM]  4  5  00 5400 de02   0 0000  3f  01 c5c4 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:19.063 PM] Request timeout for icmp_seq 70
+[2023/10/12, 4:03:19.064 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:19.064 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:19.065 PM]  4  5  00 5400 2ad3   0 0000  3f  01 78f4 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:20.068 PM] Request timeout for icmp_seq 71
+[2023/10/12, 4:03:20.070 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:20.070 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:20.070 PM]  4  5  00 5400 c21e   0 0000  3f  01 e1a8 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:21.071 PM] Request timeout for icmp_seq 72
+[2023/10/12, 4:03:21.084 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:21.084 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:21.084 PM]  4  5  00 5400 2018   0 0000  3f  01 83af 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:22.076 PM] Request timeout for icmp_seq 73
+[2023/10/12, 4:03:22.080 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:22.080 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:22.080 PM]  4  5  00 5400 89f5   0 0000  3f  01 19d2 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:23.076 PM] Request timeout for icmp_seq 74
+[2023/10/12, 4:03:23.078 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:23.078 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:23.078 PM]  4  5  00 5400 7d6c   0 0000  3f  01 265b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:24.082 PM] Request timeout for icmp_seq 75
+[2023/10/12, 4:03:24.084 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:24.084 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:24.084 PM]  4  5  00 5400 eebc   0 0000  3f  01 b50a 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:25.087 PM] Request timeout for icmp_seq 76
+[2023/10/12, 4:03:25.089 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:25.089 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:25.089 PM]  4  5  00 5400 1f0e   0 0000  3f  01 84b9 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:26.092 PM] Request timeout for icmp_seq 77
+[2023/10/12, 4:03:26.094 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:26.094 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:26.094 PM]  4  5  00 5400 3bd9   0 0000  3f  01 67ee 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:27.097 PM] Request timeout for icmp_seq 78
+[2023/10/12, 4:03:27.099 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:27.100 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:27.100 PM]  4  5  00 5400 9186   0 0000  3f  01 1241 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:28.098 PM] Request timeout for icmp_seq 79
+[2023/10/12, 4:03:28.100 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:28.100 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:28.100 PM]  4  5  00 5400 7a35   0 0000  3f  01 2992 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:29.103 PM] Request timeout for icmp_seq 80
+[2023/10/12, 4:03:29.105 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:29.105 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:29.105 PM]  4  5  00 5400 208c   0 0000  3f  01 833b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:30.107 PM] Request timeout for icmp_seq 81
+[2023/10/12, 4:03:30.109 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:30.109 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:30.109 PM]  4  5  00 5400 e605   0 0000  3f  01 bdc1 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:31.112 PM] Request timeout for icmp_seq 82
+[2023/10/12, 4:03:31.114 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:31.114 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:31.114 PM]  4  5  00 5400 d92b   0 0000  3f  01 ca9b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:32.116 PM] Request timeout for icmp_seq 83
+[2023/10/12, 4:03:32.117 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:32.117 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:32.117 PM]  4  5  00 5400 b946   0 0000  3f  01 ea80 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:33.120 PM] Request timeout for icmp_seq 84
+[2023/10/12, 4:03:33.121 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:33.121 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:33.121 PM]  4  5  00 5400 df87   0 0000  3f  01 c43f 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:34.122 PM] Request timeout for icmp_seq 85
+[2023/10/12, 4:03:34.124 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:34.124 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:34.124 PM]  4  5  00 5400 cc5e   0 0000  3f  01 d768 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:34.639 PM] çRequest timeout for icmp_seq 86
+[2023/10/12, 4:03:35.125 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:03:35.125 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:03:35.125 PM]  4  5  00 5400 e884   0 0000  3f  01 bb42 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:03:35.294 PM] ^C
+[2023/10/12, 4:03:35.295 PM] --- 10.16.10.39 ping statistics ---
+[2023/10/12, 4:03:35.295 PM] 88 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/10/12, 4:03:35.296 PM] %                                                                                
+
+[2023/10/12, 4:03:35.314 PM]     ~                                               1m 28s   16:03:35  
+[2023/10/12, 4:03:35.314 PM] ❯ Destination Host UnreachableDestination Host Unreachabl  ❯ Destination Host Unreachab
+[2023/10/12, 4:03:44.353 PM] %                                                                                
+
+[2023/10/12, 4:03:44.372 PM]     ~                                                  INT ✘  16:03:44  
+[2023/10/12, 4:03:44.372 PM] ❯ ttracert 10.16.10.39❯ tracert 10.16.10.39
+[2023/10/12, 4:03:52.745 PM] zsh: command not found: tracert
+[2023/10/12, 4:03:52.745 PM] %                                                                                
+
+[2023/10/12, 4:03:52.758 PM]     ~                                                          16:03:52  
+[2023/10/12, 4:03:52.758 PM] ❯ tracert 10.16.10.39❯ tracert 10.16.10.39
+[2023/10/12, 4:05:48.520 PM] %                                                                                
+
+[2023/10/12, 4:05:48.534 PM]     ~                                                  INT ✘  16:05:48  
+[2023/10/12, 4:05:48.534 PM] ❯ pping 2001:2 db8:acad:3::ffff❯ ping 2001:db8:acad:3::ffff
+[2023/10/12, 4:06:18.588 PM] ping: cannot resolve 2001:db8:acad:3::ffff: Unknown host
+[2023/10/12, 4:06:18.589 PM] %                                                                                
+
+[2023/10/12, 4:06:18.599 PM]     ~                                                          16:06:18  
+[2023/10/12, 4:06:18.599 PM] ❯ ping 2001:db8:acad:3::ffff❯ ping 2001:db8:acad:3::ffff
+[2023/10/12, 4:06:50.726 PM] %                                                                                
+
+[2023/10/12, 4:06:50.742 PM]     ~                                                  INT ✘  16:06:50  
+[2023/10/12, 4:06:50.742 PM] ❯ ping 2001:db8:acad:3::fffftracert 10.16.10.39       ❯ tracert 10.16.10.39
+[2023/10/12, 4:06:55.873 PM] zsh: command not found: tracert
+[2023/10/12, 4:06:55.873 PM] %                                                                                
+
+[2023/10/12, 4:06:55.886 PM]     ~                                                          16:06:55  
+[2023/10/12, 4:06:55.886 PM] ❯ tracert 10.16.10.39ping 2001:db8:acad:3::fffftracert 10.16.10.39       ping   ❯ ping 10.16.10.39
+[2023/10/12, 4:06:58.339 PM] PING 10.16.10.39 (10.16.10.39): 56 data bytes
+[2023/10/12, 4:06:58.342 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:06:58.342 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:06:58.342 PM]  4  5  00 5400 c36a   0 0000  3f  01 e05c 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:06:59.340 PM] Request timeout for icmp_seq 0
+[2023/10/12, 4:06:59.354 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:06:59.354 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:06:59.354 PM]  4  5  00 5400 a76b   0 0000  3f  01 fc5b 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:00.346 PM] Request timeout for icmp_seq 1
+[2023/10/12, 4:07:00.350 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:07:00.350 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:07:00.350 PM]  4  5  00 5400 4cfe   0 0000  3f  01 56c9 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:01.351 PM] Request timeout for icmp_seq 2
+[2023/10/12, 4:07:01.352 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:07:01.352 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:07:01.352 PM]  4  5  00 5400 bd1e   0 0000  3f  01 e6a8 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:02.353 PM] Request timeout for icmp_seq 3
+[2023/10/12, 4:07:02.354 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:07:02.354 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:07:02.354 PM]  4  5  00 5400 5a59   0 0000  3f  01 496e 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:03.358 PM] Request timeout for icmp_seq 4
+[2023/10/12, 4:07:03.360 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:07:03.360 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:07:03.360 PM]  4  5  00 5400 a560   0 0000  3f  01 fe66 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:04.363 PM] Request timeout for icmp_seq 5
+[2023/10/12, 4:07:04.365 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:07:04.365 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:07:04.365 PM]  4  5  00 5400 7314   0 0000  3f  01 30b3 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:07:04.962 PM] ^C
+[2023/10/12, 4:07:04.962 PM] --- 10.16.10.39 ping statistics ---
+[2023/10/12, 4:07:04.963 PM] 7 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/10/12, 4:07:04.965 PM] %                                                                                
+
+[2023/10/12, 4:07:04.982 PM]     ~                                                   7s   16:07:04  
+[2023/10/12, 4:07:04.982 PM] ❯ ping 10.16.10.39tracert 106.10.39ping 2001:db8:acad:3::fffftracert 10.16.10.39       ping   ❯ ping 10.16.10.39
+[2023/10/12, 4:08:14.517 PM] PING 10.16.10.39 (10.16.10.39): 56 data bytes
+[2023/10/12, 4:08:14.520 PM] 36 bytes from 192.168.3.254: Destination Host Unreachable
+[2023/10/12, 4:08:14.520 PM] Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
+[2023/10/12, 4:08:14.520 PM]  4  5  00 5400 65f8   0 0000  3f  01 3dcf 192.168.3.3  10.16.10.39 
+
+[2023/10/12, 4:08:15.522 PM] Request timeout for icmp_seq 0
+[2023/10/12, 4:08:15.526 PM] 64 bytes from 10.16.10.39: icmp_seq=1 ttl=254 time=3.565 ms
+[2023/10/12, 4:08:16.525 PM] 64 bytes from 10.16.10.39: icmp_seq=2 ttl=254 time=1.744 ms
+[2023/10/12, 4:08:17.526 PM] 64 bytes from 10.16.10.39: icmp_seq=3 ttl=254 time=1.699 ms
+[2023/10/12, 4:08:18.531 PM] 64 bytes from 10.16.10.39: icmp_seq=4 ttl=254 time=1.859 ms
+[2023/10/12, 4:08:19.536 PM] 64 bytes from 10.16.10.39: icmp_seq=5 ttl=254 time=1.802 ms
+[2023/10/12, 4:08:20.537 PM] 64 bytes from 10.16.10.39: icmp_seq=6 ttl=254 time=1.847 ms
+[2023/10/12, 4:08:21.538 PM] 64 bytes from 10.16.10.39: icmp_seq=7 ttl=254 time=1.843 ms
+[2023/10/12, 4:08:22.538 PM] 64 bytes from 10.16.10.39: icmp_seq=8 ttl=254 time=1.789 ms
+[2023/10/12, 4:08:23.540 PM] 64 bytes from 10.16.10.39: icmp_seq=9 ttl=254 time=1.784 ms
+[2023/10/12, 4:08:24.544 PM] 64 bytes from 10.16.10.39: icmp_seq=10 ttl=254 time=1.872 ms
+[2023/10/12, 4:08:25.549 PM] 64 bytes from 10.16.10.39: icmp_seq=11 ttl=254 time=1.764 ms
+[2023/10/12, 4:08:26.551 PM] 64 bytes from 10.16.10.39: icmp_seq=12 ttl=254 time=1.735 ms
+[2023/10/12, 4:08:27.556 PM] 64 bytes from 10.16.10.39: icmp_seq=13 ttl=254 time=1.817 ms
+[2023/10/12, 4:08:28.559 PM] 64 bytes from 10.16.10.39: icmp_seq=14 ttl=254 time=2.857 ms
+[2023/10/12, 4:08:29.563 PM] 64 bytes from 10.16.10.39: icmp_seq=15 ttl=254 time=1.801 ms
+[2023/10/12, 4:08:30.566 PM] 64 bytes from 10.16.10.39: icmp_seq=16 ttl=254 time=1.690 ms
+[2023/10/12, 4:08:31.571 PM] 64 bytes from 10.16.10.39: icmp_seq=17 ttl=254 time=1.729 ms
+[2023/10/12, 4:08:32.574 PM] 64 bytes from 10.16.10.39: icmp_seq=18 ttl=254 time=1.848 ms
+[2023/10/12, 4:08:33.579 PM] 64 bytes from 10.16.10.39: icmp_seq=19 ttl=254 time=2.128 ms
+[2023/10/12, 4:08:34.584 PM] 64 bytes from 10.16.10.39: icmp_seq=20 ttl=254 time=1.813 ms
+[2023/10/12, 4:08:35.589 PM] 64 bytes from 10.16.10.39: icmp_seq=21 ttl=254 time=1.758 ms
+[2023/10/12, 4:08:36.594 PM] 64 bytes from 10.16.10.39: icmp_seq=22 ttl=254 time=1.789 ms
+[2023/10/12, 4:08:37.599 PM] 64 bytes from 10.16.10.39: icmp_seq=23 ttl=254 time=1.851 ms
+[2023/10/12, 4:08:38.603 PM] 64 bytes from 10.16.10.39: icmp_seq=24 ttl=254 time=1.739 ms
+[2023/10/12, 4:08:39.608 PM] 64 bytes from 10.16.10.39: icmp_seq=25 ttl=254 time=1.834 ms
+[2023/10/12, 4:08:40.612 PM] 64 bytes from 10.16.10.39: icmp_seq=26 ttl=254 time=1.830 ms
+[2023/10/12, 4:08:41.617 PM] 64 bytes from 10.16.10.39: icmp_seq=27 ttl=254 time=1.823 ms
+[2023/10/12, 4:08:42.622 PM] 64 bytes from 10.16.10.39: icmp_seq=28 ttl=254 time=1.808 ms
+[2023/10/12, 4:08:42.968 PM] ^C
+[2023/10/12, 4:08:42.968 PM] --- 10.16.10.39 ping statistics ---
+[2023/10/12, 4:08:42.968 PM] 29 packets transmitted, 28 packets received, 3.4% packet loss
+[2023/10/12, 4:08:42.968 PM] round-trip min/avg/max/stddev = 1.690/1.908/3.565/0.382 ms
+[2023/10/12, 4:08:42.969 PM] %                                                                                
+
+[2023/10/12, 4:08:42.985 PM]     ~                                                  28s   16:08:42  
+[2023/10/12, 4:08:42.985 PM] ❯ ppint g  2001:db8:acad:0::39 2001:db8:acad:0::39❯ ping 2001:db8:acad:0::39
+[2023/10/12, 4:08:58.469 PM] ping: cannot resolve 2001:db8:acad:0::39: Unknown host
+[2023/10/12, 4:08:58.469 PM] %                                                                                
+
+[2023/10/12, 4:08:58.483 PM]     ~                                                          16:08:58  
+[2023/10/12, 4:08:58.483 PM] ❯ ping 2001:db8:acad:0::39❯ ping 2001:db8:acad:0::39
+[2023/10/12, 4:09:01.673 PM] ping: cannot resolve 2001:db8:acad:0::39: Unknown host
+[2023/10/12, 4:09:01.674 PM] %                                                                                
+
+[2023/10/12, 4:09:01.688 PM]     ~                                                          16:09:01  
+[2023/10/12, 4:09:01.688 PM] ❯  2001:db8:acad:0::39 2001:db8:acad:0::39 fe80::1❯  2001:db8:acad:0::39 fe80::1
+[2023/10/12, 4:10:42.307 PM] zsh: command not found: 2001:db8:acad:0::39
+[2023/10/12, 4:10:42.308 PM] %                                                                                
+
+[2023/10/12, 4:10:42.323 PM]     ~                                                          16:10:42  
+[2023/10/12, 4:10:42.323 PM] ❯  2001:db8:acad:0::39 fe80::1p 2001:db8:acad:0::39 fe80::1pi 2001:db8:acad:0::39 fe80::1n 2001:db8:acad:0::39 fe80::1g 2001:db8:acad:0::39 fe80::1 2001:db8:acad:0::39 fe80::1❯ ping  2001:db8:acad:0::39 fe80::1
+[2023/10/12, 4:10:50.591 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/10/12, 4:10:50.591 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/10/12, 4:10:50.591 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/10/12, 4:10:50.591 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/10/12, 4:10:50.591 PM]             [-z tos] host
+[2023/10/12, 4:10:50.591 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/10/12, 4:10:50.591 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/10/12, 4:10:50.591 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/10/12, 4:10:50.591 PM]             [-z tos] mcast-group
+[2023/10/12, 4:10:50.591 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/10/12, 4:10:50.591 PM]             -b boundif           # bind the socket to the interface
+[2023/10/12, 4:10:50.592 PM]             -k traffic_class     # set traffic class socket option
+[2023/10/12, 4:10:50.592 PM]             -K net_service_type  # set traffic class socket options
+[2023/10/12, 4:10:50.592 PM]             --apple-connect       # call connect(2) in the socket
+[2023/10/12, 4:10:50.592 PM]             --apple-time          # display current time
+[2023/10/12, 4:10:50.592 PM] %                                                                                
+
+[2023/10/12, 4:10:50.606 PM]     ~                                                          16:10:50  
+[2023/10/12, 4:10:50.606 PM] ❯ ping  2001:db8:acad:0::39 fe80::1          2001:db8:acad:0::39i2001:db8:acad:0::39p2001:db8:acad:0::39v2001:db8:acad:0::3962001:db8:acad:0::39 2001:db8:acad:0::39❯ ping ipv6 2001:db8:acad:0::39
+[2023/10/12, 4:11:44.617 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/10/12, 4:11:44.617 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/10/12, 4:11:44.617 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/10/12, 4:11:44.617 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/10/12, 4:11:44.617 PM]             [-z tos] host
+[2023/10/12, 4:11:44.617 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/10/12, 4:11:44.617 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/10/12, 4:11:44.617 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/10/12, 4:11:44.617 PM]             [-z tos] mcast-group
+[2023/10/12, 4:11:44.617 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/10/12, 4:11:44.617 PM]             -b boundif           # bind the socket to the interface
+[2023/10/12, 4:11:44.617 PM]             -k traffic_class     # set traffic class socket option
+[2023/10/12, 4:11:44.617 PM]             -K net_service_type  # set traffic class socket options
+[2023/10/12, 4:11:44.617 PM]             --apple-connect       # call connect(2) in the socket
+[2023/10/12, 4:11:44.617 PM]             --apple-time          # display current time
+[2023/10/12, 4:11:44.617 PM] %                                                                                
+
+[2023/10/12, 4:11:44.632 PM]     ~                                                          16:11:44  
+[2023/10/12, 4:11:44.632 PM] ❯ ping ipv6 2001:db8:acad:0::39                   FE80::1❯ ping ipv6 FE80::1
+[2023/10/12, 4:12:00.704 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/10/12, 4:12:00.704 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/10/12, 4:12:00.704 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/10/12, 4:12:00.704 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/10/12, 4:12:00.704 PM]             [-z tos] host
+[2023/10/12, 4:12:00.704 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/10/12, 4:12:00.704 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/10/12, 4:12:00.704 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/10/12, 4:12:00.704 PM]             [-z tos] mcast-group
+[2023/10/12, 4:12:00.704 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/10/12, 4:12:00.704 PM]             -b boundif           # bind the socket to the interface
+[2023/10/12, 4:12:00.704 PM]             -k traffic_class     # set traffic class socket option
+[2023/10/12, 4:12:00.704 PM]             -K net_service_type  # set traffic class socket options
+[2023/10/12, 4:12:00.704 PM]             --apple-connect       # call connect(2) in the socket
+[2023/10/12, 4:12:00.704 PM]             --apple-time          # display current time
+[2023/10/12, 4:12:00.704 PM] %                                                                                
+
+[2023/10/12, 4:12:00.718 PM]     ~                                                          16:12:00  
+[2023/10/12, 4:12:00.718 PM] ❯ ping ipv6 FE80::1❯ ping ipv6 FE80::1
+[2023/10/12, 4:12:29.003 PM] %                                                                                
+
+[2023/10/12, 4:12:29.019 PM]     ~                                                  INT ✘  16:12:29  
+[2023/10/12, 4:12:29.019 PM] ❯ ppingh  fe80::1❯ ping fe80::1
+[2023/10/12, 4:13:10.575 PM] ping: cannot resolve fe80::1: Unknown host
+[2023/10/12, 4:13:10.576 PM] %                                                                                
+
+[2023/10/12, 4:13:10.590 PM]     ~                                                          16:13:10  
+[2023/10/12, 4:13:10.590 PM] ❯ ping fe80::1❯ ping fe80::1
+[2023/10/12, 4:14:19.459 PM] ping: cannot resolve fe80::1: Unknown host
+[2023/10/12, 4:14:19.460 PM] %                                                                                
+
+[2023/10/12, 4:14:19.474 PM]     ~                                                          16:14:19  
+[2023/10/12, 4:14:19.474 PM] ❯ ping fe80::1pfe80::1ife80::1ife80::1fe80::1 fe80::1 fe80::1 ife80::1pfe80::1vfe80::16fe80::1fe80::1 6fe80::1 fe80::1❯ ping ipv6 fe80::1
+[2023/10/12, 4:14:26.580 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/10/12, 4:14:26.580 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/10/12, 4:14:26.580 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/10/12, 4:14:26.580 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/10/12, 4:14:26.580 PM]             [-z tos] host
+[2023/10/12, 4:14:26.580 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/10/12, 4:14:26.580 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/10/12, 4:14:26.580 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/10/12, 4:14:26.580 PM]             [-z tos] mcast-group
+[2023/10/12, 4:14:26.580 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/10/12, 4:14:26.580 PM]             -b boundif           # bind the socket to the interface
+[2023/10/12, 4:14:26.581 PM]             -k traffic_class     # set traffic class socket option
+[2023/10/12, 4:14:26.581 PM]             -K net_service_type  # set traffic class socket options
+[2023/10/12, 4:14:26.581 PM]             --apple-connect       # call connect(2) in the socket
+[2023/10/12, 4:14:26.581 PM]             --apple-time          # display current time
+[2023/10/12, 4:14:26.581 PM] %                                                                                
+
+[2023/10/12, 4:14:26.595 PM]     ~                                                          16:14:26  
+[2023/10/12, 4:14:26.595 PM] ❯ ping ipv6 fe80::1                 ping ipv6 fe80::1fe80::1     ❯ ping fe80::1
+[2023/10/12, 4:14:29.805 PM] ping: cannot resolve fe80::1: Unknown host
+[2023/10/12, 4:14:29.806 PM] %                                                                                
+
+[2023/10/12, 4:14:29.821 PM]     ~                                                          16:14:29  
+[2023/10/12, 4:14:29.821 PM] ❯ ping fe80::1ipv6 fe80::1fe80::1     ipv6 FE80::12001:db8:acad:0::39 fe80::1ipv6 2001:db8:acad:0::39     fe80::1❯ ping  2001:db8:acad:0::39 fe80::1
+[2023/10/12, 4:15:35.167 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/10/12, 4:15:35.167 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/10/12, 4:15:35.167 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/10/12, 4:15:35.167 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/10/12, 4:15:35.167 PM]             [-z tos] host
+[2023/10/12, 4:15:35.167 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/10/12, 4:15:35.167 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/10/12, 4:15:35.167 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/10/12, 4:15:35.167 PM]             [-z tos] mcast-group
+[2023/10/12, 4:15:35.167 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/10/12, 4:15:35.167 PM]             -b boundif           # bind the socket to the interface
+[2023/10/12, 4:15:35.167 PM]             -k traffic_class     # set traffic class socket option
+[2023/10/12, 4:15:35.167 PM]             -K net_service_type  # set traffic class socket options
+[2023/10/12, 4:15:35.167 PM]             --apple-connect       # call connect(2) in the socket
+[2023/10/12, 4:15:35.167 PM]             --apple-time          # display current time
+[2023/10/12, 4:15:35.168 PM] %                                                                                
+
+[2023/10/12, 4:15:35.182 PM]     ~                                                          16:15:35  
+[2023/10/12, 4:15:35.182 PM] ❯ ping  2001:db8:acad:0::39 fe80::1 62001:db8:acad:0::39 fe80::1 2001:db8:acad:0::39 fe80::1         ❯ ping6 2001:db8:acad:0::3
+[2023/10/12, 4:15:50.611 PM] PING6(56=40+8+8 bytes) 2001:db8:acad:3::3 --> 2001:db8:acad::3
+[2023/10/12, 4:15:50.612 PM] 16 bytes from 2001:db8:acad::3, icmp_seq=0 hlim=64 time=0.951 ms
+[2023/10/12, 4:15:51.617 PM] 16 bytes from 2001:db8:acad::3, icmp_seq=1 hlim=64 time=0.862 ms
+[2023/10/12, 4:15:51.712 PM] ^[[A16 bytes from 2001:db8:acad::3, icmp_seq=2 hlim=64 time=0.877 ms
+[2023/10/12, 4:15:52.659 PM] ^C
+[2023/10/12, 4:15:52.659 PM] --- 2001:db8:acad:0::3 ping6 statistics ---
+[2023/10/12, 4:15:52.659 PM] 3 packets transmitted, 3 packets received, 0.0% packet loss
+[2023/10/12, 4:15:52.659 PM] round-trip min/avg/max/std-dev = 0.862/0.897/0.951/0.039 ms
+[2023/10/12, 4:15:52.660 PM] %                                                                                
+
+[2023/10/12, 4:15:52.675 PM]     ~                                                          16:15:52  
+[2023/10/12, 4:15:52.676 PM] ❯ ❯ 
+[2023/10/12, 4:15:52.868 PM] %                                                                                
+
+[2023/10/12, 4:15:52.884 PM]     ~                                                  INT ✘  16:15:52  
+[2023/10/12, 4:15:52.884 PM] ❯ ping6 2001:db8:acad:0::39❯ ping6 2001:db8:acad:0::39
+[2023/10/12, 4:15:54.708 PM] PING6(56=40+8+8 bytes) 2001:db8:acad:3::3 --> 2001:db8:acad::39
+[2023/10/12, 4:15:54.722 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=0 hlim=63 time=13.865 ms
+[2023/10/12, 4:15:55.715 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=1 hlim=63 time=1.735 ms
+[2023/10/12, 4:15:56.719 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=2 hlim=63 time=1.757 ms
+[2023/10/12, 4:15:57.724 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=3 hlim=63 time=1.816 ms
+[2023/10/12, 4:15:58.729 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=4 hlim=63 time=1.837 ms
+[2023/10/12, 4:15:59.733 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=5 hlim=63 time=1.828 ms
+[2023/10/12, 4:16:00.736 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=6 hlim=63 time=1.887 ms
+[2023/10/12, 4:16:01.739 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=7 hlim=63 time=1.820 ms
+[2023/10/12, 4:16:02.742 PM] 16 bytes from 2001:db8:acad::39, icmp_seq=8 hlim=63 time=1.738 ms
+[2023/10/12, 4:16:02.813 PM] ^C
+[2023/10/12, 4:16:02.813 PM] --- 2001:db8:acad:0::39 ping6 statistics ---
+[2023/10/12, 4:16:02.814 PM] 9 packets transmitted, 9 packets received, 0.0% packet loss
+[2023/10/12, 4:16:02.814 PM] round-trip min/avg/max/std-dev = 1.735/3.143/13.865/3.791 ms
+[2023/10/12, 4:16:02.814 PM] %                                                                                
+
+[2023/10/12, 4:16:02.832 PM]     ~                                                   8s   16:16:02  
+[2023/10/12, 4:16:02.832 PM] ❯ ping6 2001:db8:acad:0::39  9 fe80::16         9  9 fe80::1fe80::1                     ipv6 fe80::1fe80::1     ipv6 FE80::12001:db8:acad:0::39 fe80::1        10.16.10.39        tracert 106.10.39ping 2001:db8:acad:3::fffftracert 10.16.10.39       ping 2001:db8:acad:3::fffftracert 10.16.10.39       ping   ❯ ping 10.16.10.39
+[2023/10/12, 4:16:09.066 PM] PING 10.16.10.39 (10.16.10.39): 56 data bytes
+[2023/10/12, 4:16:09.068 PM] 64 bytes from 10.16.10.39: icmp_seq=0 ttl=254 time=1.873 ms
+[2023/10/12, 4:16:10.073 PM] 64 bytes from 10.16.10.39: icmp_seq=1 ttl=254 time=1.867 ms
+[2023/10/12, 4:16:11.077 PM] 64 bytes from 10.16.10.39: icmp_seq=2 ttl=254 time=1.863 ms
+[2023/10/12, 4:16:12.081 PM] 64 bytes from 10.16.10.39: icmp_seq=3 ttl=254 time=1.720 ms
+[2023/10/12, 4:16:13.079 PM] ^C
+[2023/10/12, 4:16:13.079 PM] --- 10.16.10.39 ping statistics ---
+[2023/10/12, 4:16:13.080 PM] 4 packets transmitted, 4 packets received, 0.0% packet loss
+[2023/10/12, 4:16:13.080 PM] round-trip min/avg/max/stddev = 1.720/1.831/1.873/0.064 ms
+[2023/10/12, 4:16:13.080 PM] %                                                                                
+
+[2023/10/12, 4:16:13.096 PM]     ~                                                   4s   16:16:13  
+[2023/10/12, 4:16:13.096 PM] ❯ 

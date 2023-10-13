@@ -1,0 +1,165 @@
+[2023/10/12, 3:36:38.918 PM] Last login: Thu Oct 12 15:36:36 on console
+
+
+[2023/10/12, 3:36:39.168 PM]     ~                                                          15:36:39  
+[2023/10/12, 3:36:39.169 PM] ❯ %                                                                               
+[2023/10/12, 3:36:39.480 PM]     ~                                                          15:36:39  
+[2023/10/12, 3:36:39.480 PM] ❯ screen /dev/tty.usbserial-A10O1S63 9600OA                                     screen /dev/tty.usbserial-A10O1S63 9600ls*                       ❯ ls /dev/tty.usb*
+[2023/10/12, 3:37:23.868 PM] /dev/tty.usbserial-A10O1S63
+[2023/10/12, 3:37:23.868 PM] %                                                                                
+
+[2023/10/12, 3:37:23.882 PM]     ~                                                          15:37:23  
+[2023/10/12, 3:37:23.882 PM] ❯ ls /dev/tty.usb*screen /dev/tty.usbserial-A10O1S63 9600❯ screen /dev/tty.usbserial-A10O1S63 9600
+
+
+[2023/10/12, 3:38:28.268 PM] Router>
+[2023/10/12, 3:38:29.435 PM] Router>
+[2023/10/12, 3:38:29.675 PM] Router>
+[2023/10/12, 3:38:29.915 PM] Router>enable  
+[2023/10/12, 3:39:16.448 PM] Router#cof nfigure terminal
+[2023/10/12, 3:39:30.094 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:39:30.157 PM] Router(config)#hon stname SK2A03
+[2023/10/12, 3:39:51.993 PM] SK2A03(config)#notp   ip don main-looj kup
+[2023/10/12, 3:40:15.459 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:27.513 PM] Router>
+[2023/10/12, 3:40:27.513 PM] Router>
+[2023/10/12, 3:40:27.513 PM] Router>enable
+[2023/10/12, 3:40:27.513 PM] Router#configure terminal
+[2023/10/12, 3:40:27.513 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:27.513 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:27.513 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:27.513 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:27.721 PM] Router>
+[2023/10/12, 3:40:27.721 PM] Router>
+[2023/10/12, 3:40:27.721 PM] Router>enable
+[2023/10/12, 3:40:27.721 PM] Router#configure terminal
+[2023/10/12, 3:40:27.721 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:27.721 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:27.721 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:27.721 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:27.948 PM] Router>
+[2023/10/12, 3:40:27.948 PM] Router>
+[2023/10/12, 3:40:27.948 PM] Router>enable
+[2023/10/12, 3:40:27.948 PM] Router#configure terminal
+[2023/10/12, 3:40:27.948 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:27.948 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:27.948 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:27.948 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:28.153 PM] Router>
+[2023/10/12, 3:40:28.153 PM] Router>
+[2023/10/12, 3:40:28.153 PM] Router>enable
+[2023/10/12, 3:40:28.153 PM] Router#configure terminal
+[2023/10/12, 3:40:28.153 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:28.153 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:28.153 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:28.153 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:28.372 PM] Router>
+[2023/10/12, 3:40:28.372 PM] Router>enable
+[2023/10/12, 3:40:28.372 PM] Router#configure terminal
+[2023/10/12, 3:40:28.372 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:28.372 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:28.372 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:28.372 PM] SK2A03(config)#Router>
+[2023/10/12, 3:40:29.007 PM] Router>
+[2023/10/12, 3:40:29.007 PM] Router>
+[2023/10/12, 3:40:29.007 PM] Router>enable
+[2023/10/12, 3:40:29.007 PM] Router#configure terminal
+[2023/10/12, 3:40:29.007 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/12, 3:40:29.007 PM] Router(config)#hostname SK2A03
+[2023/10/12, 3:40:29.007 PM] SK2A03(config)#no ip domain-lookup
+[2023/10/12, 3:40:29.007 PM] SK2A03(config)#enable secre et cison  co
+[2023/10/12, 3:42:22.007 PM] SK2A03(config)#line vty 0 4
+[2023/10/12, 3:44:04.895 PM] SK2A03(config-line)#password class
+[2023/10/12, 3:44:10.558 PM] SK2A03(config-line)#login
+[2023/10/12, 3:44:13.053 PM] SK2A03(config-line)#transpo ort input telent   net
+[2023/10/12, 3:44:25.547 PM] SK2A03(config-line)#exit
+[2023/10/12, 3:44:26.890 PM] SK2A03(config)#service password-encryption  
+[2023/10/12, 3:44:47.477 PM] SK2A03(config)#int g0/4
+[2023/10/12, 3:54:30.609 PM] SK2A03(config-if)#ipda   address 10.16.10.3
+[2023/10/12, 3:54:38.383 PM] % Incomplete command.
+
+[2023/10/12, 3:54:38.415 PM] SK2A03(config-if)#n ip address 10.16.10.3 255.255255   .255.0
+[2023/10/12, 3:54:47.485 PM] SK2A03(config-if)#nos     no shutdown
+[2023/10/12, 3:54:53.563 PM] SK2A03(config-if)#exit
+[2023/10/12, 3:54:54.779 PM] SK2A03(config)#
+[2023/10/12, 3:54:56.571 PM] *Oct 12 07:47:05.211: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/10/12, 3:56:16.762 PM] SK2A03(config)#
+[2023/10/12, 3:56:17.001 PM] SK2A03(config)#
+[2023/10/12, 3:56:17.209 PM] SK2A03(config)#int g0/5
+[2023/10/12, 3:56:21.480 PM] SK2A03(config-if)#a ip address 192.168.3.254 255.255.255.0
+[2023/10/12, 3:56:34.757 PM] SK2A03(config-if)#no shutdown
+[2023/10/12, 3:56:39.380 PM] SK2A03(config-if)#ei xit
+[2023/10/12, 3:56:40.932 PM] SK2A03(config)#
+[2023/10/12, 3:56:42.563 PM] *Oct 12 07:48:51.039: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/12, 3:57:20.651 PM] SK2A03(config)#
+[2023/10/12, 3:57:20.842 PM] SK2A03(config)#
+[2023/10/12, 3:57:20.970 PM] SK2A03(config)#ipv6 unicast-routing
+[2023/10/12, 3:57:22.090 PM] SK2A03(config)#int g0/4
+[2023/10/12, 3:59:06.739 PM] SK2A03(config-if)#i[v   ipv6 address FE80::3 link-local
+[2023/10/12, 3:59:25.102 PM] SK2A03(config-if)#ipv6 adde ress 2001:db8:acad:0::3/64
+[2023/10/12, 3:59:42.570 PM] SK2A03(config-if)#exit
+[2023/10/12, 3:59:43.626 PM] SK2A03(config)#int v g0/5
+[2023/10/12, 4:00:17.475 PM] SK2A03(config-if)#ipv6 address FE80::1 link la ocallocal -local
+[2023/10/12, 4:00:32.447 PM] SK2A03(config-if)#ipv6 address 2001:db8:acad; :3:fff   :ffff/64
+[2023/10/12, 4:00:51.947 PM] SK2A03(config-if)#exit
+[2023/10/12, 4:00:55.050 PM] SK2A03(config)#
+[2023/10/12, 4:01:44.591 PM] *Oct 12 07:53:53.271: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/12, 4:01:44.703 PM] *Oct 12 07:53:54.271: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/10/12, 4:08:15.704 PM] *Oct 12 08:00:24.271: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/10/12, 4:08:15.799 PM] *Oct 12 08:00:25.271: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2023/10/12, 4:10:55.826 PM] SK2A03 con0 is now available
+
+
+
+
+
+[2023/10/12, 4:10:55.858 PM] Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2023/10/12, 4:10:57.746 PM] *Oct 12 08:03:05.587: %SYS-5-CONFIG_I: Configured from console by console
