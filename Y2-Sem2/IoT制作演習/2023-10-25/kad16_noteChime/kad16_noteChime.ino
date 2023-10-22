@@ -18,7 +18,7 @@ int noteOctaves[] = {4,3,3,3,3,0,3,4};
 int noteDurations[] = {4,8,8,4,4,4,4,4};
 
 int Octaves[] = {4,4,4,3, 0 ,3,4,4,4};
-int Durations[] = {2,2,2,1, 4 ,4,2,2,2};
+int Durations[] = {2,2,2,1, 4 ,2,2,2,2};
 
 void setup(){
   ledcSetup(LEDC_CHANNEL_0,LEDC_BASE_FREQ,LEDC_TIMER_13_BIT);

@@ -1,0 +1,327 @@
+[2023/10/19, 3:44:24.242 PM] Last login: Thu Oct 19 15:43:39 on ttys000
+
+
+[2023/10/19, 3:44:24.281 PM]     ~                                                          15:44:24  
+[2023/10/19, 3:44:24.281 PM] ❯ %                                                                               
+[2023/10/19, 3:44:24.376 PM]     ~                                                          15:44:24  
+[2023/10/19, 3:44:24.376 PM] ❯ screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     ❯ nslookup google.jp
+[2023/10/19, 3:44:48.477 PM] ;; connection timed out; no servers could be reached
+
+[2023/10/19, 3:44:48.477 PM] %                                                                                
+
+[2023/10/19, 3:44:48.491 PM]     ~                                                  18s   15:44:48  
+[2023/10/19, 3:44:48.491 PM] ❯ nslookup google.jp❯ nslookup google.jp
+[2023/10/19, 3:45:18.119 PM] ;; connection timed out; no servers could be reached
+
+[2023/10/19, 3:45:18.122 PM] %                                                                                
+
+[2023/10/19, 3:45:18.135 PM]     ~                                                  18s   15:45:18  
+[2023/10/19, 3:45:18.135 PM] ❯ A nslookup google.jpscreen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     ❯ nslookup google.jp
+[2023/10/19, 3:45:42.885 PM] Server:192.168.1.254
+[2023/10/19, 3:45:42.885 PM] Address:192.168.1.254#53
+
+[2023/10/19, 3:45:42.885 PM] Non-authoritative answer:
+[2023/10/19, 3:45:42.886 PM] Name:google.jp
+[2023/10/19, 3:45:42.886 PM] Address: 10.201.10.1
+
+[2023/10/19, 3:45:42.887 PM] %                                                                                
+
+[2023/10/19, 3:45:42.901 PM]     ~                                                          15:45:42  
+[2023/10/19, 3:45:42.901 PM] ❯ iip.addr == 192.168.1.254❯ ip.addr == 192.168.1.254
+[2023/10/19, 3:46:05.445 PM] zsh: = not found
+[2023/10/19, 3:46:05.445 PM] %                                                                                
+
+[2023/10/19, 3:46:05.460 PM]     ~                                                          15:46:05  
+[2023/10/19, 3:46:05.460 PM] ❯ ip.addr == 192.168.1.254nslookup google.jp      screen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     ❯ nslookup google.jp
+[2023/10/19, 3:53:11.573 PM] Server:192.168.1.254
+[2023/10/19, 3:53:11.573 PM] Address:192.168.1.254#53
+
+[2023/10/19, 3:53:11.573 PM] Non-authoritative answer:
+[2023/10/19, 3:53:11.573 PM] Name:google.jp
+[2023/10/19, 3:53:11.573 PM] Address: 10.201.10.1
+
+[2023/10/19, 3:53:11.574 PM] %                                                                                
+
+[2023/10/19, 3:53:11.589 PM]     ~                                                          15:53:11  
+[2023/10/19, 3:53:11.589 PM] ❯ nslookup google.jpip.addr == 192.168.1.254nslookup google.jp      ip.addr == 192.168.1.254nslookup google.jp      ❯ nslookup google.jp
+[2023/10/19, 3:55:06.379 PM] Server:192.168.1.254
+[2023/10/19, 3:55:06.379 PM] Address:192.168.1.254#53
+
+[2023/10/19, 3:55:06.379 PM] Non-authoritative answer:
+[2023/10/19, 3:55:06.379 PM] Name:google.jp
+[2023/10/19, 3:55:06.380 PM] Address: 10.201.10.1
+
+[2023/10/19, 3:55:06.380 PM] %                                                                                
+
+[2023/10/19, 3:55:06.393 PM]     ~                                                          15:55:06  
+[2023/10/19, 3:55:06.393 PM] ❯ nslookup google.jpip.addr == 192.168.1.254nslookup google.jp      screen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     ip.addr == 192.168.1.254nslookup google.jp      screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     www.google.jp      telnet 192.168.1.254ping  telnet 192.168.1.254                 t  iifconfig❯ ifconfig
+[2023/10/19, 3:57:13.902 PM] lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+[2023/10/19, 3:57:13.902 PM] options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+[2023/10/19, 3:57:13.902 PM] inet 127.0.0.1 netmask 0xff000000
+[2023/10/19, 3:57:13.903 PM] inet6 ::1 prefixlen 128 
+[2023/10/19, 3:57:13.903 PM] inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+[2023/10/19, 3:57:13.903 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.903 PM] gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+[2023/10/19, 3:57:13.903 PM] stf0: flags=0<> mtu 1280
+[2023/10/19, 3:57:13.903 PM] anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.903 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.903 PM] ether 6e:2a:9b:60:20:e1
+[2023/10/19, 3:57:13.903 PM] media: none
+[2023/10/19, 3:57:13.903 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.904 PM] ether 6e:2a:9b:60:20:e2
+[2023/10/19, 3:57:13.904 PM] media: none
+[2023/10/19, 3:57:13.904 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.904 PM] ether 6e:2a:9b:60:20:c1
+[2023/10/19, 3:57:13.904 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.904 PM] media: none
+[2023/10/19, 3:57:13.904 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.904 PM] ether 6e:2a:9b:60:20:c2
+[2023/10/19, 3:57:13.904 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.904 PM] media: none
+[2023/10/19, 3:57:13.904 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/10/19, 3:57:13.904 PM] ether 36:13:a9:79:4f:00
+[2023/10/19, 3:57:13.904 PM] media: autoselect <full-duplex>
+[2023/10/19, 3:57:13.904 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/10/19, 3:57:13.904 PM] ether 36:13:a9:79:4f:04
+[2023/10/19, 3:57:13.904 PM] media: autoselect <full-duplex>
+[2023/10/19, 3:57:13.904 PM] status: inactive
+[2023/10/19, 3:57:13.904 PM] ap1: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.904 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/10/19, 3:57:13.905 PM] ether 3e:57:dc:64:3d:e3
+[2023/10/19, 3:57:13.905 PM] inet6 fe80::3c57:dcff:fe64:3de3%ap1 prefixlen 64 scopeid 0xa 
+[2023/10/19, 3:57:13.905 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.905 PM] media: autoselect
+[2023/10/19, 3:57:13.905 PM] en6: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.905 PM] options=404<VLAN_MTU,CHANNEL_IO>
+[2023/10/19, 3:57:13.905 PM] ether a0:ce:c8:63:7a:be
+[2023/10/19, 3:57:13.905 PM] inet6 fe80::c40:a5fd:76cb:3304%en6 prefixlen 64 secured scopeid 0xb 
+[2023/10/19, 3:57:13.905 PM] inet 192.168.1.3 netmask 0xffffff00 broadcast 192.168.1.255
+[2023/10/19, 3:57:13.905 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.905 PM] media: autoselect (1000baseT <full-duplex>)
+[2023/10/19, 3:57:13.905 PM] status: active
+[2023/10/19, 3:57:13.905 PM] en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.905 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/10/19, 3:57:13.905 PM] ether 1c:57:dc:64:3d:e3
+[2023/10/19, 3:57:13.905 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.905 PM] media: autoselect
+[2023/10/19, 3:57:13.905 PM] status: inactive
+[2023/10/19, 3:57:13.905 PM] bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.905 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/10/19, 3:57:13.905 PM] ether 36:13:a9:79:4f:00
+[2023/10/19, 3:57:13.905 PM] Configuration:
+[2023/10/19, 3:57:13.905 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/10/19, 3:57:13.905 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/10/19, 3:57:13.905 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/10/19, 3:57:13.905 PM] ipfilter disabled flags 0x0
+[2023/10/19, 3:57:13.905 PM] member: en1 flags=3<LEARNING,DISCOVER>
+[2023/10/19, 3:57:13.905 PM]         ifmaxaddr 0 port 8 priority 0 path cost 0
+[2023/10/19, 3:57:13.905 PM] member: en2 flags=3<LEARNING,DISCOVER>
+[2023/10/19, 3:57:13.905 PM]         ifmaxaddr 0 port 9 priority 0 path cost 0
+[2023/10/19, 3:57:13.905 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.905 PM] media: <unknown type>
+[2023/10/19, 3:57:13.906 PM] status: inactive
+[2023/10/19, 3:57:13.906 PM] awdl0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.906 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.906 PM] ether 22:72:cc:ad:f9:44
+[2023/10/19, 3:57:13.906 PM] media: autoselect
+[2023/10/19, 3:57:13.906 PM] llw0: flags=8822<BROADCAST,SMART,SIMPLEX,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.906 PM] options=400<CHANNEL_IO>
+[2023/10/19, 3:57:13.906 PM] ether 22:72:cc:ad:f9:44
+[2023/10/19, 3:57:13.906 PM] media: autoselect
+[2023/10/19, 3:57:13.906 PM] status: inactive
+[2023/10/19, 3:57:13.906 PM] utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::ccee:9ff5:b851:812c%utun0 prefixlen 64 scopeid 0x10 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::1d9b:2066:f63f:3abc%utun1 prefixlen 64 scopeid 0x11 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::8f03:7dcb:8010:1feb%utun2 prefixlen 64 scopeid 0x12 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::ce81:b1c:bd2c:69e%utun3 prefixlen 64 scopeid 0x13 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1350
+[2023/10/19, 3:57:13.906 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::5cc3:8e15:1ee6:c13c%utun4 prefixlen 64 scopeid 0x14 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::23f0:f3e3:91ae:683%utun5 prefixlen 64 scopeid 0x15 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] utun6: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/10/19, 3:57:13.906 PM] inet6 fe80::16cf:bf3c:aac8:6bc0%utun6 prefixlen 64 scopeid 0x16 
+[2023/10/19, 3:57:13.906 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/10/19, 3:57:13.906 PM] %                                                                                
+
+[2023/10/19, 3:57:13.918 PM]     ~                                                          15:57:13  
+[2023/10/19, 3:57:13.918 PM] ❯ ifconfignslookup google.jp❯ nslookup google.jp
+[2023/10/19, 4:02:41.689 PM] Server:192.168.1.254
+[2023/10/19, 4:02:41.689 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:02:41.689 PM] Non-authoritative answer:
+[2023/10/19, 4:02:41.689 PM] Name:google.jp
+[2023/10/19, 4:02:41.689 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:02:41.690 PM] %                                                                                
+
+[2023/10/19, 4:02:41.704 PM]     ~                                                          16:02:41  
+[2023/10/19, 4:02:41.704 PM] ❯ nslookup google.jp❯ nslookup google.jp
+[2023/10/19, 4:02:52.696 PM] Server:192.168.1.254
+[2023/10/19, 4:02:52.696 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:02:52.696 PM] Non-authoritative answer:
+[2023/10/19, 4:02:52.696 PM] Name:google.jp
+[2023/10/19, 4:02:52.696 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:02:52.697 PM] %                                                                                
+
+[2023/10/19, 4:02:52.711 PM]     ~                                                          16:02:52  
+[2023/10/19, 4:02:52.711 PM] ❯ ccat /etc//resolv.conf  ❯ cat /etc/resolv.conf
+[2023/10/19, 4:03:06.865 PM] #
+[2023/10/19, 4:03:06.865 PM] # macOS Notice
+[2023/10/19, 4:03:06.866 PM] #
+[2023/10/19, 4:03:06.866 PM] # This file is not consulted for DNS hostname resolution, address
+[2023/10/19, 4:03:06.866 PM] # resolution, or the DNS query routing mechanism used by most
+[2023/10/19, 4:03:06.866 PM] # processes on this system.
+[2023/10/19, 4:03:06.866 PM] #
+[2023/10/19, 4:03:06.866 PM] # To view the DNS configuration used by this system, use:
+[2023/10/19, 4:03:06.866 PM] #   scutil --dns
+[2023/10/19, 4:03:06.866 PM] #
+[2023/10/19, 4:03:06.866 PM] # SEE ALSO
+[2023/10/19, 4:03:06.866 PM] #   dns-sd(1), scutil(8)
+[2023/10/19, 4:03:06.866 PM] #
+[2023/10/19, 4:03:06.866 PM] # This file is automatically generated.
+[2023/10/19, 4:03:06.866 PM] #
+[2023/10/19, 4:03:06.866 PM] nameserver 192.168.1.254
+[2023/10/19, 4:03:06.866 PM] %                                                                                
+
+[2023/10/19, 4:03:06.881 PM]     ~                                                          16:03:06  
+[2023/10/19, 4:03:06.881 PM] ❯ cat /etc/resolv.confnslookup google.jp  ❯ nslookup google.jp
+[2023/10/19, 4:03:17.218 PM] Server:192.168.1.254
+[2023/10/19, 4:03:17.218 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:03:17.218 PM] Non-authoritative answer:
+[2023/10/19, 4:03:17.218 PM] Name:google.jp
+[2023/10/19, 4:03:17.218 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:03:17.219 PM] %                                                                                
+
+[2023/10/19, 4:03:17.233 PM]     ~                                                          16:03:17  
+[2023/10/19, 4:03:17.233 PM] ❯ nslookup google.jpcat /etc/resolv.confnslookup google.jp  ifconfig          nslookup google.jpip.addr == 192.168.1.254nslookup google.jp      screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600ls*                       screen /dev/tty.usbserial-A10O1R2T 9600nslookup google.jp                     ip.addr == 192.168.1.254nslookup google.jp      ifconfig          nslookup google.jpcat /etc/resolv.confnslookup google.jp                    ttelnet 192.1678.1.2548.1.254 ❯ telnet 192.168.1.254
+[2023/10/19, 4:04:35.978 PM] Trying 192.168.1.254...
+[2023/10/19, 4:04:35.979 PM] Connected to 192.168.1.254.
+[2023/10/19, 4:04:35.979 PM] Escape character is '^]'.
+
+[2023/10/19, 4:04:35.982 PM] User Access Verification
+
+[2023/10/19, 4:04:35.982 PM] Password: 
+[2023/10/19, 4:04:49.519 PM] Password: 
+[2023/10/19, 4:04:51.583 PM] Password: 
+[2023/10/19, 4:04:51.776 PM] % Bad passwords
+[2023/10/19, 4:04:53.874 PM] Connection closed by foreign host.
+[2023/10/19, 4:04:53.875 PM] %                                                                                
+
+[2023/10/19, 4:04:53.896 PM]     ~                                                  48s   16:04:53  
+[2023/10/19, 4:04:53.896 PM] ❯ telnet 192.168.1.254❯ telnet 192.168.1.254
+[2023/10/19, 4:05:33.422 PM] ^C
+[2023/10/19, 4:05:33.424 PM] %                                                                                
+
+[2023/10/19, 4:05:33.444 PM]     ~                                          INT ✘  30s   16:05:33  
+[2023/10/19, 4:05:33.445 PM] ❯ telnet 192.168.1.254❯ telnet 192.168.1.254
+[2023/10/19, 4:05:47.610 PM] ^C
+[2023/10/19, 4:05:47.613 PM] %                                                                                
+
+[2023/10/19, 4:05:47.630 PM]     ~                                          INT ✘  13s   16:05:47  
+[2023/10/19, 4:05:47.631 PM] ❯ telnet 192.168.1.254❯ telnet 192.168.1.254
+[2023/10/19, 4:06:21.298 PM] Trying 192.168.1.254...
+[2023/10/19, 4:06:21.299 PM] Connected to 192.168.1.254.
+[2023/10/19, 4:06:21.299 PM] Escape character is '^]'.
+
+
+[2023/10/19, 4:06:21.302 PM] User Access Verification
+
+[2023/10/19, 4:06:21.302 PM] Password: 
+[2023/10/19, 4:06:33.322 PM] sk2a03>exit
+[2023/10/19, 4:06:36.931 PM] Connection closed by foreign host.
+[2023/10/19, 4:06:36.934 PM] %                                                                                
+
+[2023/10/19, 4:06:36.952 PM]     ~                                                  46s   16:06:36  
+[2023/10/19, 4:06:36.952 PM] ❯ telnet 192.168.1.254nslookup google.jp  cat /etc/resolv.confnslookup google.jp  ❯ nslookup google.jp
+[2023/10/19, 4:06:39.542 PM] Server:192.168.1.254
+[2023/10/19, 4:06:39.542 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:06:39.542 PM] Non-authoritative answer:
+[2023/10/19, 4:06:39.542 PM] Name:google.jp
+[2023/10/19, 4:06:39.542 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:06:39.543 PM] %                                                                                
+
+[2023/10/19, 4:06:39.558 PM]     ~                                                          16:06:39  
+[2023/10/19, 4:06:39.558 PM] ❯ nslookup google.jptelnet 192.168.1.254nslookup google.jp  telnet 192.168.1.254❯ telnet 192.168.1.254
+[2023/10/19, 4:08:02.555 PM] Trying 192.168.1.254...
+[2023/10/19, 4:08:02.557 PM] Connected to 192.168.1.254.
+[2023/10/19, 4:08:02.557 PM] Escape character is '^]'.
+
+[2023/10/19, 4:08:02.559 PM] User Access Verification
+
+[2023/10/19, 4:08:02.559 PM] Password: 
+[2023/10/19, 4:08:08.794 PM] Password: 
+[2023/10/19, 4:08:09.521 PM] Password: 
+[2023/10/19, 4:08:10.361 PM] % Bad passwords
+[2023/10/19, 4:08:12.458 PM] Connection closed by foreign host.
+[2023/10/19, 4:08:12.459 PM] %                                                                                
+
+[2023/10/19, 4:08:12.479 PM]     ~                                                  40s   16:08:12  
+[2023/10/19, 4:08:12.479 PM] ❯ ❯ 
+[2023/10/19, 4:08:12.835 PM] %                                                                                
+
+[2023/10/19, 4:08:12.851 PM]     ~                                                          16:08:12  
+[2023/10/19, 4:08:12.851 PM] ❯ telnet 192.168.1.254nslookup google.jp  ❯ nslookup google.jp
+[2023/10/19, 4:08:14.552 PM] Server:192.168.1.254
+[2023/10/19, 4:08:14.552 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:08:14.553 PM] Non-authoritative answer:
+[2023/10/19, 4:08:14.553 PM] Name:google.jp
+[2023/10/19, 4:08:14.553 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:08:14.553 PM] %                                                                                
+
+[2023/10/19, 4:08:14.567 PM]     ~                                                          16:08:14  
+[2023/10/19, 4:08:14.567 PM] ❯ nslookup google.jptelnet 192.168.1.254❯ telnet 192.168.1.254
+[2023/10/19, 4:12:19.705 PM] Trying 192.168.1.254...
+[2023/10/19, 4:12:19.707 PM] Connected to 192.168.1.254.
+[2023/10/19, 4:12:19.707 PM] Escape character is '^]'.
+
+
+[2023/10/19, 4:12:19.710 PM] User Access Verification
+
+[2023/10/19, 4:12:19.710 PM] Password: 
+[2023/10/19, 4:12:34.015 PM] Password: 
+[2023/10/19, 4:12:34.626 PM] Password: 
+[2023/10/19, 4:12:34.924 PM] % Bad passwords
+[2023/10/19, 4:12:37.021 PM] Connection closed by foreign host.
+[2023/10/19, 4:12:37.022 PM] %                                                                                
+
+[2023/10/19, 4:12:37.040 PM]     ~                                                  47s   16:12:37  
+[2023/10/19, 4:12:37.041 PM] ❯ telnet 192.168.1.254nslookup google.jp  ❯ nslookup google.jp
+[2023/10/19, 4:12:38.646 PM] Server:192.168.1.254
+[2023/10/19, 4:12:38.646 PM] Address:192.168.1.254#53
+
+[2023/10/19, 4:12:38.646 PM] Non-authoritative answer:
+[2023/10/19, 4:12:38.646 PM] Name:google.jp
+[2023/10/19, 4:12:38.646 PM] Address: 10.201.10.1
+
+[2023/10/19, 4:12:38.647 PM] %                                                                                
+
+[2023/10/19, 4:12:38.661 PM]     ~                                                          16:12:38  
+[2023/10/19, 4:12:38.661 PM] ❯ 

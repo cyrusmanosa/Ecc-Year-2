@@ -1,0 +1,424 @@
+[2023/10/19, 3:28:40.102 PM] Last login: Thu Oct 19 14:36:21 on ttys000
+
+
+[2023/10/19, 3:28:40.159 PM]     ~                                                          15:28:40  
+[2023/10/19, 3:28:40.159 PM] ❯ %                                                                               
+[2023/10/19, 3:28:40.309 PM]     ~                                                          15:28:40  
+[2023/10/19, 3:28:40.309 PM] ❯ 
+[2023/10/19, 3:28:44.152 PM]     ~                                                              15:28:40  
+[2023/10/19, 3:28:44.152 PM] ❯ 
+[2023/10/19, 3:28:44.356 PM]     ~                                                                             15:28:40  
+[2023/10/19, 3:28:44.357 PM] ❯ screen /dev/tty.usbserial-A10O22DC 9600screen /dev/tty.usbserial-A10O22DC 9600❯ screen /dev/tty.usbserial-A10O22DC 9600
+[2023/10/19, 3:28:58.075 PM] Cannot exec '/dev/tty.usbserial-A10O22DC': No such file or directory                                                                        
+[2023/10/19, 3:29:00.078 PM] [screen is terminating]
+[2023/10/19, 3:29:00.080 PM] %                                                                                                   
+
+[2023/10/19, 3:29:00.097 PM]     ~                                                                             15:29:00  
+[2023/10/19, 3:29:00.097 PM] ❯ ls /dev/tty.usb*ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/10/19, 3:29:04.645 PM] /dev/tty.usbserial-A10O1R2T
+[2023/10/19, 3:29:04.646 PM] %                                                                                                   
+
+[2023/10/19, 3:29:04.658 PM]     ~                                                                             15:29:04  
+[2023/10/19, 3:29:04.658 PM] ❯ screenscreen /dev/tty.usbserial-A10O1R2T/dev/tty.usbserial-A10O1R2T 9600❯ screen /dev/tty.usbserial-A10O1R2T 9600
+
+[2023/10/19, 3:29:28.478 PM] Router>
+[2023/10/19, 3:29:29.902 PM] %Error opening tftp://255.255.255.255/ciscortr.cfg (Timed out)
+[2023/10/19, 3:29:31.277 PM] Router>
+[2023/10/19, 3:29:31.485 PM] Router>
+[2023/10/19, 3:29:31.677 PM] Router>
+[2023/10/19, 3:29:31.853 PM] Router>
+[2023/10/19, 3:29:32.029 PM] Router>en
+[2023/10/19, 3:29:33.629 PM] Router#conf t
+[2023/10/19, 3:29:37.100 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/19, 3:29:37.180 PM] Router(config)#
+[2023/10/19, 3:29:41.771 PM] Router(config)#
+[2023/10/19, 3:29:42.043 PM] Router(config)#hostname sk2a03
+[2023/10/19, 3:29:47.658 PM] sk2a03(config)#enable ser cret ser   cisoco   cop 
+[2023/10/19, 3:30:02.839 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:30:08.742 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:08.901 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:30:10.453 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:10.629 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:30:10.757 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:11.381 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:30:13.493 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:30:30.129 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:30.289 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:30.481 PM] sk2a03(config-line)#line vty 0 4            password cle ass
+[2023/10/19, 3:30:41.407 PM] sk2a03(config-line)#login
+[2023/10/19, 3:30:43.951 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:47.902 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:30:50.701 PM] sk2a03(config-line)#
+[2023/10/19, 3:30:50.893 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:30:51.709 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:30:57.116 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:31:02.570 PM] sk2a03(config)#
+[2023/10/19, 3:31:04.330 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:05.066 PM] Loading http://devicehelper.cisco.com/ca/trustpool !Router>
+[2023/10/19, 3:31:05.945 PM] Router>
+[2023/10/19, 3:31:05.945 PM] Router>en
+[2023/10/19, 3:31:05.945 PM] Router#conf t
+[2023/10/19, 3:31:05.945 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/19, 3:31:05.945 PM] Router(config)#
+[2023/10/19, 3:31:05.945 PM] Router(config)#
+[2023/10/19, 3:31:05.945 PM] Router(config)#hostname sk2a03
+[2023/10/19, 3:31:05.945 PM] sk2a03(config)#enable secret cisco
+[2023/10/19, 3:31:05.945 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:31:05.945 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#login
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:31:05.945 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:31:05.945 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:31:05.945 PM] sk2a03(config)#
+[2023/10/19, 3:31:05.945 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:05.945 PM] Loading http://devicehelper.cisco.com/ca/trustpool !Router>
+[2023/10/19, 3:31:06.137 PM] %Error opening tftp://255.255.255.255/ciscortr.cfg (Timed out)
+[2023/10/19, 3:31:06.137 PM] Router>
+[2023/10/19, 3:31:06.137 PM] Router>
+[2023/10/19, 3:31:06.137 PM] Router>
+[2023/10/19, 3:31:06.137 PM] Router>
+[2023/10/19, 3:31:06.137 PM] Router>en
+[2023/10/19, 3:31:06.137 PM] Router#conf t
+[2023/10/19, 3:31:06.137 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/19, 3:31:06.137 PM] Router(config)#
+[2023/10/19, 3:31:06.137 PM] Router(config)#
+[2023/10/19, 3:31:06.137 PM] Router(config)#hostname sk2a03
+[2023/10/19, 3:31:06.137 PM] sk2a03(config)#enable secret cisco
+[2023/10/19, 3:31:06.137 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:31:06.137 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#login
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:31:06.137 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:31:06.137 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:31:06.137 PM] sk2a03(config)#
+[2023/10/19, 3:31:06.137 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:06.137 PM] Loading http://devicehelper.cisco.com/ca/trustpool !Router>
+[2023/10/19, 3:31:06.395 PM] %Error opening tftp://255.255.255.255/ciscortr.cfg (Timed out)
+[2023/10/19, 3:31:06.395 PM] Router>
+[2023/10/19, 3:31:06.395 PM] Router>
+[2023/10/19, 3:31:06.395 PM] Router>
+[2023/10/19, 3:31:06.395 PM] Router>
+[2023/10/19, 3:31:06.395 PM] Router>en
+[2023/10/19, 3:31:06.395 PM] Router#conf t
+[2023/10/19, 3:31:06.395 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/10/19, 3:31:06.395 PM] Router(config)#
+[2023/10/19, 3:31:06.395 PM] Router(config)#
+[2023/10/19, 3:31:06.395 PM] Router(config)#hostname sk2a03
+[2023/10/19, 3:31:06.395 PM] sk2a03(config)#enable secret cisco
+[2023/10/19, 3:31:06.395 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.395 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.395 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.395 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:31:06.395 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.395 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:31:06.396 PM] sk2a03(config-line)#login
+[2023/10/19, 3:31:06.396 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.396 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:31:06.396 PM] sk2a03(config-line)#
+[2023/10/19, 3:31:06.396 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:31:06.396 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:31:06.396 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:31:06.396 PM] sk2a03(config)#
+[2023/10/19, 3:31:06.396 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:31:06.396 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:31:06.489 PM] *Oct 19 06:31:05.154: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:31:09.449 PM] sk2a03(config)#
+[2023/10/19, 3:31:09.609 PM] sk2a03(config)#
+[2023/10/19, 3:31:09.817 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:31:17.384 PM] sk2a03(config-if)#ip    ip address 192.15 68.1.3.
+[2023/10/19, 3:31:26.902 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)  
+[2023/10/19, 3:31:28.565 PM] % Incomplete command.
+
+[2023/10/19, 3:31:28.581 PM] sk2a03(config-if)#ip address 192.168.1.3 255
+[2023/10/19, 3:31:31.988 PM] % Incomplete command.
+
+[2023/10/19, 3:31:32.005 PM] sk2a03(config-if)#ip address 192.168.1.3 255.255.255.0
+[2023/10/19, 3:31:36.132 PM] sk2a03(config-if)#no su hutdown
+[2023/10/19, 3:31:47.121 PM] sk2a03(config-if)#
+[2023/10/19, 3:31:50.513 PM] *Oct 19 06:31:48.750: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/19, 3:31:52.288 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:31:54.512 PM] *Oct 19 06:31:52.414: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/19, 3:31:54.608 PM] *Oct 19 06:31:53.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to updescription Link to PC
+[2023/10/19, 3:31:57.327 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:31:59.871 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:03.310 PM] sk2a03(config)#
+[2023/10/19, 3:32:03.742 PM] sk2a03(config)#
+[2023/10/19, 3:32:03.902 PM] sk2a03(config)#
+[2023/10/19, 3:32:04.046 PM] sk2a03(config)#
+[2023/10/19, 3:32:04.189 PM] sk2a03(config)#
+[2023/10/19, 3:32:04.350 PM] sk2a03(config)#
+[2023/10/19, 3:32:04.525 PM] sk2a03(config)#
+[2023/10/19, 3:32:04.653 PM] sk2a03(config)#int G
+[2023/10/19, 3:32:06.893 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)0/4
+[2023/10/19, 3:32:09.949 PM] sk2a03(config-if)#int G0/4        ip da  address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.310 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#login
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:32:30.310 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:32:30.310 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.310 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.310 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.310 PM] *Oct 19 06:31:05.154: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.310 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.310 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.310 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-if)#ip address 192.168.1.3.
+[2023/10/19, 3:32:30.310 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out
+[2023/10/19, 3:32:30.310 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-if)#ip address 192.168.1.3 255
+[2023/10/19, 3:32:30.310 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-if)#ip address 192.168.1.3 255.255.255.0
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-if)#no shutdown
+[2023/10/19, 3:32:30.310 PM] sk2a03(config-if)#
+[2023/10/19, 3:32:30.311 PM] *Oct 19 06:31:48.750: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/19, 3:32:30.311 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.311 PM] *Oct 19 06:31:52.414: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/19, 3:32:30.311 PM] *Oct 19 06:31:53.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to updescription Link to PC
+[2023/10/19, 3:32:30.311 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.311 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.311 PM] sk2a03(config)#int G
+[2023/10/19, 3:32:30.311 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)0/4
+[2023/10/19, 3:32:30.311 PM] sk2a03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:30.498 PM] Router(config)#
+[2023/10/19, 3:32:30.498 PM] Router(config)#hostname sk2a03
+[2023/10/19, 3:32:30.498 PM] sk2a03(config)#enable secret cisco
+[2023/10/19, 3:32:30.498 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.498 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#login
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:32:30.498 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:32:30.498 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:32:30.498 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.498 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.498 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.498 PM] *Oct 19 06:31:05.154: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#ip address 192.168.1.3.
+[2023/10/19, 3:32:30.499 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out
+[2023/10/19, 3:32:30.499 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#ip address 192.168.1.3 255
+[2023/10/19, 3:32:30.499 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#ip address 192.168.1.3 255.255.255.0
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#no shutdown
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#
+[2023/10/19, 3:32:30.499 PM] *Oct 19 06:31:48.750: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.499 PM] *Oct 19 06:31:52.414: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/19, 3:32:30.499 PM] *Oct 19 06:31:53.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to updescription Link to PC
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.499 PM] sk2a03(config)#int G
+[2023/10/19, 3:32:30.499 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)0/4
+[2023/10/19, 3:32:30.499 PM] sk2a03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:30.616 PM] sk2a03(config-if)#ip address 10.16.10.3 255.255.255.0nt G0/4                           exit    description Link to PCdescription Link to PCRouter(config)#hostname sk2a03
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#enable secret cisco
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.901 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#login
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:30.901 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:30.901 PM] *Oct 19 06:31:05.154: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#ip address 192.168.1.3.
+[2023/10/19, 3:32:30.901 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out
+[2023/10/19, 3:32:30.901 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#ip address 192.168.1.3 255
+[2023/10/19, 3:32:30.901 PM] % Incomplete command.
+
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#ip address 192.168.1.3 255.255.255.0
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#no shutdown
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#
+[2023/10/19, 3:32:30.901 PM] *Oct 19 06:31:48.750: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.901 PM] *Oct 19 06:31:52.414: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/19, 3:32:30.901 PM] *Oct 19 06:31:53.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to updescription Link to PC
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#
+[2023/10/19, 3:32:30.901 PM] sk2a03(config)#int G
+[2023/10/19, 3:32:30.901 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)0/4
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:30.901 PM] sk2a03(config-if)#description Link to PCdescription Link to PCno shutdown                                 ip address 192.168.1.3 255.255.255.0             sk2a03(config)#enable secret cisco
+[2023/10/19, 3:32:31.127 PM] sk2a03(config)#line vty 0 4
+[2023/10/19, 3:32:31.127 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.127 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/10/19, 3:32:31.127 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.127 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.128 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:31.128 PM] *Oct 19 06:30:11.470: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#password class
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#login
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.128 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#transport input telnet
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-line)#exit
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#service password-encryption
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/10/19, 3:32:31.128 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/10/19, 3:32:31.128 PM] *Oct 19 06:31:05.154: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#ip address 192.168.1.3.
+[2023/10/19, 3:32:31.128 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out
+[2023/10/19, 3:32:31.128 PM] % Incomplete command.
+
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#ip address 192.168.1.3 255
+[2023/10/19, 3:32:31.128 PM] % Incomplete command.
+
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#ip address 192.168.1.3 255.255.255.0
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#no shutdown
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#
+[2023/10/19, 3:32:31.128 PM] *Oct 19 06:31:48.750: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:31.128 PM] *Oct 19 06:31:52.414: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/10/19, 3:32:31.128 PM] *Oct 19 06:31:53.422: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to updescription Link to PC
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:32:31.128 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.128 PM] sk2a03(config)#
+[2023/10/19, 3:32:31.129 PM] sk2a03(config)#int G
+[2023/10/19, 3:32:31.129 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)0/4
+[2023/10/19, 3:32:31.129 PM] sk2a03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:31.129 PM] sk2a03(config-if)#ip address 192.168.1.3nt G0/5               service password-encryptionexit                       transport input telnetlogin                 password classline vty 0 4  enable secret ciscohostname sk2a03    enable secret ciscoline vty 0 4       password classlogin         transport input telnetexit                  service password-encryptionint G0/5                   p address 192.168.1.3 255.255.255.0no shutdown                         description Link to PCdescription Link to PC                      exit                  int G0/4p address 10.16.10.3 255.255.255.0                                   [Aip address 10.16.10.3 255.255.255.0
+[2023/10/19, 3:32:35.383 PM] sk2a03(config-if)#no shut d  down
+[2023/10/19, 3:32:42.294 PM] sk2a03(config-if)#description Link to LAN
+[2023/10/19, 3:32:49.972 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:32:52.628 PM] sk2a03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/10/19, 3:32:58.883 PM] sk2a03(config)#ip dns server
+[2023/10/19, 3:33:03.602 PM] sk2a03(config)#ip dns spoofing 10.201.10.1
+[2023/10/19, 3:33:07.921 PM] sk2a03(config)#int G0/5
+[2023/10/19, 3:34:06.885 PM] sk2a03(config-if)#ip address 192.168.1.254 255.255.255.0
+[2023/10/19, 3:34:17.746 PM] sk2a03(config-if)#no shi utdown
+[2023/10/19, 3:34:23.313 PM] sk2a03(config-if)#description Link to PC
+[2023/10/19, 3:34:28.544 PM] sk2a03(config-if)#exit
+[2023/10/19, 3:34:30.608 PM] sk2a03(config)#%                                                                                                   
+
+[2023/10/19, 3:41:42.055 PM]     ~                                                                 12m 21s   15:41:42  
+[2023/10/19, 3:41:42.055 PM] ❯ screen /dev/tty.usbserial-A10O1R2T 9600❯ screen /dev/tty.usbserial-A10O1R2T 9600
+[2023/10/19, 3:41:46.263 PM] SetTTY (fd 5): ioctl failed: Invalid argument  

@@ -1,0 +1,18 @@
+//
+// Do any local configuration here
+//
+
+zone "sk2a03.ecccomp.ac.jp" IN {
+	type master;
+	file "/etc/bind/sk2a03db.local";
+};
+
+zone "10.21.10.in-addr.arpa" IN {
+	type master;
+	file "/etc/bind/sk2a03db.local.rev";
+};
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+

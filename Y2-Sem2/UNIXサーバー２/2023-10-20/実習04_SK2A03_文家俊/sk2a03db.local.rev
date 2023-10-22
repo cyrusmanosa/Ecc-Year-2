@@ -1,0 +1,20 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	sk2a03.ecccomp.ac.jp. root.ecccomp.ac.jp. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	sk2a03.ecccomp.ac.jp.
+@	IN	PTR	10.21.10.67
+@	IN	A	10.21.10.67
+@	IN	A	255.255.255.0
+158	IN	PTR	sk2a03.ecccomp.ac.jp.
+100	IN	PTR	sk2a03.ecccomp.ac.jp.
+
+sk2a03.ecccomp.ac.jp IN A 10.21.10.67
+67 IN PTR sk2a03.ecccomp.ac.jp.
