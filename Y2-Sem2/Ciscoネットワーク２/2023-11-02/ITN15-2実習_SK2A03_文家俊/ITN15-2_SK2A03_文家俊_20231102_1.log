@@ -1,0 +1,520 @@
+[2023/11/02, 2:38:34.180 PM] Last login: Thu Nov  2 14:34:33 on ttys010
+
+
+[2023/11/02, 2:38:34.205 PM]     ~                                                          14:38:34  
+[2023/11/02, 2:38:34.205 PM] ❯ %                                                                               
+[2023/11/02, 2:38:34.294 PM]     ~                                                          14:38:34  
+[2023/11/02, 2:38:34.294 PM] ❯ 
+[2023/11/02, 2:38:40.635 PM]     ~                                                             14:38:34  
+[2023/11/02, 2:38:40.636 PM] ❯ 
+[2023/11/02, 2:38:40.847 PM]     ~                                                                                   14:38:34  
+[2023/11/02, 2:38:40.847 PM] ❯ 
+[2023/11/02, 2:38:41.088 PM]     ~                                                                                  14:38:34  
+[2023/11/02, 2:38:41.088 PM] ❯ 
+[2023/11/02, 2:38:41.307 PM]     ~                                                                              14:38:34  
+[2023/11/02, 2:38:41.307 PM] ❯ ❯ 
+[2023/11/02, 2:38:42.861 PM] %                                                                                                    
+
+[2023/11/02, 2:38:42.873 PM]     ~                                                                              14:38:42  
+[2023/11/02, 2:38:42.873 PM] ❯ ❯ 
+[2023/11/02, 2:38:43.022 PM] %                                                                                                    
+
+[2023/11/02, 2:38:43.036 PM]     ~                                                                              14:38:43  
+[2023/11/02, 2:38:43.037 PM] ❯ ❯ 
+[2023/11/02, 2:38:43.184 PM] %                                                                                                    
+
+[2023/11/02, 2:38:43.199 PM]     ~                                                                              14:38:43  
+[2023/11/02, 2:38:43.199 PM] ❯ iipconfig /all❯ ipconfig /all
+[2023/11/02, 2:38:50.805 PM] usage: ipconfig <command> <args>
+[2023/11/02, 2:38:50.805 PM] where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, getdhcpduid, getdhcpiaid, set, setverbose
+[2023/11/02, 2:38:50.806 PM] %                                                                                                    
+
+[2023/11/02, 2:38:50.824 PM]     ~                                                                              14:38:50  
+[2023/11/02, 2:38:50.824 PM] ❯ ipconfig /all    ❯ ipconfig
+[2023/11/02, 2:38:56.727 PM] usage: ipconfig <command> <args>
+[2023/11/02, 2:38:56.727 PM] where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, getdhcpduid, getdhcpiaid, set, setverbose
+[2023/11/02, 2:38:56.728 PM] %                                                                                                    
+
+[2023/11/02, 2:38:56.741 PM]     ~                                                                              14:38:56  
+[2023/11/02, 2:38:56.742 PM] ❯ ipconfig -a❯ ipconfig -a
+[2023/11/02, 2:39:08.352 PM] usage: ipconfig <command> <args>
+[2023/11/02, 2:39:08.352 PM] where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, getdhcpduid, getdhcpiaid, set, setverbose
+[2023/11/02, 2:39:08.353 PM] %                                                                                                    
+
+[2023/11/02, 2:39:08.365 PM]     ~                                                                              14:39:08  
+[2023/11/02, 2:39:08.365 PM] ❯ ipconfig -a  iconfig ifconfig /all❯ ifconfig /all
+[2023/11/02, 2:40:10.464 PM] ifconfig: interface /all does not exist
+[2023/11/02, 2:40:10.465 PM] %                                                                                                    
+
+[2023/11/02, 2:40:10.478 PM]     ~                                                                              14:40:10  
+[2023/11/02, 2:40:10.479 PM] ❯ ifconfig /all    -a❯ ifconfig -a
+[2023/11/02, 2:40:12.810 PM] lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+[2023/11/02, 2:40:12.810 PM] options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+[2023/11/02, 2:40:12.810 PM] inet 127.0.0.1 netmask 0xff000000
+[2023/11/02, 2:40:12.812 PM] inet6 ::1 prefixlen 128 
+[2023/11/02, 2:40:12.812 PM] inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+[2023/11/02, 2:40:12.812 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.812 PM] gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+[2023/11/02, 2:40:12.812 PM] stf0: flags=0<> mtu 1280
+[2023/11/02, 2:40:12.812 PM] anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.812 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.812 PM] ether 6e:2a:9b:60:20:e1
+[2023/11/02, 2:40:12.812 PM] media: none
+[2023/11/02, 2:40:12.812 PM] status: inactive
+[2023/11/02, 2:40:12.812 PM] anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.812 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.812 PM] ether 6e:2a:9b:60:20:e2
+[2023/11/02, 2:40:12.812 PM] media: none
+[2023/11/02, 2:40:12.812 PM] status: inactive
+[2023/11/02, 2:40:12.812 PM] en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.812 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.812 PM] ether 6e:2a:9b:60:20:c1
+[2023/11/02, 2:40:12.812 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.812 PM] media: none
+[2023/11/02, 2:40:12.812 PM] status: inactive
+[2023/11/02, 2:40:12.812 PM] en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.812 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.812 PM] ether 6e:2a:9b:60:20:c2
+[2023/11/02, 2:40:12.812 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.812 PM] media: none
+[2023/11/02, 2:40:12.812 PM] status: inactive
+[2023/11/02, 2:40:12.812 PM] en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.812 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/02, 2:40:12.812 PM] ether 36:13:a9:79:4f:00
+[2023/11/02, 2:40:12.812 PM] media: autoselect <full-duplex>
+[2023/11/02, 2:40:12.813 PM] status: inactive
+[2023/11/02, 2:40:12.813 PM] en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/02, 2:40:12.813 PM] ether 36:13:a9:79:4f:04
+[2023/11/02, 2:40:12.813 PM] media: autoselect <full-duplex>
+[2023/11/02, 2:40:12.813 PM] status: inactive
+[2023/11/02, 2:40:12.813 PM] ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.813 PM] ether 3e:57:dc:64:3d:e3
+[2023/11/02, 2:40:12.813 PM] media: autoselect
+[2023/11/02, 2:40:12.813 PM] en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.813 PM] ether 1c:57:dc:64:3d:e3
+[2023/11/02, 2:40:12.813 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.813 PM] media: autoselect
+[2023/11/02, 2:40:12.813 PM] status: inactive
+[2023/11/02, 2:40:12.813 PM] awdl0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/11/02, 2:40:12.813 PM] ether 46:27:13:32:4e:3a
+[2023/11/02, 2:40:12.813 PM] inet6 fe80::4427:13ff:fe32:4e3a%awdl0 prefixlen 64 scopeid 0xc 
+[2023/11/02, 2:40:12.813 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.813 PM] media: autoselect (<unknown type>)
+[2023/11/02, 2:40:12.813 PM] status: inactive
+[2023/11/02, 2:40:12.813 PM] llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=400<CHANNEL_IO>
+[2023/11/02, 2:40:12.813 PM] ether 46:27:13:32:4e:3a
+[2023/11/02, 2:40:12.813 PM] inet6 fe80::4427:13ff:fe32:4e3a%llw0 prefixlen 64 scopeid 0xd 
+[2023/11/02, 2:40:12.813 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.813 PM] media: autoselect
+[2023/11/02, 2:40:12.813 PM] status: inactive
+[2023/11/02, 2:40:12.813 PM] bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.813 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/02, 2:40:12.813 PM] ether 36:13:a9:79:4f:00
+[2023/11/02, 2:40:12.813 PM] Configuration:
+[2023/11/02, 2:40:12.813 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/02, 2:40:12.813 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/02, 2:40:12.813 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/02, 2:40:12.814 PM] ipfilter disabled flags 0x0
+[2023/11/02, 2:40:12.814 PM] member: en1 flags=3<LEARNING,DISCOVER>
+[2023/11/02, 2:40:12.814 PM]         ifmaxaddr 0 port 8 priority 0 path cost 0
+[2023/11/02, 2:40:12.814 PM] member: en2 flags=3<LEARNING,DISCOVER>
+[2023/11/02, 2:40:12.814 PM]         ifmaxaddr 0 port 9 priority 0 path cost 0
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] media: <unknown type>
+[2023/11/02, 2:40:12.814 PM] status: inactive
+[2023/11/02, 2:40:12.814 PM] utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::70be:51e7:6d5b:95f2%utun0 prefixlen 64 scopeid 0xf 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::1ae0:fc69:41f0:ae63%utun1 prefixlen 64 scopeid 0x10 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::ce81:b1c:bd2c:69e%utun2 prefixlen 64 scopeid 0x11 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::d31d:9e7e:85c4:fad7%utun3 prefixlen 64 scopeid 0x12 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::da7d:2bca:a6bb:249b%utun5 prefixlen 64 scopeid 0x14 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun6: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/02, 2:40:12.814 PM] inet6 fe80::e89a:10e4:3c20:b467%utun6 prefixlen 64 scopeid 0x15 
+[2023/11/02, 2:40:12.814 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.814 PM] utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.814 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/11/02, 2:40:12.815 PM] en6: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/02, 2:40:12.815 PM] options=404<VLAN_MTU,CHANNEL_IO>
+[2023/11/02, 2:40:12.815 PM] ether a0:ce:c8:63:7a:be
+[2023/11/02, 2:40:12.815 PM] inet6 fe80::57:e44e:55d4:4539%en6 prefixlen 64 secured scopeid 0x16 
+[2023/11/02, 2:40:12.815 PM] inet 192.168.1.1 netmask 0xffffff00 broadcast 192.168.1.255
+[2023/11/02, 2:40:12.815 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/02, 2:40:12.815 PM] media: autoselect (1000baseT <full-duplex>)
+[2023/11/02, 2:40:12.815 PM] status: active
+[2023/11/02, 2:40:12.815 PM] %                                                                                                    
+
+[2023/11/02, 2:40:12.827 PM]     ~                                                                              14:40:12  
+[2023/11/02, 2:40:12.827 PM] ❯ d iifconfig getpacket en6❯ ifconfig getpacket en6
+[2023/11/02, 2:45:59.786 PM] ifconfig: interface getpacket does not exist
+[2023/11/02, 2:45:59.786 PM] %                                                                                                    
+
+[2023/11/02, 2:45:59.799 PM]     ~                                                                              14:45:59  
+[2023/11/02, 2:45:59.799 PM] ❯ ifconfig getpacket en6i ipconfig getpacket en6❯ ipconfig getpacket en6
+[2023/11/02, 2:46:04.853 PM] op = BOOTREPLY
+[2023/11/02, 2:46:04.853 PM] htype = 1
+[2023/11/02, 2:46:04.854 PM] flags = 0
+[2023/11/02, 2:46:04.854 PM] hlen = 6
+[2023/11/02, 2:46:04.854 PM] hops = 0
+[2023/11/02, 2:46:04.854 PM] xid = 0x8f8ff302
+[2023/11/02, 2:46:04.854 PM] secs = 0
+[2023/11/02, 2:46:04.854 PM] ciaddr = 0.0.0.0
+[2023/11/02, 2:46:04.854 PM] yiaddr = 192.168.1.1
+[2023/11/02, 2:46:04.854 PM] siaddr = 0.0.0.0
+[2023/11/02, 2:46:04.854 PM] giaddr = 0.0.0.0
+[2023/11/02, 2:46:04.854 PM] chaddr = a0:ce:c8:63:7a:be
+[2023/11/02, 2:46:04.854 PM] sname = 
+[2023/11/02, 2:46:04.854 PM] file = 
+[2023/11/02, 2:46:04.854 PM] options:
+[2023/11/02, 2:46:04.854 PM] Options count is 9
+[2023/11/02, 2:46:04.854 PM] dhcp_message_type (uint8): ACK 0x5
+[2023/11/02, 2:46:04.854 PM] server_identifier (ip): 192.168.1.254
+[2023/11/02, 2:46:04.854 PM] lease_time (uint32): 0x15180
+[2023/11/02, 2:46:04.854 PM] renewal_t1_time_value (uint32): 0xa8c0
+[2023/11/02, 2:46:04.854 PM] rebinding_t2_time_value (uint32): 0x12750
+[2023/11/02, 2:46:04.854 PM] subnet_mask (ip): 255.255.255.0
+[2023/11/02, 2:46:04.854 PM] router (ip_mult): {192.168.1.254}
+[2023/11/02, 2:46:04.854 PM] domain_name_server (ip_mult): {10.201.10.1}
+[2023/11/02, 2:46:04.854 PM] end (none): 
+[2023/11/02, 2:46:04.854 PM] %                                                                                                    
+
+[2023/11/02, 2:46:04.868 PM]     ~                                                                              14:46:04  
+[2023/11/02, 2:46:04.868 PM] ❯ ❯ 
+[2023/11/02, 2:53:09.911 PM] %                                                                                                    
+
+[2023/11/02, 2:53:09.926 PM]     ~                                                                              14:53:09  
+[2023/11/02, 2:53:09.926 PM] ❯ ❯ 
+[2023/11/02, 2:53:10.117 PM] %                                                                                                    
+
+[2023/11/02, 2:53:10.132 PM]     ~                                                                              14:53:10  
+[2023/11/02, 2:53:10.132 PM] ❯ ❯ 
+[2023/11/02, 2:53:10.288 PM] %                                                                                                    
+
+[2023/11/02, 2:53:10.303 PM]     ~                                                                              14:53:10  
+[2023/11/02, 2:53:10.303 PM] ❯ ❯ 
+[2023/11/02, 2:53:10.527 PM] %                                                                                                    
+
+[2023/11/02, 2:53:10.542 PM]     ~                                                                              14:53:10  
+[2023/11/02, 2:53:10.543 PM] ❯ pping 192.168.1.254❯ ping 192.168.1.254
+[2023/11/02, 2:53:17.641 PM] PING 192.168.1.254 (192.168.1.254): 56 data bytes
+[2023/11/02, 2:53:17.642 PM] 64 bytes from 192.168.1.254: icmp_seq=0 ttl=255 time=1.181 ms
+[2023/11/02, 2:53:18.645 PM] 64 bytes from 192.168.1.254: icmp_seq=1 ttl=255 time=0.962 ms
+[2023/11/02, 2:53:19.650 PM] 64 bytes from 192.168.1.254: icmp_seq=2 ttl=255 time=1.005 ms
+[2023/11/02, 2:53:20.651 PM] 64 bytes from 192.168.1.254: icmp_seq=3 ttl=255 time=1.085 ms
+[2023/11/02, 2:53:21.656 PM] 64 bytes from 192.168.1.254: icmp_seq=4 ttl=255 time=0.973 ms
+[2023/11/02, 2:53:22.661 PM] 64 bytes from 192.168.1.254: icmp_seq=5 ttl=255 time=1.054 ms
+[2023/11/02, 2:53:23.665 PM] 64 bytes from 192.168.1.254: icmp_seq=6 ttl=255 time=0.923 ms
+[2023/11/02, 2:53:24.671 PM] 64 bytes from 192.168.1.254: icmp_seq=7 ttl=255 time=1.303 ms
+[2023/11/02, 2:53:24.672 PM] ^C
+[2023/11/02, 2:53:24.672 PM] --- 192.168.1.254 ping statistics ---
+[2023/11/02, 2:53:24.672 PM] 8 packets transmitted, 8 packets received, 0.0% packet loss
+[2023/11/02, 2:53:24.672 PM] round-trip min/avg/max/stddev = 0.923/1.061/1.303/0.119 ms
+[2023/11/02, 2:53:24.673 PM] %                                                                                                    
+
+[2023/11/02, 2:53:24.693 PM]     ~                                                                       7s   14:53:24  
+[2023/11/02, 2:53:24.693 PM] ❯ ping pylon.maetel.ecc.ac.jp（10.201.10.24）ping pylon.maetel.ecc.ac.jp（10.201.10.24）                ❯ ping pylon.maetel.ecc.ac.jp
+[2023/11/02, 2:53:48.229 PM] ^C
+[2023/11/02, 2:53:48.231 PM] %                                                                                                    
+
+[2023/11/02, 2:53:48.245 PM]     ~                                                              INT ✘  14s   14:53:48  
+[2023/11/02, 2:53:48.245 PM] ❯ ppiing    ng 10.201.10.24❯ ping 10.201.10.24
+[2023/11/02, 2:53:55.361 PM] PING 10.201.10.24 (10.201.10.24): 56 data bytes
+[2023/11/02, 2:53:56.361 PM] Request timeout for icmp_seq 0
+[2023/11/02, 2:53:57.363 PM] Request timeout for icmp_seq 1
+[2023/11/02, 2:53:58.366 PM] Request timeout for icmp_seq 2
+[2023/11/02, 2:53:59.372 PM] Request timeout for icmp_seq 3
+[2023/11/02, 2:54:00.375 PM] Request timeout for icmp_seq 4
+[2023/11/02, 2:54:01.380 PM] Request timeout for icmp_seq 5
+[2023/11/02, 2:54:02.381 PM] Request timeout for icmp_seq 6
+[2023/11/02, 2:54:03.382 PM] Request timeout for icmp_seq 7
+[2023/11/02, 2:54:04.382 PM] Request timeout for icmp_seq 8
+[2023/11/02, 2:54:05.384 PM] Request timeout for icmp_seq 9
+[2023/11/02, 2:54:06.389 PM] Request timeout for icmp_seq 10
+[2023/11/02, 2:54:07.394 PM] Request timeout for icmp_seq 11
+[2023/11/02, 2:54:08.397 PM] Request timeout for icmp_seq 12
+[2023/11/02, 2:54:09.402 PM] Request timeout for icmp_seq 13
+[2023/11/02, 2:54:10.403 PM] Request timeout for icmp_seq 14
+[2023/11/02, 2:54:11.409 PM] Request timeout for icmp_seq 15
+[2023/11/02, 2:54:12.413 PM] Request timeout for icmp_seq 16
+[2023/11/02, 2:54:13.418 PM] Request timeout for icmp_seq 17
+[2023/11/02, 2:54:14.423 PM] Request timeout for icmp_seq 18
+[2023/11/02, 2:54:15.428 PM] Request timeout for icmp_seq 19
+[2023/11/02, 2:54:16.429 PM] Request timeout for icmp_seq 20
+[2023/11/02, 2:54:17.431 PM] Request timeout for icmp_seq 21
+[2023/11/02, 2:54:18.437 PM] Request timeout for icmp_seq 22
+[2023/11/02, 2:54:19.443 PM] Request timeout for icmp_seq 23
+[2023/11/02, 2:54:20.442 PM] Request timeout for icmp_seq 24
+[2023/11/02, 2:54:21.448 PM] Request timeout for icmp_seq 25
+[2023/11/02, 2:54:22.451 PM] Request timeout for icmp_seq 26
+[2023/11/02, 2:54:23.456 PM] Request timeout for icmp_seq 27
+[2023/11/02, 2:54:24.460 PM] Request timeout for icmp_seq 28
+[2023/11/02, 2:54:25.460 PM] Request timeout for icmp_seq 29
+[2023/11/02, 2:54:26.462 PM] Request timeout for icmp_seq 30
+[2023/11/02, 2:54:27.467 PM] Request timeout for icmp_seq 31
+[2023/11/02, 2:54:28.472 PM] Request timeout for icmp_seq 32
+[2023/11/02, 2:54:29.477 PM] Request timeout for icmp_seq 33
+[2023/11/02, 2:54:30.480 PM] Request timeout for icmp_seq 34
+[2023/11/02, 2:54:31.481 PM] Request timeout for icmp_seq 35
+[2023/11/02, 2:54:32.484 PM] Request timeout for icmp_seq 36
+[2023/11/02, 2:54:33.488 PM] Request timeout for icmp_seq 37
+[2023/11/02, 2:54:34.491 PM] Request timeout for icmp_seq 38
+[2023/11/02, 2:54:35.493 PM] Request timeout for icmp_seq 39
+[2023/11/02, 2:54:36.499 PM] Request timeout for icmp_seq 40
+[2023/11/02, 2:54:37.500 PM] Request timeout for icmp_seq 41
+[2023/11/02, 2:54:38.505 PM] Request timeout for icmp_seq 42
+[2023/11/02, 2:54:39.506 PM] Request timeout for icmp_seq 43
+[2023/11/02, 2:54:40.509 PM] Request timeout for icmp_seq 44
+[2023/11/02, 2:54:41.510 PM] Request timeout for icmp_seq 45
+[2023/11/02, 2:54:42.515 PM] Request timeout for icmp_seq 46
+[2023/11/02, 2:54:43.520 PM] Request timeout for icmp_seq 47
+[2023/11/02, 2:54:44.525 PM] Request timeout for icmp_seq 48
+[2023/11/02, 2:54:45.530 PM] Request timeout for icmp_seq 49
+[2023/11/02, 2:54:46.532 PM] Request timeout for icmp_seq 50
+[2023/11/02, 2:54:47.536 PM] Request timeout for icmp_seq 51
+[2023/11/02, 2:54:48.541 PM] Request timeout for icmp_seq 52
+[2023/11/02, 2:54:49.546 PM] Request timeout for icmp_seq 53
+[2023/11/02, 2:54:50.549 PM] Request timeout for icmp_seq 54
+[2023/11/02, 2:54:51.554 PM] Request timeout for icmp_seq 55
+[2023/11/02, 2:54:52.559 PM] Request timeout for icmp_seq 56
+[2023/11/02, 2:54:53.561 PM] Request timeout for icmp_seq 57
+[2023/11/02, 2:54:53.827 PM] ^C
+[2023/11/02, 2:54:53.828 PM] --- 10.201.10.24 ping statistics ---
+[2023/11/02, 2:54:53.828 PM] 59 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/11/02, 2:54:53.828 PM] %                                                                                                    
+
+[2023/11/02, 2:54:53.849 PM]     ~                                                                      58s   14:54:53  
+[2023/11/02, 2:54:53.849 PM] ❯ ping 10.201.10.24❯ ping 10.201.10.24
+[2023/11/02, 2:54:55.558 PM] PING 10.201.10.24 (10.201.10.24): 56 data bytes
+[2023/11/02, 2:54:56.563 PM] Request timeout for icmp_seq 0
+[2023/11/02, 2:54:57.565 PM] Request timeout for icmp_seq 1
+[2023/11/02, 2:54:58.569 PM] Request timeout for icmp_seq 2
+[2023/11/02, 2:54:59.572 PM] Request timeout for icmp_seq 3
+[2023/11/02, 2:55:00.575 PM] Request timeout for icmp_seq 4
+[2023/11/02, 2:55:01.577 PM] Request timeout for icmp_seq 5
+[2023/11/02, 2:55:02.578 PM] Request timeout for icmp_seq 6
+[2023/11/02, 2:55:03.581 PM] Request timeout for icmp_seq 7
+[2023/11/02, 2:55:04.585 PM] Request timeout for icmp_seq 8
+[2023/11/02, 2:55:05.588 PM] Request timeout for icmp_seq 9
+[2023/11/02, 2:55:06.593 PM] Request timeout for icmp_seq 10
+[2023/11/02, 2:55:07.598 PM] Request timeout for icmp_seq 11
+[2023/11/02, 2:55:08.601 PM] Request timeout for icmp_seq 12
+[2023/11/02, 2:55:09.604 PM] Request timeout for icmp_seq 13
+[2023/11/02, 2:55:10.608 PM] Request timeout for icmp_seq 14
+[2023/11/02, 2:55:11.613 PM] Request timeout for icmp_seq 15
+[2023/11/02, 2:55:12.614 PM] Request timeout for icmp_seq 16
+[2023/11/02, 2:55:13.615 PM] Request timeout for icmp_seq 17
+[2023/11/02, 2:55:14.620 PM] Request timeout for icmp_seq 18
+[2023/11/02, 2:55:15.621 PM] Request timeout for icmp_seq 19
+[2023/11/02, 2:55:16.624 PM] Request timeout for icmp_seq 20
+[2023/11/02, 2:55:17.628 PM] Request timeout for icmp_seq 21
+[2023/11/02, 2:55:18.630 PM] Request timeout for icmp_seq 22
+[2023/11/02, 2:55:19.631 PM] Request timeout for icmp_seq 23
+[2023/11/02, 2:55:20.632 PM] Request timeout for icmp_seq 24
+[2023/11/02, 2:55:21.634 PM] Request timeout for icmp_seq 25
+[2023/11/02, 2:55:22.636 PM] Request timeout for icmp_seq 26
+[2023/11/02, 2:55:23.641 PM] Request timeout for icmp_seq 27
+[2023/11/02, 2:55:24.647 PM] Request timeout for icmp_seq 28
+[2023/11/02, 2:55:25.650 PM] Request timeout for icmp_seq 29
+[2023/11/02, 2:55:26.652 PM] Request timeout for icmp_seq 30
+[2023/11/02, 2:55:27.654 PM] Request timeout for icmp_seq 31
+[2023/11/02, 2:55:28.659 PM] Request timeout for icmp_seq 32
+[2023/11/02, 2:55:29.664 PM] Request timeout for icmp_seq 33
+[2023/11/02, 2:55:30.669 PM] Request timeout for icmp_seq 34
+[2023/11/02, 2:55:31.672 PM] Request timeout for icmp_seq 35
+[2023/11/02, 2:55:32.677 PM] Request timeout for icmp_seq 36
+[2023/11/02, 2:55:33.381 PM] ^C
+[2023/11/02, 2:55:33.381 PM] --- 10.201.10.24 ping statistics ---
+[2023/11/02, 2:55:33.382 PM] 38 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/11/02, 2:55:33.384 PM] %                                                                                                    
+
+[2023/11/02, 2:55:33.402 PM]     ~                                                                      38s   14:55:33  
+[2023/11/02, 2:55:33.402 PM] ❯ ping 10.201.10.24pylon.maetel.ecc.ac.jp192.168.1.254         pylon.maetel.ecc.ac.jp192.168.1.254         ipconfig getpacket en6if-a           getpacket en6❯ ifconfig getpacket en6
+[2023/11/02, 2:55:38.993 PM] ifconfig: interface getpacket does not exist
+[2023/11/02, 2:55:38.993 PM] %                                                                                                    
+
+[2023/11/02, 2:55:39.007 PM]     ~                                                                              14:55:39  
+[2023/11/02, 2:55:39.007 PM] ❯ ifconfig getpacket en6i ipconfig getpacket en6❯ ipconfig getpacket en6
+[2023/11/02, 2:55:44.972 PM] op = BOOTREPLY
+[2023/11/02, 2:55:44.973 PM] htype = 1
+[2023/11/02, 2:55:44.973 PM] flags = 0
+[2023/11/02, 2:55:44.973 PM] hlen = 6
+[2023/11/02, 2:55:44.973 PM] hops = 0
+[2023/11/02, 2:55:44.973 PM] xid = 0xd3d478dd
+[2023/11/02, 2:55:44.973 PM] secs = 0
+[2023/11/02, 2:55:44.973 PM] ciaddr = 0.0.0.0
+[2023/11/02, 2:55:44.973 PM] yiaddr = 192.168.1.2
+[2023/11/02, 2:55:44.973 PM] siaddr = 0.0.0.0
+[2023/11/02, 2:55:44.973 PM] giaddr = 0.0.0.0
+[2023/11/02, 2:55:44.973 PM] chaddr = a0:ce:c8:63:7a:be
+[2023/11/02, 2:55:44.973 PM] sname = 
+[2023/11/02, 2:55:44.973 PM] file = 
+[2023/11/02, 2:55:44.973 PM] options:
+[2023/11/02, 2:55:44.973 PM] Options count is 9
+[2023/11/02, 2:55:44.973 PM] dhcp_message_type (uint8): ACK 0x5
+[2023/11/02, 2:55:44.973 PM] server_identifier (ip): 192.168.1.254
+[2023/11/02, 2:55:44.973 PM] lease_time (uint32): 0x15180
+[2023/11/02, 2:55:44.973 PM] renewal_t1_time_value (uint32): 0xa8c0
+[2023/11/02, 2:55:44.973 PM] rebinding_t2_time_value (uint32): 0x12750
+[2023/11/02, 2:55:44.973 PM] subnet_mask (ip): 255.255.255.0
+[2023/11/02, 2:55:44.973 PM] router (ip_mult): {192.168.1.254}
+[2023/11/02, 2:55:44.973 PM] domain_name_server (ip_mult): {10.201.10.1}
+[2023/11/02, 2:55:44.973 PM] end (none): 
+[2023/11/02, 2:55:44.973 PM] %                                                                                                    
+
+[2023/11/02, 2:55:44.984 PM]     ~                                                                              14:55:44  
+[2023/11/02, 2:55:44.984 PM] ❯ ipconfig getpacket en6ifping 10.201.10.24     ❯ ping 10.201.10.24
+[2023/11/02, 2:56:26.525 PM] PING 10.201.10.24 (10.201.10.24): 56 data bytes
+[2023/11/02, 2:56:27.530 PM] Request timeout for icmp_seq 0
+[2023/11/02, 2:56:28.533 PM] Request timeout for icmp_seq 1
+[2023/11/02, 2:56:29.535 PM] Request timeout for icmp_seq 2
+[2023/11/02, 2:56:30.535 PM] Request timeout for icmp_seq 3
+[2023/11/02, 2:56:31.536 PM] Request timeout for icmp_seq 4
+[2023/11/02, 2:56:31.906 PM] ^C
+[2023/11/02, 2:56:31.907 PM] --- 10.201.10.24 ping statistics ---
+[2023/11/02, 2:56:31.908 PM] 6 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/11/02, 2:56:31.909 PM] %                                                                                                    
+
+[2023/11/02, 2:56:31.924 PM]     ~                                                                       5s   14:56:31  
+[2023/11/02, 2:56:31.924 PM] ❯ ping 10.201.10.24ipconfig getpacket en6❯ ipconfig getpacket en6
+[2023/11/02, 2:56:32.967 PM] op = BOOTREPLY
+[2023/11/02, 2:56:32.967 PM] htype = 1
+[2023/11/02, 2:56:32.967 PM] flags = 0
+[2023/11/02, 2:56:32.967 PM] hlen = 6
+[2023/11/02, 2:56:32.967 PM] hops = 0
+[2023/11/02, 2:56:32.967 PM] xid = 0xd3d478dd
+[2023/11/02, 2:56:32.967 PM] secs = 0
+[2023/11/02, 2:56:32.967 PM] ciaddr = 0.0.0.0
+[2023/11/02, 2:56:32.967 PM] yiaddr = 192.168.1.2
+[2023/11/02, 2:56:32.967 PM] siaddr = 0.0.0.0
+[2023/11/02, 2:56:32.967 PM] giaddr = 0.0.0.0
+[2023/11/02, 2:56:32.968 PM] chaddr = a0:ce:c8:63:7a:be
+[2023/11/02, 2:56:32.968 PM] sname = 
+[2023/11/02, 2:56:32.968 PM] file = 
+[2023/11/02, 2:56:32.968 PM] options:
+[2023/11/02, 2:56:32.968 PM] Options count is 9
+[2023/11/02, 2:56:32.968 PM] dhcp_message_type (uint8): ACK 0x5
+[2023/11/02, 2:56:32.968 PM] server_identifier (ip): 192.168.1.254
+[2023/11/02, 2:56:32.968 PM] lease_time (uint32): 0x15180
+[2023/11/02, 2:56:32.968 PM] renewal_t1_time_value (uint32): 0xa8c0
+[2023/11/02, 2:56:32.968 PM] rebinding_t2_time_value (uint32): 0x12750
+[2023/11/02, 2:56:32.968 PM] subnet_mask (ip): 255.255.255.0
+[2023/11/02, 2:56:32.968 PM] router (ip_mult): {192.168.1.254}
+[2023/11/02, 2:56:32.968 PM] domain_name_server (ip_mult): {10.201.10.1}
+[2023/11/02, 2:56:32.968 PM] end (none): 
+[2023/11/02, 2:56:32.968 PM] %                                                                                                    
+
+[2023/11/02, 2:56:32.977 PM]     ~                                                                              14:56:32  
+[2023/11/02, 2:56:32.977 PM] ❯ ping pylon.maetel.ecc.ac.jpping pylon.maetel.ecc.ac.jp❯ ping pylon.maetel.ecc.ac.jp
+[2023/11/02, 2:58:57.276 PM] ping: cannot resolve pylon.maetel.ecc.ac.jp: Unknown host
+[2023/11/02, 2:58:57.278 PM] %                                                                                                    
+
+[2023/11/02, 2:58:57.294 PM]     ~                                                                      30s   14:58:57  
+[2023/11/02, 2:58:57.295 PM] ❯ ping pylon.maetel.ecc.ac.jpipconfig getpacket en6     ping 10.201.10.24     ❯ ping 10.201.10.24
+[2023/11/02, 3:00:00.037 PM] PING 10.201.10.24 (10.201.10.24): 56 data bytes
+[2023/11/02, 3:00:01.038 PM] Request timeout for icmp_seq 0
+[2023/11/02, 3:00:02.041 PM] Request timeout for icmp_seq 1
+[2023/11/02, 3:00:03.045 PM] Request timeout for icmp_seq 2
+[2023/11/02, 3:00:04.050 PM] Request timeout for icmp_seq 3
+[2023/11/02, 3:00:05.054 PM] Request timeout for icmp_seq 4
+[2023/11/02, 3:00:06.059 PM] Request timeout for icmp_seq 5
+[2023/11/02, 3:00:06.138 PM] ^C
+[2023/11/02, 3:00:06.139 PM] --- 10.201.10.24 ping statistics ---
+[2023/11/02, 3:00:06.139 PM] 7 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/11/02, 3:00:06.139 PM] %                                                                                                    
+
+[2023/11/02, 3:00:06.150 PM]     ~                                                                       6s   15:00:06  
+[2023/11/02, 3:00:06.150 PM] ❯ ping 10.201.10.24pylon.maetel.ecc.ac.jpipconfig getpacket en6     ping 10.201.10.24     ipconfig getpacket en6ifping 10.201.10.24     pylon.maetel.ecc.ac.jp192.168.1.254         ipconfig getpacket en6ping 192.168.1.254    ❯ ping 192.168.1.254
+[2023/11/02, 3:00:16.001 PM] PING 192.168.1.254 (192.168.1.254): 56 data bytes
+[2023/11/02, 3:00:16.002 PM] 64 bytes from 192.168.1.254: icmp_seq=0 ttl=255 time=1.044 ms
+[2023/11/02, 3:00:17.003 PM] 64 bytes from 192.168.1.254: icmp_seq=1 ttl=255 time=1.038 ms
+[2023/11/02, 3:00:18.006 PM] 64 bytes from 192.168.1.254: icmp_seq=2 ttl=255 time=1.017 ms
+[2023/11/02, 3:00:19.011 PM] 64 bytes from 192.168.1.254: icmp_seq=3 ttl=255 time=1.088 ms
+[2023/11/02, 3:00:19.200 PM] ^C
+[2023/11/02, 3:00:19.201 PM] --- 192.168.1.254 ping statistics ---
+[2023/11/02, 3:00:19.201 PM] 4 packets transmitted, 4 packets received, 0.0% packet loss
+[2023/11/02, 3:00:19.201 PM] round-trip min/avg/max/stddev = 1.017/1.047/1.088/0.026 ms
+[2023/11/02, 3:00:19.202 PM] %                                                                                                    
+
+[2023/11/02, 3:00:19.220 PM]     ~                                                                       3s   15:00:19  
+[2023/11/02, 3:00:19.220 PM] ❯ ❯ 
+[2023/11/02, 3:02:30.688 PM] %                                                                                                    
+
+[2023/11/02, 3:02:30.703 PM]     ~                                                                      INT ✘  15:02:30  
+[2023/11/02, 3:02:30.703 PM] ❯ ping 192.168.1.2540.201.104 pylon.maetel.ecc.ac.jpipconfig getpacket en6     ❯ ipconfig getpacket en6
+[2023/11/02, 3:02:34.759 PM] op = BOOTREPLY
+[2023/11/02, 3:02:34.759 PM] htype = 1
+[2023/11/02, 3:02:34.759 PM] flags = 0
+[2023/11/02, 3:02:34.759 PM] hlen = 6
+[2023/11/02, 3:02:34.759 PM] hops = 0
+[2023/11/02, 3:02:34.759 PM] xid = 0xd3d478dd
+[2023/11/02, 3:02:34.759 PM] secs = 0
+[2023/11/02, 3:02:34.759 PM] ciaddr = 0.0.0.0
+[2023/11/02, 3:02:34.759 PM] yiaddr = 192.168.1.2
+[2023/11/02, 3:02:34.759 PM] siaddr = 0.0.0.0
+[2023/11/02, 3:02:34.759 PM] giaddr = 0.0.0.0
+[2023/11/02, 3:02:34.759 PM] chaddr = a0:ce:c8:63:7a:be
+[2023/11/02, 3:02:34.759 PM] sname = 
+[2023/11/02, 3:02:34.759 PM] file = 
+[2023/11/02, 3:02:34.759 PM] options:
+[2023/11/02, 3:02:34.759 PM] Options count is 9
+[2023/11/02, 3:02:34.759 PM] dhcp_message_type (uint8): ACK 0x5
+[2023/11/02, 3:02:34.759 PM] server_identifier (ip): 192.168.1.254
+[2023/11/02, 3:02:34.759 PM] lease_time (uint32): 0x15180
+[2023/11/02, 3:02:34.759 PM] renewal_t1_time_value (uint32): 0xa8c0
+[2023/11/02, 3:02:34.759 PM] rebinding_t2_time_value (uint32): 0x12750
+[2023/11/02, 3:02:34.759 PM] subnet_mask (ip): 255.255.255.0
+[2023/11/02, 3:02:34.759 PM] router (ip_mult): {192.168.1.254}
+[2023/11/02, 3:02:34.759 PM] domain_name_server (ip_mult): {10.201.10.1}
+[2023/11/02, 3:02:34.759 PM] end (none): 
+[2023/11/02, 3:02:34.759 PM] %                                                                                                    
+
+[2023/11/02, 3:02:34.770 PM]     ~                                                                              15:02:34  
+[2023/11/02, 3:02:34.770 PM] ❯ ipconfig getpacket en6ping 192.168.1.254    0.201.104 ❯ ping 10.201.10.24
+[2023/11/02, 3:05:53.438 PM] PING 10.201.10.24 (10.201.10.24): 56 data bytes
+[2023/11/02, 3:05:53.440 PM] 64 bytes from 10.201.10.24: icmp_seq=0 ttl=126 time=1.395 ms
+[2023/11/02, 3:05:54.445 PM] 64 bytes from 10.201.10.24: icmp_seq=1 ttl=126 time=1.267 ms
+[2023/11/02, 3:05:55.450 PM] 64 bytes from 10.201.10.24: icmp_seq=2 ttl=126 time=1.393 ms
+[2023/11/02, 3:05:56.455 PM] 64 bytes from 10.201.10.24: icmp_seq=3 ttl=126 time=1.580 ms
+[2023/11/02, 3:05:57.460 PM] 64 bytes from 10.201.10.24: icmp_seq=4 ttl=126 time=1.460 ms
+[2023/11/02, 3:05:58.466 PM] 64 bytes from 10.201.10.24: icmp_seq=5 ttl=126 time=1.680 ms
+[2023/11/02, 3:05:59.470 PM] 64 bytes from 10.201.10.24: icmp_seq=6 ttl=126 time=1.485 ms
+[2023/11/02, 3:06:00.471 PM] 64 bytes from 10.201.10.24: icmp_seq=7 ttl=126 time=1.545 ms
+[2023/11/02, 3:06:01.475 PM] 64 bytes from 10.201.10.24: icmp_seq=8 ttl=126 time=1.439 ms
+[2023/11/02, 3:06:02.476 PM] 64 bytes from 10.201.10.24: icmp_seq=9 ttl=126 time=1.629 ms
+[2023/11/02, 3:06:03.217 PM] ^C
+[2023/11/02, 3:06:03.218 PM] --- 10.201.10.24 ping statistics ---
+[2023/11/02, 3:06:03.218 PM] 10 packets transmitted, 10 packets received, 0.0% packet loss
+[2023/11/02, 3:06:03.218 PM] round-trip min/avg/max/stddev = 1.267/1.487/1.680/0.118 ms
+[2023/11/02, 3:06:03.219 PM] %                                                                                                    
+
+[2023/11/02, 3:06:03.237 PM]     ~                                                                      10s   15:06:03  
+[2023/11/02, 3:06:03.237 PM] ❯ iipcongi  fig /release❯ ipconfig /release
+[2023/11/02, 3:08:52.971 PM] usage: ipconfig <command> <args>
+[2023/11/02, 3:08:52.972 PM] where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, getdhcpduid, getdhcpiaid, set, setverbose
+[2023/11/02, 3:08:52.972 PM] %                                                                                                    
+
+[2023/11/02, 3:08:52.984 PM]     ~                                                                              15:08:52  
+[2023/11/02, 3:08:52.985 PM] ❯ ipconfig /releasei ifconfig /release❯ ifconfig /release
+[2023/11/02, 3:08:57.234 PM] ifconfig: interface /release does not exist
+[2023/11/02, 3:08:57.235 PM] %                                                                                                    
+
+[2023/11/02, 3:08:57.249 PM]     ~                                                                              15:08:57  
+[2023/11/02, 3:08:57.249 PM] ❯ iinp i  ssudo ipcong fig set en6 DHCP❯ sudo ipconfig set en6 DHCP
+[2023/11/02, 3:15:12.088 PM] Password:
+[2023/11/02, 3:15:15.764 PM] %                                                                                                    
+
+[2023/11/02, 3:15:15.769 PM]     ~                                                                       4s   15:15:15  
+[2023/11/02, 3:15:15.769 PM] ❯ sudo ipconfig set en6 DHCPifconfig /release         ipping 10.201.10.24ipconfig getpacket en6ping 192.168.1.254    ipconfig getpacket en6                  i  ping 192.168.1.2540.201.104 pylon.maetel.ecc.ac.jpipconfig getpacket en6     ping pylon.maetel.ecc.ac.jp10.201.10.24          92.168.1540.201.104 ipconfig /releaseifsudo ipconfig set en6 DHCP                          

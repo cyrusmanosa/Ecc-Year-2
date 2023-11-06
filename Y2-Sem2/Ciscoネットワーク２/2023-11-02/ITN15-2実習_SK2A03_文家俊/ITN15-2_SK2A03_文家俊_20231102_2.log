@@ -1,0 +1,276 @@
+[2023/11/02, 2:34:33.674 PM] Last login: Thu Nov  2 12:22:15 on ttys008
+[2023/11/02, 2:34:33.823 PM] %                                                                                
+[2023/11/02, 2:34:33.983 PM]     ~                                                          14:34:33  
+[2023/11/02, 2:34:33.983 PM] ❯ hhistory -c❯ history -c
+[2023/11/02, 2:34:38.814 PM] History file deleted.
+[2023/11/02, 2:34:38.814 PM] %                                                                                
+
+[2023/11/02, 2:34:38.828 PM]     ~                                                          14:34:38  
+[2023/11/02, 2:34:38.828 PM] ❯ ls /dev/tty.usb*ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/11/02, 2:34:45.497 PM] /dev/tty.usbserial-A10O1S63
+[2023/11/02, 2:34:45.497 PM] %                                                                                
+
+[2023/11/02, 2:34:45.510 PM]     ~                                                          14:34:45  
+[2023/11/02, 2:34:45.511 PM] ❯ screenscreen /dev/tty.usbserial-A10O1S63/dev/tty.usbserial-A10O1S63 9600❯ screen /dev/tty.usbserial-A10O1S63 9600
+
+[2023/11/02, 2:35:10.456 PM] Router>
+[2023/11/02, 2:35:10.552 PM] Router>
+[2023/11/02, 2:35:10.745 PM] Router>
+[2023/11/02, 2:35:11.176 PM] Router>
+[2023/11/02, 2:35:11.336 PM] Router>
+[2023/11/02, 2:35:17.910 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/11/02, 2:35:18.294 PM] %Error opening tftp://255.255.255.255/router-confg (Timed out)
+[2023/11/02, 2:35:19.446 PM] *Nov  2 04:38:53.831: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/11/02, 2:35:20.902 PM] Router>
+[2023/11/02, 2:35:21.093 PM] Router>
+[2023/11/02, 2:35:21.285 PM] Router>
+[2023/11/02, 2:35:21.445 PM] Router>en
+[2023/11/02, 2:35:23.109 PM] Router#conft    t
+[2023/11/02, 2:35:27.556 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/02, 2:35:27.636 PM] Router(config)#hostname SK@ 2A03
+[2023/11/02, 2:35:36.546 PM] SK2A03(config)#enabke  le sc ecret cison  co
+[2023/11/02, 2:35:46.624 PM] SK2A03(config)#service password-encryption
+[2023/11/02, 2:35:55.662 PM] SK2A03(config)#
+[2023/11/02, 2:35:57.293 PM] %Error opening tftp://255.255.255.255/ciscortr.cfg (Timed out)
+[2023/11/02, 2:35:58.797 PM] SK2A03(config)#
+[2023/11/02, 2:35:59.149 PM] SK2A03(config)#int G0/05  5
+[2023/11/02, 2:36:03.788 PM] SK2A03(config-if)#ip address 192.168.1.254 255.255.255.0
+[2023/11/02, 2:36:16.409 PM] SK2A03(config-if)#no sy hutdeo  own
+[2023/11/02, 2:36:24.007 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:25.463 PM] *Nov  2 04:40:00.051: %IP-4-DUPADDR: Duplicate address 192.168.1.254 on GigabitEthernet0/4, sourced by 843d.c650.04b2
+[2023/11/02, 2:36:27.463 PM] *Nov  2 04:40:01.535: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/11/02, 2:36:29.046 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:29.254 PM] SK2A03(config-if)#description Link to PC
+[2023/11/02, 2:36:30.790 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:31.462 PM] *Nov  2 04:40:05.339: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/11/02, 2:36:31.573 PM] *Nov  2 04:40:06.339: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to upexi  
+[2023/11/02, 2:36:33.253 PM] % Ambiguous command:  "e"
+[2023/11/02, 2:36:33.285 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:33.461 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:33.637 PM] SK2A03(config-if)#
+[2023/11/02, 2:36:33.813 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:36:35.365 PM] SK2A03(config)#
+[2023/11/02, 2:36:36.228 PM] SK2A03(config)#
+[2023/11/02, 2:36:36.292 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/11/02, 2:36:36.452 PM] SK2A03(config)#int G0/0 4
+[2023/11/02, 2:36:42.419 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.25
+[2023/11/02, 2:36:56.658 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255/ .0
+[2023/11/02, 2:37:07.069 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0                                   
+[2023/11/02, 2:37:07.246 PM] SK2A03(config-if)#
+[2023/11/02, 2:37:07.278 PM] SK2A03#
+[2023/11/02, 2:37:08.461 PM] *Nov  2 04:40:42.715: %SYS-5-CONFIG_I: Configured from console by console
+[2023/11/02, 2:37:09.357 PM] SK2A03#
+[2023/11/02, 2:37:09.549 PM] SK2A03#
+[2023/11/02, 2:37:09.725 PM] SK2A03#
+[2023/11/02, 2:37:09.900 PM] SK2A03#
+[2023/11/02, 2:37:10.093 PM] SK2A03#
+[2023/11/02, 2:37:10.924 PM] SK2A03#
+[2023/11/02, 2:37:11.836 PM] SK2A03#conf ten    conf t      
+[2023/11/02, 2:37:15.292 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)c 
+[2023/11/02, 2:37:16.699 PM] SK2A03#
+[2023/11/02, 2:37:16.955 PM] SK2A03#cons f t
+[2023/11/02, 2:37:19.275 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/02, 2:37:19.339 PM] SK2A03(config)#
+[2023/11/02, 2:37:20.090 PM] SK2A03(config)#
+[2023/11/02, 2:37:20.266 PM] SK2A03(config)#
+[2023/11/02, 2:37:20.426 PM] SK2A03(config)#
+[2023/11/02, 2:37:20.586 PM] SK2A03(config)#ip address 10.16.10.3 255.255.255.0nt G0/4                           exit       xitint G0/4
+[2023/11/02, 2:37:22.970 PM] SK2A03(config-if)#int G0/4p address 10.16.10.3 255.255.255.0
+[2023/11/02, 2:37:24.890 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0                                   no shutdeow   own
+[2023/11/02, 2:37:31.464 PM] SK2A03(config-if)#
+[2023/11/02, 2:37:37.207 PM] SK2A03(config-if)#
+[2023/11/02, 2:37:37.382 PM] SK2A03(config-if)#description Link to LAN
+[2023/11/02, 2:37:38.358 PM] SK2A03(config-if)#
+[2023/11/02, 2:37:39.446 PM] SK2A03(config-if)#
+[2023/11/02, 2:37:39.590 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:37:40.886 PM] SK2A03(config)#
+[2023/11/02, 2:37:41.462 PM] SK2A03(config)#
+[2023/11/02, 2:37:41.638 PM] SK2A03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/02, 2:37:49.428 PM] SK2A03(config)#
+[2023/11/02, 2:37:54.291 PM] %Error opening tftp://255.255.255.255/SK2A03-confg (Timed out) ip dhcp pool
+[2023/11/02, 2:37:56.258 PM] % Incomplete command.
+
+[2023/11/02, 2:37:56.290 PM] SK2A03(config)#
+[2023/11/02, 2:37:56.466 PM] SK2A03(config)# ip dhcp poolip dhcp pool ip dhcp pool s Sk2a03
+[2023/11/02, 2:38:06.576 PM] SK2A03(dhcp-config)#network 192.168.1.0 255.255.255.0
+[2023/11/02, 2:38:12.063 PM] SK2A03(dhcp-config)#default-router 192.168.1.254
+[2023/11/02, 2:38:16.590 PM] SK2A03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/02, 2:38:20.477 PM] SK2A03(dhcp-config)#exit
+[2023/11/02, 2:38:25.564 PM] SK2A03(config)#SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#int G0/4
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#no shutdown
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#description Link to LAN
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] %Error opening tftp://255.255.255.255/SK2A03-confg (Timed out) ip dhcp pool
+[2023/11/02, 2:38:30.453 PM] % Incomplete command.
+
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#ip dhcp pool Sk2a03
+[2023/11/02, 2:38:30.453 PM] SK2A03(dhcp-config)#network 192.168.1.0 255.255.255.0
+[2023/11/02, 2:38:30.453 PM] SK2A03(dhcp-config)#default-router 192.168.1.254
+[2023/11/02, 2:38:30.453 PM] SK2A03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/02, 2:38:30.453 PM] SK2A03(dhcp-config)#exit
+[2023/11/02, 2:38:30.453 PM] SK2A03(config)#SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#int G0/4
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#no shutdown
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#description Link to LAN
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] %Error opening tftp://255.255.255.255/SK2A03-confg (Timed out) ip dhcp pool
+[2023/11/02, 2:38:30.653 PM] % Incomplete command.
+
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#ip dhcp pool Sk2a03
+[2023/11/02, 2:38:30.653 PM] SK2A03(dhcp-config)#network 192.168.1.0 255.255.255.0
+[2023/11/02, 2:38:30.653 PM] SK2A03(dhcp-config)#default-router 192.168.1.254
+[2023/11/02, 2:38:30.653 PM] SK2A03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/02, 2:38:30.653 PM] SK2A03(dhcp-config)#exit
+[2023/11/02, 2:38:30.653 PM] SK2A03(config)#SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#int G0/4
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#no shutdown
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#description Link to LAN
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] %Error opening tftp://255.255.255.255/SK2A03-confg (Timed out) ip dhcp pool
+[2023/11/02, 2:38:30.878 PM] % Incomplete command.
+
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#
+[2023/11/02, 2:38:30.878 PM] SK2A03(config)#ip dhcp pool Sk2a03
+[2023/11/02, 2:38:30.878 PM] SK2A03(dhcp-config)#network 192.168.1.0 255.255.255.0
+[2023/11/02, 2:38:30.878 PM] SK2A03(dhcp-config)#default-router 192.168.1.254
+[2023/11/02, 2:38:30.879 PM] SK2A03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/02, 2:38:30.879 PM] SK2A03(dhcp-config)#exit
+[2023/11/02, 2:38:30.879 PM] SK2A03(config)#SK2A03(config)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config)#int G0/4
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#ip address 10.16.10.3 255.255.255.0
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#no shutdown
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#description Link to LAN
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:38:31.119 PM] SK2A03(config)#
+[2023/11/02, 2:38:31.119 PM] SK2A03(config)#
+[2023/11/02, 2:38:31.120 PM] SK2A03(config)#ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/02, 2:38:31.120 PM] SK2A03(config)#
+[2023/11/02, 2:38:31.120 PM] %Error opening tftp://255.255.255.255/SK2A03-confg (Timed out) ip dhcp pool
+[2023/11/02, 2:38:31.120 PM] % Incomplete command.
+
+[2023/11/02, 2:38:31.120 PM] SK2A03(config)#
+[2023/11/02, 2:38:31.120 PM] SK2A03(config)#ip dhcp pool Sk2a03
+[2023/11/02, 2:38:31.120 PM] SK2A03(dhcp-config)#network 192.168.1.0 255.255.255.0
+[2023/11/02, 2:38:31.120 PM] SK2A03(dhcp-config)#default-router 192.168.1.254
+[2023/11/02, 2:38:31.120 PM] SK2A03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/02, 2:38:31.120 PM] SK2A03(dhcp-config)#exit
+[2023/11/02, 2:38:31.120 PM] SK2A03(config)#ip nat inside source static 10.16.10.3
+[2023/11/02, 2:47:10.277 PM] % Incomplete command.
+
+[2023/11/02, 2:47:10.309 PM] SK2A03(config)#ip nat inside source static 10.16.10.3.3                                      ip nat inside source static 10.16.10.3
+[2023/11/02, 2:47:56.491 PM] % Incomplete command.
+
+[2023/11/02, 2:47:56.523 PM] SK2A03(config)#
+[2023/11/02, 2:51:09.631 PM] SK2A03(config)#
+[2023/11/02, 2:51:09.823 PM] SK2A03(config)#ip nat inside source static 10.16.10.3
+[2023/11/02, 2:51:14.398 PM] % Incomplete command.
+
+[2023/11/02, 2:51:14.431 PM] SK2A03(config)#ip nat inside source static 10.16.10.3  10.16.10.31 10.16.10.39 10.16.10.32 10.16.10.3. 10.16.10.31 10.16.10.36 10.16.10.38 10.16.10.3. 10.16.10.31 10.16.10.3. 10.16.10.31 10.16.10.3  10.16.10.3 10.16.10.3
+[2023/11/02, 2:52:05.315 PM] SK2A03(config)#
+[2023/11/02, 2:52:07.618 PM] *Nov  2 04:55:42.047: %LINEPROTO-5-UPDOWN: Line protocol on Interface NVI0, changed state to up
+[2023/11/02, 2:52:17.296 PM] SK2A03(config)#
+[2023/11/02, 2:52:17.568 PM] SK2A03(config)#
+[2023/11/02, 2:52:17.823 PM] SK2A03(config)#int G0. /5
+[2023/11/02, 2:52:27.790 PM] SK2A03(config-if)#ip nat inst iodd   de
+[2023/11/02, 2:52:37.771 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:52:39.691 PM] SK2A03(config)#in g0. /4
+[2023/11/02, 2:52:58.039 PM] SK2A03(config-if)#ip nat outside
+[2023/11/02, 2:53:03.238 PM] SK2A03(config-if)#exit
+[2023/11/02, 2:53:05.077 PM] SK2A03(config)#exitip nat outsiden g0/4       0/4 G0/4
+[2023/11/02, 2:54:47.358 PM] SK2A03(config-if)#in G0/4exit   ip nat outside
+[2023/11/02, 2:54:49.022 PM] SK2A03(config-if)#ip nat outsiden G0/4       exit   
+[2023/11/02, 2:54:50.541 PM] SK2A03(config)#exitip nat outsiden G0/4       exit   ip nat outsiden g0/4       exit   ip nat insident G0/5     p nat inside source static 192.168.1.1  10.16.10.3 10.16.10.3   10.16.10.3 2 10.16.10.3
+[2023/11/02, 2:56:19.929 PM] % similar static entry (192.168.1.1 -> 10.16.10.3) already exists
+[2023/11/02, 2:56:20.010 PM] SK2A03(config)#ip nat inside source static 192.168.1.2 10.16.10.3                                                  ip nat inside source static 192.168.1.2 10.16.10.3 10.16.10.3 1 10.16.10.3nip nat inside source static 192.168.1.1 10.16.10.3oip nat inside source static 192.168.1.1 10.16.10.3 ip nat inside source static 192.168.1.1 10.16.10.3
+[2023/11/02, 3:02:22.647 PM] SK2A03(config)#no ip nat inside source static 192.168.1.1 10.16.10.3ip nat inside source static 192.168.1.2 10.16.10.3   
+[2023/11/02, 3:02:26.167 PM] SK2A03(config)#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2023/11/02, 3:12:27.135 PM] SK2A03 con0 is now available
+
+
+
+
+
+[2023/11/02, 3:12:27.183 PM] Press RETURN to get started.
+
+
+
+
+
+
+
+
+[2023/11/02, 3:12:29.070 PM] *Nov  2 05:16:02.771: %SYS-5-CONFIG_I: Configured from console by console

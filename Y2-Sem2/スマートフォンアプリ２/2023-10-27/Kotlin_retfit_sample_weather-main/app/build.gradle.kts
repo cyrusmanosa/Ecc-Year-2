@@ -15,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.kotlin_retfit_sample_weather"
-        minSdk = 24
+        minSdk = 31
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
