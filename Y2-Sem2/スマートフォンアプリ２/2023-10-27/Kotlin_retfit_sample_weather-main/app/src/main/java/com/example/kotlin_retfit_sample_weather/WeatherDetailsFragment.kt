@@ -17,7 +17,6 @@ class WeatherDetailsFragment : Fragment() {
 
     // bindingを利用するときはnullでないことを保証するためのgetter
     lateinit var binding:FragmentWeatherDetailsBinding
-
     // フラグメントのビューが作成されるときに呼ばれるメソッド
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

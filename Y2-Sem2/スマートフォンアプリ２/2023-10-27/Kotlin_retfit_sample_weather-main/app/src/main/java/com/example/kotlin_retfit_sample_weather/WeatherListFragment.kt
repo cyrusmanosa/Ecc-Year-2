@@ -16,21 +16,16 @@ import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
 
 class WeatherListFragment : Fragment() {
     private lateinit var binding: FragmentWeatherListBinding
-
     // OpenWeatherMapのAPIアクセスに必要なキー
     private val API_KEY = "003ef1d65597b85d2ab6fa19b59383b6"
-
     // 対象となる日本の都市のリスト
     private val cities = listOf("Tokyo", "Osaka", "Kyoto", "Hiroshima", "Fukuoka", "Hokkaido", "Okinawa", "Aomori", "Nagano", "Tottori", "Nagoya")
-
     // 取得した天気情報を保存するためのリスト
     private val weatherList = mutableListOf<Weather>()
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -79,9 +74,8 @@ class WeatherListFragment : Fragment() {
                     override fun onResponse(call: Call<Weather>, response: Response<Weather>) {
                         response.body()?.let { weather ->
                             weatherList.add(weather) // 取得した天気情報をリストに追加
-
-                            binding.rvCitylist.adapter =
-                                WeatherAdapter(weatherList) { selectedWeather ->
+                            binding.rvCitylist.adapter = WeatherAdapter(weatherList) {
+                                    selectedWeather ->
                                     // 次のFramentへ渡すデータを格納
                                     parentFragmentManager.setFragmentResult(
                                         REQUEST_WEATHER_DETAIL,

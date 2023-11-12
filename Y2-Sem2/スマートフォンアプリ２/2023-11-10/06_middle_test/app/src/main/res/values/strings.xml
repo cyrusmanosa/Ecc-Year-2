@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FragmentMenuList</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_doria_name">ドリア</string>
+    <string name="text_doria_category">メイン</string>
+    <string name="text_doria_detail">ふんわりとした白ご飯の上に、クリーミーなホワイトソースととろけるチーズをたっぷりと絡めました。オーブンで焼き上げることで、外はサクサク、中はもっちりとした食感に。</string>
+
+    <string name="text_cheese_doria_name">チーズドリア</string>
+    <string name="text_cheese_doria_category">メイン</string>
+    <string name="text_cheese_doria_doria_detail">ドリアのクラシックな味わいに、3種類のチーズを贅沢に使用。濃厚なチーズが溶け出し、一口食べるたびに幸せな気分に。</string>
+
+    <string name="text_garden_salad_name">ガーデンサラダ</string>
+    <string name="text_garden_salad_category">サラダ</string>
+    <string name="text_garden_salad_detail">新鮮な季節の野菜をふんだんに使用したサラダ。シャキシャキとした食感と、オリジナルドレッシングが相性抜群です。</string>
+
+    <string name="text_cheese_salad_name">ペコリーノチーズの温サラダ</string>
+    <string name="text_cheese_salad_category">サラダ</string>
+    <string name="text_cheese_salad_detail">ペコリーノチーズの塩味と、温かい野菜の甘みが絶妙にマッチした一品。特製のドレッシングと一緒にどうぞ。</string>
+
+    <string name="text_corn_soup_name">コーンスープ</string>
+    <string name="text_corn_soup_category">スープ</string>
+    <string name="text_corn_soup_detail">コーンの甘みたっぷりのクリーミーなスープ。冷えた体を優しく温めます。</string>
+
+    <string name="text_hamburg_name">ハンバーグ</string>
+    <string name="text_hamburg_category">メイン</string>
+    <string name="text_hamburg_detail">じっくりと煮込んだハンバーグは、外はしっかりと焼き上げられ、中はジューシー。特製のデミグラスソースでお楽しみください。</string>
+
+    <string name="text_shrimp_gratin_name">エビグラタン</string>
+    <string name="text_shrimp_gratin_category">メイン</string>
+    <string name="text_shrimp_gratin_detail">たっぷりのエビとクリーミーなホワイトソースを使ったグラタン。オーブンで焼き上げることで、香ばしさと濃厚さが一層増します。</string>
+
+    <string name="text_margherita_pizza_name">マルゲリータピザ</string>
+    <string name="text_margherita_pizza_category">メイン</string>
+    <string name="text_margherita_pizza_detail">シンプルながらも、トマト、モッツァレラチーズ、フレッシュバジルの3つの食材のハーモニーを楽しめるクラシックなピザ。</string>
+
+</resources>

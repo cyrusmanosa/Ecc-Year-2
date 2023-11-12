@@ -1,0 +1,46 @@
+void loop() {
+ WiFiClient client = server.available();
+
+ if (client) {
+   Serial.println("new client");
+   String currentLine = "";
+   while (client.connected()) {
+     if (client.available()) {
+       char c = client.read();
+       Serial.write(c);
+       if (c == '\n') {
+         if (currentLine.length() == 0) {
+           //ヘッダー
+           client.println("HTTP/1.1 200 OK");
+           client.println("Content-type:text/html");
+           client.println();
+
+           //本体部分
+           client.println("<!DOCTYPE html>");
+           client.println("<html>");
+           client.println("<head>");
+           client.println("<meta name='viewport' content='initial-scale=1.5'>");
+           client.println("</head>");
+           client.println("<body>");
+           client.println("<h1>ESP-WROOM-32</h1>");
+           client.println("<h2>Wi-Fi http Server </h2>");
+           client.println("</body>");
+           client.println("</html>");
+           client.println();
+           //WiFiServerのレスポンス
+           digitalWrite(ledPin, HIGH);
+           delay(1000);
+           break;
+         } else {
+           currentLine = "";
+         }
+       } else if (c != '\r') {
+         currentLine += c;
+       }
+     }
+   }
+   client.stop();
+   Serial.println("client disonnected");
+   digitalWrite(ledPin, LOW);
+ }
+}

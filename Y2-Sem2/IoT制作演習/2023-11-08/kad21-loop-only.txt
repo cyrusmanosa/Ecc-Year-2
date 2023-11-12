@@ -1,0 +1,52 @@
+void loop() {
+  WiFiClient client = server.available();
+
+  if (client) {
+    Serial.println("new client");
+    String currentLine = "";
+    while (client.connected()) {
+      if (client.available()) {
+        char c = client.read();
+        Serial.write(c);
+        if (c == '\n') {
+          if (currentLine.length() == 0) {
+            client.println("HTTP/1.1 200 OK");
+            client.println("Content-type:text/html");
+            client.println();
+            
+            client.println("<!DOCTYPE html>");
+            client.println("<html>");
+            client.println("<head>");
+            client.println("<meta name='viewport' content='initial-scale=1.5'>");
+            client.println("</head>");
+            client.println("<body>");
+            client.println("<form method='get'>");
+            client.println("<h1>ESP32</h1>");
+            client.println("<h2>Wi-Fi LED Switch</h2>");
+            client.println("<input type='submit' name=btn value='ON' style='background-color:#88ff88; color:red;'>");
+            client.println("<input type='submit' name=btn value='OFF' style='background-color:black; color:white;'>");
+            client.println("</form>");
+            client.println("</body>");
+            client.println("</html>");
+            client.println();
+            break;
+          } else {
+            currentLine = "";
+          }
+        } else if (c != '\r') {
+          currentLine += c;
+        }
+
+        if (currentLine.endsWith("GET /?btn=ON")) {
+          digitalWrite(ledPin, HIGH);
+        }
+        if (currentLine.endsWith("GET /?btn=OFF")) {
+          digitalWrite(ledPin, LOW);
+        }
+      }
+    }
+
+    client.stop();
+    Serial.println("client disonnected");
+  }
+}

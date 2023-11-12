@@ -1,5 +1,4 @@
 package com.example.kotlin_retfit_sample_weather
-
 import com.example.kotlin_retfit_sample_weather.model.Weather
 import retrofit2.Call
 import retrofit2.http.GET

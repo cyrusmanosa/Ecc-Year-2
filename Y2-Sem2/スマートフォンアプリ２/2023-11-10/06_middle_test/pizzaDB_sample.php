@@ -1,9 +1,9 @@
 <?php
 header('Content-Type: application/json; charset=utf-8');
 $host = 'localhost';
-$db   = 'DB名';          // ダミー
-$user = 'USER名';        // ダミー
-$pass = 'PASSWORD';     // ダミー
+$db   = 'studbY2';          // ダミー
+$user = 'dbuser';        // ダミー
+$pass = 'ecc';     // ダミー
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
