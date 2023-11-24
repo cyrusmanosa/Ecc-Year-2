@@ -1,0 +1,2226 @@
+[2023/11/17, 2:14:27.832 PM] Last login: Fri Nov 17 13:46:06 on ttys024
+
+
+[2023/11/17, 2:14:27.873 PM]     ~                                                          14:14:27  
+[2023/11/17, 2:14:27.873 PM] ❯ %                                                                               
+[2023/11/17, 2:14:28.011 PM]     ~                                                          14:14:27  
+[2023/11/17, 2:14:28.011 PM] ❯ ssh sk2a03@10.21.10.58❯ ssh sk2a03@10.21.10.58
+[2023/11/17, 2:14:35.266 PM] sk2a03@10.21.10.58's password: 
+[2023/11/17, 2:14:38.745 PM] Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-88-generic aarch64)
+
+[2023/11/17, 2:14:38.745 PM]  * Documentation:  https://help.ubuntu.com
+[2023/11/17, 2:14:38.745 PM]  * Management:     https://landscape.canonical.com
+[2023/11/17, 2:14:38.745 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/11/17, 2:14:38.745 PM] This system has been minimized by removing packages and content that are
+[2023/11/17, 2:14:38.745 PM] not required on a system that users do not log into.
+
+[2023/11/17, 2:14:38.745 PM] To restore this content, you can run the 'unminimize' command.
+
+[2023/11/17, 2:14:38.745 PM] Expanded Security Maintenance for Applications is not enabled.
+
+[2023/11/17, 2:14:38.745 PM] 7 updates can be applied immediately.
+[2023/11/17, 2:14:38.745 PM] 2 of these updates are standard security updates.
+[2023/11/17, 2:14:38.745 PM] To see these additional updates run: apt list --upgradable
+
+[2023/11/17, 2:14:38.745 PM] 2 additional security updates can be applied with ESM Apps.
+[2023/11/17, 2:14:38.745 PM] Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+[2023/11/17, 2:14:38.745 PM] You have no mail.
+[2023/11/17, 2:14:38.745 PM] Last login: Fri Nov 17 04:46:24 2023 from 10.21.10.53
+[2023/11/17, 2:14:38.754 PM] sk2a03@ecc:~$ history -c
+[2023/11/17, 2:14:43.842 PM] sk2a03@ecc:~$ sudo systemactl sutatus postfix
+[2023/11/17, 2:15:00.596 PM] [sudo] password for sk2a03: 
+[2023/11/17, 2:15:02.948 PM] ● postfix.service - Postfix Mail Transport Agent
+[2023/11/17, 2:15:02.949 PM]      Loaded: loaded (/lib/systemd/system/postfix.service; enabled; vendor preset: enabled)
+[2023/11/17, 2:15:02.949 PM]      Active: active (exited) since Fri 2023-11-17 04:17:50 UTC; 57min ago
+[2023/11/17, 2:15:02.949 PM]        Docs: man:postfix(1)
+[2023/11/17, 2:15:02.949 PM]     Process: 2014 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+[2023/11/17, 2:15:02.949 PM]    Main PID: 2014 (code=exited, status=0/SUCCESS)
+[2023/11/17, 2:15:02.949 PM]         CPU: 1ms
+
+[2023/11/17, 2:15:02.949 PM] Nov 17 04:17:50 ecc systemd[1]: Starting Postfix Mail Transport Agent...
+[2023/11/17, 2:15:02.949 PM] Nov 17 04:17:50 ecc systemd[1]: Finished Postfix Mail Transport Agent.
+[2023/11/17, 2:15:02.950 PM] sk2a03@ecc:~$ sudo systemctl status postfixdovecot
+[2023/11/17, 2:15:10.673 PM] ● dovecot.service - Dovecot IMAP/POP3 email server
+[2023/11/17, 2:15:10.674 PM]      Loaded: loaded (/lib/systemd/system/dovecot.service; enabled; vendor preset: enabled)
+[2023/11/17, 2:15:10.674 PM]      Active: active (running) since Fri 2023-11-17 04:15:20 UTC; 59min ago
+[2023/11/17, 2:15:10.674 PM]        Docs: man:dovecot(1)
+[2023/11/17, 2:15:10.674 PM]              https://doc.dovecot.org/
+[2023/11/17, 2:15:10.674 PM]    Main PID: 818 (dovecot)
+[2023/11/17, 2:15:10.674 PM]      Status: "v2.3.16 (7e2e900c1a) running"
+[2023/11/17, 2:15:10.674 PM]       Tasks: 5 (limit: 4515)
+[2023/11/17, 2:15:10.674 PM]      Memory: 7.7M
+[2023/11/17, 2:15:10.674 PM]         CPU: 136ms
+[2023/11/17, 2:15:10.674 PM]      CGroup: /system.slice/dovecot.service
+[2023/11/17, 2:15:10.674 PM]              ├─ 818 /usr/sbin/dovecot -F
+[2023/11/17, 2:15:10.674 PM]              ├─ 854 dovecot/anvil
+[2023/11/17, 2:15:10.674 PM]              ├─ 855 dovecot/log
+[2023/11/17, 2:15:10.674 PM]              ├─ 861 dovecot/config
+[2023/11/17, 2:15:10.674 PM]              └─2093 dovecot/stats
+
+[2023/11/17, 2:15:10.674 PM] Nov 17 04:15:20 ecc systemd[1]: Starting Dovecot IMAP/POP3 email server...
+[2023/11/17, 2:15:10.674 PM] Nov 17 04:15:20 ecc dovecot[818]: master: Dovecot v2.3.16 (7e2e900c1a) starting up for pop3 (core dumps disabled)
+[2023/11/17, 2:15:10.674 PM] Nov 17 04:15:20 ecc systemd[1]: Started Dovecot IMAP/POP3 email server.
+[2023/11/17, 2:15:10.674 PM] Nov 17 04:22:07 ecc dovecot[855]: pop3-login: Login: user=<mluser>, method=PLAIN, rip=127.0.0.1, lip=127.0.0.1, mpid=2096, secured, session=<yDmrelEKuIh/AAAB>
+[2023/11/17, 2:15:10.674 PM] Nov 17 04:32:09 ecc dovecot[855]: pop3(mluser)<2096><yDmrelEKuIh/AAAB>: Disconnected: Inactivity - no input for 601 secs top=0/0, retr=0/0, del=0/2, size=884
+[2023/11/17, 2:15:10.676 PM] sk2a03@ecc:~$ sudo ls -l /ca
+[2023/11/17, 2:15:17.396 PM] total 12
+[2023/11/17, 2:15:17.396 PM] drwxr-xr-x 2 root root 4096 Oct 18 12:31 private
+[2023/11/17, 2:15:17.397 PM] -rw------- 1 root root 1054 Oct 18 12:34 server.csr
+[2023/11/17, 2:15:17.397 PM] -rw------- 1 root root 1314 Oct 18 12:35 server.pem
+[2023/11/17, 2:15:17.399 PM] sk2a03@ecc:~$ sudo ls -l /caa/private
+[2023/11/17, 2:15:27.391 PM] total 4
+[2023/11/17, 2:15:27.391 PM] -rw------- 1 root root 1704 Oct 18 12:32 server.key
+[2023/11/17, 2:15:27.393 PM] sk2a03@ecc:~$ cd /etct/dovecot co/condf.d
+[2023/11/17, 2:15:43.765 PM] sk2a03@ecc:/etc/dovecot/conf.d$ suodp o cp 10-ssl.conf 10-ssl.con.df.org
+[2023/11/17, 2:16:05.564 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo svi 10-ssl.conf
+[2023/11/17, 2:16:22.021 PM] "10-ssl.conf" 83L, 3482B▽             ##
+[2023/11/17, 2:16:22.023 PM] ## SSL settings### SSL/TLS support: yes, no, required. <doc/wiki/SSL.txt>
+[2023/11/17, 2:16:22.023 PM] ssl = yes
+
+[2023/11/17, 2:16:22.023 PM] # PEM encoded X.509 SSL/TLS certificate and private key. They're opened before
+[2023/11/17, 2:16:22.023 PM] # dropping root privileges, so keep the key file unreadable by anyone but
+[2023/11/17, 2:16:22.023 PM] # root. Included doc/mkcert.sh can be used to easily generate self-signed
+[2023/11/17, 2:16:22.023 PM] # certificate, just make sure to update the domains in dovecot-openssl.cnf
+[2023/11/17, 2:16:22.024 PM] ssl_cert = </etc/dovecot/private/dovecot.pem
+[2023/11/17, 2:16:22.024 PM] ssl_key = </etc/dovecot/private/dovecot.key
+
+[2023/11/17, 2:16:22.024 PM] # If key file is password protected, give the password here. Alternatively
+[2023/11/17, 2:16:22.024 PM] # give it when starting dovecot with -p parameter. Since this file is often
+[2023/11/17, 2:16:22.024 PM] # world-readable, you may want to place this setting instead to a different
+[2023/11/17, 2:16:22.024 PM] # root owned 0600 file by using ssl_key_password = <path.
+[2023/11/17, 2:16:22.024 PM] #ssl_key_password =
+
+[2023/11/17, 2:16:22.024 PM] # PEM encoded trusted certificate authority. Set this only if you intend to use
+[2023/11/17, 2:16:22.024 PM] # ssl_verify_client_cert=yes. The file should contain the CA certificate(s)
+[2023/11/17, 2:16:22.024 PM] # followed by the matching CRL(s). (e.g. ssl_ca = </etc/ssl/certs/ca.pem)
+[2023/11/17, 2:16:22.024 PM] #ssl_ca = 1,1Top##
+[2023/11/17, 2:16:22.024 PM] ## SSL settings
+[2023/11/17, 2:16:22.024 PM] ##
+
+[2023/11/17, 2:16:22.024 PM] # SSL/TLS support: yes, no, required. <doc/wiki/SSL.txt>
+[2023/11/17, 2:16:22.025 PM] ssl = yes
+
+[2023/11/17, 2:16:22.025 PM] # PEM encoded X.509 SSL/TLS certificate and private key. They're opened before
+[2023/11/17, 2:16:22.025 PM] # dropping root privileges, so keep the key file unreadable by anyone but
+[2023/11/17, 2:16:22.025 PM] # root. Included doc/mkcert.sh can be used to easily generate self-signed
+[2023/11/17, 2:16:22.025 PM] # certificate, just make sure to update the domains in dovecot-openssl.cnf
+[2023/11/17, 2:16:22.025 PM] ssl_cert = </etc/dovecot/private/dovecot.pem
+[2023/11/17, 2:16:22.025 PM] ssl_key = </etc/dovecot/private/dovecot.key
+
+[2023/11/17, 2:16:22.025 PM] # If key file is password protected, give the password here. Alternatively
+[2023/11/17, 2:16:22.025 PM] # give it when starting dovecot with -p parameter. Since this file is often
+[2023/11/17, 2:16:22.025 PM] # world-readable, you may want to place this setting instead to a different
+[2023/11/17, 2:16:22.025 PM] # root owned 0600 file by using ssl_key_password = <path.
+[2023/11/17, 2:16:22.025 PM] #ssl_key_password =
+
+[2023/11/17, 2:16:22.025 PM] # PEM encoded trusted certificate authority. Set this only if you intend to use
+[2023/11/17, 2:16:22.025 PM] # ssl_verify_client_cert=yes. The file should contain the CA certificate(s)
+[2023/11/17, 2:16:22.025 PM] # followed by the matching CRL(s). (e.g. ssl_ca = </etc/ssl/certs/ca.pem)
+[2023/11/17, 2:16:22.025 PM] #ssl_ca = 1,1Top"10-ssl.conf" 83L, 3482B~@k   2~@k   3~@k   4,0-1~@k   5,1  ~@k   6~@k   7,0-1~@k   8,1  ~@k   9~@k   10,1~@k   1~@k   2~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   20~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   30~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   40~@k   1~@k   2~@k   3~@k   4~@k   ~@k   ~@k   ~@k   ~@k   i -- INSERT --12,44Top5432103987654s5e6r7v8e9r40.1p2e3m4321039876543210298765/private/server.pem4/private/server.pem3/private/server.pem2/private/server.pem1/private/server.pem0/private/server.pem19/private/server.pem8private/server.pem7/private/server.pem6/private/server.pem5/private/server.pem4c/private/server.pem5a/private/server.pem6378920123456789301234567894012342,3543210298765server.pem4server.pem3server.pem2server.pem1server.pem0server.pem19server.pem8server.pem738920123456789301234567894012343210398765432102987654321019876543c4a5/6p7r8i9v20a1t2e3/4s5e6r7v8e9e30r1029r30.1k2e3y4^[  13,33Top::wq"10-ssl.conf" 83L, 3454B written
+[2023/11/17, 2:17:26.855 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo dovecot -n
+[2023/11/17, 2:17:34.298 PM] # 2.3.16 (7e2e900c1a): /etc/dovecot/dovecot.conf
+[2023/11/17, 2:17:34.298 PM] # Pigeonhole version 0.5.16 (09c29328)
+[2023/11/17, 2:17:34.302 PM] # OS: Linux 5.15.0-88-generic aarch64 Ubuntu 22.04.3 LTS 
+[2023/11/17, 2:17:34.302 PM] # Hostname: ecc
+[2023/11/17, 2:17:34.303 PM] auth_mechanisms = plain login
+[2023/11/17, 2:17:34.303 PM] disable_plaintext_auth = no
+[2023/11/17, 2:17:34.303 PM] mail_location = maildir:~/Maildir
+[2023/11/17, 2:17:34.303 PM] mail_privileged_group = mail
+[2023/11/17, 2:17:34.303 PM] namespace {
+[2023/11/17, 2:17:34.304 PM]   inbox = yes
+[2023/11/17, 2:17:34.304 PM]   location = 
+[2023/11/17, 2:17:34.304 PM]   mailbox {
+[2023/11/17, 2:17:34.304 PM]     special_use = \Drafts
+[2023/11/17, 2:17:34.304 PM]     name = Drafts
+[2023/11/17, 2:17:34.304 PM]   }
+[2023/11/17, 2:17:34.304 PM]   mailbox {
+[2023/11/17, 2:17:34.304 PM]     special_use = \Junk
+[2023/11/17, 2:17:34.304 PM]     name = Junk
+[2023/11/17, 2:17:34.304 PM]   }
+[2023/11/17, 2:17:34.305 PM]   mailbox {
+[2023/11/17, 2:17:34.305 PM]     special_use = \Sent
+[2023/11/17, 2:17:34.305 PM]     name = Sent
+[2023/11/17, 2:17:34.305 PM]   }
+[2023/11/17, 2:17:34.305 PM]   mailbox {
+[2023/11/17, 2:17:34.305 PM]     special_use = \Sent
+[2023/11/17, 2:17:34.305 PM]     name = Sent Messages
+[2023/11/17, 2:17:34.305 PM]   }
+[2023/11/17, 2:17:34.305 PM]   mailbox {
+[2023/11/17, 2:17:34.305 PM]     special_use = \Trash
+[2023/11/17, 2:17:34.305 PM]     name = Trash
+[2023/11/17, 2:17:34.305 PM]   }
+[2023/11/17, 2:17:34.305 PM]   prefix = 
+[2023/11/17, 2:17:34.305 PM]   name = inbox
+[2023/11/17, 2:17:34.305 PM] }
+[2023/11/17, 2:17:34.306 PM] passdb {
+[2023/11/17, 2:17:34.306 PM]   driver = pam
+[2023/11/17, 2:17:34.306 PM] }
+[2023/11/17, 2:17:34.306 PM] protocols = " pop3"
+[2023/11/17, 2:17:34.306 PM] service replication-notify-fifo {
+[2023/11/17, 2:17:34.306 PM]   name = aggregator
+[2023/11/17, 2:17:34.306 PM] }
+[2023/11/17, 2:17:34.306 PM] service anvil-auth-penalty {
+[2023/11/17, 2:17:34.306 PM]   name = anvil
+[2023/11/17, 2:17:34.306 PM] }
+[2023/11/17, 2:17:34.306 PM] service auth-worker {
+[2023/11/17, 2:17:34.306 PM]   name = auth-worker
+[2023/11/17, 2:17:34.306 PM] }
+[2023/11/17, 2:17:34.306 PM] service auth-client {
+[2023/11/17, 2:17:34.306 PM]   name = auth
+[2023/11/17, 2:17:34.306 PM] }
+[2023/11/17, 2:17:34.306 PM] service config {
+[2023/11/17, 2:17:34.307 PM]   name = config
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service dict-async {
+[2023/11/17, 2:17:34.307 PM]   name = dict-async
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service dict {
+[2023/11/17, 2:17:34.307 PM]   name = dict
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service login/proxy-notify {
+[2023/11/17, 2:17:34.307 PM]   name = director
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service dns-client {
+[2023/11/17, 2:17:34.307 PM]   name = dns-client
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service doveadm-server {
+[2023/11/17, 2:17:34.307 PM]   name = doveadm
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service imap-hibernate {
+[2023/11/17, 2:17:34.307 PM]   name = imap-hibernate
+[2023/11/17, 2:17:34.307 PM] }
+[2023/11/17, 2:17:34.307 PM] service imap {
+[2023/11/17, 2:17:34.308 PM]   name = imap-login
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service imap-urlauth {
+[2023/11/17, 2:17:34.308 PM]   name = imap-urlauth-login
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service imap-urlauth-worker {
+[2023/11/17, 2:17:34.308 PM]   name = imap-urlauth-worker
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service token-login/imap-urlauth {
+[2023/11/17, 2:17:34.308 PM]   name = imap-urlauth
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service imap-master {
+[2023/11/17, 2:17:34.308 PM]   name = imap
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service indexer-worker {
+[2023/11/17, 2:17:34.308 PM]   name = indexer-worker
+[2023/11/17, 2:17:34.308 PM] }
+[2023/11/17, 2:17:34.308 PM] service indexer {
+[2023/11/17, 2:17:34.309 PM]   name = indexer
+[2023/11/17, 2:17:34.309 PM] }
+[2023/11/17, 2:17:34.309 PM] service ipc {
+[2023/11/17, 2:17:34.309 PM]   name = ipc
+[2023/11/17, 2:17:34.309 PM] }
+[2023/11/17, 2:17:34.309 PM] service lmtp {
+[2023/11/17, 2:17:34.309 PM]   name = lmtp
+[2023/11/17, 2:17:34.309 PM] }
+[2023/11/17, 2:17:34.309 PM] service log-errors {
+[2023/11/17, 2:17:34.309 PM]   name = log
+[2023/11/17, 2:17:34.309 PM] }
+[2023/11/17, 2:17:34.310 PM] service old-stats-mail {
+[2023/11/17, 2:17:34.310 PM]   name = old-stats
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service pop3 {
+[2023/11/17, 2:17:34.310 PM]   name = pop3-login
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service login/pop3 {
+[2023/11/17, 2:17:34.310 PM]   name = pop3
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service replicator-doveadm {
+[2023/11/17, 2:17:34.310 PM]   name = replicator
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service stats-reader {
+[2023/11/17, 2:17:34.310 PM]   name = stats
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service submission {
+[2023/11/17, 2:17:34.310 PM]   name = submission-login
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] service login/submission {
+[2023/11/17, 2:17:34.310 PM]   name = submission
+[2023/11/17, 2:17:34.310 PM] }
+[2023/11/17, 2:17:34.310 PM] ssl_cert = </ca/server.pem
+[2023/11/17, 2:17:34.310 PM] ssl_client_ca_dir = /etc/ssl/certs
+[2023/11/17, 2:17:34.310 PM] ssl_dh = # hidden, use -P to show it
+[2023/11/17, 2:17:34.311 PM] ssl_key = # hidden, use -P to show it
+[2023/11/17, 2:17:34.311 PM] userdb {
+[2023/11/17, 2:17:34.311 PM]   driver = passwd
+[2023/11/17, 2:17:34.311 PM] }
+[2023/11/17, 2:17:34.311 PM] protocol lmtp {
+[2023/11/17, 2:17:34.311 PM]   service replication-notify-fifo {
+[2023/11/17, 2:17:34.311 PM]     name = aggregator
+[2023/11/17, 2:17:34.311 PM]   }
+[2023/11/17, 2:17:34.311 PM]   service anvil-auth-penalty {
+[2023/11/17, 2:17:34.311 PM]     name = anvil
+[2023/11/17, 2:17:34.311 PM]   }
+[2023/11/17, 2:17:34.311 PM]   service auth-worker {
+[2023/11/17, 2:17:34.311 PM]     name = auth-worker
+[2023/11/17, 2:17:34.311 PM]   }
+[2023/11/17, 2:17:34.311 PM]   service auth-client {
+[2023/11/17, 2:17:34.311 PM]     name = auth
+[2023/11/17, 2:17:34.311 PM]   }
+[2023/11/17, 2:17:34.311 PM]   service config {
+[2023/11/17, 2:17:34.311 PM]     name = config
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service dict-async {
+[2023/11/17, 2:17:34.312 PM]     name = dict-async
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service dict {
+[2023/11/17, 2:17:34.312 PM]     name = dict
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service login/proxy-notify {
+[2023/11/17, 2:17:34.312 PM]     name = director
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service dns-client {
+[2023/11/17, 2:17:34.312 PM]     name = dns-client
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service doveadm-server {
+[2023/11/17, 2:17:34.312 PM]     name = doveadm
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service imap-hibernate {
+[2023/11/17, 2:17:34.312 PM]     name = imap-hibernate
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service imap {
+[2023/11/17, 2:17:34.312 PM]     name = imap-login
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service imap-urlauth {
+[2023/11/17, 2:17:34.312 PM]     name = imap-urlauth-login
+[2023/11/17, 2:17:34.312 PM]   }
+[2023/11/17, 2:17:34.312 PM]   service imap-urlauth-worker {
+[2023/11/17, 2:17:34.312 PM]     name = imap-urlauth-worker
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service token-login/imap-urlauth {
+[2023/11/17, 2:17:34.313 PM]     name = imap-urlauth
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service imap-master {
+[2023/11/17, 2:17:34.313 PM]     name = imap
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service indexer-worker {
+[2023/11/17, 2:17:34.313 PM]     name = indexer-worker
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service indexer {
+[2023/11/17, 2:17:34.313 PM]     name = indexer
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service ipc {
+[2023/11/17, 2:17:34.313 PM]     name = ipc
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service lmtp {
+[2023/11/17, 2:17:34.313 PM]     name = lmtp
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service log-errors {
+[2023/11/17, 2:17:34.313 PM]     name = log
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service old-stats-mail {
+[2023/11/17, 2:17:34.313 PM]     name = old-stats
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service pop3 {
+[2023/11/17, 2:17:34.313 PM]     name = pop3-login
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.313 PM]   service login/pop3 {
+[2023/11/17, 2:17:34.313 PM]     name = pop3
+[2023/11/17, 2:17:34.313 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service replicator-doveadm {
+[2023/11/17, 2:17:34.314 PM]     name = replicator
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service stats-reader {
+[2023/11/17, 2:17:34.314 PM]     name = stats
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service submission {
+[2023/11/17, 2:17:34.314 PM]     name = submission-login
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service login/submission {
+[2023/11/17, 2:17:34.314 PM]     name = submission
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM] }
+[2023/11/17, 2:17:34.314 PM] protocol !indexer-worker {
+[2023/11/17, 2:17:34.314 PM]   service replication-notify-fifo {
+[2023/11/17, 2:17:34.314 PM]     name = aggregator
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service anvil-auth-penalty {
+[2023/11/17, 2:17:34.314 PM]     name = anvil
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service auth-worker {
+[2023/11/17, 2:17:34.314 PM]     name = auth-worker
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service auth-client {
+[2023/11/17, 2:17:34.314 PM]     name = auth
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service config {
+[2023/11/17, 2:17:34.314 PM]     name = config
+[2023/11/17, 2:17:34.314 PM]   }
+[2023/11/17, 2:17:34.314 PM]   service dict-async {
+[2023/11/17, 2:17:34.314 PM]     name = dict-async
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service dict {
+[2023/11/17, 2:17:34.315 PM]     name = dict
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service login/proxy-notify {
+[2023/11/17, 2:17:34.315 PM]     name = director
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service dns-client {
+[2023/11/17, 2:17:34.315 PM]     name = dns-client
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service doveadm-server {
+[2023/11/17, 2:17:34.315 PM]     name = doveadm
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service imap-hibernate {
+[2023/11/17, 2:17:34.315 PM]     name = imap-hibernate
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service imap {
+[2023/11/17, 2:17:34.315 PM]     name = imap-login
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service imap-urlauth {
+[2023/11/17, 2:17:34.315 PM]     name = imap-urlauth-login
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service imap-urlauth-worker {
+[2023/11/17, 2:17:34.315 PM]     name = imap-urlauth-worker
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service token-login/imap-urlauth {
+[2023/11/17, 2:17:34.315 PM]     name = imap-urlauth
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service imap-master {
+[2023/11/17, 2:17:34.315 PM]     name = imap
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service indexer-worker {
+[2023/11/17, 2:17:34.315 PM]     name = indexer-worker
+[2023/11/17, 2:17:34.315 PM]   }
+[2023/11/17, 2:17:34.315 PM]   service indexer {
+[2023/11/17, 2:17:34.316 PM]     name = indexer
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service ipc {
+[2023/11/17, 2:17:34.316 PM]     name = ipc
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service lmtp {
+[2023/11/17, 2:17:34.316 PM]     name = lmtp
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service log-errors {
+[2023/11/17, 2:17:34.316 PM]     name = log
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service old-stats-mail {
+[2023/11/17, 2:17:34.316 PM]     name = old-stats
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service pop3 {
+[2023/11/17, 2:17:34.316 PM]     name = pop3-login
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service login/pop3 {
+[2023/11/17, 2:17:34.316 PM]     name = pop3
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service replicator-doveadm {
+[2023/11/17, 2:17:34.316 PM]     name = replicator
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service stats-reader {
+[2023/11/17, 2:17:34.316 PM]     name = stats
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service submission {
+[2023/11/17, 2:17:34.316 PM]     name = submission-login
+[2023/11/17, 2:17:34.316 PM]   }
+[2023/11/17, 2:17:34.316 PM]   service login/submission {
+[2023/11/17, 2:17:34.317 PM]     name = submission
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM] }
+[2023/11/17, 2:17:34.317 PM] protocol lda {
+[2023/11/17, 2:17:34.317 PM]   service replication-notify-fifo {
+[2023/11/17, 2:17:34.317 PM]     name = aggregator
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service anvil-auth-penalty {
+[2023/11/17, 2:17:34.317 PM]     name = anvil
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service auth-worker {
+[2023/11/17, 2:17:34.317 PM]     name = auth-worker
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service auth-client {
+[2023/11/17, 2:17:34.317 PM]     name = auth
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service config {
+[2023/11/17, 2:17:34.317 PM]     name = config
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service dict-async {
+[2023/11/17, 2:17:34.317 PM]     name = dict-async
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service dict {
+[2023/11/17, 2:17:34.317 PM]     name = dict
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service login/proxy-notify {
+[2023/11/17, 2:17:34.317 PM]     name = director
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service dns-client {
+[2023/11/17, 2:17:34.317 PM]     name = dns-client
+[2023/11/17, 2:17:34.317 PM]   }
+[2023/11/17, 2:17:34.317 PM]   service doveadm-server {
+[2023/11/17, 2:17:34.318 PM]     name = doveadm
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service imap-hibernate {
+[2023/11/17, 2:17:34.318 PM]     name = imap-hibernate
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service imap {
+[2023/11/17, 2:17:34.318 PM]     name = imap-login
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service imap-urlauth {
+[2023/11/17, 2:17:34.318 PM]     name = imap-urlauth-login
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service imap-urlauth-worker {
+[2023/11/17, 2:17:34.318 PM]     name = imap-urlauth-worker
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service token-login/imap-urlauth {
+[2023/11/17, 2:17:34.318 PM]     name = imap-urlauth
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service imap-master {
+[2023/11/17, 2:17:34.318 PM]     name = imap
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service indexer-worker {
+[2023/11/17, 2:17:34.318 PM]     name = indexer-worker
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service indexer {
+[2023/11/17, 2:17:34.318 PM]     name = indexer
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service ipc {
+[2023/11/17, 2:17:34.318 PM]     name = ipc
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service lmtp {
+[2023/11/17, 2:17:34.318 PM]     name = lmtp
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service log-errors {
+[2023/11/17, 2:17:34.318 PM]     name = log
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service old-stats-mail {
+[2023/11/17, 2:17:34.318 PM]     name = old-stats
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service pop3 {
+[2023/11/17, 2:17:34.318 PM]     name = pop3-login
+[2023/11/17, 2:17:34.318 PM]   }
+[2023/11/17, 2:17:34.318 PM]   service login/pop3 {
+[2023/11/17, 2:17:34.318 PM]     name = pop3
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service replicator-doveadm {
+[2023/11/17, 2:17:34.319 PM]     name = replicator
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service stats-reader {
+[2023/11/17, 2:17:34.319 PM]     name = stats
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service submission {
+[2023/11/17, 2:17:34.319 PM]     name = submission-login
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service login/submission {
+[2023/11/17, 2:17:34.319 PM]     name = submission
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM] }
+[2023/11/17, 2:17:34.319 PM] protocol pop3 {
+[2023/11/17, 2:17:34.319 PM]   service replication-notify-fifo {
+[2023/11/17, 2:17:34.319 PM]     name = aggregator
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service anvil-auth-penalty {
+[2023/11/17, 2:17:34.319 PM]     name = anvil
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service auth-worker {
+[2023/11/17, 2:17:34.319 PM]     name = auth-worker
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service auth-client {
+[2023/11/17, 2:17:34.319 PM]     name = auth
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service config {
+[2023/11/17, 2:17:34.319 PM]     name = config
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service dict-async {
+[2023/11/17, 2:17:34.319 PM]     name = dict-async
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service dict {
+[2023/11/17, 2:17:34.319 PM]     name = dict
+[2023/11/17, 2:17:34.319 PM]   }
+[2023/11/17, 2:17:34.319 PM]   service login/proxy-notify {
+[2023/11/17, 2:17:34.320 PM]     name = director
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service dns-client {
+[2023/11/17, 2:17:34.320 PM]     name = dns-client
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service doveadm-server {
+[2023/11/17, 2:17:34.320 PM]     name = doveadm
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service imap-hibernate {
+[2023/11/17, 2:17:34.320 PM]     name = imap-hibernate
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service imap {
+[2023/11/17, 2:17:34.320 PM]     name = imap-login
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service imap-urlauth {
+[2023/11/17, 2:17:34.320 PM]     name = imap-urlauth-login
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service imap-urlauth-worker {
+[2023/11/17, 2:17:34.320 PM]     name = imap-urlauth-worker
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service token-login/imap-urlauth {
+[2023/11/17, 2:17:34.320 PM]     name = imap-urlauth
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service imap-master {
+[2023/11/17, 2:17:34.320 PM]     name = imap
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service indexer-worker {
+[2023/11/17, 2:17:34.320 PM]     name = indexer-worker
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service indexer {
+[2023/11/17, 2:17:34.320 PM]     name = indexer
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service ipc {
+[2023/11/17, 2:17:34.320 PM]     name = ipc
+[2023/11/17, 2:17:34.320 PM]   }
+[2023/11/17, 2:17:34.320 PM]   service lmtp {
+[2023/11/17, 2:17:34.321 PM]     name = lmtp
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service log-errors {
+[2023/11/17, 2:17:34.321 PM]     name = log
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service old-stats-mail {
+[2023/11/17, 2:17:34.321 PM]     name = old-stats
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service pop3 {
+[2023/11/17, 2:17:34.321 PM]     name = pop3-login
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service login/pop3 {
+[2023/11/17, 2:17:34.321 PM]     name = pop3
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service replicator-doveadm {
+[2023/11/17, 2:17:34.321 PM]     name = replicator
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service stats-reader {
+[2023/11/17, 2:17:34.321 PM]     name = stats
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service submission {
+[2023/11/17, 2:17:34.321 PM]     name = submission-login
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM]   service login/submission {
+[2023/11/17, 2:17:34.321 PM]     name = submission
+[2023/11/17, 2:17:34.321 PM]   }
+[2023/11/17, 2:17:34.321 PM] }
+[2023/11/17, 2:17:34.321 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sk2a03@ecc:/etc/dovecot/conf.d$ sudo systemcl restart dovecot
+[2023/11/17, 2:18:09.941 PM] sudo: systemcl: command not found
+[2023/11/17, 2:18:09.944 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo systemcl restart dovecott
+[2023/11/17, 2:18:38.155 PM] sudo: systemclt: command not found
+[2023/11/17, 2:18:38.157 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo systemclt restart dovecotl
+[2023/11/17, 2:18:54.431 PM] sk2a03@ecc:/etc/dovecot/conf.d$ cd /etc/postfix
+[2023/11/17, 2:19:09.914 PM] sk2a03@ecc:/etc/postfix$ sudo vi maseter.cf
+[2023/11/17, 2:19:18.385 PM] "master.cf" 129L, 6524B▽             #
+[2023/11/17, 2:19:18.388 PM] # Postfix master process configuration file.  For details on the format# of the file, see the master(5) manual page (command: "man 5 master" or# on-line: http://www.postfix.org/master.5.html).
+[2023/11/17, 2:19:18.388 PM] #
+[2023/11/17, 2:19:18.389 PM] # Do not forget to execute "postfix reload" after editing this file.
+[2023/11/17, 2:19:18.389 PM] #
+[2023/11/17, 2:19:18.389 PM] # ==========================================================================
+[2023/11/17, 2:19:18.389 PM] # service type  private unpriv  chroot  wakeup  maxproc command + args
+[2023/11/17, 2:19:18.389 PM] #               (yes)   (yes)   (no)    (never) (100)
+[2023/11/17, 2:19:18.389 PM] # ==========================================================================
+[2023/11/17, 2:19:18.389 PM] smtp      inet  n-y--smtpd
+[2023/11/17, 2:19:18.389 PM] #smtp      inet  n       -       y       -       1       postscreen
+[2023/11/17, 2:19:18.389 PM] #smtpd     pass  -       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.389 PM] #dnsblog   unix  -       -       y       -       0       dnsblog
+[2023/11/17, 2:19:18.389 PM] #tlsproxy  unix  -       -       y       -       0       tlsproxy
+[2023/11/17, 2:19:18.389 PM] # Choose one: enable submission for loopback clients only, or for any client.
+[2023/11/17, 2:19:18.389 PM] #127.0.0.1:submission inet n -   y       -       -       smtpd
+[2023/11/17, 2:19:18.389 PM] #submission inet n       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.389 PM] #  -o syslog_name=postfix/submission
+[2023/11/17, 2:19:18.389 PM] #  -o smtpd_tls_security_level=encrypt
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_sasl_auth_enable=yes
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_tls_auth_only=yes
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_reject_unlisted_recipient=no
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_client_restrictions=$mua_client_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_helo_restrictions=$mua_helo_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_sender_restrictions=$mua_sender_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_recipient_restrictions=
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+[2023/11/17, 2:19:18.390 PM] #  -o milter_macro_daemon_name=ORIGINATING
+[2023/11/17, 2:19:18.390 PM] # Choose one: enable smtps for loopback clients only, or for any client.
+[2023/11/17, 2:19:18.390 PM] #127.0.0.1:smtps inet n  -       y       -       -       smtpd
+[2023/11/17, 2:19:18.390 PM] #smtps     inet  n       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.390 PM] #  -o syslog_name=postfix/smtps
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_tls_wrappermode=yes
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_sasl_auth_enable=yes
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_reject_unlisted_recipient=no
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_client_restrictions=$mua_client_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_helo_restrictions=$mua_helo_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_sender_restrictions=$mua_sender_restrictions
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_recipient_restrictions=
+[2023/11/17, 2:19:18.390 PM] #  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+[2023/11/17, 2:19:18.391 PM] #  -o milter_macro_daemon_name=ORIGINATING
+[2023/11/17, 2:19:18.391 PM] #628       inet  n       -       y       -       -       qmqpd
+[2023/11/17, 2:19:18.391 PM] pickup    unix  n-y60      1pickup
+[2023/11/17, 2:19:18.391 PM] cleanup   unix  n-y-0cleanup
+[2023/11/17, 2:19:18.391 PM] qmgr      unix  n-n300     1qmgr
+[2023/11/17, 2:19:18.391 PM] #qmgr     unix  n       -       n       300     1       oqmgr
+[2023/11/17, 2:19:18.391 PM] tlsmgr    unix  --y1000?   1tlsmgr
+[2023/11/17, 2:19:18.391 PM] rewrite   unix  --y--trivial-rewrite
+[2023/11/17, 2:19:18.391 PM] bounce    unix  --y-0bounce
+[2023/11/17, 2:19:18.391 PM] defer     unix  --y-0bounce
+[2023/11/17, 2:19:18.391 PM] trace     unix  --y-0bounce
+[2023/11/17, 2:19:18.392 PM] verify    unix  --y-1verify
+[2023/11/17, 2:19:18.392 PM] flush     unix  n-y1000?   0flush
+[2023/11/17, 2:19:18.392 PM] proxymap  unix  --n--proxymap
+[2023/11/17, 2:19:18.392 PM] proxywrite unix --n-1proxymap
+[2023/11/17, 2:19:18.392 PM] smtp      unix  --y--smtp1,1Top#
+[2023/11/17, 2:19:18.392 PM] # Postfix master process configuration file.  For details on the format
+[2023/11/17, 2:19:18.392 PM] # of the file, see the master(5) manual page (command: "man 5 master" or
+[2023/11/17, 2:19:18.392 PM] # on-line: http://www.postfix.org/master.5.html).
+[2023/11/17, 2:19:18.392 PM] #
+[2023/11/17, 2:19:18.392 PM] # Do not forget to execute "postfix reload" after editing this file.
+[2023/11/17, 2:19:18.392 PM] #
+[2023/11/17, 2:19:18.392 PM] # ==========================================================================
+[2023/11/17, 2:19:18.392 PM] # service type  private unpriv  chroot  wakeup  maxproc command + args
+[2023/11/17, 2:19:18.392 PM] #               (yes)   (yes)   (no)    (never) (100)
+[2023/11/17, 2:19:18.392 PM] # ==========================================================================
+[2023/11/17, 2:19:18.392 PM] smtp      inet  n-y--smtpd
+[2023/11/17, 2:19:18.393 PM] #smtp      inet  n       -       y       -       1       postscreen
+[2023/11/17, 2:19:18.393 PM] #smtpd     pass  -       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.393 PM] #dnsblog   unix  -       -       y       -       0       dnsblog
+[2023/11/17, 2:19:18.393 PM] #tlsproxy  unix  -       -       y       -       0       tlsproxy
+[2023/11/17, 2:19:18.393 PM] # Choose one: enable submission for loopback clients only, or for any client.
+[2023/11/17, 2:19:18.393 PM] #127.0.0.1:submission inet n -   y       -       -       smtpd
+[2023/11/17, 2:19:18.393 PM] #submission inet n       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.393 PM] #  -o syslog_name=postfix/submission
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_tls_security_level=encrypt
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_sasl_auth_enable=yes
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_tls_auth_only=yes
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_reject_unlisted_recipient=no
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_client_restrictions=$mua_client_restrictions
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_helo_restrictions=$mua_helo_restrictions
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_sender_restrictions=$mua_sender_restrictions
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_recipient_restrictions=
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+[2023/11/17, 2:19:18.393 PM] #  -o milter_macro_daemon_name=ORIGINATING
+[2023/11/17, 2:19:18.393 PM] # Choose one: enable smtps for loopback clients only, or for any client.
+[2023/11/17, 2:19:18.393 PM] #127.0.0.1:smtps inet n  -       y       -       -       smtpd
+[2023/11/17, 2:19:18.393 PM] #smtps     inet  n       -       y       -       -       smtpd
+[2023/11/17, 2:19:18.393 PM] #  -o syslog_name=postfix/smtps
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_tls_wrappermode=yes
+[2023/11/17, 2:19:18.393 PM] #  -o smtpd_sasl_auth_enable=yes
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_reject_unlisted_recipient=no
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_client_restrictions=$mua_client_restrictions
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_helo_restrictions=$mua_helo_restrictions
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_sender_restrictions=$mua_sender_restrictions
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_recipient_restrictions=
+[2023/11/17, 2:19:18.394 PM] #  -o smtpd_relay_restrictions=permit_sasl_authenticated,reject
+[2023/11/17, 2:19:18.394 PM] #  -o milter_macro_daemon_name=ORIGINATING
+[2023/11/17, 2:19:18.394 PM] #628       inet  n       -       y       -       -       qmqpd
+[2023/11/17, 2:19:18.394 PM] pickup    unix  n-y60      1pickup
+[2023/11/17, 2:19:18.394 PM] cleanup   unix  n-y-0cleanup
+[2023/11/17, 2:19:18.394 PM] qmgr      unix  n-n300     1qmgr
+[2023/11/17, 2:19:18.394 PM] #qmgr     unix  n       -       n       300     1       oqmgr
+[2023/11/17, 2:19:18.394 PM] tlsmgr    unix  --y1000?   1tlsmgr
+[2023/11/17, 2:19:18.394 PM] rewrite   unix  --y--trivial-rewrite
+[2023/11/17, 2:19:18.394 PM] bounce    unix  --y-0bounce
+[2023/11/17, 2:19:18.394 PM] defer     unix  --y-0bounce
+[2023/11/17, 2:19:18.394 PM] trace     unix  --y-0bounce
+[2023/11/17, 2:19:18.394 PM] verify    unix  --y-1verify
+[2023/11/17, 2:19:18.395 PM] flush     unix  n-y1000?   0flush
+[2023/11/17, 2:19:18.395 PM] proxymap  unix  --n--proxymap
+[2023/11/17, 2:19:18.395 PM] proxywrite unix --n-1proxymap
+[2023/11/17, 2:19:18.395 PM] smtp      unix  --y--smtp1,1Top"master.cf" 129L, 6524B~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   8~@k   9~@k   10,1~@k   1~@k   2~@k   1~@k   2~@k   3~@k   4~@k   5~@k   6~@k   7~@k   2~@k   8~@k   7~@k   8~@k   9i -- INSERT --19,2Top12submission inet n       -       y       -       -       smtpd1202  -o syslog_name=postfix/submission1123456789301234565432smtps     inet  n       -       y       -       -       smtpd1`smtps     inet  n       -       y       -       -       smtpd2smtps     inet  n       -       y       -       -       smtpd1^[  33,1Top::wq"master.cf" 129L, 6521B written
+[2023/11/17, 2:20:27.893 PM] sk2a03@ecc:/etc/postfix$ sudo vi master.cf.cf.cf.cf.cfi.cfn.cf
+[2023/11/17, 2:20:38.334 PM] "main.cf" 688L, 27288B▽             #
+[2023/11/17, 2:20:38.348 PM] # debugger_command =#       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;#       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1
+[2023/11/17, 2:20:38.348 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5
+[2023/11/17, 2:20:38.348 PM] #
+[2023/11/17, 2:20:38.348 PM] # Another possibility is to run gdb under a detached screen session.
+[2023/11/17, 2:20:38.348 PM] # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:20:38.348 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:20:38.348 PM] # sessions (from "screen -list").
+[2023/11/17, 2:20:38.349 PM] #
+[2023/11/17, 2:20:38.349 PM] # debugger_command =
+[2023/11/17, 2:20:38.349 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:20:38.349 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:20:38.349 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:20:38.349 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:20:38.349 PM] #
+[2023/11/17, 2:20:38.349 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:20:38.349 PM] # 
+[2023/11/17, 2:20:38.349 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:20:38.349 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:20:38.349 PM] # 
+[2023/11/17, 2:20:38.349 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:20:38.350 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:20:38.350 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:20:38.350 PM] #
+[2023/11/17, 2:20:38.350 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:20:38.350 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:20:38.350 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:20:38.350 PM] # 
+[2023/11/17, 2:20:38.350 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:20:38.350 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:20:38.350 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:20:38.350 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:20:38.350 PM] #
+[2023/11/17, 2:20:38.350 PM] setgid_group = postdrop
+
+[2023/11/17, 2:20:38.350 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:20:38.350 PM] #
+[2023/11/17, 2:20:38.350 PM] #html_directory =
+
+[2023/11/17, 2:20:38.350 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:20:38.350 PM] #
+[2023/11/17, 2:20:38.350 PM] #manpage_directory =
+
+[2023/11/17, 2:20:38.350 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:20:38.350 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:20:38.350 PM] #
+[2023/11/17, 2:20:38.351 PM] #sample_directory =
+
+[2023/11/17, 2:20:38.351 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:20:38.351 PM] #
+[2023/11/17, 2:20:38.351 PM] #readme_directory =
+[2023/11/17, 2:20:38.351 PM] inet_protocols = ipv4688,1Bot#
+[2023/11/17, 2:20:38.356 PM] # debugger_command =
+[2023/11/17, 2:20:38.356 PM] #       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;
+[2023/11/17, 2:20:38.356 PM] #       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1
+[2023/11/17, 2:20:38.356 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5
+[2023/11/17, 2:20:38.356 PM] #
+[2023/11/17, 2:20:38.356 PM] # Another possibility is to run gdb under a detached screen session.
+[2023/11/17, 2:20:38.356 PM] # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:20:38.356 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:20:38.356 PM] # sessions (from "screen -list").
+[2023/11/17, 2:20:38.356 PM] #
+[2023/11/17, 2:20:38.356 PM] # debugger_command =
+[2023/11/17, 2:20:38.356 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:20:38.356 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:20:38.356 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:20:38.356 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:20:38.356 PM] #
+[2023/11/17, 2:20:38.356 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:20:38.356 PM] # 
+[2023/11/17, 2:20:38.356 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:20:38.356 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:20:38.356 PM] # 
+[2023/11/17, 2:20:38.356 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:20:38.356 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:20:38.357 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:20:38.357 PM] #
+[2023/11/17, 2:20:38.357 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:20:38.357 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:20:38.357 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:20:38.357 PM] # 
+[2023/11/17, 2:20:38.357 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:20:38.357 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:20:38.357 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:20:38.357 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:20:38.357 PM] #
+[2023/11/17, 2:20:38.357 PM] setgid_group = postdrop
+
+[2023/11/17, 2:20:38.357 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:20:38.357 PM] #
+[2023/11/17, 2:20:38.357 PM] #html_directory =
+
+[2023/11/17, 2:20:38.357 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:20:38.357 PM] #
+[2023/11/17, 2:20:38.357 PM] #manpage_directory =
+
+[2023/11/17, 2:20:38.357 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:20:38.358 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:20:38.358 PM] #
+[2023/11/17, 2:20:38.358 PM] #sample_directory =
+
+[2023/11/17, 2:20:38.358 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:20:38.358 PM] #
+[2023/11/17, 2:20:38.358 PM] #readme_directory =
+[2023/11/17, 2:20:38.358 PM] inet_protocols = ipv4688,1Bot"main.cf" 688L, 27288B~@k   7~@k   6~@k   5~@k   4,0-1~@k   3,1  ~@k   2~@k   1~@k   0~@k   79,0-1~@k   8,1  ~@k   7~@k   6~@k   5,0-1~@k   4,1  ~@k   3~@k   2~@k   1,0-1~@k   0,1  ~@k   69~@k   8~@k   7~@k   6~@k   7//ss667,10Botm# These rights are used in the absence of a recipient user context.
+[2023/11/17, 2:20:50.049 PM] # DO NOT SPECIFY A PRIVILEGED USER OR THE POSTFIX OWNER.
+[2023/11/17, 2:20:50.050 PM] #
+[2023/11/17, 2:20:50.050 PM] #default_privs = nobody
+
+[2023/11/17, 2:20:50.050 PM] # INTERNET HOST AND DOMAIN NAMES
+[2023/11/17, 2:20:50.050 PM] # 
+[2023/11/17, 2:20:50.050 PM] # The myhostname parameter specifies the internet hostname of this
+[2023/11/17, 2:20:50.050 PM] # mail system. The default is to use the fully-qualified domain name
+[2023/11/17, 2:20:50.050 PM] # from gethostname(). $myhostname is used as a default value for many
+[2023/11/17, 2:20:50.050 PM] # other configuration parameters.
+[2023/11/17, 2:20:50.050 PM] #
+[2023/11/17, 2:20:50.050 PM] #myhostname = host.domain.tld
+[2023/11/17, 2:20:50.050 PM] #myhostname = virtual.domain.tld
+[2023/11/17, 2:20:50.050 PM] myhostname = mlsk2a03.ecccomp.ac.jp
+
+[2023/11/17, 2:20:50.050 PM] # The mydomain parameter specifies the local internet domain name.
+[2023/11/17, 2:20:50.050 PM] # The default is to use $myhostname minus the first component.
+[2023/11/17, 2:20:50.050 PM] # $mydomain is used as a default value for many other configuration
+[2023/11/17, 2:20:50.050 PM] # parameters.
+[2023/11/17, 2:20:50.050 PM] #
+[2023/11/17, 2:20:50.050 PM] #mydomain = domain.tld
+[2023/11/17, 2:20:50.050 PM] mydomain = ecccomp.ac.jp
+
+[2023/11/17, 2:20:50.050 PM] # SENDING MAIL
+[2023/11/17, 2:20:50.050 PM] # 
+[2023/11/17, 2:20:50.050 PM] # The myorigin parameter specifies the domain that locally-posted
+[2023/11/17, 2:20:50.050 PM] # mail appears to come from. The default is to append $myhostname,
+[2023/11/17, 2:20:50.051 PM] # which is fine for small sites.  If you run a domain with multiple
+[2023/11/17, 2:20:50.051 PM] # machines, you should (1) change this to $mydomain and (2) set up
+[2023/11/17, 2:20:50.051 PM] # a domain-wide alias database that aliases each user to
+[2023/11/17, 2:20:50.051 PM] # user@that.users.mailhost.
+[2023/11/17, 2:20:50.051 PM] #
+[2023/11/17, 2:20:50.051 PM] # For the sake of consistency between sender and recipient addresses,
+[2023/11/17, 2:20:50.051 PM] # myorigin also specifies the default domain name that is appended
+[2023/11/17, 2:20:50.051 PM] # to recipient addresses that have no @domain part.
+[2023/11/17, 2:20:50.051 PM] #
+[2023/11/17, 2:20:50.051 PM] # Debian GNU/Linux specific:  Specifying a file name will cause the
+[2023/11/17, 2:20:50.051 PM] # first line of that file to be used as the name.  The Debian default
+[2023/11/17, 2:20:50.051 PM] # is /etc/mailname.
+[2023/11/17, 2:20:50.051 PM] #
+[2023/11/17, 2:20:50.051 PM] #myorigin = /etc/mailname
+[2023/11/17, 2:20:50.051 PM] #myorigin = $myhostname
+[2023/11/17, 2:20:50.051 PM] myorigin = $mydomain
+
+[2023/11/17, 2:20:50.051 PM] # RECEIVING MAIL
+
+[2023/11/17, 2:20:50.051 PM] # The inet_interfaces parameter specifies the network interface
+[2023/11/17, 2:20:50.051 PM] # addresses that this mail system receives mail on.  By default,
+[2023/11/17, 2:20:50.051 PM] # the software claims all active interfaces on the machine. The
+[2023/11/17, 2:20:50.051 PM] # parameter also controls delivery of mail to user@[ip.address].
+[2023/11/17, 2:20:50.051 PM] #
+[2023/11/17, 2:20:50.052 PM] # See also the proxy_interfaces parameter, for network addresses that
+[2023/11/17, 2:20:50.052 PM] # are forwarded to us via a proxy or network address translator.
+[2023/11/17, 2:20:50.052 PM] #
+[2023/11/17, 2:20:50.052 PM] # Note: you need to stop/start Postfix when this parameter changes.
+[2023/11/17, 2:20:50.052 PM] #110,2112%/smt# overcome chroot restrictions. The alternative, having a copy of
+[2023/11/17, 2:20:50.346 PM] # the system passwd file in the chroot jail is just not practical.
+[2023/11/17, 2:20:50.346 PM] #
+[2023/11/17, 2:20:50.346 PM] # The right-hand side of the lookup tables is conveniently ignored.
+[2023/11/17, 2:20:50.346 PM] # In the left-hand side, specify a bare username, an @domain.tld
+[2023/11/17, 2:20:50.346 PM] # wild-card, or specify a user@domain.tld address.
+[2023/11/17, 2:20:50.346 PM] # 
+[2023/11/17, 2:20:50.346 PM] local_recipient_maps = unix:passwd.byname $alias_maps
+[2023/11/17, 2:20:50.347 PM] #local_recipient_maps = proxy:unix:passwd.byname $alias_maps
+[2023/11/17, 2:20:50.347 PM] #local_recipient_maps =
+
+[2023/11/17, 2:20:50.347 PM] # The unknown_local_recipient_reject_code specifies the SMTP server
+[2023/11/17, 2:20:50.347 PM] # response code when a recipient domain matches $mydestination or
+[2023/11/17, 2:20:50.347 PM] # ${proxy,inet}_interfaces, while $local_recipient_maps is non-empty
+[2023/11/17, 2:20:50.347 PM] # and the recipient address or address local-part is not found.
+[2023/11/17, 2:20:50.347 PM] #
+[2023/11/17, 2:20:50.347 PM] # The default setting is 550 (reject mail) but it is safer to start
+[2023/11/17, 2:20:50.347 PM] # with 450 (try again later) until you are certain that your
+[2023/11/17, 2:20:50.347 PM] # local_recipient_maps settings are OK.
+[2023/11/17, 2:20:50.347 PM] #
+[2023/11/17, 2:20:50.347 PM] unknown_local_recipient_reject_code = 550
+
+[2023/11/17, 2:20:50.347 PM] # TRUST AND RELAY CONTROL
+
+[2023/11/17, 2:20:50.347 PM] # The mynetworks parameter specifies the list of "trusted" SMTP
+[2023/11/17, 2:20:50.347 PM] # clients that have more privileges than "strangers".
+[2023/11/17, 2:20:50.347 PM] #
+[2023/11/17, 2:20:50.347 PM] # In particular, "trusted" SMTP clients are allowed to relay mail
+[2023/11/17, 2:20:50.347 PM] # through Postfix.  See the smtpd_recipient_restrictions parameter
+[2023/11/17, 2:20:50.347 PM] # in postconf(5).
+[2023/11/17, 2:20:50.347 PM] #
+[2023/11/17, 2:20:50.347 PM] # You can specify the list of "trusted" network addresses by hand
+[2023/11/17, 2:20:50.347 PM] # or you can let Postfix do it for you (which is the default).
+[2023/11/17, 2:20:50.347 PM] #
+[2023/11/17, 2:20:50.347 PM] # By default (mynetworks_style = subnet), Postfix "trusts" SMTP
+[2023/11/17, 2:20:50.347 PM] # clients in the same IP subnetworks as the local machine.
+[2023/11/17, 2:20:50.347 PM] # On Linux, this works correctly only with interfaces specified
+[2023/11/17, 2:20:50.347 PM] # with the "ifconfig" command.
+[2023/11/17, 2:20:50.347 PM] # 
+[2023/11/17, 2:20:50.347 PM] # Specify "mynetworks_style = class" when Postfix should "trust" SMTP
+[2023/11/17, 2:20:50.347 PM] # clients in the same IP class A/B/C networks as the local machine.
+[2023/11/17, 2:20:50.347 PM] # Don't do this with a dialup site - it would cause Postfix to "trust"
+[2023/11/17, 2:20:50.347 PM] # your entire provider's network.  Instead, specify an explicit
+[2023/11/17, 2:20:50.348 PM] # mynetworks list by hand, as described below.
+[2023/11/17, 2:20:50.348 PM] #  
+[2023/11/17, 2:20:50.348 PM] # Specify "mynetworks_style = host" when Postfix should "trust"
+[2023/11/17, 2:20:50.348 PM] # only the local machine.
+[2023/11/17, 2:20:50.348 PM] # 
+[2023/11/17, 2:20:50.348 PM] #mynetworks_style = class
+[2023/11/17, 2:20:50.348 PM] #mynetworks_style = subnet
+[2023/11/17, 2:20:50.348 PM] #mynetworks_style = host
+
+[2023/11/17, 2:20:50.348 PM] # Alternatively, you can specify the mynetworks list by hand, in
+[2023/11/17, 2:20:50.349 PM] # which case Postfix ignores the mynetworks_style setting.
+[2023/11/17, 2:20:50.349 PM] #
+[2023/11/17, 2:20:50.349 PM] # Specify an explicit list of network/netmask patterns, where the
+[2023/11/17, 2:20:50.349 PM] # mask specifies the number of bits in the network part of a host
+[2023/11/17, 2:20:50.349 PM] # address.253,2935%/smtpp253,2935%dd253,2935%__253,2935%u#
+[2023/11/17, 2:20:56.651 PM] # debugger_command =
+[2023/11/17, 2:20:56.651 PM] #       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;
+[2023/11/17, 2:20:56.651 PM] #       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1
+[2023/11/17, 2:20:56.651 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5
+[2023/11/17, 2:20:56.651 PM] #
+[2023/11/17, 2:20:56.651 PM] # Another possibility is to run gdb under a detached screen session.
+[2023/11/17, 2:20:56.651 PM] # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:20:56.651 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:20:56.651 PM] # sessions (from "screen -list").
+[2023/11/17, 2:20:56.651 PM] #
+[2023/11/17, 2:20:56.651 PM] # debugger_command =
+[2023/11/17, 2:20:56.651 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:20:56.651 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:20:56.651 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:20:56.652 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:20:56.652 PM] #
+[2023/11/17, 2:20:56.652 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:20:56.652 PM] # 
+[2023/11/17, 2:20:56.652 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:20:56.652 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:20:56.652 PM] # 
+[2023/11/17, 2:20:56.652 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:20:56.652 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:20:56.652 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:20:56.652 PM] #
+[2023/11/17, 2:20:56.652 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:20:56.652 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:20:56.652 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:20:56.652 PM] # 
+[2023/11/17, 2:20:56.652 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:20:56.652 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:20:56.652 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:20:56.652 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:20:56.652 PM] #
+[2023/11/17, 2:20:56.652 PM] setgid_group = postdrop
+
+[2023/11/17, 2:20:56.652 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:20:56.652 PM] #
+[2023/11/17, 2:20:56.653 PM] #html_directory =
+
+[2023/11/17, 2:20:56.653 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:20:56.653 PM] #
+[2023/11/17, 2:20:56.653 PM] #manpage_directory =
+
+[2023/11/17, 2:20:56.653 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:20:56.653 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:20:56.653 PM] #
+[2023/11/17, 2:20:56.653 PM] #sample_directory =
+
+[2023/11/17, 2:20:56.653 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:20:56.653 PM] #
+[2023/11/17, 2:20:56.653 PM] #readme_directory =
+[2023/11/17, 2:20:56.653 PM] inet_protocols = ipv4667,1Bot/smtpd_us667,1Bote667,1Botr667,1Bot667,1Bot_667,1Bott667,1Botl667,1Bots667,1Bot667,1Bot=667,1Bot667,1Boty667,1Bote667,1Bots667,1Botsearch hit BOTTOM, continuing at TOPE486: Pattern not found: smtpd_use_tls = yes667,1Bot~@k   6^[  ^[  ~@k   7~@k   6^[  ^[  //ss666,3Botm# These rights are used in the absence of a recipient user context.
+[2023/11/17, 2:21:20.169 PM] # DO NOT SPECIFY A PRIVILEGED USER OR THE POSTFIX OWNER.
+[2023/11/17, 2:21:20.169 PM] #
+[2023/11/17, 2:21:20.169 PM] #default_privs = nobody
+
+[2023/11/17, 2:21:20.169 PM] # INTERNET HOST AND DOMAIN NAMES
+[2023/11/17, 2:21:20.169 PM] # 
+[2023/11/17, 2:21:20.169 PM] # The myhostname parameter specifies the internet hostname of this
+[2023/11/17, 2:21:20.169 PM] # mail system. The default is to use the fully-qualified domain name
+[2023/11/17, 2:21:20.169 PM] # from gethostname(). $myhostname is used as a default value for many
+[2023/11/17, 2:21:20.169 PM] # other configuration parameters.
+[2023/11/17, 2:21:20.170 PM] #
+[2023/11/17, 2:21:20.170 PM] #myhostname = host.domain.tld
+[2023/11/17, 2:21:20.170 PM] #myhostname = virtual.domain.tld
+[2023/11/17, 2:21:20.170 PM] myhostname = mlsk2a03.ecccomp.ac.jp
+
+[2023/11/17, 2:21:20.170 PM] # The mydomain parameter specifies the local internet domain name.
+[2023/11/17, 2:21:20.170 PM] # The default is to use $myhostname minus the first component.
+[2023/11/17, 2:21:20.170 PM] # $mydomain is used as a default value for many other configuration
+[2023/11/17, 2:21:20.170 PM] # parameters.
+[2023/11/17, 2:21:20.170 PM] #
+[2023/11/17, 2:21:20.170 PM] #mydomain = domain.tld
+[2023/11/17, 2:21:20.170 PM] mydomain = ecccomp.ac.jp
+
+[2023/11/17, 2:21:20.170 PM] # SENDING MAIL
+[2023/11/17, 2:21:20.170 PM] # 
+[2023/11/17, 2:21:20.170 PM] # The myorigin parameter specifies the domain that locally-posted
+[2023/11/17, 2:21:20.170 PM] # mail appears to come from. The default is to append $myhostname,
+[2023/11/17, 2:21:20.170 PM] # which is fine for small sites.  If you run a domain with multiple
+[2023/11/17, 2:21:20.170 PM] # machines, you should (1) change this to $mydomain and (2) set up
+[2023/11/17, 2:21:20.170 PM] # a domain-wide alias database that aliases each user to
+[2023/11/17, 2:21:20.170 PM] # user@that.users.mailhost.
+[2023/11/17, 2:21:20.170 PM] #
+[2023/11/17, 2:21:20.171 PM] # For the sake of consistency between sender and recipient addresses,
+[2023/11/17, 2:21:20.171 PM] # myorigin also specifies the default domain name that is appended
+[2023/11/17, 2:21:20.171 PM] # to recipient addresses that have no @domain part.
+[2023/11/17, 2:21:20.171 PM] #
+[2023/11/17, 2:21:20.171 PM] # Debian GNU/Linux specific:  Specifying a file name will cause the
+[2023/11/17, 2:21:20.171 PM] # first line of that file to be used as the name.  The Debian default
+[2023/11/17, 2:21:20.171 PM] # is /etc/mailname.
+[2023/11/17, 2:21:20.171 PM] #
+[2023/11/17, 2:21:20.171 PM] #myorigin = /etc/mailname
+[2023/11/17, 2:21:20.171 PM] #myorigin = $myhostname
+[2023/11/17, 2:21:20.171 PM] myorigin = $mydomain
+
+[2023/11/17, 2:21:20.171 PM] # RECEIVING MAIL
+
+[2023/11/17, 2:21:20.171 PM] # The inet_interfaces parameter specifies the network interface
+[2023/11/17, 2:21:20.172 PM] # addresses that this mail system receives mail on.  By default,
+[2023/11/17, 2:21:20.172 PM] # the software claims all active interfaces on the machine. The
+[2023/11/17, 2:21:20.172 PM] # parameter also controls delivery of mail to user@[ip.address].
+[2023/11/17, 2:21:20.172 PM] #
+[2023/11/17, 2:21:20.172 PM] # See also the proxy_interfaces parameter, for network addresses that
+[2023/11/17, 2:21:20.172 PM] # are forwarded to us via a proxy or network address translator.
+[2023/11/17, 2:21:20.172 PM] #
+[2023/11/17, 2:21:20.172 PM] # Note: you need to stop/start Postfix when this parameter changes.
+[2023/11/17, 2:21:20.172 PM] #110,2112%/smp#
+[2023/11/17, 2:21:20.305 PM] # debugger_command =
+[2023/11/17, 2:21:20.305 PM] #       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;
+[2023/11/17, 2:21:20.305 PM] #       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1
+[2023/11/17, 2:21:20.306 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5
+[2023/11/17, 2:21:20.306 PM] #
+[2023/11/17, 2:21:20.306 PM] # Another possibility is to run gdb under a detached screen session.
+[2023/11/17, 2:21:20.306 PM] # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:21:20.306 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:21:20.306 PM] # sessions (from "screen -list").
+[2023/11/17, 2:21:20.306 PM] #
+[2023/11/17, 2:21:20.306 PM] # debugger_command =
+[2023/11/17, 2:21:20.306 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:21:20.306 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:21:20.306 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:21:20.306 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:21:20.306 PM] #
+[2023/11/17, 2:21:20.306 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:21:20.306 PM] # 
+[2023/11/17, 2:21:20.306 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:21:20.306 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:21:20.306 PM] # 
+[2023/11/17, 2:21:20.306 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:21:20.306 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:21:20.306 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:21:20.306 PM] #
+[2023/11/17, 2:21:20.306 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:21:20.306 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:21:20.306 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:21:20.306 PM] # 
+[2023/11/17, 2:21:20.306 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:21:20.306 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:21:20.306 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:21:20.306 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:21:20.307 PM] #
+[2023/11/17, 2:21:20.307 PM] setgid_group = postdrop
+
+[2023/11/17, 2:21:20.307 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:21:20.307 PM] #
+[2023/11/17, 2:21:20.307 PM] #html_directory =
+
+[2023/11/17, 2:21:20.307 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:21:20.307 PM] #
+[2023/11/17, 2:21:20.307 PM] #manpage_directory =
+
+[2023/11/17, 2:21:20.307 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:21:20.307 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:21:20.307 PM] #
+[2023/11/17, 2:21:20.307 PM] #sample_directory =
+
+[2023/11/17, 2:21:20.307 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:21:20.307 PM] #
+[2023/11/17, 2:21:20.307 PM] #readme_directory =
+[2023/11/17, 2:21:20.307 PM] inet_protocols = ipv4666,1Bot/smp# These rights are used in the absence of a recipient user context.
+[2023/11/17, 2:21:27.689 PM] # DO NOT SPECIFY A PRIVILEGED USER OR THE POSTFIX OWNER.
+[2023/11/17, 2:21:27.689 PM] #
+[2023/11/17, 2:21:27.689 PM] #default_privs = nobody
+
+[2023/11/17, 2:21:27.689 PM] # INTERNET HOST AND DOMAIN NAMES
+[2023/11/17, 2:21:27.689 PM] # 
+[2023/11/17, 2:21:27.689 PM] # The myhostname parameter specifies the internet hostname of this
+[2023/11/17, 2:21:27.689 PM] # mail system. The default is to use the fully-qualified domain name
+[2023/11/17, 2:21:27.689 PM] # from gethostname(). $myhostname is used as a default value for many
+[2023/11/17, 2:21:27.689 PM] # other configuration parameters.
+[2023/11/17, 2:21:27.689 PM] #
+[2023/11/17, 2:21:27.689 PM] #myhostname = host.domain.tld
+[2023/11/17, 2:21:27.689 PM] #myhostname = virtual.domain.tld
+[2023/11/17, 2:21:27.689 PM] myhostname = mlsk2a03.ecccomp.ac.jp
+
+[2023/11/17, 2:21:27.689 PM] # The mydomain parameter specifies the local internet domain name.
+[2023/11/17, 2:21:27.689 PM] # The default is to use $myhostname minus the first component.
+[2023/11/17, 2:21:27.689 PM] # $mydomain is used as a default value for many other configuration
+[2023/11/17, 2:21:27.689 PM] # parameters.
+[2023/11/17, 2:21:27.689 PM] #
+[2023/11/17, 2:21:27.690 PM] #mydomain = domain.tld
+[2023/11/17, 2:21:27.690 PM] mydomain = ecccomp.ac.jp
+
+[2023/11/17, 2:21:27.690 PM] # SENDING MAIL
+[2023/11/17, 2:21:27.690 PM] # 
+[2023/11/17, 2:21:27.690 PM] # The myorigin parameter specifies the domain that locally-posted
+[2023/11/17, 2:21:27.690 PM] # mail appears to come from. The default is to append $myhostname,
+[2023/11/17, 2:21:27.690 PM] # which is fine for small sites.  If you run a domain with multiple
+[2023/11/17, 2:21:27.690 PM] # machines, you should (1) change this to $mydomain and (2) set up
+[2023/11/17, 2:21:27.690 PM] # a domain-wide alias database that aliases each user to
+[2023/11/17, 2:21:27.690 PM] # user@that.users.mailhost.
+[2023/11/17, 2:21:27.690 PM] #
+[2023/11/17, 2:21:27.690 PM] # For the sake of consistency between sender and recipient addresses,
+[2023/11/17, 2:21:27.690 PM] # myorigin also specifies the default domain name that is appended
+[2023/11/17, 2:21:27.690 PM] # to recipient addresses that have no @domain part.
+[2023/11/17, 2:21:27.690 PM] #
+[2023/11/17, 2:21:27.690 PM] # Debian GNU/Linux specific:  Specifying a file name will cause the
+[2023/11/17, 2:21:27.690 PM] # first line of that file to be used as the name.  The Debian default
+[2023/11/17, 2:21:27.690 PM] # is /etc/mailname.
+[2023/11/17, 2:21:27.690 PM] #
+[2023/11/17, 2:21:27.690 PM] #myorigin = /etc/mailname
+[2023/11/17, 2:21:27.690 PM] #myorigin = $myhostname
+[2023/11/17, 2:21:27.690 PM] myorigin = $mydomain
+
+[2023/11/17, 2:21:27.690 PM] # RECEIVING MAIL
+
+[2023/11/17, 2:21:27.690 PM] # The inet_interfaces parameter specifies the network interface
+[2023/11/17, 2:21:27.691 PM] # addresses that this mail system receives mail on.  By default,
+[2023/11/17, 2:21:27.691 PM] # the software claims all active interfaces on the machine. The
+[2023/11/17, 2:21:27.691 PM] # parameter also controls delivery of mail to user@[ip.address].
+[2023/11/17, 2:21:27.691 PM] #
+[2023/11/17, 2:21:27.691 PM] # See also the proxy_interfaces parameter, for network addresses that
+[2023/11/17, 2:21:27.691 PM] # are forwarded to us via a proxy or network address translator.
+[2023/11/17, 2:21:27.691 PM] #
+[2023/11/17, 2:21:27.691 PM] # Note: you need to stop/start Postfix when this parameter changes.
+[2023/11/17, 2:21:27.691 PM] #110,2112%/smt# overcome chroot restrictions. The alternative, having a copy of
+[2023/11/17, 2:21:27.964 PM] # the system passwd file in the chroot jail is just not practical.
+[2023/11/17, 2:21:27.964 PM] #
+[2023/11/17, 2:21:27.964 PM] # The right-hand side of the lookup tables is conveniently ignored.
+[2023/11/17, 2:21:27.964 PM] # In the left-hand side, specify a bare username, an @domain.tld
+[2023/11/17, 2:21:27.964 PM] # wild-card, or specify a user@domain.tld address.
+[2023/11/17, 2:21:27.964 PM] # 
+[2023/11/17, 2:21:27.964 PM] local_recipient_maps = unix:passwd.byname $alias_maps
+[2023/11/17, 2:21:27.964 PM] #local_recipient_maps = proxy:unix:passwd.byname $alias_maps
+[2023/11/17, 2:21:27.965 PM] #local_recipient_maps =
+
+[2023/11/17, 2:21:27.965 PM] # The unknown_local_recipient_reject_code specifies the SMTP server
+[2023/11/17, 2:21:27.965 PM] # response code when a recipient domain matches $mydestination or
+[2023/11/17, 2:21:27.965 PM] # ${proxy,inet}_interfaces, while $local_recipient_maps is non-empty
+[2023/11/17, 2:21:27.965 PM] # and the recipient address or address local-part is not found.
+[2023/11/17, 2:21:27.965 PM] #
+[2023/11/17, 2:21:27.965 PM] # The default setting is 550 (reject mail) but it is safer to start
+[2023/11/17, 2:21:27.965 PM] # with 450 (try again later) until you are certain that your
+[2023/11/17, 2:21:27.965 PM] # local_recipient_maps settings are OK.
+[2023/11/17, 2:21:27.965 PM] #
+[2023/11/17, 2:21:27.965 PM] unknown_local_recipient_reject_code = 550
+
+[2023/11/17, 2:21:27.967 PM] # TRUST AND RELAY CONTROL
+
+[2023/11/17, 2:21:27.967 PM] # The mynetworks parameter specifies the list of "trusted" SMTP
+[2023/11/17, 2:21:27.967 PM] # clients that have more privileges than "strangers".
+[2023/11/17, 2:21:27.967 PM] #
+[2023/11/17, 2:21:27.967 PM] # In particular, "trusted" SMTP clients are allowed to relay mail
+[2023/11/17, 2:21:27.967 PM] # through Postfix.  See the smtpd_recipient_restrictions parameter
+[2023/11/17, 2:21:27.967 PM] # in postconf(5).
+[2023/11/17, 2:21:27.967 PM] #
+[2023/11/17, 2:21:27.967 PM] # You can specify the list of "trusted" network addresses by hand
+[2023/11/17, 2:21:27.967 PM] # or you can let Postfix do it for you (which is the default).
+[2023/11/17, 2:21:27.967 PM] #
+[2023/11/17, 2:21:27.967 PM] # By default (mynetworks_style = subnet), Postfix "trusts" SMTP
+[2023/11/17, 2:21:27.967 PM] # clients in the same IP subnetworks as the local machine.
+[2023/11/17, 2:21:27.967 PM] # On Linux, this works correctly only with interfaces specified
+[2023/11/17, 2:21:27.968 PM] # with the "ifconfig" command.
+[2023/11/17, 2:21:27.968 PM] # 
+[2023/11/17, 2:21:27.968 PM] # Specify "mynetworks_style = class" when Postfix should "trust" SMTP
+[2023/11/17, 2:21:27.968 PM] # clients in the same IP class A/B/C networks as the local machine.
+[2023/11/17, 2:21:27.968 PM] # Don't do this with a dialup site - it would cause Postfix to "trust"
+[2023/11/17, 2:21:27.968 PM] # your entire provider's network.  Instead, specify an explicit
+[2023/11/17, 2:21:27.968 PM] # mynetworks list by hand, as described below.
+[2023/11/17, 2:21:27.968 PM] #  
+[2023/11/17, 2:21:27.968 PM] # Specify "mynetworks_style = host" when Postfix should "trust"
+[2023/11/17, 2:21:27.968 PM] # only the local machine.
+[2023/11/17, 2:21:27.968 PM] # 
+[2023/11/17, 2:21:27.968 PM] #mynetworks_style = class
+[2023/11/17, 2:21:27.968 PM] #mynetworks_style = subnet
+[2023/11/17, 2:21:27.968 PM] #mynetworks_style = host
+
+[2023/11/17, 2:21:27.968 PM] # Alternatively, you can specify the mynetworks list by hand, in
+[2023/11/17, 2:21:27.968 PM] # which case Postfix ignores the mynetworks_style setting.
+[2023/11/17, 2:21:27.968 PM] #
+[2023/11/17, 2:21:27.968 PM] # Specify an explicit list of network/netmask patterns, where the
+[2023/11/17, 2:21:27.968 PM] # mask specifies the number of bits in the network part of a host
+[2023/11/17, 2:21:27.968 PM] # address.253,2935%/smtpp253,2935%d_use_tls = yes#
+[2023/11/17, 2:21:29.213 PM] # debugger_command =
+[2023/11/17, 2:21:29.213 PM] #       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;
+[2023/11/17, 2:21:29.213 PM] #       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1
+[2023/11/17, 2:21:29.213 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5
+[2023/11/17, 2:21:29.213 PM] #
+[2023/11/17, 2:21:29.213 PM] # Another possibility is to run gdb under a detached screen session.
+[2023/11/17, 2:21:29.213 PM] # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:21:29.213 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:21:29.213 PM] # sessions (from "screen -list").
+[2023/11/17, 2:21:29.213 PM] #
+[2023/11/17, 2:21:29.213 PM] # debugger_command =
+[2023/11/17, 2:21:29.213 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:21:29.213 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:21:29.213 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:21:29.213 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:21:29.213 PM] #
+[2023/11/17, 2:21:29.213 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:21:29.214 PM] # 
+[2023/11/17, 2:21:29.214 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:21:29.214 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:21:29.214 PM] # 
+[2023/11/17, 2:21:29.214 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:21:29.214 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:21:29.214 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:21:29.214 PM] #
+[2023/11/17, 2:21:29.214 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:21:29.214 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:21:29.214 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:21:29.214 PM] # 
+[2023/11/17, 2:21:29.214 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:21:29.214 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:21:29.214 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:21:29.214 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:21:29.214 PM] #
+[2023/11/17, 2:21:29.214 PM] setgid_group = postdrop
+
+[2023/11/17, 2:21:29.214 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:21:29.214 PM] #
+[2023/11/17, 2:21:29.214 PM] #html_directory =
+
+[2023/11/17, 2:21:29.214 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:21:29.214 PM] #
+[2023/11/17, 2:21:29.214 PM] #manpage_directory =
+
+[2023/11/17, 2:21:29.214 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:21:29.215 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:21:29.215 PM] #
+[2023/11/17, 2:21:29.215 PM] #sample_directory =
+
+[2023/11/17, 2:21:29.215 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:21:29.215 PM] #
+[2023/11/17, 2:21:29.215 PM] #readme_directory =
+[2023/11/17, 2:21:29.215 PM] inet_protocols = ipv4666,1Bot/smtpd_use_tls = yes# overcome chroot restrictions. The alternative, having a copy of
+[2023/11/17, 2:21:31.077 PM] # the system passwd file in the chroot jail is just not practical.
+[2023/11/17, 2:21:31.077 PM] #
+[2023/11/17, 2:21:31.077 PM] # The right-hand side of the lookup tables is conveniently ignored.
+[2023/11/17, 2:21:31.077 PM] # In the left-hand side, specify a bare username, an @domain.tld
+[2023/11/17, 2:21:31.077 PM] # wild-card, or specify a user@domain.tld address.
+[2023/11/17, 2:21:31.077 PM] # 
+[2023/11/17, 2:21:31.077 PM] local_recipient_maps = unix:passwd.byname $alias_maps
+[2023/11/17, 2:21:31.077 PM] #local_recipient_maps = proxy:unix:passwd.byname $alias_maps
+[2023/11/17, 2:21:31.077 PM] #local_recipient_maps =
+
+[2023/11/17, 2:21:31.077 PM] # The unknown_local_recipient_reject_code specifies the SMTP server
+[2023/11/17, 2:21:31.077 PM] # response code when a recipient domain matches $mydestination or
+[2023/11/17, 2:21:31.077 PM] # ${proxy,inet}_interfaces, while $local_recipient_maps is non-empty
+[2023/11/17, 2:21:31.077 PM] # and the recipient address or address local-part is not found.
+[2023/11/17, 2:21:31.077 PM] #
+[2023/11/17, 2:21:31.077 PM] # The default setting is 550 (reject mail) but it is safer to start
+[2023/11/17, 2:21:31.077 PM] # with 450 (try again later) until you are certain that your
+[2023/11/17, 2:21:31.077 PM] # local_recipient_maps settings are OK.
+[2023/11/17, 2:21:31.077 PM] #
+[2023/11/17, 2:21:31.077 PM] unknown_local_recipient_reject_code = 550
+
+[2023/11/17, 2:21:31.077 PM] # TRUST AND RELAY CONTROL
+
+[2023/11/17, 2:21:31.077 PM] # The mynetworks parameter specifies the list of "trusted" SMTP
+[2023/11/17, 2:21:31.077 PM] # clients that have more privileges than "strangers".
+[2023/11/17, 2:21:31.077 PM] #
+[2023/11/17, 2:21:31.077 PM] # In particular, "trusted" SMTP clients are allowed to relay mail
+[2023/11/17, 2:21:31.078 PM] # through Postfix.  See the smtpd_recipient_restrictions parameter
+[2023/11/17, 2:21:31.078 PM] # in postconf(5).
+[2023/11/17, 2:21:31.078 PM] #
+[2023/11/17, 2:21:31.078 PM] # You can specify the list of "trusted" network addresses by hand
+[2023/11/17, 2:21:31.078 PM] # or you can let Postfix do it for you (which is the default).
+[2023/11/17, 2:21:31.078 PM] #
+[2023/11/17, 2:21:31.078 PM] # By default (mynetworks_style = subnet), Postfix "trusts" SMTP
+[2023/11/17, 2:21:31.078 PM] # clients in the same IP subnetworks as the local machine.
+[2023/11/17, 2:21:31.078 PM] # On Linux, this works correctly only with interfaces specified
+[2023/11/17, 2:21:31.078 PM] # with the "ifconfig" command.
+[2023/11/17, 2:21:31.078 PM] # 
+[2023/11/17, 2:21:31.078 PM] # Specify "mynetworks_style = class" when Postfix should "trust" SMTP
+[2023/11/17, 2:21:31.078 PM] # clients in the same IP class A/B/C networks as the local machine.
+[2023/11/17, 2:21:31.078 PM] # Don't do this with a dialup site - it would cause Postfix to "trust"
+[2023/11/17, 2:21:31.078 PM] # your entire provider's network.  Instead, specify an explicit
+[2023/11/17, 2:21:31.078 PM] # mynetworks list by hand, as described below.
+[2023/11/17, 2:21:31.079 PM] #  
+[2023/11/17, 2:21:31.080 PM] # Specify "mynetworks_style = host" when Postfix should "trust"
+[2023/11/17, 2:21:31.080 PM] # only the local machine.
+[2023/11/17, 2:21:31.080 PM] # 
+[2023/11/17, 2:21:31.080 PM] #mynetworks_style = class
+[2023/11/17, 2:21:31.080 PM] #mynetworks_style = subnet
+[2023/11/17, 2:21:31.080 PM] #mynetworks_style = host
+
+[2023/11/17, 2:21:31.080 PM] # Alternatively, you can specify the mynetworks list by hand, in
+[2023/11/17, 2:21:31.080 PM] # which case Postfix ignores the mynetworks_style setting.
+[2023/11/17, 2:21:31.080 PM] #
+[2023/11/17, 2:21:31.080 PM] # Specify an explicit list of network/netmask patterns, where the
+[2023/11/17, 2:21:31.080 PM] # mask specifies the number of bits in the network part of a host
+[2023/11/17, 2:21:31.080 PM] # address.253,2935%/smtpsearch hit BOTTOM, continuing at TOPsmtp253,2935%253,2935%~@k   2~@k   1,1 ~@k   0,29~@k   49~@k   8,0-1~@k   7,25 ~@k   6,0-1~@k   5,29 ~@k   4,1 ~@k   3,29~@k   2~@k   1~@k   0,1 ~@k   39,29~@k   8~@k   9~@k   40,1 ~@k   1,29~@k   2~@k   3~@k   4,1 ~@k   5,29~@k   6,0-1~@k   7,25 ~@k   8,0-1~@k   9,29 50~@k   1,1 2,29~@k   34,17~@k   5,1 6,29~@k   78,1 ~@k   9,2960~@k   12~@k   3,2 4,29~@k   5~@k   6~@k   7~@k   8~@k   9,3 ~@k   70,29~@k   1,25~@k   2,2 3,254,265,24~@k   6,0-17,29 
+[2023/11/17, 2:21:37.904 PM] #278,2935%
+[2023/11/17, 2:21:37.904 PM] # You can also specify the absolute pathname of a pattern file instead279,135%~@k   
+[2023/11/17, 2:21:37.904 PM] # of listing the patterns here. Specify type:table for table-based lookups280,2936%
+[2023/11/17, 2:21:37.922 PM] # (the value on the table right-hand side is not used).281,2936%~@k   
+[2023/11/17, 2:21:37.923 PM] #282,1036%
+[2023/11/17, 2:21:37.938 PM] #mynetworks = 168.100.3.0/28, 127.0.0.0/8283,136%~@k   
+[2023/11/17, 2:21:37.939 PM] #mynetworks = $config_directory/mynetworks284,2936%
+[2023/11/17, 2:21:37.955 PM] #mynetworks = hash:/etc/postfix/network_table285,2936%~@k   
+[2023/11/17, 2:21:37.955 PM] mynetworks = 127.0.0.0/8, 10.21.10.0/24286,2936%
+[2023/11/17, 2:21:37.970 PM] 287,137%~@k   
+[2023/11/17, 2:21:37.973 PM] # The relay_domains parameter restricts what destinations this system will288,2937%
+[2023/11/17, 2:21:37.987 PM] # relay mail to.  See the smtpd_recipient_restrictions description in289,2937%~@k   
+[2023/11/17, 2:21:37.988 PM] # postconf(5) for detailed information.290,2937%
+[2023/11/17, 2:21:38.003 PM] #291,2937%~@k   
+[2023/11/17, 2:21:38.004 PM] # By default, Postfix relays mail292,0-137%
+[2023/11/17, 2:21:38.022 PM] # - from "trusted" clients (IP address matches $mynetworks) to any destination,293,2938%~@k   
+[2023/11/17, 2:21:38.024 PM] # - from "untrusted" clients to destinations that match $relay_domains or294,2938%
+[2023/11/17, 2:21:38.035 PM] #   subdomains thereof, except addresses with sender-specified routing.295,2938%~@k   
+[2023/11/17, 2:21:38.037 PM] # The default relay_domains value is $mydestination.296,138%
+[2023/11/17, 2:21:38.052 PM] # 297,2938%~@k   
+[2023/11/17, 2:21:38.053 PM] # In addition to the above, the Postfix SMTP server by default accepts mail298,2938%
+[2023/11/17, 2:21:38.069 PM] # that Postfix is final destination for:299,2939%~@k   
+[2023/11/17, 2:21:38.071 PM] # - destinations that match $inet_interfaces or $proxy_interfaces,300,2939%
+[2023/11/17, 2:21:38.086 PM] # - destinations that match $mydestination301,2939%~@k   
+[2023/11/17, 2:21:38.088 PM] # - destinations that match $virtual_alias_domains,302,239%
+[2023/11/17, 2:21:38.102 PM] # - destinations that match $virtual_mailbox_domains.303,2939%~@k   
+[2023/11/17, 2:21:38.104 PM] # These destinations do not need to be listed in $relay_domains.304,2939%
+[2023/11/17, 2:21:38.119 PM] # 305,2940%~@k   
+[2023/11/17, 2:21:38.119 PM] # Specify a list of hosts or domains, /file/name patterns or type:name306,2940%
+[2023/11/17, 2:21:38.136 PM] # lookup tables, separated by commas and/or whitespace.  Continue307,2940%~@k   
+[2023/11/17, 2:21:38.137 PM] # long lines by starting the next line with whitespace. A file name308,2940%
+[2023/11/17, 2:21:38.152 PM] # is replaced by its contents; a type:name table is matched when a309,2940%~@k   
+[2023/11/17, 2:21:38.153 PM] # (parent) domain appears as lookup key.310,240%
+[2023/11/17, 2:21:38.169 PM] #311,2940%~@k   
+[2023/11/17, 2:21:38.170 PM] # NOTE: Postfix will not automatically forward mail for domains that312,2941%
+[2023/11/17, 2:21:38.190 PM] # list this system as their primary or backup MX host. See the313,2941%~@k   
+[2023/11/17, 2:21:38.190 PM] # permit_mx_backup restriction description in postconf(5).314,2941%
+[2023/11/17, 2:21:38.202 PM] #315,2941%~@k   
+[2023/11/17, 2:21:38.203 PM] #relay_domains = $mydestination316,141%
+[2023/11/17, 2:21:38.218 PM] 317,2941%~@k   
+[2023/11/17, 2:21:38.218 PM] # INTERNET OR INTRANET318,2942%
+[2023/11/17, 2:21:38.235 PM] 319,2942%~@k   
+[2023/11/17, 2:21:38.236 PM] # The relayhost parameter specifies the default host to send mail to320,142%
+[2023/11/17, 2:21:38.253 PM] # when no entry is matched in the optional transport(5) table. When321,2942%~@k   
+[2023/11/17, 2:21:38.253 PM] # no relayhost is given, mail is routed directly to the destination.322,0-142%
+[2023/11/17, 2:21:38.269 PM] #323,2242%~@k   
+[2023/11/17, 2:21:38.269 PM] # On an intranet, specify the organizational domain name. If your324,0-143%
+[2023/11/17, 2:21:38.288 PM] # internal DNS uses no MX records, specify the name of the intranet325,2943%~@k   
+[2023/11/17, 2:21:38.288 PM] # gateway host instead.326,2943%~@k   
+[2023/11/17, 2:21:38.367 PM] #327,2943%~@k   
+[2023/11/17, 2:21:38.384 PM] # In the case of SMTP, specify a domain, host, host:port, [host]:port,328,143%~@k   
+[2023/11/17, 2:21:38.400 PM] # [address] or [address]:port; the form [host] turns off MX lookups.329,2943%~@k   
+[2023/11/17, 2:21:38.420 PM] #330,2943%~@k   
+[2023/11/17, 2:21:38.433 PM] # If you're connected via UUCP, see also the default_transport parameter.331,2344%~@k   
+[2023/11/17, 2:21:38.437 PM] #332,144%
+[2023/11/17, 2:21:38.458 PM] #relayhost = $mydomain333,2944%~@k   
+[2023/11/17, 2:21:38.459 PM] #relayhost = [gateway.my.domain]334,2944%
+[2023/11/17, 2:21:38.471 PM] #relayhost = [mailserver.isp.tld]335,144%~@k   
+[2023/11/17, 2:21:38.472 PM] #relayhost = uucphost336,2944%
+[2023/11/17, 2:21:38.488 PM] #relayhost = [an.ip.add.ress]337,145%~@k   
+[2023/11/17, 2:21:38.489 PM] 338,2245%
+[2023/11/17, 2:21:38.506 PM] # REJECTING UNKNOWN RELAY USERS339,2945%~@k   
+[2023/11/17, 2:21:38.506 PM] #340,2945%
+[2023/11/17, 2:21:38.521 PM] # The relay_recipient_maps parameter specifies optional lookup tables341,2145%~@k   
+[2023/11/17, 2:21:38.524 PM] []# with all addresses in the domains that match $relay_domains.342,2945%
+[2023/11/17, 2:21:38.539 PM] []#343,0-146%~@k   
+[2023/11/17, 2:21:38.540 PM] # If this parameter is defined, then the SMTP server will reject344,2946%
+[2023/11/17, 2:21:38.554 PM] # mail for unknown relay users. This feature is off by default.345,146%~@k   
+[2023/11/17, 2:21:38.554 PM] #346,2946%
+[2023/11/17, 2:21:38.572 PM] # The right-hand side of the lookup tables is conveniently ignored.347,2946%~@k   
+[2023/11/17, 2:21:38.572 PM] # In the left-hand side, specify an @domain.tld wild-card, or specify348,146%
+[2023/11/17, 2:21:38.588 PM] # a user@domain.tld address.349,2946%~@k   
+[2023/11/17, 2:21:38.588 PM] # 350,2947%
+[2023/11/17, 2:21:38.605 PM] #relay_recipient_maps = hash:/etc/postfix/relay_recipients351,147%~@k   
+[2023/11/17, 2:21:38.606 PM] 352,2947%
+[2023/11/17, 2:21:38.622 PM] # INPUT RATE CONTROL353,2947%~@k   
+[2023/11/17, 2:21:38.622 PM] #354,2847%
+[2023/11/17, 2:21:38.638 PM] # The in_flow_delay configuration parameter implements mail input355,247%~@k   
+[2023/11/17, 2:21:38.640 PM] # flow control. This feature is turned on by default, although it356,2948%
+[2023/11/17, 2:21:38.654 PM] # still needs further development (it's disabled on SCO UNIX due357,0-148%~@k   
+[2023/11/17, 2:21:38.655 PM] # to an SCO bug).358,2048%
+[2023/11/17, 2:21:38.672 PM] # 359,148%~@k   
+[2023/11/17, 2:21:38.672 PM] # A Postfix process will pause for $in_flow_delay seconds before360,2948%
+[2023/11/17, 2:21:38.689 PM] # accepting a new message, when the message arrival rate exceeds the361,2948%~@k   
+[2023/11/17, 2:21:38.690 PM] # message delivery rate. With the default 100 SMTP server process362,2949%
+[2023/11/17, 2:21:38.705 PM] # limit, this limits the mail inflow to 100 messages a second more363,1749%~@k   
+[2023/11/17, 2:21:38.707 PM] # than the number of messages delivered per second.364,249%
+[2023/11/17, 2:21:38.721 PM] # 365,2949%~@k   
+[2023/11/17, 2:21:38.723 PM] # Specify 0 to disable the feature. Valid delays are 0..10.366,2949%
+[2023/11/17, 2:21:38.738 PM] # 367,2949%~@k   
+[2023/11/17, 2:21:38.739 PM] #in_flow_delay = 1s368,2950%
+[2023/11/17, 2:21:38.755 PM] 369,2950%~@k   
+[2023/11/17, 2:21:38.756 PM] # ADDRESS REWRITING370,250%
+[2023/11/17, 2:21:38.771 PM] #371,2950%~@k   
+[2023/11/17, 2:21:38.773 PM] # The ADDRESS_REWRITING_README document gives information about372,250%
+[2023/11/17, 2:21:38.788 PM] # address masquerading or other forms of address rewriting including373,1950%~@k   
+[2023/11/17, 2:21:38.789 PM] # username->Firstname.Lastname mapping.374,0-150%
+[2023/11/17, 2:21:38.804 PM] 375,1951%~@k   
+[2023/11/17, 2:21:38.805 PM] # ADDRESS REDIRECTION (VIRTUAL DOMAIN)376,151%
+[2023/11/17, 2:21:38.821 PM] #377,2951%~@k   
+[2023/11/17, 2:21:38.822 PM] # The VIRTUAL_README document gives information about the many forms378,2951%
+[2023/11/17, 2:21:38.839 PM] # of domain hosting that Postfix supports.379,2951%~@k   
+[2023/11/17, 2:21:38.839 PM] 380,0-151%
+[2023/11/17, 2:21:38.855 PM] # "USER HAS MOVED" BOUNCE MESSAGES381,2952%~@k   
+[2023/11/17, 2:21:38.856 PM] #382,152%
+[2023/11/17, 2:21:38.872 PM] # See the discussion in the ADDRESS_REWRITING_README document.383,2952%~@k   
+[2023/11/17, 2:21:38.873 PM] 384,2952%
+[2023/11/17, 2:21:38.891 PM] # TRANSPORT MAP385,0-152%~@k   
+[2023/11/17, 2:21:38.892 PM] #386,2952%
+[2023/11/17, 2:21:38.909 PM] # See the discussion in the ADDRESS_REWRITING_README document.387,153%~@k   
+[2023/11/17, 2:21:38.912 PM] 388,2953%
+[2023/11/17, 2:21:38.921 PM] # ALIAS DATABASE389,0-153%~@k   
+[2023/11/17, 2:21:38.921 PM] #390,1553%
+[2023/11/17, 2:21:38.940 PM] # The alias_maps parameter specifies the list of alias databases used391,153%~@k   
+[2023/11/17, 2:21:38.940 PM] # by the local delivery agent. The default list is system dependent.392,2953%
+[2023/11/17, 2:21:38.956 PM] #393,0-153%~@k   
+[2023/11/17, 2:21:38.958 PM] # On systems with NIS, the default is to search the local alias394,1654%~@k   
+[2023/11/17, 2:21:39.034 PM] # database, then the NIS alias database. See aliases(5) for syntax395,154%~@k   
+[2023/11/17, 2:21:39.049 PM] # details.396,2954%~@k   
+[2023/11/17, 2:21:39.067 PM] # 397,2954%~@k   
+[2023/11/17, 2:21:39.085 PM] # If you change the alias database, run "postalias /etc/aliases" (or398,154%~@k   
+[2023/11/17, 2:21:39.086 PM] # wherever your system stores the mail alias file), or simply run399,2954%
+[2023/11/17, 2:21:39.105 PM] # "newaliases" to build the necessary DBM or DB file.400,2955%~@k   
+[2023/11/17, 2:21:39.105 PM] #401,1055%
+[2023/11/17, 2:21:39.120 PM] # It will take a minute or so before changes become visible.  Use402,255%~@k   
+[2023/11/17, 2:21:39.120 PM] # "postfix reload" to eliminate the delay.403,2955%
+[2023/11/17, 2:21:39.137 PM] #404,2955%~@k   
+[2023/11/17, 2:21:39.138 PM] #alias_maps = dbm:/etc/aliases405,2955%
+[2023/11/17, 2:21:39.155 PM] alias_maps = hash:/etc/aliases406,156%~@k   
+[2023/11/17, 2:21:39.155 PM] #alias_maps = hash:/etc/aliases, nis:mail.aliases407,2956%
+[2023/11/17, 2:21:39.170 PM] #alias_maps = netinfo:/aliases408,2956%~@k   
+[2023/11/17, 2:21:39.170 PM] 409,156%
+[2023/11/17, 2:21:39.190 PM] # The alias_database parameter specifies the alias database(s) that410,2956%~@k   
+[2023/11/17, 2:21:39.190 PM] # are built with "newaliases" or "sendmail -bi".  This is a separate411,2956%
+[2023/11/17, 2:21:39.206 PM] # configuration parameter, because alias_maps (see above) may specify412,2956%~@k   
+[2023/11/17, 2:21:39.207 PM] # tables that are not necessarily all under control by Postfix.413,2957%
+[2023/11/17, 2:21:39.221 PM] #414,0-157%~@k   
+[2023/11/17, 2:21:39.223 PM] #alias_database = dbm:/etc/aliases415,2957%
+[2023/11/17, 2:21:39.238 PM] #alias_database = dbm:/etc/mail/aliases416,2957%~@k   
+[2023/11/17, 2:21:39.239 PM] alias_database = hash:/etc/aliases417,2957%
+[2023/11/17, 2:21:39.254 PM] #alias_database = hash:/etc/aliases, hash:/opt/majordomo/aliases418,2957%~@k   
+[2023/11/17, 2:21:39.254 PM] 419,158%
+[2023/11/17, 2:21:39.271 PM] # ADDRESS EXTENSIONS (e.g., user+foo)420,2958%~@k   
+[2023/11/17, 2:21:39.272 PM] #421,2958%
+[2023/11/17, 2:21:39.287 PM] # The recipient_delimiter parameter specifies the separator between422,2958%~@k   
+[2023/11/17, 2:21:39.289 PM] # user names and address extensions (user+foo). See canonical(5),423,2958%
+[2023/11/17, 2:21:39.304 PM] # local(8), relocated(5) and virtual(5) for the effects this has on424,0-158%~@k   
+[2023/11/17, 2:21:39.306 PM] # aliases, canonical, virtual, relocated and .forward file lookups.425,2959%
+[2023/11/17, 2:21:39.321 PM] # Basically, the software tries user+foo and .forward+foo before426,159%~@k   
+[2023/11/17, 2:21:39.322 PM] # trying user and .forward.427,2959%
+[2023/11/17, 2:21:39.337 PM] #428,2959%~@k   
+[2023/11/17, 2:21:39.338 PM] #recipient_delimiter = +429,2959%
+[2023/11/17, 2:21:39.353 PM] 430,2959%~@k   
+[2023/11/17, 2:21:39.353 PM] # DELIVERY TO MAILBOX431,2960%
+[2023/11/17, 2:21:39.370 PM] #432,2760%~@k   
+[2023/11/17, 2:21:39.372 PM] # The home_mailbox parameter specifies the optional pathname of a433,160%
+[2023/11/17, 2:21:39.388 PM] # mailbox file relative to a user's home directory. The default434,2460%~@k   
+[2023/11/17, 2:21:39.389 PM] # mailbox file is /var/spool/mail/user or /var/mail/user.  Specify435,0-160%
+[2023/11/17, 2:21:39.404 PM] # "Maildir/" for qmail-style delivery (the / is required).436,2160%~@k   
+[2023/11/17, 2:21:39.404 PM] #437,160%
+[2023/11/17, 2:21:39.422 PM] #home_mailbox = Mailbox438,2961%~@k   
+[2023/11/17, 2:21:39.423 PM] home_mailbox = Maildir/439,2961%
+[2023/11/17, 2:21:39.437 PM] 440,2961%~@k   
+[2023/11/17, 2:21:39.438 PM] # The mail_spool_directory parameter specifies the directory where441,2961%
+[2023/11/17, 2:21:39.456 PM] # UNIX-style mailboxes are kept. The default setting depends on the442,161%~@k   
+[2023/11/17, 2:21:39.456 PM] # system type.443,2361%
+[2023/11/17, 2:21:39.470 PM] #444,2362%~@k   
+[2023/11/17, 2:21:39.472 PM] #mail_spool_directory = /var/mail445,162%
+[2023/11/17, 2:21:39.488 PM] #mail_spool_directory = /var/spool/mail446,2962%~@k   
+[2023/11/17, 2:21:39.489 PM] 447,2962%~@k   
+[2023/11/17, 2:21:39.567 PM] # The mailbox_command parameter specifies the optional external448,1462%~@k   
+[2023/11/17, 2:21:39.591 PM] # command to use instead of mailbox delivery. The command is run as449,162%~@k   
+[2023/11/17, 2:21:39.599 PM] # the recipient with proper HOME, SHELL and LOGNAME environment settings.450,2963%~@k   
+[2023/11/17, 2:21:39.617 PM] # Exception:  delivery for root is done as $default_user.451,2963%
+[2023/11/17, 2:21:39.636 PM] #452,0-163%
+[2023/11/17, 2:21:39.637 PM] # Other environment variables of interest: USER (recipient username),453,2963%
+[2023/11/17, 2:21:39.637 PM] # EXTENSION (address extension), DOMAIN (domain part of address),454,2963%~@k   
+[2023/11/17, 2:21:39.637 PM] # and LOCAL (the address localpart).455,2963%
+[2023/11/17, 2:21:39.651 PM] #456,2963%
+[2023/11/17, 2:21:39.651 PM] # Unlike other Postfix configuration parameters, the mailbox_command457,164%
+[2023/11/17, 2:21:39.651 PM] # parameter is not subjected to $parameter substitutions. This is to458,2964%~@k   
+[2023/11/17, 2:21:39.652 PM] # make it easier to specify shell syntax (see example below).459,2964%
+[2023/11/17, 2:21:39.667 PM] #460,2964%
+[2023/11/17, 2:21:39.667 PM] # Avoid shell meta characters because they will force Postfix to run461,164%
+[2023/11/17, 2:21:39.667 PM] # an expensive shell process. Procmail alone is expensive enough.462,2964%~@k   
+[2023/11/17, 2:21:39.668 PM] #463,2965%
+[2023/11/17, 2:21:39.684 PM] # IF YOU USE THIS TO DELIVER MAIL SYSTEM-WIDE, YOU MUST SET UP AN464,2965%
+[2023/11/17, 2:21:39.684 PM] # ALIAS THAT FORWARDS MAIL FOR ROOT TO A REAL USER.465,165%
+[2023/11/17, 2:21:39.684 PM] #466,2965%~@k   
+[2023/11/17, 2:21:39.685 PM] #mailbox_command = /usr/bin/procmail467,2965%
+[2023/11/17, 2:21:39.701 PM] #mailbox_command = /usr/bin/procmail -a "$EXTENSION"468,165%
+[2023/11/17, 2:21:39.701 PM] 469,2966%
+[2023/11/17, 2:21:39.701 PM] # The mailbox_transport specifies the optional transport in master.cf470,2966%~@k   
+[2023/11/17, 2:21:39.702 PM] # to use after processing aliases and .forward files. This parameter471,166%
+[2023/11/17, 2:21:39.716 PM] # has precedence over the mailbox_command, fallback_transport and472,2966%
+[2023/11/17, 2:21:39.716 PM] # luser_relay parameters.473,2966%
+[2023/11/17, 2:21:39.716 PM] #474,0-166%~@k   
+[2023/11/17, 2:21:39.717 PM] # Specify a string of the form transport:nexthop, where transport is475,2966%
+[2023/11/17, 2:21:39.735 PM] # the name of a mail delivery transport defined in master.cf.  The476,2967%~@k   
+[2023/11/17, 2:21:39.735 PM] # :nexthop part is optional. For more details see the sample transport477,2967%
+[2023/11/17, 2:21:39.750 PM] # configuration file.478,2567%~@k   
+[2023/11/17, 2:21:39.750 PM] #479,167%
+[2023/11/17, 2:21:39.767 PM] # NOTE: if you use this feature for accounts not in the UNIX password480,2967%~@k   
+[2023/11/17, 2:21:39.768 PM] # file, then you must update the "local_recipient_maps" setting in481,2967%
+[2023/11/17, 2:21:39.783 PM] # the main.cf file, otherwise the SMTP server will reject mail for    482,2968%~@k   
+[2023/11/17, 2:21:39.785 PM] # non-UNIX accounts with "User unknown in local recipient table".483,2168%
+[2023/11/17, 2:21:39.799 PM] #484,168%~@k   
+[2023/11/17, 2:21:39.800 PM] # Cyrus IMAP over LMTP. Specify ``lmtpunix      cmd="lmtpd"485,2968%
+[2023/11/17, 2:21:39.815 PM] # listen="/var/imap/socket/lmtp" prefork=0'' in cyrus.conf.486,2968%~@k   
+[2023/11/17, 2:21:39.816 PM] #mailbox_transport = lmtp:unix:/var/imap/socket/lmtp487,2968%
+[2023/11/17, 2:21:39.832 PM] #488,2969%~@k   
+[2023/11/17, 2:21:39.833 PM] # Cyrus IMAP via command line. Uncomment the "cyrus...pipe" and489,169%
+[2023/11/17, 2:21:39.849 PM] # subsequent line in master.cf.490,2969%~@k   
+[2023/11/17, 2:21:39.849 PM] #mailbox_transport = cyrus491,2969%
+[2023/11/17, 2:21:39.866 PM] 492,2969%~@k   
+[2023/11/17, 2:21:39.867 PM] # The fallback_transport specifies the optional transport in master.cf493,169%
+[2023/11/17, 2:21:39.882 PM] # to use for recipients that are not found in the UNIX passwd database.494,2970%~@k   
+[2023/11/17, 2:21:39.884 PM] # This parameter has precedence over the luser_relay parameter.495,2970%
+[2023/11/17, 2:21:39.899 PM] #496,2670%~@k   
+[2023/11/17, 2:21:39.900 PM] # Specify a string of the form transport:nexthop, where transport is497,0-170%
+[2023/11/17, 2:21:39.916 PM] # the name of a mail delivery transport defined in master.cf.  The498,2970%~@k   
+[2023/11/17, 2:21:39.917 PM] # :nexthop part is optional. For more details see the sample transport499,2970%
+[2023/11/17, 2:21:39.933 PM] # configuration file.500,2970%~@k   
+[2023/11/17, 2:21:39.933 PM] #501,171%
+[2023/11/17, 2:21:39.950 PM] # NOTE: if you use this feature for accounts not in the UNIX password502,2971%~@k   
+[2023/11/17, 2:21:39.951 PM] # file, then you must update the "local_recipient_maps" setting in503,2971%
+[2023/11/17, 2:21:39.965 PM] # the main.cf file, otherwise the SMTP server will reject mail for    504,2971%~@k   
+[2023/11/17, 2:21:39.966 PM] # non-UNIX accounts with "User unknown in local recipient table".505,2171%
+[2023/11/17, 2:21:39.982 PM] #506,171%~@k   
+[2023/11/17, 2:21:39.983 PM] #fallback_transport = lmtp:unix:/file/name507,2972%
+[2023/11/17, 2:21:39.999 PM] #fallback_transport = cyrus508,2972%~@k   
+[2023/11/17, 2:21:40.000 PM] #fallback_transport =509,2972%
+[2023/11/17, 2:21:40.018 PM] 510,2972%~@k   
+[2023/11/17, 2:21:40.018 PM] # The luser_relay parameter specifies an optional destination address511,172%~@k   
+[2023/11/17, 2:21:40.066 PM] # for unknown recipients.  By default, mail for unknown@$mydestination,512,2972%~@k   
+[2023/11/17, 2:21:40.085 PM] # unknown@[$inet_interfaces] or unknown@[$proxy_interfaces] is returned513,2773%~@k   
+[2023/11/17, 2:21:40.099 PM] # as undeliverable.514,2173%~@k   
+[2023/11/17, 2:21:40.116 PM] #515,0-173%~@k   
+[2023/11/17, 2:21:40.135 PM] # The following expansions are done on luser_relay: $user (recipient516,2973%~@k   
+[2023/11/17, 2:21:40.137 PM] # username), $shell (recipient shell), $home (recipient home directory),517,2973%
+[2023/11/17, 2:21:40.155 PM] # $recipient (full recipient address), $extension (recipient address518,2973%~@k   
+[2023/11/17, 2:21:40.157 PM] # extension), $domain (recipient domain), $local (entire recipient519,1973%
+[2023/11/17, 2:21:40.170 PM] # localpart), $recipient_delimiter. Specify ${name?value} or520,174%~@k   
+[2023/11/17, 2:21:40.173 PM] # ${name:value} to expand value only when $name does (does not) exist.521,2974%
+[2023/11/17, 2:21:40.185 PM] #522,2974%~@k   
+[2023/11/17, 2:21:40.186 PM] # luser_relay works only for the default Postfix local delivery agent.523,2974%
+[2023/11/17, 2:21:40.202 PM] #524,2974%~@k   
+[2023/11/17, 2:21:40.204 PM] # NOTE: if you use this feature for accounts not in the UNIX password525,2974%
+[2023/11/17, 2:21:40.221 PM] # file, then you must specify "local_recipient_maps =" (i.e. empty) in526,2975%~@k   
+[2023/11/17, 2:21:40.222 PM] # the main.cf file, otherwise the SMTP server will reject mail for    527,175%
+[2023/11/17, 2:21:40.237 PM] # non-UNIX accounts with "User unknown in local recipient table".528,2975%~@k   
+[2023/11/17, 2:21:40.238 PM] #529,175%
+[2023/11/17, 2:21:40.252 PM] #luser_relay = $user@other.host530,2975%~@k   
+[2023/11/17, 2:21:40.254 PM] #luser_relay = $local@other.host531,2975%
+[2023/11/17, 2:21:40.269 PM] #luser_relay = admin+$local532,2976%~@k   
+[2023/11/17, 2:21:40.270 PM] 533,2976%
+[2023/11/17, 2:21:40.285 PM] # JUNK MAIL CONTROLS534,176%~@k   
+[2023/11/17, 2:21:40.286 PM] # 535,2976%
+[2023/11/17, 2:21:40.302 PM] # The controls listed here are only a very small subset. The file536,2976%~@k   
+[2023/11/17, 2:21:40.302 PM] # SMTPD_ACCESS_README provides an overview.537,2776%
+[2023/11/17, 2:21:40.319 PM] 538,276%~@k   
+[2023/11/17, 2:21:40.320 PM] # The header_checks parameter specifies an optional table with patterns539,2077%
+[2023/11/17, 2:21:40.338 PM] # that each logical message header is matched against, including540,277%~@k   
+[2023/11/17, 2:21:40.339 PM] # headers that span multiple physical lines.541,2977%
+[2023/11/17, 2:21:40.354 PM] #542,2977%~@k   
+[2023/11/17, 2:21:40.355 PM] # By default, these patterns also apply to MIME headers and to the543,0-177%
+[2023/11/17, 2:21:40.371 PM] # headers of attached messages. With older Postfix versions, MIME and544,2977%~@k   
+[2023/11/17, 2:21:40.372 PM] # attached message headers were treated as body text.545,2978%
+[2023/11/17, 2:21:40.387 PM] #546,2978%~@k   
+[2023/11/17, 2:21:40.388 PM] # For details, see "man header_checks".547,178%
+[2023/11/17, 2:21:40.403 PM] #548,2978%~@k   
+[2023/11/17, 2:21:40.403 PM] #header_checks = regexp:/etc/postfix/header_checks549,2978%
+[2023/11/17, 2:21:40.418 PM] 550,2978%~@k   
+[2023/11/17, 2:21:40.418 PM] # FAST ETRN SERVICE551,179%
+[2023/11/17, 2:21:40.437 PM] #552,2979%~@k   
+[2023/11/17, 2:21:40.437 PM] # Postfix maintains per-destination logfiles with information about553,179%
+[2023/11/17, 2:21:40.452 PM] # deferred mail, so that mail can be flushed quickly with the SMTP554,2979%~@k   
+[2023/11/17, 2:21:40.453 PM] # "ETRN domain.tld" command, or by executing "sendmail -qRdomain.tld".555,0-179%
+[2023/11/17, 2:21:40.471 PM] # See the ETRN_README document for a detailed description.556,1979%~@k   
+[2023/11/17, 2:21:40.472 PM] # 557,180%
+[2023/11/17, 2:21:40.486 PM] # The fast_flush_domains parameter controls what destinations are558,2980%~@k   
+[2023/11/17, 2:21:40.488 PM] # eligible for this service. By default, they are all domains that559,2980%
+[2023/11/17, 2:21:40.502 PM] # this server is willing to relay mail to.560,2980%~@k   
+[2023/11/17, 2:21:40.503 PM] # 561,2980%~@k   
+[2023/11/17, 2:21:40.584 PM] #fast_flush_domains = $relay_domains562,280%~@k   
+[2023/11/17, 2:21:40.599 PM] 563,2980%~@k   
+[2023/11/17, 2:21:40.620 PM] # SHOW SOFTWARE VERSION OR NOT564,2981%
+[2023/11/17, 2:21:40.636 PM] #565,2981%~@k   
+[2023/11/17, 2:21:40.637 PM] # The smtpd_banner parameter specifies the text that follows the 220566,281%
+[2023/11/17, 2:21:40.651 PM] # code in the SMTP server's greeting banner. Some people like to see567,2981%
+[2023/11/17, 2:21:40.651 PM] # the mail version advertised. By default, Postfix shows no version.568,0-181%
+[2023/11/17, 2:21:40.651 PM] #569,2981%~@k   
+[2023/11/17, 2:21:40.653 PM] # You MUST specify $myhostname at the start of the text. That is an570,182%
+[2023/11/17, 2:21:40.667 PM] # RFC requirement. Postfix itself does not care.571,2982%~@k   
+[2023/11/17, 2:21:40.667 PM] #572,2982%
+[2023/11/17, 2:21:40.684 PM] #smtpd_banner = $myhostname ESMTP $mail_name573,2982%~@k   
+[2023/11/17, 2:21:40.687 PM] #smtpd_banner = $myhostname ESMTP $mail_name ($mail_version)574,182%
+[2023/11/17, 2:21:40.700 PM] #smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)575,2982%~@k   
+[2023/11/17, 2:21:40.702 PM] smtpd_banner = $myhostname ESMTP576,2983%
+[2023/11/17, 2:21:40.715 PM] 577,183%~@k   
+[2023/11/17, 2:21:40.716 PM] # PARALLEL DELIVERY TO THE SAME DESTINATION578,2983%
+[2023/11/17, 2:21:40.734 PM] #579,2983%~@k   
+[2023/11/17, 2:21:40.735 PM] # How many parallel deliveries to the same user or domain? With local580,2983%
+[2023/11/17, 2:21:40.750 PM] # delivery, it does not make sense to do massively parallel delivery581,2983%~@k   
+[2023/11/17, 2:21:40.751 PM] # to the same user, because mailbox updates must happen sequentially,582,0-183%
+[2023/11/17, 2:21:40.766 PM] # and expensive pipelines in .forward files can cause disasters when583,2984%~@k   
+[2023/11/17, 2:21:40.767 PM] # too many are run at the same time. With SMTP deliveries, 10584,184%
+[2023/11/17, 2:21:40.784 PM] # simultaneous connections to the same domain could be sufficient to585,2984%~@k   
+[2023/11/17, 2:21:40.784 PM] # raise eyebrows.586,2984%
+[2023/11/17, 2:21:40.800 PM] # 587,2984%~@k   
+[2023/11/17, 2:21:40.801 PM] # Each message delivery transport has its XXX_destination_concurrency_limit588,2984%
+[2023/11/17, 2:21:40.818 PM] # parameter.  The default is $default_destination_concurrency_limit for589,2985%~@k   
+[2023/11/17, 2:21:40.819 PM] # most delivery transports. For the local delivery agent the default is 2.590,2985%
+[2023/11/17, 2:21:40.832 PM] 591,1785%~@k   
+[2023/11/17, 2:21:40.833 PM] #local_destination_concurrency_limit = 2592,285%
+[2023/11/17, 2:21:40.850 PM] #default_destination_concurrency_limit = 20593,2985%~@k   
+[2023/11/17, 2:21:40.850 PM] 594,2985%
+[2023/11/17, 2:21:40.866 PM] # DEBUGGING CONTROL595,2986%~@k   
+[2023/11/17, 2:21:40.867 PM] #596,0-186%
+[2023/11/17, 2:21:40.883 PM] # The debug_peer_level parameter specifies the increment in verbose597,2986%~@k   
+[2023/11/17, 2:21:40.884 PM] # logging level when an SMTP client or server host name or address598,2986%
+[2023/11/17, 2:21:40.900 PM] # matches a pattern in the debug_peer_list parameter.599,0-186%~@k   
+[2023/11/17, 2:21:40.900 PM] #600,1986%
+[2023/11/17, 2:21:40.917 PM] #debug_peer_level = 2601,186%~@k   
+[2023/11/17, 2:21:40.918 PM] 602,2987%
+[2023/11/17, 2:21:40.933 PM] # The debug_peer_list parameter specifies an optional list of domain603,2987%~@k   
+[2023/11/17, 2:21:40.934 PM] # or network patterns, /file/name patterns or type:name tables. When604,2987%
+[2023/11/17, 2:21:40.950 PM] # an SMTP client or server host name or address matches a pattern,605,187%~@k   
+[2023/11/17, 2:21:40.951 PM] # increase the verbose logging level by the amount specified in the606,2187%
+[2023/11/17, 2:21:40.965 PM] # debug_peer_level parameter.607,0-187%~@k   
+[2023/11/17, 2:21:40.966 PM] #608,2988%
+[2023/11/17, 2:21:40.983 PM] #debug_peer_list = 127.0.0.1609,2988%~@k   
+[2023/11/17, 2:21:40.983 PM] #debug_peer_list = some.domain610,2988%
+[2023/11/17, 2:21:40.999 PM] 611,2988%~@k   
+[2023/11/17, 2:21:41.000 PM] # The debugger_command specifies the external command that is executed612,2988%
+[2023/11/17, 2:21:41.016 PM] # when a Postfix daemon program is run with the -D option.613,188%~@k   
+[2023/11/17, 2:21:41.016 PM] #614,2889%~@k   
+[2023/11/17, 2:21:41.084 PM] # Use "command .. & sleep 5" so that the debugger can attach before615,2989%~@k   
+[2023/11/17, 2:21:41.102 PM] # the process marches on. If you use an X-based debugger, be sure to616,0-189%~@k   
+[2023/11/17, 2:21:41.118 PM] # set up your XAUTHORITY environment variable before starting Postfix.617,2989%~@k   
+[2023/11/17, 2:21:41.137 PM] #618,2989%~@k   
+[2023/11/17, 2:21:41.150 PM] debugger_command =619,189%
+[2023/11/17, 2:21:41.169 PM] PATH=/bin:/usr/bin:/usr/local/bin:/usr/X11R6/bin620,2990%
+[2023/11/17, 2:21:41.169 PM] ddd $daemon_directory/$process_name $process_id & sleep 5621,2990%~@k   
+[2023/11/17, 2:21:41.169 PM] 622,2990%
+[2023/11/17, 2:21:41.185 PM] # If you can't use X, use this to capture the call stack when a623,190%
+[2023/11/17, 2:21:41.185 PM] # daemon crashes. The result is in a file in the configuration624,1890%
+[2023/11/17, 2:21:41.185 PM] # directory, and is named after the process name and the process ID.625,22-29     90%~@k   
+[2023/11/17, 2:21:41.185 PM] #626,22-29     90%
+[2023/11/17, 2:21:41.202 PM] # debugger_command =627,0-191%
+[2023/11/17, 2:21:41.202 PM] #       PATH=/bin:/usr/bin:/usr/local/bin; export PATH; (echo cont;628,2991%
+[2023/11/17, 2:21:41.202 PM] #       echo where) | gdb $daemon_directory/$process_name $process_id 2>&1629,2991%~@k   
+[2023/11/17, 2:21:41.203 PM] #       >$config_directory/$process_name.$process_id.log & sleep 5630,2991%
+[2023/11/17, 2:21:41.218 PM] #631,191%~@k   
+[2023/11/17, 2:21:41.220 PM] # Another possibility is to run gdb under a detached screen session.632,2091%
+[2023/11/17, 2:21:41.235 PM] # To attach to the screen session, su root and run "screen -r633,23-29     92%~@k   
+[2023/11/17, 2:21:41.236 PM] # <id_string>" where <id_string> uniquely matches one of the detached634,23-29     92%
+[2023/11/17, 2:21:41.252 PM] # sessions (from "screen -list").635,23-29     92%~@k   
+[2023/11/17, 2:21:41.253 PM] #636,192%
+[2023/11/17, 2:21:41.269 PM] # debugger_command =637,2992%~@k   
+[2023/11/17, 2:21:41.270 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen638,2992%
+[2023/11/17, 2:21:41.284 PM] #       -dmS $process_name gdb $daemon_directory/$process_name639,2993%~@k   
+[2023/11/17, 2:21:41.286 PM] #       $process_id & sleep 1640,2993%
+[2023/11/17, 2:21:41.298 PM] 641,193%~@k   
+[2023/11/17, 2:21:41.299 PM] # INSTALL-TIME CONFIGURATION INFORMATION642,2093%
+[2023/11/17, 2:21:41.316 PM] #643,23-29     93%~@k   
+[2023/11/17, 2:21:41.316 PM] # The following parameters are used when installing a new Postfix version.644,23-29     93%
+[2023/11/17, 2:21:41.333 PM] # 645,23-29     93%~@k   
+[2023/11/17, 2:21:41.334 PM] # sendmail_path: The full pathname of the Postfix sendmail command.646,0-194%
+[2023/11/17, 2:21:41.351 PM] # This is the Sendmail-compatible mail posting interface.647,2994%~@k   
+[2023/11/17, 2:21:41.351 PM] # 648,194%
+[2023/11/17, 2:21:41.370 PM] sendmail_path = /usr/bin/postfix649,2994%~@k   
+[2023/11/17, 2:21:41.370 PM] 650,294%
+[2023/11/17, 2:21:41.384 PM] # newaliases_path: The full pathname of the Postfix newaliases command.651,2994%~@k   
+[2023/11/17, 2:21:41.384 PM] # This is the Sendmail-compatible command to build alias databases.652,2995%
+[2023/11/17, 2:21:41.400 PM] #653,295%~@k   
+[2023/11/17, 2:21:41.401 PM] newaliases_path = /usr/bin/newaliases654,2995%
+[2023/11/17, 2:21:41.417 PM] 655,0-195%~@k   
+[2023/11/17, 2:21:41.418 PM] # mailq_path: The full pathname of the Postfix mailq command.  This656,2995%
+[2023/11/17, 2:21:41.434 PM] # is the Sendmail-compatible mail queue listing command.657,2995%~@k   
+[2023/11/17, 2:21:41.434 PM] # 658,196%
+[2023/11/17, 2:21:41.450 PM] mailq_path = /usr/bin/mailq659,2996%~@k   
+[2023/11/17, 2:21:41.451 PM] 660,0-196%
+[2023/11/17, 2:21:41.467 PM] # setgid_group: The group for mail submission and queue management661,2996%~@k   
+[2023/11/17, 2:21:41.467 PM] # commands.  This must be a group name with a numerical group ID that662,2996%
+[2023/11/17, 2:21:41.485 PM] # is not shared with other accounts, not even with the Postfix account.663,296%~@k   
+[2023/11/17, 2:21:41.485 PM] #664,2796%
+[2023/11/17, 2:21:41.500 PM] setgid_group = postdrop665,0-197%~@k   
+[2023/11/17, 2:21:41.502 PM] 666,2997%
+[2023/11/17, 2:21:41.518 PM] # html_directory: The location of the Postfix HTML documentation.667,2997%~@k   
+[2023/11/17, 2:21:41.518 PM] #668,2997%
+[2023/11/17, 2:21:41.535 PM] #html_directory =669,197%~@k   
+[2023/11/17, 2:21:41.536 PM] 670,2397%~@k   
+[2023/11/17, 2:21:41.617 PM] # manpage_directory: The location of the Postfix on-line manual pages.671,0-198%~@k   
+[2023/11/17, 2:21:41.633 PM] #672,2998%~@k   
+[2023/11/17, 2:21:41.654 PM] #manpage_directory =673,198%~@k   
+[2023/11/17, 2:21:41.666 PM] 674,1798%~@k   
+[2023/11/17, 2:21:41.683 PM] # sample_directory: The location of the Postfix sample configuration files.675,0-198%~@k   
+[2023/11/17, 2:21:41.700 PM] # This parameter is obsolete as of Postfix 2.1.676,2998%
+[2023/11/17, 2:21:41.702 PM] #677,199%~@k   
+[2023/11/17, 2:21:41.703 PM] #sample_directory =678,2099%
+[2023/11/17, 2:21:41.721 PM] 679,0-199%
+[2023/11/17, 2:21:41.721 PM] # readme_directory: The location of the Postfix README files.680,2999%
+[2023/11/17, 2:21:41.721 PM] #681,2999%~@k   
+[2023/11/17, 2:21:41.722 PM] #readme_directory =682,199%
+[2023/11/17, 2:21:41.738 PM] inet_protocols = ipv4683,19Bot4,0-15,29 ~@k   6,1 7,198,21~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   i 
+[2023/11/17, 2:21:43.266 PM] -- INSERT --688,21Bot2
+[2023/11/17, 2:21:44.053 PM] 689,1Bot
+[2023/11/17, 2:21:44.421 PM] 690,1Bots2m3t4smtp5smtpd6smtpd_7u8s9e10_1t2s3l432l3smtpd_use_tls45=67y8e9yes20
+[2023/11/17, 2:21:56.255 PM] 691,1Bots2m3p43t4smtp5smtp_6t7l8s9109 _10m1a2n3d4a5t6o7r8y9_20p1r2o3t4o5c6o7l8smtp_tls_mandatory_protocols930=12!3S4S5L6v728,940!1S2S3L4v536
+[2023/11/17, 2:22:33.806 PM] 692,1Bots2m3t4smtp5smtpd6smtpd_7t8l9s10_1m2a3n4d5a6t7o8r9y20_1p2r3o4t5c65o6c7o8l9smtpd_tls_mandatory_protocols301=23!4S5S6L7v829,401!2S3S4L5v637
+[2023/11/17, 2:23:13.453 PM] 693,1Bots2m3t4smtp5smtpd6smtpd_7t8l9s1010_1v21c2e3r4f54t565_6g76f7i8l9smtpd_tls_cert_file201=23/4a5c654c5a6/7s8e9r30v1e2r3.4p5e6m7
+[2023/11/17, 2:23:45.704 PM] 694,1Bots2m3t4smtp5smtpd6smtpd_7t8h98l9s10_1k2e3y4_5f6i7l8smtpd_tls_key_file920=12/3v4c5c6543c4a5/6p7r8i9v30e10a1t2e343/4s5e6r7v8e9r40.1k2e3y4
+[2023/11/17, 2:24:11.265 PM] 695,1Bots2m3t4smtp5smtpd6smtpd_7t8l9s10s1e2s3s432109 s10_1s2e3e4s543s4s5i6o7n8_9c20a1h2c321c2h3e4_5d6a7t8a9b30a1s2smtpd_tls_session_cache_database34=56b7r87t8r9e40btree1:2$3{4}{}54d}d}5a}a}6t}t}7data}a}8data_}_}9d}d}50i}i}1r}r}2e}e}3c}c}4r}r}5}}4t}t}5o}o}6r}r}7data_directory}y}89/{}60
+[2023/11/17, 2:24:55.607 PM] 696,1Bots2m3p4t5e65p6d7_8s9c10a1c2h3e432109 87654321~                                                                                          5,60s1m2p3t4p5d6_7s8c98c9a70c1h2e3^[  695,72Bot::wq"main.cf" 695L, 27556B written
+[2023/11/17, 2:25:55.153 PM] sk2a03@ecc:/etc/postfix$ sudo postfix check
+[2023/11/17, 2:26:11.414 PM] sk2a03@ecc:/etc/postfix$ siudo sysytemclttl restart postfix
+[2023/11/17, 2:26:32.652 PM] sk2a03@ecc:/etc/postfix$ sudo systemctl restart named
+[2023/11/17, 2:26:53.014 PM] sk2a03@ecc:/etc/postfix$ ns lookup mklsk2a03@.eccc.omp.as.jp
+[2023/11/17, 2:27:17.316 PM] Server:127.0.0.53
+[2023/11/17, 2:27:17.316 PM] Address:127.0.0.53#53
+
+[2023/11/17, 2:27:17.316 PM] ** server can't find mlsk2a03.ecccomp.as.jp: NXDOMAIN
+
+[2023/11/17, 2:27:17.333 PM] sk2a03@ecc:/etc/postfix$    sudo vi /etc/resolv.conf   sudo vi /etc/resolv.conf
+[2023/11/17, 2:27:41.235 PM] "/etc/resolv.conf" 23L, 920B▽             # This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+[2023/11/17, 2:27:41.237 PM] # Do not edit.## This file might be symlinked as /etc/resolv.conf. If you're looking at
+[2023/11/17, 2:27:41.237 PM] # /etc/resolv.conf and seeing this text, you have followed the symlink.
+[2023/11/17, 2:27:41.237 PM] #
+[2023/11/17, 2:27:41.237 PM] # This is a dynamic resolv.conf file for connecting local clients to the
+[2023/11/17, 2:27:41.237 PM] # internal DNS stub resolver of systemd-resolved. This file lists all
+[2023/11/17, 2:27:41.238 PM] # configured search domains.
+[2023/11/17, 2:27:41.238 PM] #
+[2023/11/17, 2:27:41.238 PM] # Run "resolvectl status" to see details about the uplink DNS servers
+[2023/11/17, 2:27:41.238 PM] # currently in use.
+[2023/11/17, 2:27:41.238 PM] #
+[2023/11/17, 2:27:41.238 PM] # Third party programs should typically not access this file directly, but only
+[2023/11/17, 2:27:41.238 PM] # through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+[2023/11/17, 2:27:41.238 PM] # different way, replace this symlink by a static file or a different symlink.
+[2023/11/17, 2:27:41.238 PM] #
+[2023/11/17, 2:27:41.238 PM] # See man:systemd-resolved.service(8) for details about the supported modes of
+[2023/11/17, 2:27:41.238 PM] # operation for /etc/resolv.conf.
+
+[2023/11/17, 2:27:41.238 PM] nameserver 127.0.0.53
+[2023/11/17, 2:27:41.239 PM] options edns0 trust-ad
+[2023/11/17, 2:27:41.239 PM] search .
+[2023/11/17, 2:27:41.239 PM] ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          21,21All# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved(8).
+[2023/11/17, 2:27:41.239 PM] # Do not edit.
+[2023/11/17, 2:27:41.239 PM] #
+[2023/11/17, 2:27:41.239 PM] # This file might be symlinked as /etc/resolv.conf. If you're looking at
+[2023/11/17, 2:27:41.239 PM] # /etc/resolv.conf and seeing this text, you have followed the symlink.
+[2023/11/17, 2:27:41.239 PM] #
+[2023/11/17, 2:27:41.240 PM] # This is a dynamic resolv.conf file for connecting local clients to the
+[2023/11/17, 2:27:41.240 PM] # internal DNS stub resolver of systemd-resolved. This file lists all
+[2023/11/17, 2:27:41.240 PM] # configured search domains.
+[2023/11/17, 2:27:41.240 PM] #
+[2023/11/17, 2:27:41.240 PM] # Run "resolvectl status" to see details about the uplink DNS servers
+[2023/11/17, 2:27:41.240 PM] # currently in use.
+[2023/11/17, 2:27:41.240 PM] #
+[2023/11/17, 2:27:41.240 PM] # Third party programs should typically not access this file directly, but only
+[2023/11/17, 2:27:41.240 PM] # through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+[2023/11/17, 2:27:41.240 PM] # different way, replace this symlink by a static file or a different symlink.
+[2023/11/17, 2:27:41.240 PM] #
+[2023/11/17, 2:27:41.240 PM] # See man:systemd-resolved.service(8) for details about the supported modes of
+[2023/11/17, 2:27:41.240 PM] # operation for /etc/resolv.conf.
+
+[2023/11/17, 2:27:41.240 PM] nameserver 127.0.0.53
+[2023/11/17, 2:27:41.240 PM] options edns0 trust-ad
+[2023/11/17, 2:27:41.240 PM] search .
+[2023/11/17, 2:27:41.240 PM] ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          21,21All"/etc/resolv.conf" 23L, 920Bi -- INSERT --21,21All21127.0.0.01987654304.52617.819020.110.21.10.5283^[  21,22All::WqE492: Not an editor command: Wq21,22All::wq"/etc/resolv.conf" 23L, 921B written
+[2023/11/17, 2:27:51.115 PM] sk2a03@ecc:/etc/postfix$ nslookup mlsk2a03.ecccomp.as.jp
+[2023/11/17, 2:27:53.589 PM] Server:10.21.10.58
+[2023/11/17, 2:27:53.589 PM] Address:10.21.10.58#53
+
+[2023/11/17, 2:27:53.589 PM] ** server can't find mlsk2a03.ecccomp.as.jp: NXDOMAIN
+
+[2023/11/17, 2:27:53.603 PM] sk2a03@ecc:/etc/postfix$    sudo vi /etc/bind/sk2a03db.local   sudo vi /etc/bind/sk2a03db.local
+[2023/11/17, 2:28:24.098 PM] "/etc/bind/sk2a03db.local" 22L, 523B▽             ;
+[2023/11/17, 2:28:24.102 PM] ; BIND data file for local loopback interface;$TTL    604800
+[2023/11/17, 2:28:24.102 PM] @       IN      SOA     sk2a03.ecccomp.ac.jp. root.ecccomp.ac.jp. (2; Serial604800; Refresh86400; Retry2419200; Expire604800 ); Negative Cache TTL
+[2023/11/17, 2:28:24.102 PM] ;
+[2023/11/17, 2:28:24.102 PM] @       IN      NS      sk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.102 PM] @       IN      A10.21.10.58
+[2023/11/17, 2:28:24.102 PM] sk2a03  IN      A10.21.10.58
+[2023/11/17, 2:28:24.102 PM] ;web    IN      CNAME   sk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.102 PM] ;
+[2023/11/17, 2:28:24.102 PM] ;sk2a.ecccomp.ac.jp     IN A 10.21.10.66
+[2023/11/17, 2:28:24.102 PM] ;web.ecccomp.ac.jp      IN A 10.21.10.66
+
+[2023/11/17, 2:28:24.102 PM] @       IN      MX      10      mlsk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.103 PM] mlsk2a03IN A 10.21.10.58
+[2023/11/17, 2:28:24.103 PM] mlsk2a03.ecccomp.ac.jp. IN A 10.21.10.58
+[2023/11/17, 2:28:24.103 PM] ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          17,1All;
+[2023/11/17, 2:28:24.104 PM] ; BIND data file for local loopback interface
+[2023/11/17, 2:28:24.104 PM] ;
+[2023/11/17, 2:28:24.104 PM] $TTL    604800
+[2023/11/17, 2:28:24.104 PM] @       IN      SOA     sk2a03.ecccomp.ac.jp. root.ecccomp.ac.jp. (2; Serial604800; Refresh86400; Retry2419200; Expire604800 ); Negative Cache TTL
+[2023/11/17, 2:28:24.104 PM] ;
+[2023/11/17, 2:28:24.104 PM] @       IN      NS      sk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.104 PM] @       IN      A10.21.10.58
+[2023/11/17, 2:28:24.104 PM] sk2a03  IN      A10.21.10.58
+[2023/11/17, 2:28:24.104 PM] ;web    IN      CNAME   sk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.104 PM] ;
+[2023/11/17, 2:28:24.104 PM] ;sk2a.ecccomp.ac.jp     IN A 10.21.10.66
+[2023/11/17, 2:28:24.104 PM] ;web.ecccomp.ac.jp      IN A 10.21.10.66
+
+[2023/11/17, 2:28:24.104 PM] @       IN      MX      10      mlsk2a03.ecccomp.ac.jp.
+[2023/11/17, 2:28:24.104 PM] mlsk2a03IN A 10.21.10.58
+[2023/11/17, 2:28:24.104 PM] mlsk2a03.ecccomp.ac.jp. IN A 10.21.10.58
+[2023/11/17, 2:28:24.104 PM] ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          ~                                                                                          17,1All"/etc/bind/sk2a03db.local" 22L, 523B~@k   8~@k   7~@k   2i -- INSERT --17,2Allsk2a.ecccomp.ac.jp      IN A 10.21.10.66182web.ecccomp.ac.jp       IN A 10.21.10.661762152web     IN      CNAME   sk2a03.ecccomp.ac.jp.1678^[  18,1All::wq"/etc/bind/sk2a03db.local" 22L, 519B written
+[2023/11/17, 2:28:34.309 PM] sk2a03@ecc:/etc/postfix$ nslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart named
+[2023/11/17, 2:28:36.319 PM] sk2a03@ecc:/etc/postfix$ sudo systemctl restart namednslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart namednslookup mlsk2a03.ecccomp.as.jp
+[2023/11/17, 2:28:38.006 PM] Server:10.21.10.58
+[2023/11/17, 2:28:38.007 PM] Address:10.21.10.58#53
+
+[2023/11/17, 2:28:38.007 PM] ** server can't find mlsk2a03.ecccomp.as.jp: NXDOMAIN
+
+[2023/11/17, 2:28:38.021 PM] sk2a03@ecc:/etc/postfix$ nslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart namednslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart namedpostfixpostfix checkvi main.cf
+[2023/11/17, 2:29:06.515 PM] "main.cf" 695L, 27556B▽             # To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:29:06.527 PM] # <id_string>" where <id_string> uniquely matches one of the detached# sessions (from "screen -list").#
+[2023/11/17, 2:29:06.527 PM] # debugger_command =
+[2023/11/17, 2:29:06.527 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:29:06.527 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:29:06.527 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:29:06.528 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:29:06.528 PM] #
+[2023/11/17, 2:29:06.528 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:29:06.528 PM] # 
+[2023/11/17, 2:29:06.528 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:29:06.528 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:29:06.528 PM] # 
+[2023/11/17, 2:29:06.528 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:29:06.528 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:29:06.528 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:29:06.528 PM] #
+[2023/11/17, 2:29:06.528 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:29:06.528 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:29:06.528 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:29:06.528 PM] # 
+[2023/11/17, 2:29:06.528 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:29:06.528 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:29:06.529 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:29:06.529 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:29:06.529 PM] #
+[2023/11/17, 2:29:06.529 PM] setgid_group = postdrop
+
+[2023/11/17, 2:29:06.529 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:29:06.529 PM] #
+[2023/11/17, 2:29:06.529 PM] #html_directory =
+
+[2023/11/17, 2:29:06.529 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:29:06.529 PM] #
+[2023/11/17, 2:29:06.529 PM] #manpage_directory =
+
+[2023/11/17, 2:29:06.529 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:29:06.529 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:29:06.529 PM] #
+[2023/11/17, 2:29:06.529 PM] #sample_directory =
+
+[2023/11/17, 2:29:06.529 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:29:06.529 PM] #
+[2023/11/17, 2:29:06.529 PM] #readme_directory =
+[2023/11/17, 2:29:06.529 PM] inet_protocols = ipv4
+
+[2023/11/17, 2:29:06.529 PM] smtpd_use_tls = yes
+[2023/11/17, 2:29:06.530 PM] smtp_tls_mandatory_protocols = !SSLv2, !SSLv3
+[2023/11/17, 2:29:06.530 PM] smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3
+[2023/11/17, 2:29:06.530 PM] smtpd_tls_cert_file = /ca/server.pem
+[2023/11/17, 2:29:06.530 PM] smtpd_tls_key_file = /ca/private/server.key
+[2023/11/17, 2:29:06.530 PM] smtpd_tls_session_cache_database = btree:${data_directory}/smptpd_scache695,72Bot# To attach to the screen session, su root and run "screen -r
+[2023/11/17, 2:29:06.535 PM] # <id_string>" where <id_string> uniquely matches one of the detached
+[2023/11/17, 2:29:06.536 PM] # sessions (from "screen -list").
+[2023/11/17, 2:29:06.536 PM] #
+[2023/11/17, 2:29:06.536 PM] # debugger_command =
+[2023/11/17, 2:29:06.536 PM] #       PATH=/bin:/usr/bin:/sbin:/usr/sbin; export PATH; screen
+[2023/11/17, 2:29:06.536 PM] #       -dmS $process_name gdb $daemon_directory/$process_name
+[2023/11/17, 2:29:06.536 PM] #       $process_id & sleep 1
+
+[2023/11/17, 2:29:06.536 PM] # INSTALL-TIME CONFIGURATION INFORMATION
+[2023/11/17, 2:29:06.536 PM] #
+[2023/11/17, 2:29:06.536 PM] # The following parameters are used when installing a new Postfix version.
+[2023/11/17, 2:29:06.536 PM] # 
+[2023/11/17, 2:29:06.536 PM] # sendmail_path: The full pathname of the Postfix sendmail command.
+[2023/11/17, 2:29:06.536 PM] # This is the Sendmail-compatible mail posting interface.
+[2023/11/17, 2:29:06.536 PM] # 
+[2023/11/17, 2:29:06.536 PM] sendmail_path = /usr/bin/postfix
+
+[2023/11/17, 2:29:06.536 PM] # newaliases_path: The full pathname of the Postfix newaliases command.
+[2023/11/17, 2:29:06.536 PM] # This is the Sendmail-compatible command to build alias databases.
+[2023/11/17, 2:29:06.536 PM] #
+[2023/11/17, 2:29:06.536 PM] newaliases_path = /usr/bin/newaliases
+
+[2023/11/17, 2:29:06.536 PM] # mailq_path: The full pathname of the Postfix mailq command.  This
+[2023/11/17, 2:29:06.536 PM] # is the Sendmail-compatible mail queue listing command.
+[2023/11/17, 2:29:06.537 PM] # 
+[2023/11/17, 2:29:06.537 PM] mailq_path = /usr/bin/mailq
+
+[2023/11/17, 2:29:06.537 PM] # setgid_group: The group for mail submission and queue management
+[2023/11/17, 2:29:06.537 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 2:29:06.537 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 2:29:06.537 PM] #
+[2023/11/17, 2:29:06.537 PM] setgid_group = postdrop
+
+[2023/11/17, 2:29:06.537 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 2:29:06.537 PM] #
+[2023/11/17, 2:29:06.537 PM] #html_directory =
+
+[2023/11/17, 2:29:06.537 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 2:29:06.537 PM] #
+[2023/11/17, 2:29:06.537 PM] #manpage_directory =
+
+[2023/11/17, 2:29:06.537 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 2:29:06.537 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 2:29:06.537 PM] #
+[2023/11/17, 2:29:06.537 PM] #sample_directory =
+
+[2023/11/17, 2:29:06.537 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 2:29:06.537 PM] #
+[2023/11/17, 2:29:06.537 PM] #readme_directory =
+[2023/11/17, 2:29:06.537 PM] inet_protocols = ipv4
+
+[2023/11/17, 2:29:06.538 PM] smtpd_use_tls = yes
+[2023/11/17, 2:29:06.538 PM] smtp_tls_mandatory_protocols = !SSLv2, !SSLv3
+[2023/11/17, 2:29:06.538 PM] smtpd_tls_mandatory_protocols = !SSLv2, !SSLv3
+[2023/11/17, 2:29:06.538 PM] smtpd_tls_cert_file = /ca/server.pem
+[2023/11/17, 2:29:06.538 PM] smtpd_tls_key_file = /ca/private/server.key
+[2023/11/17, 2:29:06.538 PM] smtpd_tls_session_cache_database = btree:${data_directory}/smptpd_scache695,72Bot"main.cf" 695L, 27556B~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ~@k   ::wq"main.cf" 695L, 27556B written
+[2023/11/17, 2:29:26.482 PM] sk2a03@ecc:/etc/postfix$ sudo vi main.cfnslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart namednslookup mlsk2a03.ecccomp.as.jpsudo systemctl restart namedbind9
+[2023/11/17, 2:30:07.529 PM] sk2a03@ecc:/etc/postfix$ sudo systemctl restart bind9vi main.cfnslookup mlsk2a03.ecccomp.as.jp
+[2023/11/17, 2:30:10.314 PM] Server:10.21.10.58
+[2023/11/17, 2:30:10.315 PM] Address:10.21.10.58#53
+
+[2023/11/17, 2:30:10.315 PM] ** server can't find mlsk2a03.ecccomp.as.jp: NXDOMAIN
+
+[2023/11/17, 2:30:10.329 PM] sk2a03@ecc:/etc/postfix$ nslookup mlsk2a03.ecccomp.as.jp.jpc.jp
+[2023/11/17, 2:30:33.844 PM] Server:10.21.10.58
+[2023/11/17, 2:30:33.844 PM] Address:10.21.10.58#53
+
+[2023/11/17, 2:30:33.844 PM] Name:mlsk2a03.ecccomp.ac.jp
+[2023/11/17, 2:30:33.844 PM] Address: 10.21.10.58
+
+[2023/11/17, 2:30:33.858 PM] sk2a03@ecc:/etc/postfix$ sudo telnet localhost 587
+[2023/11/17, 2:30:52.843 PM] Trying 127.0.0.1...
+[2023/11/17, 2:30:52.844 PM] Connected to localhost.
+[2023/11/17, 2:30:52.844 PM] Escape character is '^]'.
+[2023/11/17, 2:30:52.877 PM] 220 mlsk2a03.ecccomp.ac.jp ESMTP
+[2023/11/17, 2:30:57.218 PM] help mli sk2a03.ecccomp. .ac.jp
+[2023/11/17, 2:31:09.491 PM] 502 5.5.2 Error: command not recognized
+[2023/11/17, 2:31:54.621 PM] ^Cççcç^C^C^C^C^[q
+[2023/11/17, 2:31:58.093 PM] quti
+[2023/11/17, 2:32:00.773 PM] ^[[A\     quit
+[2023/11/17, 2:32:03.954 PM] Connection closed by foreign host.
+[2023/11/17, 2:32:03.957 PM] sk2a03@ecc:/etc/postfix$ sudo telnet localhost 587
+[2023/11/17, 2:32:07.137 PM] Trying 127.0.0.1...
+[2023/11/17, 2:32:07.138 PM] Connected to localhost.
+[2023/11/17, 2:32:07.138 PM] Escape character is '^]'.
+[2023/11/17, 2:32:07.138 PM] 220 mlsk2a03.ecccomp.ac.jp ESMTP
+[2023/11/17, 2:32:09.296 PM] helomlsj     ml  sk2a03 3.eccconpm   mp.ac.jp
+[2023/11/17, 2:32:28.937 PM] 250 mlsk2a03.ecccomp.ac.jp
+[2023/11/17, 2:32:31.462 PM] ehlo mlsh k2a03.ecccomp.ac.jp
+[2023/11/17, 2:32:45.048 PM] 250-mlsk2a03.ecccomp.ac.jp
+[2023/11/17, 2:32:45.048 PM] 250-PIPELINING
+[2023/11/17, 2:32:45.048 PM] 250-SIZE 10240000
+[2023/11/17, 2:32:45.048 PM] 250-VRFY
+[2023/11/17, 2:32:45.048 PM] 250-ETRN
+[2023/11/17, 2:32:45.048 PM] 250-STARTTLS
+[2023/11/17, 2:32:45.048 PM] 250-ENHANCEDSTATUSCODES
+[2023/11/17, 2:32:45.048 PM] 250-8BITMIME
+[2023/11/17, 2:32:45.048 PM] 250-DSN
+[2023/11/17, 2:32:45.048 PM] 250-SMTPUTF8
+[2023/11/17, 2:32:45.048 PM] 250 CHUNKING
+[2023/11/17, 2:32:49.465 PM] mail form:  ed cc@ecccomp.ac.jp
+[2023/11/17, 2:33:03.540 PM] 501 5.5.4 Syntax: MAIL FROM:<address>
+[2023/11/17, 2:33:17.419 PM] re cpt to:mli user@               ^[[A^[[A        mail fr orm:mlsk2a03@e  @ecccomp.ac.jp
+[2023/11/17, 2:34:09.416 PM] 501 5.5.4 Syntax: MAIL FROM:<address>
+[2023/11/17, 2:34:18.396 PM] re cpt to:mluser@ecccomp.ac.jp
+[2023/11/17, 2:34:40.896 PM] 503 5.5.1 Error: need MAIL command
+[2023/11/17, 2:35:04.002 PM] mail form   rm om  :mlsk2a903   03@ecccomp.ac.jp
+[2023/11/17, 2:35:24.230 PM] 250 2.1.0 Ok
+[2023/11/17, 2:35:26.955 PM] re cpt to  :mluser@ecccomp.ac.jp
+[2023/11/17, 2:35:39.301 PM] 250 2.1.5 Ok
+[2023/11/17, 2:35:41.068 PM] data
+[2023/11/17, 2:35:43.250 PM] 354 End data with <CR><LF>.<CR><LF>
+[2023/11/17, 2:35:45.362 PM] hello !!!!!!!!!
+[2023/11/17, 2:35:51.131 PM] .
+[2023/11/17, 2:35:52.359 PM] 250 2.0.0 Ok: queued as 50D4B1594
+[2023/11/17, 2:35:54.030 PM] quit
+[2023/11/17, 2:35:55.466 PM] 221 2.0.0 Bye
+[2023/11/17, 2:35:55.466 PM] Connection closed by foreign host.
+[2023/11/17, 2:35:55.478 PM] sk2a03@ecc:/etc/postfix$ sudo su mluser
+[2023/11/17, 2:36:03.412 PM] mluser@ecc:/etc/postfix$ 　mail -f ~/Maildir　mail -f ~/Maildir
+[2023/11/17, 2:36:34.317 PM] bash: 　mail: command not found
+[2023/11/17, 2:36:34.319 PM] mluser@ecc:/etc/postfix$ 　mail -f ~/Maildir
+[2023/11/17, 2:36:39.526 PM] "/home/mluser/Maildir": 3 messages 1 new
+[2023/11/17, 2:36:39.526 PM]      1 sk2a03@ecc         Fri Nov 10 07:37  13/424   mail test
+[2023/11/17, 2:36:39.526 PM]      2 sk2a03@ecc         Fri Nov 17 01:56  14/433   12321321312
+[2023/11/17, 2:36:39.526 PM] >N   3 mlsk2a03@ecccomp.a Fri Nov 17 05:35  11/451   
+[2023/11/17, 2:36:39.526 PM] ? 
+[2023/11/17, 2:36:55.316 PM] Return-Path: <mlsk2a03@ecccomp.ac.jp>
+[2023/11/17, 2:36:55.317 PM] X-Original-To: mluser@ecccomp.ac.jp
+[2023/11/17, 2:36:55.317 PM] Delivered-To: mluser@ecccomp.ac.jp
+[2023/11/17, 2:36:55.317 PM] Received: from mlsk2a03.ecccomp.ac.jp (localhost [127.0.0.1])
+[2023/11/17, 2:36:55.317 PM] by mlsk2a03.ecccomp.ac.jp (Postfix) with ESMTP id 50D4B1594
+[2023/11/17, 2:36:55.317 PM] for <mluser@ecccomp.ac.jp>; Fri, 17 Nov 2023 05:35:24 +0000 (UTC)
+[2023/11/17, 2:36:55.317 PM] Message-Id: <20231117053539.50D4B1594@mlsk2a03.ecccomp.ac.jp>
+[2023/11/17, 2:36:55.317 PM] Date: Fri, 17 Nov 2023 05:35:24 +0000 (UTC)
+[2023/11/17, 2:36:55.317 PM] From: mlsk2a03@ecccomp.ac.jp
+
+[2023/11/17, 2:36:55.317 PM] hello !!!!!!!!!
+[2023/11/17, 2:36:55.317 PM] ? 
+[2023/11/17, 2:36:55.482 PM] No applicable message
+[2023/11/17, 2:36:55.482 PM] ? 
+[2023/11/17, 2:36:56.263 PM] No applicable message
+[2023/11/17, 2:36:56.263 PM] ? 
+[2023/11/17, 2:36:56.494 PM] No applicable message
+[2023/11/17, 2:36:56.497 PM] ? 
+[2023/11/17, 2:36:56.745 PM] No applicable message
+[2023/11/17, 2:36:56.746 PM] ? 
+[2023/11/17, 2:36:56.978 PM] No applicable message
+[2023/11/17, 2:36:56.979 PM] ? quit
+[2023/11/17, 2:37:01.886 PM] Held 3 messages in /home/mluser/Maildir
+[2023/11/17, 2:37:01.892 PM] mluser@ecc:/etc/postfix$ su ecc
+[2023/11/17, 2:37:05.215 PM] Password: 
+[2023/11/17, 2:37:07.253 PM] ecc@ecc:/etc/postfix$ sudo openssl s_client -connect mluser.ecccomp.ac.jp:995sudo openssl s_client -connect mluser.ecccomp.ac.jp:995
+[2023/11/17, 2:37:09.317 PM] [sudo] password for ecc: 
+[2023/11/17, 2:37:12.509 PM] 202004BBFFFF0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Name or service not known
+[2023/11/17, 2:37:12.510 PM] connect:errno=22
+[2023/11/17, 2:37:12.513 PM] ecc@ecc:/etc/postfix$ sudo openssl s_client -connect mluser.ecccomp.ac.jp:995
+[2023/11/17, 2:37:15.982 PM] 20607DAFFFFF0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Name or service not known
+[2023/11/17, 2:37:15.982 PM] connect:errno=22
+[2023/11/17, 2:37:15.985 PM] ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ sudo openssl s_client -connect mluser.ecccomp.ac.jp:995475
+[2023/11/17, 2:38:08.367 PM] 2020FF97FFFF0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Name or service not known
+[2023/11/17, 2:38:08.368 PM] connect:errno=22
+[2023/11/17, 2:38:08.371 PM] ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ ecc@ecc:/etc/postfix$ sudo netstat -natsudo netstat -nat
+[2023/11/17, 2:38:52.321 PM] sudo: netstat: command not found
+[2023/11/17, 2:38:52.322 PM] ecc@ecc:/etc/postfix$ sudo netstat -natopenssl s_client -connect mluser.ecccomp.ac.jp:475:475:475:475:475:475:475:475:475:475:475:475:475:475:475
+[2023/11/17, 2:39:14.617 PM] 20507B84FFFF0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Name or service not known
+[2023/11/17, 2:39:14.618 PM] connect:errno=22
+[2023/11/17, 2:39:14.622 PM] ecc@ecc:/etc/postfix$ sudo openssl s_client -connect mluser:475netstat -natopenssl s_client -connect mluser.ecccomp.ac.jp:475995
+[2023/11/17, 2:40:31.829 PM] 20B0CA8BFFFF0000:error:10080002:BIO routines:BIO_lookup_ex:system lib:../crypto/bio/bio_addr.c:738:Name or service not known
+[2023/11/17, 2:40:31.829 PM] connect:errno=22
+[2023/11/17, 2:40:31.832 PM] ecc@ecc:/etc/postfix$ sudo openssl s_client -connect mluser.ecccomp.ac.jp:995.ecccomp.ac.jp:995.ecccomp.ac.jp:995.ecccomp.ac.jp:995.ecccomp.ac.jp:995.ecccomp.ac.jp:995.ecccomp.ac.jp:995m.ecccomp.ac.jp:995l.ecccomp.ac.jp:995s.ecccomp.ac.jp:995k.ecccomp.ac.jp:9952.ecccomp.ac.jp:995a.ecccomp.ac.jp:9950.ecccomp.ac.jp:9953.ecccomp.ac.jp:995
+[2023/11/17, 2:42:45.428 PM] CONNECTED(00000003)
+[2023/11/17, 2:42:45.449 PM] depth=0 C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.451 PM] verify error:num=18:self-signed certificate
+[2023/11/17, 2:42:45.451 PM] verify return:1
+[2023/11/17, 2:42:45.451 PM] depth=0 C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.452 PM] verify return:1
+[2023/11/17, 2:42:45.453 PM] ---
+[2023/11/17, 2:42:45.453 PM] Certificate chain
+[2023/11/17, 2:42:45.453 PM]  0 s:C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.453 PM]    i:C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.453 PM]    a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+[2023/11/17, 2:42:45.453 PM]    v:NotBefore: Oct 18 12:35:29 2023 GMT; NotAfter: Oct 17 12:35:29 2024 GMT
+[2023/11/17, 2:42:45.453 PM] ---
+[2023/11/17, 2:42:45.453 PM] Server certificate
+[2023/11/17, 2:42:45.453 PM] -----BEGIN CERTIFICATE-----
+[2023/11/17, 2:42:45.453 PM] MIIDnTCCAoUCFEq74mdqRw3s7Y/lXfwD5NH30edmMA0GCSqGSIb3DQEBCwUAMIGK
+[2023/11/17, 2:42:45.453 PM] MQswCQYDVQQGEwJKUDEOMAwGA1UECAwFT1NBS0ExDjAMBgNVBAcMBU9TQUtBMRAw
+[2023/11/17, 2:42:45.453 PM] DgYDVQQKDAdFQ0NDb21wMQswCQYDVQQLDAJJVDEaMBgGA1UEAwwRZWNjLmVjY2Nv
+[2023/11/17, 2:42:45.453 PM] bXAuYWMuanAxIDAeBgkqhkiG9w0BCQEWEWVjY0BlY2Njb21wLmFjLmpwMB4XDTIz
+[2023/11/17, 2:42:45.453 PM] MTAxODEyMzUyOVoXDTI0MTAxNzEyMzUyOVowgYoxCzAJBgNVBAYTAkpQMQ4wDAYD
+[2023/11/17, 2:42:45.453 PM] VQQIDAVPU0FLQTEOMAwGA1UEBwwFT1NBS0ExEDAOBgNVBAoMB0VDQ0NvbXAxCzAJ
+[2023/11/17, 2:42:45.453 PM] BgNVBAsMAklUMRowGAYDVQQDDBFlY2MuZWNjY29tcC5hYy5qcDEgMB4GCSqGSIb3
+[2023/11/17, 2:42:45.453 PM] DQEJARYRZWNjQGVjY2NvbXAuYWMuanAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+[2023/11/17, 2:42:45.453 PM] ggEKAoIBAQDmwc0SrsZO/BdEitPPngalAHaCVGfm6eS36b8iq21xDkGEDii7qMuD
+[2023/11/17, 2:42:45.453 PM] thAohQUU4RnX0uoSEJurm9MMcb5giyljgxWIrOMVMjsRxUVhSoqCQ3XioDfcGpi7
+[2023/11/17, 2:42:45.453 PM] p48pkNLFvJ5qZHdSkk9rgZ3OoZ1a7w5USu0nU390UQtLcCbIOlKPeraVSZF4li5h
+[2023/11/17, 2:42:45.454 PM] yFUpXuI6iMd68pa8mGOKwVjI3sm/LZwlRVMdVOpGmoBmcaWC8Cwf6vwfqC91ECZe
+[2023/11/17, 2:42:45.454 PM] XGqIs+H9CZK117f6+5eeIzcVjnJzmMj5H/Aao6akJR/lBhbUZyUjSdKw7P+2gN8S
+[2023/11/17, 2:42:45.454 PM] ntFPbPtu8iAYwvYpGxHYTCy9HlQxInTBAgMBAAEwDQYJKoZIhvcNAQELBQADggEB
+[2023/11/17, 2:42:45.454 PM] AJX7+o0iU97/Dr1f1ADBLYi97WE35ehdsfydjoAhSsCvb/7E5CUaALqlgpRbUu6n
+[2023/11/17, 2:42:45.454 PM] BA1A0znRUUHa1cOUlrXOaH5bsZKYFFrrg01gwszhiAV0aAUz3iQkAF09s8z4aeEZ
+[2023/11/17, 2:42:45.454 PM] PhVzuJuz85ndk7fJp+96ZIi1QN4ZqMPs45WcI5F5DMbxPaAQA21JaCJEwc17N67e
+[2023/11/17, 2:42:45.454 PM] 7Yk9/9/vxqx0H6GNMFrc8efJlkz0zpxwIvHzYEXZtVGBLCGQc/2IoOP7nOdePd0t
+[2023/11/17, 2:42:45.454 PM] mDMOtMfzyfR/tlQOP4/8Kba5XVxqnLqkCKogf4jo6sXXcApFPy9bz60lqN+5gVva
+[2023/11/17, 2:42:45.454 PM] S/kd3zG/PdiQgcbwf1X7AnQ=
+[2023/11/17, 2:42:45.454 PM] -----END CERTIFICATE-----
+[2023/11/17, 2:42:45.454 PM] subject=C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.454 PM] issuer=C = JP, ST = OSAKA, L = OSAKA, O = ECCComp, OU = IT, CN = ecc.ecccomp.ac.jp, emailAddress = ecc@ecccomp.ac.jp
+[2023/11/17, 2:42:45.454 PM] ---
+[2023/11/17, 2:42:45.454 PM] No client certificate CA names sent
+[2023/11/17, 2:42:45.454 PM] Peer signing digest: SHA256
+[2023/11/17, 2:42:45.454 PM] Peer signature type: RSA-PSS
+[2023/11/17, 2:42:45.454 PM] Server Temp Key: X25519, 253 bits
+[2023/11/17, 2:42:45.454 PM] ---
+[2023/11/17, 2:42:45.454 PM] SSL handshake has read 1489 bytes and written 404 bytes
+[2023/11/17, 2:42:45.455 PM] Verification error: self-signed certificate
+[2023/11/17, 2:42:45.455 PM] ---
+[2023/11/17, 2:42:45.455 PM] New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+[2023/11/17, 2:42:45.455 PM] Server public key is 2048 bit
+[2023/11/17, 2:42:45.455 PM] Secure Renegotiation IS NOT supported
+[2023/11/17, 2:42:45.455 PM] Compression: NONE
+[2023/11/17, 2:42:45.455 PM] Expansion: NONE
+[2023/11/17, 2:42:45.455 PM] No ALPN negotiated
+[2023/11/17, 2:42:45.455 PM] Early data was not sent
+[2023/11/17, 2:42:45.455 PM] Verify return code: 18 (self-signed certificate)
+[2023/11/17, 2:42:45.455 PM] ---
+[2023/11/17, 2:42:45.455 PM] ---
+[2023/11/17, 2:42:45.455 PM] Post-Handshake New Session Ticket arrived:
+[2023/11/17, 2:42:45.455 PM] SSL-Session:
+[2023/11/17, 2:42:45.455 PM]     Protocol  : TLSv1.3
+[2023/11/17, 2:42:45.455 PM]     Cipher    : TLS_AES_256_GCM_SHA384
+[2023/11/17, 2:42:45.455 PM]     Session-ID: 1CA9B78895AC2228A797C0ADDD9E2C8366AD8831464A24ABDC0D81182FC2718A
+[2023/11/17, 2:42:45.455 PM]     Session-ID-ctx: 
+[2023/11/17, 2:42:45.455 PM]     Resumption PSK: 82E9D5430AE55BF0AD055CA5D874076E000ADCC0A8A17A02BF36F57D2FEBF0CE3970EEE9A8D18ED2A29874EA894FA494
+[2023/11/17, 2:42:45.455 PM]     PSK identity: None
+[2023/11/17, 2:42:45.455 PM]     PSK identity hint: None
+[2023/11/17, 2:42:45.455 PM]     SRP username: None
+[2023/11/17, 2:42:45.455 PM]     TLS session ticket lifetime hint: 7200 (seconds)
+[2023/11/17, 2:42:45.455 PM]     TLS session ticket:
+[2023/11/17, 2:42:45.456 PM]     0000 - b0 be d1 24 a5 25 ec 36-be 84 83 5c 7d 8b 00 f5   ...$.%.6...\}...
+[2023/11/17, 2:42:45.456 PM]     0010 - 79 bd df 28 e5 e6 b4 d4-93 40 63 ca 5d 22 7a 56   y..(.....@c.]"zV
+[2023/11/17, 2:42:45.456 PM]     0020 - 30 e2 89 ae 59 3c b6 1b-db e7 4c e1 0a 7b af db   0...Y<....L..{..
+[2023/11/17, 2:42:45.456 PM]     0030 - ce a7 ec 4e f3 72 da d4-3f 2c 93 43 94 69 10 34   ...N.r..?,.C.i.4
+[2023/11/17, 2:42:45.456 PM]     0040 - f3 1a de 6f 69 07 0d 76-c2 f0 86 d2 bf 74 d7 a7   ...oi..v.....t..
+[2023/11/17, 2:42:45.456 PM]     0050 - 39 4f ce 8c db d4 80 db-25 e9 bb f2 b2 2d 41 7a   9O......%....-Az
+[2023/11/17, 2:42:45.456 PM]     0060 - 63 71 1e 79 52 42 8c 4b-d4 c1 e2 6f 24 7e 19 cd   cq.yRB.K...o$~..
+[2023/11/17, 2:42:45.456 PM]     0070 - b4 b8 4b 96 ec 99 c4 02-58 e3 f8 41 1a fc 20 7e   ..K.....X..A.. ~
+[2023/11/17, 2:42:45.456 PM]     0080 - 9f 2c 31 91 44 de a3 76-2a 93 72 fc cf 34 d7 79   .,1.D..v*.r..4.y
+[2023/11/17, 2:42:45.456 PM]     0090 - b3 90 7b 4d cf f9 43 00-a3 5a 18 87 f5 a9 dc f4   ..{M..C..Z......
+[2023/11/17, 2:42:45.456 PM]     00a0 - 37 a0 ad 0e a5 1e 7d 01-ec e3 1c b4 6e 67 c3 be   7.....}.....ng..
+[2023/11/17, 2:42:45.456 PM]     00b0 - d5 b2 77 fe dc 16 3a 85-55 d8 3f 71 1c 1f 9f 1d   ..w...:.U.?q....
+[2023/11/17, 2:42:45.456 PM]     00c0 - 43 a1 e9 43 23 a1 af c0-aa 21 17 2e 5f 14 67 61   C..C#....!.._.ga
+[2023/11/17, 2:42:45.456 PM]     00d0 - 3c 28 90 1d 28 fc dc 39-ef 7c 0f db 9e ee 37 17   <(..(..9.|....7.
+
+[2023/11/17, 2:42:45.456 PM]     Start Time: 1700199765
+[2023/11/17, 2:42:45.456 PM]     Timeout   : 7200 (sec)
+[2023/11/17, 2:42:45.456 PM]     Verify return code: 18 (self-signed certificate)
+[2023/11/17, 2:42:45.456 PM]     Extended master secret: no
+[2023/11/17, 2:42:45.456 PM]     Max Early Data: 0
+[2023/11/17, 2:42:45.456 PM] ---
+[2023/11/17, 2:42:45.456 PM] read R BLOCK
+[2023/11/17, 2:42:45.456 PM] ---
+[2023/11/17, 2:42:45.456 PM] Post-Handshake New Session Ticket arrived:
+[2023/11/17, 2:42:45.456 PM] SSL-Session:
+[2023/11/17, 2:42:45.457 PM]     Protocol  : TLSv1.3
+[2023/11/17, 2:42:45.457 PM]     Cipher    : TLS_AES_256_GCM_SHA384
+[2023/11/17, 2:42:45.457 PM]     Session-ID: F68C8FFCC825917AA393A865A5B1A0DBD648BB4AA4A1C6907059ADDD3934BA91
+[2023/11/17, 2:42:45.457 PM]     Session-ID-ctx: 
+[2023/11/17, 2:42:45.457 PM]     Resumption PSK: 03A72075E7AFF4FEC6B335D920EFFDD958CDFF1D434B700F5407F0174DDD98F8ED9124D2CED7C5CEBB54B4D11DAE778C
+[2023/11/17, 2:42:45.457 PM]     PSK identity: None
+[2023/11/17, 2:42:45.458 PM]     PSK identity hint: None
+[2023/11/17, 2:42:45.458 PM]     SRP username: None
+[2023/11/17, 2:42:45.458 PM]     TLS session ticket lifetime hint: 7200 (seconds)
+[2023/11/17, 2:42:45.458 PM]     TLS session ticket:
+[2023/11/17, 2:42:45.458 PM]     0000 - b0 be d1 24 a5 25 ec 36-be 84 83 5c 7d 8b 00 f5   ...$.%.6...\}...
+[2023/11/17, 2:42:45.458 PM]     0010 - 91 87 17 ea ad 87 23 d7-d5 b8 d4 66 99 ef 40 e0   ......#....f..@.
+[2023/11/17, 2:42:45.458 PM]     0020 - ae e1 90 a3 82 92 dc d2-bf a8 f6 3e be 18 fc a0   ...........>....
+[2023/11/17, 2:42:45.458 PM]     0030 - 2f 47 39 f9 b6 e9 5b a1-c4 4a 6d 2d 90 36 41 8f   /G9...[..Jm-.6A.
+[2023/11/17, 2:42:45.458 PM]     0040 - 41 90 c5 d6 e5 b2 7f ee-d2 db 15 00 ac c2 32 e1   A.............2.
+[2023/11/17, 2:42:45.458 PM]     0050 - 8a 21 5f f1 aa 70 95 04-4a 7c d4 27 6f f7 34 44   .!_..p..J|.'o.4D
+[2023/11/17, 2:42:45.458 PM]     0060 - 28 cf 48 76 ff 54 fe 06-97 d5 f9 ec 15 73 bc 38   (.Hv.T.......s.8
+[2023/11/17, 2:42:45.458 PM]     0070 - 61 f5 21 06 a8 f0 94 9e-56 ac e3 08 9d 5b a6 7d   a.!.....V....[.}
+[2023/11/17, 2:42:45.458 PM]     0080 - 3b a1 7d dc 53 eb ea f7-9f 6c 85 4c 77 bb e0 6d   ;.}.S....l.Lw..m
+[2023/11/17, 2:42:45.458 PM]     0090 - da f4 b1 f5 84 2b 20 72-91 95 15 bb 56 31 5c 22   .....+ r....V1\"
+[2023/11/17, 2:42:45.459 PM]     00a0 - 8f 4a a6 4a 8c fc e1 d5-60 e8 af 14 81 81 0c 81   .J.J....`.......
+[2023/11/17, 2:42:45.459 PM]     00b0 - ac 67 5b eb df ab d1 8c-f7 df 64 3f fb 30 69 0f   .g[.......d?.0i.
+[2023/11/17, 2:42:45.459 PM]     00c0 - b4 d1 b4 63 48 d7 13 0f-9f aa 9d f4 06 00 3e f3   ...cH.........>.
+[2023/11/17, 2:42:45.459 PM]     00d0 - 72 18 05 01 56 0c ce 44-29 33 0a 0f 45 1f 5e 4e   r...V..D)3..E.^N
+
+[2023/11/17, 2:42:45.459 PM]     Start Time: 1700199765
+[2023/11/17, 2:42:45.459 PM]     Timeout   : 7200 (sec)
+[2023/11/17, 2:42:45.459 PM]     Verify return code: 18 (self-signed certificate)
+[2023/11/17, 2:42:45.459 PM]     Extended master secret: no
+[2023/11/17, 2:42:45.459 PM]     Max Early Data: 0
+[2023/11/17, 2:42:45.459 PM] ---
+[2023/11/17, 2:42:45.459 PM] read R BLOCK
+[2023/11/17, 2:42:45.459 PM] +OK Dovecot (Ubuntu) ready.
+[2023/11/17, 2:42:59.427 PM] lsii   ist
+[2023/11/17, 2:43:01.662 PM] -ERR Unknown command.
+
+[2023/11/17, 2:43:03.965 PM] -ERR Unknown command.
+[2023/11/17, 2:43:34.686 PM] lis   user mluser
+[2023/11/17, 2:43:41.466 PM] +OK
+[2023/11/17, 2:43:42.316 PM] ap  pass 1qaz2wsx
+[2023/11/17, 2:43:48.957 PM] +OK Logged in.
+[2023/11/17, 2:43:49.954 PM] lsit   ist
+[2023/11/17, 2:43:52.394 PM] +OK 3 messages:
+[2023/11/17, 2:43:52.394 PM] 1 437
+[2023/11/17, 2:43:52.395 PM] 2 447
+[2023/11/17, 2:43:52.395 PM] 3 462
+[2023/11/17, 2:43:52.395 PM] .

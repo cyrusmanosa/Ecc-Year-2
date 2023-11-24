@@ -11,6 +11,8 @@ const int ledPinB = 4;
 
 void setup() {
   Serial.begin(115200);
+  ledcSetup(0,12800,8);
+  ledcAttachPin(ledPinB,0);
   pinMode(ledPinA, OUTPUT);
 
   // WiFi接続シーケンス
@@ -61,13 +63,16 @@ void loop() {
         Serial.printf("温度:%.1f℃ 気圧:%dhPa 湿度%d%%\n", temp, pres, hum);
         Serial.println(" ");
         Serial.println(" ");
-
-        if (icon == "01d" || icon == "01n"){
-          digitalWrite(ledPinA, HIGH);
-        }else if (icon == "02d" || icon == "02n"){
-          digitalWrite(ledPinA, HIGH);
-        }else{
-          digitalWrite(ledPinA, LOW);
+        
+        if (strcmp(icon, "01d") == 0 || strcmp(icon, "01n") == 0) {
+            digitalWrite(ledPinA, HIGH);
+        }
+        else if (strcmp(icon, "02d") == 0 || strcmp(icon, "02n") == 0) {
+            digitalWrite(ledPinA, HIGH);
+            ledcWrite(0, 255);
+        }
+        else {
+            ledcWrite(0, 255);
         }
         
       }

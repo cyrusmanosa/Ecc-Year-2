@@ -76,8 +76,6 @@ class FirstFragment : Fragment() {
             }
         })
     }
-
-
     companion object {
         const val REQUEST_PROFILE_DETAIL = "REQUEST_PROFILE_DETAIL"
         const val SELECTED_PROFILE = "SELECTED_PROFILE"

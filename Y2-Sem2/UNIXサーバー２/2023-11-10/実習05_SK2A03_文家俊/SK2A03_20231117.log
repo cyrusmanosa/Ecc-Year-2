@@ -1,0 +1,899 @@
+[2023/11/17, 1:15:52.901 PM] Last login: Fri Nov 17 12:17:19 on ttys024
+
+
+[2023/11/17, 1:15:52.953 PM]     ~                                                          13:15:52  
+[2023/11/17, 1:15:52.953 PM] ❯ %                                                                               
+[2023/11/17, 1:15:53.094 PM]     ~                                                          13:15:52  
+[2023/11/17, 1:15:53.094 PM] ❯ brew cleanupupgradedart "/Users/cyrusman/Desktop/ProgrammingLearning/Apps/lib/main.dart"k lib/presentatio                                      ssh sk2a03@10.21.10.58         ❯ ssh sk2a03@10.21.10.58
+[2023/11/17, 1:16:03.018 PM] sk2a03@10.21.10.58's password: 
+[2023/11/17, 1:16:05.898 PM] Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-88-generic aarch64)
+
+[2023/11/17, 1:16:05.898 PM]  * Documentation:  https://help.ubuntu.com
+[2023/11/17, 1:16:05.898 PM]  * Management:     https://landscape.canonical.com
+[2023/11/17, 1:16:05.898 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/11/17, 1:16:05.898 PM] This system has been minimized by removing packages and content that are
+[2023/11/17, 1:16:05.898 PM] not required on a system that users do not log into.
+
+[2023/11/17, 1:16:05.898 PM] To restore this content, you can run the 'unminimize' command.
+
+[2023/11/17, 1:16:05.898 PM] Expanded Security Maintenance for Applications is not enabled.
+
+[2023/11/17, 1:16:05.898 PM] 8 updates can be applied immediately.
+[2023/11/17, 1:16:05.898 PM] 2 of these updates are standard security updates.
+[2023/11/17, 1:16:05.898 PM] To see these additional updates run: apt list --upgradable
+
+[2023/11/17, 1:16:05.898 PM] 2 additional security updates can be applied with ESM Apps.
+[2023/11/17, 1:16:05.898 PM] Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+[2023/11/17, 1:16:05.898 PM] You have no mail.
+[2023/11/17, 1:16:05.898 PM] Last login: Fri Nov 17 01:29:15 2023 from 10.21.10.53
+[2023/11/17, 1:16:05.910 PM] sk2a03@ecc:~$ historty -c
+[2023/11/17, 1:16:11.068 PM] sk2a03@ecc:~$ 
+[2023/11/17, 1:16:11.150 PM] sk2a03@ecc:~$ dpkg -s postfix
+[2023/11/17, 1:16:20.725 PM] Package: postfix
+[2023/11/17, 1:16:20.725 PM] Status: install ok installed
+[2023/11/17, 1:16:20.725 PM] Priority: optional
+[2023/11/17, 1:16:20.725 PM] Section: mail
+[2023/11/17, 1:16:20.725 PM] Installed-Size: 3814
+[2023/11/17, 1:16:20.726 PM] Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+[2023/11/17, 1:16:20.726 PM] Architecture: arm64
+[2023/11/17, 1:16:20.726 PM] Version: 3.6.4-1ubuntu1.1
+[2023/11/17, 1:16:20.726 PM] Replaces: mail-transport-agent
+[2023/11/17, 1:16:20.726 PM] Provides: default-mta, mail-transport-agent
+[2023/11/17, 1:16:20.726 PM] Depends: libc6 (>= 2.34), libdb5.3, libicu70 (>= 70.1-1~), libnsl2 (>= 1.0), libsasl2-2 (>= 2.1.27+dfsg2), libssl3 (>= 3.0.0~~alpha1), debconf (>= 0.5) | debconf-2.0, netbase, adduser (>= 3.48), dpkg (>= 1.8.3), lsb-base (>= 3.0-6), ssl-cert, cpio, e2fsprogs
+[2023/11/17, 1:16:20.726 PM] Pre-Depends: init-system-helpers (>= 1.54~)
+[2023/11/17, 1:16:20.726 PM] Recommends: python3, ca-certificates
+[2023/11/17, 1:16:20.726 PM] Suggests: procmail, postfix-mysql, postfix-pgsql, postfix-ldap, postfix-pcre, postfix-lmdb, postfix-sqlite, sasl2-bin | dovecot-common, libsasl2-modules | dovecot-common, resolvconf, postfix-cdb, mail-reader, postfix-mta-sts-resolver, ufw, postfix-doc
+[2023/11/17, 1:16:20.726 PM] Conflicts: mail-transport-agent, smail
+[2023/11/17, 1:16:20.726 PM] Conffiles:
+[2023/11/17, 1:16:20.726 PM]  /etc/init.d/postfix 394590f409167c291ab25309361d48eb
+[2023/11/17, 1:16:20.726 PM]  /etc/insserv.conf.d/postfix 7fe2d086ff4822fc9fe13adab1090dce
+[2023/11/17, 1:16:20.726 PM]  /etc/network/if-down.d/postfix 476028824e6fefb251ded3df27a420b3
+[2023/11/17, 1:16:20.726 PM]  /etc/network/if-up.d/postfix b13787e06b1451656034a14f0e16ce2c
+[2023/11/17, 1:16:20.726 PM]  /etc/postfix/post-install 64594bceb8f4a504f35ce5704ce7c1e6
+[2023/11/17, 1:16:20.726 PM]  /etc/postfix/postfix-files 2d1068960ddf2cc82a6fbe26dec98e6f
+[2023/11/17, 1:16:20.727 PM]  /etc/postfix/postfix-script 7d9116d6267632d74f642d70ac4b1ef1
+[2023/11/17, 1:16:20.727 PM]  /etc/ppp/ip-down.d/postfix 476028824e6fefb251ded3df27a420b3
+[2023/11/17, 1:16:20.727 PM]  /etc/ppp/ip-up.d/postfix b13787e06b1451656034a14f0e16ce2c
+[2023/11/17, 1:16:20.727 PM]  /etc/resolvconf/update-libc.d/postfix 60d8805fabdbb6a44f10f9af380985ad
+[2023/11/17, 1:16:20.727 PM]  /etc/rsyslog.d/postfix.conf d8a09827fff2a22311e4dd4a83e95c83
+[2023/11/17, 1:16:20.727 PM]  /etc/ufw/applications.d/postfix 5c7e746dc9255e750b8f50460de11a32
+[2023/11/17, 1:16:20.727 PM] Description: High-performance mail transport agent
+[2023/11/17, 1:16:20.727 PM]  Postfix is Wietse Venema's mail transport agent that started life as an
+[2023/11/17, 1:16:20.727 PM]  alternative to the widely-used Sendmail program.  Postfix attempts to
+[2023/11/17, 1:16:20.727 PM]  be fast, easy to administer, and secure, while at the same time being
+[2023/11/17, 1:16:20.727 PM]  sendmail compatible enough to not upset existing users. Thus, the outside
+[2023/11/17, 1:16:20.727 PM]  has a sendmail-ish flavor, but the inside is completely different.
+[2023/11/17, 1:16:20.727 PM] Homepage: http://www.postfix.org
+[2023/11/17, 1:16:20.727 PM] Original-Maintainer: LaMont Jones <lamont@debian.org>
+[2023/11/17, 1:16:20.727 PM] sk2a03@ecc:~$ dpkg -s postfixdocvecot
+[2023/11/17, 1:16:27.683 PM] dpkg-query: package 'dovecot' is not installed and no information is available
+[2023/11/17, 1:16:27.684 PM] Use dpkg --info (= dpkg-deb --info) to examine archive files.
+[2023/11/17, 1:16:27.685 PM] sk2a03@ecc:~$ sudo adduser mluser
+[2023/11/17, 1:16:36.968 PM] [sudo] password for sk2a03: 
+[2023/11/17, 1:16:39.290 PM] adduser: The user `mluser' already exists.
+[2023/11/17, 1:16:39.291 PM] sk2a03@ecc:~$ sudo cp /usr/share/postfix/main.cf.dist /etc/postfix/main.cfsudo cp /usr/share/postfix/main.cf.dist /etc/postfix/main.cf1.cf
+[2023/11/17, 1:16:48.720 PM] sk2a03@ecc:~$ Cd /etc/postfixCd /etc/postfixc
+[2023/11/17, 1:16:56.394 PM] sk2a03@ecc:/etc/postfix$ sudo cp main.cf main.cf.orgsudo cp main.cf main.cf.org1.cf.org
+[2023/11/17, 1:17:03.674 PM] sk2a03@ecc:/etc/postfix$ sudo vi main.cf
+[2023/11/17, 1:17:10.375 PM] "main.cf" 688L, 27288B▽             # setgid_group: The group for mail submission and queue management# commands.  This must be a group name with a numerical group ID that# is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 1:17:10.383 PM] #
+[2023/11/17, 1:17:10.383 PM] setgid_group = postdrop
+
+[2023/11/17, 1:17:10.383 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 1:17:10.383 PM] #
+[2023/11/17, 1:17:10.383 PM] #html_directory =
+
+[2023/11/17, 1:17:10.383 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 1:17:10.383 PM] #
+[2023/11/17, 1:17:10.384 PM] #manpage_directory =
+
+[2023/11/17, 1:17:10.384 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 1:17:10.384 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 1:17:10.384 PM] #
+[2023/11/17, 1:17:10.384 PM] #sample_directory =
+
+[2023/11/17, 1:17:10.384 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 1:17:10.384 PM] #
+[2023/11/17, 1:17:10.384 PM] #readme_directory =
+[2023/11/17, 1:17:10.384 PM] inet_protocols = ipv4688,1Bot# setgid_group: The group for mail submission and queue management
+[2023/11/17, 1:17:10.385 PM] # commands.  This must be a group name with a numerical group ID that
+[2023/11/17, 1:17:10.385 PM] # is not shared with other accounts, not even with the Postfix account.
+[2023/11/17, 1:17:10.385 PM] #
+[2023/11/17, 1:17:10.385 PM] setgid_group = postdrop
+
+[2023/11/17, 1:17:10.385 PM] # html_directory: The location of the Postfix HTML documentation.
+[2023/11/17, 1:17:10.385 PM] #
+[2023/11/17, 1:17:10.385 PM] #html_directory =
+
+[2023/11/17, 1:17:10.385 PM] # manpage_directory: The location of the Postfix on-line manual pages.
+[2023/11/17, 1:17:10.386 PM] #
+[2023/11/17, 1:17:10.386 PM] #manpage_directory =
+
+[2023/11/17, 1:17:10.386 PM] # sample_directory: The location of the Postfix sample configuration files.
+[2023/11/17, 1:17:10.386 PM] # This parameter is obsolete as of Postfix 2.1.
+[2023/11/17, 1:17:10.386 PM] #
+[2023/11/17, 1:17:10.386 PM] #sample_directory =
+
+[2023/11/17, 1:17:10.386 PM] # readme_directory: The location of the Postfix README files.
+[2023/11/17, 1:17:10.386 PM] #
+[2023/11/17, 1:17:10.386 PM] #readme_directory =
+[2023/11/17, 1:17:10.386 PM] inet_protocols = ipv4688,1Bot"main.cf" 688L, 27288B::qsk2a03@ecc:/etc/postfix$ sud oo postfix check
+[2023/11/17, 1:17:24.978 PM] sk2a03@ecc:/etc/postfix$ snduudo newaliases
+[2023/11/17, 1:17:33.441 PM] sk2a03@ecc:/etc/postfix$ sudo systemctl srestaert postgfix
+[2023/11/17, 1:17:50.747 PM] sk2a03@ecc:/etc/postfix$ cd /etc/dovecotcd /etc/dovecot
+[2023/11/17, 1:17:57.591 PM] sk2a03@ecc:/etc/dovecot$ sudo cp dovecot.conf dovecot.conf.orgsudo cp dovecot.conf dovecot.conf.org1.conf.org
+[2023/11/17, 1:18:09.863 PM] sk2a03@ecc:/etc/dovecot$ sudo vi dovecot.confsudo vi dovecot.conf
+[2023/11/17, 1:18:15.275 PM] "dovecot.conf" 101L, 4342B▽             #import_environment = TZ#### Dictionary server settings
+[2023/11/17, 1:18:15.279 PM] ##
+
+[2023/11/17, 1:18:15.280 PM] # Dictionary can be used to store key=value lists. This is used by several
+[2023/11/17, 1:18:15.280 PM] # plugins. The dictionary can be accessed either directly or though a
+[2023/11/17, 1:18:15.280 PM] # dictionary server. The following dict block maps dictionary names to URIs
+[2023/11/17, 1:18:15.280 PM] # when the server is used. These can then be referenced using URIs in format
+[2023/11/17, 1:18:15.280 PM] # "proxy::<name>".
+
+[2023/11/17, 1:18:15.280 PM] dict {
+[2023/11/17, 1:18:15.280 PM]   #quota = mysql:/etc/dovecot/dovecot-dict-sql.conf.ext
+[2023/11/17, 1:18:15.280 PM] }
+
+[2023/11/17, 1:18:15.280 PM] # Most of the actual configuration gets included below. The filenames are
+[2023/11/17, 1:18:15.280 PM] # first sorted by their ASCII value and parsed in that order. The 00-prefixes
+[2023/11/17, 1:18:15.280 PM] # in filenames are intended to make it easier to understand the ordering.
+[2023/11/17, 1:18:15.280 PM] !include conf.d/*.conf
+
+[2023/11/17, 1:18:15.280 PM] # A config file can also tried to be included without giving an error if
+[2023/11/17, 1:18:15.280 PM] # it's not found:
+[2023/11/17, 1:18:15.280 PM] !include_try local.conf101,1Bot#import_environment = TZ
+
+[2023/11/17, 1:18:15.281 PM] ##
+[2023/11/17, 1:18:15.281 PM] ## Dictionary server settings
+[2023/11/17, 1:18:15.281 PM] ##
+
+[2023/11/17, 1:18:15.281 PM] # Dictionary can be used to store key=value lists. This is used by several
+[2023/11/17, 1:18:15.281 PM] # plugins. The dictionary can be accessed either directly or though a
+[2023/11/17, 1:18:15.281 PM] # dictionary server. The following dict block maps dictionary names to URIs
+[2023/11/17, 1:18:15.281 PM] # when the server is used. These can then be referenced using URIs in format
+[2023/11/17, 1:18:15.281 PM] # "proxy::<name>".
+
+[2023/11/17, 1:18:15.281 PM] dict {
+[2023/11/17, 1:18:15.281 PM]   #quota = mysql:/etc/dovecot/dovecot-dict-sql.conf.ext
+[2023/11/17, 1:18:15.281 PM] }
+
+[2023/11/17, 1:18:15.281 PM] # Most of the actual configuration gets included below. The filenames are
+[2023/11/17, 1:18:15.281 PM] # first sorted by their ASCII value and parsed in that order. The 00-prefixes
+[2023/11/17, 1:18:15.281 PM] # in filenames are intended to make it easier to understand the ordering.
+[2023/11/17, 1:18:15.281 PM] !include conf.d/*.conf
+
+[2023/11/17, 1:18:15.281 PM] # A config file can also tried to be included without giving an error if
+[2023/11/17, 1:18:15.282 PM] # it's not found:
+[2023/11/17, 1:18:15.282 PM] !include_try local.conf101,1Bot"dovecot.conf" 101L, 4342B::QE492: Not an editor command: Q101,1Bot::qsk2a03@ecc:/etc/dovecot$ sudo cp 10-auth.conf 10-auth.conf.orgsudo cp 10-auth.conf 10-auth.conf.org
+[2023/11/17, 1:18:23.916 PM] cp: cannot stat '10-auth.conf': No such file or directory
+[2023/11/17, 1:18:23.920 PM] sk2a03@ecc:/etc/dovecot$ sudo cp 10-auth.conf 10-auth.conf.orgcd conf.d
+[2023/11/17, 1:18:29.864 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo cp 10-auth.conf 10-auth.conf.orgsudo cp 10-auth.conf 10-auth.conf.org1.conf.org
+[2023/11/17, 1:18:33.262 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo vi 10-auth.confsudo vi 10-auth.conf
+[2023/11/17, 1:18:39.026 PM] "10-auth.conf" 127L, 5252B▽             #### Password database is used to verify user's password (and nothing more).
+[2023/11/17, 1:18:39.029 PM] # You can have multiple passdbs and userdbs. This is useful if you want to
+[2023/11/17, 1:18:39.029 PM] # allow both system users (/etc/passwd) and virtual users to login without
+[2023/11/17, 1:18:39.029 PM] # duplicating the system users into virtual database.
+[2023/11/17, 1:18:39.029 PM] #
+[2023/11/17, 1:18:39.029 PM] # <doc/wiki/PasswordDatabase.txt>
+[2023/11/17, 1:18:39.029 PM] #
+[2023/11/17, 1:18:39.029 PM] # User database specifies where mails are located and what user/group IDs
+[2023/11/17, 1:18:39.029 PM] # own them. For single-UID configuration use "static" userdb.
+[2023/11/17, 1:18:39.029 PM] #
+[2023/11/17, 1:18:39.029 PM] # <doc/wiki/UserDatabase.txt>
+
+[2023/11/17, 1:18:39.029 PM] #!include auth-deny.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-master.conf.ext
+
+[2023/11/17, 1:18:39.029 PM] !include auth-system.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-sql.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-ldap.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-passwdfile.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-checkpassword.conf.ext
+[2023/11/17, 1:18:39.029 PM] #!include auth-static.conf.ext127,1Bot##
+
+[2023/11/17, 1:18:39.031 PM] #
+[2023/11/17, 1:18:39.031 PM] # Password database is used to verify user's password (and nothing more).
+[2023/11/17, 1:18:39.031 PM] # You can have multiple passdbs and userdbs. This is useful if you want to
+[2023/11/17, 1:18:39.031 PM] # allow both system users (/etc/passwd) and virtual users to login without
+[2023/11/17, 1:18:39.031 PM] # duplicating the system users into virtual database.
+[2023/11/17, 1:18:39.031 PM] #
+[2023/11/17, 1:18:39.031 PM] # <doc/wiki/PasswordDatabase.txt>
+[2023/11/17, 1:18:39.031 PM] #
+[2023/11/17, 1:18:39.031 PM] # User database specifies where mails are located and what user/group IDs
+[2023/11/17, 1:18:39.031 PM] # own them. For single-UID configuration use "static" userdb.
+[2023/11/17, 1:18:39.031 PM] #
+[2023/11/17, 1:18:39.031 PM] # <doc/wiki/UserDatabase.txt>
+
+[2023/11/17, 1:18:39.031 PM] #!include auth-deny.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-master.conf.ext
+
+[2023/11/17, 1:18:39.032 PM] !include auth-system.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-sql.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-ldap.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-passwdfile.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-checkpassword.conf.ext
+[2023/11/17, 1:18:39.032 PM] #!include auth-static.conf.ext127,1Bot"10-auth.conf" 127L, 5252B~@k   6~@k   5~@k   4~@k   3~@k   2~@k   1,0-1~@k   0,1  19~@k   8,0-17,1  ~@k   65~@k   43~@k   21~@k   009~@k   ## Password and user databases108,199%##107,198%~@k   106,197%auth_mechanisms = plain login105,0-196%~@k   # NOTE: See also disable_plaintext_auth setting.104,195%#   gss-spnego103,194%~@k   #   plain login digest-md5 cram-md5 ntlm rpa apop anonymous gssapi otp102,193%# Space separated list of wanted authentication mechanisms:101,0-192%~@k   100,191%#auth_ssl_username_from_cert = no99,190%~@k   # CommonName. 98,189%# X509_NAME_get_text_by_NID() which returns the subject's DN's97,188%~@k   # Take the username from client's SSL certificate, using 96,187%~@k   95,0-186%~@k   #auth_ssl_require_client_cert = no94,185%~@k   # Require a valid SSL client certificate or the authentication fails.93,184%~@k   92,183%~@k   #auth_failure_delay = 2 secs91,182%~@k   # Time to delay before replying to failed authentications.90,0-181%~@k   89,180%::qsk2a03@ecc:/etc/dovecot/conf.d$ sudo cp 10-mail.conf 10-mail.conf.orgsudo cp 10-mail.conf 10-mail.conf.org1.conf.org
+[2023/11/17, 1:18:51.978 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo vi 10-mail.confsudo vi 10-mail.conf
+[2023/11/17, 1:18:56.599 PM] "10-mail.conf" 421L, 18068B▽               # Mail location for other users' mailboxes. Note that %variables and ~/  # expands to the logged in user's data. %%n, %%d, %%u and %%h expand to the# destination user's data.
+[2023/11/17, 1:18:56.604 PM]   #location = maildir:%%h/Maildir:INDEX=~/Maildir/shared/%%u
+
+[2023/11/17, 1:18:56.604 PM]   # Use the default namespace for saving subscriptions.
+[2023/11/17, 1:18:56.604 PM]   #subscriptions = no
+
+[2023/11/17, 1:18:56.604 PM]   # List the shared/ namespace only if there are visible shared mailboxes.
+[2023/11/17, 1:18:56.604 PM]   #list = children
+[2023/11/17, 1:18:56.604 PM] #}
+[2023/11/17, 1:18:56.604 PM] # Should shared INBOX be visible as "shared/user" or "shared/user/INBOX"?
+[2023/11/17, 1:18:56.604 PM] #mail_shared_explicit_inbox = no
+
+[2023/11/17, 1:18:56.604 PM] # System user and group used to access mails. If you use multiple, userdb
+[2023/11/17, 1:18:56.604 PM] # can override these by returning uid or gid fields. You can use either numbers
+[2023/11/17, 1:18:56.604 PM] # or names. <doc/wiki/UserIds.txt>
+[2023/11/17, 1:18:56.604 PM] #mail_uid =
+[2023/11/17, 1:18:56.604 PM] #mail_gid =
+
+[2023/11/17, 1:18:56.604 PM] # Group to enable temporarily for privileged operations. Currently this is
+[2023/11/17, 1:18:56.604 PM] # used only with INBOX when either its initial creation or dotlocking fails.
+[2023/11/17, 1:18:56.604 PM] # Typically this is set to "mail" to give access to /var/mail.101,122%# Mail location for other users' mailboxes. Note that %variables and ~/
+[2023/11/17, 1:18:56.605 PM]   # expands to the logged in user's data. %%n, %%d, %%u and %%h expand to the
+[2023/11/17, 1:18:56.605 PM]   # destination user's data.
+[2023/11/17, 1:18:56.605 PM]   #location = maildir:%%h/Maildir:INDEX=~/Maildir/shared/%%u
+
+[2023/11/17, 1:18:56.605 PM]   # Use the default namespace for saving subscriptions.
+[2023/11/17, 1:18:56.605 PM]   #subscriptions = no
+
+[2023/11/17, 1:18:56.605 PM]   # List the shared/ namespace only if there are visible shared mailboxes.
+[2023/11/17, 1:18:56.605 PM]   #list = children
+[2023/11/17, 1:18:56.605 PM] #}
+[2023/11/17, 1:18:56.605 PM] # Should shared INBOX be visible as "shared/user" or "shared/user/INBOX"?
+[2023/11/17, 1:18:56.605 PM] #mail_shared_explicit_inbox = no
+
+[2023/11/17, 1:18:56.605 PM] # System user and group used to access mails. If you use multiple, userdb
+[2023/11/17, 1:18:56.605 PM] # can override these by returning uid or gid fields. You can use either numbers
+[2023/11/17, 1:18:56.605 PM] # or names. <doc/wiki/UserIds.txt>
+[2023/11/17, 1:18:56.605 PM] #mail_uid =
+[2023/11/17, 1:18:56.605 PM] #mail_gid =
+
+[2023/11/17, 1:18:56.605 PM] # Group to enable temporarily for privileged operations. Currently this is
+[2023/11/17, 1:18:56.605 PM] # used only with INBOX when either its initial creation or dotlocking fails.
+[2023/11/17, 1:18:56.605 PM] # Typically this is set to "mail" to give access to /var/mail.101,122%"10-mail.conf" 421L, 18068B~@k   0~@k   99,1 ~@k   8,0-1~@k   7,1  ~@k   6~@k   5,0-1~@k   #prefix = shared/%%u/94,122%~@k   # %%n, %%d and %%u are expanded to the destination user.93,121%~@k   # Mailboxes are visible under "shared/user@domain/"92,121%~@k   91,121%~@k   #separator = /90,0-121%~@k   #type = shared89,120%~@k   #namespace {88,120%~@k   # Example shared namespace configuration87,120%~@k   86,0-120%~@k   }85,119%~@k   # See 15-mailboxes.conf for definitions of special mailboxes.84,119%~@k   83,119%~@k   #subscriptions = yes82,119%# namespace handles them (empty prefix should always have this as "yes")81,0-118%~@k   # Namespace handles its own subscriptions. If set to "no", the parent80,118%79,118%~@k   #list = yes78,0-118%# "children" value lists child mailboxes, but hides the namespace prefix.77,117%~@k   # namespace visible for clients that don't support NAMESPACE extension.76,117%# Show the mailboxes under this namespace with LIST command. This makes the75,117%~@k   74,0-117%#hidden = no73,116%~@k   # hidden namespaces with prefixes "~/mail/", "~%u/mail/" and "mail/".72,116%# you want to deprecate but still keep working. For example you can create71,116%~@k   # useful when converting from another server with different namespaces which70,116%# extension. You'll most likely also want to set list=no. This is mostly69,0-115%~@k   # If namespace is hidden, it's not advertised to clients via NAMESPACE68,115%67,115%~@k   inbox = yes66,115%# has it.65,114%~@k   # There can be only one INBOX, and this setting defines which namespace64,114%63,114%~@k   #location =62,0-114%# mail_location, which is also the default for it.61,113%~@k   # Physical location of the mailbox. This is in same format as60,113%59,113%~@k   #prefix = 58,0-113%# all namespaces. For example "Public/".57,112%~@k   # Prefix required to access this namespace. This needs to be different for56,112%~@k   55,112%~@k   #separator = 54,0-112%~@k   # The default however depends on the underlying mail storage format.53,111%~@k   # namespaces or some clients get confused. '/' is usually a good one.52,111%~@k   # Hierarchy separator to use. You should use the same separator for all51,111%~@k   50,0-111%~@k   #type = private49,110%~@k   # Namespace type: private, shared or public48,110%~@k   namespace inbox {47,110%~@k   # on filesystem level to do so.46,110%~@k   # users can access all the shared mailboxes, assuming they have permissions45,0-19%~@k   # namespaces you'll typically want to enable ACL plugin also, otherwise all44,19%~@k   # mailboxes that are managed by sysadmin. If you create any shared or public43,19%~@k   # users' mailboxes that have been shared. Public namespaces are for shared42,19%~@k   # are for user's personal mails. Shared namespaces are for accessing other41,18%~@k   # You can have private, shared and public namespaces. Private namespaces40,18%~@k   #39,18%~@k   # namespace settings, you can do it by defining namespace sections.38,18%~@k   # If you need to set multiple mailbox locations or want to change default37,17%~@k   36,17%~@k   #mail_location = mbox:~/mail:INBOX=/var/mail/%u35,17%~@k   #34,17%~@k   # <doc/wiki/MailLocation.txt>33,16%~@k   #32,16%~@k   #   mail_location = mbox:/var/mail/%d/%1n/%n:INDEX=/var/indexes/%d/%1n/%n31,0-16%~@k   #   mail_location = mbox:~/mail:INBOX=/var/mail/%u30,16%~@k   mail_location = maildir:~/Maildir29,15%~@k   #28,15%~@k   # See doc/wiki/Variables.txt for full list. Some examples:27,15%~@k   #26,15%~@k   #   %h - home directory25,14%~@k   #   %d - domain part in user@domain, empty if there's no domain24,14%~@k   #   %n - user part in user@domain, same as %u if there's no domain23,14%~@k   #   %u - username22,14%~@k   #21,13%~@k   # There are a few special variables you can use, eg.:20,13%~@k   #19,13%~@k   # path given in the mail_location setting.18,13%~@k   # kept. This is called the "root mail directory", and it must be the first17,12%~@k   # isn't enough. You'll also need to tell Dovecot where the other mailboxes are16,12%::qsk2a03@ecc:/etc/dovecot/conf.d$ sidp udo dovercot -n
+[2023/11/17, 1:19:16.753 PM] # 2.3.16 (7e2e900c1a): /etc/dovecot/dovecot.conf
+[2023/11/17, 1:19:16.753 PM] # Pigeonhole version 0.5.16 (09c29328)
+[2023/11/17, 1:19:16.757 PM] # OS: Linux 5.15.0-88-generic aarch64 Ubuntu 22.04.3 LTS 
+[2023/11/17, 1:19:16.757 PM] # Hostname: ecc
+[2023/11/17, 1:19:16.759 PM] auth_mechanisms = plain login
+[2023/11/17, 1:19:16.759 PM] disable_plaintext_auth = no
+[2023/11/17, 1:19:16.759 PM] mail_location = maildir:~/Maildir
+[2023/11/17, 1:19:16.759 PM] mail_privileged_group = mail
+[2023/11/17, 1:19:16.759 PM] namespace {
+[2023/11/17, 1:19:16.759 PM]   inbox = yes
+[2023/11/17, 1:19:16.759 PM]   location = 
+[2023/11/17, 1:19:16.759 PM]   mailbox {
+[2023/11/17, 1:19:16.759 PM]     special_use = \Drafts
+[2023/11/17, 1:19:16.760 PM]     name = Drafts
+[2023/11/17, 1:19:16.762 PM]   }
+[2023/11/17, 1:19:16.762 PM]   mailbox {
+[2023/11/17, 1:19:16.762 PM]     special_use = \Junk
+[2023/11/17, 1:19:16.762 PM]     name = Junk
+[2023/11/17, 1:19:16.762 PM]   }
+[2023/11/17, 1:19:16.762 PM]   mailbox {
+[2023/11/17, 1:19:16.762 PM]     special_use = \Sent
+[2023/11/17, 1:19:16.762 PM]     name = Sent
+[2023/11/17, 1:19:16.762 PM]   }
+[2023/11/17, 1:19:16.763 PM]   mailbox {
+[2023/11/17, 1:19:16.763 PM]     special_use = \Sent
+[2023/11/17, 1:19:16.763 PM]     name = Sent Messages
+[2023/11/17, 1:19:16.763 PM]   }
+[2023/11/17, 1:19:16.763 PM]   mailbox {
+[2023/11/17, 1:19:16.763 PM]     special_use = \Trash
+[2023/11/17, 1:19:16.763 PM]     name = Trash
+[2023/11/17, 1:19:16.763 PM]   }
+[2023/11/17, 1:19:16.763 PM]   prefix = 
+[2023/11/17, 1:19:16.763 PM]   name = inbox
+[2023/11/17, 1:19:16.763 PM] }
+[2023/11/17, 1:19:16.763 PM] passdb {
+[2023/11/17, 1:19:16.763 PM]   driver = pam
+[2023/11/17, 1:19:16.763 PM] }
+[2023/11/17, 1:19:16.763 PM] protocols = " pop3"
+[2023/11/17, 1:19:16.763 PM] service replication-notify-fifo {
+[2023/11/17, 1:19:16.763 PM]   name = aggregator
+[2023/11/17, 1:19:16.763 PM] }
+[2023/11/17, 1:19:16.763 PM] service anvil-auth-penalty {
+[2023/11/17, 1:19:16.764 PM]   name = anvil
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service auth-worker {
+[2023/11/17, 1:19:16.764 PM]   name = auth-worker
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service auth-client {
+[2023/11/17, 1:19:16.764 PM]   name = auth
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service config {
+[2023/11/17, 1:19:16.764 PM]   name = config
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service dict-async {
+[2023/11/17, 1:19:16.764 PM]   name = dict-async
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service dict {
+[2023/11/17, 1:19:16.764 PM]   name = dict
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service login/proxy-notify {
+[2023/11/17, 1:19:16.764 PM]   name = director
+[2023/11/17, 1:19:16.764 PM] }
+[2023/11/17, 1:19:16.764 PM] service dns-client {
+[2023/11/17, 1:19:16.764 PM]   name = dns-client
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service doveadm-server {
+[2023/11/17, 1:19:16.765 PM]   name = doveadm
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service imap-hibernate {
+[2023/11/17, 1:19:16.765 PM]   name = imap-hibernate
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service imap {
+[2023/11/17, 1:19:16.765 PM]   name = imap-login
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service imap-urlauth {
+[2023/11/17, 1:19:16.765 PM]   name = imap-urlauth-login
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service imap-urlauth-worker {
+[2023/11/17, 1:19:16.765 PM]   name = imap-urlauth-worker
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service token-login/imap-urlauth {
+[2023/11/17, 1:19:16.765 PM]   name = imap-urlauth
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service imap-master {
+[2023/11/17, 1:19:16.765 PM]   name = imap
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service indexer-worker {
+[2023/11/17, 1:19:16.765 PM]   name = indexer-worker
+[2023/11/17, 1:19:16.765 PM] }
+[2023/11/17, 1:19:16.765 PM] service indexer {
+[2023/11/17, 1:19:16.766 PM]   name = indexer
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service ipc {
+[2023/11/17, 1:19:16.766 PM]   name = ipc
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service lmtp {
+[2023/11/17, 1:19:16.766 PM]   name = lmtp
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service log-errors {
+[2023/11/17, 1:19:16.766 PM]   name = log
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service old-stats-mail {
+[2023/11/17, 1:19:16.766 PM]   name = old-stats
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service pop3 {
+[2023/11/17, 1:19:16.766 PM]   name = pop3-login
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service login/pop3 {
+[2023/11/17, 1:19:16.766 PM]   name = pop3
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service replicator-doveadm {
+[2023/11/17, 1:19:16.766 PM]   name = replicator
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service stats-reader {
+[2023/11/17, 1:19:16.766 PM]   name = stats
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service submission {
+[2023/11/17, 1:19:16.766 PM]   name = submission-login
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.766 PM] service login/submission {
+[2023/11/17, 1:19:16.766 PM]   name = submission
+[2023/11/17, 1:19:16.766 PM] }
+[2023/11/17, 1:19:16.767 PM] ssl_cert = </etc/dovecot/private/dovecot.pem
+[2023/11/17, 1:19:16.767 PM] ssl_client_ca_dir = /etc/ssl/certs
+[2023/11/17, 1:19:16.767 PM] ssl_dh = # hidden, use -P to show it
+[2023/11/17, 1:19:16.767 PM] ssl_key = # hidden, use -P to show it
+[2023/11/17, 1:19:16.767 PM] userdb {
+[2023/11/17, 1:19:16.767 PM]   driver = passwd
+[2023/11/17, 1:19:16.767 PM] }
+[2023/11/17, 1:19:16.767 PM] protocol lmtp {
+[2023/11/17, 1:19:16.767 PM]   service replication-notify-fifo {
+[2023/11/17, 1:19:16.767 PM]     name = aggregator
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service anvil-auth-penalty {
+[2023/11/17, 1:19:16.767 PM]     name = anvil
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service auth-worker {
+[2023/11/17, 1:19:16.767 PM]     name = auth-worker
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service auth-client {
+[2023/11/17, 1:19:16.767 PM]     name = auth
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service config {
+[2023/11/17, 1:19:16.767 PM]     name = config
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service dict-async {
+[2023/11/17, 1:19:16.767 PM]     name = dict-async
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service dict {
+[2023/11/17, 1:19:16.767 PM]     name = dict
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service login/proxy-notify {
+[2023/11/17, 1:19:16.767 PM]     name = director
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.767 PM]   service dns-client {
+[2023/11/17, 1:19:16.767 PM]     name = dns-client
+[2023/11/17, 1:19:16.767 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service doveadm-server {
+[2023/11/17, 1:19:16.768 PM]     name = doveadm
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service imap-hibernate {
+[2023/11/17, 1:19:16.768 PM]     name = imap-hibernate
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service imap {
+[2023/11/17, 1:19:16.768 PM]     name = imap-login
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service imap-urlauth {
+[2023/11/17, 1:19:16.768 PM]     name = imap-urlauth-login
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service imap-urlauth-worker {
+[2023/11/17, 1:19:16.768 PM]     name = imap-urlauth-worker
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service token-login/imap-urlauth {
+[2023/11/17, 1:19:16.768 PM]     name = imap-urlauth
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service imap-master {
+[2023/11/17, 1:19:16.768 PM]     name = imap
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service indexer-worker {
+[2023/11/17, 1:19:16.768 PM]     name = indexer-worker
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service indexer {
+[2023/11/17, 1:19:16.768 PM]     name = indexer
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service ipc {
+[2023/11/17, 1:19:16.768 PM]     name = ipc
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service lmtp {
+[2023/11/17, 1:19:16.768 PM]     name = lmtp
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.768 PM]   service log-errors {
+[2023/11/17, 1:19:16.768 PM]     name = log
+[2023/11/17, 1:19:16.768 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service old-stats-mail {
+[2023/11/17, 1:19:16.769 PM]     name = old-stats
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service pop3 {
+[2023/11/17, 1:19:16.769 PM]     name = pop3-login
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service login/pop3 {
+[2023/11/17, 1:19:16.769 PM]     name = pop3
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service replicator-doveadm {
+[2023/11/17, 1:19:16.769 PM]     name = replicator
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service stats-reader {
+[2023/11/17, 1:19:16.769 PM]     name = stats
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service submission {
+[2023/11/17, 1:19:16.769 PM]     name = submission-login
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service login/submission {
+[2023/11/17, 1:19:16.769 PM]     name = submission
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM] }
+[2023/11/17, 1:19:16.769 PM] protocol !indexer-worker {
+[2023/11/17, 1:19:16.769 PM]   service replication-notify-fifo {
+[2023/11/17, 1:19:16.769 PM]     name = aggregator
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service anvil-auth-penalty {
+[2023/11/17, 1:19:16.769 PM]     name = anvil
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service auth-worker {
+[2023/11/17, 1:19:16.769 PM]     name = auth-worker
+[2023/11/17, 1:19:16.769 PM]   }
+[2023/11/17, 1:19:16.769 PM]   service auth-client {
+[2023/11/17, 1:19:16.769 PM]     name = auth
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service config {
+[2023/11/17, 1:19:16.770 PM]     name = config
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service dict-async {
+[2023/11/17, 1:19:16.770 PM]     name = dict-async
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service dict {
+[2023/11/17, 1:19:16.770 PM]     name = dict
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service login/proxy-notify {
+[2023/11/17, 1:19:16.770 PM]     name = director
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service dns-client {
+[2023/11/17, 1:19:16.770 PM]     name = dns-client
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service doveadm-server {
+[2023/11/17, 1:19:16.770 PM]     name = doveadm
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service imap-hibernate {
+[2023/11/17, 1:19:16.770 PM]     name = imap-hibernate
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service imap {
+[2023/11/17, 1:19:16.770 PM]     name = imap-login
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service imap-urlauth {
+[2023/11/17, 1:19:16.770 PM]     name = imap-urlauth-login
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service imap-urlauth-worker {
+[2023/11/17, 1:19:16.770 PM]     name = imap-urlauth-worker
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service token-login/imap-urlauth {
+[2023/11/17, 1:19:16.770 PM]     name = imap-urlauth
+[2023/11/17, 1:19:16.770 PM]   }
+[2023/11/17, 1:19:16.770 PM]   service imap-master {
+[2023/11/17, 1:19:16.771 PM]     name = imap
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service indexer-worker {
+[2023/11/17, 1:19:16.771 PM]     name = indexer-worker
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service indexer {
+[2023/11/17, 1:19:16.771 PM]     name = indexer
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service ipc {
+[2023/11/17, 1:19:16.771 PM]     name = ipc
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service lmtp {
+[2023/11/17, 1:19:16.771 PM]     name = lmtp
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service log-errors {
+[2023/11/17, 1:19:16.771 PM]     name = log
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service old-stats-mail {
+[2023/11/17, 1:19:16.771 PM]     name = old-stats
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service pop3 {
+[2023/11/17, 1:19:16.771 PM]     name = pop3-login
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service login/pop3 {
+[2023/11/17, 1:19:16.771 PM]     name = pop3
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service replicator-doveadm {
+[2023/11/17, 1:19:16.771 PM]     name = replicator
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service stats-reader {
+[2023/11/17, 1:19:16.771 PM]     name = stats
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service submission {
+[2023/11/17, 1:19:16.771 PM]     name = submission-login
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM]   service login/submission {
+[2023/11/17, 1:19:16.771 PM]     name = submission
+[2023/11/17, 1:19:16.771 PM]   }
+[2023/11/17, 1:19:16.771 PM] }
+[2023/11/17, 1:19:16.771 PM] protocol lda {
+[2023/11/17, 1:19:16.771 PM]   service replication-notify-fifo {
+[2023/11/17, 1:19:16.772 PM]     name = aggregator
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service anvil-auth-penalty {
+[2023/11/17, 1:19:16.772 PM]     name = anvil
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service auth-worker {
+[2023/11/17, 1:19:16.772 PM]     name = auth-worker
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service auth-client {
+[2023/11/17, 1:19:16.772 PM]     name = auth
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service config {
+[2023/11/17, 1:19:16.772 PM]     name = config
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service dict-async {
+[2023/11/17, 1:19:16.772 PM]     name = dict-async
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service dict {
+[2023/11/17, 1:19:16.772 PM]     name = dict
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service login/proxy-notify {
+[2023/11/17, 1:19:16.772 PM]     name = director
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service dns-client {
+[2023/11/17, 1:19:16.772 PM]     name = dns-client
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service doveadm-server {
+[2023/11/17, 1:19:16.772 PM]     name = doveadm
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service imap-hibernate {
+[2023/11/17, 1:19:16.772 PM]     name = imap-hibernate
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service imap {
+[2023/11/17, 1:19:16.772 PM]     name = imap-login
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service imap-urlauth {
+[2023/11/17, 1:19:16.772 PM]     name = imap-urlauth-login
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.772 PM]   service imap-urlauth-worker {
+[2023/11/17, 1:19:16.772 PM]     name = imap-urlauth-worker
+[2023/11/17, 1:19:16.772 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service token-login/imap-urlauth {
+[2023/11/17, 1:19:16.773 PM]     name = imap-urlauth
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service imap-master {
+[2023/11/17, 1:19:16.773 PM]     name = imap
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service indexer-worker {
+[2023/11/17, 1:19:16.773 PM]     name = indexer-worker
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service indexer {
+[2023/11/17, 1:19:16.773 PM]     name = indexer
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service ipc {
+[2023/11/17, 1:19:16.773 PM]     name = ipc
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service lmtp {
+[2023/11/17, 1:19:16.773 PM]     name = lmtp
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service log-errors {
+[2023/11/17, 1:19:16.773 PM]     name = log
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service old-stats-mail {
+[2023/11/17, 1:19:16.773 PM]     name = old-stats
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service pop3 {
+[2023/11/17, 1:19:16.773 PM]     name = pop3-login
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service login/pop3 {
+[2023/11/17, 1:19:16.773 PM]     name = pop3
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service replicator-doveadm {
+[2023/11/17, 1:19:16.773 PM]     name = replicator
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service stats-reader {
+[2023/11/17, 1:19:16.773 PM]     name = stats
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service submission {
+[2023/11/17, 1:19:16.773 PM]     name = submission-login
+[2023/11/17, 1:19:16.773 PM]   }
+[2023/11/17, 1:19:16.773 PM]   service login/submission {
+[2023/11/17, 1:19:16.773 PM]     name = submission
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM] }
+[2023/11/17, 1:19:16.774 PM] protocol pop3 {
+[2023/11/17, 1:19:16.774 PM]   service replication-notify-fifo {
+[2023/11/17, 1:19:16.774 PM]     name = aggregator
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service anvil-auth-penalty {
+[2023/11/17, 1:19:16.774 PM]     name = anvil
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service auth-worker {
+[2023/11/17, 1:19:16.774 PM]     name = auth-worker
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service auth-client {
+[2023/11/17, 1:19:16.774 PM]     name = auth
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service config {
+[2023/11/17, 1:19:16.774 PM]     name = config
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service dict-async {
+[2023/11/17, 1:19:16.774 PM]     name = dict-async
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service dict {
+[2023/11/17, 1:19:16.774 PM]     name = dict
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service login/proxy-notify {
+[2023/11/17, 1:19:16.774 PM]     name = director
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service dns-client {
+[2023/11/17, 1:19:16.774 PM]     name = dns-client
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service doveadm-server {
+[2023/11/17, 1:19:16.774 PM]     name = doveadm
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service imap-hibernate {
+[2023/11/17, 1:19:16.774 PM]     name = imap-hibernate
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service imap {
+[2023/11/17, 1:19:16.774 PM]     name = imap-login
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service imap-urlauth {
+[2023/11/17, 1:19:16.774 PM]     name = imap-urlauth-login
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service imap-urlauth-worker {
+[2023/11/17, 1:19:16.774 PM]     name = imap-urlauth-worker
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service token-login/imap-urlauth {
+[2023/11/17, 1:19:16.774 PM]     name = imap-urlauth
+[2023/11/17, 1:19:16.774 PM]   }
+[2023/11/17, 1:19:16.774 PM]   service imap-master {
+[2023/11/17, 1:19:16.775 PM]     name = imap
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service indexer-worker {
+[2023/11/17, 1:19:16.775 PM]     name = indexer-worker
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service indexer {
+[2023/11/17, 1:19:16.775 PM]     name = indexer
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service ipc {
+[2023/11/17, 1:19:16.775 PM]     name = ipc
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service lmtp {
+[2023/11/17, 1:19:16.775 PM]     name = lmtp
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service log-errors {
+[2023/11/17, 1:19:16.775 PM]     name = log
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service old-stats-mail {
+[2023/11/17, 1:19:16.775 PM]     name = old-stats
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service pop3 {
+[2023/11/17, 1:19:16.775 PM]     name = pop3-login
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service login/pop3 {
+[2023/11/17, 1:19:16.775 PM]     name = pop3
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service replicator-doveadm {
+[2023/11/17, 1:19:16.775 PM]     name = replicator
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service stats-reader {
+[2023/11/17, 1:19:16.775 PM]     name = stats
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service submission {
+[2023/11/17, 1:19:16.775 PM]     name = submission-login
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM]   service login/submission {
+[2023/11/17, 1:19:16.775 PM]     name = submission
+[2023/11/17, 1:19:16.775 PM]   }
+[2023/11/17, 1:19:16.775 PM] }
+[2023/11/17, 1:19:16.775 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sudo systemctl start  dovecot
+[2023/11/17, 1:19:31.971 PM] sk2a03@ecc:/etc/dovecot/conf.d$    sudo echo 'export MAIL=$HOME/Maildir/' >> /etc/profile.d/mail.shsk2a03@ecc:/etc/dovecot/conf.d$    sudo echo 'export MAIL=$HOME/Maildir/' >> /etc/profile.d/mail.sh
+[2023/11/17, 1:19:38.487 PM] -bash: /etc/profile.d/mail.sh: Permission denied
+[2023/11/17, 1:19:38.488 PM] sk2a03@ecc:/etc/dovecot/conf.d$    sudo vi /etc/bind/sk2a03db.local   sudo vi /etc/bind/sk2a03db.local
+[2023/11/17, 1:19:47.720 PM] "/etc/bind/sk2a03db.local" 22L, 523B▽             ;
+[2023/11/17, 1:19:47.726 PM] ; BIND data file for local loopback interface;$TTL    604800
+[2023/11/17, 1:19:47.726 PM] @       IN      SOA     sk2a03.ecccomp.ac.jp. root.ecccomp.ac.jp. (2; Serial604800; Refresh86400; Retry2419200; Expire604800 ); Negative Cache TTL
+[2023/11/17, 1:19:47.726 PM] ;
+[2023/11/17, 1:19:47.726 PM] @       IN      NS      sk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.727 PM] @       IN      A10.21.10.58
+[2023/11/17, 1:19:47.727 PM] sk2a03  IN      A10.21.10.58
+[2023/11/17, 1:19:47.727 PM] ;web    IN      CNAME   sk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.727 PM] ;
+[2023/11/17, 1:19:47.727 PM] ;sk2a.ecccomp.ac.jp     IN A 10.21.10.66
+[2023/11/17, 1:19:47.727 PM] ;web.ecccomp.ac.jp      IN A 10.21.10.66
+
+[2023/11/17, 1:19:47.727 PM] @       IN      MX      10      mlsk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.727 PM] mlsk2a03IN A 10.21.10.58
+[2023/11/17, 1:19:47.727 PM] mlsk2a03.ecccomp.ac.jp. IN A 10.21.10.58
+[2023/11/17, 1:19:47.727 PM] ~                                                                               ~                                                                               17,1All;
+[2023/11/17, 1:19:47.728 PM] ; BIND data file for local loopback interface
+[2023/11/17, 1:19:47.728 PM] ;
+[2023/11/17, 1:19:47.728 PM] $TTL    604800
+[2023/11/17, 1:19:47.728 PM] @       IN      SOA     sk2a03.ecccomp.ac.jp. root.ecccomp.ac.jp. (2; Serial604800; Refresh86400; Retry2419200; Expire604800 ); Negative Cache TTL
+[2023/11/17, 1:19:47.728 PM] ;
+[2023/11/17, 1:19:47.728 PM] @       IN      NS      sk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.728 PM] @       IN      A10.21.10.58
+[2023/11/17, 1:19:47.728 PM] sk2a03  IN      A10.21.10.58
+[2023/11/17, 1:19:47.729 PM] ;web    IN      CNAME   sk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.729 PM] ;
+[2023/11/17, 1:19:47.729 PM] ;sk2a.ecccomp.ac.jp     IN A 10.21.10.66
+[2023/11/17, 1:19:47.729 PM] ;web.ecccomp.ac.jp      IN A 10.21.10.66
+
+[2023/11/17, 1:19:47.729 PM] @       IN      MX      10      mlsk2a03.ecccomp.ac.jp.
+[2023/11/17, 1:19:47.729 PM] mlsk2a03IN A 10.21.10.58
+[2023/11/17, 1:19:47.729 PM] mlsk2a03.ecccomp.ac.jp. IN A 10.21.10.58
+[2023/11/17, 1:19:47.729 PM] ~                                                                               ~                                                                               17,1All"/etc/bind/sk2a03db.local" 22L, 523B::qsk2a03@ecc:/etc/dovecot/conf.d$ Sudo systemctl restart namedSudo systemctl restart named
+[2023/11/17, 1:19:54.213 PM] -bash: Sudo: command not found
+[2023/11/17, 1:19:54.216 PM] sk2a03@ecc:/etc/dovecot/conf.d$ Sudo systemctl restart nameds
+[2023/11/17, 1:20:00.217 PM] sk2a03@ecc:/etc/dovecot/conf.d$    sudo vi /etc/resolv.conf   sudo vi /etc/resolv.conf
+[2023/11/17, 1:20:08.322 PM] "/etc/resolv.conf" 23L, 920B▽             # This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved((8).# Do not edit.#
+[2023/11/17, 1:20:08.325 PM] # This file might be symlinked as /etc/resolv.conf. If you're looking at
+[2023/11/17, 1:20:08.325 PM] # /etc/resolv.conf and seeing this text, you have followed the symlink.
+[2023/11/17, 1:20:08.325 PM] #
+[2023/11/17, 1:20:08.325 PM] # This is a dynamic resolv.conf file for connecting local clients to the
+[2023/11/17, 1:20:08.326 PM] # internal DNS stub resolver of systemd-resolved. This file lists all
+[2023/11/17, 1:20:08.326 PM] # configured search domains.
+[2023/11/17, 1:20:08.326 PM] #
+[2023/11/17, 1:20:08.326 PM] # Run "resolvectl status" to see details about the uplink DNS servers
+[2023/11/17, 1:20:08.326 PM] # currently in use.
+[2023/11/17, 1:20:08.326 PM] #
+[2023/11/17, 1:20:08.326 PM] # Third party programs should typically not access this file directly, but only
+[2023/11/17, 1:20:08.326 PM] # through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+[2023/11/17, 1:20:08.326 PM] # different way, replace this symlink by a static file or a different symlink.
+[2023/11/17, 1:20:08.326 PM] #
+[2023/11/17, 1:20:08.326 PM] # See man:systemd-resolved.service(8) for details about the supported modes of
+[2023/11/17, 1:20:08.326 PM] # operation for /etc/resolv.conf.
+
+[2023/11/17, 1:20:08.327 PM] nameserver 127.0.0.53
+[2023/11/17, 1:20:08.327 PM] options edns0 trust-ad
+[2023/11/17, 1:20:08.327 PM] search .23,8All# This is /run/systemd/resolve/stub-resolv.conf managed by man:systemd-resolved((8).
+[2023/11/17, 1:20:08.327 PM] # Do not edit.
+[2023/11/17, 1:20:08.327 PM] #
+[2023/11/17, 1:20:08.327 PM] # This file might be symlinked as /etc/resolv.conf. If you're looking at
+[2023/11/17, 1:20:08.327 PM] # /etc/resolv.conf and seeing this text, you have followed the symlink.
+[2023/11/17, 1:20:08.327 PM] #
+[2023/11/17, 1:20:08.328 PM] # This is a dynamic resolv.conf file for connecting local clients to the
+[2023/11/17, 1:20:08.328 PM] # internal DNS stub resolver of systemd-resolved. This file lists all
+[2023/11/17, 1:20:08.328 PM] # configured search domains.
+[2023/11/17, 1:20:08.328 PM] #
+[2023/11/17, 1:20:08.328 PM] # Run "resolvectl status" to see details about the uplink DNS servers
+[2023/11/17, 1:20:08.328 PM] # currently in use.
+[2023/11/17, 1:20:08.328 PM] #
+[2023/11/17, 1:20:08.328 PM] # Third party programs should typically not access this file directly, but only
+[2023/11/17, 1:20:08.328 PM] # through the symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a
+[2023/11/17, 1:20:08.328 PM] # different way, replace this symlink by a static file or a different symlink.
+[2023/11/17, 1:20:08.328 PM] #
+[2023/11/17, 1:20:08.328 PM] # See man:systemd-resolved.service(8) for details about the supported modes of
+[2023/11/17, 1:20:08.328 PM] # operation for /etc/resolv.conf.
+
+[2023/11/17, 1:20:08.328 PM] nameserver 127.0.0.53
+[2023/11/17, 1:20:08.328 PM] options edns0 trust-ad
+[2023/11/17, 1:20:08.328 PM] search .23,8All"/etc/resolv.conf" 23L, 920B~@k   2~@k   1i 
+
+
+[2023/11/17, 1:20:10.878 PM] -- INSERT --21,8All91012345678920121127.0.0.01987654304.52617.819020.110.21.10.5283^[  21,22All::qwq"/etc/resolv.conf" 23L, 921B written
+[2023/11/17, 1:20:20.370 PM] sk2a03@ecc:/etc/dovecot/conf.d$ nslookup mlsk2a03.ecccomp.ac.jpnslookup mlsk2a03.ecccomp.ac.jp
+[2023/11/17, 1:20:27.417 PM] Server:10.21.10.58
+[2023/11/17, 1:20:27.417 PM] Address:10.21.10.58#53
+
+[2023/11/17, 1:20:27.417 PM] Name:mlsk2a03.ecccomp.ac.jp
+[2023/11/17, 1:20:27.417 PM] Address: 10.21.10.58
+
+[2023/11/17, 1:20:27.431 PM] sk2a03@ecc:/etc/dovecot/conf.d$ mail mluser@ecccomp.ac.jp
+[2023/11/17, 1:20:47.623 PM] Cc: 
+[2023/11/17, 1:20:48.499 PM] Subject: mlailail test test 12
+[2023/11/17, 1:20:58.234 PM]  dsjabkdsbadajdkajdsk
+
+[2023/11/17, 1:21:04.289 PM] (Interrupt -- one more to kill letter)
+[2023/11/17, 1:21:04.289 PM]  
+[2023/11/17, 1:21:04.675 PM] sk2a03@ecc:/etc/dovecot/conf.d$ sud mluser 
+[2023/11/17, 1:21:13.089 PM] Password: 
+[2023/11/17, 1:21:18.677 PM] mluser@ecc:/etc/dovecot/conf.d$ mail -f ~/Maildirmail -f ~/Maildir
+[2023/11/17, 1:21:23.997 PM] "/home/mluser/Maildir": 2 messages
+[2023/11/17, 1:21:23.997 PM] >    1 sk2a03@ecc         Fri Nov 10 07:37  13/424   mail test
+[2023/11/17, 1:21:23.998 PM]      2 sk2a03@ecc         Fri Nov 17 01:56  14/433   12321321312
+[2023/11/17, 1:21:23.999 PM] ? 
+[2023/11/17, 1:21:27.750 PM] Return-Path: <sk2a03@ecc>
+[2023/11/17, 1:21:27.750 PM] X-Original-To: mluser@ecccomp.ac.jp
+[2023/11/17, 1:21:27.750 PM] Delivered-To: mluser@ecccomp.ac.jp
+[2023/11/17, 1:21:27.750 PM] Received: by mlsk2a03.ecccomp.ac.jp (Postfix, from userid 1001)
+[2023/11/17, 1:21:27.750 PM] id B00AF1871; Fri, 10 Nov 2023 07:37:00 +0000 (UTC)
+[2023/11/17, 1:21:27.750 PM] To: <mluser@ecccomp.ac.jp>
+[2023/11/17, 1:21:27.751 PM] Subject: mail test
+[2023/11/17, 1:21:27.751 PM] User-Agent: mail (GNU Mailutils 3.14)
+[2023/11/17, 1:21:27.751 PM] Date: Fri, 10 Nov 2023 07:37:00 +0000
+[2023/11/17, 1:21:27.751 PM] Message-Id: <20231110073700.B00AF1871@mlsk2a03.ecccomp.ac.jp>
+[2023/11/17, 1:21:27.751 PM] From: sk2a03@ecc
+
+[2023/11/17, 1:21:27.751 PM] Hello!!
+[2023/11/17, 1:21:27.751 PM] ? 
+[2023/11/17, 1:21:30.164 PM] Return-Path: <sk2a03@ecc>
+[2023/11/17, 1:21:30.164 PM] X-Original-To: mluser@ecccomp.ac.jp
+[2023/11/17, 1:21:30.164 PM] Delivered-To: mluser@ecccomp.ac.jp
+[2023/11/17, 1:21:30.165 PM] Received: by mlsk2a03.ecccomp.ac.jp (Postfix, from userid 1001)
+[2023/11/17, 1:21:30.165 PM] id CAAEE186F; Fri, 17 Nov 2023 01:56:25 +0000 (UTC)
+[2023/11/17, 1:21:30.165 PM] To: <mluser@ecccomp.ac.jp>
+[2023/11/17, 1:21:30.165 PM] Subject: 12321321312
+[2023/11/17, 1:21:30.165 PM] User-Agent: mail (GNU Mailutils 3.14)
+[2023/11/17, 1:21:30.165 PM] Date: Fri, 17 Nov 2023 01:56:25 +0000
+[2023/11/17, 1:21:30.165 PM] Message-Id: <20231117015625.CAAEE186F@mlsk2a03.ecccomp.ac.jp>
+[2023/11/17, 1:21:30.165 PM] From: sk2a03@ecc
+
+[2023/11/17, 1:21:30.165 PM] adnakdhaw
+[2023/11/17, 1:21:30.165 PM] dawd
+[2023/11/17, 1:21:30.165 PM] ? 
+[2023/11/17, 1:21:30.734 PM] No applicable message
+[2023/11/17, 1:21:30.734 PM] ? 
+[2023/11/17, 1:21:31.397 PM] No applicable message
+[2023/11/17, 1:21:31.397 PM] ? 
+[2023/11/17, 1:21:31.715 PM] No applicable message
+[2023/11/17, 1:21:31.715 PM] ? quit
+[2023/11/17, 1:21:38.284 PM] Held 2 messages in /home/mluser/Maildir
+[2023/11/17, 1:21:38.286 PM] mluser@ecc:/etc/dovecot/conf.d$ su ecc
+[2023/11/17, 1:21:49.275 PM] Password: 
+[2023/11/17, 1:21:50.570 PM] ecc@ecc:/etc/dovecot/conf.d$ sudo telnet localhost 110sudo telnet localhost 110
+[2023/11/17, 1:21:56.287 PM] [sudo] password for ecc: 
+[2023/11/17, 1:21:58.087 PM] Trying 127.0.0.1...
+[2023/11/17, 1:21:58.087 PM] Connected to localhost.
+[2023/11/17, 1:21:58.087 PM] Escape character is '^]'.
+[2023/11/17, 1:21:58.112 PM] +OK Dovecot (Ubuntu) ready.
+[2023/11/17, 1:22:00.230 PM] user mluser  
+[2023/11/17, 1:22:03.045 PM] +OK
+[2023/11/17, 1:22:03.556 PM] pass 1qaz2wsx
+[2023/11/17, 1:22:06.954 PM] +OK Logged in.
+[2023/11/17, 1:22:07.998 PM] list
+[2023/11/17, 1:22:08.729 PM] +OK 2 messages:
+[2023/11/17, 1:22:08.729 PM] 1 437
+[2023/11/17, 1:22:08.729 PM] 2 447
+[2023/11/17, 1:22:08.729 PM] .
+[2023/11/17, 1:32:09.390 PM] -ERR Disconnected for inactivity.
+[2023/11/17, 1:32:09.414 PM] Connection closed by foreign host.
+[2023/11/17, 1:32:09.419 PM] ecc@ecc:/etc/dovecot/conf.d$ 
