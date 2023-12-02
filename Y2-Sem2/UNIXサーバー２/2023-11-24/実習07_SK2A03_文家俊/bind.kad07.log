@@ -1,0 +1,5 @@
+24-Nov-2023 06:46:34.015 queries: info: client @0xffff7c0098c8 10.21.10.57#45096 (sk2a03.ecccomp.ac.jp): query: sk2a03.ecccomp.ac.jp IN A + (10.21.10.57)
+24-Nov-2023 06:46:34.019 queries: info: client @0xffff7c0098c8 10.21.10.57#51846 (sk2a03.ecccomp.ac.jp): query: sk2a03.ecccomp.ac.jp IN AAAA + (10.21.10.57)
+24-Nov-2023 06:50:47.096 queries: info: client @0xffff7c0098c8 10.21.10.57#50923 (_http._tcp.ports.ubuntu.com): query: _http._tcp.ports.ubuntu.com IN SRV +E(0) (10.21.10.57)
+24-Nov-2023 06:50:47.132 queries: info: client @0xffff7c0098c8 10.21.10.57#43637 (ports.ubuntu.com): query: ports.ubuntu.com IN A +E(0) (10.21.10.57)
+24-Nov-2023 06:50:47.132 queries: info: client @0xffff7c0137d8 10.21.10.57#43637 (ports.ubuntu.com): query: ports.ubuntu.com IN AAAA +E(0) (10.21.10.57)

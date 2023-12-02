@@ -1,0 +1,1218 @@
+[2023/11/30, 3:31:38.234 PM] Last login: Wed Nov 29 12:47:44 on console
+[2023/11/30, 3:31:38.385 PM] %                                                                                
+[2023/11/30, 3:31:38.539 PM]     ~                                                          15:31:38  
+[2023/11/30, 3:31:38.539 PM] ❯ ls /dev/tty.usb*ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/11/30, 3:31:47.781 PM] /dev/tty.usbserial-A10O1S63
+[2023/11/30, 3:31:47.782 PM] %                                                                                
+
+[2023/11/30, 3:31:47.792 PM]     ~                                                          15:31:47  
+[2023/11/30, 3:31:47.792 PM] ❯ sscreemn   n /dev/tty.usbserial-A10O1S63/dev/tty.usbserial-A10O1S63 9600❯ screen /dev/tty.usbserial-A10O1S63 9600
+[2023/11/30, 3:32:03.426 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:05.346 PM] *** No sreloc section
+[2023/11/30, 3:32:09.809 PM] Smart Init is enabled
+[2023/11/30, 3:32:09.841 PM] smart init is sizing iomem
+[2023/11/30, 3:32:09.857 PM]                  TYPE      MEMORY_REQ
+[2023/11/30, 3:32:09.905 PM]     Onboard devices &
+[2023/11/30, 3:32:09.921 PM]          buffer pools      0x01AECEC0 
+[2023/11/30, 3:32:09.969 PM] -----------------------------------------------
+[2023/11/30, 3:32:10.017 PM]                TOTAL:      0x01AECEC0
+
+[2023/11/30, 3:32:10.065 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:10.097 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:13.329 PM]               Restricted Rights Legend
+
+[2023/11/30, 3:32:13.377 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:13.440 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:13.504 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:13.568 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:13.632 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:13.696 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:13.744 PM]            cisco Systems, Inc.
+[2023/11/30, 3:32:13.792 PM]            170 West Tasman Drive
+[2023/11/30, 3:32:13.824 PM]            San Jose, California 95134-1706
+
+
+
+[2023/11/30, 3:32:13.889 PM] Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:14.000 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:14.064 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:14.112 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:27.699 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:27.699 PM] Using 5 percent iomem. [26Mb/512Mb]Restricted Rights Legend
+
+[2023/11/30, 3:32:27.699 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:27.699 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:27.699 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:27.699 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:27.699 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:27.699 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:27.699 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:27.699 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:27.699 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:27.699 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:27.699 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:27.699 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+[2023/11/30, 3:32:27.913 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:27.913 PM] *** No sreloc section
+[2023/11/30, 3:32:27.913 PM] Smart Init is enabled
+[2023/11/30, 3:32:27.913 PM] smart init is sizing iomem
+[2023/11/30, 3:32:27.913 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:27.913 PM] Onboard devices &
+[2023/11/30, 3:32:27.913 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:27.913 PM] -----------------------------------------------
+[2023/11/30, 3:32:27.913 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:27.913 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:27.913 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:27.913 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:27.913 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:27.913 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:27.913 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:27.913 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:27.913 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:27.913 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:27.913 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:27.913 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:27.913 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:27.913 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:27.913 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:27.913 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+[2023/11/30, 3:32:28.186 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:28.186 PM] *** No sreloc section
+[2023/11/30, 3:32:28.186 PM] Smart Init is enabled
+[2023/11/30, 3:32:28.186 PM] smart init is sizing iomem
+[2023/11/30, 3:32:28.186 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:28.186 PM] Onboard devices &
+[2023/11/30, 3:32:28.186 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:28.186 PM] -----------------------------------------------
+[2023/11/30, 3:32:28.186 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:28.186 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:28.186 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:28.186 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:28.186 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:28.186 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:28.186 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:28.186 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:28.186 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:28.186 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:28.186 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:28.187 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:28.187 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:28.187 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:28.187 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:28.187 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+[2023/11/30, 3:32:28.384 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:28.384 PM] *** No sreloc section
+[2023/11/30, 3:32:28.384 PM] Smart Init is enabled
+[2023/11/30, 3:32:28.384 PM] smart init is sizing iomem
+[2023/11/30, 3:32:28.384 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:28.384 PM] Onboard devices &
+[2023/11/30, 3:32:28.384 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:28.384 PM] -----------------------------------------------
+[2023/11/30, 3:32:28.384 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:28.384 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:28.384 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:28.384 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:28.384 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:28.384 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:28.384 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:28.384 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:28.384 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:28.384 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:28.384 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:28.384 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:28.384 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:28.384 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:28.384 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:28.385 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:30.637 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:32:30.717 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:32:30.797 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:32:30.862 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:32:30.941 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:32:31.022 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:32:31.101 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:32:31.181 PM] to comply with U.S. and local laws, return t�################################################################################################## [OK]
+[2023/11/30, 3:32:31.263 PM] *** No sreloc section
+[2023/11/30, 3:32:31.263 PM] Smart Init is enabled
+[2023/11/30, 3:32:31.263 PM] smart init is sizing iomem
+[2023/11/30, 3:32:31.263 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:31.263 PM] Onboard devices &
+[2023/11/30, 3:32:31.263 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:31.264 PM] -----------------------------------------------
+[2023/11/30, 3:32:31.264 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:31.264 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:31.264 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:31.264 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:31.264 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:31.264 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:31.264 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:31.264 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:31.264 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:31.264 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:31.264 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:31.264 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:31.264 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:31.264 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:31.264 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:31.264 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:31.264 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:32:31.264 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:32:31.264 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:32:31.264 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:32:31.264 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:32:31.264 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:32:31.264 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:32:31.264 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:32:31.286 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:32:31.364 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:32:31.420 PM] If you require further assistance please co�################################################################################################## [OK]
+[2023/11/30, 3:32:31.474 PM] *** No sreloc section
+[2023/11/30, 3:32:31.474 PM] Smart Init is enabled
+[2023/11/30, 3:32:31.474 PM] smart init is sizing iomem
+[2023/11/30, 3:32:31.474 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:31.474 PM] Onboard devices &
+[2023/11/30, 3:32:31.474 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:31.474 PM] -----------------------------------------------
+[2023/11/30, 3:32:31.475 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:31.475 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:31.475 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:31.475 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:31.475 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:31.475 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:31.475 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:31.475 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:31.475 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:31.475 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:31.475 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:31.475 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:31.475 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:31.475 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:31.475 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:31.475 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:31.475 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:32:31.475 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:32:31.475 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:32:31.475 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:32:31.475 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:32:31.475 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:32:31.475 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:32:31.475 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:32:31.475 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:32:31.475 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:32:31.475 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:32:31.516 PM] export@cisco.com.
+
+[2023/11/30, 3:32:31.824 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:31.824 PM] *** No sreloc section
+[2023/11/30, 3:32:31.824 PM] Smart Init is enabled
+[2023/11/30, 3:32:31.824 PM] smart init is sizing iomem
+[2023/11/30, 3:32:31.824 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:31.824 PM] Onboard devices &
+[2023/11/30, 3:32:31.824 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:31.824 PM] -----------------------------------------------
+[2023/11/30, 3:32:31.825 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:31.825 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:31.825 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:31.825 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:31.825 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:31.825 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:31.825 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:31.825 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:31.825 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:31.825 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:31.825 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:31.826 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:31.826 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:31.826 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:31.826 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:31.826 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:31.826 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:32:31.826 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:32:31.826 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:32:31.826 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:32:31.826 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:32:31.826 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:32:31.826 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:32:31.827 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:32:31.827 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:32:31.827 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:32:31.827 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:32:31.827 PM] export@cisco.com.
+
+[2023/11/30, 3:32:32.037 PM] �################################################################################################## [OK]
+[2023/11/30, 3:32:32.038 PM] *** No sreloc section
+[2023/11/30, 3:32:32.038 PM] Smart Init is enabled
+[2023/11/30, 3:32:32.038 PM] smart init is sizing iomem
+[2023/11/30, 3:32:32.038 PM] TYPEMEMORY_REQ
+[2023/11/30, 3:32:32.038 PM] Onboard devices &
+[2023/11/30, 3:32:32.038 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:32:32.038 PM] -----------------------------------------------
+[2023/11/30, 3:32:32.038 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:32:32.038 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:32:32.038 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:32:32.038 PM] Restricted Rights Legend
+
+[2023/11/30, 3:32:32.038 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:32:32.038 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:32:32.038 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:32:32.038 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:32:32.038 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:32:32.038 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:32:32.038 PM] cisco Systems, Inc.
+[2023/11/30, 3:32:32.038 PM] 170 West Tasman Drive
+[2023/11/30, 3:32:32.039 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:32:32.039 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:32:32.039 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:32:32.039 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:32:32.039 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:32:32.039 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:32:32.039 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:32:32.039 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:32:32.039 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:32:32.039 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:32:32.039 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:32:32.039 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:32:32.039 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:32:32.039 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:32:32.039 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:32:32.039 PM] export@cisco.com.
+
+[2023/11/30, 3:32:32.668 PM] Installed image archive
+[2023/11/30, 3:32:41.499 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:32:41.595 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:32:41.627 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:32:41.659 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:32:41.707 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:32:41.755 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:32:41.804 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+[2023/11/30, 3:33:00.868 PM] smart init is sizing iomem
+[2023/11/30, 3:33:00.868 PM] TYPEMEMORY_REQOnboard devices &
+[2023/11/30, 3:33:00.868 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:33:00.868 PM] -----------------------------------------------
+[2023/11/30, 3:33:00.868 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:33:00.868 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:33:00.868 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:33:00.868 PM] Restricted Rights Legend
+
+[2023/11/30, 3:33:00.868 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:33:00.868 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:33:00.868 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:33:00.868 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:33:00.868 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:33:00.868 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:33:00.868 PM] cisco Systems, Inc.
+[2023/11/30, 3:33:00.868 PM] 170 West Tasman Drive
+[2023/11/30, 3:33:00.868 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:00.868 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:00.869 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:00.869 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:33:00.869 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:33:00.869 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:33:00.869 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:33:00.869 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:33:00.869 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:33:00.869 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:33:00.869 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:33:00.869 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:33:00.869 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:33:00.869 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:33:00.869 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:33:00.869 PM] export@cisco.com.
+
+[2023/11/30, 3:33:00.869 PM] Installed image archive
+[2023/11/30, 3:33:00.869 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:33:00.869 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:33:00.869 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:33:00.869 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:33:00.869 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:33:00.869 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:33:00.869 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+[2023/11/30, 3:33:01.091 PM] Smart Init is enabled
+[2023/11/30, 3:33:01.091 PM] smart init is sizing iomem
+[2023/11/30, 3:33:01.091 PM] TYPEMEMORY_REQOnboard devices &
+[2023/11/30, 3:33:01.091 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:33:01.091 PM] -----------------------------------------------
+[2023/11/30, 3:33:01.091 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:33:01.091 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:33:01.091 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:33:01.091 PM] Restricted Rights Legend
+
+[2023/11/30, 3:33:01.091 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:33:01.091 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:33:01.091 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:33:01.091 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:33:01.091 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:33:01.091 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:33:01.091 PM] cisco Systems, Inc.
+[2023/11/30, 3:33:01.091 PM] 170 West Tasman Drive
+[2023/11/30, 3:33:01.091 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:01.092 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:01.092 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:01.092 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:33:01.092 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:33:01.092 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:33:01.092 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:33:01.092 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:33:01.092 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:33:01.092 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:33:01.092 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:33:01.092 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:33:01.092 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:33:01.092 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:33:01.092 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:33:01.092 PM] export@cisco.com.
+
+[2023/11/30, 3:33:01.092 PM] Installed image archive
+[2023/11/30, 3:33:01.092 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:33:01.092 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:33:01.092 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:33:01.092 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:33:01.092 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:33:01.092 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:33:01.092 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+[2023/11/30, 3:33:09.787 PM] Smart Init is enabled
+[2023/11/30, 3:33:09.787 PM] smart init is sizing iomem
+[2023/11/30, 3:33:09.787 PM] TYPEMEMORY_REQOnboard devices &
+[2023/11/30, 3:33:09.787 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:33:09.787 PM] -----------------------------------------------
+[2023/11/30, 3:33:09.787 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:33:09.788 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:33:09.788 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:33:09.788 PM] Restricted Rights Legend
+
+[2023/11/30, 3:33:09.788 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:33:09.788 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:33:09.788 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:33:09.788 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:33:09.788 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:33:09.788 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:33:09.788 PM] cisco Systems, Inc.
+[2023/11/30, 3:33:09.788 PM] 170 West Tasman Drive
+[2023/11/30, 3:33:09.788 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:09.788 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:09.788 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:09.788 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:33:09.788 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:33:09.788 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:33:09.788 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:33:09.788 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:33:09.788 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:33:09.788 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:33:09.788 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:33:09.788 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:33:09.788 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:33:09.788 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:33:09.788 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:33:09.788 PM] export@cisco.com.
+
+[2023/11/30, 3:33:09.788 PM] Installed image archive
+[2023/11/30, 3:33:09.788 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:33:09.788 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:33:09.788 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:33:09.788 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:33:09.788 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:33:09.788 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:33:09.788 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+[2023/11/30, 3:33:10.001 PM] Smart Init is enabled
+[2023/11/30, 3:33:10.001 PM] smart init is sizing iomem
+[2023/11/30, 3:33:10.001 PM] TYPEMEMORY_REQOnboard devices &
+[2023/11/30, 3:33:10.001 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:33:10.001 PM] -----------------------------------------------
+[2023/11/30, 3:33:10.001 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:33:10.001 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:33:10.001 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:33:10.001 PM] Restricted Rights Legend
+
+[2023/11/30, 3:33:10.001 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:33:10.001 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:33:10.001 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:33:10.001 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:33:10.001 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:33:10.001 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:33:10.001 PM] cisco Systems, Inc.
+[2023/11/30, 3:33:10.001 PM] 170 West Tasman Drive
+[2023/11/30, 3:33:10.001 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:10.002 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:10.002 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:10.002 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:33:10.002 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:33:10.002 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:33:10.002 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:33:10.002 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:33:10.002 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:33:10.002 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:33:10.002 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:33:10.002 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:33:10.002 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:33:10.002 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:33:10.002 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:33:10.002 PM] export@cisco.com.
+
+[2023/11/30, 3:33:10.002 PM] Installed image archive
+[2023/11/30, 3:33:10.002 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:33:10.002 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:33:10.002 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:33:10.002 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:33:10.002 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:33:10.002 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:33:10.002 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+[2023/11/30, 3:33:10.385 PM] Smart Init is enabled
+[2023/11/30, 3:33:10.386 PM] smart init is sizing iomem
+[2023/11/30, 3:33:10.386 PM] TYPEMEMORY_REQOnboard devices &
+[2023/11/30, 3:33:10.386 PM] buffer pools0x01AECEC0
+[2023/11/30, 3:33:10.386 PM] -----------------------------------------------
+[2023/11/30, 3:33:10.386 PM] TOTAL:0x01AECEC0
+
+[2023/11/30, 3:33:10.386 PM] Rounded IOMEM up to: 26Mb.
+[2023/11/30, 3:33:10.386 PM] Using 5 percent iomem. [26Mb/512Mb]
+
+[2023/11/30, 3:33:10.386 PM] Restricted Rights Legend
+
+[2023/11/30, 3:33:10.386 PM] Use, duplication, or disclosure by the Government is
+[2023/11/30, 3:33:10.386 PM] subject to restrictions as set forth in subparagraph
+[2023/11/30, 3:33:10.386 PM] (c) of the Commercial Computer Software - Restricted
+[2023/11/30, 3:33:10.386 PM] Rights clause at FAR sec. 52.227-19 and subparagraph
+[2023/11/30, 3:33:10.386 PM] (c) (1) (ii) of the Rights in Technical Data and Computer
+[2023/11/30, 3:33:10.386 PM] Software clause at DFARS sec. 252.227-7013.
+
+[2023/11/30, 3:33:10.386 PM] cisco Systems, Inc.
+[2023/11/30, 3:33:10.386 PM] 170 West Tasman Drive
+[2023/11/30, 3:33:10.386 PM] San Jose, California 95134-1706Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:10.386 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:10.386 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:10.386 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+
+
+[2023/11/30, 3:33:10.386 PM] This product contains cryptographic features and is subject to United
+[2023/11/30, 3:33:10.387 PM] States and local country laws governing import, export, transfer and
+[2023/11/30, 3:33:10.387 PM] use. Delivery of Cisco cryptographic products does not imply
+[2023/11/30, 3:33:10.387 PM] third-party authority to import, export, distribute or use encryption.
+[2023/11/30, 3:33:10.387 PM] Importers, exporters, distributors and users are responsible for
+[2023/11/30, 3:33:10.387 PM] compliance with U.S. and local country laws. By using this product you
+[2023/11/30, 3:33:10.387 PM] agree to comply with applicable laws and regulations. If you are unable
+[2023/11/30, 3:33:10.387 PM] to comply with U.S. and local laws, return this product immediately.
+
+[2023/11/30, 3:33:10.387 PM] A summary of U.S. laws governing Cisco cryptographic products may be found at:
+[2023/11/30, 3:33:10.387 PM] http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+
+[2023/11/30, 3:33:10.387 PM] If you require further assistance please contact us by sending email to
+[2023/11/30, 3:33:10.387 PM] export@cisco.com.
+
+[2023/11/30, 3:33:10.387 PM] Installed image archive
+[2023/11/30, 3:33:10.387 PM] Cisco C841M-4X-JSEC/K9 (revision 1.0) with 496716K/27571K bytes of memory.
+[2023/11/30, 3:33:10.387 PM] Processor board ID FGL213994M3
+[2023/11/30, 3:33:10.387 PM] 6 Gigabit Ethernet interfaces
+[2023/11/30, 3:33:10.387 PM] 1 Virtual Private Network (VPN) Module
+[2023/11/30, 3:33:10.387 PM] DRAM configuration is 32 bits wide
+[2023/11/30, 3:33:10.387 PM] 255K bytes of non-volatile configuration memory.
+[2023/11/30, 3:33:10.387 PM] 1908736K bytes of SD Flash sdflash (Read/Write)
+
+
+
+[2023/11/30, 3:33:27.571 PM] Press RETURN to get started!
+
+
+[2023/11/30, 3:33:27.602 PM] *Jan  2 00:00:00.667: %IOS_LICENSE_IMAGE_APPLICATION-6-LICENSE_LEVEL: Module name = c800m Next reboot level = advsecurity and License = advsecurity
+[2023/11/30, 3:33:27.778 PM] *Nov 30 05:33:27.347: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Initialized 
+[2023/11/30, 3:33:27.890 PM] *Nov 30 05:33:27.351: %VPN_HW-6-INFO_LOC: Crypto engine: onboard 0  State changed to: Enabled 
+[2023/11/30, 3:33:28.001 PM] *Nov 30 05:33:37.291: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/11/30, 3:33:28.098 PM] *Nov 30 05:33:37.291: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:33:28.194 PM] *Nov 30 05:33:38.175: %LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to down
+[2023/11/30, 3:33:28.323 PM] *Nov 30 05:33:38.291: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/11/30, 3:33:28.450 PM] *Nov 30 05:33:38.291: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:33:28.562 PM] *Nov 30 05:33:55.395: AUTOINSTALL: GigabitEthernet0/4 is assigned 10.16.10.61
+[2023/11/30, 3:33:28.658 PM] *Nov 30 05:34:08.011: %LINK-5-CHANGED: Interface GigabitEthernet0/5, changed state to administratively down
+[2023/11/30, 3:33:28.785 PM] *Nov 30 05:34:09.011: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to down
+[2023/11/30, 3:33:28.914 PM] *Nov 30 05:34:22.015: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to down
+[2023/11/30, 3:33:29.041 PM] *Nov 30 05:34:22.015: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
+[2023/11/30, 3:33:29.169 PM] *Nov 30 05:34:22.015: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+[2023/11/30, 3:33:29.298 PM] *Nov 30 05:34:22.015: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+[2023/11/30, 3:33:29.425 PM] *Nov 30 05:34:26.787: %SYS-5-RESTART: System restarted --
+[2023/11/30, 3:33:29.505 PM] Cisco IOS Software, C800M Software (C800M-UNIVERSALK9-M), Version 15.5(3)M4a, RELEASE SOFTWARE (fc1)
+[2023/11/30, 3:33:29.618 PM] Technical Support: http://www.cisco.com/techsupport
+[2023/11/30, 3:33:29.681 PM] Copyright (c) 1986-2016 by Cisco Systems, Inc.
+[2023/11/30, 3:33:29.729 PM] Compiled Thu 06-Oct-16 16:52 by prod_rel_team
+[2023/11/30, 3:33:29.777 PM] Router>
+[2023/11/30, 3:33:29.793 PM] Router>
+[2023/11/30, 3:33:29.842 PM] Router>
+[2023/11/30, 3:33:29.857 PM] Router>\
+[2023/11/30, 3:33:29.922 PM] % Bad IP address or host name
+[2023/11/30, 3:33:29.953 PM] % Unknown command or computer name, or unable to find computer address
+[2023/11/30, 3:33:30.034 PM] Router>
+[2023/11/30, 3:33:30.049 PM] Router>
+[2023/11/30, 3:33:30.065 PM] Router>
+[2023/11/30, 3:33:30.065 PM] Router>
+[2023/11/30, 3:33:30.081 PM] Router>
+[2023/11/30, 3:33:30.097 PM] Router>
+[2023/11/30, 3:33:31.409 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/11/30, 3:33:32.273 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/11/30, 3:33:32.481 PM] Translating "devicehelper.cisco.com"...domain server (10.201.10.1) [OK]
+
+[2023/11/30, 3:33:32.928 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/11/30, 3:33:49.933 PM] Router>
+[2023/11/30, 3:33:50.093 PM] Router>
+[2023/11/30, 3:33:50.253 PM] Router>
+[2023/11/30, 3:33:50.429 PM] Router>
+[2023/11/30, 3:33:50.557 PM] Router>
+[2023/11/30, 3:33:50.685 PM] Router>
+[2023/11/30, 3:33:50.813 PM] Router>
+[2023/11/30, 3:33:50.925 PM] Router>
+[2023/11/30, 3:33:51.053 PM] Router>en
+[2023/11/30, 3:33:56.684 PM] Router#conf t
+[2023/11/30, 3:33:59.564 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 3:33:59.628 PM] Router(config)#sh  ho
+[2023/11/30, 3:34:05.179 PM] Loading http://devicehelper.cisco.com/ca/trustpool s!
+[2023/11/30, 3:34:06.170 PM] % Incomplete command.
+
+[2023/11/30, 3:34:06.186 PM] Router(config)#
+[2023/11/30, 3:34:06.330 PM] Router(config)#
+[2023/11/30, 3:34:06.522 PM] Router(config)#
+[2023/11/30, 3:34:06.554 PM] *Nov 30 06:34:05.236: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/11/30, 3:34:07.530 PM] Router(config)#
+[2023/11/30, 3:34:07.706 PM] Router(config)#
+[2023/11/30, 3:34:07.866 PM] Router(config)#hostname 
+[2023/11/30, 3:34:10.425 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)S 
+[2023/11/30, 3:34:12.233 PM] % Incomplete command.
+
+[2023/11/30, 3:34:12.249 PM] Router(config)#
+[2023/11/30, 3:34:12.409 PM] Router(config)#
+[2023/11/30, 3:34:12.601 PM] Router(config)#
+[2023/11/30, 3:34:12.809 PM] Router(config)#s hosta name Sk2a03
+[2023/11/30, 3:34:22.263 PM] Sk2a03(config)#enable secret ciso co
+[2023/11/30, 3:34:34.293 PM] Sk2a03(config)#service password-encryption
+[2023/11/30, 3:34:40.276 PM] Sk2a03(config)#INt  nt G0/0 5
+[2023/11/30, 3:34:47.170 PM] Sk2a03(config-if)#ip address 19
+[2023/11/30, 3:34:52.449 PM] %Error opening tftp://255.255.255.255/router-confg (Timed out)2 
+[2023/11/30, 3:34:55.137 PM] % Incomplete command.
+
+[2023/11/30, 3:34:55.169 PM] Sk2a03(config-if)#
+[2023/11/30, 3:34:55.984 PM] Sk2a03(config-if)#
+[2023/11/30, 3:34:56.208 PM] Sk2a03(config-if)#ip address 19Int G0/5     ip address 192.168.1.30 255.255.255.224
+[2023/11/30, 3:35:05.583 PM] Sk2a03(config-if)#no shutdown
+[2023/11/30, 3:35:09.693 PM] Sk2a03(config-if)#
+[2023/11/30, 3:35:13.581 PM] *Nov 30 06:35:11.332: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to downdescriptionc^@                             ^
+[2023/11/30, 3:35:13.853 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:13.901 PM] Sk2a03(config-if)#^@
+[2023/11/30, 3:35:13.918 PM] Sk2a03(config-if)#Link to PC
+[2023/11/30, 3:35:15.453 PM]                     ^
+[2023/11/30, 3:35:15.469 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:15.517 PM] Sk2a03(config-if)#
+[2023/11/30, 3:35:15.724 PM] Sk2a03(config-if)#descriptionc^@                             ^
+[2023/11/30, 3:35:16.317 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:16.380 PM] Sk2a03(config-if)#^@
+[2023/11/30, 3:35:16.397 PM] Sk2a03(config-if)#Link to PC
+[2023/11/30, 3:35:16.572 PM] *Nov 30 06:35:14.520: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:35:16.685 PM] *Nov 30 06:35:15.520: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:35:17.804 PM]                     ^
+[2023/11/30, 3:35:17.820 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:17.868 PM] Sk2a03(config-if)#
+[2023/11/30, 3:35:18.012 PM] Sk2a03(config-if)#Link to PCdescriptionc Link to PC
+[2023/11/30, 3:35:24.043 PM]                              ^
+[2023/11/30, 3:35:24.075 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:24.124 PM] Sk2a03(config-if)#descriptionc Link to PCc Link to PC 
+[2023/11/30, 3:35:31.434 PM] %Error opening tftp://255.255.255.255/ciscortr.cfg (Timed out)
+[2023/11/30, 3:35:31.514 PM] Sk2a03(config-if)#description Link to PC
+[2023/11/30, 3:35:35.097 PM] Sk2a03(config-if)#exit
+[2023/11/30, 3:35:38.120 PM] Sk2a03(config)#int G0/4
+[2023/11/30, 3:35:42.903 PM] Sk2a03(config-if)#ip adree ss 10.16.10.3 255.255.255.0
+[2023/11/30, 3:35:53.269 PM]                        ^
+[2023/11/30, 3:35:53.301 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 3:35:53.349 PM] Sk2a03(config-if)#ip adress 10.16.10.3 255.255.255.0dress 10.16.10.3 255.255.255.0
+[2023/11/30, 3:36:04.291 PM] Sk2a03(config-if)#
+[2023/11/30, 3:36:10.434 PM] %Error opening tftp://255.255.255.255/network-confg (Timed out)
+[2023/11/30, 3:36:12.514 PM] Sk2a03(config-if)#
+[2023/11/30, 3:36:12.977 PM] Sk2a03(config-if)#no shi utfow   down
+[2023/11/30, 3:36:18.048 PM] Sk2a03(config-if)#no shutdownip address 10.16.10.3 255.255.255.0ress 10.16.10.3 255.255.255.0 nt G0/4                          exit    description Link to PCc Link to PC Link to PC   Lan  AN
+[2023/11/30, 3:36:24.815 PM] Sk2a03(config-if)#exit
+[2023/11/30, 3:36:26.991 PM] Sk2a03(config)#ip rt oute 0/0.   .0.0.0 0.0.0.0 10.16.10.254
+[2023/11/30, 3:36:47.851 PM] Sk2a03(config)#
+[2023/11/30, 3:36:49.435 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/11/30, 3:36:53.594 PM] Sk2a03(config)#
+[2023/11/30, 3:36:53.817 PM] Sk2a03(config)#
+[2023/11/30, 3:36:53.993 PM] Sk2a03(config)#
+[2023/11/30, 3:36:54.201 PM] Sk2a03(config)#
+[2023/11/30, 3:36:54.409 PM] Sk2a03(config)#
+[2023/11/30, 3:36:54.649 PM] Sk2a03(config)#
+[2023/11/30, 3:36:54.857 PM] Sk2a03(config)#
+[2023/11/30, 3:36:55.433 PM] Sk2a03(config)#
+[2023/11/30, 3:36:56.137 PM] Sk2a03(config)#
+[2023/11/30, 3:36:57.369 PM] Sk2a03(config)#ip domain  0na   -name a ecccomp.com
+[2023/11/30, 3:37:09.575 PM] Sk2a03(config)#crypto key generate rsa general-keys modulus 1024 
+[2023/11/30, 3:37:16.134 PM] The name for the keys will be: Sk2a03.ecccomp.com
+
+[2023/11/30, 3:37:16.197 PM] % The key modulus size is 1024 bits
+[2023/11/30, 3:37:16.245 PM] % Generating 1024 bit RSA keys, keys will be non-exportable...
+[2023/11/30, 3:37:16.469 PM] [OK] (elapsed time was 1 seconds)
+
+[2023/11/30, 3:37:16.517 PM] Sk2a03(config)#
+[2023/11/30, 3:37:17.605 PM] *Nov 30 06:37:16.224: %SSH-5-ENABLED: SSH 1.99 has been enabled
+[2023/11/30, 3:37:27.059 PM] Sk2a03(config)#username Cisco secret Class
+[2023/11/30, 3:37:28.115 PM] Sk2a03(config)#
+[2023/11/30, 3:37:28.435 PM] %Error opening tftp://255.255.255.255/Sk2a03-confg (Timed out)
+[2023/11/30, 3:37:32.082 PM] Sk2a03(config)#
+[2023/11/30, 3:37:32.354 PM] Sk2a03(config)#
+[2023/11/30, 3:37:32.610 PM] Sk2a03(config)#
+[2023/11/30, 3:37:32.834 PM] Sk2a03(config)#
+[2023/11/30, 3:37:33.026 PM] Sk2a03(config)#
+[2023/11/30, 3:37:33.234 PM] Sk2a03(config)#line vty 0 4
+[2023/11/30, 3:37:37.697 PM] Sk2a03(config-line)#login local
+[2023/11/30, 3:37:41.488 PM] Sk2a03(config-line)#transpot rt input ssh
+[2023/11/30, 3:37:50.350 PM] Sk2a03(config-line)#d exit
+[2023/11/30, 3:37:59.245 PM] Sk2a03(config)#i[ p dhcp pool 
+[2023/11/30, 3:38:08.427 PM] %Error opening tftp://255.255.255.255/Sk2a03-confg (Timed out)sk  
+[2023/11/30, 3:38:11.274 PM] % Incomplete command.
+
+[2023/11/30, 3:38:11.306 PM] Sk2a03(config)#
+[2023/11/30, 3:38:11.674 PM] Sk2a03(config)#ip dhcp pool sk2a03
+[2023/11/30, 3:38:16.730 PM] Sk2a03(dhcp-config)#network 192.168.1.0 255.255.255.224
+[2023/11/30, 3:38:29.015 PM] Sk2a03(dhcp-config)#defaulut  t- d  router 12.  92.18 58.1.30
+[2023/11/30, 3:38:50.179 PM] Sk2a03(dhcp-config)#dns-server 10.201.10.1
+[2023/11/30, 3:38:58.465 PM] Sk2a03(dhcp-config)#exit
+[2023/11/30, 3:39:00.145 PM] Sk2a03(config)#ip nat is nside sput   ours ce static 10.16.10.3
+[2023/11/30, 3:42:57.587 PM] % Incomplete command.
+
+[2023/11/30, 3:42:57.619 PM] Sk2a03(config)#ip nat inside source static 10.16.10.3110.16.10.3910.16.10.3210.16.10.3.10.16.10.3110.16.10.3610.16.10.3810.16.10.3.10.16.10.3110.16.10.3.10.16.10.3110.16.10.3 10.16.10.3
+[2023/11/30, 3:43:20.654 PM] Sk2a03(config)#
+[2023/11/30, 3:43:22.702 PM] *Nov 30 06:43:21.440: %LINEPROTO-5-UPDOWN: Line protocol on Interface NVI0, changed state to up
+[2023/11/30, 3:43:23.885 PM] Sk2a03(config)#
+[2023/11/30, 3:43:24.077 PM] Sk2a03(config)#int G0/5
+[2023/11/30, 3:43:27.805 PM] Sk2a03(config-if)#ip nat inside
+[2023/11/30, 3:43:33.755 PM] Sk2a03(config-if)#exit
+[2023/11/30, 3:43:35.004 PM] Sk2a03(config)#int G0/0 4
+[2023/11/30, 3:43:39.578 PM] Sk2a03(config-if)#ip nat outst ide
+[2023/11/30, 3:43:45.673 PM] Sk2a03(config-if)#exit
+[2023/11/30, 3:43:46.857 PM] Sk2a03(config)#exitip nat outsident G0/4      exit    ip nat insident G0/5     p nat inside source static 192.168.1.1 10.16.10.30.16.10.3            92.168.1.1 10.16.10.3nt G0/5                                          p nat insideexit         int G0/4p nat outsideexit              exit
+[2023/11/30, 3:47:36.429 PM] Sk2a03#sgi
+[2023/11/30, 3:47:38.012 PM] *Nov 30 06:47:36.220: %SYS-5-CONFIG_I: Configured from console by console   show run
+[2023/11/30, 3:47:42.443 PM] Building configuration...
+
+[2023/11/30, 3:47:42.699 PM] Current configuration : 1513 bytes
+[2023/11/30, 3:47:42.731 PM] !
+[2023/11/30, 3:47:42.731 PM] ! Last configuration change at 06:47:36 UTC Thu Nov 30 2023
+[2023/11/30, 3:47:42.811 PM] !
+[2023/11/30, 3:47:42.811 PM] version 15.5
+[2023/11/30, 3:47:42.828 PM] service config
+[2023/11/30, 3:47:42.845 PM] service timestamps debug datetime msec
+[2023/11/30, 3:47:42.891 PM] service timestamps log datetime msec
+[2023/11/30, 3:47:42.939 PM] service password-encryption
+[2023/11/30, 3:47:42.971 PM] !
+[2023/11/30, 3:47:42.971 PM] hostname Sk2a03
+[2023/11/30, 3:47:42.987 PM] !
+[2023/11/30, 3:47:42.987 PM] boot-start-marker
+[2023/11/30, 3:47:43.019 PM] boot-end-marker
+[2023/11/30, 3:47:43.035 PM] !
+[2023/11/30, 3:47:43.035 PM] !
+[2023/11/30, 3:47:43.035 PM] enable secret 5 $1$Ilxx$JRb94gYWzGiVieP8C7I8A.
+[2023/11/30, 3:47:43.099 PM] !
+[2023/11/30, 3:47:43.099 PM] no aaa new-model
+[2023/11/30, 3:47:43.115 PM] ethernet lmi ce
+[2023/11/30, 3:47:43.147 PM] !
+[2023/11/30, 3:47:43.147 PM] !
+[2023/11/30, 3:47:43.147 PM]  --More--         !
+[2023/11/30, 3:47:45.739 PM] !
+[2023/11/30, 3:47:45.739 PM] !
+[2023/11/30, 3:47:45.739 PM] !
+[2023/11/30, 3:47:45.754 PM] ip dhcp pool sk2a03
+[2023/11/30, 3:47:45.770 PM]  network 192.168.1.0 255.255.255.224
+[2023/11/30, 3:47:45.818 PM]  default-router 192.158.1.30 
+[2023/11/30, 3:47:45.850 PM]  dns-server 10.201.10.1 
+[2023/11/30, 3:47:45.882 PM] !
+[2023/11/30, 3:47:45.883 PM] !
+[2023/11/30, 3:47:45.883 PM] !
+[2023/11/30, 3:47:45.898 PM] ip domain name ecccomp.com
+[2023/11/30, 3:47:45.930 PM] ip cef
+[2023/11/30, 3:47:45.931 PM] no ipv6 cef
+[2023/11/30, 3:47:45.946 PM] !
+[2023/11/30, 3:47:45.947 PM] !
+[2023/11/30, 3:47:45.947 PM] license udi pid C841M-4X-JSEC/K9 sn FGL213994M3
+[2023/11/30, 3:47:46.010 PM] !
+[2023/11/30, 3:47:46.011 PM] !
+[2023/11/30, 3:47:46.011 PM] username Cisco secret 5 $1$N86O$Vborii/BD5I76vCpGF7DG.
+[2023/11/30, 3:47:46.074 PM] !
+[2023/11/30, 3:47:46.091 PM] redundancy
+[2023/11/30, 3:47:46.091 PM] !
+[2023/11/30, 3:47:46.106 PM]  --More--         !
+[2023/11/30, 3:47:58.664 PM] !
+[2023/11/30, 3:47:58.680 PM] !
+[2023/11/30, 3:47:58.680 PM] !
+[2023/11/30, 3:47:58.680 PM] ! 
+[2023/11/30, 3:47:58.680 PM] !
+[2023/11/30, 3:47:58.681 PM] !
+[2023/11/30, 3:47:58.696 PM] !
+[2023/11/30, 3:47:58.696 PM] !
+[2023/11/30, 3:47:58.696 PM] !
+[2023/11/30, 3:47:58.696 PM] !
+[2023/11/30, 3:47:58.712 PM] !
+[2023/11/30, 3:47:58.712 PM] !
+[2023/11/30, 3:47:58.712 PM] !
+[2023/11/30, 3:47:58.712 PM] interface GigabitEthernet0/0
+[2023/11/30, 3:47:58.744 PM]  no ip address
+[2023/11/30, 3:47:58.760 PM] !
+[2023/11/30, 3:47:58.776 PM] interface GigabitEthernet0/1
+[2023/11/30, 3:47:58.808 PM]  no ip address
+[2023/11/30, 3:47:58.824 PM] !
+[2023/11/30, 3:47:58.824 PM] interface GigabitEthernet0/2
+[2023/11/30, 3:47:58.856 PM]  no ip address
+[2023/11/30, 3:47:58.872 PM] !
+[2023/11/30, 3:47:58.888 PM]  --More--         interface GigabitEthernet0/3
+[2023/11/30, 3:47:59.640 PM]  no ip address
+[2023/11/30, 3:47:59.656 PM] !
+[2023/11/30, 3:47:59.672 PM] interface GigabitEthernet0/4
+[2023/11/30, 3:47:59.704 PM]  description Link to LAN
+[2023/11/30, 3:47:59.736 PM]  ip address 10.16.10.3 255.255.255.0
+[2023/11/30, 3:47:59.768 PM]  ip nat outside
+[2023/11/30, 3:47:59.800 PM]  ip virtual-reassembly in
+[2023/11/30, 3:47:59.816 PM]  duplex auto
+[2023/11/30, 3:47:59.832 PM]  speed auto
+[2023/11/30, 3:47:59.848 PM] !
+[2023/11/30, 3:47:59.864 PM] interface GigabitEthernet0/5
+[2023/11/30, 3:47:59.896 PM]  description Link to PC
+[2023/11/30, 3:47:59.927 PM]  ip address 192.168.1.30 255.255.255.224
+[2023/11/30, 3:47:59.976 PM]  ip nat inside
+[2023/11/30, 3:47:59.991 PM]  ip virtual-reassembly in
+[2023/11/30, 3:48:00.024 PM]  duplex auto
+[2023/11/30, 3:48:00.040 PM]  speed auto
+[2023/11/30, 3:48:00.055 PM] !
+[2023/11/30, 3:48:00.056 PM] interface Vlan1
+[2023/11/30, 3:48:00.071 PM]  no ip address
+[2023/11/30, 3:48:00.088 PM] !
+[2023/11/30, 3:48:00.088 PM] ip forward-protocol nd
+[2023/11/30, 3:48:00.120 PM]  --More--         
+[2023/11/30, 3:48:08.870 PM] Sk2a03#[Ashow runconf t  en    \ enconf tshow run[A      show runconf t  en    \  show run n
+[2023/11/30, 3:48:21.044 PM] Building configuration...
+
+[2023/11/30, 3:48:21.219 PM] Current configuration : 1513 bytes
+[2023/11/30, 3:48:21.267 PM] !
+[2023/11/30, 3:48:21.268 PM] ! Last configuration change at 06:47:36 UTC Thu Nov 30 2023
+[2023/11/30, 3:48:21.331 PM] !
+[2023/11/30, 3:48:21.332 PM] version 15.5
+[2023/11/30, 3:48:21.348 PM] service config
+[2023/11/30, 3:48:21.363 PM] service timestamps debug datetime msec
+[2023/11/30, 3:48:21.412 PM] service timestamps log datetime msec
+[2023/11/30, 3:48:21.460 PM] service password-encryption
+[2023/11/30, 3:48:21.493 PM] !
+[2023/11/30, 3:48:21.493 PM] hostname Sk2a03
+[2023/11/30, 3:48:21.524 PM] !
+[2023/11/30, 3:48:21.525 PM] boot-start-marker
+[2023/11/30, 3:48:21.539 PM] boot-end-marker
+[2023/11/30, 3:48:21.556 PM] !
+[2023/11/30, 3:48:21.571 PM] !
+[2023/11/30, 3:48:21.571 PM] enable secret 5 $1$Ilxx$JRb94gYWzGiVieP8C7I8A.
+[2023/11/30, 3:48:21.619 PM] !
+[2023/11/30, 3:48:21.619 PM] no aaa new-model
+[2023/11/30, 3:48:21.652 PM] ethernet lmi ce
+[2023/11/30, 3:48:21.667 PM] !
+[2023/11/30, 3:48:21.667 PM] !
+[2023/11/30, 3:48:21.667 PM]  --More--         !
+[2023/11/30, 3:48:22.819 PM] !
+[2023/11/30, 3:48:22.819 PM] !
+[2023/11/30, 3:48:22.835 PM] !
+[2023/11/30, 3:48:22.835 PM] ip dhcp pool sk2a03
+[2023/11/30, 3:48:22.851 PM]  network 192.168.1.0 255.255.255.224
+[2023/11/30, 3:48:22.899 PM]  default-router 192.158.1.30 
+[2023/11/30, 3:48:22.931 PM]  dns-server 10.201.10.1 
+[2023/11/30, 3:48:22.963 PM] !
+[2023/11/30, 3:48:22.963 PM] !
+[2023/11/30, 3:48:22.979 PM] !
+[2023/11/30, 3:48:22.979 PM] ip domain name ecccomp.com
+[2023/11/30, 3:48:23.011 PM] ip cef
+[2023/11/30, 3:48:23.011 PM] no ipv6 cef
+[2023/11/30, 3:48:23.027 PM] !
+[2023/11/30, 3:48:23.043 PM] !
+[2023/11/30, 3:48:23.043 PM] license udi pid C841M-4X-JSEC/K9 sn FGL213994M3
+[2023/11/30, 3:48:23.091 PM] !
+[2023/11/30, 3:48:23.091 PM] !
+[2023/11/30, 3:48:23.107 PM] username Cisco secret 5 $1$N86O$Vborii/BD5I76vCpGF7DG.
+[2023/11/30, 3:48:23.171 PM] !
+[2023/11/30, 3:48:23.171 PM] redundancy
+[2023/11/30, 3:48:23.188 PM] !
+[2023/11/30, 3:48:23.188 PM]  --More--         !
+[2023/11/30, 3:48:28.642 PM] !
+[2023/11/30, 3:48:28.642 PM] !
+[2023/11/30, 3:48:28.658 PM] !
+[2023/11/30, 3:48:28.658 PM] ! 
+[2023/11/30, 3:48:28.658 PM] !
+[2023/11/30, 3:48:28.658 PM] !
+[2023/11/30, 3:48:28.674 PM] !
+[2023/11/30, 3:48:28.674 PM] !
+[2023/11/30, 3:48:28.674 PM] !
+[2023/11/30, 3:48:28.674 PM] !
+[2023/11/30, 3:48:28.674 PM] !
+[2023/11/30, 3:48:28.690 PM] !
+[2023/11/30, 3:48:28.690 PM] !
+[2023/11/30, 3:48:28.690 PM] interface GigabitEthernet0/0
+[2023/11/30, 3:48:28.722 PM]  no ip address
+[2023/11/30, 3:48:28.738 PM] !
+[2023/11/30, 3:48:28.754 PM] interface GigabitEthernet0/1
+[2023/11/30, 3:48:28.786 PM]  no ip address
+[2023/11/30, 3:48:28.803 PM] !
+[2023/11/30, 3:48:28.803 PM] interface GigabitEthernet0/2
+[2023/11/30, 3:48:28.834 PM]  no ip address
+[2023/11/30, 3:48:28.850 PM] !
+[2023/11/30, 3:48:28.866 PM]  --More--         interface GigabitEthernet0/3
+[2023/11/30, 3:48:29.474 PM]  no ip address
+[2023/11/30, 3:48:29.490 PM] !
+[2023/11/30, 3:48:29.490 PM] interface GigabitEthernet0/4
+[2023/11/30, 3:48:29.522 PM]  description Link to LAN
+[2023/11/30, 3:48:29.554 PM]  ip address 10.16.10.3 255.255.255.0
+[2023/11/30, 3:48:29.603 PM]  ip nat outside
+[2023/11/30, 3:48:29.618 PM]  ip virtual-reassembly in
+[2023/11/30, 3:48:29.650 PM]  duplex auto
+[2023/11/30, 3:48:29.666 PM]  speed auto
+[2023/11/30, 3:48:29.682 PM] !
+[2023/11/30, 3:48:29.682 PM] interface GigabitEthernet0/5
+[2023/11/30, 3:48:29.714 PM]  description Link to PC
+[2023/11/30, 3:48:29.746 PM]  ip address 192.168.1.30 255.255.255.224
+[2023/11/30, 3:48:29.794 PM]  ip nat inside
+[2023/11/30, 3:48:29.810 PM]  ip virtual-reassembly in
+[2023/11/30, 3:48:29.842 PM]  duplex auto
+[2023/11/30, 3:48:29.859 PM]  speed auto
+[2023/11/30, 3:48:29.874 PM] !
+[2023/11/30, 3:48:29.874 PM] interface Vlan1
+[2023/11/30, 3:48:29.890 PM]  no ip address
+[2023/11/30, 3:48:29.922 PM] !
+[2023/11/30, 3:48:29.922 PM] ip forward-protocol nd
+[2023/11/30, 3:48:29.954 PM]  --More--         no ip http server
+[2023/11/30, 3:49:03.739 PM]  --More--         no ip http secure-server
+[2023/11/30, 3:49:04.203 PM]  --More--         !
+[2023/11/30, 3:49:04.635 PM]  --More--         !
+[2023/11/30, 3:49:04.812 PM]  --More--         ip nat inside source static 192.168.1.1 10.16.10.3
+[2023/11/30, 3:49:05.067 PM]  --More--         ip route 0.0.0.0 0.0.0.0 10.16.10.254
+[2023/11/30, 3:49:05.275 PM]  --More--         !
+[2023/11/30, 3:49:06.347 PM]  --More--         !
+[2023/11/30, 3:49:15.625 PM]  --More--         !
+[2023/11/30, 3:49:15.817 PM]  --More--         !
+[2023/11/30, 3:49:15.993 PM]  --More--         !
+[2023/11/30, 3:49:16.169 PM]  --More--         line con 0
+[2023/11/30, 3:49:16.329 PM]  --More--          no modem enable
+[2023/11/30, 3:49:16.505 PM]  --More--         line vty 0 4
+[2023/11/30, 3:49:16.665 PM]  --More--          login local
+[2023/11/30, 3:49:16.841 PM]  --More--          transport input ssh
+[2023/11/30, 3:49:17.161 PM]  --More--         !
+[2023/11/30, 3:49:17.320 PM]  --More--         scheduler allocate 20000 1000
+[2023/11/30, 3:49:17.672 PM]  --More--         ntp server pool.ntp.org
+[2023/11/30, 3:49:18.488 PM]  --More--         !
+[2023/11/30, 3:49:18.680 PM]  --More--         end
+[2023/11/30, 3:49:18.936 PM]  --More--         
+[2023/11/30, 3:49:19.192 PM] Sk2a03#
+[2023/11/30, 3:49:19.368 PM] Sk2a03#
+[2023/11/30, 3:49:19.560 PM] Sk2a03#
+[2023/11/30, 3:49:19.720 PM] Sk2a03#
+[2023/11/30, 3:49:19.880 PM] Sk2a03#
+[2023/11/30, 3:49:20.104 PM] Sk2a03#
+[2023/11/30, 3:49:20.312 PM] Sk2a03#
+[2023/11/30, 3:49:29.014 PM] *Nov 30 06:49:27.520: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to down
+[2023/11/30, 3:49:29.142 PM] *Nov 30 06:49:28.520: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/11/30, 3:49:38.053 PM] Sk2a03#
+[2023/11/30, 3:49:38.916 PM] Sk2a03#
+[2023/11/30, 3:49:39.012 PM] *Nov 30 06:49:37.136: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:49:39.108 PM] *Nov 30 06:49:38.136: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/11/30, 3:49:39.237 PM] Sk2a03#
+[2023/11/30, 3:49:39.892 PM] Sk2a03#
+[2023/11/30, 3:49:40.084 PM] Sk2a03#
+[2023/11/30, 3:49:40.244 PM] Sk2a03#
+[2023/11/30, 3:49:40.388 PM] Sk2a03#
+[2023/11/30, 3:49:40.532 PM] Sk2a03#
+[2023/11/30, 3:49:40.676 PM] Sk2a03#
+[2023/11/30, 3:49:40.852 PM] Sk2a03#
+[2023/11/30, 3:49:41.012 PM] Sk2a03#
+[2023/11/30, 3:49:41.156 PM] Sk2a03#
+[2023/11/30, 3:49:41.316 PM] Sk2a03#
+[2023/11/30, 3:50:25.004 PM] *Nov 30 06:50:23.372: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:52:06.008 PM] *Nov 30 06:52:03.908: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:52:38.018 PM] *Nov 30 06:52:36.764: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1show runconf t  en    \ enconf tshow run        show runconf t  en    \ enconf tshow run        
+[2023/11/30, 3:53:50.996 PM] Sk2a03#show run        show runconf t  en    \ enconf tshow run        show runconf t  en    \  e 
+[2023/11/30, 3:54:23.008 PM] *Nov 30 06:54:21.508: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:54:25.933 PM] Sk2a03#
+[2023/11/30, 3:56:22.024 PM] *Nov 30 06:56:20.420: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:58:10.802 PM] Sk2a03#
+[2023/11/30, 3:58:11.265 PM] Sk2a03#
+[2023/11/30, 3:58:11.425 PM] Sk2a03#
+[2023/11/30, 3:58:11.569 PM] Sk2a03#
+[2023/11/30, 3:58:11.745 PM] Sk2a03#en
+[2023/11/30, 3:58:12.881 PM] Sk2a03#conf t
+[2023/11/30, 3:58:17.488 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 3:58:17.552 PM] Sk2a03(config)#
+[2023/11/30, 3:58:18.416 PM] Sk2a03(config)#
+[2023/11/30, 3:58:18.576 PM] Sk2a03(config)#
+[2023/11/30, 3:58:18.736 PM] Sk2a03(config)#
+[2023/11/30, 3:58:18.895 PM] Sk2a03(config)#
+[2023/11/30, 3:58:19.056 PM] Sk2a03(config)#username Ciso co ser cret Class
+[2023/11/30, 3:58:29.102 PM] Sk2a03(config)#
+[2023/11/30, 3:58:36.013 PM] *Nov 30 06:58:34.536: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:59:33.029 PM] *Nov 30 06:59:31.652: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:00:09.482 PM] Sk2a03#conf t
+[2023/11/30, 4:00:10.890 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 4:00:10.954 PM] Sk2a03(config)#
+[2023/11/30, 4:00:11.034 PM] *Nov 30 07:00:09.324: %SYS-5-CONFIG_I: Configured from console by console
+[2023/11/30, 4:00:12.154 PM] Sk2a03(config)#
+[2023/11/30, 4:00:12.314 PM] Sk2a03(config)#
+[2023/11/30, 4:00:12.458 PM] Sk2a03(config)#username Cisco secret Classexit                       username Cisco secret Classlass classisco secret class cisco secret class
+[2023/11/30, 4:00:19.048 PM] Sk2a03(config)#sho   ei xiy t
+[2023/11/30, 4:02:16.914 PM] Sk2a03#  
+[2023/11/30, 4:02:18.034 PM] *Nov 30 07:02:16.772: %SYS-5-CONFIG_I: Configured from console by consoleshot  
+[2023/11/30, 4:02:19.969 PM] % Type "show ?" for a list of subcommands
+[2023/11/30, 4:02:20.017 PM] Sk2a03#
+[2023/11/30, 4:02:20.145 PM] Sk2a03#
+[2023/11/30, 4:02:20.305 PM] Sk2a03#
+[2023/11/30, 4:02:20.481 PM] Sk2a03#show users
+[2023/11/30, 4:02:24.704 PM]     Line       User       Host(s)              Idle       Location
+[2023/11/30, 4:02:24.768 PM] *  0 con 0                idle                 00:00:00   
+
+[2023/11/30, 4:02:24.848 PM]   Interface    User               Mode         Idle     Peer Address
+
+[2023/11/30, 4:02:24.928 PM] Sk2a03#show users all
+[2023/11/30, 4:02:31.871 PM]     Line       User       Host(s)              Idle       Location
+[2023/11/30, 4:02:31.950 PM] *  0 con 0                idle                 00:00:00   
+[2023/11/30, 4:02:32.014 PM]   34 vty 0                                     00:00:00 
+[2023/11/30, 4:02:32.079 PM]   35 vty 1                                     00:00:00 
+[2023/11/30, 4:02:32.142 PM]   36 vty 2                                     00:00:00 
+[2023/11/30, 4:02:32.222 PM]   37 vty 3                                     00:00:00 
+[2023/11/30, 4:02:32.286 PM]   38 vty 4                                     00:00:00 
+
+[2023/11/30, 4:02:32.350 PM]   Interface    User               Mode         Idle     Peer Address
+
+[2023/11/30, 4:02:32.430 PM] Sk2a03#show users all     all              conf t
+[2023/11/30, 4:03:00.537 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 4:03:00.617 PM] Sk2a03(config)#ip domain  0na   -name ecccomp.com
+[2023/11/30, 4:03:13.431 PM] Sk2a03(config)#crypto key generate rsa general-keys modulus 1024
+[2023/11/30, 4:03:20.005 PM] % You already have RSA keys defined named Sk2a03.ecccomp.com.
+[2023/11/30, 4:03:20.085 PM] % They will be replaced.
+
+[2023/11/30, 4:03:20.117 PM] % The key modulus size is 1024 bits
+[2023/11/30, 4:03:20.150 PM] % Generating 1024 bit RSA keys, keys will be non-exportable...
+[2023/11/30, 4:03:20.357 PM] [OK] (elapsed time was 1 seconds)
+
+[2023/11/30, 4:03:20.405 PM] Sk2a03(config)#
+[2023/11/30, 4:03:21.029 PM] *Nov 30 07:03:19.868: %SSH-5-DISABLED: SSH 1.99 has been disabled
+[2023/11/30, 4:03:21.109 PM] *Nov 30 07:03:20.208: %SSH-5-ENABLED: SSH 1.99 has been enabledcrypto key generate rsa general-keys modulus 1024ip domain-name ecccomp.com                       exit                      ip domain-name ecccomp.comcrypto key generate rsa general-keys modulus 1024                                                 
+[2023/11/30, 4:03:32.435 PM] Sk2a03(config)#
+[2023/11/30, 4:03:32.659 PM] Sk2a03(config)#
+[2023/11/30, 4:03:32.883 PM] Sk2a03(config)#
+[2023/11/30, 4:03:33.107 PM] Sk2a03(config)#
+[2023/11/30, 4:03:33.266 PM] Sk2a03(config)#crypto key generate rsa general-keys modulus 1024
+[2023/11/30, 4:03:34.531 PM] % You already have RSA keys defined named Sk2a03.ecccomp.com.
+[2023/11/30, 4:03:34.610 PM] % They will be replaced.
+
+[2023/11/30, 4:03:34.642 PM] % The key modulus size is 1024 bits
+[2023/11/30, 4:03:34.674 PM] % Generating 1024 bit RSA keys, keys will be non-exportable...
+[2023/11/30, 4:03:35.010 PM] [OK] (elapsed time was 0 seconds)
+
+[2023/11/30, 4:03:35.043 PM] Sk2a03(config)#
+[2023/11/30, 4:03:36.034 PM] *Nov 30 07:03:34.396: %SSH-5-DISABLED: SSH 1.99 has been disabled
+[2023/11/30, 4:03:36.098 PM] *Nov 30 07:03:34.856: %SSH-5-ENABLED: SSH 1.99 has been enabled
+[2023/11/30, 4:03:36.226 PM] Sk2a03(config)#
+[2023/11/30, 4:03:36.418 PM] Sk2a03(config)#
+[2023/11/30, 4:03:37.298 PM] Sk2a03(config)#
+[2023/11/30, 4:03:37.474 PM] Sk2a03(config)#
+[2023/11/30, 4:03:37.634 PM] Sk2a03(config)#
+[2023/11/30, 4:03:37.794 PM] Sk2a03(config)#
+[2023/11/30, 4:03:37.970 PM] Sk2a03(config)#
+[2023/11/30, 4:03:38.130 PM] Sk2a03(config)#username Cisco secret Class
+[2023/11/30, 4:03:43.889 PM] Sk2a03(config)#show user  s all
+[2023/11/30, 4:03:48.560 PM]                  ^
+[2023/11/30, 4:03:48.592 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 4:03:48.640 PM] Sk2a03(config)#show users alll  
+[2023/11/30, 4:03:53.231 PM]                  ^
+[2023/11/30, 4:03:53.247 PM] % Invalid input detected at '^' marker.
+
+[2023/11/30, 4:03:53.295 PM] Sk2a03(config)#
+[2023/11/30, 4:03:53.374 PM] Sk2a03(config)#
+[2023/11/30, 4:03:53.535 PM] Sk2a03(config)#exit
+[2023/11/30, 4:03:54.830 PM] Sk2a03#conf tshow users all
+[2023/11/30, 4:03:56.030 PM] *Nov 30 07:03:54.684: %SYS-5-CONFIG_I: Configured from console by consoleconf t        
+[2023/11/30, 4:03:57.070 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 4:03:57.134 PM] Sk2a03(config)#
+[2023/11/30, 4:03:57.486 PM] Sk2a03(config)#
+[2023/11/30, 4:03:57.630 PM] Sk2a03(config)#exite  t
+[2023/11/30, 4:04:00.430 PM] Sk2a03#conf tshow users all
+[2023/11/30, 4:04:02.014 PM]     Line       User       Host(s)              Idle       Location
+[2023/11/30, 4:04:02.093 PM] *  0 con 0                idle                 00:00:00   
+[2023/11/30, 4:04:02.157 PM]   34 vty 0                                     00:00:00 
+[2023/11/30, 4:04:02.221 PM]   35 vty 1                                     00:00:00 
+[2023/11/30, 4:04:02.285 PM]   36 vty 2                                     00:00:00 
+[2023/11/30, 4:04:02.349 PM]   37 vty 3                                     00:00:00 
+[2023/11/30, 4:04:02.429 PM]   38 vty 4                                     00:00:00 
+
+[2023/11/30, 4:04:02.493 PM]   Interface    User               Mode         Idle     Peer Address
+
+[2023/11/30, 4:04:02.573 PM] Sk2a03#
+[2023/11/30, 4:04:02.590 PM] *Nov 30 07:04:00.296: %SYS-5-CONFIG_I: Configured from console by console
+[2023/11/30, 4:04:13.035 PM] *Nov 30 07:04:11.836: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:04:21.049 PM] *Nov 30 07:04:19.864: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:04:37.910 PM] Sk2a03#
+[2023/11/30, 4:04:38.086 PM] Sk2a03#
+[2023/11/30, 4:04:38.246 PM] Sk2a03#
+[2023/11/30, 4:04:38.406 PM] Sk2a03#
+[2023/11/30, 4:04:38.582 PM] Sk2a03#
+[2023/11/30, 4:04:38.726 PM] Sk2a03#
+[2023/11/30, 4:04:38.902 PM] Sk2a03#
+[2023/11/30, 4:04:39.062 PM] Sk2a03#show users allconf t        show users allconf t        show users all              s fo  con  f t
+[2023/11/30, 4:04:52.372 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/11/30, 4:04:52.451 PM] Sk2a03(config)#
+[2023/11/30, 4:04:53.395 PM] Sk2a03(config)#
+[2023/11/30, 4:04:53.555 PM] Sk2a03(config)#
+[2023/11/30, 4:04:53.683 PM] Sk2a03(config)#line vty 0 4
+[2023/11/30, 4:04:57.906 PM] Sk2a03(config-line)#login local
+[2023/11/30, 4:05:02.097 PM] Sk2a03(config-line)#transport input ssh
+[2023/11/30, 4:05:10.400 PM] Sk2a03(config-line)#
+[2023/11/30, 4:05:28.044 PM] *Nov 30 07:05:26.680: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:05:42.058 PM] Sk2a03#conf tshow users all
+[2023/11/30, 4:05:44.041 PM] *Nov 30 07:05:41.928: %SYS-5-CONFIG_I: Configured from console by console
+[2023/11/30, 4:05:45.145 PM]     Line       User       Host(s)              Idle       Location
+[2023/11/30, 4:05:45.225 PM] *  0 con 0                idle                 00:00:00   
+[2023/11/30, 4:05:45.289 PM]   34 vty 0                                     00:00:00 
+[2023/11/30, 4:05:45.353 PM]   35 vty 1                                     00:00:00 
+[2023/11/30, 4:05:45.433 PM]   36 vty 2                                     00:00:00 
+[2023/11/30, 4:05:45.497 PM]   37 vty 3                                     00:00:00 
+[2023/11/30, 4:05:45.561 PM]   38 vty 4                                     00:00:00 
+
+[2023/11/30, 4:05:45.625 PM]   Interface    User               Mode         Idle     Peer Address
+
+[2023/11/30, 4:05:45.705 PM] Sk2a03#
+[2023/11/30, 4:05:45.721 PM] Sk2a03#
+[2023/11/30, 4:05:45.737 PM] Sk2a03#show users allconf t        show users allconf t        show users all         run | include user
+[2023/11/30, 4:06:12.227 PM] username Cisco secret 5 $1$Qfii$IpFX73hQmQOWfwH2vBC.v/
+[2023/11/30, 4:06:12.292 PM] Sk2a03#
+[2023/11/30, 4:06:23.042 PM] *Nov 30 07:06:20.952: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2023/11/30, 4:16:51.255 PM] Sk2a03 con0 is now available
+
+
+
+
+
+[2023/11/30, 4:16:51.287 PM] Press RETURN to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+

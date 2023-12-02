@@ -1,0 +1,1026 @@
+[2023/11/30, 3:39:05.407 PM] Last login: Thu Nov 30 15:31:38 on ttys015
+
+
+[2023/11/30, 3:39:05.438 PM]     ~                                                          15:39:05  
+[2023/11/30, 3:39:05.438 PM] ❯ %                                                                               
+[2023/11/30, 3:39:05.534 PM]     ~                                                          15:39:05  
+[2023/11/30, 3:39:05.534 PM] ❯ iipconfig❯ ipconfig
+[2023/11/30, 3:39:15.418 PM] usage: ipconfig <command> <args>
+[2023/11/30, 3:39:15.418 PM] where <command> is one of waitall, getifaddr, ifcount, getoption, getiflist, getsummary, getpacket, getv6packet, getra, getdhcpduid, getdhcpiaid, set, setverbose
+[2023/11/30, 3:39:15.419 PM] %                                                                                
+
+[2023/11/30, 3:39:15.436 PM]     ~                                                          15:39:15  
+[2023/11/30, 3:39:15.436 PM] ❯ ipconfigiconfig ifconfig❯ ifconfig
+[2023/11/30, 3:39:18.393 PM] lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+[2023/11/30, 3:39:18.393 PM] options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+[2023/11/30, 3:39:18.393 PM] inet 127.0.0.1 netmask 0xff000000
+[2023/11/30, 3:39:18.393 PM] inet6 ::1 prefixlen 128 
+[2023/11/30, 3:39:18.394 PM] inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+[2023/11/30, 3:39:18.394 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.394 PM] gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+[2023/11/30, 3:39:18.394 PM] stf0: flags=0<> mtu 1280
+[2023/11/30, 3:39:18.394 PM] anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.394 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.394 PM] ether 6e:2a:9b:60:20:e1
+[2023/11/30, 3:39:18.394 PM] media: none
+[2023/11/30, 3:39:18.394 PM] status: inactive
+[2023/11/30, 3:39:18.394 PM] anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.394 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.394 PM] ether 6e:2a:9b:60:20:e2
+[2023/11/30, 3:39:18.394 PM] media: none
+[2023/11/30, 3:39:18.394 PM] status: inactive
+[2023/11/30, 3:39:18.394 PM] en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.394 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.394 PM] ether 6e:2a:9b:60:20:c1
+[2023/11/30, 3:39:18.394 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.394 PM] media: none
+[2023/11/30, 3:39:18.394 PM] status: inactive
+[2023/11/30, 3:39:18.394 PM] en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.394 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.394 PM] ether 6e:2a:9b:60:20:c2
+[2023/11/30, 3:39:18.394 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.394 PM] media: none
+[2023/11/30, 3:39:18.394 PM] status: inactive
+[2023/11/30, 3:39:18.394 PM] en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.395 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 3:39:18.395 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 3:39:18.395 PM] media: autoselect <full-duplex>
+[2023/11/30, 3:39:18.395 PM] status: inactive
+[2023/11/30, 3:39:18.395 PM] en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.395 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 3:39:18.395 PM] ether 36:13:a9:79:4f:04
+[2023/11/30, 3:39:18.395 PM] media: autoselect <full-duplex>
+[2023/11/30, 3:39:18.395 PM] status: inactive
+[2023/11/30, 3:39:18.395 PM] ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.395 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.395 PM] ether 3e:57:dc:64:3d:e3
+[2023/11/30, 3:39:18.395 PM] media: autoselect
+[2023/11/30, 3:39:18.395 PM] en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.395 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.395 PM] ether 1c:57:dc:64:3d:e3
+[2023/11/30, 3:39:18.395 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.395 PM] media: autoselect
+[2023/11/30, 3:39:18.395 PM] status: inactive
+[2023/11/30, 3:39:18.395 PM] bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.395 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 3:39:18.395 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 3:39:18.395 PM] Configuration:
+[2023/11/30, 3:39:18.395 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 3:39:18.395 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 3:39:18.395 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 3:39:18.395 PM] ipfilter disabled flags 0x0
+[2023/11/30, 3:39:18.395 PM] member: en1 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 3:39:18.395 PM]         ifmaxaddr 0 port 8 priority 0 path cost 0
+[2023/11/30, 3:39:18.395 PM] member: en2 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 3:39:18.395 PM]         ifmaxaddr 0 port 9 priority 0 path cost 0
+[2023/11/30, 3:39:18.395 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] media: <unknown type>
+[2023/11/30, 3:39:18.396 PM] status: inactive
+[2023/11/30, 3:39:18.396 PM] awdl0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.396 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/11/30, 3:39:18.396 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%awdl0 prefixlen 64 scopeid 0xd 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] media: autoselect (<unknown type>)
+[2023/11/30, 3:39:18.396 PM] status: inactive
+[2023/11/30, 3:39:18.396 PM] llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.396 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:39:18.396 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%llw0 prefixlen 64 scopeid 0xe 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] media: autoselect
+[2023/11/30, 3:39:18.396 PM] status: inactive
+[2023/11/30, 3:39:18.396 PM] utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::7adf:801b:62ac:c754%utun0 prefixlen 64 scopeid 0xf 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::38ee:6eec:ed83:18c2%utun1 prefixlen 64 scopeid 0x10 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::966d:162e:4351:a698%utun2 prefixlen 64 scopeid 0x11 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::ce81:b1c:bd2c:69e%utun3 prefixlen 64 scopeid 0x12 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::efac:f845:d621:1642%utun4 prefixlen 64 scopeid 0x13 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:39:18.396 PM] inet6 fe80::4478:75be:6550:5368%utun5 prefixlen 64 scopeid 0x14 
+[2023/11/30, 3:39:18.396 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.396 PM] vmenet0: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.396 PM] options=60<TSO4,TSO6>
+[2023/11/30, 3:39:18.396 PM] ether 0a:ed:d3:2b:f7:de
+[2023/11/30, 3:39:18.396 PM] media: autoselect
+[2023/11/30, 3:39:18.396 PM] status: active
+[2023/11/30, 3:39:18.396 PM] bridge100: flags=8a63<UP,BROADCAST,SMART,RUNNING,ALLMULTI,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.396 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 3:39:18.396 PM] ether 1e:57:dc:46:30:64
+[2023/11/30, 3:39:18.396 PM] inet 192.168.64.1 netmask 0xffffff00 broadcast 192.168.64.255
+[2023/11/30, 3:39:18.397 PM] inet6 fe80::1c57:dcff:fe46:3064%bridge100 prefixlen 64 scopeid 0x16 
+[2023/11/30, 3:39:18.397 PM] inet6 fd37:818b:eead:5d00:10cc:1d8d:7c85:d49e prefixlen 64 autoconf secured 
+[2023/11/30, 3:39:18.397 PM] Configuration:
+[2023/11/30, 3:39:18.397 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 3:39:18.397 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 3:39:18.397 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 3:39:18.397 PM] ipfilter disabled flags 0x0
+[2023/11/30, 3:39:18.397 PM] member: vmenet0 flags=10803<LEARNING,DISCOVER,PRIVATE,CSUM>
+[2023/11/30, 3:39:18.397 PM]         ifmaxaddr 0 port 21 priority 0 path cost 0
+[2023/11/30, 3:39:18.397 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.397 PM] media: autoselect
+[2023/11/30, 3:39:18.397 PM] status: active
+[2023/11/30, 3:39:18.397 PM] en6: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:39:18.397 PM] options=404<VLAN_MTU,CHANNEL_IO>
+[2023/11/30, 3:39:18.397 PM] ether a0:ce:c8:63:7a:be
+[2023/11/30, 3:39:18.397 PM] inet6 fe80::400:dd34:b5d4:c4ec%en6 prefixlen 64 secured scopeid 0x17 
+[2023/11/30, 3:39:18.397 PM] inet 192.168.1.1 netmask 0xffffffe0 broadcast 192.168.1.31
+[2023/11/30, 3:39:18.397 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:39:18.397 PM] media: autoselect (1000baseT <full-duplex>)
+[2023/11/30, 3:39:18.397 PM] status: active
+[2023/11/30, 3:39:18.397 PM] %                                                                                
+
+[2023/11/30, 3:39:18.405 PM]     ~                                                          15:39:18  
+[2023/11/30, 3:39:18.405 PM] ❯ 
+
+[2023/11/30, 3:39:33.206 PM]     ~                                                             15:39:18  
+[2023/11/30, 3:39:33.206 PM] ❯ 
+
+[2023/11/30, 3:39:33.418 PM]     ~                                                                                15:39:18  
+[2023/11/30, 3:39:33.418 PM] ❯ 
+
+[2023/11/30, 3:39:33.813 PM]     ~                                                                               15:39:18  
+[2023/11/30, 3:39:33.814 PM] ❯ 
+
+[2023/11/30, 3:39:34.061 PM]     ~                                                                             15:39:18  
+[2023/11/30, 3:39:34.061 PM] ❯ 
+
+[2023/11/30, 3:39:34.578 PM]     ~                                                                              15:39:18  
+[2023/11/30, 3:39:34.578 PM] ❯ pping 192.168.1.30❯ ping 192.168.1.30
+[2023/11/30, 3:44:01.017 PM] PING 192.168.1.30 (192.168.1.30): 56 data bytes
+[2023/11/30, 3:44:01.019 PM] 64 bytes from 192.168.1.30: icmp_seq=0 ttl=255 time=1.582 ms
+[2023/11/30, 3:44:02.024 PM] 64 bytes from 192.168.1.30: icmp_seq=1 ttl=255 time=1.358 ms
+[2023/11/30, 3:44:03.026 PM] 64 bytes from 192.168.1.30: icmp_seq=2 ttl=255 time=1.183 ms
+[2023/11/30, 3:44:04.029 PM] 64 bytes from 192.168.1.30: icmp_seq=3 ttl=255 time=1.113 ms
+[2023/11/30, 3:44:05.032 PM] 64 bytes from 192.168.1.30: icmp_seq=4 ttl=255 time=0.996 ms
+[2023/11/30, 3:44:06.036 PM] 64 bytes from 192.168.1.30: icmp_seq=5 ttl=255 time=0.964 ms
+[2023/11/30, 3:44:07.041 PM] 64 bytes from 192.168.1.30: icmp_seq=6 ttl=255 time=1.109 ms
+[2023/11/30, 3:44:08.047 PM] 64 bytes from 192.168.1.30: icmp_seq=7 ttl=255 time=1.148 ms
+[2023/11/30, 3:44:09.050 PM] 64 bytes from 192.168.1.30: icmp_seq=8 ttl=255 time=1.151 ms
+[2023/11/30, 3:44:10.053 PM] 64 bytes from 192.168.1.30: icmp_seq=9 ttl=255 time=1.133 ms
+[2023/11/30, 3:44:11.059 PM] 64 bytes from 192.168.1.30: icmp_seq=10 ttl=255 time=1.106 ms
+[2023/11/30, 3:44:11.172 PM] ^C
+[2023/11/30, 3:44:11.172 PM] --- 192.168.1.30 ping statistics ---
+[2023/11/30, 3:44:11.173 PM] 11 packets transmitted, 11 packets received, 0.0% packet loss
+[2023/11/30, 3:44:11.173 PM] round-trip min/avg/max/stddev = 0.964/1.168/1.582/0.163 ms
+[2023/11/30, 3:44:11.173 PM] %                                                                                                    
+
+[2023/11/30, 3:44:11.193 PM]     ~                                                                      10s   15:44:11  
+[2023/11/30, 3:44:11.193 PM] ❯ pping www.nic.ad.jp❯ ping www.nic.ad.jp
+[2023/11/30, 3:44:18.540 PM] ping: cannot resolve www.nic.ad.jp: Unknown host
+[2023/11/30, 3:44:18.541 PM] %                                                                                                    
+
+[2023/11/30, 3:44:18.555 PM]     ~                                                                              15:44:18  
+[2023/11/30, 3:44:18.555 PM] ❯ ping www.nic.ad.jp❯ ping www.nic.ad.jp
+[2023/11/30, 3:44:25.843 PM] ping: cannot resolve www.nic.ad.jp: Unknown host
+[2023/11/30, 3:44:25.844 PM] %                                                                                                    
+
+[2023/11/30, 3:44:25.855 PM]     ~                                                                              15:44:25  
+[2023/11/30, 3:44:25.855 PM] ❯ w wwww.nic.ad.kp  jp p❯ www.nic.ad.jp
+[2023/11/30, 3:45:28.723 PM] zsh: command not found: www.nic.ad.jp
+[2023/11/30, 3:45:28.723 PM] %                                                                                                    
+
+[2023/11/30, 3:45:28.735 PM]     ~                                                                              15:45:28  
+[2023/11/30, 3:45:28.735 PM] ❯ nnslookup www.nic.ad.jp❯ nslookup www.nic.ad.jp
+[2023/11/30, 3:45:57.905 PM] ;; connection timed out; no servers could be reached
+
+[2023/11/30, 3:45:57.907 PM] %                                                                                                    
+
+[2023/11/30, 3:45:57.927 PM]     ~                                                                      18s   15:45:57  
+[2023/11/30, 3:45:57.927 PM] ❯ ssudo   s  iif config❯ ifconfig
+[2023/11/30, 3:46:16.555 PM] lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+[2023/11/30, 3:46:16.555 PM] options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+[2023/11/30, 3:46:16.555 PM] inet 127.0.0.1 netmask 0xff000000
+[2023/11/30, 3:46:16.556 PM] inet6 ::1 prefixlen 128 
+[2023/11/30, 3:46:16.556 PM] inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+[2023/11/30, 3:46:16.556 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.556 PM] gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+[2023/11/30, 3:46:16.556 PM] stf0: flags=0<> mtu 1280
+[2023/11/30, 3:46:16.556 PM] anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.556 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.556 PM] ether 6e:2a:9b:60:20:e1
+[2023/11/30, 3:46:16.557 PM] media: none
+[2023/11/30, 3:46:16.557 PM] status: inactive
+[2023/11/30, 3:46:16.557 PM] anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.557 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.557 PM] ether 6e:2a:9b:60:20:e2
+[2023/11/30, 3:46:16.557 PM] media: none
+[2023/11/30, 3:46:16.557 PM] status: inactive
+[2023/11/30, 3:46:16.557 PM] en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.557 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.557 PM] ether 6e:2a:9b:60:20:c1
+[2023/11/30, 3:46:16.557 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.557 PM] media: none
+[2023/11/30, 3:46:16.557 PM] status: inactive
+[2023/11/30, 3:46:16.557 PM] en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.557 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.557 PM] ether 6e:2a:9b:60:20:c2
+[2023/11/30, 3:46:16.557 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.557 PM] media: none
+[2023/11/30, 3:46:16.557 PM] status: inactive
+[2023/11/30, 3:46:16.557 PM] en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.557 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 3:46:16.557 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 3:46:16.557 PM] media: autoselect <full-duplex>
+[2023/11/30, 3:46:16.557 PM] status: inactive
+[2023/11/30, 3:46:16.557 PM] en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.557 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 3:46:16.558 PM] ether 36:13:a9:79:4f:04
+[2023/11/30, 3:46:16.558 PM] media: autoselect <full-duplex>
+[2023/11/30, 3:46:16.558 PM] status: inactive
+[2023/11/30, 3:46:16.558 PM] ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.558 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.558 PM] ether 3e:57:dc:64:3d:e3
+[2023/11/30, 3:46:16.558 PM] media: autoselect
+[2023/11/30, 3:46:16.558 PM] en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.558 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.558 PM] ether 1c:57:dc:64:3d:e3
+[2023/11/30, 3:46:16.558 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.558 PM] media: autoselect
+[2023/11/30, 3:46:16.558 PM] status: inactive
+[2023/11/30, 3:46:16.558 PM] bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.558 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 3:46:16.558 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 3:46:16.558 PM] Configuration:
+[2023/11/30, 3:46:16.558 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 3:46:16.558 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 3:46:16.558 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 3:46:16.558 PM] ipfilter disabled flags 0x0
+[2023/11/30, 3:46:16.558 PM] member: en1 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 3:46:16.558 PM]         ifmaxaddr 0 port 8 priority 0 path cost 0
+[2023/11/30, 3:46:16.558 PM] member: en2 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 3:46:16.558 PM]         ifmaxaddr 0 port 9 priority 0 path cost 0
+[2023/11/30, 3:46:16.558 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.558 PM] media: <unknown type>
+[2023/11/30, 3:46:16.558 PM] status: inactive
+[2023/11/30, 3:46:16.558 PM] awdl0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.558 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/11/30, 3:46:16.558 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 3:46:16.558 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%awdl0 prefixlen 64 scopeid 0xd 
+[2023/11/30, 3:46:16.558 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] media: autoselect (<unknown type>)
+[2023/11/30, 3:46:16.559 PM] status: inactive
+[2023/11/30, 3:46:16.559 PM] llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.559 PM] options=400<CHANNEL_IO>
+[2023/11/30, 3:46:16.559 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%llw0 prefixlen 64 scopeid 0xe 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] media: autoselect
+[2023/11/30, 3:46:16.559 PM] status: inactive
+[2023/11/30, 3:46:16.559 PM] utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::7adf:801b:62ac:c754%utun0 prefixlen 64 scopeid 0xf 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::38ee:6eec:ed83:18c2%utun1 prefixlen 64 scopeid 0x10 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::966d:162e:4351:a698%utun2 prefixlen 64 scopeid 0x11 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::ce81:b1c:bd2c:69e%utun3 prefixlen 64 scopeid 0x12 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::efac:f845:d621:1642%utun4 prefixlen 64 scopeid 0x13 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::4478:75be:6550:5368%utun5 prefixlen 64 scopeid 0x14 
+[2023/11/30, 3:46:16.559 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.559 PM] vmenet0: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.559 PM] options=60<TSO4,TSO6>
+[2023/11/30, 3:46:16.559 PM] ether 0a:ed:d3:2b:f7:de
+[2023/11/30, 3:46:16.559 PM] media: autoselect
+[2023/11/30, 3:46:16.559 PM] status: active
+[2023/11/30, 3:46:16.559 PM] bridge100: flags=8a63<UP,BROADCAST,SMART,RUNNING,ALLMULTI,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.559 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 3:46:16.559 PM] ether 1e:57:dc:46:30:64
+[2023/11/30, 3:46:16.559 PM] inet 192.168.64.1 netmask 0xffffff00 broadcast 192.168.64.255
+[2023/11/30, 3:46:16.559 PM] inet6 fe80::1c57:dcff:fe46:3064%bridge100 prefixlen 64 scopeid 0x16 
+[2023/11/30, 3:46:16.559 PM] inet6 fd37:818b:eead:5d00:10cc:1d8d:7c85:d49e prefixlen 64 autoconf secured 
+[2023/11/30, 3:46:16.559 PM] Configuration:
+[2023/11/30, 3:46:16.560 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 3:46:16.560 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 3:46:16.560 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 3:46:16.560 PM] ipfilter disabled flags 0x0
+[2023/11/30, 3:46:16.560 PM] member: vmenet0 flags=10803<LEARNING,DISCOVER,PRIVATE,CSUM>
+[2023/11/30, 3:46:16.560 PM]         ifmaxaddr 0 port 21 priority 0 path cost 0
+[2023/11/30, 3:46:16.560 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.560 PM] media: autoselect
+[2023/11/30, 3:46:16.560 PM] status: active
+[2023/11/30, 3:46:16.560 PM] en6: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 3:46:16.560 PM] options=404<VLAN_MTU,CHANNEL_IO>
+[2023/11/30, 3:46:16.560 PM] ether a0:ce:c8:63:7a:be
+[2023/11/30, 3:46:16.560 PM] inet6 fe80::400:dd34:b5d4:c4ec%en6 prefixlen 64 secured scopeid 0x17 
+[2023/11/30, 3:46:16.560 PM] inet 192.168.1.1 netmask 0xffffffe0 broadcast 192.168.1.31
+[2023/11/30, 3:46:16.560 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 3:46:16.560 PM] media: autoselect (1000baseT <full-duplex>)
+[2023/11/30, 3:46:16.560 PM] status: active
+[2023/11/30, 3:46:16.560 PM] %                                                                                                    
+
+[2023/11/30, 3:46:16.570 PM]     ~                                                                              15:46:16  
+[2023/11/30, 3:46:16.570 PM] ❯ pping 8.88.8   .8.8❯ ping 8.8.8.8
+[2023/11/30, 3:46:52.058 PM] PING 8.8.8.8 (8.8.8.8): 56 data bytes
+[2023/11/30, 3:46:52.059 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:53.063 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:53.063 PM] Request timeout for icmp_seq 0
+[2023/11/30, 3:46:54.068 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:54.069 PM] Request timeout for icmp_seq 1
+[2023/11/30, 3:46:55.073 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:55.073 PM] Request timeout for icmp_seq 2
+[2023/11/30, 3:46:56.077 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:56.077 PM] Request timeout for icmp_seq 3
+[2023/11/30, 3:46:57.079 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:57.079 PM] Request timeout for icmp_seq 4
+[2023/11/30, 3:46:58.083 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:58.083 PM] Request timeout for icmp_seq 5
+[2023/11/30, 3:46:59.085 PM] ping: sendto: No route to host
+[2023/11/30, 3:46:59.085 PM] Request timeout for icmp_seq 6
+[2023/11/30, 3:47:00.044 PM] ^C
+[2023/11/30, 3:47:00.044 PM] --- 8.8.8.8 ping statistics ---
+[2023/11/30, 3:47:00.044 PM] 8 packets transmitted, 0 packets received, 100.0% packet loss
+[2023/11/30, 3:47:00.045 PM] %                                                                                                    
+
+[2023/11/30, 3:47:00.065 PM]     ~                                                                       8s   15:47:00  
+[2023/11/30, 3:47:00.065 PM] ❯ ping 8.8.8.8            ping 8.8.8.8ifconfig    nslookup www.nic.ad.jp         nslookup www.nic.ad.jpifconfig              ping 8.8.8.8            ping 8.8.8.8ifconfig    ping 8.8.8.8❯ ping 8.8.8.8
+[2023/11/30, 3:49:45.981 PM] PING 8.8.8.8 (8.8.8.8): 56 data bytes
+[2023/11/30, 3:49:45.984 PM] 64 bytes from 8.8.8.8: icmp_seq=0 ttl=115 time=2.772 ms
+[2023/11/30, 3:49:46.989 PM] 64 bytes from 8.8.8.8: icmp_seq=1 ttl=115 time=2.576 ms
+[2023/11/30, 3:49:47.992 PM] 64 bytes from 8.8.8.8: icmp_seq=2 ttl=115 time=2.478 ms
+[2023/11/30, 3:49:48.997 PM] 64 bytes from 8.8.8.8: icmp_seq=3 ttl=115 time=2.598 ms
+[2023/11/30, 3:49:50.000 PM] 64 bytes from 8.8.8.8: icmp_seq=4 ttl=115 time=2.486 ms
+[2023/11/30, 3:49:51.005 PM] 64 bytes from 8.8.8.8: icmp_seq=5 ttl=115 time=2.502 ms
+[2023/11/30, 3:49:51.031 PM] ^C
+[2023/11/30, 3:49:51.031 PM] --- 8.8.8.8 ping statistics ---
+[2023/11/30, 3:49:51.031 PM] 6 packets transmitted, 6 packets received, 0.0% packet loss
+[2023/11/30, 3:49:51.032 PM] round-trip min/avg/max/stddev = 2.478/2.569/2.772/0.101 ms
+[2023/11/30, 3:49:51.032 PM] %                                                                                                    
+
+[2023/11/30, 3:49:51.046 PM]     ~                                                                       5s   15:49:51  
+[2023/11/30, 3:49:51.046 PM] ❯ ping 8.8.8.8ifconfig    nslookup www.nic.ad.jp         ping www.nic.ad.jp❯ ping www.nic.ad.jp
+[2023/11/30, 3:49:54.279 PM] PING www.nic.ad.jp (192.41.192.145): 56 data bytes
+[2023/11/30, 3:49:54.288 PM] 64 bytes from 192.41.192.145: icmp_seq=0 ttl=54 time=9.063 ms
+[2023/11/30, 3:49:55.293 PM] 64 bytes from 192.41.192.145: icmp_seq=1 ttl=54 time=9.203 ms
+[2023/11/30, 3:49:56.299 PM] 64 bytes from 192.41.192.145: icmp_seq=2 ttl=54 time=9.414 ms
+[2023/11/30, 3:49:58.300 PM] Request timeout for icmp_seq 3
+[2023/11/30, 3:49:58.309 PM] 64 bytes from 192.41.192.145: icmp_seq=4 ttl=54 time=9.075 ms
+[2023/11/30, 3:49:59.314 PM] 64 bytes from 192.41.192.145: icmp_seq=5 ttl=54 time=9.125 ms
+[2023/11/30, 3:50:00.319 PM] 64 bytes from 192.41.192.145: icmp_seq=6 ttl=54 time=9.075 ms
+[2023/11/30, 3:50:01.324 PM] 64 bytes from 192.41.192.145: icmp_seq=7 ttl=54 time=9.125 ms
+[2023/11/30, 3:50:02.330 PM] 64 bytes from 192.41.192.145: icmp_seq=8 ttl=54 time=9.262 ms
+[2023/11/30, 3:50:03.335 PM] 64 bytes from 192.41.192.145: icmp_seq=9 ttl=54 time=9.064 ms
+[2023/11/30, 3:50:04.340 PM] 64 bytes from 192.41.192.145: icmp_seq=10 ttl=54 time=9.180 ms
+[2023/11/30, 3:50:05.344 PM] 64 bytes from 192.41.192.145: icmp_seq=11 ttl=54 time=9.291 ms
+[2023/11/30, 3:50:06.350 PM] 64 bytes from 192.41.192.145: icmp_seq=12 ttl=54 time=9.278 ms
+[2023/11/30, 3:50:07.354 PM] 64 bytes from 192.41.192.145: icmp_seq=13 ttl=54 time=8.984 ms
+[2023/11/30, 3:50:08.354 PM] 64 bytes from 192.41.192.145: icmp_seq=14 ttl=54 time=9.135 ms
+[2023/11/30, 3:50:09.359 PM] 64 bytes from 192.41.192.145: icmp_seq=15 ttl=54 time=8.987 ms
+[2023/11/30, 3:50:10.364 PM] 64 bytes from 192.41.192.145: icmp_seq=16 ttl=54 time=8.966 ms
+[2023/11/30, 3:50:11.369 PM] 64 bytes from 192.41.192.145: icmp_seq=17 ttl=54 time=9.126 ms
+[2023/11/30, 3:50:12.371 PM] 64 bytes from 192.41.192.145: icmp_seq=18 ttl=54 time=9.094 ms
+[2023/11/30, 3:50:13.145 PM] ç64 bytes from 192.41.192.145: icmp_seq=19 ttl=54 time=9.105 ms
+[2023/11/30, 3:50:14.104 PM] ^C
+[2023/11/30, 3:50:14.105 PM] --- www.nic.ad.jp ping statistics ---
+[2023/11/30, 3:50:14.105 PM] 20 packets transmitted, 19 packets received, 5.0% packet loss
+[2023/11/30, 3:50:14.105 PM] round-trip min/avg/max/stddev = 8.966/9.134/9.414/0.112 ms
+[2023/11/30, 3:50:14.106 PM] %                                                                                                    
+
+[2023/11/30, 3:50:14.122 PM]     ~                                                                      20s   15:50:14  
+[2023/11/30, 3:50:14.122 PM] ❯ sssh 192.168.1.30❯ ssh 192.168.1.30
+[2023/11/30, 3:50:23.553 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:50:23.555 PM] %                                                                                                    
+
+[2023/11/30, 3:50:23.565 PM]     ~                                                                      255 ✘  15:50:23  
+[2023/11/30, 3:50:23.565 PM] ❯ ❯ 
+[2023/11/30, 3:50:27.714 PM] %                                                                                                    
+
+[2023/11/30, 3:50:27.729 PM]     ~                                                                      255 ✘  15:50:27  
+[2023/11/30, 3:50:27.729 PM] ❯ ❯ 
+[2023/11/30, 3:50:27.910 PM] %                                                                                                    
+
+[2023/11/30, 3:50:27.921 PM]     ~                                                                      255 ✘  15:50:27  
+[2023/11/30, 3:50:27.921 PM] ❯ ❯ 
+[2023/11/30, 3:50:28.105 PM] %                                                                                                    
+
+[2023/11/30, 3:50:28.121 PM]     ~                                                                      255 ✘  15:50:28  
+[2023/11/30, 3:50:28.121 PM] ❯ ttelnet 192, .168.1.30❯ telnet 192.168.1.30
+[2023/11/30, 3:51:17.904 PM] Trying 192.168.1.30...
+[2023/11/30, 3:51:18.907 PM] telnet: connect to address 192.168.1.30: Connection refused
+[2023/11/30, 3:51:18.907 PM] telnet: Unable to connect to remote host
+[2023/11/30, 3:51:18.909 PM] %                                                                                                    
+
+[2023/11/30, 3:51:18.926 PM]     ~                                                                              15:51:18  
+[2023/11/30, 3:51:18.926 PM] ❯ sssh Ciso co@192.168.1.30❯ ssh Cisco@192.168.1.30
+[2023/11/30, 3:52:04.082 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:52:04.083 PM] %                                                                                                    
+
+[2023/11/30, 3:52:04.095 PM]     ~                                                                      255 ✘  15:52:04  
+[2023/11/30, 3:52:04.095 PM] ❯ sssh -l Ciso co 192.168.1.30❯ ssh -l Cisco 192.168.1.30
+[2023/11/30, 3:52:36.941 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:52:36.941 PM] %                                                                                                    
+
+[2023/11/30, 3:52:36.950 PM]     ~                                                                      255 ✘  15:52:36  
+[2023/11/30, 3:52:36.950 PM] ❯ ssh -l Cisco 192.168.1.30Cisco@   ❯ ssh Cisco@192.168.1.30
+[2023/11/30, 3:54:21.672 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:54:21.675 PM] %                                                                                                    
+
+[2023/11/30, 3:54:21.685 PM]     ~                                                                      255 ✘  15:54:21  
+[2023/11/30, 3:54:21.685 PM] ❯ TTelnet 192.168.1.30❯ Telnet 192.168.1.30
+[2023/11/30, 3:55:50.343 PM] Trying 192.168.1.30...
+[2023/11/30, 3:55:51.345 PM] Telnet: connect to address 192.168.1.30: Connection refused
+[2023/11/30, 3:55:51.346 PM] Telnet: Unable to connect to remote host
+[2023/11/30, 3:55:51.348 PM] %                                                                                                    
+
+[2023/11/30, 3:55:51.365 PM]     ~                                                                              15:55:51  
+[2023/11/30, 3:55:51.365 PM] ❯ Telnet 192.168.1.30ssh Cisco@192.168.1.30 1❯ ssh Cisco@192.168.1.31
+[2023/11/30, 3:56:17.723 PM] ssh: connect to host 192.168.1.31 port 22: Permission denied
+[2023/11/30, 3:56:17.724 PM] %                                                                                                    
+
+[2023/11/30, 3:56:17.733 PM]     ~                                                                      255 ✘  15:56:17  
+[2023/11/30, 3:56:17.734 PM] ❯ ssh Cisco@192.168.1.31 0❯ ssh Cisco@192.168.1.30
+[2023/11/30, 3:56:20.577 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:56:20.578 PM] %                                                                                                    
+
+[2023/11/30, 3:56:20.590 PM]     ~                                                                      255 ✘  15:56:20  
+[2023/11/30, 3:56:20.590 PM] ❯ 
+
+[2023/11/30, 3:56:23.339 PM]     ~                                                                      255 ✘  15:56:20  
+[2023/11/30, 3:56:23.339 PM] ❯ 
+
+[2023/11/30, 3:56:23.551 PM]     ~                                                                      255 ✘  15:56:20  
+[2023/11/30, 3:56:23.551 PM] ❯ sssh -p Ciso co@192.168.1.30❯ ssh -p Cisco@192.168.1.30
+[2023/11/30, 3:56:52.830 PM] Bad port 'Cisco@192.168.1.30'
+[2023/11/30, 3:56:52.834 PM] %                                                                                                    
+
+[2023/11/30, 3:56:52.840 PM]     ~                                                                      255 ✘  15:56:52  
+[2023/11/30, 3:56:52.841 PM] ❯ sssh Ciso cpo❯ ssh Ciscpo
+[2023/11/30, 3:57:54.629 PM] ssh: Could not resolve hostname ciscpo: nodename nor servname provided, or not known
+[2023/11/30, 3:57:54.630 PM] %                                                                                                    
+
+[2023/11/30, 3:57:54.648 PM]     ~                                                                      255 ✘  15:57:54  
+[2023/11/30, 3:57:54.648 PM] ❯ ssh Ciscpoo ❯ ssh Cisco
+[2023/11/30, 3:57:56.621 PM] ssh: Could not resolve hostname cisco: nodename nor servname provided, or not known
+[2023/11/30, 3:57:56.622 PM] %                                                                                                    
+
+[2023/11/30, 3:57:56.639 PM]     ~                                                                      255 ✘  15:57:56  
+[2023/11/30, 3:57:56.639 PM] ❯ ssh Cisco@192.168.               s  ssh Ciscpo-p Cisco@192.168.1.30   ❯ ssh Cisco@192.168.1.30
+[2023/11/30, 3:58:34.684 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:58:34.684 PM] %                                                                                                    
+
+[2023/11/30, 3:58:34.696 PM]     ~                                                                      255 ✘  15:58:34  
+[2023/11/30, 3:58:34.696 PM] ❯ ssh Cisco@192.168.1.30 -p 22❯ ssh Cisco@192.168.1.30 -p 22
+[2023/11/30, 3:59:31.797 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 3:59:31.798 PM] %                                                                                                    
+
+[2023/11/30, 3:59:31.809 PM]     ~                                                                      255 ✘  15:59:31  
+[2023/11/30, 3:59:31.809 PM] ❯ ssh Cisco@192.168.1.30 -p 22  1024❯ ssh Cisco@192.168.1.30 -p 1024
+[2023/11/30, 3:59:47.074 PM] ssh: connect to host 192.168.1.30 port 1024: Connection refused
+[2023/11/30, 3:59:47.076 PM] %                                                                                                    
+
+[2023/11/30, 3:59:47.092 PM]     ~                                                                      255 ✘  15:59:47  
+[2023/11/30, 3:59:47.092 PM] ❯ ssh Cisco@192.168.1.30 -p 1024 cisco@192.168.1.30 -p 1024❯ ssh cisco@192.168.1.30 -p 1024
+[2023/11/30, 4:00:25.689 PM] ssh: connect to host 192.168.1.30 port 1024: Connection refused
+[2023/11/30, 4:00:25.691 PM] %                                                                                                    
+
+[2023/11/30, 4:00:25.709 PM]     ~                                                                      255 ✘  16:00:25  
+[2023/11/30, 4:00:25.709 PM] ❯ ssh cisco@192.168.1.30 -p 1024                              pping 192.168.1.30❯ ping 192.168.1.30
+[2023/11/30, 4:00:41.784 PM] PING 192.168.1.30 (192.168.1.30): 56 data bytes
+[2023/11/30, 4:00:41.785 PM] 64 bytes from 192.168.1.30: icmp_seq=0 ttl=255 time=1.116 ms
+[2023/11/30, 4:00:42.790 PM] 64 bytes from 192.168.1.30: icmp_seq=1 ttl=255 time=1.120 ms
+[2023/11/30, 4:00:43.794 PM] 64 bytes from 192.168.1.30: icmp_seq=2 ttl=255 time=1.083 ms
+[2023/11/30, 4:00:44.800 PM] 64 bytes from 192.168.1.30: icmp_seq=3 ttl=255 time=0.982 ms
+[2023/11/30, 4:00:45.803 PM] 64 bytes from 192.168.1.30: icmp_seq=4 ttl=255 time=1.093 ms
+[2023/11/30, 4:00:46.781 PM] ^C
+[2023/11/30, 4:00:46.781 PM] --- 192.168.1.30 ping statistics ---
+[2023/11/30, 4:00:46.781 PM] 5 packets transmitted, 5 packets received, 0.0% packet loss
+[2023/11/30, 4:00:46.782 PM] round-trip min/avg/max/stddev = 0.982/1.079/1.120/0.050 ms
+[2023/11/30, 4:00:46.782 PM] %                                                                                                    
+
+[2023/11/30, 4:00:46.798 PM]     ~                                                                       5s   16:00:46  
+[2023/11/30, 4:00:46.798 PM] ❯ ping 192.168.1.30ssh cisco@192.168.1.30 -p 1024❯ ssh cisco@192.168.1.30 -p 1024
+[2023/11/30, 4:00:50.605 PM] ssh: connect to host 192.168.1.30 port 1024: Connection refused
+[2023/11/30, 4:00:50.605 PM] %                                                                                                    
+
+[2023/11/30, 4:00:50.618 PM]     ~                                                                      255 ✘  16:00:50  
+[2023/11/30, 4:00:50.618 PM] ❯ ssh cisco@192.168.1.30 -p 1024 cisco@192.168.1.30 -p 1024- cisco@192.168.1.30 -p 1024l cisco@192.168.1.30 -p 1024❯ ssh -l cisco@192.168.1.30 -p 1024
+[2023/11/30, 4:01:01.536 PM] usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface] [-b bind_address]
+[2023/11/30, 4:01:01.537 PM]            [-c cipher_spec] [-D [bind_address:]port] [-E log_file]
+[2023/11/30, 4:01:01.537 PM]            [-e escape_char] [-F configfile] [-I pkcs11] [-i identity_file]
+[2023/11/30, 4:01:01.537 PM]            [-J destination] [-L address] [-l login_name] [-m mac_spec]
+[2023/11/30, 4:01:01.537 PM]            [-O ctl_cmd] [-o option] [-P tag] [-p port] [-Q query_option]
+[2023/11/30, 4:01:01.537 PM]            [-R address] [-S ctl_path] [-W host:port] [-w local_tun[:remote_tun]]
+[2023/11/30, 4:01:01.537 PM]            destination [command [argument ...]]
+[2023/11/30, 4:01:01.537 PM] %                                                                                                    
+
+[2023/11/30, 4:01:01.551 PM]     ~                                                                      255 ✘  16:01:01  
+[2023/11/30, 4:01:01.551 PM] ❯ ssh -l cisco@192.168.1.30 -p 1024\cisco@192.168.1.30 -p 1024    ❯ ssh cisco@192.168.1.30 -p 1024
+[2023/11/30, 4:01:22.281 PM] %                                                                                                    
+
+[2023/11/30, 4:01:22.293 PM]     ~                                                                      INT ✘  16:01:22  
+[2023/11/30, 4:01:22.293 PM] ❯ ssh -l cisco@192.168.1.30 -p 1024         ❯ ssh cisco@192.168.1.30
+[2023/11/30, 4:04:11.965 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:04:11.968 PM] %                                                                                                    
+
+[2023/11/30, 4:04:11.980 PM]     ~                                                                      255 ✘  16:04:11  
+[2023/11/30, 4:04:11.980 PM] ❯ ssh cisco@192.168.1.30 Cisco@192.168.1.30❯ ssh Cisco@192.168.1.30
+[2023/11/30, 4:04:19.990 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:04:19.991 PM] %                                                                                                    
+
+[2023/11/30, 4:04:20.002 PM]     ~                                                                      255 ✘  16:04:19  
+[2023/11/30, 4:04:20.002 PM] ❯ iifcongi  fig❯ ifconfig
+[2023/11/30, 4:04:26.023 PM] lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+[2023/11/30, 4:04:26.023 PM] options=1203<RXCSUM,TXCSUM,TXSTATUS,SW_TIMESTAMP>
+[2023/11/30, 4:04:26.023 PM] inet 127.0.0.1 netmask 0xff000000
+[2023/11/30, 4:04:26.024 PM] inet6 ::1 prefixlen 128 
+[2023/11/30, 4:04:26.024 PM] inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+[2023/11/30, 4:04:26.024 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.024 PM] gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+[2023/11/30, 4:04:26.024 PM] stf0: flags=0<> mtu 1280
+[2023/11/30, 4:04:26.024 PM] anpi0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.024 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.024 PM] ether 6e:2a:9b:60:20:e1
+[2023/11/30, 4:04:26.024 PM] media: none
+[2023/11/30, 4:04:26.024 PM] status: inactive
+[2023/11/30, 4:04:26.024 PM] anpi1: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.024 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 6e:2a:9b:60:20:e2
+[2023/11/30, 4:04:26.025 PM] media: none
+[2023/11/30, 4:04:26.025 PM] status: inactive
+[2023/11/30, 4:04:26.025 PM] en3: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.025 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 6e:2a:9b:60:20:c1
+[2023/11/30, 4:04:26.025 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.025 PM] media: none
+[2023/11/30, 4:04:26.025 PM] status: inactive
+[2023/11/30, 4:04:26.025 PM] en4: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.025 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 6e:2a:9b:60:20:c2
+[2023/11/30, 4:04:26.025 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.025 PM] media: none
+[2023/11/30, 4:04:26.025 PM] status: inactive
+[2023/11/30, 4:04:26.025 PM] en1: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.025 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 4:04:26.025 PM] media: autoselect <full-duplex>
+[2023/11/30, 4:04:26.025 PM] status: inactive
+[2023/11/30, 4:04:26.025 PM] en2: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.025 PM] options=460<TSO4,TSO6,CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 36:13:a9:79:4f:04
+[2023/11/30, 4:04:26.025 PM] media: autoselect <full-duplex>
+[2023/11/30, 4:04:26.025 PM] status: inactive
+[2023/11/30, 4:04:26.025 PM] ap1: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.025 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.025 PM] ether 3e:57:dc:64:3d:e3
+[2023/11/30, 4:04:26.026 PM] media: autoselect
+[2023/11/30, 4:04:26.026 PM] en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.026 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.026 PM] ether 1c:57:dc:64:3d:e3
+[2023/11/30, 4:04:26.026 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.026 PM] media: autoselect
+[2023/11/30, 4:04:26.026 PM] status: inactive
+[2023/11/30, 4:04:26.026 PM] bridge0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.026 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 4:04:26.026 PM] ether 36:13:a9:79:4f:00
+[2023/11/30, 4:04:26.026 PM] Configuration:
+[2023/11/30, 4:04:26.026 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 4:04:26.026 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 4:04:26.026 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 4:04:26.026 PM] ipfilter disabled flags 0x0
+[2023/11/30, 4:04:26.026 PM] member: en1 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 4:04:26.026 PM]         ifmaxaddr 0 port 8 priority 0 path cost 0
+[2023/11/30, 4:04:26.026 PM] member: en2 flags=3<LEARNING,DISCOVER>
+[2023/11/30, 4:04:26.026 PM]         ifmaxaddr 0 port 9 priority 0 path cost 0
+[2023/11/30, 4:04:26.026 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.026 PM] media: <unknown type>
+[2023/11/30, 4:04:26.026 PM] status: inactive
+[2023/11/30, 4:04:26.026 PM] awdl0: flags=8802<BROADCAST,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.026 PM] options=6460<TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
+[2023/11/30, 4:04:26.026 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 4:04:26.026 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%awdl0 prefixlen 64 scopeid 0xd 
+[2023/11/30, 4:04:26.026 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.026 PM] media: autoselect (<unknown type>)
+[2023/11/30, 4:04:26.026 PM] status: inactive
+[2023/11/30, 4:04:26.026 PM] llw0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.026 PM] options=400<CHANNEL_IO>
+[2023/11/30, 4:04:26.026 PM] ether 9e:e7:cf:1b:96:c5
+[2023/11/30, 4:04:26.026 PM] inet6 fe80::9ce7:cfff:fe1b:96c5%llw0 prefixlen 64 scopeid 0xe 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] media: autoselect
+[2023/11/30, 4:04:26.027 PM] status: inactive
+[2023/11/30, 4:04:26.027 PM] utun0: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::7adf:801b:62ac:c754%utun0 prefixlen 64 scopeid 0xf 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] utun1: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::38ee:6eec:ed83:18c2%utun1 prefixlen 64 scopeid 0x10 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] utun2: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 2000
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::966d:162e:4351:a698%utun2 prefixlen 64 scopeid 0x11 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] utun3: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1000
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::ce81:b1c:bd2c:69e%utun3 prefixlen 64 scopeid 0x12 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] utun4: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::efac:f845:d621:1642%utun4 prefixlen 64 scopeid 0x13 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] utun5: flags=8051<UP,POINTOPOINT,RUNNING,MULTICAST> mtu 1380
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::4478:75be:6550:5368%utun5 prefixlen 64 scopeid 0x14 
+[2023/11/30, 4:04:26.027 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.027 PM] vmenet0: flags=8963<UP,BROADCAST,SMART,RUNNING,PROMISC,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.027 PM] options=60<TSO4,TSO6>
+[2023/11/30, 4:04:26.027 PM] ether 0a:ed:d3:2b:f7:de
+[2023/11/30, 4:04:26.027 PM] media: autoselect
+[2023/11/30, 4:04:26.027 PM] status: active
+[2023/11/30, 4:04:26.027 PM] bridge100: flags=8a63<UP,BROADCAST,SMART,RUNNING,ALLMULTI,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.027 PM] options=63<RXCSUM,TXCSUM,TSO4,TSO6>
+[2023/11/30, 4:04:26.027 PM] ether 1e:57:dc:46:30:64
+[2023/11/30, 4:04:26.027 PM] inet 192.168.64.1 netmask 0xffffff00 broadcast 192.168.64.255
+[2023/11/30, 4:04:26.027 PM] inet6 fe80::1c57:dcff:fe46:3064%bridge100 prefixlen 64 scopeid 0x16 
+[2023/11/30, 4:04:26.027 PM] inet6 fd37:818b:eead:5d00:10cc:1d8d:7c85:d49e prefixlen 64 autoconf secured 
+[2023/11/30, 4:04:26.028 PM] Configuration:
+[2023/11/30, 4:04:26.028 PM] id 0:0:0:0:0:0 priority 0 hellotime 0 fwddelay 0
+[2023/11/30, 4:04:26.028 PM] maxage 0 holdcnt 0 proto stp maxaddr 100 timeout 1200
+[2023/11/30, 4:04:26.028 PM] root id 0:0:0:0:0:0 priority 0 ifcost 0 port 0
+[2023/11/30, 4:04:26.028 PM] ipfilter disabled flags 0x0
+[2023/11/30, 4:04:26.028 PM] member: vmenet0 flags=10803<LEARNING,DISCOVER,PRIVATE,CSUM>
+[2023/11/30, 4:04:26.028 PM]         ifmaxaddr 0 port 21 priority 0 path cost 0
+[2023/11/30, 4:04:26.028 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.028 PM] media: autoselect
+[2023/11/30, 4:04:26.028 PM] status: active
+[2023/11/30, 4:04:26.028 PM] en6: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+[2023/11/30, 4:04:26.028 PM] options=404<VLAN_MTU,CHANNEL_IO>
+[2023/11/30, 4:04:26.028 PM] ether a0:ce:c8:63:7a:be
+[2023/11/30, 4:04:26.028 PM] inet6 fe80::400:dd34:b5d4:c4ec%en6 prefixlen 64 secured scopeid 0x17 
+[2023/11/30, 4:04:26.028 PM] inet 192.168.1.1 netmask 0xffffffe0 broadcast 192.168.1.31
+[2023/11/30, 4:04:26.028 PM] nd6 options=201<PERFORMNUD,DAD>
+[2023/11/30, 4:04:26.028 PM] media: autoselect (1000baseT <full-duplex>)
+[2023/11/30, 4:04:26.028 PM] status: active
+[2023/11/30, 4:04:26.028 PM] %                                                                                                    
+
+[2023/11/30, 4:04:26.039 PM]     ~                                                                              16:04:26  
+[2023/11/30, 4:04:26.039 PM] ❯ ifconfigssh Cisco@192.168.1.30❯ ssh Cisco@192.168.1.30
+[2023/11/30, 4:05:26.802 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:05:26.803 PM] %                                                                                                    
+
+[2023/11/30, 4:05:26.815 PM]     ~                                                                      255 ✘  16:05:26  
+[2023/11/30, 4:05:26.815 PM] ❯ ssh Cisco@192.168.1.30❯ ssh Cisco@192.168.1.30
+[2023/11/30, 4:06:21.070 PM] Unable to negotiate with 192.168.1.30 port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+[2023/11/30, 4:06:21.070 PM] %                                                                                                    
+
+[2023/11/30, 4:06:21.079 PM]     ~                                                                      255 ✘  16:06:21  
+[2023/11/30, 4:06:21.079 PM] ❯ cd %HOMEPATH%\Downloadscd %HOMEPATH%\Downloads❯ cd %HOMEPATH%\Downloads
+[2023/11/30, 4:07:29.837 PM] cd: no such file or directory: %HOMEPATH%Downloads
+[2023/11/30, 4:07:29.838 PM] %                                                                                                    
+
+[2023/11/30, 4:07:29.850 PM]     ~                                                                              16:07:29  
+[2023/11/30, 4:07:29.851 PM] ❯ ping www.lacnic.netping www.lacnic.net\ ❯ ping www.lacnic.net
+[2023/11/30, 4:07:51.260 PM] PING www.lacnic.net (200.3.14.145): 56 data bytes
+[2023/11/30, 4:07:51.537 PM] 64 bytes from 200.3.14.145: icmp_seq=0 ttl=43 time=276.797 ms
+[2023/11/30, 4:07:52.542 PM] 64 bytes from 200.3.14.145: icmp_seq=1 ttl=43 time=276.903 ms
+[2023/11/30, 4:07:53.545 PM] 64 bytes from 200.3.14.145: icmp_seq=2 ttl=43 time=276.955 ms
+[2023/11/30, 4:07:54.550 PM] 64 bytes from 200.3.14.145: icmp_seq=3 ttl=43 time=276.862 ms
+[2023/11/30, 4:07:55.553 PM] 64 bytes from 200.3.14.145: icmp_seq=4 ttl=43 time=276.948 ms
+[2023/11/30, 4:07:56.558 PM] 64 bytes from 200.3.14.145: icmp_seq=5 ttl=43 time=276.703 ms
+[2023/11/30, 4:07:57.564 PM] 64 bytes from 200.3.14.145: icmp_seq=6 ttl=43 time=277.031 ms
+[2023/11/30, 4:07:58.569 PM] 64 bytes from 200.3.14.145: icmp_seq=7 ttl=43 time=277.158 ms
+[2023/11/30, 4:07:59.572 PM] 64 bytes from 200.3.14.145: icmp_seq=8 ttl=43 time=276.692 ms
+[2023/11/30, 4:08:00.065 PM] ^C
+[2023/11/30, 4:08:00.066 PM] --- www.lacnic.net ping statistics ---
+[2023/11/30, 4:08:00.066 PM] 9 packets transmitted, 9 packets received, 0.0% packet loss
+[2023/11/30, 4:08:00.066 PM] round-trip min/avg/max/stddev = 276.692/276.894/277.158/0.143 ms
+[2023/11/30, 4:08:00.066 PM] %                                                                                                    
+
+[2023/11/30, 4:08:00.080 PM]     ~                                                                       9s   16:08:00  
+[2023/11/30, 4:08:00.080 PM] ❯ ping www.afrinic.netping www.afrinic.net❯ ping www.afrinic.net
+[2023/11/30, 4:08:00.567 PM] PING www.afrinic.net (196.216.2.6): 56 data bytes
+[2023/11/30, 4:08:00.772 PM] 64 bytes from 196.216.2.6: icmp_seq=0 ttl=45 time=204.607 ms
+[2023/11/30, 4:08:01.851 PM] 64 bytes from 196.216.2.6: icmp_seq=1 ttl=45 time=279.551 ms
+[2023/11/30, 4:08:02.769 PM] 64 bytes from 196.216.2.6: icmp_seq=2 ttl=45 time=192.072 ms
+[2023/11/30, 4:08:03.770 PM] 64 bytes from 196.216.2.6: icmp_seq=3 ttl=45 time=187.987 ms
+[2023/11/30, 4:08:04.789 PM] 64 bytes from 196.216.2.6: icmp_seq=4 ttl=45 time=204.586 ms
+[2023/11/30, 4:08:05.775 PM] 64 bytes from 196.216.2.6: icmp_seq=5 ttl=45 time=184.790 ms
+[2023/11/30, 4:08:06.781 PM] 64 bytes from 196.216.2.6: icmp_seq=6 ttl=45 time=186.332 ms
+[2023/11/30, 4:08:07.789 PM] 64 bytes from 196.216.2.6: icmp_seq=7 ttl=45 time=188.972 ms
+[2023/11/30, 4:08:08.791 PM] 64 bytes from 196.216.2.6: icmp_seq=8 ttl=45 time=186.262 ms
+[2023/11/30, 4:08:09.813 PM] 64 bytes from 196.216.2.6: icmp_seq=9 ttl=45 time=206.258 ms
+[2023/11/30, 4:08:10.807 PM] 64 bytes from 196.216.2.6: icmp_seq=10 ttl=45 time=195.126 ms
+[2023/11/30, 4:08:10.937 PM] ^C
+[2023/11/30, 4:08:10.937 PM] --- www.afrinic.net ping statistics ---
+[2023/11/30, 4:08:10.937 PM] 11 packets transmitted, 11 packets received, 0.0% packet loss
+[2023/11/30, 4:08:10.938 PM] round-trip min/avg/max/stddev = 184.790/201.504/279.551/25.839 ms
+[2023/11/30, 4:08:10.938 PM] %                                                                                                    
+
+[2023/11/30, 4:08:10.951 PM]     ~                                                                      10s   16:08:10  
+[2023/11/30, 4:08:10.951 PM] ❯ ping www.apnic.netping www.apnic.net❯ ping www.apnic.net
+[2023/11/30, 4:08:11.761 PM] PING www.apnic.net.cdn.cloudflare.net (104.18.235.68): 56 data bytes
+[2023/11/30, 4:08:11.764 PM] 64 bytes from 104.18.235.68: icmp_seq=0 ttl=56 time=3.102 ms
+[2023/11/30, 4:08:12.770 PM] 64 bytes from 104.18.235.68: icmp_seq=1 ttl=56 time=3.044 ms
+[2023/11/30, 4:08:13.775 PM] 64 bytes from 104.18.235.68: icmp_seq=2 ttl=56 time=3.241 ms
+[2023/11/30, 4:08:14.780 PM] 64 bytes from 104.18.235.68: icmp_seq=3 ttl=56 time=3.149 ms
+[2023/11/30, 4:08:15.785 PM] 64 bytes from 104.18.235.68: icmp_seq=4 ttl=56 time=3.042 ms
+[2023/11/30, 4:08:16.790 PM] 64 bytes from 104.18.235.68: icmp_seq=5 ttl=56 time=3.054 ms
+[2023/11/30, 4:08:17.791 PM] 64 bytes from 104.18.235.68: icmp_seq=6 ttl=56 time=3.154 ms
+[2023/11/30, 4:08:18.796 PM] 64 bytes from 104.18.235.68: icmp_seq=7 ttl=56 time=2.988 ms
+[2023/11/30, 4:08:19.801 PM] 64 bytes from 104.18.235.68: icmp_seq=8 ttl=56 time=2.959 ms
+[2023/11/30, 4:08:20.171 PM] ^C
+[2023/11/30, 4:08:20.171 PM] --- www.apnic.net.cdn.cloudflare.net ping statistics ---
+[2023/11/30, 4:08:20.171 PM] 9 packets transmitted, 9 packets received, 0.0% packet loss
+[2023/11/30, 4:08:20.171 PM] round-trip min/avg/max/stddev = 2.959/3.081/3.241/0.084 ms
+[2023/11/30, 4:08:20.172 PM] %                                                                                                    
+
+[2023/11/30, 4:08:20.185 PM]     ~                                                                       8s   16:08:20  
+[2023/11/30, 4:08:20.186 PM] ❯ ping -n 25 www.lacnic.net > lacnic.txtping -n 25 www.lacnic.net > lacnic.txt❯ ping -n 25 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:08:24.859 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/11/30, 4:08:24.859 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/11/30, 4:08:24.859 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/11/30, 4:08:24.859 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/11/30, 4:08:24.859 PM]             [-z tos] host
+[2023/11/30, 4:08:24.860 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/11/30, 4:08:24.860 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/11/30, 4:08:24.860 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/11/30, 4:08:24.860 PM]             [-z tos] mcast-group
+[2023/11/30, 4:08:24.860 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/11/30, 4:08:24.860 PM]             -b boundif           # bind the socket to the interface
+[2023/11/30, 4:08:24.860 PM]             -k traffic_class     # set traffic class socket option
+[2023/11/30, 4:08:24.860 PM]             -K net_service_type  # set traffic class socket options
+[2023/11/30, 4:08:24.860 PM]             --apple-connect       # call connect(2) in the socket
+[2023/11/30, 4:08:24.860 PM]             --apple-time          # display current time
+[2023/11/30, 4:08:24.860 PM] %                                                                                                    
+
+[2023/11/30, 4:08:24.871 PM]     ~                                                                              16:08:24  
+[2023/11/30, 4:08:24.871 PM] ❯ ping -n 25 www.afrinic.net > afrinic.txtping -n 25 www.afrinic.net > afrinic.txt❯ ping -n 25 www.afrinic.net > afrinic.txt
+[2023/11/30, 4:08:35.788 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/11/30, 4:08:35.789 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/11/30, 4:08:35.789 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/11/30, 4:08:35.789 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/11/30, 4:08:35.789 PM]             [-z tos] host
+[2023/11/30, 4:08:35.789 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/11/30, 4:08:35.789 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/11/30, 4:08:35.789 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/11/30, 4:08:35.789 PM]             [-z tos] mcast-group
+[2023/11/30, 4:08:35.789 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/11/30, 4:08:35.789 PM]             -b boundif           # bind the socket to the interface
+[2023/11/30, 4:08:35.789 PM]             -k traffic_class     # set traffic class socket option
+[2023/11/30, 4:08:35.789 PM]             -K net_service_type  # set traffic class socket options
+[2023/11/30, 4:08:35.789 PM]             --apple-connect       # call connect(2) in the socket
+[2023/11/30, 4:08:35.789 PM]             --apple-time          # display current time
+[2023/11/30, 4:08:35.789 PM] %                                                                                                    
+
+[2023/11/30, 4:08:35.803 PM]     ~                                                                              16:08:35  
+[2023/11/30, 4:08:35.803 PM] ❯ ping -n 25 www.apnic.net > apnic.txtping -n 25 www.apnic.net > apnic.txt❯ ping -n 25 www.apnic.net > apnic.txt
+[2023/11/30, 4:08:48.306 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/11/30, 4:08:48.307 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/11/30, 4:08:48.307 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/11/30, 4:08:48.307 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/11/30, 4:08:48.307 PM]             [-z tos] host
+[2023/11/30, 4:08:48.307 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/11/30, 4:08:48.307 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/11/30, 4:08:48.307 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/11/30, 4:08:48.307 PM]             [-z tos] mcast-group
+[2023/11/30, 4:08:48.307 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/11/30, 4:08:48.307 PM]             -b boundif           # bind the socket to the interface
+[2023/11/30, 4:08:48.307 PM]             -k traffic_class     # set traffic class socket option
+[2023/11/30, 4:08:48.307 PM]             -K net_service_type  # set traffic class socket options
+[2023/11/30, 4:08:48.307 PM]             --apple-connect       # call connect(2) in the socket
+[2023/11/30, 4:08:48.307 PM]             --apple-time          # display current time
+[2023/11/30, 4:08:48.307 PM] %                                                                                                    
+
+[2023/11/30, 4:08:48.319 PM]     ~                                                                              16:08:48  
+[2023/11/30, 4:08:48.319 PM] ❯ more lacnic.txtmore lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:09:36.488 PM] lacnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:09:38.780 PM]     ~                                                                              16:09:38  
+[2023/11/30, 4:09:38.780 PM] ❯ ❯ 
+[2023/11/30, 4:09:38.990 PM] %                                                                                                    
+
+[2023/11/30, 4:09:39.005 PM]     ~                                                                              16:09:38  
+[2023/11/30, 4:09:39.006 PM] ❯ more lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:09:41.953 PM] lacnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:09:42.381 PM]     ~                                                                              16:09:42  
+[2023/11/30, 4:09:42.382 PM] ❯ more lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:09:44.420 PM] lacnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:09:44.729 PM]     ~                                                                              16:09:44  
+[2023/11/30, 4:09:44.730 PM] ❯ more afrinic.txtmore afrinic.txt ❯ more afrinic.txt
+[2023/11/30, 4:09:50.105 PM] afrinic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:09:50.560 PM]     ~                                                                              16:09:50  
+[2023/11/30, 4:09:50.560 PM] ❯ ping -n 25 www.lacnic.net > lacnic.txtping -n 25 www.lacnic.net > lacnic.txt❯ ping -n 25 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:10:28.481 PM] %                                                                                                    
+
+[2023/11/30, 4:10:28.496 PM]     ~                                                                      INT ✘  16:10:28  
+[2023/11/30, 4:10:28.496 PM] ❯ ping -n 25 www.lacnic.net > lacnic.txtping -n 25 www.lacnic.net > lacnic.txt❯ ping -n 25 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:10:35.637 PM] usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+[2023/11/30, 4:10:35.637 PM]             [-g sweepminsize] [-h sweepincrsize] [-i wait]
+[2023/11/30, 4:10:35.637 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+[2023/11/30, 4:10:35.637 PM]             [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+[2023/11/30, 4:10:35.637 PM]             [-z tos] host
+[2023/11/30, 4:10:35.637 PM]        ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+[2023/11/30, 4:10:35.637 PM]             [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+[2023/11/30, 4:10:35.637 PM]             [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+[2023/11/30, 4:10:35.637 PM]             [-z tos] mcast-group
+[2023/11/30, 4:10:35.637 PM] Apple specific options (to be specified before mcast-group or host like all options)
+[2023/11/30, 4:10:35.637 PM]             -b boundif           # bind the socket to the interface
+[2023/11/30, 4:10:35.637 PM]             -k traffic_class     # set traffic class socket option
+[2023/11/30, 4:10:35.637 PM]             -K net_service_type  # set traffic class socket options
+[2023/11/30, 4:10:35.637 PM]             --apple-connect       # call connect(2) in the socket
+[2023/11/30, 4:10:35.638 PM]             --apple-time          # display current time
+[2023/11/30, 4:10:35.638 PM] %                                                                                                    
+
+[2023/11/30, 4:10:35.649 PM]     ~                                                                              16:10:35  
+[2023/11/30, 4:10:35.650 PM] ❯ ping -n 25 www.lacnic.net > lacnic.txtw w w w w w ❯ ping www.lacnic.net > lacnic.txt
+[2023/11/30, 4:11:19.924 PM] ^C%                                                                                                    
+
+[2023/11/30, 4:11:19.944 PM]     ~                                                                       6s   16:11:19  
+[2023/11/30, 4:11:19.944 PM] ❯ ping www.lacnic.net > lacnic.txt❯ ping www.lacnic.net > lacnic.txt
+[2023/11/30, 4:13:19.421 PM] %                                                                                                    
+
+[2023/11/30, 4:13:19.437 PM]     ~                                                                      INT ✘  16:13:19  
+[2023/11/30, 4:13:19.437 PM] ❯ ping www.lacnic.net > lacnic.txt-n 25 www.lacnic.net > lacnic.txt  c25 w.lacnic.net > lacnic.txt 25 w.lacnic.net > lacnic.txt❯ ping -c 25 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:13:44.743 PM] ^C%                                                                                                    
+
+[2023/11/30, 4:13:44.757 PM]     ~                                                                      19s   16:13:44  
+[2023/11/30, 4:13:44.757 PM] ❯ ping -c 25 www.lacnic.net > lacnic.txt ❯ ping -c 5 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:13:57.892 PM] %                                                                                                    
+
+[2023/11/30, 4:13:57.918 PM]     ~                                                                       4s   16:13:57  
+[2023/11/30, 4:13:57.918 PM] ❯ ping -n 25 www.afrinic.net > afrinic.txtping -n 25 www.afrinic.net > afrinic.txt   c5 w.afrinic.net > afrinic.txt 5 w.afrinic.net > afrinic.txt❯ ping -c 5 www.afrinic.net > afrinic.txt
+[2023/11/30, 4:14:13.154 PM] %                                                                                                    
+
+[2023/11/30, 4:14:13.179 PM]     ~                                                                       4s   16:14:13  
+[2023/11/30, 4:14:13.179 PM] ❯ ping -c 5 www.afrinic.net > afrinic.txt❯ ping -c 5 www.afrinic.net > afrinic.txt
+[2023/11/30, 4:14:17.308 PM] %                                                                                                    
+
+[2023/11/30, 4:14:17.323 PM]     ~                                                                      INT ✘  16:14:17  
+[2023/11/30, 4:14:17.323 PM] ❯ √ ping -n 25 www.apnic.net > apnic.txtping -n 25 www.apnic.net > apnic.txt  c 5 w.apnic.net > apnic.txt❯ ping -c 5 www.apnic.net > apnic.txt
+[2023/11/30, 4:14:27.628 PM] %                                                                                                    
+
+[2023/11/30, 4:14:27.653 PM]     ~                                                                       4s   16:14:27  
+[2023/11/30, 4:14:27.653 PM] ❯ ping -c 5 www.apnic.net > apnic.txt                                   more lacnic.txtmore lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:14:34.726 PM] PING www.lacnic.net (200.3.14.145): 56 data bytes
+[2023/11/30, 4:14:34.726 PM] 64 bytes from 200.3.14.145: icmp_seq=0 ttl=43 time=276.921 ms
+[2023/11/30, 4:14:34.726 PM] 64 bytes from 200.3.14.145: icmp_seq=1 ttl=43 time=288.462 ms
+[2023/11/30, 4:14:34.726 PM] 64 bytes from 200.3.14.145: icmp_seq=2 ttl=43 time=276.859 ms
+[2023/11/30, 4:14:34.726 PM] 64 bytes from 200.3.14.145: icmp_seq=3 ttl=43 time=277.674 ms
+[2023/11/30, 4:14:34.726 PM] 64 bytes from 200.3.14.145: icmp_seq=4 ttl=43 time=276.721 ms
+
+[2023/11/30, 4:14:34.726 PM] --- www.lacnic.net ping statistics ---
+[2023/11/30, 4:14:34.726 PM] 5 packets transmitted, 5 packets received, 0.0% packet loss
+[2023/11/30, 4:14:34.726 PM] round-trip min/avg/max/stddev = 276.721/279.327/288.462/4.579 ms
+[2023/11/30, 4:14:34.726 PM] lacnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:14:47.504 PM]     ~                                                                      13s   16:14:47  
+[2023/11/30, 4:14:47.504 PM] ❯ more afrinic.txtmore afrinic.txt❯ more afrinic.txt
+[2023/11/30, 4:14:48.475 PM] PING www.afrinic.net (196.216.2.6): 56 data bytes
+[2023/11/30, 4:14:48.475 PM] 64 bytes from 196.216.2.6: icmp_seq=0 ttl=45 time=185.433 ms
+[2023/11/30, 4:14:48.476 PM] 64 bytes from 196.216.2.6: icmp_seq=1 ttl=45 time=206.748 ms
+[2023/11/30, 4:14:48.476 PM] 64 bytes from 196.216.2.6: icmp_seq=2 ttl=45 time=184.717 ms
+[2023/11/30, 4:14:48.476 PM] 64 bytes from 196.216.2.6: icmp_seq=3 ttl=45 time=184.486 ms
+[2023/11/30, 4:14:48.476 PM] 64 bytes from 196.216.2.6: icmp_seq=4 ttl=45 time=184.894 ms
+
+[2023/11/30, 4:14:48.476 PM] --- www.afrinic.net ping statistics ---
+[2023/11/30, 4:14:48.476 PM] 5 packets transmitted, 5 packets received, 0.0% packet loss
+[2023/11/30, 4:14:48.476 PM] round-trip min/avg/max/stddev = 184.486/189.256/206.748/8.752 ms
+[2023/11/30, 4:14:48.476 PM] afrinic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:14:49.891 PM]     ~                                                                              16:14:49  
+[2023/11/30, 4:14:49.891 PM] ❯ more apnic.txtmore apnic.txt❯ more apnic.txt
+[2023/11/30, 4:14:54.122 PM] PING www.apnic.net.cdn.cloudflare.net (104.18.236.68): 56 data bytes
+[2023/11/30, 4:14:54.122 PM] 64 bytes from 104.18.236.68: icmp_seq=0 ttl=56 time=3.841 ms
+[2023/11/30, 4:14:54.122 PM] 64 bytes from 104.18.236.68: icmp_seq=1 ttl=56 time=3.806 ms
+[2023/11/30, 4:14:54.123 PM] 64 bytes from 104.18.236.68: icmp_seq=2 ttl=56 time=3.985 ms
+[2023/11/30, 4:14:54.123 PM] 64 bytes from 104.18.236.68: icmp_seq=3 ttl=56 time=3.869 ms
+[2023/11/30, 4:14:54.123 PM] 64 bytes from 104.18.236.68: icmp_seq=4 ttl=56 time=3.997 ms
+
+[2023/11/30, 4:14:54.123 PM] --- www.apnic.net.cdn.cloudflare.net ping statistics ---
+[2023/11/30, 4:14:54.123 PM] 5 packets transmitted, 5 packets received, 0.0% packet loss
+[2023/11/30, 4:14:54.123 PM] round-trip min/avg/max/stddev = 3.806/3.900/3.997/0.077 ms
+[2023/11/30, 4:14:54.123 PM] apnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:14:55.166 PM]     ~                                                                              16:14:55  
+[2023/11/30, 4:14:55.166 PM] ❯ more apnic.txtfrinic.txtlacnic.txt ping -c 5 www.apnic.net > apnic.txtfrinic.net > afrinic.txtlaclacnic.txt  25 w.lacnic.net > lacnic.txt      -c 25 www.lacnic.net > lacnic.txt 25 w.lacnic.net > lacnic.txt❯ ping -c 25 www.lacnic.net > lacnic.txt
+[2023/11/30, 4:15:27.235 PM] %                                                                                                    
+
+[2023/11/30, 4:15:27.255 PM]     ~                                                                      24s   16:15:27  
+[2023/11/30, 4:15:27.255 PM] ❯ ping -n 25 www.afrinic.net > afrinic.txtping -n 25 www.afrinic.net > afrinic.txt c 25 w.afrinic.net > afrinic.txt❯ ping -c 25 www.afrinic.net > afrinic.txt
+[2023/11/30, 4:16:02.216 PM] %                                                                                                    
+
+[2023/11/30, 4:16:02.240 PM]     ~                                                                      24s   16:16:02  
+[2023/11/30, 4:16:02.240 PM] ❯ ping -n 25 www.apnic.net > apnic.txtping -n 25 www.apnic.net > apnic.txt c 25 w.apnic.net > apnic.txt❯ ping -c 25 www.apnic.net > apnic.txt
+[2023/11/30, 4:16:57.833 PM] %                                                                                                    
+
+[2023/11/30, 4:16:57.848 PM]     ~                                                                      24s   16:16:57  
+[2023/11/30, 4:16:57.849 PM] ❯ more lacnic.txtmore lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:17:13.484 PM] PING www.lacnic.net (200.3.14.145): 56 data bytes
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=0 ttl=44 time=275.437 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=1 ttl=44 time=275.450 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=2 ttl=44 time=275.389 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=3 ttl=44 time=275.372 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=4 ttl=44 time=275.468 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=5 ttl=44 time=277.549 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=6 ttl=44 time=275.347 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=7 ttl=44 time=275.329 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=8 ttl=44 time=275.333 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=9 ttl=44 time=275.205 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=10 ttl=44 time=275.422 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=11 ttl=44 time=275.600 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=12 ttl=44 time=275.202 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=13 ttl=44 time=275.511 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=14 ttl=44 time=275.458 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=15 ttl=44 time=275.414 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=16 ttl=44 time=275.900 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=17 ttl=44 time=275.283 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=18 ttl=44 time=275.634 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=19 ttl=44 time=275.108 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=20 ttl=44 time=275.165 ms
+[2023/11/30, 4:17:13.485 PM] 64 bytes from 200.3.14.145: icmp_seq=21 ttl=44 time=275.198 ms
+[2023/11/30, 4:17:13.486 PM] 64 bytes from 200.3.14.145: icmp_seq=22 ttl=44 time=275.324 ms
+[2023/11/30, 4:17:13.486 PM] 64 bytes from 200.3.14.145: icmp_seq=23 ttl=44 time=275.335 ms
+[2023/11/30, 4:17:13.486 PM] 64 bytes from 200.3.14.145: icmp_seq=24 ttl=44 time=275.316 ms
+
+[2023/11/30, 4:17:13.486 PM] --- www.lacnic.net ping statistics ---
+[2023/11/30, 4:17:13.486 PM] 25 packets transmitted, 25 packets received, 0.0% packet loss
+[2023/11/30, 4:17:13.486 PM] round-trip min/avg/max/stddev = 275.108/275.470/277.549/0.455 ms
+[2023/11/30, 4:17:13.486 PM] lacnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:17:44.656 PM]     ~                                                                      31s   16:17:44  
+[2023/11/30, 4:17:44.657 PM] ❯ more lacnic.txt❯ more lacnic.txt
+[2023/11/30, 4:17:50.161 PM] %                                                                                                    
+
+[2023/11/30, 4:17:50.173 PM]     ~                                                                      INT ✘  16:17:50  
+[2023/11/30, 4:17:50.173 PM] ❯ more afrinic.txtmore afrinic.txt❯ more afrinic.txt
+[2023/11/30, 4:17:50.932 PM] PING www.afrinic.net (196.216.2.6): 56 data bytes
+[2023/11/30, 4:17:50.932 PM] 64 bytes from 196.216.2.6: icmp_seq=0 ttl=45 time=184.578 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=1 ttl=45 time=199.965 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=2 ttl=45 time=184.679 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=3 ttl=45 time=184.603 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=4 ttl=45 time=184.448 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=5 ttl=45 time=186.504 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=6 ttl=45 time=184.316 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=7 ttl=45 time=184.878 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=8 ttl=45 time=184.509 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=9 ttl=45 time=184.691 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=10 ttl=45 time=184.231 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=11 ttl=45 time=184.759 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=12 ttl=45 time=184.618 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=13 ttl=45 time=184.364 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=14 ttl=45 time=184.433 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=15 ttl=45 time=191.825 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=16 ttl=45 time=196.288 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=17 ttl=45 time=186.205 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=18 ttl=45 time=184.368 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=19 ttl=45 time=184.372 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=20 ttl=45 time=184.176 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=21 ttl=45 time=184.668 ms
+[2023/11/30, 4:17:50.933 PM] 64 bytes from 196.216.2.6: icmp_seq=22 ttl=45 time=193.146 ms
+[2023/11/30, 4:17:50.934 PM] 64 bytes from 196.216.2.6: icmp_seq=23 ttl=45 time=184.769 ms
+[2023/11/30, 4:17:50.934 PM] 64 bytes from 196.216.2.6: icmp_seq=24 ttl=45 time=185.103 ms
+
+[2023/11/30, 4:17:50.934 PM] --- www.afrinic.net ping statistics ---
+[2023/11/30, 4:17:50.934 PM] 25 packets transmitted, 25 packets received, 0.0% packet loss
+[2023/11/30, 4:17:50.934 PM] round-trip min/avg/max/stddev = 184.176/186.420/199.965/4.110 ms
+[2023/11/30, 4:17:50.934 PM] afrinic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:18:09.769 PM]     ~                                                                      19s   16:18:09  
+[2023/11/30, 4:18:09.769 PM] ❯ more apnic.txtmore apnic.txt❯ more apnic.txt
+[2023/11/30, 4:18:15.833 PM] PING www.apnic.net.cdn.cloudflare.net (104.18.235.68): 56 data bytes
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=0 ttl=56 time=3.786 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=1 ttl=56 time=4.017 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=2 ttl=56 time=4.127 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=3 ttl=56 time=10.883 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=4 ttl=56 time=3.906 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=5 ttl=56 time=3.822 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=6 ttl=56 time=4.026 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=7 ttl=56 time=3.854 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=8 ttl=56 time=4.059 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=9 ttl=56 time=3.915 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=10 ttl=56 time=3.967 ms
+[2023/11/30, 4:18:15.833 PM] 64 bytes from 104.18.235.68: icmp_seq=11 ttl=56 time=3.725 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=12 ttl=56 time=4.078 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=13 ttl=56 time=3.825 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=14 ttl=56 time=3.922 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=15 ttl=56 time=4.100 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=16 ttl=56 time=3.855 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=17 ttl=56 time=3.901 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=18 ttl=56 time=3.796 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=19 ttl=56 time=4.050 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=20 ttl=56 time=3.775 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=21 ttl=56 time=3.901 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=22 ttl=56 time=3.878 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=23 ttl=56 time=4.122 ms
+[2023/11/30, 4:18:15.834 PM] 64 bytes from 104.18.235.68: icmp_seq=24 ttl=56 time=3.857 ms
+
+[2023/11/30, 4:18:15.834 PM] --- www.apnic.net.cdn.cloudflare.net ping statistics ---
+[2023/11/30, 4:18:15.834 PM] 25 packets transmitted, 25 packets received, 0.0% packet loss
+[2023/11/30, 4:18:15.834 PM] round-trip min/avg/max/stddev = 3.725/4.206/10.883/1.368 ms
+[2023/11/30, 4:18:15.834 PM] apnic.txt (END)%                                                                                                    
+
+[2023/11/30, 4:18:47.207 PM]     ~                                                                      31s   16:18:47  
+[2023/11/30, 4:18:47.208 PM] ❯ 

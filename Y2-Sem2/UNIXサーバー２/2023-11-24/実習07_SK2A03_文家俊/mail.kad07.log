@@ -1,0 +1,1 @@
+Nov 24 06:14:51 mlsk2a03 postfix/local[5705]: D26EB15A0: to=<root@ecccomp.ac.jp>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)

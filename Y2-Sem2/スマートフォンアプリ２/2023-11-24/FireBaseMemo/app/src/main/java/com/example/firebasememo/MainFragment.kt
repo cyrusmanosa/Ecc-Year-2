@@ -1,0 +1,115 @@
+package com.example.firebasememo
+
+import android.content.Context
+import android.os.Bundle
+import android.util.Log
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.firebasememo.databinding.FragmentMainBinding
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.firestore.DocumentSnapshot
+import com.google.firebase.firestore.Query
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
+
+// メインのフラグメントクラスです。メモを表示、追加、更新する役割を持っています。
+class MainFragment : Fragment(), MemoListener {
+
+    // -------------------------プロパティの宣言部分
+    // Firestoreのインスタンス
+    val db = Firebase.firestore
+    // Firestoreのクエリ
+    private var query: Query? = null
+    // ViewBindingのインスタンス
+    private lateinit var binding: FragmentMainBinding
+    // メモのアダプター
+    private var adapter: MemoAdapter? = null
+    // ログに表示するタグ
+    companion object {
+        private const val TAG = "FirebaseMemo"
+    }
+    // Viewが作成されるときの処理
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
+        // ViewBindingを用いてViewを生成
+        binding = FragmentMainBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+    // Viewが作成された後の処理
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        // RecyclerViewのLayoutManagerを設定
+        binding.recyclerMemos.layoutManager = LinearLayoutManager(context)
+
+        // FirestoreとRecyclerViewの初期設定を行うメソッドを呼び出し
+        initFirestore()
+
+        // "memos"コレクションのFirestoreクエリを作成
+
+
+        // Firestoreからメモを取得し、成功した場合はアダプターを設定
+        db.collection("memos")
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    Log.d(TAG, "${document.id} => ${document.data}")
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.w(TAG, "Error getting documents.", exception)
+            }
+
+        // FAB（浮き出るアクションボタン）がクリックされたときに優先度ダイアログを表示するリスナーを設定
+        binding.fabAddMemo.setOnClickListener { showMemoDialog() }
+    }
+
+    // Firestoreの初期設定を行うメソッド
+    private fun initFirestore() {
+        // Firestoreのインスタンスを取得
+
+    }
+
+
+    // 新しいメモをFirestoreに追加するメソッド
+
+
+    // エラー時にSnackbarでメッセージを表示するメソッド
+    private fun showErrorSnackbar(message: String) {
+        Snackbar.make(binding.root, "エラー: $message", Snackbar.LENGTH_LONG).show()
+    }
+    // メモダイアログを表示するメソッド
+    private fun showMemoDialog(){
+        val memoDialog = MemoDialogFragment()
+        memoDialog.show(childFragmentManager, MemoDialogFragment.TAG)
+    }
+    // キーボードを隠すメソッド
+    private fun hideKeyboard() {
+        val view = requireActivity().currentFocus
+        if (view != null) {
+            (requireActivity().getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager)
+                .hideSoftInputFromWindow(view.windowToken, 0)
+        }
+    }
+
+    // 優先度が選択されたときのコールバックメソッド
+    override fun onCreateMemo(memo: Memo) {
+    // メモのデータをFireStoreに追加する処理が必要
+        db.collection("memos")
+        .add(memo)
+        .addOnSuccessListener { documentReference ->
+            Log.d(TAG, "DocumentSnapshot added with ID: ${documentReference.id}")
+        }
+        .addOnFailureListener { e ->
+            Log.w(TAG, "Error adding document", e)
+        }
+    }
+
+    // Firestoreのドキュメントからアダプターを作成するメソッド
+    private  fun createAdapter(documents: List<DocumentSnapshot>): MemoAdapter {
+        return MemoAdapter(documents)
+    }
+}

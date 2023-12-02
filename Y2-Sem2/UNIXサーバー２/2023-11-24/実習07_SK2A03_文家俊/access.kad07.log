@@ -1,0 +1,2 @@
+192.168.50.113 - - [18/Oct/2023:12:27:13 +0000] "GET /favicon.ico HTTP/1.1" 404 459 "http://192.168.50.21/test.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"
+192.168.50.113 - - [18/Oct/2023:12:42:12 +0000] "GET /favicon.ico HTTP/1.1" 404 482 "https://192.168.50.21/test.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36"

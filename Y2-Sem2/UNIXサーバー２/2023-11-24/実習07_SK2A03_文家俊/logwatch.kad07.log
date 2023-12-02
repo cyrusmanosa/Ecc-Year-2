@@ -1,0 +1,159 @@
+Return-Path: <root@ecccomp.ac.jp>
+X-Original-To: sk2a03@ecccomp.ac.jp
+Delivered-To: sk2a03@ecccomp.ac.jp
+Received: by mlsk2a03.ecccomp.ac.jp (Postfix, from userid 0)
+	id 82D8E15A1; Fri, 24 Nov 2023 07:02:39 +0000 (UTC)
+To: sk2a03@ecccomp.ac.jp
+From: logwatch@ecccomp.ac.jp
+Subject: Logwatch for ecc (Linux)
+Auto-Submitted: auto-generated
+Precedence: bulk
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset="UTF-8"
+Message-Id: <20231124070239.82D8E15A1@mlsk2a03.ecccomp.ac.jp>
+Date: Fri, 24 Nov 2023 07:02:39 +0000 (UTC)
+
+ 
+ ################### Logwatch 7.5.6 (07/23/21) #################### 
+        Processing Initiated: Fri Nov 24 07:02:39 2023
+        Date Range Processed: today
+                              ( 2023-Nov-24 )
+                              Period is day.
+        Detail Level of Output: 0
+        Type of Output/Format: mail / text
+        Logfiles for Host: ecc
+ ################################################################## 
+ 
+ --------------------- Dovecot Begin ------------------------ 
+
+ Dovecot Errors:
+    pop3(sk2a03)<6838><H5DceOAKyOZ/AAAB>: Error: Couldn't open INBOX: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6838><H5DceOAKyOZ/AAAB>: Error: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6843><kHvFeuAKKrV/AAAB>: Error: Couldn't open INBOX: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6843><kHvFeuAKKrV/AAAB>: Error: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6848><vsw2feAK6Lx/AAAB>: Error: Couldn't open INBOX: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6848><vsw2feAK6Lx/AAAB>: Error: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6853><qWobgOAK6Np/AAAB>: Error: Couldn't open INBOX: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+    pop3(sk2a03)<6853><qWobgOAK6Np/AAAB>: Error: stat(/home/sk2a03/Maildir/tmp) failed: Not a directory: 1 Time(s)
+ 
+ Dovecot IMAP and POP3 Successful Logins: 5
+ 
+ Dovecot disconnects: 6 Total 
+ ---------------------- Dovecot End ------------------------- 
+
+ 
+ --------------------- dpkg status changes Begin ------------------------ 
+
+ 
+ Installed:
+    libdate-manip-perl:all 6.86-1
+    libestr0:arm64 0.1.10-2.1build3
+    libfastjson4:arm64 0.99.9-1build2
+    logrotate:arm64 3.19.0-1ubuntu1.1
+    logwatch:all 7.5.6-1ubuntu1
+    rsyslog:arm64 8.2112.0-2ubuntu2.2
+ 
+ Upgraded:
+    libprocps8:arm64 2:3.3.17-6ubuntu2 => 2:3.3.17-6ubuntu2.1
+    procps:arm64 2:3.3.17-6ubuntu2 => 2:3.3.17-6ubuntu2.1
+ 
+ ---------------------- dpkg status changes End ------------------------- 
+
+ 
+ --------------------- pam_unix Begin ------------------------ 
+
+ dovecot:
+    Authentication Failures:
+       root: 1 Time(s)
+ 
+ polkit-1:
+    Sessions Opened:
+       sk2a03 -> root(uid=0): 2 Time(s)
+ 
+ su:
+    Authentication Failures:
+       sk2a03(1001) -> mluser: 2 Time(s)
+    Sessions Opened:
+       sk2a03 -> mluser(uid=1002): 2 Time(s)
+       sk2a03 -> sk2a03(uid=1001): 2 Time(s)
+ 
+ sudo:
+    Sessions Opened:
+       sk2a03 -> root(uid=0): 70 Time(s)
+ 
+ 
+ ---------------------- pam_unix End ------------------------- 
+
+ 
+ --------------------- Postfix Begin ------------------------ 
+
+    9.286K  Bytes accepted                               9,509
+   13.370K  Bytes delivered                             13,691
+ ========   ==================================================
+ 
+        4   Accepted                                   100.00%
+ --------   --------------------------------------------------
+        4   Total                                      100.00%
+ ========   ==================================================
+ 
+        6   Removed from queue                               6
+        4   Delivered                                        4
+        2   Bounced (local)                                  2
+        2   Notifications sent                               2
+ 
+        1   Postfix start                                    1
+ 
+ 
+ ---------------------- Postfix End ------------------------- 
+
+ 
+ --------------------- Connections (secure-log) Begin ------------------------ 
+
+ 
+ Errors:
+    Service su:
+       FAILED SU (to mluser) sk2a03 on pts/2: 2 Time(s)
+ 
+ ---------------------- Connections (secure-log) End ------------------------- 
+
+ 
+ --------------------- Sudo (secure-log) Begin ------------------------ 
+
+ 
+ sk2a03 => root
+ --------------
+ /usr/bin/apt                   -   1 Time(s).
+ /usr/bin/cat                   -  11 Time(s).
+ /usr/bin/chown                 -   1 Time(s).
+ /usr/bin/cp                    -   1 Time(s).
+ /usr/bin/grep                  -   1 Time(s).
+ /usr/bin/ls                    -   2 Time(s).
+ /usr/bin/mkdir                 -   2 Time(s).
+ /usr/bin/named-checkconf       -   7 Time(s).
+ /usr/bin/nslookup              -   2 Time(s).
+ /usr/bin/rm                    -   1 Time(s).
+ /usr/bin/sh                    -   3 Time(s).
+ /usr/bin/su                    -   2 Time(s).
+ /usr/bin/systemctl             -   7 Time(s).
+ /usr/bin/telnet                -   6 Time(s).
+ /usr/bin/touch                 -   1 Time(s).
+ /usr/bin/vi                    -  19 Time(s).
+ /usr/sbin/logwatch             -   3 Time(s).
+ 
+ ---------------------- Sudo (secure-log) End ------------------------- 
+
+ 
+ --------------------- Disk Space Begin ------------------------ 
+
+ Filesystem      Size  Used Avail Use% Mounted on
+ /dev/vda2        20G   12G  6.6G  65% /
+ /dev/vda1       1.1G  6.4M  1.1G   1% /boot/efi
+ /dev/vda3       3.9G  938M  2.7G  26% /home
+ 
+ 
+ ---------------------- Disk Space End ------------------------- 
+
+ 
+ ###################### Logwatch End ######################### 
+
