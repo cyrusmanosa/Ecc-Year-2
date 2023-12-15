@@ -1,0 +1,12 @@
+root         999  0.0  0.5 211548 21260 ?        Ss   04:28   0:00 /usr/sbin/apache2 -k start
+www-data    1020  0.0  0.2 212252 11040 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+www-data    1021  0.0  0.3 212300 12048 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+www-data    1022  0.0  0.2 212252 11040 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+www-data    1024  0.0  0.3 212280 14388 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+www-data    1025  0.0  0.3 212280 14384 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+www-data    4482  0.0  0.2 212252 11100 ?        S    04:50   0:00 /usr/sbin/apache2 -k start
+sk2a03      4507  0.0  0.0  10028  2160 pts/1    S+   04:53   0:00 grep --color=auto apache
+root         959  0.0  0.2  15172  8236 ?        Ss   04:28   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        3180  0.0  0.2  19096  9896 ?        Ss   04:30   0:00 sshd: sk2a03 [priv]
+sk2a03      3278  0.0  0.1  19232  6600 ?        S    04:30   0:00 sshd: sk2a03@pts/1
+sk2a03      4584  0.0  0.0  10028  2160 pts/1    S+   04:55   0:00 grep --color=auto ssh

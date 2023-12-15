@@ -1,0 +1,726 @@
+[2023/12/14, 3:25:16.807 PM] Last login: Thu Dec 14 15:25:08 on console
+
+
+[2023/12/14, 3:25:16.869 PM]     ~                                                          15:25:16  
+[2023/12/14, 3:25:16.869 PM] ❯ %                                                                               
+[2023/12/14, 3:25:17.046 PM]     ~                                                          15:25:16  
+[2023/12/14, 3:25:17.046 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:25:46.263 PM] Cannot exec '/dev/tty.usbserial-A10O2ADD': No such file or directory                                                                        
+[2023/12/14, 3:25:48.266 PM] [screen is terminating]
+[2023/12/14, 3:25:48.267 PM] %                                                                                
+
+[2023/12/14, 3:25:48.286 PM]     ~                                                          15:25:48  
+[2023/12/14, 3:25:48.286 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600ssh -oHostKeyAlgorithms=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 sk2a03@10.16.10.3992.168.3.254sk nslookup gmo.jpssh sk2a03@10.16.10.39nslookup gmo.jp       ssh sk2a03@10.16.10.39/92.168.3.254ping 10.16.10.39        gmo.jp     104.17.172.108nslookup gmo.jp    ping 104.17.172.108gmo.jp        10.16.10.3992.168.3.254screen /dev/tty.usbserial-A10O2ADD 9600ls*                       sudo ls /dev/tty.usb*     ❯ ls /dev/tty.usb*
+[2023/12/14, 3:26:00.178 PM] zsh: no matches found: /dev/tty.usb*
+[2023/12/14, 3:26:00.178 PM] %                                                                                
+
+[2023/12/14, 3:26:00.191 PM]     ~                                                          15:26:00  
+[2023/12/14, 3:26:00.191 PM] ❯ ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/12/14, 3:26:08.772 PM] /dev/tty.usbserial-A10O2ADD
+[2023/12/14, 3:26:08.772 PM] %                                                                                
+
+[2023/12/14, 3:26:08.785 PM]     ~                                                          15:26:08  
+[2023/12/14, 3:26:08.785 PM] ❯ ls /dev/tty.usb*                sser s  ls /dev/tty.usb*screen /dev/tty.usbserial-A10O2ADD 9600ssh -oHostKeyAlgorithms=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 sk2a03@10.16.10.3992.168.3.254sk nslookup gmo.jpssh sk2a03@10.16.10.39/92.168.3.254ping 10.16.10.39        gmo.jp     104.17.172.108nslookup gmo.jp    ping 104.17.172.108gmo.jp        10.16.10.3992.168.3.254screen /dev/tty.usbserial-A10O2ADD 9600ls*                       screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+
+[2023/12/14, 3:26:21.891 PM] sk2a03>
+[2023/12/14, 3:26:21.907 PM] sk2a03>
+[2023/12/14, 3:26:22.674 PM] sk2a03>
+[2023/12/14, 3:26:22.818 PM] sk2a03>en
+[2023/12/14, 3:26:36.863 PM] Password: 
+[2023/12/14, 3:26:40.878 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:26:45.261 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:26:47.004 PM] sk2a03#show ip nat translations             
+[2023/12/14, 3:26:56.714 PM] % Incomplete command.
+
+[2023/12/14, 3:26:56.746 PM] sk2a03#show ip route ospg f
+[2023/12/14, 3:27:09.751 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:27:09.831 PM]        D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+[2023/12/14, 3:27:09.911 PM]        N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:09.990 PM]        E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:10.070 PM]        i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:10.150 PM]        ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:10.246 PM]        o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:10.327 PM]        a - application route
+[2023/12/14, 3:27:10.358 PM]        + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:10.455 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:10.519 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:10.614 PM] O     192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:10.695 PM] O     192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:10.775 PM] O     192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:10.871 PM] O     192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:10.950 PM] O     192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:11.046 PM] sk2a03#Password:
+[2023/12/14, 3:27:15.291 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.291 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.291 PM] sk2a03#show ip nat
+[2023/12/14, 3:27:15.291 PM] % Incomplete command.
+
+[2023/12/14, 3:27:15.291 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:27:15.291 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGPD - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:27:15.291 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:15.291 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:15.291 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:15.291 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:15.291 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:15.291 PM] a - application route
+[2023/12/14, 3:27:15.291 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:15.291 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:15.291 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:15.291 PM] sk2a03#sk2a03>
+[2023/12/14, 3:27:15.502 PM] sk2a03>
+[2023/12/14, 3:27:15.502 PM] sk2a03>
+[2023/12/14, 3:27:15.502 PM] sk2a03>en
+[2023/12/14, 3:27:15.502 PM] Password:
+[2023/12/14, 3:27:15.502 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.502 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.502 PM] sk2a03#show ip nat
+[2023/12/14, 3:27:15.502 PM] % Incomplete command.
+
+[2023/12/14, 3:27:15.502 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:27:15.502 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:27:15.502 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:27:15.502 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:15.502 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:15.502 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:15.502 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:15.502 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:15.502 PM] a - application route
+[2023/12/14, 3:27:15.502 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:15.502 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:15.502 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:15.502 PM] sk2a03#sk2a03>
+[2023/12/14, 3:27:15.827 PM] sk2a03>
+[2023/12/14, 3:27:15.827 PM] sk2a03>
+[2023/12/14, 3:27:15.827 PM] sk2a03>en
+[2023/12/14, 3:27:15.827 PM] Password:
+[2023/12/14, 3:27:15.827 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.827 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:15.827 PM] sk2a03#show ip nat
+[2023/12/14, 3:27:15.827 PM] % Incomplete command.
+
+[2023/12/14, 3:27:15.827 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:27:15.827 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:27:15.827 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:27:15.827 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:15.827 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:15.827 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:15.827 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:15.827 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:15.827 PM] a - application route
+[2023/12/14, 3:27:15.827 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:15.827 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:15.827 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:15.827 PM] sk2a03#sk2a03>
+[2023/12/14, 3:27:16.138 PM] sk2a03>
+[2023/12/14, 3:27:16.138 PM] sk2a03>
+[2023/12/14, 3:27:16.138 PM] sk2a03>en
+[2023/12/14, 3:27:16.138 PM] Password:
+[2023/12/14, 3:27:16.138 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:16.138 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:16.138 PM] sk2a03#show ip nat
+[2023/12/14, 3:27:16.138 PM] % Incomplete command.
+
+[2023/12/14, 3:27:16.138 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:27:16.138 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:27:16.138 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:27:16.138 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:16.138 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:16.138 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:16.138 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:16.138 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:16.138 PM] a - application route
+[2023/12/14, 3:27:16.138 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:16.138 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:16.138 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.138 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:16.138 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.138 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:16.139 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.139 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:16.139 PM] sk2a03#sk2a03>
+[2023/12/14, 3:27:16.331 PM] sk2a03>
+[2023/12/14, 3:27:16.331 PM] sk2a03>
+[2023/12/14, 3:27:16.332 PM] sk2a03>en
+[2023/12/14, 3:27:16.332 PM] Password:
+[2023/12/14, 3:27:16.332 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:16.332 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:27:16.332 PM] sk2a03#show ip nat
+[2023/12/14, 3:27:16.332 PM] % Incomplete command.
+
+[2023/12/14, 3:27:16.332 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:27:16.332 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:27:16.332 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:27:16.332 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:27:16.332 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:27:16.332 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:27:16.332 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:27:16.332 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:27:16.332 PM] a - application route
+[2023/12/14, 3:27:16.332 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:27:16.332 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:27:16.332 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:27:16.332 PM] sk2a03#
+[2023/12/14, 3:27:18.325 PM] sk2a03#
+[2023/12/14, 3:27:18.533 PM] sk2a03#
+[2023/12/14, 3:27:18.692 PM] sk2a03#
+[2023/12/14, 3:27:18.852 PM] sk2a03#
+[2023/12/14, 3:27:19.029 PM] sk2a03#show ip route ospf                  show ip route ospf            nat
+[2023/12/14, 3:27:28.818 PM] % Incomplete command.
+
+[2023/12/14, 3:27:28.850 PM] sk2a03#show ip ospf neighbor
+
+[2023/12/14, 3:28:39.633 PM] Neighbor ID     Pri   State           Dead Time   Address         Interface
+[2023/12/14, 3:28:39.713 PM] 100.100.100.100   2   FULL/DR         00:00:37    10.16.10.39     GigabitEthernet0/4
+[2023/12/14, 3:28:39.809 PM] 192.168.4.254     1   FULL/BDR        00:00:33    10.16.10.4      GigabitEthernet0/4
+[2023/12/14, 3:28:39.921 PM] 192.168.5.254     1   2WAY/DROTHER    00:00:31    10.16.10.5      GigabitEthernet0/4
+[2023/12/14, 3:28:40.018 PM] 192.168.8.254     1   2WAY/DROTHER    00:00:35    10.16.10.8      GigabitEthernet0/4
+[2023/12/14, 3:28:40.113 PM] 192.168.10.254    1   2WAY/DROTHER    00:00:35    10.16.10.10     GigabitEthernet0/4
+[2023/12/14, 3:28:40.209 PM] 192.168.13.254    1   2WAY/DROTHER    00:00:31    10.16.10.13     GigabitEthernet0/4
+[2023/12/14, 3:28:40.305 PM] 192.168.17.254    1   2WAY/DROTHER    00:00:31    10.16.10.17     GigabitEthernet0/4
+[2023/12/14, 3:28:40.401 PM] sk2a03#sk2a03>
+[2023/12/14, 3:28:43.301 PM] sk2a03>
+[2023/12/14, 3:28:43.301 PM] sk2a03>
+[2023/12/14, 3:28:43.301 PM] sk2a03>en
+[2023/12/14, 3:28:43.301 PM] Password:
+[2023/12/14, 3:28:43.301 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:28:43.301 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:28:43.301 PM] sk2a03#show ip nat
+[2023/12/14, 3:28:43.301 PM] % Incomplete command.
+
+[2023/12/14, 3:28:43.301 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:28:43.301 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:28:43.301 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:28:43.301 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:28:43.301 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:28:43.301 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:28:43.301 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:28:43.301 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:28:43.301 PM] a - application route
+[2023/12/14, 3:28:43.301 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:28:43.301 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:28:43.301 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:28:43.301 PM] sk2a03#
+[2023/12/14, 3:28:43.301 PM] sk2a03#
+[2023/12/14, 3:28:43.301 PM] sk2a03#
+[2023/12/14, 3:28:43.301 PM] sk2a03#
+[2023/12/14, 3:28:43.302 PM] sk2a03#
+[2023/12/14, 3:28:43.302 PM] sk2a03#show ip nat
+[2023/12/14, 3:28:43.302 PM] % Incomplete command.
+
+[2023/12/14, 3:28:43.302 PM] sk2a03#show ip ospf neighbor
+
+[2023/12/14, 3:28:43.302 PM] Neighbor IDPri   StateDead Time   AddressInterface
+[2023/12/14, 3:28:43.302 PM] 100.100.100.100   2   FULL/DR00:00:3710.16.10.39GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.4.2541   FULL/BDR00:00:3310.16.10.4GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.5.2541   2WAY/DROTHER00:00:3110.16.10.5GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.8.2541   2WAY/DROTHER00:00:3510.16.10.8GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.10.2541   2WAY/DROTHER00:00:3510.16.10.10GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.13.2541   2WAY/DROTHER00:00:3110.16.10.13GigabitEthernet0/4
+[2023/12/14, 3:28:43.302 PM] 192.168.17.2541   2WAY/DROTHER00:00:3110.16.10.17GigabitEthernet0/4
+[2023/12/14, 3:28:43.304 PM] sk2a03#sk2a03>
+[2023/12/14, 3:28:43.513 PM] sk2a03>
+[2023/12/14, 3:28:43.513 PM] sk2a03>
+[2023/12/14, 3:28:43.513 PM] sk2a03>en
+[2023/12/14, 3:28:43.513 PM] Password:
+[2023/12/14, 3:28:43.513 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:28:43.513 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:28:43.513 PM] sk2a03#show ip nat
+[2023/12/14, 3:28:43.513 PM] % Incomplete command.
+
+[2023/12/14, 3:28:43.514 PM] sk2a03#show ip route ospf
+[2023/12/14, 3:28:43.514 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:28:43.514 PM] D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+[2023/12/14, 3:28:43.514 PM] N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:28:43.514 PM] E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:28:43.514 PM] i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:28:43.514 PM] ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:28:43.514 PM] o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:28:43.514 PM] a - application route
+[2023/12/14, 3:28:43.514 PM] + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:28:43.514 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:28:43.514 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] O192.168.4.0/24 [110/2] via 10.16.10.4, 00:02:04, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] O192.168.5.0/24 [110/2] via 10.16.10.5, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] O192.168.10.0/24 [110/2] via 10.16.10.10, 00:14:54, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] O192.168.13.0/24 [110/2] via 10.16.10.13, 00:18:29, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] O192.168.17.0/24 [110/2] via 10.16.10.17, 00:06:20, GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] sk2a03#
+[2023/12/14, 3:28:43.514 PM] sk2a03#
+[2023/12/14, 3:28:43.514 PM] sk2a03#
+[2023/12/14, 3:28:43.514 PM] sk2a03#
+[2023/12/14, 3:28:43.514 PM] sk2a03#
+[2023/12/14, 3:28:43.514 PM] sk2a03#show ip nat
+[2023/12/14, 3:28:43.514 PM] % Incomplete command.
+
+[2023/12/14, 3:28:43.514 PM] sk2a03#show ip ospf neighbor
+
+[2023/12/14, 3:28:43.514 PM] Neighbor IDPri   StateDead Time   AddressInterface
+[2023/12/14, 3:28:43.514 PM] 100.100.100.100   2   FULL/DR00:00:3710.16.10.39GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.4.2541   FULL/BDR00:00:3310.16.10.4GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.5.2541   2WAY/DROTHER00:00:3110.16.10.5GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.8.2541   2WAY/DROTHER00:00:3510.16.10.8GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.10.2541   2WAY/DROTHER00:00:3510.16.10.10GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.13.2541   2WAY/DROTHER00:00:3110.16.10.13GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] 192.168.17.2541   2WAY/DROTHER00:00:3110.16.10.17GigabitEthernet0/4
+[2023/12/14, 3:28:43.514 PM] sk2a03#o,o
+[2023/12/14, 3:29:50.209 PM] sk2a03#,oshow ip route ospf, DR/BDR
+[2023/12/14, 3:29:52.032 PM]        ^
+[2023/12/14, 3:29:52.032 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:29:52.080 PM] sk2a03#,oshow ip route ospf, DR/BDRoshow ip route ospf, DR/BDR show ip route ospf, DR/BDR 
+[2023/12/14, 3:29:58.142 PM]                          ^
+[2023/12/14, 3:29:58.174 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:29:58.222 PM] sk2a03#show ip route ospf, DR/BDRDR/BDR        
+[2023/12/14, 3:30:06.300 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:30:06.380 PM]        D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+[2023/12/14, 3:30:06.460 PM]        N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:30:06.540 PM]        E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:30:06.604 PM]        i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:30:06.700 PM]        ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:30:06.796 PM]        o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:30:06.876 PM]        a - application route
+[2023/12/14, 3:30:06.908 PM]        + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:30:07.004 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:30:07.068 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:21:26, GigabitEthernet0/4
+[2023/12/14, 3:30:07.148 PM] O     192.168.4.0/24 [110/2] via 10.16.10.4, 00:01:53, GigabitEthernet0/4
+[2023/12/14, 3:30:07.244 PM] O     192.168.5.0/24 [110/2] via 10.16.10.5, 00:21:26, GigabitEthernet0/4
+[2023/12/14, 3:30:07.324 PM] O     192.168.8.0/24 [110/2] via 10.16.10.8, 00:00:03, GigabitEthernet0/4
+[2023/12/14, 3:30:07.403 PM] O     192.168.10.0/24 [110/2] via 10.16.10.10, 00:17:51, GigabitEthernet0/4
+[2023/12/14, 3:30:07.499 PM] O     192.168.13.0/24 [110/2] via 10.16.10.13, 00:21:26, GigabitEthernet0/4
+[2023/12/14, 3:30:07.579 PM] O     192.168.17.0/24 [110/2] via 10.16.10.17, 00:09:17, GigabitEthernet0/4
+[2023/12/14, 3:30:07.676 PM] sk2a03#show ip route ospf                  show ip nat translations
+[2023/12/14, 3:32:15.901 PM] sk2a03#show ip nat translations             
+[2023/12/14, 3:32:26.378 PM] % Incomplete command.
+
+[2023/12/14, 3:32:26.395 PM] sk2a03#ping 8.88.  .8.8
+[2023/12/14, 3:32:52.613 PM] Type escape sequence to abort.
+[2023/12/14, 3:32:52.644 PM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/12/14, 3:32:52.724 PM] !!!!!
+[2023/12/14, 3:32:52.740 PM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/4 ms
+[2023/12/14, 3:32:52.820 PM] sk2a03#ping 8.8.8.8show ip nat  translationsroute ospf      
+[2023/12/14, 3:34:16.449 PM] Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+[2023/12/14, 3:34:16.544 PM]        D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+[2023/12/14, 3:34:16.624 PM]        N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+[2023/12/14, 3:34:16.704 PM]        E1 - OSPF external type 1, E2 - OSPF external type 2
+[2023/12/14, 3:34:16.768 PM]        i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+[2023/12/14, 3:34:16.864 PM]        ia - IS-IS inter area, * - candidate default, U - per-user static route
+[2023/12/14, 3:34:16.960 PM]        o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+[2023/12/14, 3:34:17.040 PM]        a - application route
+[2023/12/14, 3:34:17.072 PM]        + - replicated route, % - next hop override, p - overrides from PfR
+
+[2023/12/14, 3:34:17.168 PM] Gateway of last resort is 10.16.10.254 to network 0.0.0.0
+
+[2023/12/14, 3:34:17.232 PM] O*E2  0.0.0.0/0 [110/1] via 10.16.10.254, 00:25:36, GigabitEthernet0/4
+[2023/12/14, 3:34:17.312 PM] O     192.168.4.0/24 [110/2] via 10.16.10.4, 00:06:03, GigabitEthernet0/4
+[2023/12/14, 3:34:17.408 PM] O     192.168.5.0/24 [110/2] via 10.16.10.5, 00:25:36, GigabitEthernet0/4
+[2023/12/14, 3:34:17.488 PM] O     192.168.8.0/24 [110/2] via 10.16.10.8, 00:04:13, GigabitEthernet0/4
+[2023/12/14, 3:34:17.568 PM] O     192.168.10.0/24 [110/2] via 10.16.10.10, 00:03:40, GigabitEthernet0/4
+[2023/12/14, 3:34:17.664 PM] O     192.168.13.0/24 [110/2] via 10.16.10.13, 00:25:36, GigabitEthernet0/4
+[2023/12/14, 3:34:17.744 PM] O     192.168.17.0/24 [110/2] via 10.16.10.17, 00:13:27, GigabitEthernet0/4
+[2023/12/14, 3:34:17.840 PM] sk2a03#congi  fig t
+[2023/12/14, 3:34:27.102 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/12/14, 3:34:27.181 PM] sk2a03(config)#ip nat inside source list 1 interface g0/5 overloadace g0/5 overload  g0/5 overload  g0/5 overload  g0/5 overload  g0/5 overload  g0/5 overload  g0/5 overload 4 overloadnside source list 1 int g0/4 overload side source list 1 int g0/4 overload oside source list 1 int g0/4 overloaduside source list 1 int g0/4 overloadtside source list 1 int g0/4 overload
+[2023/12/14, 3:34:43.370 PM] sk2a03(config)#pring    ing 8.8.8.8
+[2023/12/14, 3:34:49.432 PM]                 ^
+[2023/12/14, 3:34:49.448 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:34:49.496 PM] sk2a03(config)#exiy t
+[2023/12/14, 3:34:53.911 PM] sk2a03#
+[2023/12/14, 3:34:54.999 PM] *Dec 14 05:37:38.979: %SYS-5-CONFIG_I: Configured from console by consolepin  
+[2023/12/14, 3:34:56.407 PM] Protocol [ip]: 
+[2023/12/14, 3:34:56.582 PM] Target IP address: 
+[2023/12/14, 3:34:56.726 PM] % Bad IP address
+[2023/12/14, 3:34:56.758 PM] sk2a03#
+[2023/12/14, 3:34:56.870 PM] sk2a03#
+[2023/12/14, 3:34:56.982 PM] sk2a03#ping 8.8.8.8
+[2023/12/14, 3:35:01.573 PM] Type escape sequence to abort.
+[2023/12/14, 3:35:01.605 PM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/12/14, 3:35:01.685 PM] !!!!!
+[2023/12/14, 3:35:01.685 PM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/3/4 ms
+[2023/12/14, 3:35:01.765 PM] sk2a03#
+[2023/12/14, 3:36:22.050 PM] sk2a03#
+[2023/12/14, 3:36:22.162 PM] sk2a03#show run
+[2023/12/14, 3:36:24.593 PM] Building configuration...
+
+[2023/12/14, 3:36:24.625 PM]   
+[2023/12/14, 3:36:24.849 PM] Current configuration : 1781 bytes
+[2023/12/14, 3:36:24.897 PM] !
+[2023/12/14, 3:36:24.897 PM] ! Last configuration change at 05:37:38 UTC Thu Dec 14 2023
+[2023/12/14, 3:36:24.961 PM] !
+[2023/12/14, 3:36:24.961 PM] version 15.5
+[2023/12/14, 3:36:24.977 PM] service timestamps debug datetime msec
+[2023/12/14, 3:36:25.025 PM] service timestamps log datetime msec
+[2023/12/14, 3:36:25.073 PM] service password-encryption
+[2023/12/14, 3:36:25.105 PM] !
+[2023/12/14, 3:36:25.105 PM] hostname sk2a03
+[2023/12/14, 3:36:25.137 PM] !
+[2023/12/14, 3:36:25.137 PM] boot-start-marker
+[2023/12/14, 3:36:25.153 PM] boot-end-marker
+[2023/12/14, 3:36:25.169 PM] !
+[2023/12/14, 3:36:25.186 PM] !
+[2023/12/14, 3:36:25.186 PM] enable secret 5 $1$UHqM$V5xdgQDdqFrKLmfI3NYKS/
+[2023/12/14, 3:36:25.234 PM] !
+[2023/12/14, 3:36:25.234 PM] no aaa new-model
+[2023/12/14, 3:36:25.265 PM] ethernet lmi ce
+[2023/12/14, 3:36:25.281 PM] !
+[2023/12/14, 3:36:25.281 PM] !
+[2023/12/14, 3:36:25.281 PM] !
+[2023/12/14, 3:36:25.297 PM]  --More--         !
+[2023/12/14, 3:36:27.745 PM] !
+[2023/12/14, 3:36:27.760 PM] ip dhcp excluded-address 192.168.3.1 192.168.3.100
+[2023/12/14, 3:36:27.808 PM] ip dhcp excluded-address 192.168.3.254
+[2023/12/14, 3:36:27.857 PM] !
+[2023/12/14, 3:36:27.857 PM] ip dhcp pool sk2a03
+[2023/12/14, 3:36:27.889 PM]  network 192.168.3.0 255.255.255.0
+[2023/12/14, 3:36:27.936 PM]  default-router 192.168.3.254 
+[2023/12/14, 3:36:27.969 PM]  dns-server 10.201.10.1 
+[2023/12/14, 3:36:28.001 PM]  lease 0 1 30
+[2023/12/14, 3:36:28.016 PM] !
+[2023/12/14, 3:36:28.017 PM] !
+[2023/12/14, 3:36:28.017 PM] !
+[2023/12/14, 3:36:28.017 PM] ip domain name ecccomp.com
+[2023/12/14, 3:36:28.048 PM] ip cef
+[2023/12/14, 3:36:28.064 PM] no ipv6 cef
+[2023/12/14, 3:36:28.080 PM] !
+[2023/12/14, 3:36:28.080 PM] !
+[2023/12/14, 3:36:28.080 PM] license udi pid C841M-4X-JSEC/K9 sn FGL202622P0
+[2023/12/14, 3:36:28.145 PM] !
+[2023/12/14, 3:36:28.145 PM] !
+[2023/12/14, 3:36:28.145 PM] username sk2a03 secret 5 $1$8YvV$X7GpF54xFlLS2AlPvVimy.
+[2023/12/14, 3:36:28.208 PM] !
+[2023/12/14, 3:36:28.225 PM]  --More--         redundancy
+[2023/12/14, 3:36:31.712 PM] !
+[2023/12/14, 3:36:31.712 PM] !
+[2023/12/14, 3:36:31.712 PM] !
+[2023/12/14, 3:36:31.712 PM] !
+[2023/12/14, 3:36:31.728 PM] !
+[2023/12/14, 3:36:31.728 PM] ! 
+[2023/12/14, 3:36:31.728 PM] !
+[2023/12/14, 3:36:31.728 PM] !
+[2023/12/14, 3:36:31.743 PM] !
+[2023/12/14, 3:36:31.744 PM] !
+[2023/12/14, 3:36:31.744 PM] !
+[2023/12/14, 3:36:31.744 PM] !
+[2023/12/14, 3:36:31.744 PM] !
+[2023/12/14, 3:36:31.759 PM] !
+[2023/12/14, 3:36:31.760 PM] !
+[2023/12/14, 3:36:31.760 PM] interface GigabitEthernet0/0
+[2023/12/14, 3:36:31.792 PM]  no ip address
+[2023/12/14, 3:36:31.807 PM] !
+[2023/12/14, 3:36:31.823 PM] interface GigabitEthernet0/1
+[2023/12/14, 3:36:31.855 PM]  no ip address
+[2023/12/14, 3:36:31.872 PM] !
+[2023/12/14, 3:36:31.872 PM] interface GigabitEthernet0/2
+[2023/12/14, 3:36:31.903 PM]  --More--          no ip address
+[2023/12/14, 3:36:32.591 PM] !
+[2023/12/14, 3:36:32.592 PM] interface GigabitEthernet0/3
+[2023/12/14, 3:36:32.623 PM]  no ip address
+[2023/12/14, 3:36:32.655 PM] !
+[2023/12/14, 3:36:32.655 PM] interface GigabitEthernet0/4
+[2023/12/14, 3:36:32.687 PM]  description Link to LAN
+[2023/12/14, 3:36:32.719 PM]  ip address 10.16.10.3 255.255.255.0
+[2023/12/14, 3:36:32.751 PM]  ip nat outside
+[2023/12/14, 3:36:32.784 PM]  ip virtual-reassembly in
+[2023/12/14, 3:36:32.815 PM]  duplex auto
+[2023/12/14, 3:36:32.832 PM]  speed auto
+[2023/12/14, 3:36:32.848 PM] !
+[2023/12/14, 3:36:32.848 PM] interface GigabitEthernet0/5
+[2023/12/14, 3:36:32.879 PM]  description Link to PC
+[2023/12/14, 3:36:32.911 PM]  ip address 192.168.3.254 255.255.255.0
+[2023/12/14, 3:36:32.959 PM]  ip nat inside
+[2023/12/14, 3:36:32.975 PM]  ip virtual-reassembly in
+[2023/12/14, 3:36:33.007 PM]  duplex auto
+[2023/12/14, 3:36:33.023 PM]  speed auto
+[2023/12/14, 3:36:33.039 PM] !
+[2023/12/14, 3:36:33.039 PM] interface Vlan1
+[2023/12/14, 3:36:33.055 PM]  no ip address
+[2023/12/14, 3:36:33.071 PM]  --More--         !
+[2023/12/14, 3:36:40.222 PM] router ospf 1
+[2023/12/14, 3:36:40.237 PM]  network 10.16.10.0 0.0.0.255 area 0
+[2023/12/14, 3:36:40.285 PM]  network 192.168.3.0 0.0.0.255 area 0
+[2023/12/14, 3:36:40.333 PM] !
+[2023/12/14, 3:36:40.334 PM] ip forward-protocol nd
+[2023/12/14, 3:36:40.365 PM] no ip http server
+[2023/12/14, 3:36:40.381 PM] no ip http secure-server
+[2023/12/14, 3:36:40.414 PM] !
+[2023/12/14, 3:36:40.414 PM] !
+[2023/12/14, 3:36:40.429 PM] ip nat inside source list 1 interface GigabitEthernet0/5 overload
+[2023/12/14, 3:36:40.493 PM] ip nat outside source list 1 interface GigabitEthernet0/4
+[2023/12/14, 3:36:40.574 PM] !
+[2023/12/14, 3:36:40.574 PM] !
+[2023/12/14, 3:36:40.574 PM] !
+[2023/12/14, 3:36:40.574 PM] access-list 10 permit 192.168.3.0 0.0.0.255
+[2023/12/14, 3:36:40.622 PM] !
+[2023/12/14, 3:36:40.637 PM] !
+[2023/12/14, 3:36:40.638 PM] line con 0
+[2023/12/14, 3:36:40.654 PM]  no modem enable
+[2023/12/14, 3:36:40.669 PM] line vty 0 4
+[2023/12/14, 3:36:40.685 PM]  login local
+[2023/12/14, 3:36:40.701 PM]  transport input ssh
+[2023/12/14, 3:36:40.733 PM]  --More--         !
+[2023/12/14, 3:36:54.810 PM] scheduler allocate 20000 1000
+[2023/12/14, 3:36:54.842 PM] ntp server devicehelper.cisco.com
+[2023/12/14, 3:36:54.890 PM] !
+[2023/12/14, 3:36:54.890 PM] end
+
+[2023/12/14, 3:36:54.906 PM] sk2a03#conf t
+[2023/12/14, 3:37:12.358 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/12/14, 3:37:12.438 PM] sk2a03(config)#no ip nat out
+[2023/12/14, 3:37:16.357 PM] sk2a03(config)#no ip nat outside sorce   ur
+[2023/12/14, 3:37:21.892 PM] sk2a03(config)#no ip nat outside source list 1 int g0. /4
+[2023/12/14, 3:37:30.818 PM] sk2a03(config)#xit
+[2023/12/14, 3:37:43.087 PM]                 ^
+[2023/12/14, 3:37:43.103 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:37:43.150 PM] sk2a03(config)#exit
+[2023/12/14, 3:37:48.365 PM] sk2a03#
+[2023/12/14, 3:37:50.044 PM] *Dec 14 05:40:33.459: %SYS-5-CONFIG_I: Configured from console by consoleconf t      
+[2023/12/14, 3:37:53.708 PM] sk2a03#
+[2023/12/14, 3:37:53.852 PM] sk2a03#
+[2023/12/14, 3:37:53.996 PM] sk2a03#conf tshow runping 8.8.8.8show run    
+[2023/12/14, 3:37:57.883 PM] Building configuration...
+
+[2023/12/14, 3:37:57.915 PM]   
+[2023/12/14, 3:37:58.059 PM] Current configuration : 1723 bytes
+[2023/12/14, 3:37:58.091 PM] !
+[2023/12/14, 3:37:58.091 PM] ! Last configuration change at 05:40:33 UTC Thu Dec 14 2023
+[2023/12/14, 3:37:58.171 PM] !
+[2023/12/14, 3:37:58.171 PM] version 15.5
+[2023/12/14, 3:37:58.187 PM] service timestamps debug datetime msec
+[2023/12/14, 3:37:58.235 PM] service timestamps log datetime msec
+[2023/12/14, 3:37:58.283 PM] service password-encryption
+[2023/12/14, 3:37:58.315 PM] !
+[2023/12/14, 3:37:58.315 PM] hostname sk2a03
+[2023/12/14, 3:37:58.331 PM] !
+[2023/12/14, 3:37:58.331 PM] boot-start-marker
+[2023/12/14, 3:37:58.363 PM] boot-end-marker
+[2023/12/14, 3:37:58.379 PM] !
+[2023/12/14, 3:37:58.379 PM] !
+[2023/12/14, 3:37:58.379 PM] enable secret 5 $1$UHqM$V5xdgQDdqFrKLmfI3NYKS/
+[2023/12/14, 3:37:58.443 PM] !
+[2023/12/14, 3:37:58.443 PM] no aaa new-model
+[2023/12/14, 3:37:58.459 PM] ethernet lmi ce
+[2023/12/14, 3:37:58.475 PM] !
+[2023/12/14, 3:37:58.491 PM] !
+[2023/12/14, 3:37:58.491 PM] !
+[2023/12/14, 3:37:58.491 PM]  --More--         !
+[2023/12/14, 3:38:03.546 PM] !
+[2023/12/14, 3:38:03.546 PM] ip dhcp excluded-address 192.168.3.1 192.168.3.100
+[2023/12/14, 3:38:03.609 PM] ip dhcp excluded-address 192.168.3.254
+[2023/12/14, 3:38:03.657 PM] !
+[2023/12/14, 3:38:03.658 PM] ip dhcp pool sk2a03
+[2023/12/14, 3:38:03.673 PM]  network 192.168.3.0 255.255.255.0
+[2023/12/14, 3:38:03.721 PM]  default-router 192.168.3.254 
+[2023/12/14, 3:38:03.754 PM]  dns-server 10.201.10.1 
+[2023/12/14, 3:38:03.785 PM]  lease 0 1 30
+[2023/12/14, 3:38:03.801 PM] !
+[2023/12/14, 3:38:03.802 PM] !
+[2023/12/14, 3:38:03.818 PM] !
+[2023/12/14, 3:38:03.818 PM] ip domain name ecccomp.com
+[2023/12/14, 3:38:03.850 PM] ip cef
+[2023/12/14, 3:38:03.850 PM] no ipv6 cef
+[2023/12/14, 3:38:03.868 PM] !
+[2023/12/14, 3:38:03.881 PM] !
+[2023/12/14, 3:38:03.882 PM] license udi pid C841M-4X-JSEC/K9 sn FGL202622P0
+[2023/12/14, 3:38:03.930 PM] !
+[2023/12/14, 3:38:03.930 PM] !
+[2023/12/14, 3:38:03.946 PM] username sk2a03 secret 5 $1$8YvV$X7GpF54xFlLS2AlPvVimy.
+[2023/12/14, 3:38:04.009 PM] !
+[2023/12/14, 3:38:04.009 PM]  --More--         redundancy
+[2023/12/14, 3:38:07.193 PM] !
+[2023/12/14, 3:38:07.208 PM] !
+[2023/12/14, 3:38:07.209 PM] !
+[2023/12/14, 3:38:07.209 PM] !
+[2023/12/14, 3:38:07.209 PM] !
+[2023/12/14, 3:38:07.209 PM] ! 
+[2023/12/14, 3:38:07.225 PM] !
+[2023/12/14, 3:38:07.225 PM] !
+[2023/12/14, 3:38:07.225 PM] !
+[2023/12/14, 3:38:07.225 PM] !
+[2023/12/14, 3:38:07.241 PM] !
+[2023/12/14, 3:38:07.241 PM] !
+[2023/12/14, 3:38:07.241 PM] !
+[2023/12/14, 3:38:07.241 PM] !
+[2023/12/14, 3:38:07.241 PM] !
+[2023/12/14, 3:38:07.256 PM] interface GigabitEthernet0/0
+[2023/12/14, 3:38:07.289 PM]  no ip address
+[2023/12/14, 3:38:07.305 PM] !
+[2023/12/14, 3:38:07.305 PM] interface GigabitEthernet0/1
+[2023/12/14, 3:38:07.337 PM]  no ip address
+[2023/12/14, 3:38:07.353 PM] !
+[2023/12/14, 3:38:07.369 PM] interface GigabitEthernet0/2
+[2023/12/14, 3:38:07.401 PM]  --More--          no ip address
+[2023/12/14, 3:38:08.185 PM] !
+[2023/12/14, 3:38:08.185 PM] interface GigabitEthernet0/3
+[2023/12/14, 3:38:08.217 PM]  no ip address
+[2023/12/14, 3:38:08.232 PM] !
+[2023/12/14, 3:38:08.248 PM] interface GigabitEthernet0/4
+[2023/12/14, 3:38:08.281 PM]  description Link to LAN
+[2023/12/14, 3:38:08.312 PM]  ip address 10.16.10.3 255.255.255.0
+[2023/12/14, 3:38:08.344 PM]  ip nat outside
+[2023/12/14, 3:38:08.376 PM]  ip virtual-reassembly in
+[2023/12/14, 3:38:08.392 PM]  duplex auto
+[2023/12/14, 3:38:08.409 PM]  speed auto
+[2023/12/14, 3:38:08.424 PM] !
+[2023/12/14, 3:38:08.440 PM] interface GigabitEthernet0/5
+[2023/12/14, 3:38:08.472 PM]  description Link to PC
+[2023/12/14, 3:38:08.504 PM]  ip address 192.168.3.254 255.255.255.0
+[2023/12/14, 3:38:08.554 PM]  ip nat inside
+[2023/12/14, 3:38:08.569 PM]  ip virtual-reassembly in
+[2023/12/14, 3:38:08.600 PM]  duplex auto
+[2023/12/14, 3:38:08.616 PM]  speed auto
+[2023/12/14, 3:38:08.632 PM] !
+[2023/12/14, 3:38:08.632 PM] interface Vlan1
+[2023/12/14, 3:38:08.648 PM]  no ip address
+[2023/12/14, 3:38:08.664 PM]  --More--         !
+[2023/12/14, 3:38:09.128 PM] router ospf 1
+[2023/12/14, 3:38:09.144 PM]  network 10.16.10.0 0.0.0.255 area 0
+[2023/12/14, 3:38:09.176 PM]  network 192.168.3.0 0.0.0.255 area 0
+[2023/12/14, 3:38:09.224 PM] !
+[2023/12/14, 3:38:09.224 PM] ip forward-protocol nd
+[2023/12/14, 3:38:09.256 PM] no ip http server
+[2023/12/14, 3:38:09.288 PM] no ip http secure-server
+[2023/12/14, 3:38:09.304 PM] !
+[2023/12/14, 3:38:09.320 PM] !
+[2023/12/14, 3:38:09.320 PM] ip nat inside source list 1 interface GigabitEthernet0/5 overload
+[2023/12/14, 3:38:09.400 PM] !
+[2023/12/14, 3:38:09.400 PM] !
+[2023/12/14, 3:38:09.400 PM] !
+[2023/12/14, 3:38:09.400 PM] access-list 10 permit 192.168.3.0 0.0.0.255
+[2023/12/14, 3:38:09.448 PM] !
+[2023/12/14, 3:38:09.464 PM] !
+[2023/12/14, 3:38:09.464 PM] line con 0
+[2023/12/14, 3:38:09.480 PM]  no modem enable
+[2023/12/14, 3:38:09.496 PM] line vty 0 4
+[2023/12/14, 3:38:09.512 PM]  login local
+[2023/12/14, 3:38:09.528 PM]  transport input ssh
+[2023/12/14, 3:38:09.560 PM] !
+[2023/12/14, 3:38:09.560 PM]  --More-- %                                                                                                             
+
+[2023/12/14, 3:38:25.430 PM]     ~                                                                            12m 5s   15:38:25  
+[2023/12/14, 3:38:25.430 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:38:32.336 PM] Cannot exec '/dev/tty.usbserial-A10O2ADD': No such file or directory                                                                        
+[2023/12/14, 3:38:34.340 PM] [screen is terminating]
+[2023/12/14, 3:38:34.342 PM] %                                                                                                             
+
+[2023/12/14, 3:38:34.355 PM]     ~                                                                                       15:38:34  
+[2023/12/14, 3:38:34.355 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:38:42.275 PM]         scheduler allocate 20000 1000
+[2023/12/14, 3:38:42.340 PM]  --More--         ntp server devicehelper.cisco.com
+[2023/12/14, 3:38:42.500 PM]  --More--         !
+[2023/12/14, 3:38:42.595 PM]  --More--         end
+[2023/12/14, 3:38:42.740 PM]  --More--         
+[2023/12/14, 3:38:42.884 PM] sk2a03#
+[2023/12/14, 3:38:42.995 PM] sk2a03#
+[2023/12/14, 3:38:43.139 PM] sk2a03#
+[2023/12/14, 3:38:43.315 PM] sk2a03#
+[2023/12/14, 3:38:43.523 PM] sk2a03#
+[2023/12/14, 3:38:43.683 PM] sk2a03#
+[2023/12/14, 3:38:43.843 PM] sk2a03#
+[2023/12/14, 3:38:43.987 PM] sk2a03#show runconf t  show runping 8.8.8.8           config tshow ip route ospfping 8.8.8.8      show ip nat  translationsroute ospf      , DR/BDR,oshow ip route ospf, DR/BDRshow ip ospf neighbor       nat          route ospfnat        translationsen                      show ip nat translations             route ospfnat       ospf neighbor,oshow ip route ospf, DR/BDRshow ip route ospf, DR/BDR          nat translations             ping 8.8.8.8show ip route ospfconfig t          p       ing 8.8.8.8show run    conf t  show run        ip nat inside source list 1 interface g0/5 overload10 interface g0/5 overload
+[2023/12/14, 3:39:04.207 PM]           ^
+[2023/12/14, 3:39:04.222 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:39:04.271 PM] sk2a03#conn fig t
+[2023/12/14, 3:39:08.781 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/12/14, 3:39:08.845 PM] sk2a03(config)#exitxit exit    ip nat inside source list 1 interface g0/5 overload0 interface g0/5 overload
+[2023/12/14, 3:39:15.276 PM] sk2a03(config)#exit
+[2023/12/14, 3:39:18.747 PM] sk2a03#ping 
+[2023/12/14, 3:39:20.058 PM] *Dec 14 05:42:03.847: %SYS-5-CONFIG_I: Configured from console by console8.8  
+[2023/12/14, 3:39:21.386 PM] % Unrecognized host or address, or protocol not running.
+
+[2023/12/14, 3:39:21.450 PM] sk2a03#
+[2023/12/14, 3:39:21.578 PM] sk2a03#
+[2023/12/14, 3:39:21.706 PM] sk2a03#
+[2023/12/14, 3:39:21.850 PM] sk2a03#
+[2023/12/14, 3:39:21.978 PM] sk2a03#ping 8.8.8.8
+[2023/12/14, 3:39:25.609 PM] Type escape sequence to abort.
+[2023/12/14, 3:39:25.641 PM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/12/14, 3:39:25.721 PM] !!!!!
+[2023/12/14, 3:39:25.721 PM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/12/14, 3:39:25.801 PM] sk2a03#show ip nat translations
+[2023/12/14, 3:40:05.664 PM] Pro Inside global      Inside local       Outside local      Outside global
+[2023/12/14, 3:40:05.744 PM] udp 192.168.3.254:13991 192.168.3.101:13991 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:05.839 PM] icmp 192.168.3.254:19973 192.168.3.101:19973 8.8.8.8:19973   8.8.8.8:19973
+[2023/12/14, 3:40:05.919 PM] udp 192.168.3.254:27036 192.168.3.101:27036 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.016 PM] udp 192.168.3.254:48270 192.168.3.101:48270 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.096 PM] udp 192.168.3.254:49490 192.168.3.101:49490 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.191 PM] udp 192.168.3.254:49657 192.168.3.101:49657 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.271 PM] udp 192.168.3.254:49910 192.168.3.101:49910 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.368 PM] udp 192.168.3.254:50024 192.168.3.101:50024 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.448 PM] udp 192.168.3.254:50313 192.168.3.101:50313 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.543 PM] udp 192.168.3.254:51432 192.168.3.101:51432 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.623 PM] udp 192.168.3.254:51537 192.168.3.101:51537 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.719 PM] udp 192.168.3.254:52436 192.168.3.101:52436 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.799 PM] udp 192.168.3.254:53133 192.168.3.101:53133 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.895 PM] udp 192.168.3.254:53870 192.168.3.101:53870 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:06.975 PM] udp 192.168.3.254:54046 192.168.3.101:54046 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.071 PM] udp 192.168.3.254:54154 192.168.3.101:54154 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.151 PM] udp 192.168.3.254:54395 192.168.3.101:54395 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.247 PM] udp 192.168.3.254:54819 192.168.3.101:54819 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.327 PM] udp 192.168.3.254:54911 192.168.3.101:54911 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.423 PM] udp 192.168.3.254:55260 192.168.3.101:55260 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.503 PM] udp 192.168.3.254:55360 192.168.3.101:55360 10.201.10.1:53   10.201.10.1:53
+[2023/12/14, 3:40:07.599 PM]  --More--         
+[2023/12/14, 3:40:07.823 PM] sk2a03#[B  ping 8.88.  .8.8
+[2023/12/14, 3:41:12.528 PM] Type escape sequence to abort.
+[2023/12/14, 3:41:12.559 PM] Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
+[2023/12/14, 3:41:12.641 PM] !!!!!
+[2023/12/14, 3:41:12.641 PM] Success rate is 100 percent (5/5), round-trip min/avg/max = 1/2/4 ms
+[2023/12/14, 3:41:12.720 PM] sk2a03#%                                                                                                             
+
+[2023/12/14, 3:42:10.956 PM]     ~                                                                            3m 30s   15:42:10  
+[2023/12/14, 3:42:10.957 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+
+[2023/12/14, 3:43:44.538 PM] sk2a03#
+[2023/12/14, 3:43:44.682 PM] sk2a03#
+[2023/12/14, 3:43:44.842 PM] sk2a03#
+[2023/12/14, 3:43:44.970 PM] sk2a03#%                                                                                                             
+
+[2023/12/14, 3:43:45.162 PM]     ~                                                                                       15:43:45  
+[2023/12/14, 3:43:45.162 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600ping 8.8.8.8                           screen /dev/tty.usbserial-A10O2ADD 9600ping 8.8.8.8                           ssh -oHostKeyAlgorithms=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 sk2a03@10.16.10.3❯ ssh -oHostKeyAlgorithms=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 sk2a03@10.16.10.3
+[2023/12/14, 3:43:48.939 PM] ^M(sk2a03@10.16.10.3) Password: 

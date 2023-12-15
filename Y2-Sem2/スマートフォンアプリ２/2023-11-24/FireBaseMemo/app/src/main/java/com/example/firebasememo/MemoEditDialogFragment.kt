@@ -72,6 +72,9 @@ class MemoEditDialogFragment : DialogFragment() {
                 return
             }
         selectedMemo.text = binding.memoFormText.text.toString()
+        selectedMemo.priority = binding.memoFromPiority.rating.toDouble()
+
+        ratingListener?.onUpdateMemo(selectedMemo)
         dismiss()
     }
 

@@ -1,0 +1,393 @@
+[2023/12/14, 2:42:37.528 PM] Last login: Thu Dec 14 14:39:23 on ttys006
+
+
+[2023/12/14, 2:42:37.557 PM]     ~                                                          14:42:37  
+[2023/12/14, 2:42:37.557 PM] ❯ %                                                                               
+[2023/12/14, 2:42:37.644 PM]     ~                                                          14:42:37  
+[2023/12/14, 2:42:37.644 PM] ❯ ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/12/14, 2:42:38.948 PM] zsh: no matches found: /dev/tty.usb*
+[2023/12/14, 2:42:38.948 PM] %                                                                                
+
+[2023/12/14, 2:42:38.961 PM]     ~                                                          14:42:38  
+[2023/12/14, 2:42:38.961 PM] ❯ ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/12/14, 2:42:41.553 PM] zsh: no matches found: /dev/tty.usb*
+[2023/12/14, 2:42:41.553 PM] %                                                                                
+
+[2023/12/14, 2:42:41.565 PM]     ~                                                          14:42:41  
+[2023/12/14, 2:42:41.565 PM] ❯ ls /dev/tty.usb*❯ ls /dev/tty.usb*
+[2023/12/14, 2:42:50.016 PM] /dev/tty.usbserial-A10O2ADD
+[2023/12/14, 2:42:50.017 PM] %                                                                                
+
+[2023/12/14, 2:42:50.029 PM]     ~                                                          14:42:50  
+[2023/12/14, 2:42:50.030 PM] ❯ sscres en /dev/tty.usbserial-A10O2ADD/dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+
+[2023/12/14, 2:43:16.342 PM] Router>
+[2023/12/14, 2:43:16.517 PM] Router>
+[2023/12/14, 2:43:16.709 PM] Router>
+[2023/12/14, 2:43:16.885 PM] Router>en
+[2023/12/14, 2:43:17.669 PM] Router#config t
+[2023/12/14, 2:43:20.213 PM] Enter configuration commands, one per line.  End with CNTL/Z.
+[2023/12/14, 2:43:20.292 PM] Router(config)#
+[2023/12/14, 2:43:20.644 PM] Router(config)#
+[2023/12/14, 2:43:21.028 PM] Router(config)#
+[2023/12/14, 2:43:21.220 PM] Router(config)#
+[2023/12/14, 2:43:21.444 PM] Router(config)#
+[2023/12/14, 2:43:21.652 PM] Router(config)#
+[2023/12/14, 2:43:21.844 PM] Router(config)#hosn tname sk2a03
+[2023/12/14, 2:43:27.203 PM] sk2a03(config)#enable secret cisco
+[2023/12/14, 2:43:36.193 PM] Loading http://devicehelper.cisco.com/ca/trustpool !
+[2023/12/14, 2:43:36.609 PM] sk2a03(config)#enable secret cisco
+[2023/12/14, 2:43:38.353 PM] *Dec 14 04:46:21.187: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLO
+[2023/12/14, 2:43:38.496 PM] sk2a03(config)#
+[2023/12/14, 2:43:39.360 PM] sk2a03(config)#enable secret cisco
+[2023/12/14, 2:43:41.376 PM] sk2a03(config)#
+[2023/12/14, 2:43:47.214 PM] %Error opening tftp://255.255.255.255/cisconet.cfg (Timed out)
+[2023/12/14, 2:43:50.014 PM] sk2a03(config)#
+[2023/12/14, 2:43:50.157 PM] sk2a03(config)#
+[2023/12/14, 2:43:50.301 PM] sk2a03(config)#service password-encryption
+[2023/12/14, 2:43:51.181 PM] sk2a03(config)#int g0/5
+[2023/12/14, 2:43:56.028 PM] sk2a03(config-if)#d ip address d 192.w 168.3.254 255.255.255.0
+[2023/12/14, 2:44:11.704 PM] sk2a03(config-if)#d no shutdown
+[2023/12/14, 2:44:17.159 PM] sk2a03(config-if)#d 
+[2023/12/14, 2:44:20.359 PM] *Dec 14 04:47:03.763: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+[2023/12/14, 2:44:23.462 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:23.637 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:23.797 PM] sk2a03(config-if)#description Link to PC
+[2023/12/14, 2:44:24.310 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:24.357 PM] *Dec 14 04:47:07.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+[2023/12/14, 2:44:24.469 PM] *Dec 14 04:47:08.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+[2023/12/14, 2:44:25.525 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:25.717 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:26.213 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)
+[2023/12/14, 2:44:27.044 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:27.668 PM] sk2a03(config-if)#i
+[2023/12/14, 2:44:28.148 PM] Loading http://devicehelper.cisco.com/ca/trustpool !p  
+[2023/12/14, 2:44:29.508 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:29.716 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:29.908 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:30.068 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:30.356 PM] *Dec 14 04:47:13.155: %PNP-6-HTTP_CONNECTING: PnP Discovery trying to connect to PnP server https://devicehelper.cisco.com/pnp/HELLOip  
+[2023/12/14, 2:44:31.620 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:31.811 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:31.971 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:32.115 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:32.259 PM] sk2a03(config-if)#
+[2023/12/14, 2:44:32.453 PM] sk2a03(config-if)#ipv  nat d inside
+[2023/12/14, 2:44:37.922 PM] sk2a03(config-if)#exit
+[2023/12/14, 2:44:39.234 PM] sk2a03(config)#
+[2023/12/14, 2:44:40.354 PM] *Dec 14 04:47:23.499: %LINEPROTO-5-UPDOWN: Line protocol on Interface NVI0, changed state to up
+[2023/12/14, 2:44:43.121 PM] sk2a03(config)#
+[2023/12/14, 2:44:43.329 PM] sk2a03(config)#
+[2023/12/14, 2:44:43.473 PM] sk2a03(config)#
+[2023/12/14, 2:44:43.633 PM] sk2a03(config)#
+[2023/12/14, 2:44:43.809 PM] sk2a03(config)#
+[2023/12/14, 2:44:43.985 PM] sk2a03(config)#
+[2023/12/14, 2:44:44.144 PM] sk2a03(config)#int g0/4  
+[2023/12/14, 2:44:48.400 PM] sk2a03(config-if)#s ip address d 16 0/1  .16.10.3 255.255.255.0
+[2023/12/14, 2:45:06.203 PM] %Error opening tftp://255.255.255.255/sk2a03-confg (Timed out)
+[2023/12/14, 2:45:08.299 PM] sk2a03(config-if)#
+[2023/12/14, 2:45:08.316 PM] sk2a03(config-if)#
+[2023/12/14, 2:45:08.332 PM] sk2a03(config-if)#
+[2023/12/14, 2:45:08.427 PM] sk2a03(config-if)#
+[2023/12/14, 2:45:08.603 PM] sk2a03(config-if)#
+[2023/12/14, 2:45:08.971 PM] sk2a03(config-if)#not dd     d shurt  tdown
+[2023/12/14, 2:45:19.768 PM] sk2a03(config-if)#d description Link to LAN
+[2023/12/14, 2:45:25.047 PM] sk2a03(config-if)#i[ pn  nat ous tisid    side
+[2023/12/14, 2:45:34.116 PM] sk2a03(config-if)#exit
+[2023/12/14, 2:45:35.669 PM] sk2a03(config)#ip dhcp excluded-address 192.168.3.1 192.168.3.100
+[2023/12/14, 2:46:45.876 PM] sk2a03(config)#ip dhcp excluded-address 192.168.3.1 192.168.3.100               254
+[2023/12/14, 2:47:03.839 PM] sk2a03(config)#
+[2023/12/14, 2:47:15.627 PM] sk2a03(config)#
+[2023/12/14, 2:47:15.834 PM] sk2a03(config)#
+[2023/12/14, 2:47:15.995 PM] sk2a03(config)#ip dhcp pool sk2a03
+[2023/12/14, 2:47:24.339 PM] sk2a03(dhcp-config)#network 192.168.3.0 255.255.255.0
+[2023/12/14, 2:47:38.123 PM] sk2a03(dhcp-config)#default-router 192.168.3.254
+[2023/12/14, 2:47:55.109 PM] sk2a03(dhcp-config)#dns-server 10.21 01.10.1
+[2023/12/14, 2:48:05.186 PM] sk2a03(dhcp-config)#lease 0   1 30
+[2023/12/14, 2:48:13.216 PM] sk2a03(dhcp-config)#exit
+[2023/12/14, 2:48:14.304 PM] sk2a03(config)#access  -list 10 2 192.168.3.0 255   0.0.0.255
+[2023/12/14, 2:48:52.358 PM]                               ^
+[2023/12/14, 2:48:52.390 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 2:48:52.438 PM] sk2a03(config)#access-list 10 192.168.3.0 0.0.0.255  192.168.3.0 0.0.0.255p 192.168.3.0 0.0.0.255e 192.168.3.0 0.0.0.255r 192.168.3.0 0.0.0.255m 192.168.3.0 0.0.0.255i 192.168.3.0 0.0.0.255t 192.168.3.0 0.0.0.255
+[2023/12/14, 2:49:03.043 PM] sk2a03(config)#ip nat inside source list 1 interface g0/0 overload overload 5 overload
+[2023/12/14, 2:51:18.403 PM] sk2a03(config)#router ospf 1
+[2023/12/14, 2:54:06.666 PM] sk2a03(config-router)#network 192.168.3.0 0.0.0.255 area 0
+[2023/12/14, 2:55:22.568 PM] sk2a03(config-router)#network 192.168.3.0 0.0.0.255 area 0 0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0  0.0.0.255 area 0 1 0.0.0.255 area 00 0.0.0.255 area 0. 0.0.0.255 area 01 0.0.0.255 area 06 0.0.0.255 area 0. 0.0.0.255 area 01 0.0.0.255 area 00 0.0.0.255 area 0. 0.0.0.255 area 00 0.0.0.255 area 0 0.0.0.255 area 0
+[2023/12/14, 2:55:38.612 PM] sk2a03(config-router)#
+[2023/12/14, 2:55:41.476 PM] *Dec 14 04:58:24.415: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 2:55:41.619 PM] *Dec 14 04:58:25.311: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 2:58:02.946 PM] sk2a03(config-router)#
+[2023/12/14, 2:58:03.153 PM] sk2a03(config-router)#
+[2023/12/14, 2:58:03.329 PM] sk2a03(config-router)#ip domain-name ecccomp.com
+[2023/12/14, 2:58:12.527 PM] sk2a03(config)#crypto key generate rsa general-keys modulus 1024
+[2023/12/14, 2:58:19.277 PM] The name for the keys will be: sk2a03.ecccomp.com
+
+[2023/12/14, 2:58:19.325 PM] % The key modulus size is 1024 bits
+[2023/12/14, 2:58:19.373 PM] % Generating 1024 bit RSA keys, keys will be non-exportable...
+[2023/12/14, 2:58:19.565 PM] [OK] (elapsed time was 0 seconds)
+
+[2023/12/14, 2:58:19.613 PM] sk2a03(config)#
+[2023/12/14, 2:58:21.517 PM] *Dec 14 05:01:04.387: %SSH-5-ENABLED: SSH 1.99 has been enabled
+[2023/12/14, 2:58:24.796 PM] sk2a03(config)#
+[2023/12/14, 2:58:24.988 PM] sk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 2:58:26.732 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 2:58:32.986 PM] sk2a03(config-line)#login localc^@                               ^
+[2023/12/14, 2:58:37.033 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 2:58:37.081 PM] sk2a03(config-line)#^@
+[2023/12/14, 2:58:37.113 PM] sk2a03(config-line)#login localc^@                               ^
+[2023/12/14, 2:58:39.624 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 2:58:39.672 PM] sk2a03(config-line)#^@
+[2023/12/14, 2:58:39.705 PM] sk2a03(config-line)#
+[2023/12/14, 2:58:44.135 PM] sk2a03(config-line)#
+[2023/12/14, 2:58:44.279 PM] sk2a03(config-line)#
+[2023/12/14, 2:58:44.423 PM] sk2a03(config-line)#
+[2023/12/14, 2:58:44.583 PM] sk2a03(config-line)#login local
+[2023/12/14, 2:58:49.238 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 2:58:54.181 PM] sk2a03(config-line)#
+[2023/12/14, 3:08:25.654 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:08:25.782 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:08:25.893 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:08:26.071 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:08:26.229 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:08:26.406 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:08:26.661 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:08:31.652 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:08:31.748 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:08:34.164 PM] sk2a03(config-line)#
+[2023/12/14, 3:08:34.403 PM] sk2a03(config-line)#
+[2023/12/14, 3:08:34.627 PM] sk2a03(config-line)#
+[2023/12/14, 3:08:34.819 PM] sk2a03(config-line)#
+[2023/12/14, 3:08:37.651 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:08:37.795 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Done*Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:16.716 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.716 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.716 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.716 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.716 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:16.717 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Done% Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:16.907 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.907 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:16.908 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Donesk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 3:09:17.116 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.116 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.116 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.116 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:17.117 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Donesk2a03(config)#
+[2023/12/14, 3:09:17.380 PM] sk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 3:09:17.380 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 3:09:17.380 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.380 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.380 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.380 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.380 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:17.381 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Done*Dec 14 05:01:04.387: %SSH-5-ENABLED: SSH 1.99 has been enabled
+[2023/12/14, 3:09:17.599 PM] sk2a03(config)#
+[2023/12/14, 3:09:17.599 PM] sk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 3:09:17.599 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.600 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.600 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:17.600 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Donesk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 3:09:17.846 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.846 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:17.846 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.846 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:17.847 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Donesk2a03(config)#username sk2a03 secret Cl@ss
+[2023/12/14, 3:09:18.529 PM] sk2a03(config)#line vty 0 4
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:18.529 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#login localc^@^
+[2023/12/14, 3:09:18.529 PM] % Invalid input detected at '^' marker.
+
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#^@
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#login local
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#transport input ssh
+[2023/12/14, 3:09:18.529 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.529 PM] *Dec 14 05:11:08.843: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:18.529 PM] *Dec 14 05:11:09.843: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from FULL to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.5.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.10.254 on GigabitEthernet0/4 from 2WAY to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:09.843: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.13.254 on GigabitEthernet0/4 from EXSTART to DOWN, Neighbor Down: Interface down or detached
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:15.335: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:16.335: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to up
+[2023/12/14, 3:09:18.530 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.530 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.530 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.530 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:21.003: %OSPF-5-ADJCHG: Process 1, Nbr 192.168.4.254 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:18.530 PM] *Dec 14 05:11:21.079: %OSPF-5-ADJCHG: Process 1, Nbr 100.100.100.100 on GigabitEthernet0/4 from LOADING to FULL, Loading Done
+[2023/12/14, 3:09:24.999 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:25.271 PM] sk2a03(config-line)#
+[2023/12/14, 3:09:25.591 PM] sk2a03(config-line)#
+[2023/12/14, 3:11:35.704 PM] *Dec 14 05:14:18.895: %SSH-3-NO_MATCH: No matching kex algorithm found: client sntrup761x25519-sha512@openssh.com,curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c server diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1%                                                                                                                                 
+
+[2023/12/14, 3:16:00.930 PM]     ~                                                                                               32m 51s   15:16:00  
+[2023/12/14, 3:16:00.930 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600ls*                       screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:21:51.452 PM] Cannot exec '/dev/tty.usbserial-A10O2ADD': No such file or directory                                                                        
+[2023/12/14, 3:21:53.455 PM] [screen is terminating]
+[2023/12/14, 3:21:53.456 PM] %                                                                                                                                 
+
+[2023/12/14, 3:21:53.473 PM]     ~                                                                                                           15:21:53  
+[2023/12/14, 3:21:53.473 PM] ❯ ❯ 
+[2023/12/14, 3:21:53.633 PM] %                                                                                                                                 
+
+[2023/12/14, 3:21:53.648 PM]     ~                                                                                                           15:21:53  
+[2023/12/14, 3:21:53.648 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:21:55.545 PM] Cannot exec '/dev/tty.usbserial-A10O2ADD': No such file or directory                                                                        ^M
+[2023/12/14, 3:21:57.549 PM] [screen is terminating]
+[2023/12/14, 3:21:57.549 PM] %                                                                                                                                 
+
+[2023/12/14, 3:21:57.566 PM]     ~                                                                                                           15:21:57  
+[2023/12/14, 3:21:57.566 PM] ❯ screen /dev/tty.usbserial-A10O2ADD 9600❯ screen /dev/tty.usbserial-A10O2ADD 9600
+[2023/12/14, 3:23:34.303 PM] Cannot exec '/dev/tty.usbserial-A10O2ADD': No such file or directory                                                                        
+[2023/12/14, 3:23:36.307 PM] [screen is terminating]
+[2023/12/14, 3:23:36.307 PM] %                                                                                                                                 
+
+[2023/12/14, 3:23:36.325 PM]     ~                                                                                                           15:23:36  
+[2023/12/14, 3:23:36.325 PM] ❯ 

@@ -1,0 +1,2 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda3       3.9G  1.1G  2.6G  30% /home

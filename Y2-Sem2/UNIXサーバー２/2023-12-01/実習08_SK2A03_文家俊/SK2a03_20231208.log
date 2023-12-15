@@ -1,0 +1,1105 @@
+[2023/12/08, 1:29:03.064 PM] Last login: Fri Dec  8 13:28:51 on ttys018
+
+
+[2023/12/08, 1:29:03.095 PM]     ~                                                          13:29:03  
+[2023/12/08, 1:29:03.095 PM] ❯ %                                                                               
+[2023/12/08, 1:29:03.212 PM]     ~                                                          13:29:03  
+[2023/12/08, 1:29:03.212 PM] ❯ ssh sk2a03@10.21.10.53ssh sk2a03@10.21.10.53  66❯ ssh sk2a03@10.21.10.66
+[2023/12/08, 1:30:22.999 PM] sk2a03@10.21.10.66's password: 
+[2023/12/08, 1:30:25.345 PM] Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-89-generic aarch64)
+
+[2023/12/08, 1:30:25.345 PM]  * Documentation:  https://help.ubuntu.com
+[2023/12/08, 1:30:25.345 PM]  * Management:     https://landscape.canonical.com
+[2023/12/08, 1:30:25.345 PM]  * Support:        https://ubuntu.com/advantage
+
+[2023/12/08, 1:30:25.345 PM] This system has been minimized by removing packages and content that are
+[2023/12/08, 1:30:25.345 PM] not required on a system that users do not log into.
+
+[2023/12/08, 1:30:25.345 PM] To restore this content, you can run the 'unminimize' command.
+
+[2023/12/08, 1:30:25.345 PM] Expanded Security Maintenance for Applications is not enabled.
+
+[2023/12/08, 1:30:25.345 PM] 0 updates can be applied immediately.
+
+[2023/12/08, 1:30:25.345 PM] 2 additional security updates can be applied with ESM Apps.
+[2023/12/08, 1:30:25.345 PM] Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+[2023/12/08, 1:30:25.345 PM] You have no mail.
+[2023/12/08, 1:30:25.345 PM] Last login: Fri Dec  1 06:59:11 2023 from 10.21.10.52
+[2023/12/08, 1:30:25.350 PM] sk2a03@ecc:~$ histaory -c
+[2023/12/08, 1:30:40.850 PM] sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ systemctl ssysudo systemct l status apache2
+[2023/12/08, 1:49:28.395 PM] [sudo] password for sk2a03: 
+[2023/12/08, 1:49:30.489 PM] ● apache2.service - The Apache HTTP Server
+[2023/12/08, 1:49:30.489 PM]      Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+[2023/12/08, 1:49:30.489 PM]      Active: active (running) since Fri 2023-12-08 04:28:59 UTC; 20min ago
+[2023/12/08, 1:49:30.489 PM]        Docs: https://httpd.apache.org/docs/2.4/
+[2023/12/08, 1:49:30.489 PM]    Main PID: 999 (apache2)
+[2023/12/08, 1:49:30.489 PM]       Tasks: 6 (limit: 4515)
+[2023/12/08, 1:49:30.490 PM]      Memory: 18.8M
+[2023/12/08, 1:49:30.490 PM]         CPU: 193ms
+[2023/12/08, 1:49:30.490 PM]      CGroup: /system.slice/apache2.service
+[2023/12/08, 1:49:30.490 PM]              ├─ 999 /usr/sbin/apache2 -k start
+[2023/12/08, 1:49:30.490 PM]              ├─1020 /usr/sbin/apache2 -k start
+[2023/12/08, 1:49:30.490 PM]              ├─1021 /usr/sbin/apache2 -k start
+[2023/12/08, 1:49:30.490 PM]              ├─1022 /usr/sbin/apache2 -k start
+[2023/12/08, 1:49:30.490 PM]              ├─1024 /usr/sbin/apache2 -k start
+[2023/12/08, 1:49:30.491 PM]              └─1025 /usr/sbin/apache2 -k start
+
+[2023/12/08, 1:49:30.491 PM] Dec 08 04:28:59 ecc systemd[1]: Starting The Apache HTTP Server...
+[2023/12/08, 1:49:30.491 PM] Dec 08 04:28:59 ecc systemd[1]: Started The Apache HTTP Server.
+[2023/12/08, 1:49:30.491 PM] sk2a03@ecc:~$ sudo ps aux | grep apachesudo ps aux | grep apache
+[2023/12/08, 1:51:06.301 PM] root         999  0.0  0.5 211548 21260 ?        Ss   04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.302 PM] www-data    1020  0.0  0.2 212252 11040 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.302 PM] www-data    1021  0.0  0.3 212300 12048 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.302 PM] www-data    1022  0.0  0.2 212252 11040 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.302 PM] www-data    1024  0.0  0.3 212280 14388 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.302 PM] www-data    1025  0.0  0.3 212280 14384 ?        S    04:28   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.304 PM] www-data    4482  0.0  0.2 212252 11100 ?        S    04:50   0:00 /usr/sbin/apache2 -k start
+[2023/12/08, 1:51:06.304 PM] sk2a03      4493  0.0  0.0  10028  2160 pts/1    S+   04:51   0:00 grep --color=auto apache
+[2023/12/08, 1:51:06.306 PM] sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sudo ps aux | grep apachesystemctl status apache2ps aux | grep apache > ps.kad088.txt
+[2023/12/08, 1:53:50.016 PM] sk2a03@ecc:~$ sudo ps aux | grep ssh
+[2023/12/08, 1:54:12.360 PM] root         959  0.0  0.2  15172  8236 ?        Ss   04:28   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+[2023/12/08, 1:54:12.363 PM] root        3180  0.0  0.2  19096  9896 ?        Ss   04:30   0:00 sshd: sk2a03 [priv]
+[2023/12/08, 1:54:12.363 PM] sk2a03      3278  0.0  0.1  19232  6600 ?        S    04:30   0:00 sshd: sk2a03@pts/1
+[2023/12/08, 1:54:12.363 PM] sk2a03      4574  0.0  0.0  10028  2160 pts/1    S+   04:54   0:00 grep --color=auto ssh
+[2023/12/08, 1:54:12.366 PM] sk2a03@ecc:~$ sudo ps aux | grep ssh >> ps.kakd08.txt
+[2023/12/08, 1:55:22.598 PM] sk2a03@ecc:~$ top
+[2023/12/08, 1:56:21.185 PM] top - 04:56:21 up 27 min,  2 users,  load average: 0.01, 0.03, 0.04
+[2023/12/08, 1:56:21.185 PM] Tasks: 224 total,   1 running, 223 sleeping,   0 stopped,   0 zombie
+[2023/12/08, 1:56:21.185 PM] %Cpu(s):  0.0 us,  5.9 sy,  0.0 ni, 94.1 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+[2023/12/08, 1:56:21.186 PM] MiB Mem :   3908.5 total,   1750.2 free,    763.2 used,   1395.1 buff/cache
+[2023/12/08, 1:56:21.186 PM] MiB Swap:   3908.0 total,   3908.0 free,      0.0 used.   2917.4 avail Mem 
+
+[2023/12/08, 1:56:21.186 PM]     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                       
+[2023/12/08, 1:56:21.187 PM]    4599 sk2a03    20   0   14004   3512   2948 R   6.2   0.1   0:00.01 top                           
+[2023/12/08, 1:56:21.187 PM]       1 root      20   0  168380  11744   7452 S   0.0   0.3   0:00.84 systemd                       
+[2023/12/08, 1:56:21.187 PM]       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                      
+[2023/12/08, 1:56:21.187 PM]       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                        
+[2023/12/08, 1:56:21.187 PM]       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                    
+[2023/12/08, 1:56:21.187 PM]       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq                  
+[2023/12/08, 1:56:21.187 PM]       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                         
+[2023/12/08, 1:56:21.187 PM]       8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri   
+[2023/12/08, 1:56:21.187 PM]      10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                  
+[2023/12/08, 1:56:21.187 PM]      11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_               
+[2023/12/08, 1:56:21.188 PM]      12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace               
+[2023/12/08, 1:56:21.188 PM]      13 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftirqd/0                   
+[2023/12/08, 1:56:21.188 PM]      14 root      20   0       0      0      0 I   0.0   0.0   0:00.49 rcu_sched                     
+[2023/12/08, 1:56:21.188 PM]      15 root      rt   0       0      0      0 S   0.0   0.0   0:00.01 migration/0                   
+[2023/12/08, 1:56:21.188 PM]      16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                 
+[2023/12/08, 1:56:21.188 PM]      17 root      20   0       0      0      0 I   0.0   0.0   0:00.34 kworker/0:1-mm_percpu_wq      
+[2023/12/08, 1:56:21.188 PM]      18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                       
+[2023/12/08, 1:56:21.188 PM]      19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                       
+[2023/12/08, 1:56:21.188 PM]      20 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                 
+[2023/12/08, 1:56:21.188 PM]      21 root      rt   0       0      0      0 S   0.0   0.0   0:00.01 migration/1                   
+[2023/12/08, 1:56:21.188 PM]      22 root      20   0       0      0      0 S   0.0   0.0   0:00.05 ksoftirqd/1                   
+[2023/12/08, 1:56:21.188 PM]      24 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri   
+[2023/12/08, 1:56:21.188 PM]      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                     
+[2023/12/08, 1:56:21.188 PM]      26 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_frag_wq                  
+[2023/12/08, 1:56:21.188 PM]      28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                       
+[2023/12/08, 1:56:21.188 PM]      29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungtaskd                    
+[2023/12/08, 1:56:21.188 PM]      30 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper                    
+[2023/12/08, 1:56:21.188 PM]      31 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback                     
+[2023/12/08, 1:56:21.189 PM]      32 root      20   0       0      0      0 S   0.0   0.0   0:00.13 kcompactd0                    
+[2023/12/08, 1:56:21.189 PM]      33 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd                          
+[2023/12/08, 1:56:21.189 PM]      34 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepaged                    
+[2023/12/08, 1:56:21.189 PM]      80 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd                   
+[2023/12/08, 1:56:21.189 PM]      81 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd                       
+[2023/12/08, 1:56:21.189 PM]      82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio                
+[2023/12/08, 1:56:21.189 PM]      83 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 tpm_dev_wq                    
+[2023/12/08, 1:56:21.189 PM]      84 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff                       
+[2023/12/08, 1:56:21.189 PM]      85 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 md                            
+[2023/12/08, 1:56:21.189 PM]      86 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller                   
+[2023/12/08, 1:56:21.189 PM]      87 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq                    
+[2023/12/08, 1:56:21.189 PM]      88 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd                     
+[2023/12/08, 1:56:21.189 PM]      89 root      20   0       0      0      0 I   0.0   0.0   0:00.59 kworker/u4:1-flush-252:0      
+[2023/12/08, 1:56:21.189 PM]      90 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker/0:1H-kblockd          
+[2023/12/08, 1:56:21.189 PM]      91 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0                       
+[2023/12/08, 1:56:21.189 PM]      92 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthrea               
+[2023/12/08, 1:56:21.189 PM]      94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld                      
+[2023/12/08, 1:56:21.189 PM]      95 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/49-ACPI:Ged               
+[2023/12/08, 1:56:21.189 PM]      96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 acpi_thermal_pm               
+[2023/12/08, 1:56:21.189 PM]      98 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mld                           
+[2023/12/08, 1:56:21.189 PM]      99 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_addrconf                 
+[2023/12/08, 1:56:21.189 PM]     108 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kstrp                         
+[2023/12/08, 1:56:21.189 PM]     111 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 zswap-shrink                  
+[2023/12/08, 1:56:21.189 PM]     112 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/u5:0-xprtiod          
+[2023/12/08, 1:56:21.190 PM]     116 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 cryptd                        top - 04:56:24 up 27 min,  2 users,  load average: 0.01, 0.03, 0.04
+
+[2023/12/08, 1:56:24.203 PM] %Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+[2023/12/08, 1:56:24.204 PM] MiB Mem :   3908.5 total,   1750.2 free,    763.1 used,   1395.2 buff/cache
+[2023/12/08, 1:56:24.204 PM] MiB Swap:   3908.0 total,   3908.0 free,      0.0 used.   2917.5 avail Mem 
+
+
+[2023/12/08, 1:56:24.204 PM]    2509 sk2a03    20   0 4573136 373456 142348 S   0.7   9.3   0:13.94 gnome-shell                   
+[2023/12/08, 1:56:24.204 PM]    4599 sk2a03    20   0   14004   3512   2948 R   0.7   0.1   0:00.03 top                           
+[2023/12/08, 1:56:24.204 PM]      14 root      20   0       0      0      0 I   0.3   0.0   0:00.50 rcu_sched                     
+[2023/12/08, 1:56:24.204 PM]     643 systemd+  20   0   15008   3788   3048 S   0.3   0.1   0:03.42 systemd-oomd                  
+[2023/12/08, 1:56:24.204 PM]    2537 sk2a03    20   0  316016   6464   5596 S   0.3   0.2   0:00.15 gvfs-afc-volume               
+[2023/12/08, 1:56:24.204 PM]       1 root      20   0  168380  11744   7452 S   0.0   0.3   0:00.84 systemd                       
+[2023/12/08, 1:56:24.204 PM]       2 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kthreadd                      
+[2023/12/08, 1:56:24.205 PM]       3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp                        
+[2023/12/08, 1:56:24.205 PM]       4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp                    
+[2023/12/08, 1:56:24.205 PM]       5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 slub_flushwq                  
+[2023/12/08, 1:56:24.205 PM]       6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                         
+[2023/12/08, 1:56:24.205 PM]       8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/0:0H-events_highpri   
+[2023/12/08, 1:56:24.205 PM]      10 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mm_percpu_wq                  
+[2023/12/08, 1:56:24.205 PM]      11 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_rude_               
+[2023/12/08, 1:56:24.205 PM]      12 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_tasks_trace               
+[2023/12/08, 1:56:24.205 PM]      13 root      20   0       0      0      0 S   0.0   0.0   0:00.08 ksoftirqd/0                   
+[2023/12/08, 1:56:24.205 PM]      15 root      rt   0       0      0      0 S   0.0   0.0   0:00.01 migration/0                   
+[2023/12/08, 1:56:24.207 PM]      16 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/0                 
+[2023/12/08, 1:56:24.208 PM]      17 root      20   0       0      0      0 I   0.0   0.0   0:00.34 kworker/0:1-events            
+[2023/12/08, 1:56:24.208 PM]      18 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/0                       
+[2023/12/08, 1:56:24.208 PM]      19 root      20   0       0      0      0 S   0.0   0.0   0:00.00 cpuhp/1                       
+[2023/12/08, 1:56:24.208 PM]      20 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 idle_inject/1                 
+[2023/12/08, 1:56:24.208 PM]      21 root      rt   0       0      0      0 S   0.0   0.0   0:00.01 migration/1                   
+[2023/12/08, 1:56:24.208 PM]      22 root      20   0       0      0      0 S   0.0   0.0   0:00.05 ksoftirqd/1                   
+[2023/12/08, 1:56:24.208 PM]      24 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker/1:0H-events_highpri   
+[2023/12/08, 1:56:24.208 PM]      25 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kdevtmpfs                     
+[2023/12/08, 1:56:24.208 PM]      26 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 inet_frag_wq                  
+[2023/12/08, 1:56:24.208 PM]      28 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kauditd                       
+[2023/12/08, 1:56:24.208 PM]      29 root      20   0       0      0      0 S   0.0   0.0   0:00.00 khungtaskd                    
+[2023/12/08, 1:56:24.208 PM]      30 root      20   0       0      0      0 S   0.0   0.0   0:00.00 oom_reaper                    
+[2023/12/08, 1:56:24.208 PM]      31 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 writeback                     
+[2023/12/08, 1:56:24.208 PM]      32 root      20   0       0      0      0 S   0.0   0.0   0:00.13 kcompactd0                    
+[2023/12/08, 1:56:24.208 PM]      33 root      25   5       0      0      0 S   0.0   0.0   0:00.00 ksmd                          
+[2023/12/08, 1:56:24.208 PM]      34 root      39  19       0      0      0 S   0.0   0.0   0:00.00 khugepaged                    
+[2023/12/08, 1:56:24.208 PM]      80 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kintegrityd                   
+[2023/12/08, 1:56:24.208 PM]      81 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kblockd                       
+[2023/12/08, 1:56:24.208 PM]      82 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 blkcg_punt_bio                
+[2023/12/08, 1:56:24.208 PM]      83 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 tpm_dev_wq                    
+[2023/12/08, 1:56:24.208 PM]      84 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ata_sff                       
+[2023/12/08, 1:56:24.208 PM]      85 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 md                            
+[2023/12/08, 1:56:24.209 PM]      86 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 edac-poller                   
+[2023/12/08, 1:56:24.209 PM]      87 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 devfreq_wq                    
+[2023/12/08, 1:56:24.209 PM]      88 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 watchdogd                     
+[2023/12/08, 1:56:24.209 PM]      89 root      20   0       0      0      0 I   0.0   0.0   0:00.59 kworker/u4:1-flush-252:0      
+[2023/12/08, 1:56:24.209 PM]      90 root       0 -20       0      0      0 I   0.0   0.0   0:00.04 kworker/0:1H-kblockd          
+[2023/12/08, 1:56:24.209 PM]      91 root      20   0       0      0      0 S   0.0   0.0   0:00.00 kswapd0                       
+[2023/12/08, 1:56:24.209 PM]      92 root      20   0       0      0      0 S   0.0   0.0   0:00.00 ecryptfs-kthrea               
+[2023/12/08, 1:56:24.209 PM]      94 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kthrotld                      
+[2023/12/08, 1:56:24.209 PM]      95 root     -51   0       0      0      0 S   0.0   0.0   0:00.00 irq/49-ACPI:Ged               
+[2023/12/08, 1:56:24.209 PM]      96 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 acpi_thermal_pm               
+[2023/12/08, 1:56:24.209 PM]      98 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 mld                           
+[2023/12/08, 1:56:24.209 PM]      99 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 ipv6_addrconf                 
+[2023/12/08, 1:56:24.209 PM]     108 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kstrp                         
+[2023/12/08, 1:56:25.224 PM] sk2a03@ecc:~$ sudo apt install htop
+[2023/12/08, 1:56:40.095 PM] Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+[2023/12/08, 1:56:40.116 PM] Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+[2023/12/08, 1:56:40.199 PM] Reading state information... 0% Reading state information... 0%Reading state information... Done
+[2023/12/08, 1:56:40.204 PM] htop is already the newest version (3.0.5-7build2).
+[2023/12/08, 1:56:40.307 PM] 0 upgraded, 0 newly installed, 0 to remove and 2 not upgraded.
+[2023/12/08, 1:56:40.336 PM] sk2a03@ecc:~$ htop
+[2023/12/08, 1:56:45.971 PM]     0[0.0%]   Tasks: 139, 249 thr; 1 running  1[||||||||||||||||||||||||||||||||||100.0%]   Load average: 0.07 0.05 0.05 Mem[||||||||||||||||||||||||      812M/3.82G]   Uptime: 00:27:52Swp[0K/3.82G]    PID USER      PRI  NI  VIRT   RES   SHR S CPU%▽MEM%   TIME+  Command   4651 sk2a03     20   0 12208  4156  2788 R 66.7  0.1  0:00.05 htop1 root       20   0  164M 11744  7452 S  0.0  0.3  0:00.84 /sbin/init412 root       19  -1 48596 17492 15892 S  0.0  0.4  0:00.26 /lib/systemd/systemd-journald458 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.34 /sbin/multipathd -d -s462 root       20   0  282M 25668  7392 S  0.0  0.6  0:00.00 /sbin/multipathd -d -s463 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.00 /sbin/multipathd -d -s464 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.00 /sbin/multipathd -d -s465 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.00 /sbin/multipathd -d -s466 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.24 /sbin/multipathd -d -s467 root       RT   0  282M 25668  7392 S  0.0  0.6  0:00.00 /sbin/multipathd -d -s475 root       20   0 26704  6808  4200 S  0.0  0.2  0:00.17 /lib/systemd/systemd-udevd555 systemd-n  20   0 16288  6684  5796 S  0.0  0.2  0:00.02 /lib/systemd/systemd-networkd642 _rpc       20   0  7924  2288  1936 S  0.0  0.1  0:00.00 /sbin/rpcbind -f -w643 systemd-o  20   0 15008  3788  3048 S  0.0  0.1  0:03.45 /lib/systemd/systemd-oomd644 systemd-r  20   0 25232 11560  7396 S  0.0  0.3  0:00.03 /lib/systemd/systemd-resolved645 systemd-t  20   0 88748  6464  5600 S  0.0  0.2  0:00.03 /lib/systemd/systemd-timesyncd656 root       20   0  2700  1804  1644 S  0.0  0.0  0:00.00 /usr/sbin/rpc.idmapd657 root       20   0  4736  2636  2216 S  0.0  0.1  0:00.00 /usr/sbin/nfsdcld658 root       20   0  4392   168     4 S  0.0  0.0  0:00.00 /usr/sbin/blkmapd758 systemd-t  20   0 88748  6464  5600 S  0.0  0.2  0:00.00 /lib/systemd/systemd-timesyncd770 avahi      20   0  8052  3308  2952 S  0.0  0.1  0:00.41 avahi-daemon: running [ecc.local]771 messagebu  20   0 11404  6220  3704 S  0.0  0.2  0:00.29 @dbus-daemon --system --address=syst772 root       20   0  257M 16864 14192 S  0.0  0.4  0:00.16 /usr/sbin/NetworkManager --no-daemon776 root       20   0 42716 19768 10532 S  0.0  0.5  0:00.03 /usr/bin/python3 /usr/bin/networkd-d778 root       20   0  231M  9724  6480 S  0.0  0.2  0:00.52 /usr/libexec/polkitd --no-debug779 root       20   0  235M  6596  5912 S  0.0  0.2  0:00.00 /usr/libexec/power-profiles-daemon780 syslog     20   0  216M  4784  3708 S  0.0  0.1  0:00.04 /usr/sbin/rsyslogd -n -iNONE781 root       20   0 1359M 29156 18712 S  0.0  0.7  0:02.01 /usr/lib/snapd/snapd783 root       20   0  235M  7072  6096 S  0.0  0.2  0:00.12 /usr/libexec/accounts-daemon784 root       20   0  231M  4688  4232 S  0.0  0.1  0:00.01 /usr/libexec/switcheroo-control785 root       20   0 15864  7640  6280 S  0.0  0.2  0:00.06 /lib/systemd/systemd-logind786 root       20   0  384M 11888  9500 S  0.0  0.3  0:00.06 /usr/libexec/udisks2/udisksd787 root       20   0  231M  9724  6480 S  0.0  0.2  0:00.00 /usr/libexec/polkitd --no-debug789 root       20   0 15252  5436  4620 S  0.0  0.1  0:00.01 /sbin/wpa_supplicant -u -s -O /run/w790 root       20   0  384M 11888  9500 S  0.0  0.3  0:00.00 /usr/libexec/udisks2/udisksd798 avahi      20   0  7784   356     0 S  0.0  0.0  0:00.00 avahi-daemon: chroot helper799 syslog     20   0  216M  4784  3708 S  0.0  0.1  0:00.01 /usr/sbin/rsyslogd -n -iNONE800 syslog     20   0  216M  4784  3708 S  0.0  0.1  0:00.00 /usr/sbin/rsyslogd -n -iNONE801 syslog     20   0  216M  4784  3708 S  0.0  0.1  0:00.02 /usr/sbin/rsyslogd -n -iNONE803 root       20   0  384M 11888  9500 S  0.0  0.3  0:00.00 /usr/libexec/udisks2/udisksd804 root       20   0  231M  9724  6480 S  0.0  0.2  0:00.11 /usr/libexec/polkitd --no-debug808 root       20   0  313M 11392  9464 S  0.0  0.3  0:00.02 /usr/sbin/ModemManager814 root       20   0  235M  6596  5912 S  0.0  0.2  0:00.00 /usr/libexec/power-profiles-daemon815 root       20   0  257M 16864 14192 S  0.0  0.4  0:00.07 /usr/sbin/NetworkManager --no-daemon816 root       20   0  257M 16864 14192 S  0.0  0.4  0:00.04 /usr/sbin/NetworkManager --no-daemon830 root       20   0  235M  6596  5912 S  0.0  0.2  0:00.00 /usr/libexec/power-profiles-daemon837 root       20   0  231M  4688  4232 S  0.0  0.1  0:00.00 /usr/libexec/switcheroo-control842 root       20   0  313M 11392  9464 S  0.0  0.3  0:00.00 /usr/sbin/ModemManager843 root       20   0  231M  4688  4232 S  0.0  0.1  0:00.00 /usr/libexec/switcheroo-control845 root       20   0  384M 11888  9500 S  0.0  0.3  0:00.00 /usr/libexec/udisks2/udisksd848 root       20   0  313M 11392  9464 S  0.0  0.3  0:00.00 /usr/sbin/ModemManager849 root       20   0  235M  7072  6096 S  0.0  0.2  0:00.08 /usr/libexec/accounts-daemonF1Help  F2Setup F3SearchF4FilterF5Tree  F6SortByF7Nice -F8Nice +F9Kill  F10Quitsk2a03@ecc:~$ psort bg&
+[2023/12/08, 2:08:56.085 PM] [1] 4792
+[2023/12/08, 2:08:56.085 PM] sk2a03@ecc:~$ ps aux | grep stort
+[2023/12/08, 2:11:03.172 PM] sk2a03      4792  0.0  0.0  17608   960 pts/1    T    05:08   0:00 sort
+[2023/12/08, 2:11:03.173 PM] sk2a03      4889  0.0  0.0   9896  2160 pts/1    S+   05:11   0:00 grep --color=auto sort
+
+[2023/12/08, 2:11:03.173 PM] [1]+  Stopped                 sort
+[2023/12/08, 2:11:03.173 PM] sk2a03@ecc:~$ sudo kill 4792
+[2023/12/08, 2:11:39.402 PM] sk2a03@ecc:~$ sudo kill 4792ps aux | grep sort
+[2023/12/08, 2:11:55.124 PM] sk2a03      4792  0.0  0.0  17608   960 pts/1    T    05:08   0:00 sort
+[2023/12/08, 2:11:55.124 PM] sk2a03      4894  0.0  0.0   9896  2160 pts/1    S+   05:11   0:00 grep --color=auto sort
+[2023/12/08, 2:11:55.126 PM] sk2a03@ecc:~$ sudo kuill -KILL 44792
+[2023/12/08, 2:12:34.978 PM] [1]+  Killed                  sort
+[2023/12/08, 2:12:34.980 PM] sk2a03@ecc:~$ sudo kill -KILL 4792ps aux | grep sort
+[2023/12/08, 2:12:37.819 PM] sk2a03      4904  0.0  0.0   9896  2160 pts/1    S+   05:12   0:00 grep --color=auto sort
+[2023/12/08, 2:12:37.820 PM] sk2a03@ecc:~$ df
+[2023/12/08, 2:15:59.770 PM] Filesystem     1K-blocks     Used Available Use% Mounted on
+[2023/12/08, 2:15:59.771 PM] tmpfs             400232     1748    398484   1% /run
+[2023/12/08, 2:15:59.771 PM] /dev/vda2       20466256 12375904   7025392  64% /
+[2023/12/08, 2:15:59.771 PM] tmpfs            2001140        0   2001140   0% /dev/shm
+[2023/12/08, 2:15:59.771 PM] tmpfs               5120        4      5116   1% /run/lock
+[2023/12/08, 2:15:59.771 PM] /dev/vda3        3993248  1125996   2643868  30% /home
+[2023/12/08, 2:15:59.771 PM] /dev/vda1        1098628     6452   1092176   1% /boot/efi
+[2023/12/08, 2:15:59.771 PM] tmpfs             400228      108    400120   1% /run/user/1001
+[2023/12/08, 2:15:59.771 PM] sk2a03@ecc:~$ df -tu /home/sk2a03
+[2023/12/08, 2:17:15.452 PM] 24/home/sk2a03/kad07
+[2023/12/08, 2:17:15.453 PM] 4/home/sk2a03/snap/firefox/3259/.local/share/icons
+[2023/12/08, 2:17:15.454 PM] 4/home/sk2a03/snap/firefox/3259/.local/share/glib-2.0/schemas
+[2023/12/08, 2:17:15.454 PM] 8/home/sk2a03/snap/firefox/3259/.local/share/glib-2.0
+[2023/12/08, 2:17:15.454 PM] 20/home/sk2a03/snap/firefox/3259/.local/share
+[2023/12/08, 2:17:15.455 PM] 24/home/sk2a03/snap/firefox/3259/.local
+[2023/12/08, 2:17:15.455 PM] 4/home/sk2a03/snap/firefox/3259/.config/ibus
+[2023/12/08, 2:17:15.455 PM] 4/home/sk2a03/snap/firefox/3259/.config/gtk-2.0
+[2023/12/08, 2:17:15.456 PM] 4/home/sk2a03/snap/firefox/3259/.config/gtk-3.0
+[2023/12/08, 2:17:15.456 PM] 8/home/sk2a03/snap/firefox/3259/.config/fontconfig
+[2023/12/08, 2:17:15.457 PM] 4/home/sk2a03/snap/firefox/3259/.config/dconf
+[2023/12/08, 2:17:15.458 PM] 8/home/sk2a03/snap/firefox/3259/.config/pulse
+[2023/12/08, 2:17:15.458 PM] 52/home/sk2a03/snap/firefox/3259/.config
+[2023/12/08, 2:17:15.458 PM] 84/home/sk2a03/snap/firefox/3259
+[2023/12/08, 2:17:15.459 PM] 28/home/sk2a03/snap/firefox/common/.cache/gio-modules
+[2023/12/08, 2:17:15.460 PM] 76/home/sk2a03/snap/firefox/common/.cache/immodules
+[2023/12/08, 2:17:15.460 PM] 4/home/sk2a03/snap/firefox/common/.cache/mesa_shader_cache
+[2023/12/08, 2:17:15.462 PM] 4/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/thumbnails
+[2023/12/08, 2:17:15.464 PM] 24212/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/startupCache
+[2023/12/08, 2:17:15.492 PM] 39076/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/cache2/entries
+[2023/12/08, 2:17:15.492 PM] 4/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/cache2/doomed
+[2023/12/08, 2:17:15.492 PM] 39176/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/cache2
+[2023/12/08, 2:17:15.494 PM] 12/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/settings/main/ms-language-packs/browser/newtab
+[2023/12/08, 2:17:15.494 PM] 16/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/settings/main/ms-language-packs/browser
+[2023/12/08, 2:17:15.494 PM] 20/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/settings/main/ms-language-packs
+[2023/12/08, 2:17:15.494 PM] 24/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/settings/main
+[2023/12/08, 2:17:15.494 PM] 28/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/settings
+[2023/12/08, 2:17:15.494 PM] 14004/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/safebrowsing/google4
+[2023/12/08, 2:17:15.494 PM] 16104/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default/safebrowsing
+[2023/12/08, 2:17:15.494 PM] 79532/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox/ntecvroz.default
+[2023/12/08, 2:17:15.494 PM] 79536/home/sk2a03/snap/firefox/common/.cache/mozilla/firefox
+[2023/12/08, 2:17:15.494 PM] 79540/home/sk2a03/snap/firefox/common/.cache/mozilla
+[2023/12/08, 2:17:15.495 PM] 52/home/sk2a03/snap/firefox/common/.cache/fontconfig
+[2023/12/08, 2:17:15.495 PM] 79720/home/sk2a03/snap/firefox/common/.cache
+[2023/12/08, 2:17:15.495 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/extensions
+[2023/12/08, 2:17:15.496 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/minidumps
+[2023/12/08, 2:17:15.496 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/bookmarkbackups
+[2023/12/08, 2:17:15.496 PM] 2840/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/security_state
+[2023/12/08, 2:17:15.496 PM] 1136/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/extensions
+[2023/12/08, 2:17:15.497 PM] 16/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++www.microsoft.com/ls
+[2023/12/08, 2:17:15.498 PM] 24/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++www.microsoft.com
+[2023/12/08, 2:17:15.498 PM] 16/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++www.google.com/ls
+[2023/12/08, 2:17:15.498 PM] 24/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++www.google.com
+[2023/12/08, 2:17:15.498 PM] 16/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++fpt2.microsoft.com/ls
+[2023/12/08, 2:17:15.498 PM] 24/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default/https+++fpt2.microsoft.com
+[2023/12/08, 2:17:15.498 PM] 76/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/default
+[2023/12/08, 2:17:15.499 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/2918063365piupsah.files
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/3561288849sdhlie.files
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+[2023/12/08, 2:17:15.501 PM] 10672/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome/idb
+[2023/12/08, 2:17:15.501 PM] 10680/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent/chrome
+[2023/12/08, 2:17:15.501 PM] 10684/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/permanent
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/to-be-removed
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage/temporary
+[2023/12/08, 2:17:15.501 PM] 10900/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/storage
+[2023/12/08, 2:17:15.501 PM] 28/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/sessionstore-backups
+[2023/12/08, 2:17:15.501 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/crashes/events
+[2023/12/08, 2:17:15.501 PM] 12/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/crashes
+[2023/12/08, 2:17:15.502 PM] 8/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/glean/pending_pings
+[2023/12/08, 2:17:15.502 PM] 16/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/glean/events
+[2023/12/08, 2:17:15.503 PM] 32/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/glean/db
+[2023/12/08, 2:17:15.503 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/glean/tmp
+[2023/12/08, 2:17:15.503 PM] 64/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/glean
+[2023/12/08, 2:17:15.503 PM] 44/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/archived/2023-11
+[2023/12/08, 2:17:15.504 PM] 88/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/archived/2023-10
+[2023/12/08, 2:17:15.504 PM] 136/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting/archived
+[2023/12/08, 2:17:15.504 PM] 212/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/datareporting
+[2023/12/08, 2:17:15.504 PM] 1380/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/gmp-gmpopenh264/2.3.2
+[2023/12/08, 2:17:15.504 PM] 1384/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/gmp-gmpopenh264
+[2023/12/08, 2:17:15.504 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/saved-telemetry-pings
+[2023/12/08, 2:17:15.505 PM] 8/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default/settings
+[2023/12/08, 2:17:15.505 PM] 28372/home/sk2a03/snap/firefox/common/.mozilla/firefox/ntecvroz.default
+[2023/12/08, 2:17:15.505 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/Crash Reports/events
+[2023/12/08, 2:17:15.505 PM] 12/home/sk2a03/snap/firefox/common/.mozilla/firefox/Crash Reports
+[2023/12/08, 2:17:15.505 PM] 4/home/sk2a03/snap/firefox/common/.mozilla/firefox/Pending Pings
+[2023/12/08, 2:17:15.506 PM] 28396/home/sk2a03/snap/firefox/common/.mozilla/firefox
+[2023/12/08, 2:17:15.506 PM] 28404/home/sk2a03/snap/firefox/common/.mozilla
+[2023/12/08, 2:17:15.506 PM] 108128/home/sk2a03/snap/firefox/common
+[2023/12/08, 2:17:15.506 PM] 108216/home/sk2a03/snap/firefox
+[2023/12/08, 2:17:15.506 PM] 108220/home/sk2a03/snap
+[2023/12/08, 2:17:15.506 PM] 4/home/sk2a03/Music
+[2023/12/08, 2:17:15.506 PM] 72/home/sk2a03/.pki/nssdb
+[2023/12/08, 2:17:15.506 PM] 76/home/sk2a03/.pki
+[2023/12/08, 2:17:15.507 PM] 804/home/sk2a03/.thunderbird/1rfvmimg.default-release/calendar-data
+[2023/12/08, 2:17:15.507 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/security_state
+[2023/12/08, 2:17:15.508 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/browser-extension-data/amazondotcom@search.mozilla.org
+[2023/12/08, 2:17:15.508 PM] 8/home/sk2a03/.thunderbird/1rfvmimg.default-release/browser-extension-data
+[2023/12/08, 2:17:15.508 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/default
+[2023/12/08, 2:17:15.509 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+[2023/12/08, 2:17:15.509 PM] 188/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/permanent/chrome/idb
+[2023/12/08, 2:17:15.509 PM] 196/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/permanent/chrome
+[2023/12/08, 2:17:15.509 PM] 200/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/permanent
+[2023/12/08, 2:17:15.509 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage/temporary
+[2023/12/08, 2:17:15.509 PM] 340/home/sk2a03/.thunderbird/1rfvmimg.default-release/storage
+[2023/12/08, 2:17:15.509 PM] 4/home/sk2a03/.thunderbird/1rfvmimg.default-release/extension-store
+[2023/12/08, 2:17:15.510 PM] 20/home/sk2a03/.thunderbird/1rfvmimg.default-release/datareporting/archived/2023-10
+[2023/12/08, 2:17:15.510 PM] 24/home/sk2a03/.thunderbird/1rfvmimg.default-release/datareporting/archived
+[2023/12/08, 2:17:15.510 PM] 36/home/sk2a03/.thunderbird/1rfvmimg.default-release/datareporting
+[2023/12/08, 2:17:15.510 PM] 15108/home/sk2a03/.thunderbird/1rfvmimg.default-release
+[2023/12/08, 2:17:15.510 PM] 8/home/sk2a03/.thunderbird/ng0lrsu7.default
+[2023/12/08, 2:17:15.510 PM] 15128/home/sk2a03/.thunderbird
+[2023/12/08, 2:17:15.511 PM] 220/home/sk2a03/Maildir/new
+[2023/12/08, 2:17:15.511 PM] 12/home/sk2a03/Maildir/cur
+[2023/12/08, 2:17:15.511 PM] 4/home/sk2a03/Maildir/tmp
+[2023/12/08, 2:17:15.511 PM] 256/home/sk2a03/Maildir
+[2023/12/08, 2:17:15.511 PM] 4/home/sk2a03/Downloads
+[2023/12/08, 2:17:15.511 PM] 8/home/sk2a03/.cache/ubuntu-report
+[2023/12/08, 2:17:15.511 PM] 192/home/sk2a03/.cache/ibus/bus
+[2023/12/08, 2:17:15.511 PM] 196/home/sk2a03/.cache/ibus
+[2023/12/08, 2:17:15.511 PM] 20/home/sk2a03/.cache/mesa_shader_cache/fe
+[2023/12/08, 2:17:15.511 PM] 12/home/sk2a03/.cache/mesa_shader_cache/c7
+[2023/12/08, 2:17:15.511 PM] 8/home/sk2a03/.cache/mesa_shader_cache/4e
+[2023/12/08, 2:17:15.512 PM] 12/home/sk2a03/.cache/mesa_shader_cache/8f
+[2023/12/08, 2:17:15.512 PM] 12/home/sk2a03/.cache/mesa_shader_cache/55
+[2023/12/08, 2:17:15.512 PM] 12/home/sk2a03/.cache/mesa_shader_cache/2c
+[2023/12/08, 2:17:15.512 PM] 8/home/sk2a03/.cache/mesa_shader_cache/07
+[2023/12/08, 2:17:15.512 PM] 16/home/sk2a03/.cache/mesa_shader_cache/3d
+[2023/12/08, 2:17:15.512 PM] 12/home/sk2a03/.cache/mesa_shader_cache/5f
+[2023/12/08, 2:17:15.513 PM] 12/home/sk2a03/.cache/mesa_shader_cache/21
+[2023/12/08, 2:17:15.513 PM] 28/home/sk2a03/.cache/mesa_shader_cache/5a
+[2023/12/08, 2:17:15.513 PM] 12/home/sk2a03/.cache/mesa_shader_cache/b6
+[2023/12/08, 2:17:15.514 PM] 8/home/sk2a03/.cache/mesa_shader_cache/87
+[2023/12/08, 2:17:15.514 PM] 8/home/sk2a03/.cache/mesa_shader_cache/d7
+[2023/12/08, 2:17:15.514 PM] 8/home/sk2a03/.cache/mesa_shader_cache/36
+[2023/12/08, 2:17:15.514 PM] 28/home/sk2a03/.cache/mesa_shader_cache/f8
+[2023/12/08, 2:17:15.514 PM] 24/home/sk2a03/.cache/mesa_shader_cache/42
+[2023/12/08, 2:17:15.514 PM] 8/home/sk2a03/.cache/mesa_shader_cache/2e
+[2023/12/08, 2:17:15.514 PM] 12/home/sk2a03/.cache/mesa_shader_cache/98
+[2023/12/08, 2:17:15.514 PM] 12/home/sk2a03/.cache/mesa_shader_cache/e0
+[2023/12/08, 2:17:15.514 PM] 16/home/sk2a03/.cache/mesa_shader_cache/1f
+[2023/12/08, 2:17:15.515 PM] 16/home/sk2a03/.cache/mesa_shader_cache/9b
+[2023/12/08, 2:17:15.515 PM] 12/home/sk2a03/.cache/mesa_shader_cache/5e
+[2023/12/08, 2:17:15.515 PM] 12/home/sk2a03/.cache/mesa_shader_cache/65
+[2023/12/08, 2:17:15.515 PM] 8/home/sk2a03/.cache/mesa_shader_cache/44
+[2023/12/08, 2:17:15.515 PM] 16/home/sk2a03/.cache/mesa_shader_cache/6a
+[2023/12/08, 2:17:15.515 PM] 16/home/sk2a03/.cache/mesa_shader_cache/75
+[2023/12/08, 2:17:15.515 PM] 12/home/sk2a03/.cache/mesa_shader_cache/ad
+[2023/12/08, 2:17:15.515 PM] 12/home/sk2a03/.cache/mesa_shader_cache/c0
+[2023/12/08, 2:17:15.515 PM] 12/home/sk2a03/.cache/mesa_shader_cache/b3
+[2023/12/08, 2:17:15.515 PM] 8/home/sk2a03/.cache/mesa_shader_cache/ff
+[2023/12/08, 2:17:15.516 PM] 20/home/sk2a03/.cache/mesa_shader_cache/31
+[2023/12/08, 2:17:15.516 PM] 8/home/sk2a03/.cache/mesa_shader_cache/fd
+[2023/12/08, 2:17:15.516 PM] 8/home/sk2a03/.cache/mesa_shader_cache/69
+[2023/12/08, 2:17:15.516 PM] 8/home/sk2a03/.cache/mesa_shader_cache/54
+[2023/12/08, 2:17:15.517 PM] 12/home/sk2a03/.cache/mesa_shader_cache/c1
+[2023/12/08, 2:17:15.517 PM] 12/home/sk2a03/.cache/mesa_shader_cache/fc
+[2023/12/08, 2:17:15.517 PM] 16/home/sk2a03/.cache/mesa_shader_cache/cc
+[2023/12/08, 2:17:15.517 PM] 8/home/sk2a03/.cache/mesa_shader_cache/dc
+[2023/12/08, 2:17:15.517 PM] 12/home/sk2a03/.cache/mesa_shader_cache/99
+[2023/12/08, 2:17:15.517 PM] 8/home/sk2a03/.cache/mesa_shader_cache/0a
+[2023/12/08, 2:17:15.517 PM] 12/home/sk2a03/.cache/mesa_shader_cache/81
+[2023/12/08, 2:17:15.517 PM] 16/home/sk2a03/.cache/mesa_shader_cache/26
+[2023/12/08, 2:17:15.518 PM] 12/home/sk2a03/.cache/mesa_shader_cache/b9
+[2023/12/08, 2:17:15.518 PM] 16/home/sk2a03/.cache/mesa_shader_cache/de
+[2023/12/08, 2:17:15.518 PM] 16/home/sk2a03/.cache/mesa_shader_cache/32
+[2023/12/08, 2:17:15.518 PM] 12/home/sk2a03/.cache/mesa_shader_cache/f3
+[2023/12/08, 2:17:15.518 PM] 12/home/sk2a03/.cache/mesa_shader_cache/39
+[2023/12/08, 2:17:15.518 PM] 28/home/sk2a03/.cache/mesa_shader_cache/09
+[2023/12/08, 2:17:15.518 PM] 8/home/sk2a03/.cache/mesa_shader_cache/76
+[2023/12/08, 2:17:15.519 PM] 8/home/sk2a03/.cache/mesa_shader_cache/3a
+[2023/12/08, 2:17:15.519 PM] 12/home/sk2a03/.cache/mesa_shader_cache/62
+[2023/12/08, 2:17:15.519 PM] 20/home/sk2a03/.cache/mesa_shader_cache/01
+[2023/12/08, 2:17:15.519 PM] 12/home/sk2a03/.cache/mesa_shader_cache/57
+[2023/12/08, 2:17:15.519 PM] 16/home/sk2a03/.cache/mesa_shader_cache/be
+[2023/12/08, 2:17:15.519 PM] 20/home/sk2a03/.cache/mesa_shader_cache/e2
+[2023/12/08, 2:17:15.519 PM] 12/home/sk2a03/.cache/mesa_shader_cache/cb
+[2023/12/08, 2:17:15.520 PM] 8/home/sk2a03/.cache/mesa_shader_cache/24
+[2023/12/08, 2:17:15.520 PM] 28/home/sk2a03/.cache/mesa_shader_cache/aa
+[2023/12/08, 2:17:15.520 PM] 12/home/sk2a03/.cache/mesa_shader_cache/95
+[2023/12/08, 2:17:15.520 PM] 12/home/sk2a03/.cache/mesa_shader_cache/d5
+[2023/12/08, 2:17:15.520 PM] 12/home/sk2a03/.cache/mesa_shader_cache/4a
+[2023/12/08, 2:17:15.520 PM] 12/home/sk2a03/.cache/mesa_shader_cache/3b
+[2023/12/08, 2:17:15.520 PM] 8/home/sk2a03/.cache/mesa_shader_cache/17
+[2023/12/08, 2:17:15.521 PM] 12/home/sk2a03/.cache/mesa_shader_cache/d4
+[2023/12/08, 2:17:15.521 PM] 20/home/sk2a03/.cache/mesa_shader_cache/63
+[2023/12/08, 2:17:15.521 PM] 8/home/sk2a03/.cache/mesa_shader_cache/ba
+[2023/12/08, 2:17:15.521 PM] 12/home/sk2a03/.cache/mesa_shader_cache/b8
+[2023/12/08, 2:17:15.521 PM] 12/home/sk2a03/.cache/mesa_shader_cache/ac
+[2023/12/08, 2:17:15.521 PM] 12/home/sk2a03/.cache/mesa_shader_cache/e8
+[2023/12/08, 2:17:15.522 PM] 12/home/sk2a03/.cache/mesa_shader_cache/d2
+[2023/12/08, 2:17:15.522 PM] 8/home/sk2a03/.cache/mesa_shader_cache/38
+[2023/12/08, 2:17:15.522 PM] 12/home/sk2a03/.cache/mesa_shader_cache/db
+[2023/12/08, 2:17:15.522 PM] 8/home/sk2a03/.cache/mesa_shader_cache/e4
+[2023/12/08, 2:17:15.522 PM] 20/home/sk2a03/.cache/mesa_shader_cache/d3
+[2023/12/08, 2:17:15.522 PM] 8/home/sk2a03/.cache/mesa_shader_cache/f4
+[2023/12/08, 2:17:15.522 PM] 16/home/sk2a03/.cache/mesa_shader_cache/13
+[2023/12/08, 2:17:15.523 PM] 12/home/sk2a03/.cache/mesa_shader_cache/66
+[2023/12/08, 2:17:15.523 PM] 16/home/sk2a03/.cache/mesa_shader_cache/f5
+[2023/12/08, 2:17:15.523 PM] 12/home/sk2a03/.cache/mesa_shader_cache/d6
+[2023/12/08, 2:17:15.523 PM] 8/home/sk2a03/.cache/mesa_shader_cache/50
+[2023/12/08, 2:17:15.523 PM] 12/home/sk2a03/.cache/mesa_shader_cache/04
+[2023/12/08, 2:17:15.523 PM] 12/home/sk2a03/.cache/mesa_shader_cache/a1
+[2023/12/08, 2:17:15.523 PM] 12/home/sk2a03/.cache/mesa_shader_cache/14
+[2023/12/08, 2:17:15.523 PM] 8/home/sk2a03/.cache/mesa_shader_cache/ef
+[2023/12/08, 2:17:15.524 PM] 16/home/sk2a03/.cache/mesa_shader_cache/02
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/53
+[2023/12/08, 2:17:15.524 PM] 20/home/sk2a03/.cache/mesa_shader_cache/23
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/0c
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/0f
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/60
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/b4
+[2023/12/08, 2:17:15.524 PM] 12/home/sk2a03/.cache/mesa_shader_cache/71
+[2023/12/08, 2:17:15.524 PM] 8/home/sk2a03/.cache/mesa_shader_cache/51
+[2023/12/08, 2:17:15.525 PM] 12/home/sk2a03/.cache/mesa_shader_cache/c3
+[2023/12/08, 2:17:15.525 PM] 8/home/sk2a03/.cache/mesa_shader_cache/fa
+[2023/12/08, 2:17:15.525 PM] 8/home/sk2a03/.cache/mesa_shader_cache/cf
+[2023/12/08, 2:17:15.525 PM] 20/home/sk2a03/.cache/mesa_shader_cache/8e
+[2023/12/08, 2:17:15.525 PM] 12/home/sk2a03/.cache/mesa_shader_cache/a2
+[2023/12/08, 2:17:15.525 PM] 16/home/sk2a03/.cache/mesa_shader_cache/67
+[2023/12/08, 2:17:15.525 PM] 16/home/sk2a03/.cache/mesa_shader_cache/56
+[2023/12/08, 2:17:15.526 PM] 12/home/sk2a03/.cache/mesa_shader_cache/94
+[2023/12/08, 2:17:15.526 PM] 8/home/sk2a03/.cache/mesa_shader_cache/15
+[2023/12/08, 2:17:15.526 PM] 12/home/sk2a03/.cache/mesa_shader_cache/bc
+[2023/12/08, 2:17:15.526 PM] 8/home/sk2a03/.cache/mesa_shader_cache/7c
+[2023/12/08, 2:17:15.526 PM] 8/home/sk2a03/.cache/mesa_shader_cache/08
+[2023/12/08, 2:17:15.526 PM] 12/home/sk2a03/.cache/mesa_shader_cache/7b
+[2023/12/08, 2:17:15.526 PM] 8/home/sk2a03/.cache/mesa_shader_cache/9a
+[2023/12/08, 2:17:15.527 PM] 12/home/sk2a03/.cache/mesa_shader_cache/58
+[2023/12/08, 2:17:15.527 PM] 24/home/sk2a03/.cache/mesa_shader_cache/2a
+[2023/12/08, 2:17:15.527 PM] 12/home/sk2a03/.cache/mesa_shader_cache/97
+[2023/12/08, 2:17:15.527 PM] 20/home/sk2a03/.cache/mesa_shader_cache/5c
+[2023/12/08, 2:17:15.527 PM] 8/home/sk2a03/.cache/mesa_shader_cache/5d
+[2023/12/08, 2:17:15.527 PM] 8/home/sk2a03/.cache/mesa_shader_cache/a9
+[2023/12/08, 2:17:15.527 PM] 12/home/sk2a03/.cache/mesa_shader_cache/72
+[2023/12/08, 2:17:15.527 PM] 8/home/sk2a03/.cache/mesa_shader_cache/ab
+[2023/12/08, 2:17:15.527 PM] 20/home/sk2a03/.cache/mesa_shader_cache/ca
+[2023/12/08, 2:17:15.528 PM] 8/home/sk2a03/.cache/mesa_shader_cache/a7
+[2023/12/08, 2:17:15.528 PM] 12/home/sk2a03/.cache/mesa_shader_cache/f0
+[2023/12/08, 2:17:15.528 PM] 8/home/sk2a03/.cache/mesa_shader_cache/74
+[2023/12/08, 2:17:15.528 PM] 8/home/sk2a03/.cache/mesa_shader_cache/df
+[2023/12/08, 2:17:15.528 PM] 12/home/sk2a03/.cache/mesa_shader_cache/d9
+[2023/12/08, 2:17:15.528 PM] 16/home/sk2a03/.cache/mesa_shader_cache/49
+[2023/12/08, 2:17:15.528 PM] 8/home/sk2a03/.cache/mesa_shader_cache/bb
+[2023/12/08, 2:17:15.528 PM] 1640/home/sk2a03/.cache/mesa_shader_cache
+[2023/12/08, 2:17:15.529 PM] 6152/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/startupCache
+[2023/12/08, 2:17:15.529 PM] 436/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/cache2/entries
+[2023/12/08, 2:17:15.530 PM] 4/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/cache2/doomed
+[2023/12/08, 2:17:15.530 PM] 444/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/cache2
+[2023/12/08, 2:17:15.530 PM] 4/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/safebrowsing/google4
+[2023/12/08, 2:17:15.530 PM] 8/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release/safebrowsing
+[2023/12/08, 2:17:15.530 PM] 6608/home/sk2a03/.cache/thunderbird/1rfvmimg.default-release
+[2023/12/08, 2:17:15.530 PM] 4/home/sk2a03/.cache/thunderbird/ng0lrsu7.default
+[2023/12/08, 2:17:15.530 PM] 6616/home/sk2a03/.cache/thunderbird
+[2023/12/08, 2:17:15.534 PM] 20/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Code Cache/js/index-dir
+[2023/12/08, 2:17:15.535 PM] 17432/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Code Cache/js
+[2023/12/08, 2:17:15.535 PM] 8/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Code Cache/wasm/index-dir
+[2023/12/08, 2:17:15.535 PM] 16/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Code Cache/wasm
+[2023/12/08, 2:17:15.535 PM] 17452/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Code Cache
+[2023/12/08, 2:17:15.547 PM] 92/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data/index-dir
+[2023/12/08, 2:17:15.551 PM] 137544/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Cache/Cache_Data
+[2023/12/08, 2:17:15.551 PM] 137548/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default/Cache
+[2023/12/08, 2:17:15.551 PM] 155004/home/sk2a03/.cache/BraveSoftware/Brave-Browser/Default
+[2023/12/08, 2:17:15.552 PM] 155008/home/sk2a03/.cache/BraveSoftware/Brave-Browser
+[2023/12/08, 2:17:15.552 PM] 155012/home/sk2a03/.cache/BraveSoftware
+[2023/12/08, 2:17:15.552 PM] 4/home/sk2a03/.cache/ibus-table
+[2023/12/08, 2:17:15.552 PM] 12/home/sk2a03/.cache/update-manager-core
+[2023/12/08, 2:17:15.552 PM] 964/home/sk2a03/.cache/fontconfig
+[2023/12/08, 2:17:15.552 PM] 392/home/sk2a03/.cache/gstreamer-1.0
+[2023/12/08, 2:17:15.552 PM] 4/home/sk2a03/.cache/tracker3/files/errors
+[2023/12/08, 2:17:15.552 PM] 15532/home/sk2a03/.cache/tracker3/files
+[2023/12/08, 2:17:15.552 PM] 15536/home/sk2a03/.cache/tracker3
+[2023/12/08, 2:17:15.552 PM] 4/home/sk2a03/.cache/evolution/addressbook/trash
+[2023/12/08, 2:17:15.552 PM] 8/home/sk2a03/.cache/evolution/addressbook
+[2023/12/08, 2:17:15.552 PM] 4/home/sk2a03/.cache/evolution/tasks/trash
+[2023/12/08, 2:17:15.552 PM] 8/home/sk2a03/.cache/evolution/tasks
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.cache/evolution/sources/trash
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.cache/evolution/sources
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.cache/evolution/mail/trash
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.cache/evolution/mail
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.cache/evolution/memos/trash
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.cache/evolution/memos
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.cache/evolution/calendar/trash
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.cache/evolution/calendar
+[2023/12/08, 2:17:15.553 PM] 52/home/sk2a03/.cache/evolution
+[2023/12/08, 2:17:15.553 PM] 180448/home/sk2a03/.cache
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/Videos
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/Pictures
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/Public
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.mozilla/extensions
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.mozilla
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.local/share/icc
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.local/share/Trash/files/デスクトップ/shared
+[2023/12/08, 2:17:15.553 PM] 8/home/sk2a03/.local/share/Trash/files/デスクトップ
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.local/share/Trash/files/qwe
+[2023/12/08, 2:17:15.553 PM] 4/home/sk2a03/.local/share/Trash/files/123
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/Trash/files/New Folder
+[2023/12/08, 2:17:15.554 PM] 100/home/sk2a03/.local/share/Trash/files
+[2023/12/08, 2:17:15.554 PM] 52/home/sk2a03/.local/share/Trash/info
+[2023/12/08, 2:17:15.554 PM] 156/home/sk2a03/.local/share/Trash
+[2023/12/08, 2:17:15.554 PM] 12/home/sk2a03/.local/share/keyrings
+[2023/12/08, 2:17:15.554 PM] 12/home/sk2a03/.local/share/gnome-shell
+[2023/12/08, 2:17:15.554 PM] 324/home/sk2a03/.local/share/nautilus/tags
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/nautilus/scripts
+[2023/12/08, 2:17:15.554 PM] 332/home/sk2a03/.local/share/nautilus
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/ibus-table
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/gnome-settings-daemon
+[2023/12/08, 2:17:15.554 PM] 76/home/sk2a03/.local/share/gvfs-metadata
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/evolution/addressbook/trash
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/evolution/addressbook/system/photos
+[2023/12/08, 2:17:15.554 PM] 92/home/sk2a03/.local/share/evolution/addressbook/system
+[2023/12/08, 2:17:15.554 PM] 100/home/sk2a03/.local/share/evolution/addressbook
+[2023/12/08, 2:17:15.554 PM] 4/home/sk2a03/.local/share/evolution/tasks/trash
+[2023/12/08, 2:17:15.554 PM] 8/home/sk2a03/.local/share/evolution/tasks/system
+[2023/12/08, 2:17:15.554 PM] 16/home/sk2a03/.local/share/evolution/tasks
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/evolution/mail/trash
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.local/share/evolution/mail
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/evolution/memos/trash
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.local/share/evolution/memos
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/evolution/calendar/trash
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.local/share/evolution/calendar/system
+[2023/12/08, 2:17:15.555 PM] 16/home/sk2a03/.local/share/evolution/calendar
+[2023/12/08, 2:17:15.555 PM] 152/home/sk2a03/.local/share/evolution
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/applications
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/sounds
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.local/share/flatpak/db
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.local/share/flatpak
+[2023/12/08, 2:17:15.555 PM] 792/home/sk2a03/.local/share
+[2023/12/08, 2:17:15.555 PM] 796/home/sk2a03/.local
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.config/procps
+[2023/12/08, 2:17:15.555 PM] 12/home/sk2a03/.config/ibus/bus
+[2023/12/08, 2:17:15.555 PM] 16/home/sk2a03/.config/ibus
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.config/gtk-4.0
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.config/update-notifier
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.config/gtk-3.0
+[2023/12/08, 2:17:15.555 PM] 416/home/sk2a03/.config/mozc
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.config/nautilus
+[2023/12/08, 2:17:15.555 PM] 4/home/sk2a03/.config/gnome-session/saved-session
+[2023/12/08, 2:17:15.555 PM] 8/home/sk2a03/.config/gnome-session
+[2023/12/08, 2:17:15.556 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/SSLErrorAssistant/7/_metadata
+[2023/12/08, 2:17:15.556 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/SSLErrorAssistant/7
+[2023/12/08, 2:17:15.556 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/SSLErrorAssistant
+[2023/12/08, 2:17:15.557 PM] 2740/home/sk2a03/.config/BraveSoftware/Brave-Browser/oofiananboodjbbmdelgdommihjbkfag/1.0.170/6.0/httpse.leveldb
+[2023/12/08, 2:17:15.557 PM] 3792/home/sk2a03/.config/BraveSoftware/Brave-Browser/oofiananboodjbbmdelgdommihjbkfag/1.0.170/6.0
+[2023/12/08, 2:17:15.557 PM] 3800/home/sk2a03/.config/BraveSoftware/Brave-Browser/oofiananboodjbbmdelgdommihjbkfag/1.0.170
+[2023/12/08, 2:17:15.557 PM] 3804/home/sk2a03/.config/BraveSoftware/Brave-Browser/oofiananboodjbbmdelgdommihjbkfag
+[2023/12/08, 2:17:15.557 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/PKIMetadata/770/_metadata
+[2023/12/08, 2:17:15.557 PM] 224/home/sk2a03/.config/BraveSoftware/Brave-Browser/PKIMetadata/770
+[2023/12/08, 2:17:15.557 PM] 228/home/sk2a03/.config/BraveSoftware/Brave-Browser/PKIMetadata
+[2023/12/08, 2:17:15.557 PM] 300/home/sk2a03/.config/BraveSoftware/Brave-Browser/GrShaderCache
+[2023/12/08, 2:17:15.558 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/ikolbkmkinegpoedjeklhfnaidmloifj/1.0.85
+[2023/12/08, 2:17:15.558 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/ikolbkmkinegpoedjeklhfnaidmloifj
+[2023/12/08, 2:17:15.558 PM] 1192/home/sk2a03/.config/BraveSoftware/Brave-Browser/cdbbhgbmjhfnhnmgeddbliobbofkgdhe/1.0.2869
+[2023/12/08, 2:17:15.558 PM] 1196/home/sk2a03/.config/BraveSoftware/Brave-Browser/cdbbhgbmjhfnhnmgeddbliobbofkgdhe
+[2023/12/08, 2:17:15.559 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_talk/confabs
+[2023/12/08, 2:17:15.559 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_talk
+[2023/12/08, 2:17:15.559 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/reddit
+[2023/12/08, 2:17:15.560 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/twitch
+[2023/12/08, 2:17:15.560 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/youtube
+[2023/12/08, 2:17:15.560 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/github
+[2023/12/08, 2:17:15.560 PM] 16/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/twitter
+[2023/12/08, 2:17:15.560 PM] 16/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher/vimeo
+[2023/12/08, 2:17:15.560 PM] 92/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards/publisher
+[2023/12/08, 2:17:15.560 PM] 96/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts/brave_rewards
+[2023/12/08, 2:17:15.560 PM] 112/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1/scripts
+[2023/12/08, 2:17:15.560 PM] 240/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536/1
+[2023/12/08, 2:17:15.560 PM] 248/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal/1.0.536
+[2023/12/08, 2:17:15.560 PM] 252/home/sk2a03/.config/BraveSoftware/Brave-Browser/afalakplffnnnlkncjhbmahjfjhmlkal
+[2023/12/08, 2:17:15.561 PM] 13324/home/sk2a03/.config/BraveSoftware/Brave-Browser/aoojcmojmmcbpfgoecoadbdpnagfchel/1.0.12
+[2023/12/08, 2:17:15.561 PM] 13328/home/sk2a03/.config/BraveSoftware/Brave-Browser/aoojcmojmmcbpfgoecoadbdpnagfchel
+[2023/12/08, 2:17:15.561 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/ffopfgphnhgdkbnogedcfofdpfghgfbp/1.0.438
+[2023/12/08, 2:17:15.561 PM] 16/home/sk2a03/.config/BraveSoftware/Brave-Browser/ffopfgphnhgdkbnogedcfofdpfghgfbp
+[2023/12/08, 2:17:15.561 PM] 28416/home/sk2a03/.config/BraveSoftware/Brave-Browser/Safe Browsing
+[2023/12/08, 2:17:15.562 PM] 4688/home/sk2a03/.config/BraveSoftware/Brave-Browser/iodkpdagapdfkphljnddpjlldadblomo/1.0.2438
+[2023/12/08, 2:17:15.562 PM] 4692/home/sk2a03/.config/BraveSoftware/Brave-Browser/iodkpdagapdfkphljnddpjlldadblomo
+[2023/12/08, 2:17:15.562 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/hyphen-data/120.0.6046.0/_metadata
+[2023/12/08, 2:17:15.562 PM] 1852/home/sk2a03/.config/BraveSoftware/Brave-Browser/hyphen-data/120.0.6046.0
+[2023/12/08, 2:17:15.562 PM] 1856/home/sk2a03/.config/BraveSoftware/Brave-Browser/hyphen-data
+[2023/12/08, 2:17:15.563 PM] 300/home/sk2a03/.config/BraveSoftware/Brave-Browser/ShaderCache
+[2023/12/08, 2:17:15.563 PM] 472/home/sk2a03/.config/BraveSoftware/Brave-Browser/gccbbckogglekeggclmmekihdgdpdgoe/1.0.1426
+[2023/12/08, 2:17:15.563 PM] 476/home/sk2a03/.config/BraveSoftware/Brave-Browser/gccbbckogglekeggclmmekihdgdpdgoe
+[2023/12/08, 2:17:15.563 PM] 48/home/sk2a03/.config/BraveSoftware/Brave-Browser/bfpgedeaaibpoidldhjcknekahbikncb/1.0.2664
+[2023/12/08, 2:17:15.563 PM] 52/home/sk2a03/.config/BraveSoftware/Brave-Browser/bfpgedeaaibpoidldhjcknekahbikncb
+[2023/12/08, 2:17:15.568 PM] 5772/home/sk2a03/.config/BraveSoftware/Brave-Browser/BraveWallet/1.0.80/images
+[2023/12/08, 2:17:15.568 PM] 9836/home/sk2a03/.config/BraveSoftware/Brave-Browser/BraveWallet/1.0.80
+[2023/12/08, 2:17:15.568 PM] 9840/home/sk2a03/.config/BraveSoftware/Brave-Browser/BraveWallet
+[2023/12/08, 2:17:15.568 PM] 704/home/sk2a03/.config/BraveSoftware/Brave-Browser/mfddibmblmbccpadfndgakiopmmhebop/1.0.79
+[2023/12/08, 2:17:15.568 PM] 708/home/sk2a03/.config/BraveSoftware/Brave-Browser/mfddibmblmbccpadfndgakiopmmhebop
+[2023/12/08, 2:17:15.569 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/OnDeviceHeadSuggestModel/20230916.567854667.14/_metadata
+[2023/12/08, 2:17:15.569 PM] 7896/home/sk2a03/.config/BraveSoftware/Brave-Browser/OnDeviceHeadSuggestModel/20230916.567854667.14
+[2023/12/08, 2:17:15.569 PM] 7900/home/sk2a03/.config/BraveSoftware/Brave-Browser/OnDeviceHeadSuggestModel
+[2023/12/08, 2:17:15.569 PM] 76/home/sk2a03/.config/BraveSoftware/Brave-Browser/iblokdlgekdjophgeonmanpnjihcjkjj/1.0.91
+[2023/12/08, 2:17:15.569 PM] 80/home/sk2a03/.config/BraveSoftware/Brave-Browser/iblokdlgekdjophgeonmanpnjihcjkjj
+[2023/12/08, 2:17:15.569 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/SafetyTips/3004/_metadata
+[2023/12/08, 2:17:15.569 PM] 156/home/sk2a03/.config/BraveSoftware/Brave-Browser/SafetyTips/3004
+[2023/12/08, 2:17:15.569 PM] 160/home/sk2a03/.config/BraveSoftware/Brave-Browser/SafetyTips
+[2023/12/08, 2:17:15.570 PM] 32/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/databases
+[2023/12/08, 2:17:15.570 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Extension Rules
+[2023/12/08, 2:17:15.570 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/blob_storage/3b471ae5-ff45-4fe8-a908-d6c60b10bb16
+[2023/12/08, 2:17:15.570 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/blob_storage
+[2023/12/08, 2:17:15.570 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB
+[2023/12/08, 2:17:15.570 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Sync Data
+[2023/12/08, 2:17:15.571 PM] 4732/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.leveldb
+[2023/12/08, 2:17:15.571 PM] 116/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.blob/6/00
+[2023/12/08, 2:17:15.571 PM] 120/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.blob/6
+[2023/12/08, 2:17:15.571 PM] 384/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.blob/8/00
+[2023/12/08, 2:17:15.571 PM] 388/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.blob/8
+[2023/12/08, 2:17:15.571 PM] 512/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.blob
+[2023/12/08, 2:17:15.571 PM] 1808/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb
+[2023/12/08, 2:17:15.572 PM] 224/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.microsoft365.com_0.indexeddb.leveldb
+[2023/12/08, 2:17:15.572 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_qiita.com_0.indexeddb.leveldb
+[2023/12/08, 2:17:15.572 PM] 996/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.blob/1/00
+[2023/12/08, 2:17:15.572 PM] 1000/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.blob/1
+[2023/12/08, 2:17:15.572 PM] 920/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.blob/4/00
+[2023/12/08, 2:17:15.572 PM] 924/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.blob/4
+[2023/12/08, 2:17:15.572 PM] 1928/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_yamaguchigakuen-my.sharepoint.com_0.indexeddb.blob
+[2023/12/08, 2:17:15.572 PM] 9236/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/IndexedDB
+[2023/12/08, 2:17:15.572 PM] 48/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database
+[2023/12/08, 2:17:15.572 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache/index-dir
+[2023/12/08, 2:17:15.572 PM] 1960/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/ScriptCache
+[2023/12/08, 2:17:15.573 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/c095798a-e619-41df-aff8-1afd21aa9d9b/index-dir
+[2023/12/08, 2:17:15.573 PM] 38360/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/c095798a-e619-41df-aff8-1afd21aa9d9b
+[2023/12/08, 2:17:15.574 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/76e6b4b0-b272-488c-8d3a-ded54af8352f/index-dir
+[2023/12/08, 2:17:15.574 PM] 528/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/76e6b4b0-b272-488c-8d3a-ded54af8352f
+[2023/12/08, 2:17:15.574 PM] 38896/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88
+[2023/12/08, 2:17:15.579 PM] 48/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/9f094671-0907-44f6-a2d6-eae56a5f45a3/index-dir
+[2023/12/08, 2:17:15.582 PM] 394992/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/9f094671-0907-44f6-a2d6-eae56a5f45a3
+[2023/12/08, 2:17:15.582 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/8de51696-945f-4ef8-9a45-90997ec19043/index-dir
+[2023/12/08, 2:17:15.582 PM] 696/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/8de51696-945f-4ef8-9a45-90997ec19043
+[2023/12/08, 2:17:15.582 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/b2cfee76-e6e3-44d7-9c30-f751c57c34d2/index-dir
+[2023/12/08, 2:17:15.582 PM] 24912/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2/b2cfee76-e6e3-44d7-9c30-f751c57c34d2
+[2023/12/08, 2:17:15.582 PM] 420608/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/f1da67ec5f90588ee2296fbb6494dd01d30089e2
+[2023/12/08, 2:17:15.583 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/e9477dad03332f49814329f049f2f5cecdabf00d/b4c4de82-f10e-42c5-8bf9-0caadbc22644/index-dir
+[2023/12/08, 2:17:15.583 PM] 16/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/e9477dad03332f49814329f049f2f5cecdabf00d/b4c4de82-f10e-42c5-8bf9-0caadbc22644
+[2023/12/08, 2:17:15.583 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/e9477dad03332f49814329f049f2f5cecdabf00d
+[2023/12/08, 2:17:15.583 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/2c0dce51157aa78fbc9f2afe1a4ffcbed2e97833/101e80b1-f9d6-48f9-bd91-16b10f87a9b4/index-dir
+[2023/12/08, 2:17:15.583 PM] 13676/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/2c0dce51157aa78fbc9f2afe1a4ffcbed2e97833/101e80b1-f9d6-48f9-bd91-16b10f87a9b4
+[2023/12/08, 2:17:15.583 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/2c0dce51157aa78fbc9f2afe1a4ffcbed2e97833/9f515c9c-d27a-4369-bca7-43e0ec35b897/index-dir
+[2023/12/08, 2:17:15.583 PM] 96/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/2c0dce51157aa78fbc9f2afe1a4ffcbed2e97833/9f515c9c-d27a-4369-bca7-43e0ec35b897
+[2023/12/08, 2:17:15.583 PM] 13780/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage/2c0dce51157aa78fbc9f2afe1a4ffcbed2e97833
+[2023/12/08, 2:17:15.583 PM] 473312/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker/CacheStorage
+[2023/12/08, 2:17:15.583 PM] 475324/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Service Worker
+[2023/12/08, 2:17:15.583 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Site Characteristics Database
+[2023/12/08, 2:17:15.583 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/coupon_db
+[2023/12/08, 2:17:15.583 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/parcel_tracking_db
+[2023/12/08, 2:17:15.584 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/BraveWallet/Brave Wallet Storage
+[2023/12/08, 2:17:15.584 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/BraveWallet
+[2023/12/08, 2:17:15.584 PM] 216/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb
+[2023/12/08, 2:17:15.584 PM] 220/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Local Storage
+[2023/12/08, 2:17:15.585 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/EventDB
+[2023/12/08, 2:17:15.585 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker/AvailabilityDB
+[2023/12/08, 2:17:15.585 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Feature Engagement Tracker
+[2023/12/08, 2:17:15.585 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/metadata
+[2023/12/08, 2:17:15.585 PM] 48/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db
+[2023/12/08, 2:17:15.585 PM] 300/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/GPUCache
+[2023/12/08, 2:17:15.585 PM] 164/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/ads_service
+[2023/12/08, 2:17:15.586 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Extension Scripts
+[2023/12/08, 2:17:15.586 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/VideoDecodeStats
+[2023/12/08, 2:17:15.586 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Extension State
+[2023/12/08, 2:17:15.586 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/commerce_subscription_db
+[2023/12/08, 2:17:15.586 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/PersistentOriginTrials
+[2023/12/08, 2:17:15.587 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/AutofillStrikeDatabase
+[2023/12/08, 2:17:15.587 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/discounts_db
+[2023/12/08, 2:17:15.587 PM] 300/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/DawnCache
+[2023/12/08, 2:17:15.587 PM] 136/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Session Storage
+[2023/12/08, 2:17:15.587 PM] 596/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Sessions
+[2023/12/08, 2:17:15.587 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Download Service/Files
+[2023/12/08, 2:17:15.587 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Download Service/EntryDB
+[2023/12/08, 2:17:15.587 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Download Service
+[2023/12/08, 2:17:15.588 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/GCM Store/Encryption
+[2023/12/08, 2:17:15.588 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/GCM Store
+[2023/12/08, 2:17:15.588 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary/cache/index-dir
+[2023/12/08, 2:17:15.588 PM] 16/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary/cache
+[2023/12/08, 2:17:15.588 PM] 68/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/Shared Dictionary
+[2023/12/08, 2:17:15.588 PM] 44/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/WebStorage
+[2023/12/08, 2:17:15.588 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default/BudgetDatabase
+[2023/12/08, 2:17:15.588 PM] 487708/home/sk2a03/.config/BraveSoftware/Brave-Browser/Default
+[2023/12/08, 2:17:15.589 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir6jPc8y/_metadata
+[2023/12/08, 2:17:15.589 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir6jPc8y
+[2023/12/08, 2:17:15.589 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirDie7hu/_metadata
+[2023/12/08, 2:17:15.589 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirDie7hu
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/sw
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/el
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ms
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ar
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/id
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/cs
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/bg
+[2023/12/08, 2:17:15.590 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/gu
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ko
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/uk
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/sr
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/pt_BR
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/lv
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/sl
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/fr
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/es_419
+[2023/12/08, 2:17:15.591 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ml
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ro
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/hu
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/da
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/sv
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/no
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/de
+[2023/12/08, 2:17:15.592 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/hi
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/pt_PT
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/am
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/hr
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/tr
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/bn
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/sk
+[2023/12/08, 2:17:15.593 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/it
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/th
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ru
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/zh_CN
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/pl
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/lt
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/he
+[2023/12/08, 2:17:15.594 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/en_GB
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ta
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/mr
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/en_US
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/fil
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/fa
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/fi
+[2023/12/08, 2:17:15.595 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ja
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/zh_TW
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/te
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/et
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/es
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/vi
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/nl
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/ca
+[2023/12/08, 2:17:15.596 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales/kn
+[2023/12/08, 2:17:15.596 PM] 428/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_locales
+[2023/12/08, 2:17:15.597 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR/_metadata
+[2023/12/08, 2:17:15.597 PM] 460/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirLL9PvR
+[2023/12/08, 2:17:15.597 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirPfAssJ/_metadata
+[2023/12/08, 2:17:15.597 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirPfAssJ
+[2023/12/08, 2:17:15.597 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir9BrDa9/_metadata
+[2023/12/08, 2:17:15.597 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir9BrDa9
+[2023/12/08, 2:17:15.598 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirJG59MV/_metadata
+[2023/12/08, 2:17:15.598 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirJG59MV
+[2023/12/08, 2:17:15.598 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirBaGe7S/_metadata
+[2023/12/08, 2:17:15.598 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirBaGe7S
+[2023/12/08, 2:17:15.598 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirH4BCge/_metadata
+[2023/12/08, 2:17:15.598 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirH4BCge
+[2023/12/08, 2:17:15.599 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirUUhzbe/_metadata
+[2023/12/08, 2:17:15.599 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirUUhzbe
+[2023/12/08, 2:17:15.599 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir702mzm/_metadata
+[2023/12/08, 2:17:15.599 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir702mzm
+[2023/12/08, 2:17:15.599 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirrzMv7k/_metadata
+[2023/12/08, 2:17:15.599 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirrzMv7k
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirIKQOMS/_metadata
+[2023/12/08, 2:17:15.600 PM] 20/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirIKQOMS
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/sw
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/el
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ms
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ar
+[2023/12/08, 2:17:15.600 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/id
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/cs
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/bg
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/gu
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ko
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/uk
+[2023/12/08, 2:17:15.601 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/sr
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/pt_BR
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/lv
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/sl
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/fr
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/es_419
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ml
+[2023/12/08, 2:17:15.602 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ro
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/hu
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/da
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/sv
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/no
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/de
+[2023/12/08, 2:17:15.603 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/hi
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/pt_PT
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/am
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/hr
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/tr
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/bn
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/sk
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/it
+[2023/12/08, 2:17:15.604 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/th
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ru
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/zh_CN
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/pl
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/lt
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/he
+[2023/12/08, 2:17:15.605 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/en_GB
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ta
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/mr
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/en_US
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/fil
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/fa
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/fi
+[2023/12/08, 2:17:15.606 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ja
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/zh_TW
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/te
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/et
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/es
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/vi
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/nl
+[2023/12/08, 2:17:15.607 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/ca
+[2023/12/08, 2:17:15.608 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales/kn
+[2023/12/08, 2:17:15.608 PM] 428/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_locales
+[2023/12/08, 2:17:15.608 PM] 12/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz/_metadata
+[2023/12/08, 2:17:15.608 PM] 456/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dirn6Bfyz
+[2023/12/08, 2:17:15.608 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir32s18q/_metadata
+[2023/12/08, 2:17:15.608 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp/scoped_dir32s18q
+[2023/12/08, 2:17:15.608 PM] 1184/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion/Temp
+[2023/12/08, 2:17:15.608 PM] 1188/home/sk2a03/.config/BraveSoftware/Brave-Browser/Greaselion
+[2023/12/08, 2:17:15.608 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/NativeMessagingHosts
+[2023/12/08, 2:17:15.608 PM] 576/home/sk2a03/.config/BraveSoftware/Brave-Browser/llgjaaddopeckcifdceaaadmemagkepi/1.0.694
+[2023/12/08, 2:17:15.609 PM] 580/home/sk2a03/.config/BraveSoftware/Brave-Browser/llgjaaddopeckcifdceaaadmemagkepi
+[2023/12/08, 2:17:15.609 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/FileTypePolicies/62/_metadata
+[2023/12/08, 2:17:15.609 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/FileTypePolicies/62
+[2023/12/08, 2:17:15.609 PM] 32/home/sk2a03/.config/BraveSoftware/Brave-Browser/FileTypePolicies
+[2023/12/08, 2:17:15.609 PM] 60/home/sk2a03/.config/BraveSoftware/Brave-Browser/adcocjohghhfpidemphmcmlmhnfgikei/1.0.49
+[2023/12/08, 2:17:15.609 PM] 64/home/sk2a03/.config/BraveSoftware/Brave-Browser/adcocjohghhfpidemphmcmlmhnfgikei
+[2023/12/08, 2:17:15.610 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crowd Deny/2023.10.13.1141/_metadata
+[2023/12/08, 2:17:15.610 PM] 36/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crowd Deny/2023.10.13.1141
+[2023/12/08, 2:17:15.610 PM] 40/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crowd Deny
+[2023/12/08, 2:17:15.610 PM] 300/home/sk2a03/.config/BraveSoftware/Brave-Browser/GraphiteDawnCache
+[2023/12/08, 2:17:15.610 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/MEIPreload
+[2023/12/08, 2:17:15.610 PM] 448/home/sk2a03/.config/BraveSoftware/Brave-Browser/Dictionaries
+[2023/12/08, 2:17:15.610 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/TpcdMetadata/2023.11.10.3/_metadata
+[2023/12/08, 2:17:15.610 PM] 24/home/sk2a03/.config/BraveSoftware/Brave-Browser/TpcdMetadata/2023.11.10.3
+[2023/12/08, 2:17:15.610 PM] 28/home/sk2a03/.config/BraveSoftware/Brave-Browser/TpcdMetadata
+[2023/12/08, 2:17:15.611 PM] 8/home/sk2a03/.config/BraveSoftware/Brave-Browser/CertificateRevocation/8380/_metadata
+[2023/12/08, 2:17:15.611 PM] 48/home/sk2a03/.config/BraveSoftware/Brave-Browser/CertificateRevocation/8380
+[2023/12/08, 2:17:15.611 PM] 52/home/sk2a03/.config/BraveSoftware/Brave-Browser/CertificateRevocation
+[2023/12/08, 2:17:15.611 PM] 964/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crash Reports/completed
+[2023/12/08, 2:17:15.611 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crash Reports/new
+[2023/12/08, 2:17:15.611 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crash Reports/attachments
+[2023/12/08, 2:17:15.611 PM] 4/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crash Reports/pending
+[2023/12/08, 2:17:15.611 PM] 984/home/sk2a03/.config/BraveSoftware/Brave-Browser/Crash Reports
+[2023/12/08, 2:17:15.612 PM] 144/home/sk2a03/.config/BraveSoftware/Brave-Browser/gkboaolpopklhgplhaaiboijnklogmbc/1.0.50
+[2023/12/08, 2:17:15.612 PM] 148/home/sk2a03/.config/BraveSoftware/Brave-Browser/gkboaolpopklhgplhaaiboijnklogmbc
+[2023/12/08, 2:17:15.612 PM] 36/home/sk2a03/.config/BraveSoftware/Brave-Browser/segmentation_platform
+[2023/12/08, 2:17:15.612 PM] 566460/home/sk2a03/.config/BraveSoftware/Brave-Browser
+[2023/12/08, 2:17:15.612 PM] 566464/home/sk2a03/.config/BraveSoftware
+[2023/12/08, 2:17:15.612 PM] 4/home/sk2a03/.config/goa-1.0
+[2023/12/08, 2:17:15.612 PM] 8/home/sk2a03/.config/evolution/sources
+[2023/12/08, 2:17:15.612 PM] 12/home/sk2a03/.config/evolution
+[2023/12/08, 2:17:15.612 PM] 16/home/sk2a03/.config/dconf
+[2023/12/08, 2:17:15.612 PM] 8/home/sk2a03/.config/htop
+[2023/12/08, 2:17:15.612 PM] 4/home/sk2a03/.config/enchant
+[2023/12/08, 2:17:15.612 PM] 52/home/sk2a03/.config/pulse
+[2023/12/08, 2:17:15.612 PM] 8/home/sk2a03/.config/gedit
+[2023/12/08, 2:17:15.612 PM] 567056/home/sk2a03/.config
+[2023/12/08, 2:17:15.613 PM] 4/home/sk2a03/Desktop/123
+[2023/12/08, 2:17:15.613 PM] 48/home/sk2a03/Desktop
+[2023/12/08, 2:17:15.613 PM] 4/home/sk2a03/Documents
+[2023/12/08, 2:17:15.613 PM] 8/home/sk2a03/mail/.imap/INBOX
+[2023/12/08, 2:17:15.613 PM] 20/home/sk2a03/mail/.imap
+[2023/12/08, 2:17:15.613 PM] 24/home/sk2a03/mail
+[2023/12/08, 2:17:15.613 PM] 4/home/sk2a03/Templates
+[2023/12/08, 2:17:15.613 PM] 203264/home/sk2a03/ダウンロード
+[2023/12/08, 2:17:15.613 PM] 1075444/home/sk2a03
+[2023/12/08, 2:17:15.614 PM] sk2a03@ecc:~$ du /home/sk2a03-/home/sk2a03s/home/sk2a03 /home/sk2a03
+[2023/12/08, 2:17:32.809 PM] 1075444/home/sk2a03
+[2023/12/08, 2:17:32.813 PM] sk2a03@ecc:~$ du -s /home/sk2a03h /home/sk2a03
+[2023/12/08, 2:17:47.019 PM] 1.1G/home/sk2a03
+[2023/12/08, 2:17:47.024 PM] sk2a03@ecc:~$ df -h
+[2023/12/08, 2:18:11.203 PM] Filesystem      Size  Used Avail Use% Mounted on
+[2023/12/08, 2:18:11.204 PM] tmpfs           391M  1.8M  390M   1% /run
+[2023/12/08, 2:18:11.204 PM] /dev/vda2        20G   12G  6.7G  64% /
+[2023/12/08, 2:18:11.204 PM] tmpfs           2.0G     0  2.0G   0% /dev/shm
+[2023/12/08, 2:18:11.204 PM] tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+[2023/12/08, 2:18:11.204 PM] /dev/vda3       3.9G  1.1G  2.6G  30% /home
+[2023/12/08, 2:18:11.204 PM] /dev/vda1       1.1G  6.4M  1.1G   1% /boot/efi
+[2023/12/08, 2:18:11.204 PM] tmpfs           391M  108K  391M   1% /run/user/1001
+[2023/12/08, 2:18:11.205 PM] sk2a03@ecc:~$ df -t
+[2023/12/08, 2:31:28.998 PM] df: option requires an argument -- 't'
+[2023/12/08, 2:31:28.998 PM] Try 'df --help' for more information.
+[2023/12/08, 2:31:28.998 PM] sk2a03@ecc:~$ df -tT
+[2023/12/08, 2:31:32.147 PM] Filesystem     Type  1K-blocks     Used Available Use% Mounted on
+[2023/12/08, 2:31:32.147 PM] tmpfs          tmpfs    400232     1748    398484   1% /run
+[2023/12/08, 2:31:32.147 PM] /dev/vda2      ext4   20466256 12375928   7025368  64% /
+[2023/12/08, 2:31:32.147 PM] tmpfs          tmpfs   2001140        0   2001140   0% /dev/shm
+[2023/12/08, 2:31:32.147 PM] tmpfs          tmpfs      5120        4      5116   1% /run/lock
+[2023/12/08, 2:31:32.147 PM] /dev/vda3      ext4    3993248  1126060   2643804  30% /home
+[2023/12/08, 2:31:32.147 PM] /dev/vda1      vfat    1098628     6452   1092176   1% /boot/efi
+[2023/12/08, 2:31:32.147 PM] tmpfs          tmpfs    400228      108    400120   1% /run/user/1001
+[2023/12/08, 2:31:32.148 PM] sk2a03@ecc:~$ df -Tdf -Tthth /home/sk2a03
+[2023/12/08, 2:31:57.577 PM] Filesystem      Size  Used Avail Use% Mounted on
+[2023/12/08, 2:31:57.578 PM] /dev/vda3       3.9G  1.1G  2.6G  30% /home
+[2023/12/08, 2:31:57.578 PM] sk2a03@ecc:~$ df -h /home/sk2a03 > du_kad08.txt
+[2023/12/08, 2:32:07.710 PM] sk2a03@ecc:~$ free
+[2023/12/08, 2:32:12.903 PM]                total        used        free      shared  buff/cache   available
+[2023/12/08, 2:32:12.903 PM] Mem:         4002284      786936     1760116       55648     1455232     2972720
+[2023/12/08, 2:32:12.903 PM] Swap:        4001788           0     4001788
+[2023/12/08, 2:32:12.904 PM] sk2a03@ecc:~$    Sudo cp /etc/crontab /etc/cron.d/cron_kad08   Sudo cp /etc/crontab /etc/cron.d/cron_kad08s
+[2023/12/08, 2:32:54.479 PM] [sudo] password for sk2a03: 
+[2023/12/08, 2:32:57.039 PM] sk2a03@ecc:~$ cd    sudo vi /etc/cron.d/cron_kad08   sudo vi /etc/cron.d/cron_kad08
+[2023/12/08, 2:33:56.026 PM] "/etc/cron.d/cron_kad08" 23L, 1136B▽             # /etc/crontab: system-wide crontab
+[2023/12/08, 2:33:56.030 PM] # Unlike any other crontab you don't have to run the `crontab'# command to install the new version when you edit this file# and files in /etc/cron.d. These files also have username fields,
+[2023/12/08, 2:33:56.030 PM] # that none of the other crontabs do.
+
+[2023/12/08, 2:33:56.030 PM] SHELL=/bin/sh
+[2023/12/08, 2:33:56.030 PM] # You can also override PATH, but by default, newer versions inherit it from the environment
+[2023/12/08, 2:33:56.030 PM] #PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+[2023/12/08, 2:33:56.030 PM] # Example of job definition:
+[2023/12/08, 2:33:56.030 PM] # .---------------- minute (0 - 59)
+[2023/12/08, 2:33:56.030 PM] # |  .------------- hour (0 - 23)
+[2023/12/08, 2:33:56.030 PM] # |  |  .---------- day of month (1 - 31)
+[2023/12/08, 2:33:56.030 PM] # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+[2023/12/08, 2:33:56.030 PM] # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+[2023/12/08, 2:33:56.030 PM] # |  |  |  |  |
+[2023/12/08, 2:33:56.030 PM] # *  *  *  *  * user-name command to be executed
+[2023/12/08, 2:33:56.030 PM] 17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+[2023/12/08, 2:33:56.031 PM] 25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+[2023/12/08, 2:33:56.031 PM] 47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+[2023/12/08, 2:33:56.031 PM] 52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )#
+[2023/12/08, 2:33:56.031 PM] ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    23,1All# /etc/crontab: system-wide crontab
+[2023/12/08, 2:33:56.032 PM] # Unlike any other crontab you don't have to run the `crontab'
+[2023/12/08, 2:33:56.032 PM] # command to install the new version when you edit this file
+[2023/12/08, 2:33:56.032 PM] # and files in /etc/cron.d. These files also have username fields,
+[2023/12/08, 2:33:56.032 PM] # that none of the other crontabs do.
+
+[2023/12/08, 2:33:56.032 PM] SHELL=/bin/sh
+[2023/12/08, 2:33:56.032 PM] # You can also override PATH, but by default, newer versions inherit it from the environment
+[2023/12/08, 2:33:56.032 PM] #PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+[2023/12/08, 2:33:56.032 PM] # Example of job definition:
+[2023/12/08, 2:33:56.032 PM] # .---------------- minute (0 - 59)
+[2023/12/08, 2:33:56.032 PM] # |  .------------- hour (0 - 23)
+[2023/12/08, 2:33:56.032 PM] # |  |  .---------- day of month (1 - 31)
+[2023/12/08, 2:33:56.032 PM] # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+[2023/12/08, 2:33:56.032 PM] # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+[2023/12/08, 2:33:56.032 PM] # |  |  |  |  |
+[2023/12/08, 2:33:56.032 PM] # *  *  *  *  * user-name command to be executed
+[2023/12/08, 2:33:56.032 PM] 17 *    * * *   root    cd / && run-parts --report /etc/cron.hourly
+[2023/12/08, 2:33:56.032 PM] 25 6    * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+[2023/12/08, 2:33:56.032 PM] 47 6    * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+[2023/12/08, 2:33:56.032 PM] 52 6    1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )#
+[2023/12/08, 2:33:56.032 PM] ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    23,1All"/etc/cron.d/cron_kad08" 23L, 1136Bi -- INSERT --23,1All#4321019^[  19,1All#?\<17\>search hit TOP, continuing at BOTTOM19,1All19,1All~@k   20~@k   19i -- INSERT --19,1All#17 *   * * *   root    cd / && run-parts --report /etc/cron.hourly2201#25 6   * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )211#47 6   * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )221#52 6   1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )23,14,23,1*2/3545 *67 *89 *101 *23s4k526a70839 20198765432109 8765456767   * * * sk2a03 8-99-1010-111-122-133-144-15  sk2a03 5-176-187-198-209-2120-221-232-24k3-25a4-26d5-2706-2887-29.8-30s9-31h30-3229-318-307-296-285-274-263-252-24/kad08.sh3-25hkad08.sh4-26okad08.sh5-27mkad08.sh6-28ekad08.sh7-29/kad08.sh8-30skad08.sh9-31kad08.sh30-322kad08.sh1-33akad08.sh2-340kad08.sh3-353kad08.sh4-36/kad08.sh5-376-387-398-409-4140-421-432-443-452-441-430-4239-418-407-396-385-374-363-352-341-330-3229-318-307-296-285-274-263-252-24b/home/sk2a03/kad08.sh3-25a/home/sk2a03/kad08.sh4-26s/home/sk2a03/kad08.sh5-27h/home/sk2a03/kad08.sh6-28 /home/sk2a03/kad08.sh7-298-309-3130-321-332-343-354-365-376-387-398-409-4140-421-432-443-454-465-476-487-498-507-496-485-474-463-452-441-430-4239-418-407-396-385-374-363-352-341-330-3229-318-307-29/home/sk2a03/kad08.sh6-285-274-263-252-24/bash/home/sk2a03/kad08.sh3-25hbash/home/sk2a03/kad08.sh4-26ibash/home/sk2a03/kad08.sh5-27nbash/home/sk2a03/kad08.sh6-28bash/home/sk2a03/kad08.sh5-27bash/home/sk2a03/kad08.sh4-26bash/home/sk2a03/kad08.sh3-25bash/home/sk2a03/kad08.sh4-26ibash/home/sk2a03/kad08.sh5-27nbash/home/sk2a03/kad08.sh6-28/bash/home/sk2a03/kad08.sh7-298-309-3130-321-332-343-354-365-376-387-398-409-4140-421-432-443-454-465-476-487-498-509-5150-521-530-5249-518-507-496-485-474-463-452-441-430-4239-418-407-396-385-374-363-352-341-33 /home/sk2a03/kad08.sh2-343-354-365-376-387-398-409-4140-421-432-443-454-465-476-487-498-509-5150-521-532-543-552-541-530-5249-518-507-496-485-474-463-452-441-430-4239-418-407-396-385-374-363-352-341-33 /home/sk2a03/kad08.sh0-32 /home/sk2a03/kad08.sh29-31 /home/sk2a03/kad08.sh8-30 /home/sk2a03/kad08.sh7-29 /home/sk2a03/kad08.sh6-28 /home/sk2a03/kad08.sh5-27 /home/sk2a03/kad08.sh4-26 /home/sk2a03/kad08.sh3-25 /home/sk2a03/kad08.sh2-24b /home/sk2a03/kad08.sh3-25i /home/sk2a03/kad08.sh4-26n /home/sk2a03/kad08.sh5-27 /home/sk2a03/kad08.sh4-26 /home/sk2a03/kad08.sh3-25 /home/sk2a03/kad08.sh2-24/ /home/sk2a03/kad08.sh3-25b /home/sk2a03/kad08.sh4-26i /home/sk2a03/kad08.sh5-27n /home/sk2a03/kad08.sh6-28/ /home/sk2a03/kad08.sh7-29b /home/sk2a03/kad08.sh8-30a /home/sk2a03/kad08.sh9-31s /home/sk2a03/kad08.sh30-32h /home/sk2a03/kad08.sh1-33 /home/sk2a03/kad08.sh2-343-352-34/home/sk2a03/kad08.sh1-332-343-354-365-376-387-398-409-4140-421-432-443-454-465-476-487-498-509-5150-521-532-543-55^[  23,52-54      All::wq"/etc/cron.d/cron_kad08" 24L, 1193B written
+[2023/12/08, 2:43:07.312 PM] sk2a03@ecc:~$ souudo touch /home/sk2a03/kad08.sh
+[2023/12/08, 2:43:44.664 PM] sk2a03@ecc:~$ shudo udo vi /homjadkad08.sbh
+[2023/12/08, 2:43:57.708 PM] "kad08.sh" 4L, 32B▽             #!/bin/bashecho "Hello ECC!"~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    3,16All#!/bin/bash
+
+[2023/12/08, 2:43:57.714 PM] echo "Hello ECC!"
+
+[2023/12/08, 2:43:57.714 PM] ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    3,16All"kad08.sh" 4L, 32B::wq"kad08.sh" 4L, 32B written
+[2023/12/08, 2:44:09.727 PM] sk2a03@ecc:~$ bash kad0pwd
+[2023/12/08, 2:44:17.812 PM] /home/sk2a03
+[2023/12/08, 2:44:17.814 PM] sk2a03@ecc:~$ bash vkad08.sh
+[2023/12/08, 2:44:26.085 PM] Hello ECC!
+[2023/12/08, 2:44:26.086 PM] sk2a03@ecc:~$ ls -l sk2akad08.sh
+[2023/12/08, 2:45:54.352 PM] -rw-r--r-- 1 root root 32 Dec  8 05:44 kad08.sh
+[2023/12/08, 2:45:54.353 PM] sk2a03@ecc:~$ ls -l kad08.shbashpwdsudo vi kad08.shtouch /home/sk2a03/kad08.shcp /etc/crontab /etc/cron.d/cron_kad08freesudo cp /etc/crontab /etc/cron.d/cron_kad08touch /home/sk2a03/kad08.shcp /etc/crontab /etc/cron.d/cron_kad08touch /home/sk2a03/kad08.shvi kad08.shpwdbash kad08.shls -lsudo vi /etc/cron.d/cron_kad08sudo vi /etc/cron.d/cron_kad08
+[2023/12/08, 2:46:39.332 PM] "/etc/cron.d/cron_kad08" 24L, 1193B▽             # /etc/crontab: system-wide crontab
+[2023/12/08, 2:46:39.335 PM] # Unlike any other crontab you don't have to run the `crontab'# command to install the new version when you edit this file# and files in /etc/cron.d. These files also have username fields,
+[2023/12/08, 2:46:39.335 PM] # that none of the other crontabs do.
+
+[2023/12/08, 2:46:39.335 PM] SHELL=/bin/sh
+[2023/12/08, 2:46:39.336 PM] # You can also override PATH, but by default, newer versions inherit it from the environment
+[2023/12/08, 2:46:39.336 PM] #PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+[2023/12/08, 2:46:39.336 PM] # Example of job definition:
+[2023/12/08, 2:46:39.336 PM] # .---------------- minute (0 - 59)
+[2023/12/08, 2:46:39.336 PM] # |  .------------- hour (0 - 23)
+[2023/12/08, 2:46:39.336 PM] # |  |  .---------- day of month (1 - 31)
+[2023/12/08, 2:46:39.336 PM] # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+[2023/12/08, 2:46:39.336 PM] # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+[2023/12/08, 2:46:39.336 PM] # |  |  |  |  |
+[2023/12/08, 2:46:39.336 PM] # *  *  *  *  * user-name command to be executed
+[2023/12/08, 2:46:39.336 PM] #17 *   * * *   root    cd / && run-parts --report /etc/cron.hourly
+[2023/12/08, 2:46:39.336 PM] #25 6   * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+[2023/12/08, 2:46:39.336 PM] #47 6   * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+[2023/12/08, 2:46:39.336 PM] #52 6   1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )*/5 *   * * *   sk2a03 /bin/bash /home/sk2a03/kad08.sh
+[2023/12/08, 2:46:39.336 PM] #
+[2023/12/08, 2:46:39.336 PM] ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    23,52-54      All# /etc/crontab: system-wide crontab
+[2023/12/08, 2:46:39.337 PM] # Unlike any other crontab you don't have to run the `crontab'
+[2023/12/08, 2:46:39.337 PM] # command to install the new version when you edit this file
+[2023/12/08, 2:46:39.337 PM] # and files in /etc/cron.d. These files also have username fields,
+[2023/12/08, 2:46:39.337 PM] # that none of the other crontabs do.
+
+[2023/12/08, 2:46:39.337 PM] SHELL=/bin/sh
+[2023/12/08, 2:46:39.337 PM] # You can also override PATH, but by default, newer versions inherit it from the environment
+[2023/12/08, 2:46:39.337 PM] #PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+[2023/12/08, 2:46:39.337 PM] # Example of job definition:
+[2023/12/08, 2:46:39.338 PM] # .---------------- minute (0 - 59)
+[2023/12/08, 2:46:39.338 PM] # |  .------------- hour (0 - 23)
+[2023/12/08, 2:46:39.338 PM] # |  |  .---------- day of month (1 - 31)
+[2023/12/08, 2:46:39.338 PM] # |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+[2023/12/08, 2:46:39.338 PM] # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+[2023/12/08, 2:46:39.338 PM] # |  |  |  |  |
+[2023/12/08, 2:46:39.338 PM] # *  *  *  *  * user-name command to be executed
+[2023/12/08, 2:46:39.338 PM] #17 *   * * *   root    cd / && run-parts --report /etc/cron.hourly
+[2023/12/08, 2:46:39.338 PM] #25 6   * * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+[2023/12/08, 2:46:39.338 PM] #47 6   * * 7   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+[2023/12/08, 2:46:39.338 PM] #52 6   1 * *   root    test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )*/5 *   * * *   sk2a03 /bin/bash /home/sk2a03/kad08.sh
+[2023/12/08, 2:46:39.338 PM] #
+[2023/12/08, 2:46:39.338 PM] ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    ~                                                                                                    23,52-54      All"/etc/cron.d/cron_kad08" 24L, 1193B~@k   ~@k   1-53~@k   2-54~@k   i -- INSERT --23,52-54      All3-55 4-56>5-57>6-58 7-59/8-60h9-61o60-62m1-63e2-64/3-65s4-66k5-6726-68a7-6908-7039-71/70-72c1-73r2-74o3-75n4-76.5-77l6-78o7-79g8-80^[  23,77-79      All::wq"/etc/cron.d/cron_kad08" 24L, 1218B written
+[2023/12/08, 2:47:02.943 PM] sk2a03@ecc:~$    sudo systemctl restart cron   sudo systemctl restart cron
+[2023/12/08, 2:49:59.043 PM] sk2a03@ecc:~$ ls
+[2023/12/08, 2:50:09.132 PM] Desktop    Maildir   Public     cron.log      kad07     named.conf.local  snap
+[2023/12/08, 2:50:09.133 PM] Documents  Music     Templates  dead.letter   kad08.sh  ps.kad08.txt      ダウンロード
+[2023/12/08, 2:50:09.133 PM] Downloads  Pictures  Videos     du_kad08.txt  mail      sk2a03db.local
+[2023/12/08, 2:50:09.134 PM] sk2a03@ecc:~$ cdaat cron.lo9gg
+[2023/12/08, 2:50:18.509 PM] Hello ECC!
+[2023/12/08, 2:50:18.510 PM] sk2a03@ecc:~$ Sudo cp /etc/cron.d/cron_kad08 /home/sk2a03/cron_kad08Sudo cp /etc/cron.d/cron_kad08 /home/sk2a03/cron_kad08s
+[2023/12/08, 2:50:41.303 PM] sk2a03@ecc:~$ sudo cat /home/sk2a03/cron.log > /home/sk2a03/cron.kad08.logsudo cat /home/sk2a03/cron.log > /home/sk2a03/cron.kad08.log
+[2023/12/08, 2:52:58.379 PM] sk2a03@ecc:~$ sudo cat /home/sk2a03/cron.log > /home/sk2a03/cron.kad08.logp /etc/cron.d/cron_kad08 /home/sk2a03/cron_kad08cat cron.logsudo cp /etc/cron.d/cron_kad08 /home/sk2a03/cron_kad08at /home/sk2a03/cron.log > /home/sk2a03/cron.kad08.logsudo cat /home/sk2a03/cron.log > /home/sk2a03/cron.kad08.logkad08.log_kad08.log /home/sk2a03/cron_kad08.logsudo cat /home/sk2a03/cron.log  /home/sk2a03/cron_kad08.log.kad08mv
+[2023/12/08, 2:53:43.032 PM] sk2a03@ecc:~$ cd at cron_kad808.log
+[2023/12/08, 2:53:56.732 PM] Hello ECC!
+[2023/12/08, 2:53:56.732 PM] sk2a03@ecc:~$ sudi o cat /var/log/syslog | grep CRON
+[2023/12/08, 2:54:56.289 PM] Dec  8 04:28:59 ecc cron[929]: (CRON) INFO (pidfile fd = 3)
+[2023/12/08, 2:54:56.289 PM] Dec  8 04:28:59 ecc cron[929]: (CRON) INFO (Running @reboot jobs)
+[2023/12/08, 2:54:56.289 PM] Dec  8 04:29:01 ecc CRON[1276]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:30:01 ecc CRON[3172]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:31:01 ecc CRON[3345]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:32:01 ecc CRON[3358]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:33:01 ecc CRON[3363]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:34:01 ecc CRON[4102]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:35:01 ecc CRON[4241]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:36:01 ecc CRON[4259]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:37:01 ecc CRON[4264]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:38:01 ecc CRON[4269]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:39:01 ecc CRON[4286]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.291 PM] Dec  8 04:39:01 ecc CRON[4287]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:40:01 ecc CRON[4340]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:41:01 ecc CRON[4345]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:42:01 ecc CRON[4350]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:43:01 ecc CRON[4355]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:44:01 ecc CRON[4364]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:45:01 ecc CRON[4369]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:46:01 ecc CRON[4374]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.292 PM] Dec  8 04:47:01 ecc CRON[4382]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:48:01 ecc CRON[4388]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:49:01 ecc CRON[4395]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:50:01 ecc CRON[4404]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:51:01 ecc CRON[4488]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:52:01 ecc CRON[4497]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:53:01 ecc CRON[4502]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:54:01 ecc CRON[4567]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:55:01 ecc CRON[4579]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:56:01 ecc CRON[4595]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:57:01 ecc CRON[4653]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.293 PM] Dec  8 04:58:01 ecc CRON[4658]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 04:59:01 ecc CRON[4664]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:00:01 ecc CRON[4671]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:01:01 ecc CRON[4676]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:02:01 ecc CRON[4683]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:03:01 ecc CRON[4762]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:04:01 ecc CRON[4767]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:05:01 ecc CRON[4773]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:06:01 ecc CRON[4778]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:07:01 ecc CRON[4783]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:08:01 ecc CRON[4788]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:09:01 ecc CRON[4796]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+[2023/12/08, 2:54:56.294 PM] Dec  8 05:09:01 ecc CRON[4798]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:10:01 ecc CRON[4862]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:11:01 ecc CRON[4884]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:12:01 ecc CRON[4896]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:13:01 ecc CRON[4906]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:14:01 ecc CRON[4911]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:15:01 ecc CRON[4918]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:16:01 ecc CRON[4924]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:17:02 ecc CRON[4932]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:17:02 ecc CRON[4933]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:17:02 ecc CRON[4934]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:18:01 ecc CRON[4944]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:19:01 ecc CRON[4952]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:20:01 ecc CRON[4958]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:21:01 ecc CRON[4964]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.295 PM] Dec  8 05:22:01 ecc CRON[4969]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:23:01 ecc CRON[4974]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:24:01 ecc CRON[4979]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:25:01 ecc CRON[4984]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:26:01 ecc CRON[4990]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:27:01 ecc CRON[4995]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:28:01 ecc CRON[5000]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:29:01 ecc CRON[5013]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:30:01 ecc CRON[5029]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:31:01 ecc CRON[5035]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:32:01 ecc CRON[5043]: (sk2a03) CMD ( cat /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:39:01 ecc CRON[5118]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:45:01 ecc CRON[5235]: (sk2a03) CMD (/bin/bash /home/sk2a03/kad08.sh)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:49:59 ecc cron[5254]: (CRON) INFO (pidfile fd = 3)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:49:59 ecc cron[5254]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
+[2023/12/08, 2:54:56.296 PM] Dec  8 05:50:01 ecc CRON[5257]: (sk2a03) CMD (/bin/bash /home/sk2a03/kad08.sh >> /home/sk2a03/cron.log)
+[2023/12/08, 2:54:56.297 PM] sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sudo cat /var/log/syslog | grep CRON > > /rhome/sk2a03/cron_kad08.log
+[2023/12/08, 2:56:11.325 PM] sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ sk2a03@ecc:~$ dsudo scp /etc/cron.d/cron_kad08 /home/sk2a03/cron_kad08
+[2023/12/08, 2:56:55.133 PM] sk2a03@ecc:~$ sudo mv ps.kad08.txt sk2a03_ps.kdad08.txt
+[2023/12/08, 3:02:28.557 PM] sk2a03@ecc:~$ sudo mv ps.kad08.txt sk2a03_ps.kad08.txtsudo mv du_kad08.txt du_kad08.txt sk2a03_.
+[2023/12/08, 3:02:47.156 PM] sk2a03@ecc:~$ sudo mv cron_kad08 cron_kad08scron_kad08kcron_kad082cron_kad08acron_kad080cron_kad083cron_kad08_cron_kad08
+[2023/12/08, 3:03:07.620 PM] sk2a03@ecc:~$ sudo mv cron_kad08 sk2a03_cron_kad08sudo mv cron.log kad038.8.log _coron_kad08.log sk2a03_
+[2023/12/08, 3:04:03.890 PM] sk2a03@ecc:~$ 
