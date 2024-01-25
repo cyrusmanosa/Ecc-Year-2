@@ -1,0 +1,22 @@
+
+ip dhcp excluded-address 192.168.10.254
+ip dhcp excluded-address 192.168.20.254
+ip dhcp excluded-address 192.168.30.254
+ip dhcp excluded-address 192.168.40.254
+
+ip dhcp pool v10
+ network 192.168.10.0 255.255.255.0
+ default-router 192.168.10.254
+
+ip dhcp pool v20
+ network 192.168.20.0 255.255.255.0
+ default-router 192.168.20.254
+
+ip dhcp pool v30
+ network 192.168.30.0 255.255.255.0
+ default-router 192.168.30.254
+
+ip dhcp pool v40
+ network 192.168.40.0 255.255.255.0
+ default-router 192.168.40.254
+ 
