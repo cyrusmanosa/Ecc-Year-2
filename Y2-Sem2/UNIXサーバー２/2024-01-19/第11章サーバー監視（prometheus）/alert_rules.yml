@@ -1,0 +1,10 @@
+groups:
+- name: NodeCPU
+  rules:
+  - alert: NodeCPU
+    expr: avg without(cpu) (rate(node_cpu_seconds_total{ job="node",mode!="idle"}[1m])) >= 0.2
+    for: 5s
+    labels:
+      severity: __security__
+    annotations:
+      summary: 'Node cpu usage over 20%'
