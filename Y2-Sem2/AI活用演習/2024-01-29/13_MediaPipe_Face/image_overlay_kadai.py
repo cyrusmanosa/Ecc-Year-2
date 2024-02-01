@@ -37,36 +37,37 @@ try:
                 coords = lambda landmark_id: (int(face_landmarks.landmark[landmark_id].x * face_image.shape[1]), int(face_landmarks.landmark[landmark_id].y * face_image.shape[0]))
 
                 # 左目と右目のランドマーク インデックスを定義(左、上、右、下)
-                left_eye_indices = [33, 159, 163 , 145]
-                right_eye_indices = [398 , 388 , 476 , 374]
+                nose = coords(4)
+                left_eye = coords(33)
+                right_eye = coords(263)
 
                 # オーバーレイ画像の幅を調整
-                overlay_width = int(np.linalg.norm(np.array(right_eye_indices) - np.array(left_eye_indices)) / 10)
+                overlay_width = int(np.linalg.norm(np.array(right_eye) - np.array(left_eye)) / 2)
                 overlay_height = int(overlay_width * original_overlay_right.shape[0] / original_overlay_right.shape[1])
 
                 # それぞれのオーバーレイ画像をリサイズ
                 overlay_image_resized_r = cv2.resize(original_overlay_right, (overlay_width, overlay_height))
                 overlay_image_resized_l = cv2.resize(original_overlay_left, (overlay_width, overlay_height))
 
-            # アルファ（透明度）と色情報を抽出
-            overlay_alpha = overlay_image_resized_r[:, :, 3:] / 255.0 # アルファチャンネル（透明度）を抽出し、255で割って0から1の範囲に正規化
-            overlay_bgr = overlay_image_resized_r[:, :, :3]           # BGR色チャンネル（青、緑、赤）を抽出
+                # アルファ（透明度）と色情報を抽出
+                overlay_alpha = overlay_image_resized_r[:, :, 3:] / 255.0 # アルファチャンネル（透明度）を抽出し、255で割って0から1の範囲に正規化
+                overlay_bgr = overlay_image_resized_r[:, :, :3]           # BGR色チャンネル（青、緑、赤）を抽出
 
-            
-            # オーバーレイ画像の開始と終了座標を計算
-            l_start_x = max(coords(left_eye_indices[0])[0] - overlay_width // 12, 0)
-            l_start_y = max(coords(left_eye_indices[1])[1] - overlay_height // 2, 0)
-            l_end_x = min(l_start_x + overlay_width, face_image.shape[1])
-            l_end_y = min(l_start_y + overlay_height, face_image.shape[0])
-            
-            r_start_x = max(coords(right_eye_indices[0])[0] - overlay_width // 12, 0)
-            r_start_y = max(coords(right_eye_indices[1])[1] - overlay_height // 2, 0)
-            r_end_x = min(r_start_x + overlay_width, face_image.shape[1])
-            r_end_y = min(r_start_y + overlay_height, face_image.shape[0])
+                
+                # オーバーレイ画像の開始と終了座標を計算
+                l_start_x = max(left_eye[0] - overlay_width // 2, 0)
+                l_start_y = max(left_eye[1] - overlay_height // 2, 0)
+                l_end_x = min(l_start_x + overlay_width, face_image.shape[1])
+                l_end_y = min(l_start_y + overlay_height, face_image.shape[0])
+                
+                r_start_x = max(right_eye[0] - overlay_width // 2, 0)
+                r_start_y = max(right_eye[1] - overlay_height // 2, 0)
+                r_end_x = min(r_start_x + overlay_width, face_image.shape[1])
+                r_end_y = min(r_start_y + overlay_height, face_image.shape[0])
 
-            # オーバーレイ画像を元の画像上に合成
-            face_image[l_start_y:l_end_y, l_start_x:l_end_x] = (1.0 - overlay_alpha) * face_image[l_start_y:l_end_y, l_start_x:l_end_x] + overlay_alpha * overlay_bgr
-            face_image[r_start_y:r_end_y, r_start_x:r_end_x] = (1.0 - overlay_alpha) * face_image[r_start_y:r_end_y, r_start_x:r_end_x] + overlay_alpha * overlay_bgr
+                # オーバーレイ画像を元の画像上に合成
+                face_image[l_start_y:l_end_y, l_start_x:l_end_x] = (1.0 - overlay_alpha) * face_image[l_start_y:l_end_y, l_start_x:l_end_x] + overlay_alpha * overlay_bgr
+                face_image[r_start_y:r_end_y, r_start_x:r_end_x] = (1.0 - overlay_alpha) * face_image[r_start_y:r_end_y, r_start_x:r_end_x] + overlay_alpha * overlay_bgr
 
         # 画像を表示
         cv2.imshow('MediaPipe FaceMesh with Overlay', face_image)

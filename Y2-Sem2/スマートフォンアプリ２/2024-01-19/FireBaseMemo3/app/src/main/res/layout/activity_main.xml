@@ -30,4 +30,12 @@
         app:layout_constraintTop_toBottomOf="@+id/app_toolbar"
         app:navGraph="@navigation/nav_graph" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lnfo"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="10dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

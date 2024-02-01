@@ -50,5 +50,13 @@ class UserActivity : AppCompatActivity() {
                 }
         }
 
+        binding.button5.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            val myIntent = intent ;
+            myIntent.putExtra("userName", user)
+            myIntent.putExtra("email", email)
+            startActivity(intent)
+        }
+
     }
 }
