@@ -1,0 +1,58 @@
+.container {
+  padding: 0 5rem;
+  text-align: center;
+  font-family: Semi;
+  color: #504f4f;
+}
+.title {
+  font-size: 100%;
+  margin: 20px;
+}
+.hr {
+  border-width: 1px;
+  color: #504f4f;
+}
+.question {
+  padding: 30px 0 70px 0;
+  color: black;
+}
+.companybtn {
+  border: none;
+  width: 360px;
+  height: 50px;
+
+  background: rgba(250, 246, 165, 0.84);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.managementbtn {
+  border: none;
+  width: 361px;
+  height: 44px;
+  left: 0px;
+  top: 485px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.logoutbtn {
+  border: none;
+  width: 361px;
+  height: 44px;
+  left: 0px;
+  top: 485px;
+
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.hr2 {
+  border: none;
+  width: 360px;
+  height: 68px;
+  left: 0px;
+  top: 732px;
+
+  background: #86c7f5;
+}

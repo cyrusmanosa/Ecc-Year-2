@@ -1,0 +1,242 @@
+button {
+  cursor: pointer;
+}
+
+.history-section {
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-title {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 275px;
+  color: #212124;
+  font-size: 1.3rem;
+  background-color: #d2edfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-title img {
+  width: 485px;
+  height: 270px;
+  margin-top: 8%;
+}
+
+.profile-box {
+  position: relative;
+  margin-top: 50px;
+  max-width: 90%;
+  width: 1400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.pro-name {
+  margin-left: 50px;
+  position: relative;
+  text-align: center;
+}
+.pro-name #nameword {
+  font-size: 24px;
+  color: #444444;
+  font-weight: bold;
+}
+
+.information {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 50px 275px 100px 400px;
+  grid-template-rows: 50px 50px 100px;
+  gap: 5px;
+  width: 650px;
+}
+
+.explain-box {
+  width: 300px;
+}
+
+.profile h4,
+.explain-box h4 {
+  width: 100px;
+  height: 30px;
+  font-size: 19px;
+}
+.profile p,
+.explain-box p {
+  font-size: 20px;
+  width: 400px;
+  height: 100px;
+}
+.profile input,
+.explain-box input {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+}
+.profile textarea,
+.explain-box textarea {
+  width: 600px;
+  height: 80px;
+  resize: none;
+}
+
+.additional-information {
+  width: 380px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.additional-information p {
+  font-size: 20px;
+}
+
+.edit-information {
+  border: none;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #ccc;
+  background: #f1e767;
+  background: linear-gradient(to bottom, #fdfbfb 0%, #ebedee 100%);
+  box-shadow: inset 1px 1px 1px #fff;
+}
+
+.edit-information:hover {
+  background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
+}
+
+.history-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 90%;
+  width: 1400px;
+  border: 1px solid rgba(132, 132, 132, 0.2);
+}
+
+.txt-section {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(132, 132, 132, 0.2);
+}
+.txt-section button {
+  border-style: none;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 14px;
+}
+.txt-section .selected {
+  color: #ff6f0f;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.txt-section .not-selected {
+  color: #444444;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.img-section {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.deal-ing-item,
+.like-item {
+  height: 310px;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.deal-ing-item img,
+.like-item img {
+  width: 247px;
+  height: 176px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.deal-ing-item p,
+.like-item p {
+  margin: 0;
+  padding-left: 14px;
+}
+.deal-ing-item .prodcut-name,
+.like-item .prodcut-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+.deal-ing-item .content,
+.like-item .content {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+.deal-ing-item .date,
+.like-item .date {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 20px;
+  line-height: 2em;
+  padding-right: 14px;
+  position: relative;
+}
+.deal-ing-item .date::after,
+.like-item .date::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 225px;
+  height: 1px;
+  background-color: #ff6f0f;
+}
+
+.like-list {
+  display: none;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: #243040;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 30px;
+  text-align: center;
+  bottom: 0;
+}/*# sourceMappingURL=mypage.css.map */

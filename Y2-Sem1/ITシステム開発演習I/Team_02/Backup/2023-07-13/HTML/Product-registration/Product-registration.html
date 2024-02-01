@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Header_Scss/header.css" />
+    <link rel="stylesheet" href="../Category/CategoryCSS.css" />
+    <link rel="stylesheet" href="./Product-registration.css" />
+    <link
+      rel="stylesheet"
+      href="/Backupa/Team_02/HTML/Category/CategoryCSS.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="inner">
+          <div class="logo">AFI</div>
+          <div class="search-box">
+            <input type="search" placeholder="Search in " />
+            <button>検索</button>
+          </div>
+          <!-- ログインしたら, ログイン- => ログアウト -->
+          <!-- <div class="login"><a src="#">ログアウト</a></div> -->
+          <div class="login"><a src="#">ログイン</a></div>
+
+          <!-- ログインしたら, Sign-in => My-Page  -->
+          <!-- <div class="my-page"><a href="#">My-Page</a></div> -->
+          <div class="my-page"><a href="#">会員登録</a></div>
+        </div>
+      </header>
+
+      <div id="Bo">
+        <div class="title"><h1>商品登録</h1></div>
+
+        <div class="category">
+          <div><h2>カテゴリー</h2></div>
+          <div class="category-select">
+            <input type="radio" name="option" />
+            <label for="help">お手伝い</label>
+            <input type="radio" name="option" />
+            <label for="help">商品</label>
+          </div>
+          <div><p>カテゴリーを選んでください</p></div>
+        </div>
+        <div class="name">
+          <h2>名前</h2>
+          <p>商品を種類と特徴がはっきり分かるように書いてください</p>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="ex) ゴキブリ (X) -> ゴキブリ捕まえてくれる人"
+          />
+        </div>
+        <div class="price">
+          <h2>値段</h2>
+          <input type="text" class="form-input" placeholder="売る値段" />
+        </div>
+        <div class="location">
+          <h2>地域設定してください。</h2>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="待ち合わせ場所を入力してください。"
+          />
+        </div>
+        <div class="content">
+          <h2>詳細情報を入力してください。</h2>
+          <textarea name="" id=""></textarea>
+        </div>
+        <div class="img-section">
+          <div class="upload-container">
+            <img
+              class="upload-image"
+              id="uploaded-image"
+              src="placeholder.jpg"
+            />
+            <label for="photo-input" class="upload-label">
+              <img src="/img/camera.png" alt="" class="camera-img" />
+            </label>
+            <input type="file" id="photo-input" />
+          </div>
+        </div>
+        <div class="sub-button">
+          <button type="submit">登録する</button>
+        </div>
+      </div>
+      <footer>
+        <div class="inner">
+          <p>
+            このサイトはAFIによって作られ、みんなさんの安全対策及び、素早い安否登録を行えるため色んな情報を提供しています。
+            <em>© KURLY CORP. ALL RIGHTS RESERVED</em>
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <!-- Category Button -->
+    <a href="#cd-nav" class="cd-nav-trigger">
+      <span class="cd-nav-icon"></span>
+      <svg width="54px" height="54px" viewBox="0 0 54 54">
+        <circle
+          fill="transparent"
+          stroke="#656e79"
+          stroke-width="1"
+          cx="27"
+          cy="27"
+          r="25"
+          stroke-dasharray="157 157"
+          stroke-dashoffset="157"
+        ></circle>
+      </svg>
+    </a>
+    <!-- Category -->
+    <div id="cd-nav" class="cd-nav">
+      <div class="cd-navigation-wrapper">
+        <div class="cd-half-block">
+          <div class="centered">
+            <!-- Title -->
+            <h1 id="CategoryTitle">
+              カテゴリー
+              <hr />
+            </h1>
+            <!-- カテゴリー　１ -->
+            <a href="../Product_List/Product_List.html">
+              <div class="card border-left-behind">
+                <div
+                  class="shadow"
+                  style="--url: url('./img/A_BG.png')"
+                ></div>
+                <div
+                  class="image background"
+                  style="--url: url('./img/A_02.png')"
+                ></div>
+                <div
+                  class="image cutout"
+                  style="--url: url('./img/A_01.png')"
+                ></div>
+                <div class="content">
+                  <h2 id="Title">物資共有</h2>
+                  <p id="STitle">近く住んでいる方に手伝う</p>
+                </div>
+              </div>
+            </a>
+            <!-- カテゴリー　２ -->
+            <a href="../Product_List/Product_List.html">
+              <div class="card border-left-behind">
+                <div class="shadow" style="--url: url('./img/B_BG.png')"></div>
+                <div
+                  class="image background"
+                  style="--url: url('./img/B_02.png')"
+                ></div>
+                <div
+                  class="image cutout"
+                  style="--url: url('./img/B_01.png')"
+                ></div>
+                <div class="content">
+                  <h2 id="Title">お手伝い</h2>
+                  <p id="STitle">自分からできないこと</p>
+                </div>
+              </div>
+            </a>
+            <!-- カテゴリー　３ -->
+            <a href="../Product_List/Product_List.html">
+              <div class="card border-left-behind">
+                <div
+                  class="shadow"
+                  style="--url: url('./img/C_BG.png')"
+                ></div>
+                <div
+                  class="image background"
+                  style="--url: url('./img/C_02.png')"
+                ></div>
+                <div
+                  class="image cutout"
+                  style="--url: url('./img/C_01.png')"
+                ></div>
+                <div class="content">
+                  <h2 id="Title">記事</h2>
+                  <p id="STitle">新しいお知らせの情報</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="../Product-registration/Product-registration.js"
+      defer
+    ></script>
+    <script src="../Category/Category.js"></script>
+  </body>
+</html>
