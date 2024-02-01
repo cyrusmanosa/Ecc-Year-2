@@ -1,0 +1,5 @@
+tls_server_config:
+  cert_file: server.pem
+  key_file: server.key
+basic_auth_users:
+  sk2a03: $2y$05$9RJG0O1kVqK3eTap6kL6oecueuG5TaNmk0OoRBhmCYO8Oa2i7aec6
