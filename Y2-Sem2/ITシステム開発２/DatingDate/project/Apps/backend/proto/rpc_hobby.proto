@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package pb;
+
+import "hobby.proto";
+
+option go_package = "Backend/pb";
+
+// Create
+message CreateHobbyRequest {
+    string SessionID = 1; 
+    int32 Era = 2;
+    repeated string City = 3;
+    string Gender = 4;
+    repeated string Speaklanguage = 5;
+    string FindType = 6;
+    int32 Experience = 7;
+}
+message CreateHobbyResponse {
+    Hobby h = 1;
+}
+
+// Get
+message GetHobbyRequest {
+    string SessionID = 1; 
+}
+message GetHobbyResponse {
+    Hobby h = 1;
+}
+
+// Update
+message UpdateHobbyRequest {
+    string SessionID = 1; 
+    int32 Era = 2;
+    repeated string City = 3;
+    string Gender = 4;
+    repeated string Speaklanguage = 5;
+    string FindType = 6;
+    int32 Experience = 7;
+}
+message UpdateHobbyResponse {
+    Hobby h = 1;
+}
+
+// Delete
+message DeleteHobbyRequest {
+    string SessionID = 1; 
+}
