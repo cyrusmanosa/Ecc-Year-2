@@ -1,5 +1,6 @@
 const int swPin = 17;
 int count = 1;
+bool flag = false;
 bool lastState = false;
 
 void setup() {
@@ -9,7 +10,6 @@ void setup() {
 
 void loop() {
   bool currentState = digitalRead(swPin);
-  
   if (currentState == true && lastState == false) {
     delay(50);
     currentState = digitalRead(swPin);
@@ -17,6 +17,7 @@ void loop() {
     if (currentState == true) {
       Serial.println(count);
       count++;
+      flag = true;
     }
   }
 
