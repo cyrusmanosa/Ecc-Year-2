@@ -1,0 +1,73 @@
+
+
+.container {
+  text-align: center;
+  font-family: "Inter";
+}
+
+.title {
+  border-bottom: solid 1.5px;
+  font-size: 34px;
+}
+
+.text {
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.inputform {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputform label{
+  font-size: 20px;
+}
+
+.inputText {
+  padding: 14px 50px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.LoginSub {
+  text-align: center;
+  background-color: #f46780;
+  font-size: 16px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.LoginSub:hover,
+.LoginSub:active {
+  background: #d65b72;
+  text-align: center;
+}
+.img {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.hr {
+  border: none;
+  height: 170px;
+  background: #86c7f5;
+}
+
+.Cen{
+  margin-top: 30px;
+}
