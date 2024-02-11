@@ -34,8 +34,9 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
         android:text="lnfo"
-        tools:layout_editor_absoluteX="293dp"
+        app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="10dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
